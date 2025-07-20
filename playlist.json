@@ -38,566 +38,566 @@
           ]
         },
         {
-    "Title": "HBO Family Asia",
-    "SubCategory": "Movies",
-    "Country": "🌐 Asia",
-    "Description": "HBO Family Asia is a pay television network that features family-friendly movies.",
-    "Poster": "https://i.imgur.com/5krGyOX.png",
-    "Thumbnail": "https://i.imgur.com/5krGyOX.png",
-    "Rating": 0,
-    "Duration": "",
-    "Year": null,
-    "Servers": [
-      {
-        "name": "HD",
-        "url": "https://qp-pldt-live-grp-03-prod.akamaized.net/out/u/cg_hbofam.mpd"
-      }
-    ]
-  },
-  {
-    "Title": "One Sport+",
-    "SubCategory": "Sports",
-    "Country": "🇵🇭 Philippines",
-    "Description": "One Sports+ is a Filipino pay television channel.",
-    "Poster": "https://i.imgur.com/cb9Hp32.png",
-    "Thumbnail": "https://i.imgur.com/cb9Hp32.png",
-    "Rating": 0,
-    "Duration": "",
-    "Year": null,
-    "Servers": [
-      {
-        "name": "HD",
-        "url": "https://qp-pldt-live-grp-03-prod.akamaized.net/out/u/cg_onesportsplus_hd1.mpd"
-      }
-    ]
-  },
-  {
-    "Title": "PBA Rush",
-    "SubCategory": "Sports",
-    "Country": "🇵🇭 Philippines",
-    "Description": "PBA Rush is a 24/7 channel which has been dedicated to broadcast the PBA Games.",
-    "Poster": "https://i.imgur.com/FmvPl3U.png",
-    "Thumbnail": "https://i.imgur.com/FmvPl3U.png",
-    "Rating": 0,
-    "Duration": "",
-    "Year": null,
-    "Servers": [
-      {
-        "name": "HD",
-        "url": "https://qp-pldt-live-grp-01-prod.akamaized.net/out/u/cg_pbarush_hd1.mpd"
-      }
-    ]
-  },
-  {
-    "Title": "NBA TV Philippines",
-    "SubCategory": "Sports",
-    "Country": "🇵🇭 Philippines",
-    "Description": "NBA TV Philippines is a Filipino pay television channel that is dedicated to basketball.",
-    "Poster": "https://i.imgur.com/zC6ul0L.png",
-    "Thumbnail": "https://i.imgur.com/zC6ul0L.png",
-    "Rating": 0,
-    "Duration": "",
-    "Year": null,
-    "Servers": [
-      {
-        "name": "SD",
-        "url": "https://qp-pldt-live-grp-02-prod.akamaized.net/out/u/nba_sdi.mpd"
-      }
-    ]
-  },
-  {
-    "Title": "Premier Sports",
-    "SubCategory": "Sports",
-    "Country": "🌐 International",
-    "Description": "Premier Sports is a British pay television sports channel.",
-    "Poster": "https://i.imgur.com/iTZsuwE.png",
-    "Thumbnail": "https://i.imgur.com/iTZsuwE.png",
-    "Rating": 0,
-    "Duration": "",
-    "Year": null,
-    "Servers": [
-      {
-        "name": "HD",
-        "url": "https://qp-pldt-live-grp-13-prod.akamaized.net/out/u/dr_premiertennishd.mpd"
-      }
-    ]
-  },
-  {
-    "Title": "SPOTV",
-    "SubCategory": "Sports",
-    "Country": "🌐 Asia",
-    "Description": "SPOTV is a South Korean pay television network that features sports programming.",
-    "Poster": "https://i.imgur.com/odMlNlu.png",
-    "Thumbnail": "https://i.imgur.com/odMlNlu.png",
-    "Rating": 0,
-    "Duration": "",
-    "Year": null,
-    "Servers": [
-      {
-        "name": "HD",
-        "url": "https://qp-pldt-live-grp-11-prod.akamaized.net/out/u/dr_spotvhd.mpd"
-      }
-    ]
-  },
-  {
-    "Title": "Football TV",
-    "SubCategory": "Sports",
-    "Country": "🌐 International",
-    "Description": "A TV channel dedicated to football.",
-    "Poster": "https://images.deepai.org/art-image/0f3456df03504154b9c4c9e2bbbe0bf6/football-logo-6e9e48.jpg",
-    "Thumbnail": "https://images.deepai.org/art-image/0f3456df03504154b9c4c9e2bbbe0bf6/football-logo-6e9e48.jpg",
-    "Rating": 0,
-    "Duration": "",
-    "Year": null,
-    "Servers": [
-      {
-        "name": "HD",
-        "url": "https://live20.bozztv.com/trn03/gin-ssfootball/index.m3u8"
-      }
-    ]
-  },
-  {
-    "Title": "Cartoonito Asia",
-    "SubCategory": "Animation",
-    "Country": "🌐 Asia",
-    "Description": "Cartoonito is a pay television channel that features programming for preschoolers.",
-    "Poster": "https://i.imgur.com/oTAZpMX.png",
-    "Thumbnail": "https://i.imgur.com/oTAZpMX.png",
-    "Rating": 0,
-    "Duration": "",
-    "Year": null,
-    "Servers": [
-      {
-        "name": "HD",
-        "url": "https://streaming.indihometv.com/atm/DASH/boomerang/manifest.mpd"
-      }
-    ]
-  },
-  {
-    "Title": "Cartoon Network Asia",
-    "SubCategory": "Animation",
-    "Country": "🌐 Asia",
-    "Description": "Cartoon Network is a pay television channel that features animated programming.",
-    "Poster": "https://i.imgur.com/NA0v02i.png",
-    "Thumbnail": "https://i.imgur.com/NA0v02i.png",
-    "Rating": 0,
-    "Duration": "",
-    "Year": null,
-    "Servers": [
-      {
-        "name": "HD",
-        "url": "https://qp-pldt-live-grp-12-prod.akamaized.net/out/u/dr_cartoonnetworkhd.mpd"
-      }
-    ]
-  },
-  {
-    "Title": "Animax Asia",
-    "SubCategory": "Animation",
-    "Country": "🌐 Asia",
-    "Description": "Animax is a pay television channel that features Japanese anime.",
-    "Poster": "https://i.imgur.com/60ltJNZ.png",
-    "Thumbnail": "https://i.imgur.com/60ltJNZ.png",
-    "Rating": 0,
-    "Duration": "",
-    "Year": null,
-    "Servers": [
-      {
-        "name": "SD",
-        "url": "https://qp-pldt-live-grp-07-prod.akamaized.net/out/u/cg_animax_sd_new.mpd"
-      }
-    ]
-  },
-  {
-    "Title": "Mr. Bean",
-    "SubCategory": "Comedy",
-    "Country": "🇬🇧 United Kingdom",
-    "Description": "Mr. Bean is a British sitcom created by Rowan Atkinson and Richard Curtis.",
-    "Poster": "https://images.deepai.org/art-image/9adc6f1f1c524b8ea3b09b31284dffef/mr-bean-cartoon-with-text-logo-355a93.jpg",
-    "Thumbnail": "https://images.deepai.org/art-image/9adc6f1f1c524b8ea3b09b31284dffef/mr-bean-cartoon-with-text-logo-355a93.jpg",
-    "Rating": 0,
-    "Duration": "",
-    "Year": null,
-    "Servers": [
-      {
-        "name": "HD",
-        "url": "https://amg00627-amg00627c30-rakuten-es-3990.playouts.now.amagi.tv/playlist/amg00627-banijayfast-mrbeanescc-rakutenes/playlist.m3u8"
-      }
-    ]
-  },
-  {
-    "Title": "Cartoon Classic",
-    "SubCategory": "Animation",
-    "Country": "🌐 International",
-    "Description": "A channel dedicated to classic cartoons.",
-    "Poster": "https://images.deepai.org/art-image/bb6cec15a5cb4b8589835904396b3eff/cartoon-classic-logo-8472ab.jpg",
-    "Thumbnail": "https://images.deepai.org/art-image/bb6cec15a5cb4b8589835904396b3eff/cartoon-classic-logo-8472ab.jpg",
-    "Rating": 0,
-    "Duration": "",
-    "Year": null,
-    "Servers": [
-      {
-        "name": "HD",
-        "url": "https://streams2.sofast.tv/v1/master/611d79b11b77e2f571934fd80ca1413453772ac7/d5543c06-5122-49a7-9662-32187f48aa2c/manifest.m3u8"
-      }
-    ]
-  },
-  {
-    "Title": "Moonbug Kids",
-    "SubCategory": "Animation",
-    "Country": "🌐 International",
-    "Description": "Moonbug Kids is a channel for kids.",
-    "Poster": "https://i.imgur.com/vUpIbVN.png",
-    "Thumbnail": "https://i.imgur.com/vUpIbVN.png",
-    "Rating": 0,
-    "Duration": "",
-    "Year": null,
-    "Servers": [
-      {
-        "name": "SD",
-        "url": "https://qp-pldt-live-grp-06-prod.akamaized.net/out/u/cg_moonbug_kids_sd.mpd"
-      }
-    ]
-  },
-  {
-    "Title": "Asian Food Network",
-    "SubCategory": "Lifestyle",
-    "Country": "🌐 Asia",
-    "Description": "Asian Food Network is a pay television channel that features food and dining programming.",
-    "Poster": "https://i.imgur.com/0CRk7Nf.png",
-    "Thumbnail": "https://i.imgur.com/0CRk7Nf.png",
-    "Rating": 0,
-    "Duration": "",
-    "Year": null,
-    "Servers": [
-      {
-        "name": "SD",
-        "url": "https://qp-pldt-live-grp-07-prod.akamaized.net/out/u/asianfoodnetwork_sd.mpd"
-      }
-    ]
-  },
-  {
-    "Title": "Animal Planet Asia",
-    "SubCategory": "Documentary",
-    "Country": "🌐 Asia",
-    "Description": "Animal Planet is a pay television channel that features programming about animals.",
-    "Poster": "https://i.imgur.com/3UMiEgD.png",
-    "Thumbnail": "https://i.imgur.com/3UMiEgD.png",
-    "Rating": 0,
-    "Duration": "",
-    "Year": null,
-    "Servers": [
-      {
-        "name": "SD",
-        "url": "https://qp-pldt-live-grp-02-prod.akamaized.net/out/u/cg_animal_planet_sd.mpd"
-      }
-    ]
-  },
-  {
-    "Title": "History Asia",
-    "SubCategory": "Documentary",
-    "Country": "🌐 Asia",
-    "Description": "History is a pay television channel that features historical programming.",
-    "Poster": "https://i.imgur.com/9zVyTXV.png",
-    "Thumbnail": "https://i.imgur.com/9zVyTXV.png",
-    "Rating": 0,
-    "Duration": "",
-    "Year": null,
-    "Servers": [
-      {
-        "name": "HD",
-        "url": "https://qp-pldt-live-grp-11-prod.akamaized.net/out/u/dr_historyhd.mpd"
-      }
-    ]
-  },
-  {
-    "Title": "Discovery Asia",
-    "SubCategory": "Documentary",
-    "Country": "🌐 Asia",
-    "Description": "Discovery Channel is a pay television channel that features documentary programming.",
-    "Poster": "https://i.imgur.com/SbiPKql.png",
-    "Thumbnail": "https://i.imgur.com/SbiPKql.png",
-    "Rating": 0,
-    "Duration": "",
-    "Year": null,
-    "Servers": [
-      {
-        "name": "HD",
-        "url": "https://qp-pldt-live-grp-12-prod.akamaized.net/out/u/dr_discoveryasia.mpd"
-      }
-    ]
-  },
-  {
-    "Title": "Knowledge Channel",
-    "SubCategory": "Educational",
-    "Country": "🇵🇭 Philippines",
-    "Description": "Knowledge Channel is a Filipino pay television channel that features educational programming.",
-    "Poster": "https://i.imgur.com/tLUSj5p.png",
-    "Thumbnail": "https://i.imgur.com/tLUSj5p.png",
-    "Rating": 0,
-    "Duration": "",
-    "Year": null,
-    "Servers": [
-      {
-        "name": "HD",
-        "url": "https://abslive.akamaized.net/dash/live/2028189/kc/manifest.mpd"
-      }
-    ]
-  },
-  {
-    "Title": "Trvl Channel",
-    "SubCategory": "Lifestyle",
-    "Country": "🌐 International",
-    "Description": "Travel Channel is a pay television channel that features travel programming.",
-    "Poster": "https://i.imgur.com/GfqMnG6.png",
-    "Thumbnail": "https://i.imgur.com/GfqMnG6.png",
-    "Rating": 0,
-    "Duration": "",
-    "Year": null,
-    "Servers": [
-      {
-        "name": "SD",
-        "url": "https://qp-pldt-live-grp-08-prod.akamaized.net/out/u/travel_channel_sd.mpd"
-      }
-    ]
-  },
-  {
-    "Title": "HITS Now",
-    "SubCategory": "Entertainment",
-    "Country": "🌐 Asia",
-    "Description": "HITS Now is a Southeast Asian pay television channel that features a variety of programs from the U.S.",
-    "Poster": "https://i.imgur.com/FV3NTrr.png",
-    "Thumbnail": "https://i.imgur.com/FV3NTrr.png",
-    "Rating": 0,
-    "Duration": "",
-    "Year": null,
-    "Servers": [
-      {
-        "name": "HD",
-        "url": "https://qp-pldt-live-grp-09-prod.akamaized.net/out/u/cg_hitsnow.mpd"
-      }
-    ]
-  },
-  {
-    "Title": "Food Network Asia",
-    "SubCategory": "Lifestyle",
-    "Country": "🌐 Asia",
-    "Description": "Food Network is a pay television channel that features food and dining programming.",
-    "Poster": "https://i.imgur.com/Gwd2TNB.png",
-    "Thumbnail": "https://i.imgur.com/Gwd2TNB.png",
-    "Rating": 0,
-    "Duration": "",
-    "Year": null,
-    "Servers": [
-      {
-        "name": "HD",
-        "url": "https://qp-pldt-live-grp-09-prod.akamaized.net/out/u/cg_foodnetwork_hd1.mpd"
-      }
-    ]
-  },
-  {
-    "Title": "TLC Asia",
-    "SubCategory": "Lifestyle",
-    "Country": "🌐 Asia",
-    "Description": "TLC is a pay television channel that features lifestyle programming.",
-    "Poster": "https://i.imgur.com/xvpDd5F.png",
-    "Thumbnail": "https://i.imgur.com/xvpDd5F.png",
-    "Rating": 0,
-    "Duration": "",
-    "Year": null,
-    "Servers": [
-      {
-        "name": "SD",
-        "url": "https://qp-pldt-live-grp-08-prod.akamaized.net/out/u/tlc_sd.mpd"
-      }
-    ]
-  },
-  {
-    "Title": "AXN Asia",
-    "SubCategory": "Entertainment",
-    "Country": "🌐 Asia",
-    "Description": "AXN is a pay television channel that features action-packed entertainment.",
-    "Poster": "https://i.imgur.com/Y9vnT7K.png",
-    "Thumbnail": "https://i.imgur.com/Y9vnT7K.png",
-    "Rating": 0,
-    "Duration": "",
-    "Year": null,
-    "Servers": [
-      {
-        "name": "SD",
-        "url": "https://qp-pldt-live-grp-06-prod.akamaized.net/out/u/cg_axn_sd.mpd"
-      }
-    ]
-  },
-  {
-    "Title": "Channel News Asia",
-    "SubCategory": "News",
-    "Country": "🇸🇬 Singapore",
-    "Description": "CNA is a Singaporean pay television news channel.",
-    "Poster": "https://i.imgur.com/CbsDpEd.png",
-    "Thumbnail": "https://i.imgur.com/CbsDpEd.png",
-    "Rating": 0,
-    "Duration": "",
-    "Year": null,
-    "Servers": [
-      {
-        "name": "HD",
-        "url": "https://qp-pldt-live-grp-13-prod.akamaized.net/out/u/dr_channelnewsasia.mpd"
-      }
-    ]
-  },
-  {
-    "Title": "BBC News SD",
-    "SubCategory": "News",
-    "Country": "🇬🇧 United Kingdom",
-    "Description": "BBC News is a British pay television news channel.",
-    "Poster": "https://i.imgur.com/gJ8Rxr4.png",
-    "Thumbnail": "https://i.imgur.com/gJ8Rxr4.png",
-    "Rating": 0,
-    "Duration": "",
-    "Year": null,
-    "Servers": [
-      {
-        "name": "SD",
-        "url": "https://qp-pldt-live-grp-04-prod.akamaized.net/out/u/bbcworld_news_sd.mpd"
-      }
-    ]
-  },
-  {
-    "Title": "Uaap Varsity Channel",
-    "SubCategory": "Sports",
-    "Country": "🇵🇭 Philippines",
-    "Description": "The UAAP Varsity Channel is a Filipino pay television channel.",
-    "Poster": "https://i.imgur.com/4YPSDQg.png",
-    "Thumbnail": "https://i.imgur.com/4YPSDQg.png",
-    "Rating": 0,
-    "Duration": "",
-    "Year": null,
-    "Servers": [
-      {
-        "name": "SD",
-        "url": "https://qp-pldt-live-grp-04-prod.akamaized.net/out/u/cg_uaap_cplay_sd.mpd"
-      }
-    ]
-  },
-  {
-    "Title": "CCTN 47",
-    "SubCategory": "Entertainment",
-    "Country": "🇵🇭 Philippines",
-    "Description": "CCTN stands for Cebu Catholic Television Network.",
-    "Poster": "https://i.imgur.com/nV9QXh5.png",
-    "Thumbnail": "https://i.imgur.com/nV9QXh5.png",
-    "Rating": 0,
-    "Duration": "",
-    "Year": null,
-    "Servers": [
-      {
-        "name": "HD",
-        "url": "http://122.55.252.134:8443/live/bba5b536faeacb9b56a3239f1ee8e3b3/1.m3u8"
-      }
-    ]
-  },
-  {
-    "Title": "CLTV 36",
-    "SubCategory": "Entertainment",
-    "Country": "🇵🇭 Philippines",
-    "Description": "CLTV36 is a regional television station in Central Luzon.",
-    "Poster": "https://i.imgur.com/bJe76EA.png",
-    "Thumbnail": "https://i.imgur.com/bJe76EA.png",
-    "Rating": 0,
-    "Duration": "",
-    "Year": null,
-    "Servers": [
-      {
-        "name": "HD",
-        "url": "https://live.cltv36.tv:5443/LiveApp/streams/cltvlive.m3u8"
-      }
-    ]
-  },
-  {
-    "Title": "INC TV",
-    "SubCategory": "Religious",
-    "Country": "🇵🇭 Philippines",
-    "Description": "INC TV is the official television station of the Iglesia ni Cristo.",
-    "Poster": "https://i.imgur.com/O4mv3Bu.png",
-    "Thumbnail": "https://i.imgur.com/O4mv3Bu.png",
-    "Rating": 0,
-    "Duration": "",
-    "Year": null,
-    "Servers": [
-      {
-        "name": "HD",
-        "url": "https://199211.global.ssl.fastly.net/643cc12aa824db4374021c8c/live_95f6ac80dd6511ed9d08b12be56ae55e/index.m3u8"
-      }
-    ]
-  },
-  {
-    "Title": "Mindanow Network TV",
-    "SubCategory": "Entertainment",
-    "Country": "🇵🇭 Philippines",
-    "Description": "Mindanow TV is a regional television station in Mindanao.",
-    "Poster": "https://i.imgur.com/xBlYirh.jpeg",
-    "Thumbnail": "https://i.imgur.com/xBlYirh.jpeg",
-    "Rating": 0,
-    "Duration": "",
-    "Year": null,
-    "Servers": [
-      {
-        "name": "HD",
-        "url": "https://streams1.comclark.com/overlay/mindanow/playlist.m3u8"
-      }
-    ]
-  },
-  {
-    "Title": "ANC HD",
-    "SubCategory": "News",
-    "Country": "🇵🇭 Philippines",
-    "Description": "The ABS-CBN News Channel, commonly known as ANC, is a 24/7 Philippine pay television news channel.",
-    "Poster": "https://i.imgur.com/6l5x8Tx.png",
-    "Thumbnail": "https://i.imgur.com/6l5x8Tx.png",
-    "Rating": 0,
-    "Duration": "",
-    "Year": null,
-    "Servers": [
-      {
-        "name": "HD",
-        "url": "https://d3cjss68xc4sia.cloudfront.net/out/v1/89ea8db23cb24a91bfa5d0795f8d759e/index.mpd"
-      }
-    ]
-  },
-  {
-    "Title": "Fox5",
-    "SubCategory": "News",
-    "Country": "🇺🇸 United States",
-    "Description": "Fox 5 is a Fox owned-and-operated television station licensed to New York City.",
-    "Poster": "https://th.bing.com/th/id/R.da0efd0a8ae25cc3ed689c0b82f00948?rik=93YX0cls8nM62A&riu=http%3a%2f%2fvebaresourcecenter.com%2fwp-content%2fuploads%2f2021%2f02%2fFox-5.png&ehk=3cscegNe6kvhaAcpuOcaGPc9qXfPNTGNPpzce1K%2bGoI%3d&risl=&pid=ImgRaw&r=0&sres=1&sresct=1",
-    "Thumbnail": "https://th.bing.com/th/id/R.da0efd0a8ae25cc3ed689c0b82f00948?rik=93YX0cls8nM62A&riu=http%3a%2f%2fvebaresourcecenter.com%2fwp-content%2fuploads%2f2021%2f02%2fFox-5.png&ehk=3cscegNe6kvhaAcpuOcaGPc9qXfPNTGNPpzce1K%2bGoI%3d&risl=&pid=ImgRaw&r=0&sres=1&sresct=1",
-    "Rating": 0,
-    "Duration": "",
-    "Year": null,
-    "Servers": [
-      {
-        "name": "HD",
-        "url": "https://live20.bozztv.com/dvrfl05/gin-fox5/index.m3u8"
-      }
-    ]
-  },
-  {
-    "Title": "PHTV",
-    "SubCategory": "Entertainment",
-    "Country": "🇵🇭 Philippines",
-    "Description": "PHTV is a Filipino television station.",
-    "Poster": "https://yt3.ggpht.com/a/AATXAJyBhvv8T9RzinRRiGuWjkg-S4Qlse33y3pWiA=s900-c-k-c0xffffffff-no-rj-mo",
-    "Thumbnail": "https://yt3.ggpht.com/a/AATXAJyBhvv8T9RzinRRiGuWjkg-S4Qlse33y3pWiA=s900-c-k-c0xffffffff-no-rj-mo",
-    "Rating": 0,
-    "Duration": "",
-    "Year": null,
-    "Servers": [
-      {
-        "name": "HD",
-        "url": "https://live20.bozztv.com/giatvplayout7/giatv-209998/tracks-v1a1/mono.m3u8"
-      }
-    ]
-  },
+          "Title": "HBO Family Asia",
+          "SubCategory": "Movies",
+          "Country": "🌐 Asia",
+          "Description": "HBO Family Asia is a pay television network that features family-friendly movies.",
+          "Poster": "https://i.imgur.com/5krGyOX.png",
+          "Thumbnail": "https://i.imgur.com/5krGyOX.png",
+          "Rating": 0,
+          "Duration": "",
+          "Year": null,
+          "Servers": [
+            {
+              "name": "HD",
+              "url": "https://qp-pldt-live-grp-03-prod.akamaized.net/out/u/cg_hbofam.mpd"
+            }
+          ]
+        },
+        {
+          "Title": "One Sport+",
+          "SubCategory": "Sports",
+          "Country": "🇵🇭 Philippines",
+          "Description": "One Sports+ is a Filipino pay television channel.",
+          "Poster": "https://i.imgur.com/cb9Hp32.png",
+          "Thumbnail": "https://i.imgur.com/cb9Hp32.png",
+          "Rating": 0,
+          "Duration": "",
+          "Year": null,
+          "Servers": [
+            {
+              "name": "HD",
+              "url": "https://qp-pldt-live-grp-03-prod.akamaized.net/out/u/cg_onesportsplus_hd1.mpd"
+            }
+          ]
+        },
+        {
+          "Title": "PBA Rush",
+          "SubCategory": "Sports",
+          "Country": "🇵🇭 Philippines",
+          "Description": "PBA Rush is a 24/7 channel which has been dedicated to broadcast the PBA Games.",
+          "Poster": "https://i.imgur.com/FmvPl3U.png",
+          "Thumbnail": "https://i.imgur.com/FmvPl3U.png",
+          "Rating": 0,
+          "Duration": "",
+          "Year": null,
+          "Servers": [
+            {
+              "name": "HD",
+              "url": "https://qp-pldt-live-grp-01-prod.akamaized.net/out/u/cg_pbarush_hd1.mpd"
+            }
+          ]
+        },
+        {
+          "Title": "NBA TV Philippines",
+          "SubCategory": "Sports",
+          "Country": "🇵🇭 Philippines",
+          "Description": "NBA TV Philippines is a Filipino pay television channel that is dedicated to basketball.",
+          "Poster": "https://i.imgur.com/zC6ul0L.png",
+          "Thumbnail": "https://i.imgur.com/zC6ul0L.png",
+          "Rating": 0,
+          "Duration": "",
+          "Year": null,
+          "Servers": [
+            {
+              "name": "SD",
+              "url": "https://qp-pldt-live-grp-02-prod.akamaized.net/out/u/nba_sdi.mpd"
+            }
+          ]
+        },
+        {
+          "Title": "Premier Sports",
+          "SubCategory": "Sports",
+          "Country": "🌐 International",
+          "Description": "Premier Sports is a British pay television sports channel.",
+          "Poster": "https://i.imgur.com/iTZsuwE.png",
+          "Thumbnail": "https://i.imgur.com/iTZsuwE.png",
+          "Rating": 0,
+          "Duration": "",
+          "Year": null,
+          "Servers": [
+            {
+              "name": "HD",
+              "url": "https://qp-pldt-live-grp-13-prod.akamaized.net/out/u/dr_premiertennishd.mpd"
+            }
+          ]
+        },
+        {
+          "Title": "SPOTV",
+          "SubCategory": "Sports",
+          "Country": "🌐 Asia",
+          "Description": "SPOTV is a South Korean pay television network that features sports programming.",
+          "Poster": "https://i.imgur.com/odMlNlu.png",
+          "Thumbnail": "https://i.imgur.com/odMlNlu.png",
+          "Rating": 0,
+          "Duration": "",
+          "Year": null,
+          "Servers": [
+            {
+              "name": "HD",
+              "url": "https://qp-pldt-live-grp-11-prod.akamaized.net/out/u/dr_spotvhd.mpd"
+            }
+          ]
+        },
+        {
+          "Title": "Football TV",
+          "SubCategory": "Sports",
+          "Country": "🌐 International",
+          "Description": "A TV channel dedicated to football.",
+          "Poster": "https://images.deepai.org/art-image/0f3456df03504154b9c4c9e2bbbe0bf6/football-logo-6e9e48.jpg",
+          "Thumbnail": "https://images.deepai.org/art-image/0f3456df03504154b9c4c9e2bbbe0bf6/football-logo-6e9e48.jpg",
+          "Rating": 0,
+          "Duration": "",
+          "Year": null,
+          "Servers": [
+            {
+              "name": "HD",
+              "url": "https://live20.bozztv.com/trn03/gin-ssfootball/index.m3u8"
+            }
+          ]
+        },
+        {
+          "Title": "Cartoonito Asia",
+          "SubCategory": "Animation",
+          "Country": "🌐 Asia",
+          "Description": "Cartoonito is a pay television channel that features programming for preschoolers.",
+          "Poster": "https://i.imgur.com/oTAZpMX.png",
+          "Thumbnail": "https://i.imgur.com/oTAZpMX.png",
+          "Rating": 0,
+          "Duration": "",
+          "Year": null,
+          "Servers": [
+            {
+              "name": "HD",
+              "url": "https://streaming.indihometv.com/atm/DASH/boomerang/manifest.mpd"
+            }
+          ]
+        },
+        {
+          "Title": "Cartoon Network Asia",
+          "SubCategory": "Animation",
+          "Country": "🌐 Asia",
+          "Description": "Cartoon Network is a pay television channel that features animated programming.",
+          "Poster": "https://i.imgur.com/NA0v02i.png",
+          "Thumbnail": "https://i.imgur.com/NA0v02i.png",
+          "Rating": 0,
+          "Duration": "",
+          "Year": null,
+          "Servers": [
+            {
+              "name": "HD",
+              "url": "https://qp-pldt-live-grp-12-prod.akamaized.net/out/u/dr_cartoonnetworkhd.mpd"
+            }
+          ]
+        },
+        {
+          "Title": "Animax Asia",
+          "SubCategory": "Animation",
+          "Country": "🌐 Asia",
+          "Description": "Animax is a pay television channel that features Japanese anime.",
+          "Poster": "https://i.imgur.com/60ltJNZ.png",
+          "Thumbnail": "https://i.imgur.com/60ltJNZ.png",
+          "Rating": 0,
+          "Duration": "",
+          "Year": null,
+          "Servers": [
+            {
+              "name": "SD",
+              "url": "https://qp-pldt-live-grp-07-prod.akamaized.net/out/u/cg_animax_sd_new.mpd"
+            }
+          ]
+        },
+        {
+          "Title": "Mr. Bean",
+          "SubCategory": "Comedy",
+          "Country": "🇬🇧 United Kingdom",
+          "Description": "Mr. Bean is a British sitcom created by Rowan Atkinson and Richard Curtis.",
+          "Poster": "https://images.deepai.org/art-image/9adc6f1f1c524b8ea3b09b31284dffef/mr-bean-cartoon-with-text-logo-355a93.jpg",
+          "Thumbnail": "https://images.deepai.org/art-image/9adc6f1f1c524b8ea3b09b31284dffef/mr-bean-cartoon-with-text-logo-355a93.jpg",
+          "Rating": 0,
+          "Duration": "",
+          "Year": null,
+          "Servers": [
+            {
+              "name": "HD",
+              "url": "https://amg00627-amg00627c30-rakuten-es-3990.playouts.now.amagi.tv/playlist/amg00627-banijayfast-mrbeanescc-rakutenes/playlist.m3u8"
+            }
+          ]
+        },
+        {
+          "Title": "Cartoon Classic",
+          "SubCategory": "Animation",
+          "Country": "🌐 International",
+          "Description": "A channel dedicated to classic cartoons.",
+          "Poster": "https://images.deepai.org/art-image/bb6cec15a5cb4b8589835904396b3eff/cartoon-classic-logo-8472ab.jpg",
+          "Thumbnail": "https://images.deepai.org/art-image/bb6cec15a5cb4b8589835904396b3eff/cartoon-classic-logo-8472ab.jpg",
+          "Rating": 0,
+          "Duration": "",
+          "Year": null,
+          "Servers": [
+            {
+              "name": "HD",
+              "url": "https://streams2.sofast.tv/v1/master/611d79b11b77e2f571934fd80ca1413453772ac7/d5543c06-5122-49a7-9662-32187f48aa2c/manifest.m3u8"
+            }
+          ]
+        },
+        {
+          "Title": "Moonbug Kids",
+          "SubCategory": "Animation",
+          "Country": "🌐 International",
+          "Description": "Moonbug Kids is a channel for kids.",
+          "Poster": "https://i.imgur.com/vUpIbVN.png",
+          "Thumbnail": "https://i.imgur.com/vUpIbVN.png",
+          "Rating": 0,
+          "Duration": "",
+          "Year": null,
+          "Servers": [
+            {
+              "name": "SD",
+              "url": "https://qp-pldt-live-grp-06-prod.akamaized.net/out/u/cg_moonbug_kids_sd.mpd"
+            }
+          ]
+        },
+        {
+          "Title": "Asian Food Network",
+          "SubCategory": "Lifestyle",
+          "Country": "🌐 Asia",
+          "Description": "Asian Food Network is a pay television channel that features food and dining programming.",
+          "Poster": "https://i.imgur.com/0CRk7Nf.png",
+          "Thumbnail": "https://i.imgur.com/0CRk7Nf.png",
+          "Rating": 0,
+          "Duration": "",
+          "Year": null,
+          "Servers": [
+            {
+              "name": "SD",
+              "url": "https://qp-pldt-live-grp-07-prod.akamaized.net/out/u/asianfoodnetwork_sd.mpd"
+            }
+          ]
+        },
+        {
+          "Title": "Animal Planet Asia",
+          "SubCategory": "Documentary",
+          "Country": "🌐 Asia",
+          "Description": "Animal Planet is a pay television channel that features programming about animals.",
+          "Poster": "https://i.imgur.com/3UMiEgD.png",
+          "Thumbnail": "https://i.imgur.com/3UMiEgD.png",
+          "Rating": 0,
+          "Duration": "",
+          "Year": null,
+          "Servers": [
+            {
+              "name": "SD",
+              "url": "https://qp-pldt-live-grp-02-prod.akamaized.net/out/u/cg_animal_planet_sd.mpd"
+            }
+          ]
+        },
+        {
+          "Title": "History Asia",
+          "SubCategory": "Documentary",
+          "Country": "🌐 Asia",
+          "Description": "History is a pay television channel that features historical programming.",
+          "Poster": "https://i.imgur.com/9zVyTXV.png",
+          "Thumbnail": "https://i.imgur.com/9zVyTXV.png",
+          "Rating": 0,
+          "Duration": "",
+          "Year": null,
+          "Servers": [
+            {
+              "name": "HD",
+              "url": "https://qp-pldt-live-grp-11-prod.akamaized.net/out/u/dr_historyhd.mpd"
+            }
+          ]
+        },
+        {
+          "Title": "Discovery Asia",
+          "SubCategory": "Documentary",
+          "Country": "🌐 Asia",
+          "Description": "Discovery Channel is a pay television channel that features documentary programming.",
+          "Poster": "https://i.imgur.com/SbiPKql.png",
+          "Thumbnail": "https://i.imgur.com/SbiPKql.png",
+          "Rating": 0,
+          "Duration": "",
+          "Year": null,
+          "Servers": [
+            {
+              "name": "HD",
+              "url": "https://qp-pldt-live-grp-12-prod.akamaized.net/out/u/dr_discoveryasia.mpd"
+            }
+          ]
+        },
+        {
+          "Title": "Knowledge Channel",
+          "SubCategory": "Educational",
+          "Country": "🇵🇭 Philippines",
+          "Description": "Knowledge Channel is a Filipino pay television channel that features educational programming.",
+          "Poster": "https://i.imgur.com/tLUSj5p.png",
+          "Thumbnail": "https://i.imgur.com/tLUSj5p.png",
+          "Rating": 0,
+          "Duration": "",
+          "Year": null,
+          "Servers": [
+            {
+              "name": "HD",
+              "url": "https://abslive.akamaized.net/dash/live/2028189/kc/manifest.mpd"
+            }
+          ]
+        },
+        {
+          "Title": "Trvl Channel",
+          "SubCategory": "Lifestyle",
+          "Country": "🌐 International",
+          "Description": "Travel Channel is a pay television channel that features travel programming.",
+          "Poster": "https://i.imgur.com/GfqMnG6.png",
+          "Thumbnail": "https://i.imgur.com/GfqMnG6.png",
+          "Rating": 0,
+          "Duration": "",
+          "Year": null,
+          "Servers": [
+            {
+              "name": "SD",
+              "url": "https://qp-pldt-live-grp-08-prod.akamaized.net/out/u/travel_channel_sd.mpd"
+            }
+          ]
+        },
+        {
+          "Title": "HITS Now",
+          "SubCategory": "Entertainment",
+          "Country": "🌐 Asia",
+          "Description": "HITS Now is a Southeast Asian pay television channel that features a variety of programs from the U.S.",
+          "Poster": "https://i.imgur.com/FV3NTrr.png",
+          "Thumbnail": "https://i.imgur.com/FV3NTrr.png",
+          "Rating": 0,
+          "Duration": "",
+          "Year": null,
+          "Servers": [
+            {
+              "name": "HD",
+              "url": "https://qp-pldt-live-grp-09-prod.akamaized.net/out/u/cg_hitsnow.mpd"
+            }
+          ]
+        },
+        {
+          "Title": "Food Network Asia",
+          "SubCategory": "Lifestyle",
+          "Country": "🌐 Asia",
+          "Description": "Food Network is a pay television channel that features food and dining programming.",
+          "Poster": "https://i.imgur.com/Gwd2TNB.png",
+          "Thumbnail": "https://i.imgur.com/Gwd2TNB.png",
+          "Rating": 0,
+          "Duration": "",
+          "Year": null,
+          "Servers": [
+            {
+              "name": "HD",
+              "url": "https://qp-pldt-live-grp-09-prod.akamaized.net/out/u/cg_foodnetwork_hd1.mpd"
+            }
+          ]
+        },
+        {
+          "Title": "TLC Asia",
+          "SubCategory": "Lifestyle",
+          "Country": "🌐 Asia",
+          "Description": "TLC is a pay television channel that features lifestyle programming.",
+          "Poster": "https://i.imgur.com/xvpDd5F.png",
+          "Thumbnail": "https://i.imgur.com/xvpDd5F.png",
+          "Rating": 0,
+          "Duration": "",
+          "Year": null,
+          "Servers": [
+            {
+              "name": "SD",
+              "url": "https://qp-pldt-live-grp-08-prod.akamaized.net/out/u/tlc_sd.mpd"
+            }
+          ]
+        },
+        {
+          "Title": "AXN Asia",
+          "SubCategory": "Entertainment",
+          "Country": "🌐 Asia",
+          "Description": "AXN is a pay television channel that features action-packed entertainment.",
+          "Poster": "https://i.imgur.com/Y9vnT7K.png",
+          "Thumbnail": "https://i.imgur.com/Y9vnT7K.png",
+          "Rating": 0,
+          "Duration": "",
+          "Year": null,
+          "Servers": [
+            {
+              "name": "SD",
+              "url": "https://qp-pldt-live-grp-06-prod.akamaized.net/out/u/cg_axn_sd.mpd"
+            }
+          ]
+        },
+        {
+          "Title": "Channel News Asia",
+          "SubCategory": "News",
+          "Country": "🇸🇬 Singapore",
+          "Description": "CNA is a Singaporean pay television news channel.",
+          "Poster": "https://i.imgur.com/CbsDpEd.png",
+          "Thumbnail": "https://i.imgur.com/CbsDpEd.png",
+          "Rating": 0,
+          "Duration": "",
+          "Year": null,
+          "Servers": [
+            {
+              "name": "HD",
+              "url": "https://qp-pldt-live-grp-13-prod.akamaized.net/out/u/dr_channelnewsasia.mpd"
+            }
+          ]
+        },
+        {
+          "Title": "BBC News SD",
+          "SubCategory": "News",
+          "Country": "🇬🇧 United Kingdom",
+          "Description": "BBC News is a British pay television news channel.",
+          "Poster": "https://i.imgur.com/gJ8Rxr4.png",
+          "Thumbnail": "https://i.imgur.com/gJ8Rxr4.png",
+          "Rating": 0,
+          "Duration": "",
+          "Year": null,
+          "Servers": [
+            {
+              "name": "SD",
+              "url": "https://qp-pldt-live-grp-04-prod.akamaized.net/out/u/bbcworld_news_sd.mpd"
+            }
+          ]
+        },
+        {
+          "Title": "Uaap Varsity Channel",
+          "SubCategory": "Sports",
+          "Country": "🇵🇭 Philippines",
+          "Description": "The UAAP Varsity Channel is a Filipino pay television channel.",
+          "Poster": "https://i.imgur.com/4YPSDQg.png",
+          "Thumbnail": "https://i.imgur.com/4YPSDQg.png",
+          "Rating": 0,
+          "Duration": "",
+          "Year": null,
+          "Servers": [
+            {
+              "name": "SD",
+              "url": "https://qp-pldt-live-grp-04-prod.akamaized.net/out/u/cg_uaap_cplay_sd.mpd"
+            }
+          ]
+        },
+        {
+          "Title": "CCTN 47",
+          "SubCategory": "Entertainment",
+          "Country": "🇵🇭 Philippines",
+          "Description": "CCTN stands for Cebu Catholic Television Network.",
+          "Poster": "https://i.imgur.com/nV9QXh5.png",
+          "Thumbnail": "https://i.imgur.com/nV9QXh5.png",
+          "Rating": 0,
+          "Duration": "",
+          "Year": null,
+          "Servers": [
+            {
+              "name": "HD",
+              "url": "http://122.55.252.134:8443/live/bba5b536faeacb9b56a3239f1ee8e3b3/1.m3u8"
+            }
+          ]
+        },
+        {
+          "Title": "CLTV 36",
+          "SubCategory": "Entertainment",
+          "Country": "🇵🇭 Philippines",
+          "Description": "CLTV36 is a regional television station in Central Luzon.",
+          "Poster": "https://i.imgur.com/bJe76EA.png",
+          "Thumbnail": "https://i.imgur.com/bJe76EA.png",
+          "Rating": 0,
+          "Duration": "",
+          "Year": null,
+          "Servers": [
+            {
+              "name": "HD",
+              "url": "https://live.cltv36.tv:5443/LiveApp/streams/cltvlive.m3u8"
+            }
+          ]
+        },
+        {
+          "Title": "INC TV",
+          "SubCategory": "Religious",
+          "Country": "🇵🇭 Philippines",
+          "Description": "INC TV is the official television station of the Iglesia ni Cristo.",
+          "Poster": "https://i.imgur.com/O4mv3Bu.png",
+          "Thumbnail": "https://i.imgur.com/O4mv3Bu.png",
+          "Rating": 0,
+          "Duration": "",
+          "Year": null,
+          "Servers": [
+            {
+              "name": "HD",
+              "url": "https://199211.global.ssl.fastly.net/643cc12aa824db4374021c8c/live_95f6ac80dd6511ed9d08b12be56ae55e/index.m3u8"
+            }
+          ]
+        },
+        {
+          "Title": "Mindanow Network TV",
+          "SubCategory": "Entertainment",
+          "Country": "🇵🇭 Philippines",
+          "Description": "Mindanow TV is a regional television station in Mindanao.",
+          "Poster": "https://i.imgur.com/xBlYirh.jpeg",
+          "Thumbnail": "https://i.imgur.com/xBlYirh.jpeg",
+          "Rating": 0,
+          "Duration": "",
+          "Year": null,
+          "Servers": [
+            {
+              "name": "HD",
+              "url": "https://streams1.comclark.com/overlay/mindanow/playlist.m3u8"
+            }
+          ]
+        },
+        {
+          "Title": "ANC HD",
+          "SubCategory": "News",
+          "Country": "🇵🇭 Philippines",
+          "Description": "The ABS-CBN News Channel, commonly known as ANC, is a 24/7 Philippine pay television news channel.",
+          "Poster": "https://i.imgur.com/6l5x8Tx.png",
+          "Thumbnail": "https://i.imgur.com/6l5x8Tx.png",
+          "Rating": 0,
+          "Duration": "",
+          "Year": null,
+          "Servers": [
+            {
+              "name": "HD",
+              "url": "https://d3cjss68xc4sia.cloudfront.net/out/v1/89ea8db23cb24a91bfa5d0795f8d759e/index.mpd"
+            }
+          ]
+        },
+        {
+          "Title": "Fox5",
+          "SubCategory": "News",
+          "Country": "🇺🇸 United States",
+          "Description": "Fox 5 is a Fox owned-and-operated television station licensed to New York City.",
+          "Poster": "https://th.bing.com/th/id/R.da0efd0a8ae25cc3ed689c0b82f00948?rik=93YX0cls8nM62A&riu=http%3a%2f%2fvebaresourcecenter.com%2fwp-content%2fuploads%2f2021%2f02%2fFox-5.png&ehk=3cscegNe6kvhaAcpuOcaGPc9qXfPNTGNPpzce1K%2bGoI%3d&risl=&pid=ImgRaw&r=0&sres=1&sresct=1",
+          "Thumbnail": "https://th.bing.com/th/id/R.da0efd0a8ae25cc3ed689c0b82f00948?rik=93YX0cls8nM62A&riu=http%3a%2f%2fvebaresourcecenter.com%2fwp-content%2fuploads%2f2021%2f02%2fFox-5.png&ehk=3cscegNe6kvhaAcpuOcaGPc9qXfPNTGNPpzce1K%2bGoI%3d&risl=&pid=ImgRaw&r=0&sres=1&sresct=1",
+          "Rating": 0,
+          "Duration": "",
+          "Year": null,
+          "Servers": [
+            {
+              "name": "HD",
+              "url": "https://live20.bozztv.com/dvrfl05/gin-fox5/index.m3u8"
+            }
+          ]
+        },
+        {
+          "Title": "PHTV",
+          "SubCategory": "Entertainment",
+          "Country": "🇵🇭 Philippines",
+          "Description": "PHTV is a Filipino television station.",
+          "Poster": "https://yt3.ggpht.com/a/AATXAJyBhvv8T9RzinRRiGuWjkg-S4Qlse33y3pWiA=s900-c-k-c0xffffffff-no-rj-mo",
+          "Thumbnail": "https://yt3.ggpht.com/a/AATXAJyBhvv8T9RzinRRiGuWjkg-S4Qlse33y3pWiA=s900-c-k-c0xffffffff-no-rj-mo",
+          "Rating": 0,
+          "Duration": "",
+          "Year": null,
+          "Servers": [
+            {
+              "name": "HD",
+              "url": "https://live20.bozztv.com/giatvplayout7/giatv-209998/tracks-v1a1/mono.m3u8"
+            }
+          ]
+        },
         {
           "Title": "GMA PinoyTV",
           "SubCategory": "Entertainment",
@@ -613,262 +613,261 @@
             }
           ]
         },
-        
-  {
-    "Title": "TV5",
-    "SubCategory": "Entertainment",
-    "Country": "🇵🇭 PH",
-    "Description": "TV5 is a major Filipino commercial television network based in Mandaluyong City.",
-    "Poster": "https://i.imgur.com/Ufp278A.png",
-    "Thumbnail": "https://i.imgur.com/Ufp278A.png",
-    "Rating": 0,
-    "Duration": "",
-    "Year": null,
-    "Servers": [
-      {
-        "name": "HD",
-        "url": "https://qp-pldt-live-grp-02-prod.akamaized.net/out/u/tv5_hd.mpd"
-      }
-    ]
-  },
-  {
-    "Title": "Pinoy Box Office",
-    "SubCategory": "Movies",
-    "Country": "🇵🇭 PH",
-    "Description": "Pinoy Box Office (PBO) is a 24-hour Filipino cable television network.",
-    "Poster": "https://i.imgur.com/u385Aaa.png",
-    "Thumbnail": "https://i.imgur.com/u385Aaa.png",
-    "Rating": 0,
-    "Duration": "",
-    "Year": null,
-    "Servers": [
-      {
-        "name": "SD",
-        "url": "https://qp-pldt-live-grp-04-prod.akamaized.net/out/u/pbo_sd.mpd"
-      }
-    ]
-  },
-  {
-    "Title": "Cinema One",
-    "SubCategory": "Movies",
-    "Country": "🇵🇭 PH",
-    "Description": "Cinema One is a Filipino cable television network based in Quezon City.",
-    "Poster": "https://i.imgur.com/ePXmpqr.png",
-    "Thumbnail": "https://i.imgur.com/ePXmpqr.png",
-    "Rating": 0,
-    "Duration": "",
-    "Year": null,
-    "Servers": [
-      {
-        "name": "HD",
-        "url": "https://live-faws.akamaized.net/out/v1/9c02b2581c6a4a22a089ecbd369933f5/index.m3u8"
-      }
-    ]
-  },
-  {
-    "Title": "Cine Mo!",
-    "SubCategory": "Movies",
-    "Country": "🇵🇭 PH",
-    "Description": "Cine Mo! is a Filipino pay television channel owned by ABS-CBN.",
-    "Poster": "https://i.imgur.com/KUwrSOH.png",
-    "Thumbnail": "https://i.imgur.com/KUwrSOH.png",
-    "Rating": 0,
-    "Duration": "",
-    "Year": null,
-    "Servers": [
-      {
-        "name": "HD",
-        "url": "https://d1bail49udbz1k.cloudfront.net/out/v1/78e282e04f0944f3ad0aa1db7a1be645/index.m3u8"
-      }
-    ]
-  },
-  {
-    "Title": "VIVA Cinema",
-    "SubCategory": "Movies",
-    "Country": "🇵🇭 PH",
-    "Description": "Viva Cinema is a Filipino cable television network that broadcasts Filipino-dubbed local and foreign movies.",
-    "Poster": "https://i.imgur.com/GsejzSt.png",
-    "Thumbnail": "https://i.imgur.com/GsejzSt.png",
-    "Rating": 0,
-    "Duration": "",
-    "Year": null,
-    "Servers": [
-      {
-        "name": "SD",
-        "url": "https://qp-pldt-live-grp-06-prod.akamaized.net/out/u/viva_sd.mpd"
-      }
-    ]
-  },
-  {
-    "Title": "KingMovie",
-    "SubCategory": "Movies",
-    "Country": "🌐International",
-    "Description": "KingMovie is a streaming service for movies.",
-    "Poster": "https://yt3.ggpht.com/a/AATXAJwG4flJwodLuUwXoT9W0t5HIvpB_-JZyRSCCw=s900-c-k-c0xffffffff-no-rj-mo",
-    "Thumbnail": "https://yt3.ggpht.com/a/AATXAJwG4flJwodLuUwXoT9W0t5HIvpB_-JZyRSCCw=s900-c-k-c0xffffffff-no-rj-mo",
-    "Rating": 0,
-    "Duration": "",
-    "Year": null,
-    "Servers": [
-      {
-        "name": "HD",
-        "url": "https://live20.bozztv.com/giatvplayout7/giatv-210044/tracks-v1a1/mono.m3u8"
-      }
-    ]
-  },
-  {
-    "Title": "Celestial Movies Pinoy",
-    "SubCategory": "Movies",
-    "Country": "🇵🇭 PH",
-    "Description": "Celestial Movies Pinoy is a Filipino-dubbed movie channel.",
-    "Poster": "https://i.imgur.com/EkmCzO1.png",
-    "Thumbnail": "https://i.imgur.com/EkmCzO1.png",
-    "Rating": 0,
-    "Duration": "",
-    "Year": null,
-    "Servers": [
-      {
-        "name": "SD",
-        "url": "https://qp-pldt-live-grp-01-prod.akamaized.net//out/u/celmovie_pinoy_sd.mpd"
-      }
-    ]
-  },
-  {
-    "Title": "Tagalized Movie Channel (TMC)",
-    "SubCategory": "Movies",
-    "Country": "🇵🇭 PH",
-    "Description": "The first and only 24/7 Tagalized movie channel in the Philippines.",
-    "Poster": "https://i.imgur.com/nVs49ps.png",
-    "Thumbnail": "https://i.imgur.com/nVs49ps.png",
-    "Rating": 0,
-    "Duration": "",
-    "Year": null,
-    "Servers": [
-      {
-        "name": "HD",
-        "url": "https://qp-pldt-live-grp-07-prod.akamaized.net/out/u/cg_tagalogmovie.mpd"
-      }
-    ]
-  },
-  {
-    "Title": "Cinemax Asia",
-    "SubCategory": "Movies",
-    "Country": "Asia",
-    "Description": "Cinemax Asia is a pay television network that features action, science-fiction, thriller and horror movies.",
-    "Poster": "https://i.imgur.com/NLxg6Va.png",
-    "Thumbnail": "https://i.imgur.com/NLxg6Va.png",
-    "Rating": 0,
-    "Duration": "",
-    "Year": null,
-    "Servers": [
-      {
-        "name": "HD",
-        "url": "https://qp-pldt-live-grp-01-prod.akamaized.net/out/u/cg_cinemax.mpd"
-      }
-    ]
-  },
-  {
-    "Title": "KIX",
-    "SubCategory": "Action",
-    "Country": "Asia",
-    "Description": "KIX is a Southeast Asian pay television channel owned by Celestial Tiger Entertainment.",
-    "Poster": "https://i.imgur.com/QSfKYPJ.png",
-    "Thumbnail": "https://i.imgur.com/QSfKYPJ.png",
-    "Rating": 0,
-    "Duration": "",
-    "Year": null,
-    "Servers": [
-      {
-        "name": "HD",
-        "url": "https://streaming.indihometv.com/atm/DASH/kix/manifest.mpd"
-      }
-    ]
-  },
-  {
-    "Title": "Thrill",
-    "SubCategory": "Horror",
-    "Country": "Asia",
-    "Description": "Thrill is a Southeast Asian pay television channel owned by Celestial Tiger Entertainment.",
-    "Poster": "https://i.imgur.com/PRp3gAG.png",
-    "Thumbnail": "https://i.imgur.com/PRp3gAG.png",
-    "Rating": 0,
-    "Duration": "",
-    "Year": null,
-    "Servers": [
-      {
-        "name": "SD",
-        "url": "https://qp-pldt-live-grp-06-prod.akamaized.net/out/u/cg_thrill_sd.mpd"
-      }
-    ]
-  },
-  {
-    "Title": "HBO Asia",
-    "SubCategory": "Movies",
-    "Country": "Asia",
-    "Description": "HBO Asia is a pay television network that features Hollywood blockbusters and original productions.",
-    "Poster": "https://i.imgur.com/ucIzYgj.png",
-    "Thumbnail": "https://i.imgur.com/ucIzYgj.png",
-    "Rating": 0,
-    "Duration": "",
-    "Year": null,
-    "Servers": [
-      {
-        "name": "HD",
-        "url": "https://qp-pldt-live-grp-03-prod.akamaized.net/out/u/cg_hbohd.mpd"
-      }
-    ]
-  },
-  {
-    "Title": "ROCK Action",
-    "SubCategory": "Action",
-    "Country": "Asia",
-    "Description": "ROCK Action is a Southeast Asian pay television channel that features action-packed movies and series.",
-    "Poster": "https://i.imgur.com/yJhZN08.png",
-    "Thumbnail": "https://i.imgur.com/yJhZN08.png",
-    "Rating": 0,
-    "Duration": "",
-    "Year": null,
-    "Servers": [
-      {
-        "name": "HD",
-        "url": "https://qp-pldt-live-grp-13-prod.akamaized.net/out/u/dr_rockextreme.mpd"
-      }
-    ]
-  },
-  {
-    "Title": "HITS Movies",
-    "SubCategory": "Movies",
-    "Country": "Asia",
-    "Description": "HITS Movies is a Southeast Asian pay television channel that features blockbuster hits from the 1960s to the 1990s.",
-    "Poster": "https://i.imgur.com/2a0CHbg.png",
-    "Thumbnail": "https://i.imgur.com/2a0CHbg.png",
-    "Rating": 0,
-    "Duration": "",
-    "Year": null,
-    "Servers": [
-      {
-        "name": "HD",
-        "url": "https://qp-pldt-live-grp-12-prod.akamaized.net/out/u/dr_hitsmovies.mpd"
-      }
-    ]
-  },
-  {
-    "Title": "DreamWorks (Tagalized)",
-    "SubCategory": "Animation",
-    "Country": "🇵🇭 PH",
-    "Description": "DreamWorks Channel is a pay television network that features animated series and movies from DreamWorks Animation.",
-    "Poster": "https://i.imgur.com/yllKClE.png",
-    "Thumbnail": "https://i.imgur.com/yllKClE.png",
-    "Rating": 0,
-    "Duration": "",
-    "Year": null,
-    "Servers": [
-      {
-        "name": "HD",
-        "url": "https://qp-pldt-live-grp-07-prod.akamaized.net/out/u/cg_dreamworktag.mpd"
-      }
-    ]
-  },
+        {
+          "Title": "TV5",
+          "SubCategory": "Entertainment",
+          "Country": "🇵🇭 PH",
+          "Description": "TV5 is a major Filipino commercial television network based in Mandaluyong City.",
+          "Poster": "https://i.imgur.com/Ufp278A.png",
+          "Thumbnail": "https://i.imgur.com/Ufp278A.png",
+          "Rating": 0,
+          "Duration": "",
+          "Year": null,
+          "Servers": [
+            {
+              "name": "HD",
+              "url": "https://qp-pldt-live-grp-02-prod.akamaized.net/out/u/tv5_hd.mpd"
+            }
+          ]
+        },
+        {
+          "Title": "Pinoy Box Office",
+          "SubCategory": "Movies",
+          "Country": "🇵🇭 PH",
+          "Description": "Pinoy Box Office (PBO) is a 24-hour Filipino cable television network.",
+          "Poster": "https://i.imgur.com/u385Aaa.png",
+          "Thumbnail": "https://i.imgur.com/u385Aaa.png",
+          "Rating": 0,
+          "Duration": "",
+          "Year": null,
+          "Servers": [
+            {
+              "name": "SD",
+              "url": "https://qp-pldt-live-grp-04-prod.akamaized.net/out/u/pbo_sd.mpd"
+            }
+          ]
+        },
+        {
+          "Title": "Cinema One",
+          "SubCategory": "Movies",
+          "Country": "🇵🇭 PH",
+          "Description": "Cinema One is a Filipino cable television network based in Quezon City.",
+          "Poster": "https://i.imgur.com/ePXmpqr.png",
+          "Thumbnail": "https://i.imgur.com/ePXmpqr.png",
+          "Rating": 0,
+          "Duration": "",
+          "Year": null,
+          "Servers": [
+            {
+              "name": "HD",
+              "url": "https://live-faws.akamaized.net/out/v1/9c02b2581c6a4a22a089ecbd369933f5/index.m3u8"
+            }
+          ]
+        },
+        {
+          "Title": "Cine Mo!",
+          "SubCategory": "Movies",
+          "Country": "🇵🇭 PH",
+          "Description": "Cine Mo! is a Filipino pay television channel owned by ABS-CBN.",
+          "Poster": "https://i.imgur.com/KUwrSOH.png",
+          "Thumbnail": "https://i.imgur.com/KUwrSOH.png",
+          "Rating": 0,
+          "Duration": "",
+          "Year": null,
+          "Servers": [
+            {
+              "name": "HD",
+              "url": "https://d1bail49udbz1k.cloudfront.net/out/v1/78e282e04f0944f3ad0aa1db7a1be645/index.m3u8"
+            }
+          ]
+        },
+        {
+          "Title": "VIVA Cinema",
+          "SubCategory": "Movies",
+          "Country": "🇵🇭 PH",
+          "Description": "Viva Cinema is a Filipino cable television network that broadcasts Filipino-dubbed local and foreign movies.",
+          "Poster": "https://i.imgur.com/GsejzSt.png",
+          "Thumbnail": "https://i.imgur.com/GsejzSt.png",
+          "Rating": 0,
+          "Duration": "",
+          "Year": null,
+          "Servers": [
+            {
+              "name": "SD",
+              "url": "https://qp-pldt-live-grp-06-prod.akamaized.net/out/u/viva_sd.mpd"
+            }
+          ]
+        },
+        {
+          "Title": "KingMovie",
+          "SubCategory": "Movies",
+          "Country": "🌐International",
+          "Description": "KingMovie is a streaming service for movies.",
+          "Poster": "https://yt3.ggpht.com/a/AATXAJwG4flJwodLuUwXoT9W0t5HIvpB_-JZyRSCCw=s900-c-k-c0xffffffff-no-rj-mo",
+          "Thumbnail": "https://yt3.ggpht.com/a/AATXAJwG4flJwodLuUwXoT9W0t5HIvpB_-JZyRSCCw=s900-c-k-c0xffffffff-no-rj-mo",
+          "Rating": 0,
+          "Duration": "",
+          "Year": null,
+          "Servers": [
+            {
+              "name": "HD",
+              "url": "https://live20.bozztv.com/giatvplayout7/giatv-210044/tracks-v1a1/mono.m3u8"
+            }
+          ]
+        },
+        {
+          "Title": "Celestial Movies Pinoy",
+          "SubCategory": "Movies",
+          "Country": "🇵🇭 PH",
+          "Description": "Celestial Movies Pinoy is a Filipino-dubbed movie channel.",
+          "Poster": "https://i.imgur.com/EkmCzO1.png",
+          "Thumbnail": "https://i.imgur.com/EkmCzO1.png",
+          "Rating": 0,
+          "Duration": "",
+          "Year": null,
+          "Servers": [
+            {
+              "name": "SD",
+              "url": "https://qp-pldt-live-grp-01-prod.akamaized.net//out/u/celmovie_pinoy_sd.mpd"
+            }
+          ]
+        },
+        {
+          "Title": "Tagalized Movie Channel (TMC)",
+          "SubCategory": "Movies",
+          "Country": "🇵🇭 PH",
+          "Description": "The first and only 24/7 Tagalized movie channel in the Philippines.",
+          "Poster": "https://i.imgur.com/nVs49ps.png",
+          "Thumbnail": "https://i.imgur.com/nVs49ps.png",
+          "Rating": 0,
+          "Duration": "",
+          "Year": null,
+          "Servers": [
+            {
+              "name": "HD",
+              "url": "https://qp-pldt-live-grp-07-prod.akamaized.net/out/u/cg_tagalogmovie.mpd"
+            }
+          ]
+        },
+        {
+          "Title": "Cinemax Asia",
+          "SubCategory": "Movies",
+          "Country": "Asia",
+          "Description": "Cinemax Asia is a pay television network that features action, science-fiction, thriller and horror movies.",
+          "Poster": "https://i.imgur.com/NLxg6Va.png",
+          "Thumbnail": "https://i.imgur.com/NLxg6Va.png",
+          "Rating": 0,
+          "Duration": "",
+          "Year": null,
+          "Servers": [
+            {
+              "name": "HD",
+              "url": "https://qp-pldt-live-grp-01-prod.akamaized.net/out/u/cg_cinemax.mpd"
+            }
+          ]
+        },
+        {
+          "Title": "KIX",
+          "SubCategory": "Action",
+          "Country": "Asia",
+          "Description": "KIX is a Southeast Asian pay television channel owned by Celestial Tiger Entertainment.",
+          "Poster": "https://i.imgur.com/QSfKYPJ.png",
+          "Thumbnail": "https://i.imgur.com/QSfKYPJ.png",
+          "Rating": 0,
+          "Duration": "",
+          "Year": null,
+          "Servers": [
+            {
+              "name": "HD",
+              "url": "https://streaming.indihometv.com/atm/DASH/kix/manifest.mpd"
+            }
+          ]
+        },
+        {
+          "Title": "Thrill",
+          "SubCategory": "Horror",
+          "Country": "Asia",
+          "Description": "Thrill is a Southeast Asian pay television channel owned by Celestial Tiger Entertainment.",
+          "Poster": "https://i.imgur.com/PRp3gAG.png",
+          "Thumbnail": "https://i.imgur.com/PRp3gAG.png",
+          "Rating": 0,
+          "Duration": "",
+          "Year": null,
+          "Servers": [
+            {
+              "name": "SD",
+              "url": "https://qp-pldt-live-grp-06-prod.akamaized.net/out/u/cg_thrill_sd.mpd"
+            }
+          ]
+        },
+        {
+          "Title": "HBO Asia",
+          "SubCategory": "Movies",
+          "Country": "Asia",
+          "Description": "HBO Asia is a pay television network that features Hollywood blockbusters and original productions.",
+          "Poster": "https://i.imgur.com/ucIzYgj.png",
+          "Thumbnail": "https://i.imgur.com/ucIzYgj.png",
+          "Rating": 0,
+          "Duration": "",
+          "Year": null,
+          "Servers": [
+            {
+              "name": "HD",
+              "url": "https://qp-pldt-live-grp-03-prod.akamaized.net/out/u/cg_hbohd.mpd"
+            }
+          ]
+        },
+        {
+          "Title": "ROCK Action",
+          "SubCategory": "Action",
+          "Country": "Asia",
+          "Description": "ROCK Action is a Southeast Asian pay television channel that features action-packed movies and series.",
+          "Poster": "https://i.imgur.com/yJhZN08.png",
+          "Thumbnail": "https://i.imgur.com/yJhZN08.png",
+          "Rating": 0,
+          "Duration": "",
+          "Year": null,
+          "Servers": [
+            {
+              "name": "HD",
+              "url": "https://qp-pldt-live-grp-13-prod.akamaized.net/out/u/dr_rockextreme.mpd"
+            }
+          ]
+        },
+        {
+          "Title": "HITS Movies",
+          "SubCategory": "Movies",
+          "Country": "Asia",
+          "Description": "HITS Movies is a Southeast Asian pay television channel that features blockbuster hits from the 1960s to the 1990s.",
+          "Poster": "https://i.imgur.com/2a0CHbg.png",
+          "Thumbnail": "https://i.imgur.com/2a0CHbg.png",
+          "Rating": 0,
+          "Duration": "",
+          "Year": null,
+          "Servers": [
+            {
+              "name": "HD",
+              "url": "https://qp-pldt-live-grp-12-prod.akamaized.net/out/u/dr_hitsmovies.mpd"
+            }
+          ]
+        },
+        {
+          "Title": "DreamWorks (Tagalized)",
+          "SubCategory": "Animation",
+          "Country": "🇵🇭 PH",
+          "Description": "DreamWorks Channel is a pay television network that features animated series and movies from DreamWorks Animation.",
+          "Poster": "https://i.imgur.com/yllKClE.png",
+          "Thumbnail": "https://i.imgur.com/yllKClE.png",
+          "Rating": 0,
+          "Duration": "",
+          "Year": null,
+          "Servers": [
+            {
+              "name": "HD",
+              "url": "https://qp-pldt-live-grp-07-prod.akamaized.net/out/u/cg_dreamworktag.mpd"
+            }
+          ]
+        },
         {
           "Title": "Kapamilya Channel",
           "SubCategory": "General",
@@ -952,1839 +951,10 @@
       "MainCategory": "TV Series",
       "SubCategories": [
         "Anime",
-        "Action,Anime"
+        "Action,Anime",
+        "General"
       ],
       "Entries": [
-      {
-          "Title": "Inspector Gadget",
-          "SubCategory": "Animation, Comedy, Family",
-          "Country": "🇨🇦🇺🇸 Canada/USA",
-          "Description": "Inspector Gadget is a bumbling yet lovable cyborg policeman who is equipped with an endless array of gadgets. Along with his clever niece Penny and their dog Brain, Gadget battles the evil Dr. Claw and the MAD organization.",
-          "Poster": "https://static.wikia.nocookie.net/inspectorgadget/images/3/3d/Go_Go_Gadget_Collection.jpg",
-          "Thumbnail": "",
-          "Rating": "TV-Y7",
-          "Year": 1983,
-          "Seasons": [
-            {
-              "Season": 1,
-              "SeasonPoster": "https://static.wikia.nocookie.net/inspectorgadget/images/3/3d/Go_Go_Gadget_Collection.jpg",
-              "Episodes": [
-                {
-                  "Episode": 1,
-                  "Title": "Winter Olympics",
-                  "Duration": "22m",
-                  "Description": "",
-                  "Thumbnail": "",
-                  "Servers": [
-                    {
-                      "name": "MP4",
-                      "subtitle1": "",
-                      "subtitle2": "",
-                      "url": "https://ia800505.us.archive.org/1/items/inspector-gadget-go-go-gadget-series/Inspector%20Gadget%20S01E01%20Winter%20Olympics.mp4"
-                    },
-                    {
-                      "name": "MP4 (alt)",
-                      "subtitle1": "",
-                      "subtitle2": "",
-                      "url": "https://ia800505.us.archive.org/1/items/inspector-gadget-go-go-gadget-series/Inspector%20Gadget%20S01E01%20Winter%20Olympics.ia.mp4"
-                    }
-                  ]
-                },
-                {
-                  "Episode": 2,
-                  "Title": "Monster Lake",
-                  "Duration": "22m",
-                  "Description": "",
-                  "Thumbnail": "",
-                  "Servers": [
-                    {
-                      "name": "MP4",
-                      "subtitle1": "",
-                      "subtitle2": "",
-                      "url": "https://ia800505.us.archive.org/1/items/inspector-gadget-go-go-gadget-series/Inspector%20Gadget%20S01E02%20Monster%20Lake.mp4"
-                    },
-                    {
-                      "name": "MP4 (alt)",
-                      "subtitle1": "",
-                      "subtitle2": "",
-                      "url": "https://ia800505.us.archive.org/1/items/inspector-gadget-go-go-gadget-series/Inspector%20Gadget%20S01E02%20Monster%20Lake.ia.mp4"
-                    }
-                  ]
-                },
-                {
-                  "Episode": 3,
-                  "Title": "Down on the Farm",
-                  "Duration": "22m",
-                  "Description": "",
-                  "Thumbnail": "",
-                  "Servers": [
-                    {
-                      "name": "MP4",
-                      "subtitle1": "",
-                      "subtitle2": "",
-                      "url": "https://ia800505.us.archive.org/1/items/inspector-gadget-go-go-gadget-series/Inspector%20Gadget%20S01E03%20Down%20on%20the%20Farm.mp4"
-                    },
-                    {
-                      "name": "MP4 (alt)",
-                      "subtitle1": "",
-                      "subtitle2": "",
-                      "url": "https://ia800505.us.archive.org/1/items/inspector-gadget-go-go-gadget-series/Inspector%20Gadget%20S01E03%20Down%20on%20the%20Farm.ia.mp4"
-                    }
-                  ]
-                },
-                {
-                  "Episode": 4,
-                  "Title": "Gadget at the Circus",
-                  "Duration": "22m",
-                  "Description": "",
-                  "Thumbnail": "",
-                  "Servers": [
-                    {
-                      "name": "MP4",
-                      "subtitle1": "",
-                      "subtitle2": "",
-                      "url": "https://ia800505.us.archive.org/1/items/inspector-gadget-go-go-gadget-series/Inspector%20Gadget%20S01E04%20Gadget%20at%20the%20Circus.mp4"
-                    },
-                    {
-                      "name": "MP4 (alt)",
-                      "subtitle1": "",
-                      "subtitle2": "",
-                      "url": "https://ia800505.us.archive.org/1/items/inspector-gadget-go-go-gadget-series/Inspector%20Gadget%20S01E04%20Gadget%20at%20the%20Circus.ia.mp4"
-                    }
-                  ]
-                },
-                {
-                  "Episode": 5,
-                  "Title": "The Amazon",
-                  "Duration": "22m",
-                  "Description": "",
-                  "Thumbnail": "",
-                  "Servers": [
-                    {
-                      "name": "MP4",
-                      "subtitle1": "",
-                      "subtitle2": "",
-                      "url": "https://ia800505.us.archive.org/1/items/inspector-gadget-go-go-gadget-series/Inspector%20Gadget%20S01E05%20The%20Amazon.mp4"
-                    },
-                    {
-                      "name": "MP4 (alt)",
-                      "subtitle1": "",
-                      "subtitle2": "",
-                      "url": "https://ia800505.us.archive.org/1/items/inspector-gadget-go-go-gadget-series/Inspector%20Gadget%20S01E05%20The%20Amazon.ia.mp4"
-                    }
-                  ]
-                },
-                {
-                  "Episode": 6,
-                  "Title": "Health Spa",
-                  "Duration": "22m",
-                  "Description": "",
-                  "Thumbnail": "",
-                  "Servers": [
-                    {
-                      "name": "MP4",
-                      "subtitle1": "",
-                      "subtitle2": "",
-                      "url": "https://ia800505.us.archive.org/1/items/inspector-gadget-go-go-gadget-series/Inspector%20Gadget%20S01E06%20Health%20Spa.mp4"
-                    },
-                    {
-                      "name": "MP4 (alt)",
-                      "subtitle1": "",
-                      "subtitle2": "",
-                      "url": "https://ia800505.us.archive.org/1/items/inspector-gadget-go-go-gadget-series/Inspector%20Gadget%20S01E06%20Health%20Spa.ia.mp4"
-                    }
-                  ]
-                },
-                {
-                  "Episode": 7,
-                  "Title": "The Boat",
-                  "Duration": "22m",
-                  "Description": "",
-                  "Thumbnail": "",
-                  "Servers": [
-                    {
-                      "name": "MP4",
-                      "subtitle1": "",
-                      "subtitle2": "",
-                      "url": "https://ia800505.us.archive.org/1/items/inspector-gadget-go-go-gadget-series/Inspector%20Gadget%20S01E07%20The%20Boat.mp4"
-                    },
-                    {
-                      "name": "MP4 (alt)",
-                      "subtitle1": "",
-                      "subtitle2": "",
-                      "url": "https://ia800505.us.archive.org/1/items/inspector-gadget-go-go-gadget-series/Inspector%20Gadget%20S01E07%20The%20Boat.ia.mp4"
-                    }
-                  ]
-                },
-                {
-                  "Episode": 8,
-                  "Title": "Haunted Castle",
-                  "Duration": "22m",
-                  "Description": "",
-                  "Thumbnail": "",
-                  "Servers": [
-                    {
-                      "name": "MP4",
-                      "subtitle1": "",
-                      "subtitle2": "",
-                      "url": "https://ia800505.us.archive.org/1/items/inspector-gadget-go-go-gadget-series/Inspector%20Gadget%20S01E08%20Haunted%20Castle.mp4"
-                    },
-                    {
-                      "name": "MP4 (alt)",
-                      "subtitle1": "",
-                      "subtitle2": "",
-                      "url": "https://ia800505.us.archive.org/1/items/inspector-gadget-go-go-gadget-series/Inspector%20Gadget%20S01E08%20Haunted%20Castle.ia.mp4"
-                    }
-                  ]
-                },
-                {
-                  "Episode": 9,
-                  "Title": "Race to the Finish",
-                  "Duration": "22m",
-                  "Description": "",
-                  "Thumbnail": "",
-                  "Servers": [
-                    {
-                      "name": "MP4",
-                      "subtitle1": "",
-                      "subtitle2": "",
-                      "url": "https://ia800505.us.archive.org/1/items/inspector-gadget-go-go-gadget-series/Inspector%20Gadget%20S01E09%20Race%20to%20the%20Finish.mp4"
-                    },
-                    {
-                      "name": "MP4 (alt)",
-                      "subtitle1": "",
-                      "subtitle2": "",
-                      "url": "https://ia800505.us.archive.org/1/items/inspector-gadget-go-go-gadget-series/Inspector%20Gadget%20S01E09%20Race%20to%20the%20Finish.ia.mp4"
-                    }
-                  ]
-                },
-                {
-                  "Episode": 10,
-                  "Title": "The Ruby",
-                  "Duration": "22m",
-                  "Description": "",
-                  "Thumbnail": "",
-                  "Servers": [
-                    {
-                      "name": "MP4",
-                      "subtitle1": "",
-                      "subtitle2": "",
-                      "url": "https://ia800505.us.archive.org/1/items/inspector-gadget-go-go-gadget-series/Inspector%20Gadget%20S01E10%20The%20Ruby.mp4"
-                    },
-                    {
-                      "name": "MP4 (alt)",
-                      "subtitle1": "",
-                      "subtitle2": "",
-                      "url": "https://ia800505.us.archive.org/1/items/inspector-gadget-go-go-gadget-series/Inspector%20Gadget%20S01E10%20The%20Ruby.ia.mp4"
-                    }
-                  ]
-                },
-                {
-                  "Episode": 11,
-                  "Title": "A Star is Lost",
-                  "Duration": "22m",
-                  "Description": "",
-                  "Thumbnail": "",
-                  "Servers": [
-                    {
-                      "name": "MP4",
-                      "subtitle1": "",
-                      "subtitle2": "",
-                      "url": "https://ia800505.us.archive.org/1/items/inspector-gadget-go-go-gadget-series/Inspector%20Gadget%20S01E11%20A%20Star%20is%20Lost.mp4"
-                    },
-                    {
-                      "name": "MP4 (alt)",
-                      "subtitle1": "",
-                      "subtitle2": "",
-                      "url": "https://ia800505.us.archive.org/1/items/inspector-gadget-go-go-gadget-series/Inspector%20Gadget%20S01E11%20A%20Star%20is%20Lost.ia.mp4"
-                    }
-                  ]
-                },
-                {
-                  "Episode": 12,
-                  "Title": "All That Glitters",
-                  "Duration": "22m",
-                  "Description": "",
-                  "Thumbnail": "",
-                  "Servers": [
-                    {
-                      "name": "MP4",
-                      "subtitle1": "",
-                      "subtitle2": "",
-                      "url": "https://ia800505.us.archive.org/1/items/inspector-gadget-go-go-gadget-series/Inspector%20Gadget%20S01E12%20All%20That%20Glitters.mp4"
-                    },
-                    {
-                      "name": "MP4 (alt)",
-                      "subtitle1": "",
-                      "subtitle2": "",
-                      "url": "https://ia800505.us.archive.org/1/items/inspector-gadget-go-go-gadget-series/Inspector%20Gadget%20S01E12%20All%20That%20Glitters.ia.mp4"
-                    }
-                  ]
-                },
-                {
-                  "Episode": 13,
-                  "Title": "Movie Set",
-                  "Duration": "22m",
-                  "Description": "",
-                  "Thumbnail": "",
-                  "Servers": [
-                    {
-                      "name": "MP4",
-                      "subtitle1": "",
-                      "subtitle2": "",
-                      "url": "https://ia800505.us.archive.org/1/items/inspector-gadget-go-go-gadget-series/Inspector%20Gadget%20S01E13%20Movie%20Set.mp4"
-                    },
-                    {
-                      "name": "MP4 (alt)",
-                      "subtitle1": "",
-                      "subtitle2": "",
-                      "url": "https://ia800505.us.archive.org/1/items/inspector-gadget-go-go-gadget-series/Inspector%20Gadget%20S01E13%20Movie%20Set.ia.mp4"
-                    }
-                  ]
-                },
-                {
-                  "Episode": 14,
-                  "Title": "Amusement Park",
-                  "Duration": "22m",
-                  "Description": "",
-                  "Thumbnail": "",
-                  "Servers": [
-                    {
-                      "name": "MP4",
-                      "subtitle1": "",
-                      "subtitle2": "",
-                      "url": "https://ia800505.us.archive.org/1/items/inspector-gadget-go-go-gadget-series/Inspector%20Gadget%20S01E14%20Amusement%20Park.mp4"
-                    },
-                    {
-                      "name": "MP4 (alt)",
-                      "subtitle1": "",
-                      "subtitle2": "",
-                      "url": "https://ia800505.us.archive.org/1/items/inspector-gadget-go-go-gadget-series/Inspector%20Gadget%20S01E14%20Amusement%20Park.ia.mp4"
-                    }
-                  ]
-                },
-                {
-                  "Episode": 15,
-                  "Title": "Art Heist",
-                  "Duration": "22m",
-                  "Description": "",
-                  "Thumbnail": "",
-                  "Servers": [
-                    {
-                      "name": "MP4",
-                      "subtitle1": "",
-                      "subtitle2": "",
-                      "url": "https://ia800505.us.archive.org/1/items/inspector-gadget-go-go-gadget-series/Inspector%20Gadget%20S01E15%20Art%20Heist.mp4"
-                    },
-                    {
-                      "name": "MP4 (alt)",
-                      "subtitle1": "",
-                      "subtitle2": "",
-                      "url": "https://ia800505.us.archive.org/1/items/inspector-gadget-go-go-gadget-series/Inspector%20Gadget%20S01E15%20Art%20Heist.ia.mp4"
-                    }
-                  ]
-                },
-                {
-                  "Episode": 16,
-                  "Title": "Volcano Island (Gadget Goes Hawaiian)",
-                  "Duration": "22m",
-                  "Description": "",
-                  "Thumbnail": "",
-                  "Servers": [
-                    {
-                      "name": "MP4",
-                      "subtitle1": "",
-                      "subtitle2": "",
-                      "url": "https://ia800505.us.archive.org/1/items/inspector-gadget-go-go-gadget-series/Inspector%20Gadget%20S01E16%20Volcano%20Island%20%28Gadget%20Goes%20Hawaiian%29.mp4"
-                    },
-                    {
-                      "name": "MP4 (alt)",
-                      "subtitle1": "",
-                      "subtitle2": "",
-                      "url": "https://ia800505.us.archive.org/1/items/inspector-gadget-go-go-gadget-series/Inspector%20Gadget%20S01E16%20Volcano%20Island%20%28Gadget%20Goes%20Hawaiian%29.ia.mp4"
-                    }
-                  ]
-                },
-                {
-                  "Episode": 17,
-                  "Title": "The Invasion",
-                  "Duration": "22m",
-                  "Description": "",
-                  "Thumbnail": "",
-                  "Servers": [
-                    {
-                      "name": "MP4",
-                      "subtitle1": "",
-                      "subtitle2": "",
-                      "url": "https://ia800505.us.archive.org/1/items/inspector-gadget-go-go-gadget-series/Inspector%20Gadget%20S01E17%20The%20Invasion.mp4"
-                    },
-                    {
-                      "name": "MP4 (alt)",
-                      "subtitle1": "",
-                      "subtitle2": "",
-                      "url": "https://ia800505.us.archive.org/1/items/inspector-gadget-go-go-gadget-series/Inspector%20Gadget%20S01E17%20The%20Invasion.ia.mp4"
-                    }
-                  ]
-                },
-                {
-                  "Episode": 18,
-                  "Title": "The Infiltration",
-                  "Duration": "22m",
-                  "Description": "",
-                  "Thumbnail": "",
-                  "Servers": [
-                    {
-                      "name": "MP4",
-                      "subtitle1": "",
-                      "subtitle2": "",
-                      "url": "https://ia800505.us.archive.org/1/items/inspector-gadget-go-go-gadget-series/Inspector%20Gadget%20S01E18%20The%20Infiltration.mp4"
-                    },
-                    {
-                      "name": "MP4 (alt)",
-                      "subtitle1": "",
-                      "subtitle2": "",
-                      "url": "https://ia800505.us.archive.org/1/items/inspector-gadget-go-go-gadget-series/Inspector%20Gadget%20S01E18%20The%20Infiltration.ia.mp4"
-                    }
-                  ]
-                },
-                {
-                  "Episode": 19,
-                  "Title": "The Curse of the Pharoah (Poot-Ta-Foot's Curse)",
-                  "Duration": "22m",
-                  "Description": "",
-                  "Thumbnail": "",
-                  "Servers": [
-                    {
-                      "name": "MP4",
-                      "subtitle1": "",
-                      "subtitle2": "",
-                      "url": "https://ia800505.us.archive.org/1/items/inspector-gadget-go-go-gadget-series/Inspector%20Gadget%20S01E19%20The%20Curse%20of%20the%20Pharoah%20%28Poot-Ta-Foot%27s%20Curse%29.mp4"
-                    },
-                    {
-                      "name": "MP4 (alt)",
-                      "subtitle1": "",
-                      "subtitle2": "",
-                      "url": "https://ia800505.us.archive.org/1/items/inspector-gadget-go-go-gadget-series/Inspector%20Gadget%20S01E19%20The%20Curse%20of%20the%20Pharoah%20%28Poot-Ta-Foot%27s%20Curse%29.ia.mp4"
-                    }
-                  ]
-                },
-                {
-                  "Episode": 20,
-                  "Title": "M.A.D. Trap",
-                  "Duration": "22m",
-                  "Description": "",
-                  "Thumbnail": "",
-                  "Servers": [
-                    {
-                      "name": "MP4",
-                      "subtitle1": "",
-                      "subtitle2": "",
-                      "url": "https://ia800505.us.archive.org/1/items/inspector-gadget-go-go-gadget-series/Inspector%20Gadget%20S01E20%20M.A.D.%20Trap.mp4"
-                    },
-                    {
-                      "name": "MP4 (alt)",
-                      "subtitle1": "",
-                      "subtitle2": "",
-                      "url": "https://ia800505.us.archive.org/1/items/inspector-gadget-go-go-gadget-series/Inspector%20Gadget%20S01E20%20M.A.D.%20Trap.ia.mp4"
-                    }
-                  ]
-                },
-                {
-                  "Episode": 21,
-                  "Title": "Basic Training",
-                  "Duration": "22m",
-                  "Description": "",
-                  "Thumbnail": "",
-                  "Servers": [
-                    {
-                      "name": "MP4",
-                      "subtitle1": "",
-                      "subtitle2": "",
-                      "url": "https://ia800505.us.archive.org/1/items/inspector-gadget-go-go-gadget-series/Inspector%20Gadget%20S01E21%20Basic%20Training.mp4"
-                    },
-                    {
-                      "name": "MP4 (alt)",
-                      "subtitle1": "",
-                      "subtitle2": "",
-                      "url": "https://ia800505.us.archive.org/1/items/inspector-gadget-go-go-gadget-series/Inspector%20Gadget%20S01E21%20Basic%20Training.ia.mp4"
-                    }
-                  ]
-                },
-                {
-                  "Episode": 22,
-                  "Title": "Sleeping Gas",
-                  "Duration": "22m",
-                  "Description": "",
-                  "Thumbnail": "",
-                  "Servers": [
-                    {
-                      "name": "MP4",
-                      "subtitle1": "",
-                      "subtitle2": "",
-                      "url": "https://ia800505.us.archive.org/1/items/inspector-gadget-go-go-gadget-series/Inspector%20Gadget%20S01E22%20Sleeping%20Gas.mp4"
-                    },
-                    {
-                      "name": "MP4 (alt)",
-                      "subtitle1": "",
-                      "subtitle2": "",
-                      "url": "https://ia800505.us.archive.org/1/items/inspector-gadget-go-go-gadget-series/Inspector%20Gadget%20S01E22%20Sleeping%20Gas.ia.mp4"
-                    }
-                  ]
-                },
-                {
-                  "Episode": 23,
-                  "Title": "Gadget's Replacement",
-                  "Duration": "22m",
-                  "Description": "",
-                  "Thumbnail": "",
-                  "Servers": [
-                    {
-                      "name": "MP4",
-                      "subtitle1": "",
-                      "subtitle2": "",
-                      "url": "https://ia800505.us.archive.org/1/items/inspector-gadget-go-go-gadget-series/Inspector%20Gadget%20S01E23%20Gadget%27s%20Replacement.mp4"
-                    },
-                    {
-                      "name": "MP4 (alt)",
-                      "subtitle1": "",
-                      "subtitle2": "",
-                      "url": "https://ia800505.us.archive.org/1/items/inspector-gadget-go-go-gadget-series/Inspector%20Gadget%20S01E23%20Gadget%27s%20Replacement.ia.mp4"
-                    }
-                  ]
-                },
-                {
-                  "Episode": 24,
-                  "Title": "Greenfinger",
-                  "Duration": "22m",
-                  "Description": "",
-                  "Thumbnail": "",
-                  "Servers": [
-                    {
-                      "name": "MP4",
-                      "subtitle1": "",
-                      "subtitle2": "",
-                      "url": "https://ia800505.us.archive.org/1/items/inspector-gadget-go-go-gadget-series/Inspector%20Gadget%20S01E24%20Greenfinger.mp4"
-                    },
-                    {
-                      "name": "MP4 (alt)",
-                      "subtitle1": "",
-                      "subtitle2": "",
-                      "url": "https://ia800505.us.archive.org/1/items/inspector-gadget-go-go-gadget-series/Inspector%20Gadget%20S01E24%20Greenfinger.ia.mp4"
-                    }
-                  ]
-                },
-                {
-                  "Episode": 25,
-                  "Title": "Gadget Goes West",
-                  "Duration": "22m",
-                  "Description": "",
-                  "Thumbnail": "",
-                  "Servers": [
-                    {
-                      "name": "MP4",
-                      "subtitle1": "",
-                      "subtitle2": "",
-                      "url": "https://ia800505.us.archive.org/1/items/inspector-gadget-go-go-gadget-series/Inspector%20Gadget%20S01E25%20Gadget%20Goes%20West.mp4"
-                    },
-                    {
-                      "name": "MP4 (alt)",
-                      "subtitle1": "",
-                      "subtitle2": "",
-                      "url": "https://ia800505.us.archive.org/1/items/inspector-gadget-go-go-gadget-series/Inspector%20Gadget%20S01E25%20Gadget%20Goes%20West.ia.mp4"
-                    }
-                  ]
-                },
-                {
-                  "Episode": 26,
-                  "Title": "Launch Time",
-                  "Duration": "22m",
-                  "Description": "",
-                  "Thumbnail": "",
-                  "Servers": [
-                    {
-                      "name": "MP4",
-                      "subtitle1": "",
-                      "subtitle2": "",
-                      "url": "https://ia800505.us.archive.org/1/items/inspector-gadget-go-go-gadget-series/Inspector%20Gadget%20S01E26%20Launch%20Time.mp4"
-                    },
-                    {
-                      "name": "MP4 (alt)",
-                      "subtitle1": "",
-                      "subtitle2": "",
-                      "url": "https://ia800505.us.archive.org/1/items/inspector-gadget-go-go-gadget-series/Inspector%20Gadget%20S01E26%20Launch%20Time.ia.mp4"
-                    }
-                  ]
-                },
-                {
-                  "Episode": 27,
-                  "Title": "Photo Safari (Black Devil)",
-                  "Duration": "22m",
-                  "Description": "",
-                  "Thumbnail": "",
-                  "Servers": [
-                    {
-                      "name": "MP4",
-                      "subtitle1": "",
-                      "subtitle2": "",
-                      "url": "https://ia800505.us.archive.org/1/items/inspector-gadget-go-go-gadget-series/Inspector%20Gadget%20S01E27%20Photo%20Safari%20%28Black%20Devil%29.mp4"
-                    },
-                    {
-                      "name": "MP4 (alt)",
-                      "subtitle1": "",
-                      "subtitle2": "",
-                      "url": "https://ia800505.us.archive.org/1/items/inspector-gadget-go-go-gadget-series/Inspector%20Gadget%20S01E27%20Photo%20Safari%20%28Black%20Devil%29.ia.mp4"
-                    }
-                  ]
-                },
-                {
-                  "Episode": 28,
-                  "Title": "The Coo Coo Clock Caper",
-                  "Duration": "22m",
-                  "Description": "",
-                  "Thumbnail": "",
-                  "Servers": [
-                    {
-                      "name": "MP4",
-                      "subtitle1": "",
-                      "subtitle2": "",
-                      "url": "https://ia800505.us.archive.org/1/items/inspector-gadget-go-go-gadget-series/Inspector%20Gadget%20S01E28%20The%20Coo%20Coo%20Clock%20Caper.mp4"
-                    },
-                    {
-                      "name": "MP4 (alt)",
-                      "subtitle1": "",
-                      "subtitle2": "",
-                      "url": "https://ia800505.us.archive.org/1/items/inspector-gadget-go-go-gadget-series/Inspector%20Gadget%20S01E28%20The%20Coo%20Coo%20Clock%20Caper.ia.mp4"
-                    }
-                  ]
-                },
-                {
-                  "Episode": 29,
-                  "Title": "Bermuda Triangle",
-                  "Duration": "22m",
-                  "Description": "",
-                  "Thumbnail": "",
-                  "Servers": [
-                    {
-                      "name": "MP4",
-                      "subtitle1": "",
-                      "subtitle2": "",
-                      "url": "https://ia800505.us.archive.org/1/items/inspector-gadget-go-go-gadget-series/Inspector%20Gadget%20S01E29%20Bermuda%20Triangle.mp4"
-                    },
-                    {
-                      "name": "MP4 (alt)",
-                      "subtitle1": "",
-                      "subtitle2": "",
-                      "url": "https://ia800505.us.archive.org/1/items/inspector-gadget-go-go-gadget-series/Inspector%20Gadget%20S01E29%20Bermuda%20Triangle.ia.mp4"
-                    }
-                  ]
-                },
-                {
-                  "Episode": 30,
-                  "Title": "The Japanese Connection",
-                  "Duration": "22m",
-                  "Description": "",
-                  "Thumbnail": "",
-                  "Servers": [
-                    {
-                      "name": "MP4",
-                      "subtitle1": "",
-                      "subtitle2": "",
-                      "url": "https://ia800505.us.archive.org/1/items/inspector-gadget-go-go-gadget-series/Inspector%20Gadget%20S01E30%20The%20Japanese%20Connection.mp4"
-                    },
-                    {
-                      "name": "MP4 (alt)",
-                      "subtitle1": "",
-                      "subtitle2": "",
-                      "url": "https://ia800505.us.archive.org/1/items/inspector-gadget-go-go-gadget-series/Inspector%20Gadget%20S01E30%20The%20Japanese%20Connection.ia.mp4"
-                    }
-                  ]
-                },
-                {
-                  "Episode": 31,
-                  "Title": "Arabian Nights",
-                  "Duration": "22m",
-                  "Description": "",
-                  "Thumbnail": "",
-                  "Servers": [
-                    {
-                      "name": "MP4",
-                      "subtitle1": "",
-                      "subtitle2": "",
-                      "url": "https://ia800505.us.archive.org/1/items/inspector-gadget-go-go-gadget-series/Inspector%20Gadget%20S01E31%20Arabian%20Nights.mp4"
-                    },
-                    {
-                      "name": "MP4 (alt)",
-                      "subtitle1": "",
-                      "subtitle2": "",
-                      "url": "https://ia800505.us.archive.org/1/items/inspector-gadget-go-go-gadget-series/Inspector%20Gadget%20S01E31%20Arabian%20Nights.ia.mp4"
-                    }
-                  ]
-                },
-                {
-                  "Episode": 32,
-                  "Title": "Clear Case",
-                  "Duration": "22m",
-                  "Description": "",
-                  "Thumbnail": "",
-                  "Servers": [
-                    {
-                      "name": "MP4",
-                      "subtitle1": "",
-                      "subtitle2": "",
-                      "url": "https://ia800505.us.archive.org/1/items/inspector-gadget-go-go-gadget-series/Inspector%20Gadget%20S01E32%20Clear%20Case.mp4"
-                    },
-                    {
-                      "name": "MP4 (alt)",
-                      "subtitle1": "",
-                      "subtitle2": "",
-                      "url": "https://ia800505.us.archive.org/1/items/inspector-gadget-go-go-gadget-series/Inspector%20Gadget%20S01E32%20Clear%20Case.ia.mp4"
-                    }
-                  ]
-                },
-                {
-                  "Episode": 33,
-                  "Title": "Dutch Treat",
-                  "Duration": "22m",
-                  "Description": "",
-                  "Thumbnail": "",
-                  "Servers": [
-                    {
-                      "name": "MP4",
-                      "subtitle1": "",
-                      "subtitle2": "",
-                      "url": "https://ia800505.us.archive.org/1/items/inspector-gadget-go-go-gadget-series/Inspector%20Gadget%20S01E33%20Dutch%20Treat.mp4"
-                    },
-                    {
-                      "name": "MP4 (alt)",
-                      "subtitle1": "",
-                      "subtitle2": "",
-                      "url": "https://ia800505.us.archive.org/1/items/inspector-gadget-go-go-gadget-series/Inspector%20Gadget%20S01E33%20Dutch%20Treat.ia.mp4"
-                    }
-                  ]
-                },
-                {
-                  "Episode": 34,
-                  "Title": "The Great Divide",
-                  "Duration": "22m",
-                  "Description": "",
-                  "Thumbnail": "",
-                  "Servers": [
-                    {
-                      "name": "MP4",
-                      "subtitle1": "",
-                      "subtitle2": "",
-                      "url": "https://ia800505.us.archive.org/1/items/inspector-gadget-go-go-gadget-series/Inspector%20Gadget%20S01E34%20The%20Great%20Divide.mp4"
-                    },
-                    {
-                      "name": "MP4 (alt)",
-                      "subtitle1": "",
-                      "subtitle2": "",
-                      "url": "https://ia800505.us.archive.org/1/items/inspector-gadget-go-go-gadget-series/Inspector%20Gadget%20S01E34%20The%20Great%20Divide.ia.mp4"
-                    }
-                  ]
-                },
-                {
-                  "Episode": 35,
-                  "Title": "Eye of the Dragon",
-                  "Duration": "22m",
-                  "Description": "",
-                  "Thumbnail": "",
-                  "Servers": [
-                    {
-                      "name": "MP4",
-                      "subtitle1": "",
-                      "subtitle2": "",
-                      "url": "https://ia800505.us.archive.org/1/items/inspector-gadget-go-go-gadget-series/Inspector%20Gadget%20S01E35%20Eye%20of%20the%20Dragon.mp4"
-                    },
-                    {
-                      "name": "MP4 (alt)",
-                      "subtitle1": "",
-                      "subtitle2": "",
-                      "url": "https://ia800505.us.archive.org/1/items/inspector-gadget-go-go-gadget-series/Inspector%20Gadget%20S01E35%20Eye%20of%20the%20Dragon.ia.mp4"
-                    }
-                  ]
-                },
-                {
-                  "Episode": 36,
-                  "Title": "Doubled Agent",
-                  "Duration": "22m",
-                  "Description": "",
-                  "Thumbnail": "",
-                  "Servers": [
-                    {
-                      "name": "MP4",
-                      "subtitle1": "",
-                      "subtitle2": "",
-                      "url": "https://ia800505.us.archive.org/1/items/inspector-gadget-go-go-gadget-series/Inspector%20Gadget%20S01E36%20Doubled%20Agent.mp4"
-                    },
-                    {
-                      "name": "MP4 (alt)",
-                      "subtitle1": "",
-                      "subtitle2": "",
-                      "url": "https://ia800505.us.archive.org/1/items/inspector-gadget-go-go-gadget-series/Inspector%20Gadget%20S01E36%20Doubled%20Agent.ia.mp4"
-                    }
-                  ]
-                },
-                {
-                  "Episode": 37,
-                  "Title": "Plantform of the Opera",
-                  "Duration": "22m",
-                  "Description": "",
-                  "Thumbnail": "",
-                  "Servers": [
-                    {
-                      "name": "MP4",
-                      "subtitle1": "",
-                      "subtitle2": "",
-                      "url": "https://ia800505.us.archive.org/1/items/inspector-gadget-go-go-gadget-series/Inspector%20Gadget%20S01E37%20Plantform%20of%20the%20Opera.mp4"
-                    },
-                    {
-                      "name": "MP4 (alt)",
-                      "subtitle1": "",
-                      "subtitle2": "",
-                      "url": "https://ia800505.us.archive.org/1/items/inspector-gadget-go-go-gadget-series/Inspector%20Gadget%20S01E37%20Plantform%20of%20the%20Opera.ia.mp4"
-                    }
-                  ]
-                },
-                {
-                  "Episode": 38,
-                  "Title": "Don't Hold Your Breath",
-                  "Duration": "22m",
-                  "Description": "",
-                  "Thumbnail": "",
-                  "Servers": [
-                    {
-                      "name": "MP4",
-                      "subtitle1": "",
-                      "subtitle2": "",
-                      "url": "https://ia800505.us.archive.org/1/items/inspector-gadget-go-go-gadget-series/Inspector%20Gadget%20S01E38%20Don%27t%20Hold%20Your%20Breath.mp4"
-                    },
-                    {
-                      "name": "MP4 (alt)",
-                      "subtitle1": "",
-                      "subtitle2": "",
-                      "url": "https://ia800505.us.archive.org/1/items/inspector-gadget-go-go-gadget-series/Inspector%20Gadget%20S01E38%20Don%27t%20Hold%20Your%20Breath.ia.mp4"
-                    }
-                  ]
-                },
-                {
-                  "Episode": 39,
-                  "Title": "Gone Went the Wind",
-                  "Duration": "22m",
-                  "Description": "",
-                  "Thumbnail": "",
-                  "Servers": [
-                    {
-                      "name": "MP4",
-                      "subtitle1": "",
-                      "subtitle2": "",
-                      "url": "https://ia800505.us.archive.org/1/items/inspector-gadget-go-go-gadget-series/Inspector%20Gadget%20S01E39%20Gone%20Went%20the%20Wind.mp4"
-                    },
-                    {
-                      "name": "MP4 (alt)",
-                      "subtitle1": "",
-                      "subtitle2": "",
-                      "url": "https://ia800505.us.archive.org/1/items/inspector-gadget-go-go-gadget-series/Inspector%20Gadget%20S01E39%20Gone%20Went%20the%20Wind.ia.mp4"
-                    }
-                  ]
-                },
-                {
-                  "Episode": 40,
-                  "Title": "King Wrong",
-                  "Duration": "22m",
-                  "Description": "",
-                  "Thumbnail": "",
-                  "Servers": [
-                    {
-                      "name": "MP4",
-                      "subtitle1": "",
-                      "subtitle2": "",
-                      "url": "https://ia800505.us.archive.org/1/items/inspector-gadget-go-go-gadget-series/Inspector%20Gadget%20S01E40%20King%20Wrong.mp4"
-                    },
-                    {
-                      "name": "MP4 (alt)",
-                      "subtitle1": "",
-                      "subtitle2": "",
-                      "url": "https://ia800505.us.archive.org/1/items/inspector-gadget-go-go-gadget-series/Inspector%20Gadget%20S01E40%20King%20Wrong.ia.mp4"
-                    }
-                  ]
-                },
-                {
-                  "Episode": 41,
-                  "Title": "Pirate Island",
-                  "Duration": "22m",
-                  "Description": "",
-                  "Thumbnail": "",
-                  "Servers": [
-                    {
-                      "name": "MP4",
-                      "subtitle1": "",
-                      "subtitle2": "",
-                      "url": "https://ia800505.us.archive.org/1/items/inspector-gadget-go-go-gadget-series/Inspector%20Gadget%20S01E41%20Pirate%20Island.mp4"
-                    },
-                    {
-                      "name": "MP4 (alt)",
-                      "subtitle1": "",
-                      "subtitle2": "",
-                      "url": "https://ia800505.us.archive.org/1/items/inspector-gadget-go-go-gadget-series/Inspector%20Gadget%20S01E41%20Pirate%20Island.ia.mp4"
-                    }
-                  ]
-                },
-                {
-                  "Episode": 42,
-                  "Title": "M.A.D. Acadamy",
-                  "Duration": "22m",
-                  "Description": "",
-                  "Thumbnail": "",
-                  "Servers": [
-                    {
-                      "name": "MP4",
-                      "subtitle1": "",
-                      "subtitle2": "",
-                      "url": "https://ia800505.us.archive.org/1/items/inspector-gadget-go-go-gadget-series/Inspector%20Gadget%20S01E42%20M.A.D.%20Acadamy.mp4"
-                    },
-                    {
-                      "name": "MP4 (alt)",
-                      "subtitle1": "",
-                      "subtitle2": "",
-                      "url": "https://ia800505.us.archive.org/1/items/inspector-gadget-go-go-gadget-series/Inspector%20Gadget%20S01E42%20M.A.D.%20Acadamy.ia.mp4"
-                    }
-                  ]
-                },
-                {
-                  "Episode": 43,
-                  "Title": "No Flies on Us",
-                  "Duration": "22m",
-                  "Description": "",
-                  "Thumbnail": "",
-                  "Servers": [
-                    {
-                      "name": "MP4",
-                      "subtitle1": "",
-                      "subtitle2": "",
-                      "url": "https://ia800505.us.archive.org/1/items/inspector-gadget-go-go-gadget-series/Inspector%20Gadget%20S01E43%20No%20Flies%20on%20Us.mp4"
-                    },
-                    {
-                      "name": "MP4 (alt)",
-                      "subtitle1": "",
-                      "subtitle2": "",
-                      "url": "https://ia800505.us.archive.org/1/items/inspector-gadget-go-go-gadget-series/Inspector%20Gadget%20S01E43%20No%20Flies%20on%20Us.ia.mp4"
-                    }
-                  ]
-                },
-                {
-                  "Episode": 44,
-                  "Title": "Luck of the Irish",
-                  "Duration": "22m",
-                  "Description": "",
-                  "Thumbnail": "",
-                  "Servers": [
-                    {
-                      "name": "MP4",
-                      "subtitle1": "",
-                      "subtitle2": "",
-                      "url": "https://ia800505.us.archive.org/1/items/inspector-gadget-go-go-gadget-series/Inspector%20Gadget%20S01E44%20Luck%20of%20the%20Irish.mp4"
-                    },
-                    {
-                      "name": "MP4 (alt)",
-                      "subtitle1": "",
-                      "subtitle2": "",
-                      "url": "https://ia800505.us.archive.org/1/items/inspector-gadget-go-go-gadget-series/Inspector%20Gadget%20S01E44%20Luck%20of%20the%20Irish.ia.mp4"
-                    }
-                  ]
-                },
-                {
-                  "Episode": 45,
-                  "Title": "Prince of the Gypsies",
-                  "Duration": "22m",
-                  "Description": "",
-                  "Thumbnail": "",
-                  "Servers": [
-                    {
-                      "name": "MP4",
-                      "subtitle1": "",
-                      "subtitle2": "",
-                      "url": "https://ia800505.us.archive.org/1/items/inspector-gadget-go-go-gadget-series/Inspector%20Gadget%20S01E45%20Prince%20of%20the%20Gypsies.mp4"
-                    },
-                    {
-                      "name": "MP4 (alt)",
-                      "subtitle1": "",
-                      "subtitle2": "",
-                      "url": "https://ia800505.us.archive.org/1/items/inspector-gadget-go-go-gadget-series/Inspector%20Gadget%20S01E45%20Prince%20of%20the%20Gypsies.ia.mp4"
-                    }
-                  ]
-                },
-                {
-                  "Episode": 46,
-                  "Title": "Old Man of the Mountain",
-                  "Duration": "22m",
-                  "Description": "",
-                  "Thumbnail": "",
-                  "Servers": [
-                    {
-                      "name": "MP4",
-                      "subtitle1": "",
-                      "subtitle2": "",
-                      "url": "https://ia800505.us.archive.org/1/items/inspector-gadget-go-go-gadget-series/Inspector%20Gadget%20S01E46%20Old%20Man%20of%20the%20Mountain.mp4"
-                    },
-                    {
-                      "name": "MP4 (alt)",
-                      "subtitle1": "",
-                      "subtitle2": "",
-                      "url": "https://ia800505.us.archive.org/1/items/inspector-gadget-go-go-gadget-series/Inspector%20Gadget%20S01E46%20Old%20Man%20of%20the%20Mountain.ia.mp4"
-                    }
-                  ]
-                },
-                {
-                  "Episode": 47,
-                  "Title": "The Emerald Duck",
-                  "Duration": "22m",
-                  "Description": "",
-                  "Thumbnail": "",
-                  "Servers": [
-                    {
-                      "name": "MP4",
-                      "subtitle1": "",
-                      "subtitle2": "",
-                      "url": "https://ia800505.us.archive.org/1/items/inspector-gadget-go-go-gadget-series/Inspector%20Gadget%20S01E47%20The%20Emerald%20Duck.mp4"
-                    },
-                    {
-                      "name": "MP4 (alt)",
-                      "subtitle1": "",
-                      "subtitle2": "",
-                      "url": "https://ia800505.us.archive.org/1/items/inspector-gadget-go-go-gadget-series/Inspector%20Gadget%20S01E47%20The%20Emerald%20Duck.ia.mp4"
-                    }
-                  ]
-                },
-                {
-                  "Episode": 48,
-                  "Title": "Do Unto Udders",
-                  "Duration": "22m",
-                  "Description": "",
-                  "Thumbnail": "",
-                  "Servers": [
-                    {
-                      "name": "MP4",
-                      "subtitle1": "",
-                      "subtitle2": "",
-                      "url": "https://ia800505.us.archive.org/1/items/inspector-gadget-go-go-gadget-series/Inspector%20Gadget%20S01E48%20Do%20Unto%20Udders.mp4"
-                    },
-                    {
-                      "name": "MP4 (alt)",
-                      "subtitle1": "",
-                      "subtitle2": "",
-                      "url": "https://ia800505.us.archive.org/1/items/inspector-gadget-go-go-gadget-series/Inspector%20Gadget%20S01E48%20Do%20Unto%20Udders.ia.mp4"
-                    }
-                  ]
-                },
-                {
-                  "Episode": 49,
-                  "Title": "Did You Myth Me",
-                  "Duration": "22m",
-                  "Description": "",
-                  "Thumbnail": "",
-                  "Servers": [
-                    {
-                      "name": "MP4",
-                      "subtitle1": "",
-                      "subtitle2": "",
-                      "url": "https://ia800505.us.archive.org/1/items/inspector-gadget-go-go-gadget-series/Inspector%20Gadget%20S01E49%20Did%20You%20Myth%20Me.mp4"
-                    },
-                    {
-                      "name": "MP4 (alt)",
-                      "subtitle1": "",
-                      "subtitle2": "",
-                      "url": "https://ia800505.us.archive.org/1/items/inspector-gadget-go-go-gadget-series/Inspector%20Gadget%20S01E49%20Did%20You%20Myth%20Me.ia.mp4"
-                    }
-                  ]
-                },
-                {
-                  "Episode": 50,
-                  "Title": "A Bad Altitude",
-                  "Duration": "22m",
-                  "Description": "",
-                  "Thumbnail": "",
-                  "Servers": [
-                    {
-                      "name": "MP4",
-                      "subtitle1": "",
-                      "subtitle2": "",
-                      "url": "https://ia800505.us.archive.org/1/items/inspector-gadget-go-go-gadget-series/Inspector%20Gadget%20S01E50%20A%20Bad%20Altitude.mp4"
-                    },
-                    {
-                      "name": "MP4 (alt)",
-                      "subtitle1": "",
-                      "subtitle2": "",
-                      "url": "https://ia800505.us.archive.org/1/items/inspector-gadget-go-go-gadget-series/Inspector%20Gadget%20S01E50%20A%20Bad%20Altitude.ia.mp4"
-                    }
-                  ]
-                },
-                {
-                  "Episode": 51,
-                  "Title": "Funny Money",
-                  "Duration": "22m",
-                  "Description": "",
-                  "Thumbnail": "",
-                  "Servers": [
-                    {
-                      "name": "MP4",
-                      "subtitle1": "",
-                      "subtitle2": "",
-                      "url": "https://ia800505.us.archive.org/1/items/inspector-gadget-go-go-gadget-series/Inspector%20Gadget%20S01E51%20Funny%20Money.mp4"
-                    },
-                    {
-                      "name": "MP4 (alt)",
-                      "subtitle1": "",
-                      "subtitle2": "",
-                      "url": "https://ia800505.us.archive.org/1/items/inspector-gadget-go-go-gadget-series/Inspector%20Gadget%20S01E51%20Funny%20Money.ia.mp4"
-                    }
-                  ]
-                },
-                {
-                  "Episode": 52,
-                  "Title": "Follow That Jet",
-                  "Duration": "22m",
-                  "Description": "",
-                  "Thumbnail": "",
-                  "Servers": [
-                    {
-                      "name": "MP4",
-                      "subtitle1": "",
-                      "subtitle2": "",
-                      "url": "https://ia800505.us.archive.org/1/items/inspector-gadget-go-go-gadget-series/Inspector%20Gadget%20S01E52%20Follow%20That%20Jet.mp4"
-                    },
-                    {
-                      "name": "MP4 (alt)",
-                      "subtitle1": "",
-                      "subtitle2": "",
-                      "url": "https://ia800505.us.archive.org/1/items/inspector-gadget-go-go-gadget-series/Inspector%20Gadget%20S01E52%20Follow%20That%20Jet.ia.mp4"
-                    }
-                  ]
-                },
-                {
-                  "Episode": 53,
-                  "Title": "Dry Spell",
-                  "Duration": "22m",
-                  "Description": "",
-                  "Thumbnail": "",
-                  "Servers": [
-                    {
-                      "name": "MP4",
-                      "subtitle1": "",
-                      "subtitle2": "",
-                      "url": "https://ia800505.us.archive.org/1/items/inspector-gadget-go-go-gadget-series/Inspector%20Gadget%20S01E53%20Dry%20Spell.mp4"
-                    },
-                    {
-                      "name": "MP4 (alt)",
-                      "subtitle1": "",
-                      "subtitle2": "",
-                      "url": "https://ia800505.us.archive.org/1/items/inspector-gadget-go-go-gadget-series/Inspector%20Gadget%20S01E53%20Dry%20Spell.ia.mp4"
-                    }
-                  ]
-                },
-                {
-                  "Episode": 54,
-                  "Title": "Smeldorado",
-                  "Duration": "22m",
-                  "Description": "",
-                  "Thumbnail": "",
-                  "Servers": [
-                    {
-                      "name": "MP4",
-                      "subtitle1": "",
-                      "subtitle2": "",
-                      "url": "https://ia800505.us.archive.org/1/items/inspector-gadget-go-go-gadget-series/Inspector%20Gadget%20S01E54%20Smeldorado.mp4"
-                    },
-                    {
-                      "name": "MP4 (alt)",
-                      "subtitle1": "",
-                      "subtitle2": "",
-                      "url": "https://ia800505.us.archive.org/1/items/inspector-gadget-go-go-gadget-series/Inspector%20Gadget%20S01E54%20Smeldorado.ia.mp4"
-                    }
-                  ]
-                },
-                {
-                  "Episode": 55,
-                  "Title": "Quimby Exchange",
-                  "Duration": "22m",
-                  "Description": "",
-                  "Thumbnail": "",
-                  "Servers": [
-                    {
-                      "name": "MP4",
-                      "subtitle1": "",
-                      "subtitle2": "",
-                      "url": "https://ia800505.us.archive.org/1/items/inspector-gadget-go-go-gadget-series/Inspector%20Gadget%20S01E55%20Quimby%20Exchange.mp4"
-                    },
-                    {
-                      "name": "MP4 (alt)",
-                      "subtitle1": "",
-                      "subtitle2": "",
-                      "url": "https://ia800505.us.archive.org/1/items/inspector-gadget-go-go-gadget-series/Inspector%20Gadget%20S01E55%20Quimby%20Exchange.ia.mp4"
-                    }
-                  ]
-                },
-                {
-                  "Episode": 56,
-                  "Title": "Weather In Tibet",
-                  "Duration": "22m",
-                  "Description": "",
-                  "Thumbnail": "",
-                  "Servers": [
-                    {
-                      "name": "MP4",
-                      "subtitle1": "",
-                      "subtitle2": "",
-                      "url": "https://ia800505.us.archive.org/1/items/inspector-gadget-go-go-gadget-series/Inspector%20Gadget%20S01E56%20Weather%20In%20Tibet.mp4"
-                    },
-                    {
-                      "name": "MP4 (alt)",
-                      "subtitle1": "",
-                      "subtitle2": "",
-                      "url": "https://ia800505.us.archive.org/1/items/inspector-gadget-go-go-gadget-series/Inspector%20Gadget%20S01E56%20Weather%20In%20Tibet.ia.mp4"
-                    }
-                  ]
-                },
-                {
-                  "Episode": 57,
-                  "Title": "Unhenged",
-                  "Duration": "22m",
-                  "Description": "",
-                  "Thumbnail": "",
-                  "Servers": [
-                    {
-                      "name": "MP4",
-                      "subtitle1": "",
-                      "subtitle2": "",
-                      "url": "https://ia800505.us.archive.org/1/items/inspector-gadget-go-go-gadget-series/Inspector%20Gadget%20S01E57%20Unhenged.mp4"
-                    },
-                    {
-                      "name": "MP4 (alt)",
-                      "subtitle1": "",
-                      "subtitle2": "",
-                      "url": "https://ia800505.us.archive.org/1/items/inspector-gadget-go-go-gadget-series/Inspector%20Gadget%20S01E57%20Unhenged.ia.mp4"
-                    }
-                  ]
-                },
-                {
-                  "Episode": 58,
-                  "Title": "Snakin' All Over",
-                  "Duration": "22m",
-                  "Description": "",
-                  "Thumbnail": "",
-                  "Servers": [
-                    {
-                      "name": "MP4",
-                      "subtitle1": "",
-                      "subtitle2": "",
-                      "url": "https://ia800505.us.archive.org/1/items/inspector-gadget-go-go-gadget-series/Inspector%20Gadget%20S01E58%20Snakin%27%20All%20Over.mp4"
-                    },
-                    {
-                      "name": "MP4 (alt)",
-                      "subtitle1": "",
-                      "subtitle2": "",
-                      "url": "https://ia800505.us.archive.org/1/items/inspector-gadget-go-go-gadget-series/Inspector%20Gadget%20S01E58%20Snakin%27%20All%20Over.ia.mp4"
-                    }
-                  ]
-                },
-                {
-                  "Episode": 59,
-                  "Title": "In Seine",
-                  "Duration": "22m",
-                  "Description": "",
-                  "Thumbnail": "",
-                  "Servers": [
-                    {
-                      "name": "MP4",
-                      "subtitle1": "",
-                      "subtitle2": "",
-                      "url": "https://ia800505.us.archive.org/1/items/inspector-gadget-go-go-gadget-series/Inspector%20Gadget%20S01E59%20In%20Seine.mp4"
-                    },
-                    {
-                      "name": "MP4 (alt)",
-                      "subtitle1": "",
-                      "subtitle2": "",
-                      "url": "https://ia800505.us.archive.org/1/items/inspector-gadget-go-go-gadget-series/Inspector%20Gadget%20S01E59%20In%20Seine.ia.mp4"
-                    }
-                  ]
-                },
-                {
-                  "Episode": 60,
-                  "Title": "Tree Guesses",
-                  "Duration": "22m",
-                  "Description": "",
-                  "Thumbnail": "",
-                  "Servers": [
-                    {
-                      "name": "MP4",
-                      "subtitle1": "",
-                      "subtitle2": "",
-                      "url": "https://ia800505.us.archive.org/1/items/inspector-gadget-go-go-gadget-series/Inspector%20Gadget%20S01E60%20Tree%20Guesses.mp4"
-                    },
-                    {
-                      "name": "MP4 (alt)",
-                      "subtitle1": "",
-                      "subtitle2": "",
-                      "url": "https://ia800505.us.archive.org/1/items/inspector-gadget-go-go-gadget-series/Inspector%20Gadget%20S01E60%20Tree%20Guesses.ia.mp4"
-                    }
-                  ]
-                },
-                {
-                  "Episode": 61,
-                  "Title": "Birds of a Feather",
-                  "Duration": "22m",
-                  "Description": "",
-                  "Thumbnail": "",
-                  "Servers": [
-                    {
-                      "name": "MP4",
-                      "subtitle1": "",
-                      "subtitle2": "",
-                      "url": "https://ia800505.us.archive.org/1/items/inspector-gadget-go-go-gadget-series/Inspector%20Gadget%20S01E61%20Birds%20of%20a%20Feather.mp4"
-                    },
-                    {
-                      "name": "MP4 (alt)",
-                      "subtitle1": "",
-                      "subtitle2": "",
-                      "url": "https://ia800505.us.archive.org/1/items/inspector-gadget-go-go-gadget-series/Inspector%20Gadget%20S01E61%20Birds%20of%20a%20Feather.ia.mp4"
-                    }
-                  ]
-                },
-                {
-                  "Episode": 62,
-                  "Title": "So it is Written",
-                  "Duration": "22m",
-                  "Description": "",
-                  "Thumbnail": "",
-                  "Servers": [
-                    {
-                      "name": "MP4",
-                      "subtitle1": "",
-                      "subtitle2": "",
-                      "url": "https://ia800505.us.archive.org/1/items/inspector-gadget-go-go-gadget-series/Inspector%20Gadget%20S01E62%20So%20it%20is%20Written.mp4"
-                    },
-                    {
-                      "name": "MP4 (alt)",
-                      "subtitle1": "",
-                      "subtitle2": "",
-                      "url": "https://ia800505.us.archive.org/1/items/inspector-gadget-go-go-gadget-series/Inspector%20Gadget%20S01E62%20So%20it%20is%20Written.ia.mp4"
-                    }
-                  ]
-                },
-                {
-                  "Episode": 63,
-                  "Title": "Fang the Wonder Dog",
-                  "Duration": "22m",
-                  "Description": "",
-                  "Thumbnail": "",
-                  "Servers": [
-                    {
-                      "name": "MP4",
-                      "subtitle1": "",
-                      "subtitle2": "",
-                      "url": "https://ia800505.us.archive.org/1/items/inspector-gadget-go-go-gadget-series/Inspector%20Gadget%20S01E63%20Fang%20the%20Wonder%20Dog.mp4"
-                    },
-                    {
-                      "name": "MP4 (alt)",
-                      "subtitle1": "",
-                      "subtitle2": "",
-                      "url": "https://ia800505.us.archive.org/1/items/inspector-gadget-go-go-gadget-series/Inspector%20Gadget%20S01E63%20Fang%20the%20Wonder%20Dog.ia.mp4"
-                    }
-                  ]
-                },
-                {
-                  "Episode": 64,
-                  "Title": "School for Pickpockets",
-                  "Duration": "22m",
-                  "Description": "",
-                  "Thumbnail": "",
-                  "Servers": [
-                    {
-                      "name": "MP4",
-                      "subtitle1": "",
-                      "subtitle2": "",
-                      "url": "https://ia800505.us.archive.org/1/items/inspector-gadget-go-go-gadget-series/Inspector%20Gadget%20S01E64%20School%20for%20Pickpockets.mp4"
-                    },
-                    {
-                      "name": "MP4 (alt)",
-                      "subtitle1": "",
-                      "subtitle2": "",
-                      "url": "https://ia800505.us.archive.org/1/items/inspector-gadget-go-go-gadget-series/Inspector%20Gadget%20S01E64%20School%20for%20Pickpockets.ia.mp4"
-                    }
-                  ]
-                },
-                {
-                  "Episode": 65,
-                  "Title": "Quizz Master",
-                  "Duration": "22m",
-                  "Description": "",
-                  "Thumbnail": "",
-                  "Servers": [
-                    {
-                      "name": "MP4",
-                      "subtitle1": "",
-                      "subtitle2": "",
-                      "url": "https://ia800505.us.archive.org/1/items/inspector-gadget-go-go-gadget-series/Inspector%20Gadget%20S01E65%20Quizz%20Master.mp4"
-                    },
-                    {
-                      "name": "MP4 (alt)",
-                      "subtitle1": "",
-                      "subtitle2": "",
-                      "url": "https://ia800505.us.archive.org/1/items/inspector-gadget-go-go-gadget-series/Inspector%20Gadget%20S01E65%20Quizz%20Master.ia.mp4"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "Season": 2,
-              "SeasonPoster": "https://movie-fcs.fwh.is/poster/inspector_gadget.jpg",
-              "Episodes": [
-                {
-                  "Episode": 1,
-                  "Title": "Magic Gadget",
-                  "Duration": "22m",
-                  "Description": "",
-                  "Thumbnail": "",
-                  "Servers": [
-                    {
-                      "name": "MP4",
-                      "subtitle1": "",
-                      "subtitle2": "",
-                      "url": "https://ia800505.us.archive.org/1/items/inspector-gadget-go-go-gadget-series/Inspector%20Gadget%20S02E01%20Magic%20Gadget.mp4"
-                    },
-                    {
-                      "name": "MP4 (alt)",
-                      "subtitle1": "",
-                      "subtitle2": "",
-                      "url": "https://ia800505.us.archive.org/1/items/inspector-gadget-go-go-gadget-series/Inspector%20Gadget%20S02E01%20Magic%20Gadget.ia.mp4"
-                    }
-                  ]
-                },
-                {
-                  "Episode": 2,
-                  "Title": "The Great Wambini's Seance",
-                  "Duration": "22m",
-                  "Description": "",
-                  "Thumbnail": "",
-                  "Servers": [
-                    {
-                      "name": "MP4",
-                      "subtitle1": "",
-                      "subtitle2": "",
-                      "url": "https://ia800505.us.archive.org/1/items/inspector-gadget-go-go-gadget-series/Inspector%20Gadget%20S02E02%20The%20Great%20Wambini%27s%20Seance.mp4"
-                    },
-                    {
-                      "name": "MP4 (alt)",
-                      "subtitle1": "",
-                      "subtitle2": "",
-                      "url": "https://ia800505.us.archive.org/1/items/inspector-gadget-go-go-gadget-series/Inspector%20Gadget%20S02E02%20The%20Great%20Wambini%27s%20Seance.ia.mp4"
-                    }
-                  ]
-                },
-                {
-                  "Episode": 3,
-                  "Title": "Wambini Predicts",
-                  "Duration": "22m",
-                  "Description": "",
-                  "Thumbnail": "",
-                  "Servers": [
-                    {
-                      "name": "MP4",
-                      "subtitle1": "",
-                      "subtitle2": "",
-                      "url": "https://ia800505.us.archive.org/1/items/inspector-gadget-go-go-gadget-series/Inspector%20Gadget%20S02E03%20Wambini%20Predicts.mp4"
-                    },
-                    {
-                      "name": "MP4 (alt)",
-                      "subtitle1": "",
-                      "subtitle2": "",
-                      "url": "https://ia800505.us.archive.org/1/items/inspector-gadget-go-go-gadget-series/Inspector%20Gadget%20S02E03%20Wambini%20Predicts.ia.mp4"
-                    }
-                  ]
-                },
-                {
-                  "Episode": 4,
-                  "Title": "The Capeman Cometh",
-                  "Duration": "22m",
-                  "Description": "",
-                  "Thumbnail": "",
-                  "Servers": [
-                    {
-                      "name": "MP4",
-                      "subtitle1": "",
-                      "subtitle2": "",
-                      "url": "https://ia800505.us.archive.org/1/items/inspector-gadget-go-go-gadget-series/Inspector%20Gadget%20S02E04%20The%20Capeman%20Cometh.mp4"
-                    },
-                    {
-                      "name": "MP4 (alt)",
-                      "subtitle1": "",
-                      "subtitle2": "",
-                      "url": "https://ia800505.us.archive.org/1/items/inspector-gadget-go-go-gadget-series/Inspector%20Gadget%20S02E04%20The%20Capeman%20Cometh.ia.mp4"
-                    }
-                  ]
-                },
-                {
-                  "Episode": 5,
-                  "Title": "Crashcourse in Crime",
-                  "Duration": "22m",
-                  "Description": "",
-                  "Thumbnail": "",
-                  "Servers": [
-                    {
-                      "name": "MP4",
-                      "subtitle1": "",
-                      "subtitle2": "",
-                      "url": "https://ia800505.us.archive.org/1/items/inspector-gadget-go-go-gadget-series/Inspector%20Gadget%20S02E05%20Crashcourse%20in%20Crime.mp4"
-                    },
-                    {
-                      "name": "MP4 (alt)",
-                      "subtitle1": "",
-                      "subtitle2": "",
-                      "url": "https://ia800505.us.archive.org/1/items/inspector-gadget-go-go-gadget-series/Inspector%20Gadget%20S02E05%20Crashcourse%20in%20Crime.ia.mp4"
-                    }
-                  ]
-                },
-                {
-                  "Episode": 6,
-                  "Title": "Gadget's Gadgets",
-                  "Duration": "22m",
-                  "Description": "",
-                  "Thumbnail": "",
-                  "Servers": [
-                    {
-                      "name": "MP4",
-                      "subtitle1": "",
-                      "subtitle2": "",
-                      "url": "https://ia800505.us.archive.org/1/items/inspector-gadget-go-go-gadget-series/Inspector%20Gadget%20S02E06%20Gadget%27s%20Gadgets.mp4"
-                    },
-                    {
-                      "name": "MP4 (alt)",
-                      "subtitle1": "",
-                      "subtitle2": "",
-                      "url": "https://ia800505.us.archive.org/1/items/inspector-gadget-go-go-gadget-series/Inspector%20Gadget%20S02E06%20Gadget%27s%20Gadgets.ia.mp4"
-                    }
-                  ]
-                },
-                {
-                  "Episode": 7,
-                  "Title": "Gadget in Minimadness",
-                  "Duration": "22m",
-                  "Description": "",
-                  "Thumbnail": "",
-                  "Servers": [
-                    {
-                      "name": "MP4",
-                      "subtitle1": "",
-                      "subtitle2": "",
-                      "url": "https://ia800505.us.archive.org/1/items/inspector-gadget-go-go-gadget-series/Inspector%20Gadget%20S02E07%20Gadget%20in%20Minimadness.mp4"
-                    },
-                    {
-                      "name": "MP4 (alt)",
-                      "subtitle1": "",
-                      "subtitle2": "",
-                      "url": "https://ia800505.us.archive.org/1/items/inspector-gadget-go-go-gadget-series/Inspector%20Gadget%20S02E07%20Gadget%20in%20Minimadness.ia.mp4"
-                    }
-                  ]
-                },
-                {
-                  "Episode": 8,
-                  "Title": "The Incredible Shrinking Gadget",
-                  "Duration": "22m",
-                  "Description": "",
-                  "Thumbnail": "",
-                  "Servers": [
-                    {
-                      "name": "MP4",
-                      "subtitle1": "",
-                      "subtitle2": "",
-                      "url": "https://ia800505.us.archive.org/1/items/inspector-gadget-go-go-gadget-series/Inspector%20Gadget%20S02E08%20The%20Incredible%20Shrinking%20Gadget.mp4"
-                    },
-                    {
-                      "name": "MP4 (alt)",
-                      "subtitle1": "",
-                      "subtitle2": "",
-                      "url": "https://ia800505.us.archive.org/1/items/inspector-gadget-go-go-gadget-series/Inspector%20Gadget%20S02E08%20The%20Incredible%20Shrinking%20Gadget.ia.mp4"
-                    }
-                  ]
-                },
-                {
-                  "Episode": 9,
-                  "Title": "Gadget Meets the Grappler",
-                  "Duration": "22m",
-                  "Description": "",
-                  "Thumbnail": "",
-                  "Servers": [
-                    {
-                      "name": "MP4",
-                      "subtitle1": "",
-                      "subtitle2": "",
-                      "url": "https://ia800505.us.archive.org/1/items/inspector-gadget-go-go-gadget-series/Inspector%20Gadget%20S02E09%20Gadget%20Meets%20the%20Grappler.mp4"
-                    },
-                    {
-                      "name": "MP4 (alt)",
-                      "subtitle1": "",
-                      "subtitle2": "",
-                      "url": "https://ia800505.us.archive.org/1/items/inspector-gadget-go-go-gadget-series/Inspector%20Gadget%20S02E09%20Gadget%20Meets%20the%20Grappler.ia.mp4"
-                    }
-                  ]
-                },
-                {
-                  "Episode": 10,
-                  "Title": "Ghost Catchers",
-                  "Duration": "22m",
-                  "Description": "",
-                  "Thumbnail": "",
-                  "Servers": [
-                    {
-                      "name": "MP4",
-                      "subtitle1": "",
-                      "subtitle2": "",
-                      "url": "https://ia800505.us.archive.org/1/items/inspector-gadget-go-go-gadget-series/Inspector%20Gadget%20S02E10%20Ghost%20Catchers.mp4"
-                    },
-                    {
-                      "name": "MP4 (alt)",
-                      "subtitle1": "",
-                      "subtitle2": "",
-                      "url": "https://ia800505.us.archive.org/1/items/inspector-gadget-go-go-gadget-series/Inspector%20Gadget%20S02E10%20Ghost%20Catchers.ia.mp4"
-                    }
-                  ]
-                },
-                {
-                  "Episode": 11,
-                  "Title": "Busy Signal",
-                  "Duration": "22m",
-                  "Description": "",
-                  "Thumbnail": "",
-                  "Servers": [
-                    {
-                      "name": "MP4",
-                      "subtitle1": "",
-                      "subtitle2": "",
-                      "url": "https://ia800505.us.archive.org/1/items/inspector-gadget-go-go-gadget-series/Inspector%20Gadget%20S02E11%20Busy%20Signal.mp4"
-                    },
-                    {
-                      "name": "MP4 (alt)",
-                      "subtitle1": "",
-                      "subtitle2": "",
-                      "url": "https://ia800505.us.archive.org/1/items/inspector-gadget-go-go-gadget-series/Inspector%20Gadget%20S02E11%20Busy%20Signal.ia.mp4"
-                    }
-                  ]
-                },
-                {
-                  "Episode": 12,
-                  "Title": "Bad Dreams are Made of This",
-                  "Duration": "22m",
-                  "Description": "",
-                  "Thumbnail": "",
-                  "Servers": [
-                    {
-                      "name": "MP4",
-                      "subtitle1": "",
-                      "subtitle2": "",
-                      "url": "https://ia800505.us.archive.org/1/items/inspector-gadget-go-go-gadget-series/Inspector%20Gadget%20S02E12%20Bad%20Dreams%20are%20Made%20of%20This.mp4"
-                    },
-                    {
-                      "name": "MP4 (alt)",
-                      "subtitle1": "",
-                      "subtitle2": "",
-                      "url": "https://ia800505.us.archive.org/1/items/inspector-gadget-go-go-gadget-series/Inspector%20Gadget%20S02E12%20Bad%20Dreams%20are%20Made%20of%20This.ia.mp4"
-                    }
-                  ]
-                },
-                {
-                  "Episode": 13,
-                  "Title": "Focus on Gadget",
-                  "Duration": "22m",
-                  "Description": "",
-                  "Thumbnail": "",
-                  "Servers": [
-                    {
-                      "name": "MP4",
-                      "subtitle1": "",
-                      "subtitle2": "",
-                      "url": "https://ia800505.us.archive.org/1/items/inspector-gadget-go-go-gadget-series/Inspector%20Gadget%20S02E13%20Focus%20on%20Gadget.mp4"
-                    },
-                    {
-                      "name": "MP4 (alt)",
-                      "subtitle1": "",
-                      "subtitle2": "",
-                      "url": "https://ia800505.us.archive.org/1/items/inspector-gadget-go-go-gadget-series/Inspector%20Gadget%20S02E13%20Focus%20on%20Gadget.ia.mp4"
-                    }
-                  ]
-                },
-                {
-                  "Episode": 14,
-                  "Title": "M.A.D. in the Moon",
-                  "Duration": "22m",
-                  "Description": "",
-                  "Thumbnail": "",
-                  "Servers": [
-                    {
-                      "name": "MP4",
-                      "subtitle1": "",
-                      "subtitle2": "",
-                      "url": "https://ia800505.us.archive.org/1/items/inspector-gadget-go-go-gadget-series/Inspector%20Gadget%20S02E14%20M.A.D.%20in%20the%20Moon.mp4"
-                    },
-                    {
-                      "name": "MP4 (alt)",
-                      "subtitle1": "",
-                      "subtitle2": "",
-                      "url": "https://ia800505.us.archive.org/1/items/inspector-gadget-go-go-gadget-series/Inspector%20Gadget%20S02E14%20M.A.D.%20in%20the%20Moon.ia.mp4"
-                    }
-                  ]
-                },
-                {
-                  "Episode": 15,
-                  "Title": "N.S.F. Gadget",
-                  "Duration": "22m",
-                  "Description": "",
-                  "Thumbnail": "",
-                  "Servers": [
-                    {
-                      "name": "MP4",
-                      "subtitle1": "",
-                      "subtitle2": "",
-                      "url": "https://ia800505.us.archive.org/1/items/inspector-gadget-go-go-gadget-series/Inspector%20Gadget%20S02E15%20N.S.F.%20Gadget.mp4"
-                    },
-                    {
-                      "name": "MP4 (alt)",
-                      "subtitle1": "",
-                      "subtitle2": "",
-                      "url": "https://ia800505.us.archive.org/1/items/inspector-gadget-go-go-gadget-series/Inspector%20Gadget%20S02E15%20N.S.F.%20Gadget.ia.mp4"
-                    }
-                  ]
-                },
-                {
-                  "Episode": 16,
-                  "Title": "Tyrannosaurus Gadget",
-                  "Duration": "22m",
-                  "Description": "",
-                  "Thumbnail": "",
-                  "Servers": [
-                    {
-                      "name": "MP4",
-                      "subtitle1": "",
-                      "subtitle2": "",
-                      "url": "https://ia800505.us.archive.org/1/items/inspector-gadget-go-go-gadget-series/Inspector%20Gadget%20S02E16%20Tyrannosaurus%20Gadget.mp4"
-                    },
-                    {
-                      "name": "MP4 (alt)",
-                      "subtitle1": "",
-                      "subtitle2": "",
-                      "url": "https://ia800505.us.archive.org/1/items/inspector-gadget-go-go-gadget-series/Inspector%20Gadget%20S02E16%20Tyrannosaurus%20Gadget.ia.mp4"
-                    }
-                  ]
-                },
-                {
-                  "Episode": 17,
-                  "Title": "Gadget's Roma",
-                  "Duration": "22m",
-                  "Description": "",
-                  "Thumbnail": "",
-                  "Servers": [
-                    {
-                      "name": "MP4",
-                      "subtitle1": "",
-                      "subtitle2": "",
-                      "url": "https://ia800505.us.archive.org/1/items/inspector-gadget-go-go-gadget-series/Inspector%20Gadget%20S02E17%20Gadget%27s%20Roma.mp4"
-                    },
-                    {
-                      "name": "MP4 (alt)",
-                      "subtitle1": "",
-                      "subtitle2": "",
-                      "url": "https://ia800505.us.archive.org/1/items/inspector-gadget-go-go-gadget-series/Inspector%20Gadget%20S02E17%20Gadget%27s%20Roma.ia.mp4"
-                    }
-                  ]
-                },
-                {
-                  "Episode": 18,
-                  "Title": "Gadget's Clean Sweep",
-                  "Duration": "22m",
-                  "Description": "",
-                  "Thumbnail": "",
-                  "Servers": [
-                    {
-                      "name": "MP4",
-                      "subtitle1": "",
-                      "subtitle2": "",
-                      "url": "https://ia800505.us.archive.org/1/items/inspector-gadget-go-go-gadget-series/Inspector%20Gadget%20S02E18%20Gadget%27s%20Clean%20Sweep.mp4"
-                    },
-                    {
-                      "name": "MP4 (alt)",
-                      "subtitle1": "",
-                      "subtitle2": "",
-                      "url": "https://ia800505.us.archive.org/1/items/inspector-gadget-go-go-gadget-series/Inspector%20Gadget%20S02E18%20Gadget%27s%20Clean%20Sweep.ia.mp4"
-                    }
-                  ]
-                },
-                {
-                  "Episode": 19,
-                  "Title": "Gadget Meets the Clan",
-                  "Duration": "22m",
-                  "Description": "",
-                  "Thumbnail": "",
-                  "Servers": [
-                    {
-                      "name": "MP4",
-                      "subtitle1": "",
-                      "subtitle2": "",
-                      "url": "https://ia800505.us.archive.org/1/items/inspector-gadget-go-go-gadget-series/Inspector%20Gadget%20S02E19%20Gadget%20Meets%20the%20Clan.mp4"
-                    },
-                    {
-                      "name": "MP4 (alt)",
-                      "subtitle1": "",
-                      "subtitle2": "",
-                      "url": "https://ia800505.us.archive.org/1/items/inspector-gadget-go-go-gadget-series/Inspector%20Gadget%20S02E19%20Gadget%20Meets%20the%20Clan.ia.mp4"
-                    }
-                  ]
-                },
-                {
-                  "Episode": 20,
-                  "Title": "Gadget and Old Lace",
-                  "Duration": "22m",
-                  "Description": "",
-                  "Thumbnail": "",
-                  "Servers": [
-                    {
-                      "name": "MP4",
-                      "subtitle1": "",
-                      "subtitle2": "",
-                      "url": "https://ia800505.us.archive.org/1/items/inspector-gadget-go-go-gadget-series/Inspector%20Gadget%20S02E20%20Gadget%20and%20Old%20Lace.mp4"
-                    },
-                    {
-                      "name": "MP4 (alt)",
-                      "subtitle1": "",
-                      "subtitle2": "",
-                      "url": "https://ia800505.us.archive.org/1/items/inspector-gadget-go-go-gadget-series/Inspector%20Gadget%20S02E20%20Gadget%20and%20Old%20Lace.ia.mp4"
-                    }
-                  ]
-                },
-                {
-                  "Episode": 21,
-                  "Title": "Gadget and the Red Rose",
-                  "Duration": "22m",
-                  "Description": "",
-                  "Thumbnail": "",
-                  "Servers": [
-                    {
-                      "name": "MP4",
-                      "subtitle1": "",
-                      "subtitle2": "",
-                      "url": "https://ia800505.us.archive.org/1/items/inspector-gadget-go-go-gadget-series/Inspector%20Gadget%20S02E21%20Gadget%20and%20the%20Red%20Rose.mp4"
-                    },
-                    {
-                      "name": "MP4 (alt)",
-                      "subtitle1": "",
-                      "subtitle2": "",
-                      "url": "https://ia800505.us.archive.org/1/items/inspector-gadget-go-go-gadget-series/Inspector%20Gadget%20S02E21%20Gadget%20and%20the%20Red%20Rose.ia.mp4"
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
         {
           "Title": "Moonshine",
           "SubCategory": "Historical, Romance, Drama",
@@ -3036,6 +1206,56 @@
                       "subtitle1": "",
                       "subtitle2": "",
                       "url": "https://ia800708.us.archive.org/32/items/moonshine-south-korean-tv-series/Moonshine%2016.mp4"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "Title": "jd",
+          "SubCategory": "General",
+          "Country": "",
+          "Description": "",
+          "Poster": "",
+          "Thumbnail": "",
+          "Rating": 0,
+          "Year": 0,
+          "Seasons": [
+            {
+              "Season": 1,
+              "SeasonPoster": "",
+              "Episodes": [
+                {
+                  "Episode": 1,
+                  "Title": "",
+                  "Duration": "",
+                  "Description": "",
+                  "Thumbnail": "",
+                  "Servers": [
+                    {
+                      "name": "nd",
+                      "url": "jd"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "Season": 2,
+              "SeasonPoster": "",
+              "Episodes": [
+                {
+                  "Episode": 1,
+                  "Title": "",
+                  "Duration": "",
+                  "Description": "",
+                  "Thumbnail": "",
+                  "Servers": [
+                    {
+                      "name": "nd",
+                      "url": "nd"
                     }
                   ]
                 }
