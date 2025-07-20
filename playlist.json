@@ -1,0 +1,168 @@
+{
+  "Categories": [
+    {
+      "MainCategory": "Live TV",
+      "SubCategories": [
+        "Entertainment"
+      ],
+      "Entries": [
+        {
+          "Title": "AZ2",
+          "SubCategory": "Entertainment",
+          "Country": "🇵🇭 Philippines",
+          "Description": "AZ2",
+          "Poster": "https://i.imgur.com/1zsdloF.png",
+          "Thumbnail": "https://i.imgur.com/1zsdloF.png",
+          "Rating": 0,
+          "Servers": [
+            {
+              "name": "720p",
+              "url": "https://qp-pldt-live-grp-02-prod.akamaized.net/out/u/tv5_5.m3u8"
+            },
+            {
+              "name": "480p",
+              "url": "https://qp-pldt-live-grp-02-prod.akamaized.net/out/u/tv5_4.m3u8"
+            },
+            {
+              "name": "360p",
+              "url": "https://qp-pldt-live-grp-02-prod.akamaized.net/out/u/tv5_3.m3u8"
+            },
+            {
+              "name": "240p",
+              "url": "https://qp-pldt-live-grp-02-prod.akamaized.net/out/u/tv5_2.m3u8"
+            },
+            {
+              "name": "144p",
+              "url": "https://qp-pldt-live-grp-02-prod.akamaized.net/out/u/tv5_1.m3u8"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "MainCategory": "Movies",
+      "SubCategories": [
+        "Action"
+      ],
+      "Entries": [
+        {
+          "Title": "Triple Threat",
+          "SubCategory": "",
+          "Country": "",
+          "Description": "",
+          "Poster": "",
+          "Thumbnail": "",
+          "Rating": null,
+          "Duration": "",
+          "Year": 2020,
+          "Servers": [
+            {
+              "name": "1080p",
+              "url": "https://vidsrc.me/embed/movie?imdb=tt9233514"
+            }
+          ]
+        },
+        {
+          "Title": "Hanggat May Hininga",
+          "SubCategory": "Action",
+          "Country": "",
+          "Description": "A pinoy old movie",
+          "Poster": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTQ8Vva_JHrKT3ZxYN8gwT9adxW8ROgvv2cf7GQo4X6zNBTc8jdgnlUKBw&s=10",
+          "Thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTQ8Vva_JHrKT3ZxYN8gwT9adxW8ROgvv2cf7GQo4X6zNBTc8jdgnlUKBw&s=10",
+          "Rating": 6,
+          "Duration": "2:00:00",
+          "Year": 1997,
+          "Servers": [
+            {
+              "name": "4k",
+              "url": "https://youtu.be/vvCzT-8PIho?si=sX0OLUOJg8l2biXx"
+            },
+            {
+              "name": "1080p",
+              "url": "nd"
+            },
+            {
+              "name": "720p",
+              "url": "nfnf"
+            },
+            {
+              "name": "480p",
+              "url": "nfnf"
+            },
+            {
+              "name": "360p",
+              "url": "fn"
+            },
+            {
+              "name": "240p",
+              "url": "nfjf"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "MainCategory": "TV Series",
+      "SubCategories": [
+        "Anime",
+        "Action,Anime"
+      ],
+      "Entries": [
+        {
+          "Title": "Naruto Kid Tagalog Dub",
+          "SubCategory": "Action,Anime",
+          "Country": "",
+          "Description": "An anime series in Tagalog Dub",
+          "Poster": "https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p9161972_b_h9_aa.jpg",
+          "Thumbnail": "https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p9161972_b_h9_aa.jpg",
+          "Rating": 9,
+          "Year": 2005,
+          "Seasons": [
+            {
+              "Season": 1,
+              "SeasonPoster": "https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p9161972_b_h9_aa.jpg",
+              "Episodes": [
+                {
+                  "Episode": 1,
+                  "Title": "Episode 1",
+                  "Duration": "00:24:00",
+                  "Description": "The first episode",
+                  "Thumbnail": "https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p9161972_b_h9_aa.jpg",
+                  "Servers": [
+                    {
+                      "name": "480p",
+                      "url": "example.com"
+                    },
+                    {
+                      "name": "240p",
+                      "url": "nfnf"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "Season": 2,
+              "SeasonPoster": "",
+              "Episodes": [
+                {
+                  "Episode": 1,
+                  "Title": "",
+                  "Duration": "",
+                  "Description": "",
+                  "Thumbnail": "",
+                  "Servers": [
+                    {
+                      "name": "nc",
+                      "url": "jx"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
