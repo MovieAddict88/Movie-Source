@@ -36,6 +36,853 @@
               "url": "https://qp-pldt-live-grp-02-prod.akamaized.net/out/u/tv5_1.m3u8"
             }
           ]
+        },
+        {
+    "Title": "HBO Family Asia",
+    "SubCategory": "Movies",
+    "Country": "🌐 Asia",
+    "Description": "HBO Family Asia is a pay television network that features family-friendly movies.",
+    "Poster": "https://i.imgur.com/5krGyOX.png",
+    "Thumbnail": "https://i.imgur.com/5krGyOX.png",
+    "Rating": 0,
+    "Duration": "",
+    "Year": null,
+    "Servers": [
+      {
+        "name": "HD",
+        "url": "https://qp-pldt-live-grp-03-prod.akamaized.net/out/u/cg_hbofam.mpd"
+      }
+    ]
+  },
+  {
+    "Title": "One Sport+",
+    "SubCategory": "Sports",
+    "Country": "🇵🇭 Philippines",
+    "Description": "One Sports+ is a Filipino pay television channel.",
+    "Poster": "https://i.imgur.com/cb9Hp32.png",
+    "Thumbnail": "https://i.imgur.com/cb9Hp32.png",
+    "Rating": 0,
+    "Duration": "",
+    "Year": null,
+    "Servers": [
+      {
+        "name": "HD",
+        "url": "https://qp-pldt-live-grp-03-prod.akamaized.net/out/u/cg_onesportsplus_hd1.mpd"
+      }
+    ]
+  },
+  {
+    "Title": "PBA Rush",
+    "SubCategory": "Sports",
+    "Country": "🇵🇭 Philippines",
+    "Description": "PBA Rush is a 24/7 channel which has been dedicated to broadcast the PBA Games.",
+    "Poster": "https://i.imgur.com/FmvPl3U.png",
+    "Thumbnail": "https://i.imgur.com/FmvPl3U.png",
+    "Rating": 0,
+    "Duration": "",
+    "Year": null,
+    "Servers": [
+      {
+        "name": "HD",
+        "url": "https://qp-pldt-live-grp-01-prod.akamaized.net/out/u/cg_pbarush_hd1.mpd"
+      }
+    ]
+  },
+  {
+    "Title": "NBA TV Philippines",
+    "SubCategory": "Sports",
+    "Country": "🇵🇭 Philippines",
+    "Description": "NBA TV Philippines is a Filipino pay television channel that is dedicated to basketball.",
+    "Poster": "https://i.imgur.com/zC6ul0L.png",
+    "Thumbnail": "https://i.imgur.com/zC6ul0L.png",
+    "Rating": 0,
+    "Duration": "",
+    "Year": null,
+    "Servers": [
+      {
+        "name": "SD",
+        "url": "https://qp-pldt-live-grp-02-prod.akamaized.net/out/u/nba_sdi.mpd"
+      }
+    ]
+  },
+  {
+    "Title": "Premier Sports",
+    "SubCategory": "Sports",
+    "Country": "🌐 International",
+    "Description": "Premier Sports is a British pay television sports channel.",
+    "Poster": "https://i.imgur.com/iTZsuwE.png",
+    "Thumbnail": "https://i.imgur.com/iTZsuwE.png",
+    "Rating": 0,
+    "Duration": "",
+    "Year": null,
+    "Servers": [
+      {
+        "name": "HD",
+        "url": "https://qp-pldt-live-grp-13-prod.akamaized.net/out/u/dr_premiertennishd.mpd"
+      }
+    ]
+  },
+  {
+    "Title": "SPOTV",
+    "SubCategory": "Sports",
+    "Country": "🌐 Asia",
+    "Description": "SPOTV is a South Korean pay television network that features sports programming.",
+    "Poster": "https://i.imgur.com/odMlNlu.png",
+    "Thumbnail": "https://i.imgur.com/odMlNlu.png",
+    "Rating": 0,
+    "Duration": "",
+    "Year": null,
+    "Servers": [
+      {
+        "name": "HD",
+        "url": "https://qp-pldt-live-grp-11-prod.akamaized.net/out/u/dr_spotvhd.mpd"
+      }
+    ]
+  },
+  {
+    "Title": "Football TV",
+    "SubCategory": "Sports",
+    "Country": "🌐 International",
+    "Description": "A TV channel dedicated to football.",
+    "Poster": "https://images.deepai.org/art-image/0f3456df03504154b9c4c9e2bbbe0bf6/football-logo-6e9e48.jpg",
+    "Thumbnail": "https://images.deepai.org/art-image/0f3456df03504154b9c4c9e2bbbe0bf6/football-logo-6e9e48.jpg",
+    "Rating": 0,
+    "Duration": "",
+    "Year": null,
+    "Servers": [
+      {
+        "name": "HD",
+        "url": "https://live20.bozztv.com/trn03/gin-ssfootball/index.m3u8"
+      }
+    ]
+  },
+  {
+    "Title": "Cartoonito Asia",
+    "SubCategory": "Animation",
+    "Country": "🌐 Asia",
+    "Description": "Cartoonito is a pay television channel that features programming for preschoolers.",
+    "Poster": "https://i.imgur.com/oTAZpMX.png",
+    "Thumbnail": "https://i.imgur.com/oTAZpMX.png",
+    "Rating": 0,
+    "Duration": "",
+    "Year": null,
+    "Servers": [
+      {
+        "name": "HD",
+        "url": "https://streaming.indihometv.com/atm/DASH/boomerang/manifest.mpd"
+      }
+    ]
+  },
+  {
+    "Title": "Cartoon Network Asia",
+    "SubCategory": "Animation",
+    "Country": "🌐 Asia",
+    "Description": "Cartoon Network is a pay television channel that features animated programming.",
+    "Poster": "https://i.imgur.com/NA0v02i.png",
+    "Thumbnail": "https://i.imgur.com/NA0v02i.png",
+    "Rating": 0,
+    "Duration": "",
+    "Year": null,
+    "Servers": [
+      {
+        "name": "HD",
+        "url": "https://qp-pldt-live-grp-12-prod.akamaized.net/out/u/dr_cartoonnetworkhd.mpd"
+      }
+    ]
+  },
+  {
+    "Title": "Animax Asia",
+    "SubCategory": "Animation",
+    "Country": "🌐 Asia",
+    "Description": "Animax is a pay television channel that features Japanese anime.",
+    "Poster": "https://i.imgur.com/60ltJNZ.png",
+    "Thumbnail": "https://i.imgur.com/60ltJNZ.png",
+    "Rating": 0,
+    "Duration": "",
+    "Year": null,
+    "Servers": [
+      {
+        "name": "SD",
+        "url": "https://qp-pldt-live-grp-07-prod.akamaized.net/out/u/cg_animax_sd_new.mpd"
+      }
+    ]
+  },
+  {
+    "Title": "Mr. Bean",
+    "SubCategory": "Comedy",
+    "Country": "🇬🇧 United Kingdom",
+    "Description": "Mr. Bean is a British sitcom created by Rowan Atkinson and Richard Curtis.",
+    "Poster": "https://images.deepai.org/art-image/9adc6f1f1c524b8ea3b09b31284dffef/mr-bean-cartoon-with-text-logo-355a93.jpg",
+    "Thumbnail": "https://images.deepai.org/art-image/9adc6f1f1c524b8ea3b09b31284dffef/mr-bean-cartoon-with-text-logo-355a93.jpg",
+    "Rating": 0,
+    "Duration": "",
+    "Year": null,
+    "Servers": [
+      {
+        "name": "HD",
+        "url": "https://amg00627-amg00627c30-rakuten-es-3990.playouts.now.amagi.tv/playlist/amg00627-banijayfast-mrbeanescc-rakutenes/playlist.m3u8"
+      }
+    ]
+  },
+  {
+    "Title": "Cartoon Classic",
+    "SubCategory": "Animation",
+    "Country": "🌐 International",
+    "Description": "A channel dedicated to classic cartoons.",
+    "Poster": "https://images.deepai.org/art-image/bb6cec15a5cb4b8589835904396b3eff/cartoon-classic-logo-8472ab.jpg",
+    "Thumbnail": "https://images.deepai.org/art-image/bb6cec15a5cb4b8589835904396b3eff/cartoon-classic-logo-8472ab.jpg",
+    "Rating": 0,
+    "Duration": "",
+    "Year": null,
+    "Servers": [
+      {
+        "name": "HD",
+        "url": "https://streams2.sofast.tv/v1/master/611d79b11b77e2f571934fd80ca1413453772ac7/d5543c06-5122-49a7-9662-32187f48aa2c/manifest.m3u8"
+      }
+    ]
+  },
+  {
+    "Title": "Moonbug Kids",
+    "SubCategory": "Animation",
+    "Country": "🌐 International",
+    "Description": "Moonbug Kids is a channel for kids.",
+    "Poster": "https://i.imgur.com/vUpIbVN.png",
+    "Thumbnail": "https://i.imgur.com/vUpIbVN.png",
+    "Rating": 0,
+    "Duration": "",
+    "Year": null,
+    "Servers": [
+      {
+        "name": "SD",
+        "url": "https://qp-pldt-live-grp-06-prod.akamaized.net/out/u/cg_moonbug_kids_sd.mpd"
+      }
+    ]
+  },
+  {
+    "Title": "Asian Food Network",
+    "SubCategory": "Lifestyle",
+    "Country": "🌐 Asia",
+    "Description": "Asian Food Network is a pay television channel that features food and dining programming.",
+    "Poster": "https://i.imgur.com/0CRk7Nf.png",
+    "Thumbnail": "https://i.imgur.com/0CRk7Nf.png",
+    "Rating": 0,
+    "Duration": "",
+    "Year": null,
+    "Servers": [
+      {
+        "name": "SD",
+        "url": "https://qp-pldt-live-grp-07-prod.akamaized.net/out/u/asianfoodnetwork_sd.mpd"
+      }
+    ]
+  },
+  {
+    "Title": "Animal Planet Asia",
+    "SubCategory": "Documentary",
+    "Country": "🌐 Asia",
+    "Description": "Animal Planet is a pay television channel that features programming about animals.",
+    "Poster": "https://i.imgur.com/3UMiEgD.png",
+    "Thumbnail": "https://i.imgur.com/3UMiEgD.png",
+    "Rating": 0,
+    "Duration": "",
+    "Year": null,
+    "Servers": [
+      {
+        "name": "SD",
+        "url": "https://qp-pldt-live-grp-02-prod.akamaized.net/out/u/cg_animal_planet_sd.mpd"
+      }
+    ]
+  },
+  {
+    "Title": "History Asia",
+    "SubCategory": "Documentary",
+    "Country": "🌐 Asia",
+    "Description": "History is a pay television channel that features historical programming.",
+    "Poster": "https://i.imgur.com/9zVyTXV.png",
+    "Thumbnail": "https://i.imgur.com/9zVyTXV.png",
+    "Rating": 0,
+    "Duration": "",
+    "Year": null,
+    "Servers": [
+      {
+        "name": "HD",
+        "url": "https://qp-pldt-live-grp-11-prod.akamaized.net/out/u/dr_historyhd.mpd"
+      }
+    ]
+  },
+  {
+    "Title": "Discovery Asia",
+    "SubCategory": "Documentary",
+    "Country": "🌐 Asia",
+    "Description": "Discovery Channel is a pay television channel that features documentary programming.",
+    "Poster": "https://i.imgur.com/SbiPKql.png",
+    "Thumbnail": "https://i.imgur.com/SbiPKql.png",
+    "Rating": 0,
+    "Duration": "",
+    "Year": null,
+    "Servers": [
+      {
+        "name": "HD",
+        "url": "https://qp-pldt-live-grp-12-prod.akamaized.net/out/u/dr_discoveryasia.mpd"
+      }
+    ]
+  },
+  {
+    "Title": "Knowledge Channel",
+    "SubCategory": "Educational",
+    "Country": "🇵🇭 Philippines",
+    "Description": "Knowledge Channel is a Filipino pay television channel that features educational programming.",
+    "Poster": "https://i.imgur.com/tLUSj5p.png",
+    "Thumbnail": "https://i.imgur.com/tLUSj5p.png",
+    "Rating": 0,
+    "Duration": "",
+    "Year": null,
+    "Servers": [
+      {
+        "name": "HD",
+        "url": "https://abslive.akamaized.net/dash/live/2028189/kc/manifest.mpd"
+      }
+    ]
+  },
+  {
+    "Title": "Trvl Channel",
+    "SubCategory": "Lifestyle",
+    "Country": "🌐 International",
+    "Description": "Travel Channel is a pay television channel that features travel programming.",
+    "Poster": "https://i.imgur.com/GfqMnG6.png",
+    "Thumbnail": "https://i.imgur.com/GfqMnG6.png",
+    "Rating": 0,
+    "Duration": "",
+    "Year": null,
+    "Servers": [
+      {
+        "name": "SD",
+        "url": "https://qp-pldt-live-grp-08-prod.akamaized.net/out/u/travel_channel_sd.mpd"
+      }
+    ]
+  },
+  {
+    "Title": "HITS Now",
+    "SubCategory": "Entertainment",
+    "Country": "🌐 Asia",
+    "Description": "HITS Now is a Southeast Asian pay television channel that features a variety of programs from the U.S.",
+    "Poster": "https://i.imgur.com/FV3NTrr.png",
+    "Thumbnail": "https://i.imgur.com/FV3NTrr.png",
+    "Rating": 0,
+    "Duration": "",
+    "Year": null,
+    "Servers": [
+      {
+        "name": "HD",
+        "url": "https://qp-pldt-live-grp-09-prod.akamaized.net/out/u/cg_hitsnow.mpd"
+      }
+    ]
+  },
+  {
+    "Title": "Food Network Asia",
+    "SubCategory": "Lifestyle",
+    "Country": "🌐 Asia",
+    "Description": "Food Network is a pay television channel that features food and dining programming.",
+    "Poster": "https://i.imgur.com/Gwd2TNB.png",
+    "Thumbnail": "https://i.imgur.com/Gwd2TNB.png",
+    "Rating": 0,
+    "Duration": "",
+    "Year": null,
+    "Servers": [
+      {
+        "name": "HD",
+        "url": "https://qp-pldt-live-grp-09-prod.akamaized.net/out/u/cg_foodnetwork_hd1.mpd"
+      }
+    ]
+  },
+  {
+    "Title": "TLC Asia",
+    "SubCategory": "Lifestyle",
+    "Country": "🌐 Asia",
+    "Description": "TLC is a pay television channel that features lifestyle programming.",
+    "Poster": "https://i.imgur.com/xvpDd5F.png",
+    "Thumbnail": "https://i.imgur.com/xvpDd5F.png",
+    "Rating": 0,
+    "Duration": "",
+    "Year": null,
+    "Servers": [
+      {
+        "name": "SD",
+        "url": "https://qp-pldt-live-grp-08-prod.akamaized.net/out/u/tlc_sd.mpd"
+      }
+    ]
+  },
+  {
+    "Title": "AXN Asia",
+    "SubCategory": "Entertainment",
+    "Country": "🌐 Asia",
+    "Description": "AXN is a pay television channel that features action-packed entertainment.",
+    "Poster": "https://i.imgur.com/Y9vnT7K.png",
+    "Thumbnail": "https://i.imgur.com/Y9vnT7K.png",
+    "Rating": 0,
+    "Duration": "",
+    "Year": null,
+    "Servers": [
+      {
+        "name": "SD",
+        "url": "https://qp-pldt-live-grp-06-prod.akamaized.net/out/u/cg_axn_sd.mpd"
+      }
+    ]
+  },
+  {
+    "Title": "Channel News Asia",
+    "SubCategory": "News",
+    "Country": "🇸🇬 Singapore",
+    "Description": "CNA is a Singaporean pay television news channel.",
+    "Poster": "https://i.imgur.com/CbsDpEd.png",
+    "Thumbnail": "https://i.imgur.com/CbsDpEd.png",
+    "Rating": 0,
+    "Duration": "",
+    "Year": null,
+    "Servers": [
+      {
+        "name": "HD",
+        "url": "https://qp-pldt-live-grp-13-prod.akamaized.net/out/u/dr_channelnewsasia.mpd"
+      }
+    ]
+  },
+  {
+    "Title": "BBC News SD",
+    "SubCategory": "News",
+    "Country": "🇬🇧 United Kingdom",
+    "Description": "BBC News is a British pay television news channel.",
+    "Poster": "https://i.imgur.com/gJ8Rxr4.png",
+    "Thumbnail": "https://i.imgur.com/gJ8Rxr4.png",
+    "Rating": 0,
+    "Duration": "",
+    "Year": null,
+    "Servers": [
+      {
+        "name": "SD",
+        "url": "https://qp-pldt-live-grp-04-prod.akamaized.net/out/u/bbcworld_news_sd.mpd"
+      }
+    ]
+  },
+  {
+    "Title": "Uaap Varsity Channel",
+    "SubCategory": "Sports",
+    "Country": "🇵🇭 Philippines",
+    "Description": "The UAAP Varsity Channel is a Filipino pay television channel.",
+    "Poster": "https://i.imgur.com/4YPSDQg.png",
+    "Thumbnail": "https://i.imgur.com/4YPSDQg.png",
+    "Rating": 0,
+    "Duration": "",
+    "Year": null,
+    "Servers": [
+      {
+        "name": "SD",
+        "url": "https://qp-pldt-live-grp-04-prod.akamaized.net/out/u/cg_uaap_cplay_sd.mpd"
+      }
+    ]
+  },
+  {
+    "Title": "CCTN 47",
+    "SubCategory": "Entertainment",
+    "Country": "🇵🇭 Philippines",
+    "Description": "CCTN stands for Cebu Catholic Television Network.",
+    "Poster": "https://i.imgur.com/nV9QXh5.png",
+    "Thumbnail": "https://i.imgur.com/nV9QXh5.png",
+    "Rating": 0,
+    "Duration": "",
+    "Year": null,
+    "Servers": [
+      {
+        "name": "HD",
+        "url": "http://122.55.252.134:8443/live/bba5b536faeacb9b56a3239f1ee8e3b3/1.m3u8"
+      }
+    ]
+  },
+  {
+    "Title": "CLTV 36",
+    "SubCategory": "Entertainment",
+    "Country": "🇵🇭 Philippines",
+    "Description": "CLTV36 is a regional television station in Central Luzon.",
+    "Poster": "https://i.imgur.com/bJe76EA.png",
+    "Thumbnail": "https://i.imgur.com/bJe76EA.png",
+    "Rating": 0,
+    "Duration": "",
+    "Year": null,
+    "Servers": [
+      {
+        "name": "HD",
+        "url": "https://live.cltv36.tv:5443/LiveApp/streams/cltvlive.m3u8"
+      }
+    ]
+  },
+  {
+    "Title": "INC TV",
+    "SubCategory": "Religious",
+    "Country": "🇵🇭 Philippines",
+    "Description": "INC TV is the official television station of the Iglesia ni Cristo.",
+    "Poster": "https://i.imgur.com/O4mv3Bu.png",
+    "Thumbnail": "https://i.imgur.com/O4mv3Bu.png",
+    "Rating": 0,
+    "Duration": "",
+    "Year": null,
+    "Servers": [
+      {
+        "name": "HD",
+        "url": "https://199211.global.ssl.fastly.net/643cc12aa824db4374021c8c/live_95f6ac80dd6511ed9d08b12be56ae55e/index.m3u8"
+      }
+    ]
+  },
+  {
+    "Title": "Mindanow Network TV",
+    "SubCategory": "Entertainment",
+    "Country": "🇵🇭 Philippines",
+    "Description": "Mindanow TV is a regional television station in Mindanao.",
+    "Poster": "https://i.imgur.com/xBlYirh.jpeg",
+    "Thumbnail": "https://i.imgur.com/xBlYirh.jpeg",
+    "Rating": 0,
+    "Duration": "",
+    "Year": null,
+    "Servers": [
+      {
+        "name": "HD",
+        "url": "https://streams1.comclark.com/overlay/mindanow/playlist.m3u8"
+      }
+    ]
+  },
+  {
+    "Title": "ANC HD",
+    "SubCategory": "News",
+    "Country": "🇵🇭 Philippines",
+    "Description": "The ABS-CBN News Channel, commonly known as ANC, is a 24/7 Philippine pay television news channel.",
+    "Poster": "https://i.imgur.com/6l5x8Tx.png",
+    "Thumbnail": "https://i.imgur.com/6l5x8Tx.png",
+    "Rating": 0,
+    "Duration": "",
+    "Year": null,
+    "Servers": [
+      {
+        "name": "HD",
+        "url": "https://d3cjss68xc4sia.cloudfront.net/out/v1/89ea8db23cb24a91bfa5d0795f8d759e/index.mpd"
+      }
+    ]
+  },
+  {
+    "Title": "Fox5",
+    "SubCategory": "News",
+    "Country": "🇺🇸 United States",
+    "Description": "Fox 5 is a Fox owned-and-operated television station licensed to New York City.",
+    "Poster": "https://th.bing.com/th/id/R.da0efd0a8ae25cc3ed689c0b82f00948?rik=93YX0cls8nM62A&riu=http%3a%2f%2fvebaresourcecenter.com%2fwp-content%2fuploads%2f2021%2f02%2fFox-5.png&ehk=3cscegNe6kvhaAcpuOcaGPc9qXfPNTGNPpzce1K%2bGoI%3d&risl=&pid=ImgRaw&r=0&sres=1&sresct=1",
+    "Thumbnail": "https://th.bing.com/th/id/R.da0efd0a8ae25cc3ed689c0b82f00948?rik=93YX0cls8nM62A&riu=http%3a%2f%2fvebaresourcecenter.com%2fwp-content%2fuploads%2f2021%2f02%2fFox-5.png&ehk=3cscegNe6kvhaAcpuOcaGPc9qXfPNTGNPpzce1K%2bGoI%3d&risl=&pid=ImgRaw&r=0&sres=1&sresct=1",
+    "Rating": 0,
+    "Duration": "",
+    "Year": null,
+    "Servers": [
+      {
+        "name": "HD",
+        "url": "https://live20.bozztv.com/dvrfl05/gin-fox5/index.m3u8"
+      }
+    ]
+  },
+  {
+    "Title": "PHTV",
+    "SubCategory": "Entertainment",
+    "Country": "🇵🇭 Philippines",
+    "Description": "PHTV is a Filipino television station.",
+    "Poster": "https://yt3.ggpht.com/a/AATXAJyBhvv8T9RzinRRiGuWjkg-S4Qlse33y3pWiA=s900-c-k-c0xffffffff-no-rj-mo",
+    "Thumbnail": "https://yt3.ggpht.com/a/AATXAJyBhvv8T9RzinRRiGuWjkg-S4Qlse33y3pWiA=s900-c-k-c0xffffffff-no-rj-mo",
+    "Rating": 0,
+    "Duration": "",
+    "Year": null,
+    "Servers": [
+      {
+        "name": "HD",
+        "url": "https://live20.bozztv.com/giatvplayout7/giatv-209998/tracks-v1a1/mono.m3u8"
+      }
+    ]
+  },
+        {
+          "Title": "GMA PinoyTV",
+          "SubCategory": "Entertainment",
+          "Country": "🇵🇭 PH",
+          "Description": "",
+          "Poster": "https://i.imgur.com/Jinf00v.png",
+          "Thumbnail": "https://i.imgur.com/Jinf00v.png",
+          "Rating": 8,
+          "Servers": [
+            {
+              "name": "Live",
+              "url": "https://amg01006-abs-cbn-abscbn-gma-x7-dash-abscbnono-dzsx9.amagi.tv/index.mpd"
+            }
+          ]
+        },
+        
+  {
+    "Title": "TV5",
+    "SubCategory": "Entertainment",
+    "Country": "🇵🇭 PH",
+    "Description": "TV5 is a major Filipino commercial television network based in Mandaluyong City.",
+    "Poster": "https://i.imgur.com/Ufp278A.png",
+    "Thumbnail": "https://i.imgur.com/Ufp278A.png",
+    "Rating": 0,
+    "Duration": "",
+    "Year": null,
+    "Servers": [
+      {
+        "name": "HD",
+        "url": "https://qp-pldt-live-grp-02-prod.akamaized.net/out/u/tv5_hd.mpd"
+      }
+    ]
+  },
+  {
+    "Title": "Pinoy Box Office",
+    "SubCategory": "Movies",
+    "Country": "🇵🇭 PH",
+    "Description": "Pinoy Box Office (PBO) is a 24-hour Filipino cable television network.",
+    "Poster": "https://i.imgur.com/u385Aaa.png",
+    "Thumbnail": "https://i.imgur.com/u385Aaa.png",
+    "Rating": 0,
+    "Duration": "",
+    "Year": null,
+    "Servers": [
+      {
+        "name": "SD",
+        "url": "https://qp-pldt-live-grp-04-prod.akamaized.net/out/u/pbo_sd.mpd"
+      }
+    ]
+  },
+  {
+    "Title": "Cinema One",
+    "SubCategory": "Movies",
+    "Country": "🇵🇭 PH",
+    "Description": "Cinema One is a Filipino cable television network based in Quezon City.",
+    "Poster": "https://i.imgur.com/ePXmpqr.png",
+    "Thumbnail": "https://i.imgur.com/ePXmpqr.png",
+    "Rating": 0,
+    "Duration": "",
+    "Year": null,
+    "Servers": [
+      {
+        "name": "HD",
+        "url": "https://live-faws.akamaized.net/out/v1/9c02b2581c6a4a22a089ecbd369933f5/index.m3u8"
+      }
+    ]
+  },
+  {
+    "Title": "Cine Mo!",
+    "SubCategory": "Movies",
+    "Country": "🇵🇭 PH",
+    "Description": "Cine Mo! is a Filipino pay television channel owned by ABS-CBN.",
+    "Poster": "https://i.imgur.com/KUwrSOH.png",
+    "Thumbnail": "https://i.imgur.com/KUwrSOH.png",
+    "Rating": 0,
+    "Duration": "",
+    "Year": null,
+    "Servers": [
+      {
+        "name": "HD",
+        "url": "https://d1bail49udbz1k.cloudfront.net/out/v1/78e282e04f0944f3ad0aa1db7a1be645/index.m3u8"
+      }
+    ]
+  },
+  {
+    "Title": "VIVA Cinema",
+    "SubCategory": "Movies",
+    "Country": "🇵🇭 PH",
+    "Description": "Viva Cinema is a Filipino cable television network that broadcasts Filipino-dubbed local and foreign movies.",
+    "Poster": "https://i.imgur.com/GsejzSt.png",
+    "Thumbnail": "https://i.imgur.com/GsejzSt.png",
+    "Rating": 0,
+    "Duration": "",
+    "Year": null,
+    "Servers": [
+      {
+        "name": "SD",
+        "url": "https://qp-pldt-live-grp-06-prod.akamaized.net/out/u/viva_sd.mpd"
+      }
+    ]
+  },
+  {
+    "Title": "KingMovie",
+    "SubCategory": "Movies",
+    "Country": "🌐International",
+    "Description": "KingMovie is a streaming service for movies.",
+    "Poster": "https://yt3.ggpht.com/a/AATXAJwG4flJwodLuUwXoT9W0t5HIvpB_-JZyRSCCw=s900-c-k-c0xffffffff-no-rj-mo",
+    "Thumbnail": "https://yt3.ggpht.com/a/AATXAJwG4flJwodLuUwXoT9W0t5HIvpB_-JZyRSCCw=s900-c-k-c0xffffffff-no-rj-mo",
+    "Rating": 0,
+    "Duration": "",
+    "Year": null,
+    "Servers": [
+      {
+        "name": "HD",
+        "url": "https://live20.bozztv.com/giatvplayout7/giatv-210044/tracks-v1a1/mono.m3u8"
+      }
+    ]
+  },
+  {
+    "Title": "Celestial Movies Pinoy",
+    "SubCategory": "Movies",
+    "Country": "🇵🇭 PH",
+    "Description": "Celestial Movies Pinoy is a Filipino-dubbed movie channel.",
+    "Poster": "https://i.imgur.com/EkmCzO1.png",
+    "Thumbnail": "https://i.imgur.com/EkmCzO1.png",
+    "Rating": 0,
+    "Duration": "",
+    "Year": null,
+    "Servers": [
+      {
+        "name": "SD",
+        "url": "https://qp-pldt-live-grp-01-prod.akamaized.net//out/u/celmovie_pinoy_sd.mpd"
+      }
+    ]
+  },
+  {
+    "Title": "Tagalized Movie Channel (TMC)",
+    "SubCategory": "Movies",
+    "Country": "🇵🇭 PH",
+    "Description": "The first and only 24/7 Tagalized movie channel in the Philippines.",
+    "Poster": "https://i.imgur.com/nVs49ps.png",
+    "Thumbnail": "https://i.imgur.com/nVs49ps.png",
+    "Rating": 0,
+    "Duration": "",
+    "Year": null,
+    "Servers": [
+      {
+        "name": "HD",
+        "url": "https://qp-pldt-live-grp-07-prod.akamaized.net/out/u/cg_tagalogmovie.mpd"
+      }
+    ]
+  },
+  {
+    "Title": "Cinemax Asia",
+    "SubCategory": "Movies",
+    "Country": "Asia",
+    "Description": "Cinemax Asia is a pay television network that features action, science-fiction, thriller and horror movies.",
+    "Poster": "https://i.imgur.com/NLxg6Va.png",
+    "Thumbnail": "https://i.imgur.com/NLxg6Va.png",
+    "Rating": 0,
+    "Duration": "",
+    "Year": null,
+    "Servers": [
+      {
+        "name": "HD",
+        "url": "https://qp-pldt-live-grp-01-prod.akamaized.net/out/u/cg_cinemax.mpd"
+      }
+    ]
+  },
+  {
+    "Title": "KIX",
+    "SubCategory": "Action",
+    "Country": "Asia",
+    "Description": "KIX is a Southeast Asian pay television channel owned by Celestial Tiger Entertainment.",
+    "Poster": "https://i.imgur.com/QSfKYPJ.png",
+    "Thumbnail": "https://i.imgur.com/QSfKYPJ.png",
+    "Rating": 0,
+    "Duration": "",
+    "Year": null,
+    "Servers": [
+      {
+        "name": "HD",
+        "url": "https://streaming.indihometv.com/atm/DASH/kix/manifest.mpd"
+      }
+    ]
+  },
+  {
+    "Title": "Thrill",
+    "SubCategory": "Horror",
+    "Country": "Asia",
+    "Description": "Thrill is a Southeast Asian pay television channel owned by Celestial Tiger Entertainment.",
+    "Poster": "https://i.imgur.com/PRp3gAG.png",
+    "Thumbnail": "https://i.imgur.com/PRp3gAG.png",
+    "Rating": 0,
+    "Duration": "",
+    "Year": null,
+    "Servers": [
+      {
+        "name": "SD",
+        "url": "https://qp-pldt-live-grp-06-prod.akamaized.net/out/u/cg_thrill_sd.mpd"
+      }
+    ]
+  },
+  {
+    "Title": "HBO Asia",
+    "SubCategory": "Movies",
+    "Country": "Asia",
+    "Description": "HBO Asia is a pay television network that features Hollywood blockbusters and original productions.",
+    "Poster": "https://i.imgur.com/ucIzYgj.png",
+    "Thumbnail": "https://i.imgur.com/ucIzYgj.png",
+    "Rating": 0,
+    "Duration": "",
+    "Year": null,
+    "Servers": [
+      {
+        "name": "HD",
+        "url": "https://qp-pldt-live-grp-03-prod.akamaized.net/out/u/cg_hbohd.mpd"
+      }
+    ]
+  },
+  {
+    "Title": "ROCK Action",
+    "SubCategory": "Action",
+    "Country": "Asia",
+    "Description": "ROCK Action is a Southeast Asian pay television channel that features action-packed movies and series.",
+    "Poster": "https://i.imgur.com/yJhZN08.png",
+    "Thumbnail": "https://i.imgur.com/yJhZN08.png",
+    "Rating": 0,
+    "Duration": "",
+    "Year": null,
+    "Servers": [
+      {
+        "name": "HD",
+        "url": "https://qp-pldt-live-grp-13-prod.akamaized.net/out/u/dr_rockextreme.mpd"
+      }
+    ]
+  },
+  {
+    "Title": "HITS Movies",
+    "SubCategory": "Movies",
+    "Country": "Asia",
+    "Description": "HITS Movies is a Southeast Asian pay television channel that features blockbuster hits from the 1960s to the 1990s.",
+    "Poster": "https://i.imgur.com/2a0CHbg.png",
+    "Thumbnail": "https://i.imgur.com/2a0CHbg.png",
+    "Rating": 0,
+    "Duration": "",
+    "Year": null,
+    "Servers": [
+      {
+        "name": "HD",
+        "url": "https://qp-pldt-live-grp-12-prod.akamaized.net/out/u/dr_hitsmovies.mpd"
+      }
+    ]
+  },
+  {
+    "Title": "DreamWorks (Tagalized)",
+    "SubCategory": "Animation",
+    "Country": "🇵🇭 PH",
+    "Description": "DreamWorks Channel is a pay television network that features animated series and movies from DreamWorks Animation.",
+    "Poster": "https://i.imgur.com/yllKClE.png",
+    "Thumbnail": "https://i.imgur.com/yllKClE.png",
+    "Rating": 0,
+    "Duration": "",
+    "Year": null,
+    "Servers": [
+      {
+        "name": "HD",
+        "url": "https://qp-pldt-live-grp-07-prod.akamaized.net/out/u/cg_dreamworktag.mpd"
+      }
+    ]
+  },
+        {
+          "Title": "Kapamilya Channel",
+          "SubCategory": "General",
+          "Country": "🇵🇭 PH",
+          "Description": "",
+          "Poster": "https://i.imgur.com/Dcys2TG.png",
+          "Thumbnail": "https://i.imgur.com/Dcys2TG.png",
+          "Rating": 8,
+          "Servers": [
+            {
+              "name": "Live",
+              "url": "https://live-faws.akamaized.net/out/v1/df7b60b4411f4270ab431913de807bf4/index.m3u8"
+            }
+          ]
         }
       ]
     },
