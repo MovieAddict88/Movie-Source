@@ -949,6 +949,13 @@
       ]
     },
     {
+      "MainCategory": "TV Series",
+      "SubCategories": [
+        "Anime",
+        "Action,Anime"
+      ],
+      "Entries": [
+      {
           "Title": "Inspector Gadget",
           "SubCategory": "Animation, Comedy, Family",
           "Country": "🇨🇦🇺🇸 Canada/USA",
@@ -2778,13 +2785,6 @@
             }
           ]
         },
-    {
-      "MainCategory": "TV Series",
-      "SubCategories": [
-        "Anime",
-        "Action,Anime"
-      ],
-      "Entries": [
         {
           "Title": "Moonshine",
           "SubCategory": "Historical, Romance, Drama",
