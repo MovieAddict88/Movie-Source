@@ -1241,25 +1241,6 @@
                   ]
                 }
               ]
-            },
-            {
-              "Season": 2,
-              "SeasonPoster": "",
-              "Episodes": [
-                {
-                  "Episode": 1,
-                  "Title": "",
-                  "Duration": "",
-                  "Description": "",
-                  "Thumbnail": "",
-                  "Servers": [
-                    {
-                      "name": "nd",
-                      "url": "nd"
-                    }
-                  ]
-                }
-              ]
             }
           ]
         }
