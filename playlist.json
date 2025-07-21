@@ -3044,14 +3044,14 @@
           ]
         },
         {
-          "Title": "VidSrc",
-          "SubCategory": "General",
-          "Country": "",
-          "Description": "",
-          "Poster": "",
-          "Thumbnail": "",
-          "Rating": 0,
-          "Year": 0,
+          "Title": "Superman: The Animated Series",
+          "SubCategory": "Animation",
+          "Country": "🇺🇸 United States",
+          "Description": "Superman: The Animated Series is an American television series based on the DC Comics superhero Superman, which was produced by Warner Bros. Animation and originally aired on The WB from 1996 to 2000; lasting 54 episodes.",
+          "Poster": "https://movie-fcs.fwh.is/poster/supermananimatedseries.webp",
+          "Thumbnail": "https://movie-fcs.fwh.is/poster/supermananimatedseries.webp",
+          "Rating": 8.2,
+          "Year": 1996,
           "Seasons": [
             {
               "Season": 1,
@@ -3059,14 +3059,1045 @@
               "Episodes": [
                 {
                   "Episode": 1,
-                  "Title": "",
-                  "Duration": "",
+                  "Title": "The Last Son of Krypton, Part 1",
+                  "Duration": "21 min",
                   "Description": "",
                   "Thumbnail": "",
                   "Servers": [
                     {
-                      "name": "nd",
-                      "url": "fjjfjf"
+                      "name": "720p",
+                      "url": "https://dn720309.ca.archive.org/0/items/s-01-e-04-fun-and-games/S01E01%20-%20The%20Last%20Son%20of%20Krypton%2C%20Part%201.mp4",
+                      "subtitle": []
+                    },
+                    {
+                      "name": "720p",
+                      "url": "https://dn720309.ca.archive.org/0/items/s-01-e-04-fun-and-games/S01E01%20-%20The%20Last%20Son%20of%20Krypton%2C%20Part%201.ia.mp4",
+                      "subtitle": []
+                    }
+                  ]
+                },
+                {
+                  "Episode": 2,
+                  "Title": "The Last Son of Krypton, Part 2",
+                  "Duration": "21 min",
+                  "Description": "",
+                  "Thumbnail": "",
+                  "Servers": [
+                    {
+                      "name": "720p",
+                      "url": "https://dn720309.ca.archive.org/0/items/s-01-e-04-fun-and-games/S01E02%20-%20The%20Last%20Son%20of%20Krypton%2C%20Part%202.mp4",
+                      "subtitle": []
+                    },
+                    {
+                      "name": "720p",
+                      "url": "https://dn720309.ca.archive.org/0/items/s-01-e-04-fun-and-games/S01E02%20-%20The%20Last%20Son%20of%20Krypton%2C%20Part%202.ia.mp4",
+                      "subtitle": []
+                    }
+                  ]
+                },
+                {
+                  "Episode": 3,
+                  "Title": "The Last Son of Krypton, Part 3",
+                  "Duration": "21 min",
+                  "Description": "",
+                  "Thumbnail": "",
+                  "Servers": [
+                    {
+                      "name": "720p",
+                      "url": "https://dn720309.ca.archive.org/0/items/s-01-e-04-fun-and-games/S01E03%20-%20The%20Last%20Son%20of%20Krypton%2C%20Part%203.mp4",
+                      "subtitle": []
+                    },
+                    {
+                      "name": "720p",
+                      "url": "https://dn720309.ca.archive.org/0/items/s-01-e-04-fun-and-games/S01E03%20-%20The%20Last%20Son%20of%20Krypton%2C%20Part%203.ia.mp4",
+                      "subtitle": []
+                    }
+                  ]
+                },
+                {
+                  "Episode": 4,
+                  "Title": "Fun and Games",
+                  "Duration": "21 min",
+                  "Description": "",
+                  "Thumbnail": "",
+                  "Servers": [
+                    {
+                      "name": "720p",
+                      "url": "https://dn720309.ca.archive.org/0/items/s-01-e-04-fun-and-games/S01E04%20-%20Fun%20and%20Games%20.mp4",
+                      "subtitle": []
+                    },
+                    {
+                      "name": "720p",
+                      "url": "https://dn720309.ca.archive.org/0/items/s-01-e-04-fun-and-games/S01E04%20-%20Fun%20and%20Games%20.ia.mp4",
+                      "subtitle": []
+                    }
+                  ]
+                },
+                {
+                  "Episode": 5,
+                  "Title": "A Little Piece of Home",
+                  "Duration": "21 min",
+                  "Description": "",
+                  "Thumbnail": "",
+                  "Servers": [
+                    {
+                      "name": "720p",
+                      "url": "https://dn720309.ca.archive.org/0/items/s-01-e-04-fun-and-games/S01E05%20-%20A%20Little%20Piece%20of%20Home.mp4",
+                      "subtitle": []
+                    },
+                    {
+                      "name": "720p",
+                      "url": "https://dn720309.ca.archive.org/0/items/s-01-e-04-fun-and-games/S01E05%20-%20A%20Little%20Piece%20of%20Home.ia.mp4",
+                      "subtitle": []
+                    }
+                  ]
+                },
+                {
+                  "Episode": 6,
+                  "Title": "Feeding Time",
+                  "Duration": "21 min",
+                  "Description": "",
+                  "Thumbnail": "",
+                  "Servers": [
+                    {
+                      "name": "720p",
+                      "url": "https://dn720309.ca.archive.org/0/items/s-01-e-04-fun-and-games/S01E06%20-%20Feeding%20Time.mp4",
+                      "subtitle": []
+                    },
+                    {
+                      "name": "720p",
+                      "url": "https://dn720309.ca.archive.org/0/items/s-01-e-04-fun-and-games/S01E06%20-%20Feeding%20Time.ia.mp4",
+                      "subtitle": []
+                    }
+                  ]
+                },
+                {
+                  "Episode": 7,
+                  "Title": "The Way of All Flesh",
+                  "Duration": "21 min",
+                  "Description": "",
+                  "Thumbnail": "",
+                  "Servers": [
+                    {
+                      "name": "720p",
+                      "url": "https://dn720309.ca.archive.org/0/items/s-01-e-04-fun-and-games/S01E07%20-%20The%20Way%20of%20All%20Flesh.mp4",
+                      "subtitle": []
+                    },
+                    {
+                      "name": "720p",
+                      "url": "https://dn720309.ca.archive.org/0/items/s-01-e-04-fun-and-games/S01E07%20-%20The%20Way%20of%20All%20Flesh.ia.mp4",
+                      "subtitle": []
+                    }
+                  ]
+                },
+                {
+                  "Episode": 8,
+                  "Title": "Stolen Memories",
+                  "Duration": "21 min",
+                  "Description": "",
+                  "Thumbnail": "",
+                  "Servers": [
+                    {
+                      "name": "720p",
+                      "url": "https://dn720309.ca.archive.org/0/items/s-01-e-04-fun-and-games/S01E08%20-%20Stolen%20Memories.mp4",
+                      "subtitle": []
+                    },
+                    {
+                      "name": "720p",
+                      "url": "https://dn720309.ca.archive.org/0/items/s-01-e-04-fun-and-games/S01E08%20-%20Stolen%20Memories.ia.mp4",
+                      "subtitle": []
+                    }
+                  ]
+                },
+                {
+                  "Episode": 9,
+                  "Title": "The Main Man, Part 1",
+                  "Duration": "21 min",
+                  "Description": "",
+                  "Thumbnail": "",
+                  "Servers": [
+                    {
+                      "name": "720p",
+                      "url": "https://dn720309.ca.archive.org/0/items/s-01-e-04-fun-and-games/S01E09%20-%20The%20Main%20Man%2C%20Part%201.mp4",
+                      "subtitle": []
+                    },
+                    {
+                      "name": "720p",
+                      "url": "https://dn720309.ca.archive.org/0/items/s-01-e-04-fun-and-games/S01E09%20-%20The%20Main%20Man%2C%20Part%201.ia.mp4",
+                      "subtitle": []
+                    }
+                  ]
+                },
+                {
+                  "Episode": 10,
+                  "Title": "The Main Man, Part 2",
+                  "Duration": "21 min",
+                  "Description": "",
+                  "Thumbnail": "",
+                  "Servers": [
+                    {
+                      "name": "720p",
+                      "url": "https://dn720309.ca.archive.org/0/items/s-01-e-04-fun-and-games/S01E10%20-%20The%20Main%20Man%2C%20%20Part%202.mp4",
+                      "subtitle": []
+                    },
+                    {
+                      "name": "720p",
+                      "url": "https://dn720309.ca.archive.org/0/items/s-01-e-04-fun-and-games/S01E10%20-%20The%20Main%20Man%2C%20%20Part%202.ia.mp4",
+                      "subtitle": []
+                    }
+                  ]
+                },
+                {
+                  "Episode": 11,
+                  "Title": "My Girl",
+                  "Duration": "21 min",
+                  "Description": "",
+                  "Thumbnail": "",
+                  "Servers": [
+                    {
+                      "name": "720p",
+                      "url": "https://dn720309.ca.archive.org/0/items/s-01-e-04-fun-and-games/S01E11%20-%20My%20Girl.mp4",
+                      "subtitle": []
+                    },
+                    {
+                      "name": "720p",
+                      "url": "https://dn720309.ca.archive.org/0/items/s-01-e-04-fun-and-games/S01E11%20-%20My%20Girl.ia.mp4",
+                      "subtitle": []
+                    }
+                  ]
+                },
+                {
+                  "Episode": 12,
+                  "Title": "Tools of the Trade",
+                  "Duration": "21 min",
+                  "Description": "",
+                  "Thumbnail": "",
+                  "Servers": [
+                    {
+                      "name": "720p",
+                      "url": "https://dn720309.ca.archive.org/0/items/s-01-e-04-fun-and-games/S01E12%20-%20Tools%20of%20the%20Trade.mp4",
+                      "subtitle": []
+                    },
+                    {
+                      "name": "720p",
+                      "url": "https://dn720309.ca.archive.org/0/items/s-01-e-04-fun-and-games/S01E12%20-%20Tools%20of%20the%20Trade.ia.mp4",
+                      "subtitle": []
+                    }
+                  ]
+                },
+                {
+                  "Episode": 13,
+                  "Title": "Two's a Crowd",
+                  "Duration": "21 min",
+                  "Description": "",
+                  "Thumbnail": "",
+                  "Servers": [
+                    {
+                      "name": "720p",
+                      "url": "https://dn720309.ca.archive.org/0/items/s-01-e-04-fun-and-games/S01E13%20-%20Two%27s%20a%20Crowd%20.mp4",
+                      "subtitle": []
+                    },
+                    {
+                      "name": "720p",
+                      "url": "https://dn720309.ca.archive.org/0/items/s-01-e-04-fun-and-games/S01E13%20-%20Two%27s%20a%20Crowd%20.ia.mp4",
+                      "subtitle": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "Season": 2,
+              "SeasonPoster": "https://movie-fcs.fwh.is/poster/7lhG7XSz0VkbUtXoXtUVdjDrUx6.webp",
+              "Episodes": [
+                {
+                  "Episode": 1,
+                  "Title": "Blasts From the Past, Part 1",
+                  "Duration": "21 min",
+                  "Description": "",
+                  "Thumbnail": "",
+                  "Servers": [
+                    {
+                      "name": "720p",
+                      "url": "https://dn720309.ca.archive.org/0/items/s-01-e-04-fun-and-games/S02E01%20-%20Blasts%20From%20the%20Past%2C%20Part%201.mp4",
+                      "subtitle": []
+                    },
+                    {
+                      "name": "720p",
+                      "url": "https://dn720309.ca.archive.org/0/items/s-01-e-04-fun-and-games/S02E01%20-%20Blasts%20From%20the%20Past%2C%20Part%201.ia.mp4",
+                      "subtitle": []
+                    }
+                  ]
+                },
+                {
+                  "Episode": 2,
+                  "Title": "Blasts From the Past, Part 2",
+                  "Duration": "21 min",
+                  "Description": "",
+                  "Thumbnail": "",
+                  "Servers": [
+                    {
+                      "name": "720p",
+                      "url": "https://dn720309.ca.archive.org/0/items/s-01-e-04-fun-and-games/S02E02%20-%20Blasts%20From%20the%20Past%2C%20Part%202.mp4",
+                      "subtitle": []
+                    },
+                    {
+                      "name": "720p",
+                      "url": "https://dn720309.ca.archive.org/0/items/s-01-e-04-fun-and-games/S02E02%20-%20Blasts%20From%20the%20Past%2C%20Part%202.ia.mp4",
+                      "subtitle": []
+                    }
+                  ]
+                },
+                {
+                  "Episode": 3,
+                  "Title": "The Prometheon",
+                  "Duration": "21 min",
+                  "Description": "",
+                  "Thumbnail": "",
+                  "Servers": [
+                    {
+                      "name": "720p",
+                      "url": "https://dn720309.ca.archive.org/0/items/s-01-e-04-fun-and-games/S02E03%20-%20The%20Prometheon.mp4",
+                      "subtitle": []
+                    },
+                    {
+                      "name": "720p",
+                      "url": "https://dn720309.ca.archive.org/0/items/s-01-e-04-fun-and-games/S02E03%20-%20The%20Prometheon.ia.mp4",
+                      "subtitle": []
+                    }
+                  ]
+                },
+                {
+                  "Episode": 4,
+                  "Title": "Speed Demons",
+                  "Duration": "21 min",
+                  "Description": "",
+                  "Thumbnail": "",
+                  "Servers": [
+                    {
+                      "name": "720p",
+                      "url": "https://dn720309.ca.archive.org/0/items/s-01-e-04-fun-and-games/S02E04%20-%20Speed%20Demons.mp4",
+                      "subtitle": []
+                    },
+                    {
+                      "name": "720p",
+                      "url": "https://dn720309.ca.archive.org/0/items/s-01-e-04-fun-and-games/S02E04%20-%20Speed%20Demons.ia.mp4",
+                      "subtitle": []
+                    }
+                  ]
+                },
+                {
+                  "Episode": 5,
+                  "Title": "Livewire",
+                  "Duration": "21 min",
+                  "Description": "",
+                  "Thumbnail": "",
+                  "Servers": [
+                    {
+                      "name": "720p",
+                      "url": "https://dn720309.ca.archive.org/0/items/s-01-e-04-fun-and-games/S02E05%20-%20Livewire.mp4",
+                      "subtitle": []
+                    },
+                    {
+                      "name": "720p",
+                      "url": "https://dn720309.ca.archive.org/0/items/s-01-e-04-fun-and-games/S02E05%20-%20Livewire.ia.mp4",
+                      "subtitle": []
+                    }
+                  ]
+                },
+                {
+                  "Episode": 6,
+                  "Title": "Identity Crisis",
+                  "Duration": "21 min",
+                  "Description": "",
+                  "Thumbnail": "",
+                  "Servers": [
+                    {
+                      "name": "720p",
+                      "url": "https://dn720309.ca.archive.org/0/items/s-01-e-04-fun-and-games/S02E06%20-%20Identity%20Crisis.mp4",
+                      "subtitle": []
+                    },
+                    {
+                      "name": "720p",
+                      "url": "https://dn720309.ca.archive.org/0/items/s-01-e-04-fun-and-games/S02E06%20-%20Identity%20Crisis.ia.mp4",
+                      "subtitle": []
+                    }
+                  ]
+                },
+                {
+                  "Episode": 7,
+                  "Title": "Target",
+                  "Duration": "21 min",
+                  "Description": "",
+                  "Thumbnail": "",
+                  "Servers": [
+                    {
+                      "name": "720p",
+                      "url": "https://dn720309.ca.archive.org/0/items/s-01-e-04-fun-and-games/S02E07%20-%20Target.mp4",
+                      "subtitle": []
+                    },
+                    {
+                      "name": "720p",
+                      "url": "https://dn720309.ca.archive.org/0/items/s-01-e-04-fun-and-games/S02E07%20-%20Target.ia.mp4",
+                      "subtitle": []
+                    }
+                  ]
+                },
+                {
+                  "Episode": 8,
+                  "Title": "Mxyzpixilated",
+                  "Duration": "21 min",
+                  "Description": "",
+                  "Thumbnail": "",
+                  "Servers": [
+                    {
+                      "name": "720p",
+                      "url": "https://dn720309.ca.archive.org/0/items/s-01-e-04-fun-and-games/S02E08%20-%20Mxyzpixilated.mp4",
+                      "subtitle": []
+                    },
+                    {
+                      "name": "720p",
+                      "url": "https://dn720309.ca.archive.org/0/items/s-01-e-04-fun-and-games/S02E08%20-%20Mxyzpixilated.ia.mp4",
+                      "subtitle": []
+                    }
+                  ]
+                },
+                {
+                  "Episode": 9,
+                  "Title": "Action Figures",
+                  "Duration": "21 min",
+                  "Description": "",
+                  "Thumbnail": "",
+                  "Servers": [
+                    {
+                      "name": "720p",
+                      "url": "https://dn720309.ca.archive.org/0/items/s-01-e-04-fun-and-games/S02E09%20-%20Action%20Figures.mp4",
+                      "subtitle": []
+                    },
+                    {
+                      "name": "720p",
+                      "url": "https://dn720309.ca.archive.org/0/items/s-01-e-04-fun-and-games/S02E09%20-%20Action%20Figures.ia.mp4",
+                      "subtitle": []
+                    }
+                  ]
+                },
+                {
+                  "Episode": 10,
+                  "Title": "Double Dose",
+                  "Duration": "21 min",
+                  "Description": "",
+                  "Thumbnail": "",
+                  "Servers": [
+                    {
+                      "name": "720p",
+                      "url": "https://dn720309.ca.archive.org/0/items/s-01-e-04-fun-and-games/S02E10%20-%20Double%20Dose.mp4",
+                      "subtitle": []
+                    },
+                    {
+                      "name": "720p",
+                      "url": "https://dn720309.ca.archive.org/0/items/s-01-e-04-fun-and-games/S02E10%20-%20Double%20Dose.ia.mp4",
+                      "subtitle": []
+                    }
+                  ]
+                },
+                {
+                  "Episode": 11,
+                  "Title": "Solar Power",
+                  "Duration": "21 min",
+                  "Description": "",
+                  "Thumbnail": "",
+                  "Servers": [
+                    {
+                      "name": "720p",
+                      "url": "https://dn720309.ca.archive.org/0/items/s-01-e-04-fun-and-games/S02E11%20-%20Solar%20Power.mp4",
+                      "subtitle": []
+                    },
+                    {
+                      "name": "720p",
+                      "url": "https://dn720309.ca.archive.org/0/items/s-01-e-04-fun-and-games/S02E11%20-%20Solar%20Power.ia.mp4",
+                      "subtitle": []
+                    }
+                  ]
+                },
+                {
+                  "Episode": 12,
+                  "Title": "Brave New Metropolis",
+                  "Duration": "21 min",
+                  "Description": "",
+                  "Thumbnail": "",
+                  "Servers": [
+                    {
+                      "name": "720p",
+                      "url": "https://dn720309.ca.archive.org/0/items/s-01-e-04-fun-and-games/S02E12%20-%20Brave%20New%20Metropolis.mp4",
+                      "subtitle": []
+                    },
+                    {
+                      "name": "720p",
+                      "url": "https://dn720309.ca.archive.org/0/items/s-01-e-04-fun-and-games/S02E12%20-%20Brave%20New%20Metropolis.ia.mp4",
+                      "subtitle": []
+                    }
+                  ]
+                },
+                {
+                  "Episode": 13,
+                  "Title": "Monkey Fun",
+                  "Duration": "21 min",
+                  "Description": "",
+                  "Thumbnail": "",
+                  "Servers": [
+                    {
+                      "name": "720p",
+                      "url": "https://dn720309.ca.archive.org/0/items/s-01-e-04-fun-and-games/S02E13%20-%20Monkey%20Fun.mp4",
+                      "subtitle": []
+                    },
+                    {
+                      "name": "720p",
+                      "url": "https://dn720309.ca.archive.org/0/items/s-01-e-04-fun-and-games/S02E13%20-%20Monkey%20Fun.ia.mp4",
+                      "subtitle": []
+                    }
+                  ]
+                },
+                {
+                  "Episode": 14,
+                  "Title": "Ghost in the Machine",
+                  "Duration": "21 min",
+                  "Description": "",
+                  "Thumbnail": "",
+                  "Servers": [
+                    {
+                      "name": "720p",
+                      "url": "https://dn720309.ca.archive.org/0/items/s-01-e-04-fun-and-games/S02E14%20-%20Ghost%20in%20the%20Machine.mp4",
+                      "subtitle": []
+                    },
+                    {
+                      "name": "720p",
+                      "url": "https://dn720309.ca.archive.org/0/items/s-01-e-04-fun-and-games/S02E14%20-%20Ghost%20in%20the%20Machine.ia.mp4",
+                      "subtitle": []
+                    }
+                  ]
+                },
+                {
+                  "Episode": 15,
+                  "Title": "Father's Day",
+                  "Duration": "21 min",
+                  "Description": "",
+                  "Thumbnail": "",
+                  "Servers": [
+                    {
+                      "name": "720p",
+                      "url": "https://dn720309.ca.archive.org/0/items/s-01-e-04-fun-and-games/S02E15%20-%20Father%27s%20Day.mp4",
+                      "subtitle": []
+                    },
+                    {
+                      "name": "720p",
+                      "url": "https://dn720309.ca.archive.org/0/items/s-01-e-04-fun-and-games/S02E15%20-%20Father%27s%20Day.ia.mp4",
+                      "subtitle": []
+                    }
+                  ]
+                },
+                {
+                  "Episode": 16,
+                  "Title": "World's Finest, Part 1",
+                  "Duration": "21 min",
+                  "Description": "",
+                  "Thumbnail": "",
+                  "Servers": [
+                    {
+                      "name": "720p",
+                      "url": "https://dn720309.ca.archive.org/0/items/s-01-e-04-fun-and-games/S02E16%20-%20World%27s%20Finest%2C%20Part%201.mp4",
+                      "subtitle": []
+                    },
+                    {
+                      "name": "720p",
+                      "url": "https://dn720309.ca.archive.org/0/items/s-01-e-04-fun-and-games/S02E16%20-%20World%27s%20Finest%2C%20Part%201.ia.mp4",
+                      "subtitle": []
+                    }
+                  ]
+                },
+                {
+                  "Episode": 17,
+                  "Title": "World's Finest, Part 2",
+                  "Duration": "21 min",
+                  "Description": "",
+                  "Thumbnail": "",
+                  "Servers": [
+                    {
+                      "name": "720p",
+                      "url": "https://dn720309.ca.archive.org/0/items/s-01-e-04-fun-and-games/S02E17%20-%20World%27s%20Finest%2C%20Part%202.mp4",
+                      "subtitle": []
+                    },
+                    {
+                      "name": "720p",
+                      "url": "https://dn720309.ca.archive.org/0/items/s-01-e-04-fun-and-games/S02E17%20-%20World%27s%20Finest%2C%20Part%202.ia.mp4",
+                      "subtitle": []
+                    }
+                  ]
+                },
+                {
+                  "Episode": 18,
+                  "Title": "World's Finest, Part 3",
+                  "Duration": "21 min",
+                  "Description": "",
+                  "Thumbnail": "",
+                  "Servers": [
+                    {
+                      "name": "720p",
+                      "url": "https://dn720309.ca.archive.org/0/items/s-01-e-04-fun-and-games/S02E18%20-%20World%27s%20Finest%2C%20Part%203.mp4",
+                      "subtitle": []
+                    },
+                    {
+                      "name": "720p",
+                      "url": "https://dn720309.ca.archive.org/0/items/s-01-e-04-fun-and-games/S02E18%20-%20World%27s%20Finest%2C%20Part%203.ia.mp4",
+                      "subtitle": []
+                    }
+                  ]
+                },
+                {
+                  "Episode": 19,
+                  "Title": "The Hand of Fate",
+                  "Duration": "21 min",
+                  "Description": "",
+                  "Thumbnail": "",
+                  "Servers": [
+                    {
+                      "name": "720p",
+                      "url": "https://dn720309.ca.archive.org/0/items/s-01-e-04-fun-and-games/S02E19%20-%20The%20Hand%20of%20Fate.mp4",
+                      "subtitle": []
+                    },
+                    {
+                      "name": "720p",
+                      "url": "https://dn720309.ca.archive.org/0/items/s-01-e-04-fun-and-games/S02E19%20-%20The%20Hand%20of%20Fate.ia.mp4",
+                      "subtitle": []
+                    }
+                  ]
+                },
+                {
+                  "Episode": 20,
+                  "Title": "Bizarro's World",
+                  "Duration": "21 min",
+                  "Description": "",
+                  "Thumbnail": "",
+                  "Servers": [
+                    {
+                      "name": "720p",
+                      "url": "https://dn720309.ca.archive.org/0/items/s-01-e-04-fun-and-games/S02E20%20-%20Bizarro%27s%20World.mp4",
+                      "subtitle": []
+                    },
+                    {
+                      "name": "720p",
+                      "url": "https://dn720309.ca.archive.org/0/items/s-01-e-04-fun-and-games/S02E20%20-%20Bizarro%27s%20World.ia.mp4",
+                      "subtitle": []
+                    }
+                  ]
+                },
+                {
+                  "Episode": 21,
+                  "Title": "Prototype",
+                  "Duration": "21 min",
+                  "Description": "",
+                  "Thumbnail": "",
+                  "Servers": [
+                    {
+                      "name": "720p",
+                      "url": "https://dn720309.ca.archive.org/0/items/s-01-e-04-fun-and-games/S02E21%20-%20Prototype.mp4",
+                      "subtitle": []
+                    },
+                    {
+                      "name": "720p",
+                      "url": "https://dn720309.ca.archive.org/0/items/s-01-e-04-fun-and-games/S02E21%20-%20Prototype.ia.mp4",
+                      "subtitle": []
+                    }
+                  ]
+                },
+                {
+                  "Episode": 22,
+                  "Title": "The Late Mr. Kent",
+                  "Duration": "21 min",
+                  "Description": "",
+                  "Thumbnail": "",
+                  "Servers": [
+                    {
+                      "name": "720p",
+                      "url": "https://dn720309.ca.archive.org/0/items/s-01-e-04-fun-and-games/S02E22%20-%20The%20Late%20Mr.%20Kent.mp4",
+                      "subtitle": []
+                    },
+                    {
+                      "name": "720p",
+                      "url": "https://dn720309.ca.archive.org/0/items/s-01-e-04-fun-and-games/S02E22%20-%20The%20Late%20Mr.%20Kent.ia.mp4",
+                      "subtitle": []
+                    }
+                  ]
+                },
+                {
+                  "Episode": 23,
+                  "Title": "Heavy Metal",
+                  "Duration": "21 min",
+                  "Description": "",
+                  "Thumbnail": "",
+                  "Servers": [
+                    {
+                      "name": "720p",
+                      "url": "https://dn720309.ca.archive.org/0/items/s-01-e-04-fun-and-games/S02E23%20-%20Heavy%20Metal.mp4",
+                      "subtitle": []
+                    },
+                    {
+                      "name": "720p",
+                      "url": "https://dn720309.ca.archive.org/0/items/s-01-e-04-fun-and-games/S02E23%20-%20Heavy%20Metal.ia.mp4",
+                      "subtitle": []
+                    }
+                  ]
+                },
+                {
+                  "Episode": 24,
+                  "Title": "Warrior Queen",
+                  "Duration": "21 min",
+                  "Description": "",
+                  "Thumbnail": "",
+                  "Servers": [
+                    {
+                      "name": "720p",
+                      "url": "https://dn720309.ca.archive.org/0/items/s-01-e-04-fun-and-games/S02E24%20-%20Warrior%20Queen.mp4",
+                      "subtitle": []
+                    },
+                    {
+                      "name": "720p",
+                      "url": "https://dn720309.ca.archive.org/0/items/s-01-e-04-fun-and-games/S02E24%20-%20Warrior%20Queen.ia.mp4",
+                      "subtitle": []
+                    }
+                  ]
+                },
+                {
+                  "Episode": 25,
+                  "Title": "Apokolips...Now!, Part 1",
+                  "Duration": "21 min",
+                  "Description": "",
+                  "Thumbnail": "",
+                  "Servers": [
+                    {
+                      "name": "720p",
+                      "url": "https://dn720309.ca.archive.org/0/items/s-01-e-04-fun-and-games/S02E25%20-%20Apokolips...Now%21%2C%20Part%201.mp4",
+                      "subtitle": []
+                    },
+                    {
+                      "name": "720p",
+                      "url": "https://dn720309.ca.archive.org/0/items/s-01-e-04-fun-and-games/S02E25%20-%20Apokolips...Now%21%2C%20Part%201.ia.mp4",
+                      "subtitle": []
+                    }
+                  ]
+                },
+                {
+                  "Episode": 26,
+                  "Title": "Apokolips...Now!, Part 2",
+                  "Duration": "21 min",
+                  "Description": "",
+                  "Thumbnail": "",
+                  "Servers": [
+                    {
+                      "name": "720p",
+                      "url": "https://dn720309.ca.archive.org/0/items/s-01-e-04-fun-and-games/S02E26%20-%20Apokolips...Now%2C%20Part%202.mp4",
+                      "subtitle": []
+                    },
+                    {
+                      "name": "720p",
+                      "url": "https://dn720309.ca.archive.org/0/items/s-01-e-04-fun-and-games/S02E26%20-%20Apokolips...Now%2C%20Part%202.ia.mp4",
+                      "subtitle": []
+                    }
+                  ]
+                },
+                {
+                  "Episode": 27,
+                  "Title": "Little Girl Lost, Part 1",
+                  "Duration": "21 min",
+                  "Description": "",
+                  "Thumbnail": "",
+                  "Servers": [
+                    {
+                      "name": "720p",
+                      "url": "https://dn720309.ca.archive.org/0/items/s-01-e-04-fun-and-games/S02E27%20-%20Little%20Girl%20Lost%2C%20Part%201.mp4",
+                      "subtitle": []
+                    },
+                    {
+                      "name": "720p",
+                      "url": "https://dn720309.ca.archive.org/0/items/s-01-e-04-fun-and-games/S02E27%20-%20Little%20Girl%20Lost%2C%20Part%201.ia.mp4",
+                      "subtitle": []
+                    }
+                  ]
+                },
+                {
+                  "Episode": 28,
+                  "Title": "Little Girl Lost, Part 2",
+                  "Duration": "21 min",
+                  "Description": "",
+                  "Thumbnail": "",
+                  "Servers": [
+                    {
+                      "name": "720p",
+                      "url": "https://dn720309.ca.archive.org/0/items/s-01-e-04-fun-and-games/S02E28%20-%20Little%20Girl%20Lost%2C%20Part%201.mp4",
+                      "subtitle": []
+                    },
+                    {
+                      "name": "720p",
+                      "url": "https://dn720309.ca.archive.org/0/items/s-01-e-04-fun-and-games/S02E28%20-%20Little%20Girl%20Lost%2C%20Part%201.ia.mp4",
+                      "subtitle": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "Season": 3,
+              "SeasonPoster": "https://movie-fcs.fwh.is/poster/supermananimatedseries",
+              "Episodes": [
+                {
+                  "Episode": 1,
+                  "Title": "Where There's Smoke",
+                  "Duration": "21 min",
+                  "Description": "",
+                  "Thumbnail": "",
+                  "Servers": [
+                    {
+                      "name": "720p",
+                      "url": "https://dn720309.ca.archive.org/0/items/s-01-e-04-fun-and-games/S03E01%20-%20Where%20There%27s%20Smoke.mp4",
+                      "subtitle": []
+                    },
+                    {
+                      "name": "720p",
+                      "url": "https://dn720309.ca.archive.org/0/items/s-01-e-04-fun-and-games/S03E01%20-%20Where%20There%27s%20Smoke.ia.mp4",
+                      "subtitle": []
+                    }
+                  ]
+                },
+                {
+                  "Episode": 2,
+                  "Title": "Knight Time",
+                  "Duration": "21 min",
+                  "Description": "",
+                  "Thumbnail": "",
+                  "Servers": [
+                    {
+                      "name": "720p",
+                      "url": "https://dn720309.ca.archive.org/0/items/s-01-e-04-fun-and-games/S03E02%20-%20Knight%20Time.mp4",
+                      "subtitle": []
+                    },
+                    {
+                      "name": "720p",
+                      "url": "https://dn720309.ca.archive.org/0/items/s-01-e-04-fun-and-games/S03E02%20-%20Knight%20Time.ia.mp4",
+                      "subtitle": []
+                    }
+                  ]
+                },
+                {
+                  "Episode": 3,
+                  "Title": "New Kids in Town",
+                  "Duration": "21 min",
+                  "Description": "",
+                  "Thumbnail": "",
+                  "Servers": [
+                    {
+                      "name": "720p",
+                      "url": "https://dn720309.ca.archive.org/0/items/s-01-e-04-fun-and-games/S03E03%20-%20New%20Kids%20in%20Town.mp4",
+                      "subtitle": []
+                    },
+                    {
+                      "name": "720p",
+                      "url": "https://dn720309.ca.archive.org/0/items/s-01-e-04-fun-and-games/S03E03%20-%20New%20Kids%20in%20Town.ia.mp4",
+                      "subtitle": []
+                    }
+                  ]
+                },
+                {
+                  "Episode": 4,
+                  "Title": "Obsession",
+                  "Duration": "21 min",
+                  "Description": "",
+                  "Thumbnail": "",
+                  "Servers": [
+                    {
+                      "name": "720p",
+                      "url": "https://dn720309.ca.archive.org/0/items/s-01-e-04-fun-and-games/S03E04%20-%20Obsession.mp4",
+                      "subtitle": []
+                    },
+                    {
+                      "name": "720p",
+                      "url": "https://dn720309.ca.archive.org/0/items/s-01-e-04-fun-and-games/S03E04%20-%20Obsession.ia.mp4",
+                      "subtitle": []
+                    }
+                  ]
+                },
+                {
+                  "Episode": 5,
+                  "Title": "Little Big Head Man",
+                  "Duration": "21 min",
+                  "Description": "",
+                  "Thumbnail": "",
+                  "Servers": [
+                    {
+                      "name": "720p",
+                      "url": "https://dn720309.ca.archive.org/0/items/s-01-e-04-fun-and-games/S03E05%20-%20Little%20Head%20Big%20Man.mp4",
+                      "subtitle": []
+                    },
+                    {
+                      "name": "720p",
+                      "url": "https://dn720309.ca.archive.org/0/items/s-01-e-04-fun-and-games/S03E05%20-%20Little%20Head%20Big%20Man.ia.mp4",
+                      "subtitle": []
+                    }
+                  ]
+                },
+                {
+                  "Episode": 6,
+                  "Title": "Absolute Power",
+                  "Duration": "21 min",
+                  "Description": "",
+                  "Thumbnail": "",
+                  "Servers": [
+                    {
+                      "name": "720p",
+                      "url": "https://dn720309.ca.archive.org/0/items/s-01-e-04-fun-and-games/S03E06%20-%20Absolute%20Power.mp4",
+                      "subtitle": []
+                    },
+                    {
+                      "name": "720p",
+                      "url": "https://dn720309.ca.archive.org/0/items/s-01-e-04-fun-and-games/S03E06%20-%20Absolute%20Power.ia.mp4",
+                      "subtitle": []
+                    }
+                  ]
+                },
+                {
+                  "Episode": 7,
+                  "Title": "In Brightest Day...",
+                  "Duration": "21 min",
+                  "Description": "",
+                  "Thumbnail": "",
+                  "Servers": [
+                    {
+                      "name": "720p",
+                      "url": "https://dn720309.ca.archive.org/0/items/s-01-e-04-fun-and-games/S03E07%20-%20In%20Brightest%20Day.mp4",
+                      "subtitle": []
+                    },
+                    {
+                      "name": "720p",
+                      "url": "https://dn720309.ca.archive.org/0/items/s-01-e-04-fun-and-games/S03E07%20-%20In%20Brightest%20Day.ia.mp4",
+                      "subtitle": []
+                    }
+                  ]
+                },
+                {
+                  "Episode": 8,
+                  "Title": "Superman's Pal",
+                  "Duration": "21 min",
+                  "Description": "",
+                  "Thumbnail": "",
+                  "Servers": [
+                    {
+                      "name": "720p",
+                      "url": "https://dn720309.ca.archive.org/0/items/s-01-e-04-fun-and-games/S03E08%20-%20Superman%27s%20Pal.mp4",
+                      "subtitle": []
+                    },
+                    {
+                      "name": "720p",
+                      "url": "https://dn720309.ca.archive.org/0/items/s-01-e-04-fun-and-games/S03E08%20-%20Superman%27s%20Pal.ia.mp4",
+                      "subtitle": []
+                    }
+                  ]
+                },
+                {
+                  "Episode": 9,
+                  "Title": "A Fish Story",
+                  "Duration": "21 min",
+                  "Description": "",
+                  "Thumbnail": "",
+                  "Servers": [
+                    {
+                      "name": "720p",
+                      "url": "https://dn720309.ca.archive.org/0/items/s-01-e-04-fun-and-games/S03E09%20-%20A%20Fish%20Story.mp4",
+                      "subtitle": []
+                    },
+                    {
+                      "name": "720p",
+                      "url": "https://dn720309.ca.archive.org/0/items/s-01-e-04-fun-and-games/S03E09%20-%20A%20Fish%20Story.ia.mp4",
+                      "subtitle": []
+                    }
+                  ]
+                },
+                {
+                  "Episode": 10,
+                  "Title": "Unity",
+                  "Duration": "21 min",
+                  "Description": "",
+                  "Thumbnail": "",
+                  "Servers": [
+                    {
+                      "name": "720p",
+                      "url": "https://dn720309.ca.archive.org/0/items/s-01-e-04-fun-and-games/S03E10%20-%20Unity.mp4",
+                      "subtitle": []
+                    },
+                    {
+                      "name": "720p",
+                      "url": "https://dn720309.ca.archive.org/0/items/s-01-e-04-fun-and-games/S03E10%20-%20Unity.ia.mp4",
+                      "subtitle": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "Season": 4,
+              "SeasonPoster": "https://movie-fcs.fwh.is/poster/supermananimatedseries",
+              "Episodes": [
+                {
+                  "Episode": 1,
+                  "Title": "The Demon Reborn",
+                  "Duration": "21 min",
+                  "Description": "",
+                  "Thumbnail": "",
+                  "Servers": [
+                    {
+                      "name": "720p",
+                      "url": "https://dn720309.ca.archive.org/0/items/s-01-e-04-fun-and-games/S04E01%20-%20The%20Demon%20Reborn.mp4",
+                      "subtitle": []
+                    },
+                    {
+                      "name": "720p",
+                      "url": "https://dn720309.ca.archive.org/0/items/s-01-e-04-fun-and-games/S04E01%20-%20The%20Demon%20Reborn.ia.mp4",
+                      "subtitle": []
+                    }
+                  ]
+                },
+                {
+                  "Episode": 2,
+                  "Title": "Legacy, Part 1",
+                  "Duration": "21 min",
+                  "Description": "",
+                  "Thumbnail": "",
+                  "Servers": [
+                    {
+                      "name": "720p",
+                      "url": "https://dn720309.ca.archive.org/0/items/s-01-e-04-fun-and-games/S04E02%20-%20Legacy%2C%20Part%201.mp4",
+                      "subtitle": []
+                    },
+                    {
+                      "name": "720p",
+                      "url": "https://dn720309.ca.archive.org/0/items/s-01-e-04-fun-and-games/S04E02%20-%20Legacy%2C%20Part%201.ia.mp4",
+                      "subtitle": []
+                    }
+                  ]
+                },
+                {
+                  "Episode": 3,
+                  "Title": "Legacy, Part 2",
+                  "Duration": "21 min",
+                  "Description": "",
+                  "Thumbnail": "",
+                  "Servers": [
+                    {
+                      "name": "720p",
+                      "url": "https://dn720309.ca.archive.org/0/items/s-01-e-04-fun-and-games/S04E03%20-%20Legacy%2C%20Part%202.mp4",
+                      "subtitle": []
+                    },
+                    {
+                      "name": "720p",
+                      "url": "https://dn720309.ca.archive.org/0/items/s-01-e-04-fun-and-games/S04E03%20-%20Legacy%2C%20Part%202.ia.mp4",
+                      "subtitle": []
                     }
                   ]
                 }
