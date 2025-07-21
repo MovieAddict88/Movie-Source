@@ -46,7 +46,7 @@
           "Thumbnail": "https://i.imgur.com/5krGyOX.png",
           "Rating": 0,
           "Duration": "",
-          "Year": null,
+          "Year": 0,
           "Servers": [
             {
               "name": "HD",
@@ -63,7 +63,7 @@
           "Thumbnail": "https://i.imgur.com/cb9Hp32.png",
           "Rating": 0,
           "Duration": "",
-          "Year": null,
+          "Year": 0,
           "Servers": [
             {
               "name": "HD",
@@ -80,7 +80,7 @@
           "Thumbnail": "https://i.imgur.com/FmvPl3U.png",
           "Rating": 0,
           "Duration": "",
-          "Year": null,
+          "Year": 0,
           "Servers": [
             {
               "name": "HD",
@@ -97,7 +97,7 @@
           "Thumbnail": "https://i.imgur.com/zC6ul0L.png",
           "Rating": 0,
           "Duration": "",
-          "Year": null,
+          "Year": 0,
           "Servers": [
             {
               "name": "SD",
@@ -114,7 +114,7 @@
           "Thumbnail": "https://i.imgur.com/iTZsuwE.png",
           "Rating": 0,
           "Duration": "",
-          "Year": null,
+          "Year": 0,
           "Servers": [
             {
               "name": "HD",
@@ -131,7 +131,7 @@
           "Thumbnail": "https://i.imgur.com/odMlNlu.png",
           "Rating": 0,
           "Duration": "",
-          "Year": null,
+          "Year": 0,
           "Servers": [
             {
               "name": "HD",
@@ -148,7 +148,7 @@
           "Thumbnail": "https://images.deepai.org/art-image/0f3456df03504154b9c4c9e2bbbe0bf6/football-logo-6e9e48.jpg",
           "Rating": 0,
           "Duration": "",
-          "Year": null,
+          "Year": 0,
           "Servers": [
             {
               "name": "HD",
@@ -165,7 +165,7 @@
           "Thumbnail": "https://i.imgur.com/oTAZpMX.png",
           "Rating": 0,
           "Duration": "",
-          "Year": null,
+          "Year": 0,
           "Servers": [
             {
               "name": "HD",
@@ -182,7 +182,7 @@
           "Thumbnail": "https://i.imgur.com/NA0v02i.png",
           "Rating": 0,
           "Duration": "",
-          "Year": null,
+          "Year": 0,
           "Servers": [
             {
               "name": "HD",
@@ -199,7 +199,7 @@
           "Thumbnail": "https://i.imgur.com/60ltJNZ.png",
           "Rating": 0,
           "Duration": "",
-          "Year": null,
+          "Year": 0,
           "Servers": [
             {
               "name": "SD",
@@ -216,7 +216,7 @@
           "Thumbnail": "https://images.deepai.org/art-image/9adc6f1f1c524b8ea3b09b31284dffef/mr-bean-cartoon-with-text-logo-355a93.jpg",
           "Rating": 0,
           "Duration": "",
-          "Year": null,
+          "Year": 0,
           "Servers": [
             {
               "name": "HD",
@@ -233,7 +233,7 @@
           "Thumbnail": "https://images.deepai.org/art-image/bb6cec15a5cb4b8589835904396b3eff/cartoon-classic-logo-8472ab.jpg",
           "Rating": 0,
           "Duration": "",
-          "Year": null,
+          "Year": 0,
           "Servers": [
             {
               "name": "HD",
@@ -250,7 +250,7 @@
           "Thumbnail": "https://i.imgur.com/vUpIbVN.png",
           "Rating": 0,
           "Duration": "",
-          "Year": null,
+          "Year": 0,
           "Servers": [
             {
               "name": "SD",
@@ -267,7 +267,7 @@
           "Thumbnail": "https://i.imgur.com/0CRk7Nf.png",
           "Rating": 0,
           "Duration": "",
-          "Year": null,
+          "Year": 0,
           "Servers": [
             {
               "name": "SD",
@@ -284,7 +284,7 @@
           "Thumbnail": "https://i.imgur.com/3UMiEgD.png",
           "Rating": 0,
           "Duration": "",
-          "Year": null,
+          "Year": 0,
           "Servers": [
             {
               "name": "SD",
@@ -301,7 +301,7 @@
           "Thumbnail": "https://i.imgur.com/9zVyTXV.png",
           "Rating": 0,
           "Duration": "",
-          "Year": null,
+          "Year": 0,
           "Servers": [
             {
               "name": "HD",
@@ -318,7 +318,7 @@
           "Thumbnail": "https://i.imgur.com/SbiPKql.png",
           "Rating": 0,
           "Duration": "",
-          "Year": null,
+          "Year": 0,
           "Servers": [
             {
               "name": "HD",
@@ -335,7 +335,7 @@
           "Thumbnail": "https://i.imgur.com/tLUSj5p.png",
           "Rating": 0,
           "Duration": "",
-          "Year": null,
+          "Year": 0,
           "Servers": [
             {
               "name": "HD",
@@ -352,7 +352,7 @@
           "Thumbnail": "https://i.imgur.com/GfqMnG6.png",
           "Rating": 0,
           "Duration": "",
-          "Year": null,
+          "Year": 0,
           "Servers": [
             {
               "name": "SD",
@@ -369,7 +369,7 @@
           "Thumbnail": "https://i.imgur.com/FV3NTrr.png",
           "Rating": 0,
           "Duration": "",
-          "Year": null,
+          "Year": 0,
           "Servers": [
             {
               "name": "HD",
@@ -386,7 +386,7 @@
           "Thumbnail": "https://i.imgur.com/Gwd2TNB.png",
           "Rating": 0,
           "Duration": "",
-          "Year": null,
+          "Year": 0,
           "Servers": [
             {
               "name": "HD",
@@ -403,7 +403,7 @@
           "Thumbnail": "https://i.imgur.com/xvpDd5F.png",
           "Rating": 0,
           "Duration": "",
-          "Year": null,
+          "Year": 0,
           "Servers": [
             {
               "name": "SD",
@@ -420,7 +420,7 @@
           "Thumbnail": "https://i.imgur.com/Y9vnT7K.png",
           "Rating": 0,
           "Duration": "",
-          "Year": null,
+          "Year": 0,
           "Servers": [
             {
               "name": "SD",
@@ -437,7 +437,7 @@
           "Thumbnail": "https://i.imgur.com/CbsDpEd.png",
           "Rating": 0,
           "Duration": "",
-          "Year": null,
+          "Year": 0,
           "Servers": [
             {
               "name": "HD",
@@ -454,7 +454,7 @@
           "Thumbnail": "https://i.imgur.com/gJ8Rxr4.png",
           "Rating": 0,
           "Duration": "",
-          "Year": null,
+          "Year": 0,
           "Servers": [
             {
               "name": "SD",
@@ -471,7 +471,7 @@
           "Thumbnail": "https://i.imgur.com/4YPSDQg.png",
           "Rating": 0,
           "Duration": "",
-          "Year": null,
+          "Year": 0,
           "Servers": [
             {
               "name": "SD",
@@ -488,7 +488,7 @@
           "Thumbnail": "https://i.imgur.com/nV9QXh5.png",
           "Rating": 0,
           "Duration": "",
-          "Year": null,
+          "Year": 0,
           "Servers": [
             {
               "name": "HD",
@@ -505,7 +505,7 @@
           "Thumbnail": "https://i.imgur.com/bJe76EA.png",
           "Rating": 0,
           "Duration": "",
-          "Year": null,
+          "Year": 0,
           "Servers": [
             {
               "name": "HD",
@@ -522,7 +522,7 @@
           "Thumbnail": "https://i.imgur.com/O4mv3Bu.png",
           "Rating": 0,
           "Duration": "",
-          "Year": null,
+          "Year": 0,
           "Servers": [
             {
               "name": "HD",
@@ -539,7 +539,7 @@
           "Thumbnail": "https://i.imgur.com/xBlYirh.jpeg",
           "Rating": 0,
           "Duration": "",
-          "Year": null,
+          "Year": 0,
           "Servers": [
             {
               "name": "HD",
@@ -556,7 +556,7 @@
           "Thumbnail": "https://i.imgur.com/6l5x8Tx.png",
           "Rating": 0,
           "Duration": "",
-          "Year": null,
+          "Year": 0,
           "Servers": [
             {
               "name": "HD",
@@ -573,7 +573,7 @@
           "Thumbnail": "https://th.bing.com/th/id/R.da0efd0a8ae25cc3ed689c0b82f00948?rik=93YX0cls8nM62A&riu=http%3a%2f%2fvebaresourcecenter.com%2fwp-content%2fuploads%2f2021%2f02%2fFox-5.png&ehk=3cscegNe6kvhaAcpuOcaGPc9qXfPNTGNPpzce1K%2bGoI%3d&risl=&pid=ImgRaw&r=0&sres=1&sresct=1",
           "Rating": 0,
           "Duration": "",
-          "Year": null,
+          "Year": 0,
           "Servers": [
             {
               "name": "HD",
@@ -590,7 +590,7 @@
           "Thumbnail": "https://yt3.ggpht.com/a/AATXAJyBhvv8T9RzinRRiGuWjkg-S4Qlse33y3pWiA=s900-c-k-c0xffffffff-no-rj-mo",
           "Rating": 0,
           "Duration": "",
-          "Year": null,
+          "Year": 0,
           "Servers": [
             {
               "name": "HD",
@@ -622,7 +622,7 @@
           "Thumbnail": "https://i.imgur.com/Ufp278A.png",
           "Rating": 0,
           "Duration": "",
-          "Year": null,
+          "Year": 0,
           "Servers": [
             {
               "name": "HD",
@@ -639,7 +639,7 @@
           "Thumbnail": "https://i.imgur.com/u385Aaa.png",
           "Rating": 0,
           "Duration": "",
-          "Year": null,
+          "Year": 0,
           "Servers": [
             {
               "name": "SD",
@@ -656,7 +656,7 @@
           "Thumbnail": "https://i.imgur.com/ePXmpqr.png",
           "Rating": 0,
           "Duration": "",
-          "Year": null,
+          "Year": 0,
           "Servers": [
             {
               "name": "HD",
@@ -673,7 +673,7 @@
           "Thumbnail": "https://i.imgur.com/KUwrSOH.png",
           "Rating": 0,
           "Duration": "",
-          "Year": null,
+          "Year": 0,
           "Servers": [
             {
               "name": "HD",
@@ -690,7 +690,7 @@
           "Thumbnail": "https://i.imgur.com/GsejzSt.png",
           "Rating": 0,
           "Duration": "",
-          "Year": null,
+          "Year": 0,
           "Servers": [
             {
               "name": "SD",
@@ -707,7 +707,7 @@
           "Thumbnail": "https://yt3.ggpht.com/a/AATXAJwG4flJwodLuUwXoT9W0t5HIvpB_-JZyRSCCw=s900-c-k-c0xffffffff-no-rj-mo",
           "Rating": 0,
           "Duration": "",
-          "Year": null,
+          "Year": 0,
           "Servers": [
             {
               "name": "HD",
@@ -724,7 +724,7 @@
           "Thumbnail": "https://i.imgur.com/EkmCzO1.png",
           "Rating": 0,
           "Duration": "",
-          "Year": null,
+          "Year": 0,
           "Servers": [
             {
               "name": "SD",
@@ -741,7 +741,7 @@
           "Thumbnail": "https://i.imgur.com/nVs49ps.png",
           "Rating": 0,
           "Duration": "",
-          "Year": null,
+          "Year": 0,
           "Servers": [
             {
               "name": "HD",
@@ -758,7 +758,7 @@
           "Thumbnail": "https://i.imgur.com/NLxg6Va.png",
           "Rating": 0,
           "Duration": "",
-          "Year": null,
+          "Year": 0,
           "Servers": [
             {
               "name": "HD",
@@ -775,7 +775,7 @@
           "Thumbnail": "https://i.imgur.com/QSfKYPJ.png",
           "Rating": 0,
           "Duration": "",
-          "Year": null,
+          "Year": 0,
           "Servers": [
             {
               "name": "HD",
@@ -792,7 +792,7 @@
           "Thumbnail": "https://i.imgur.com/PRp3gAG.png",
           "Rating": 0,
           "Duration": "",
-          "Year": null,
+          "Year": 0,
           "Servers": [
             {
               "name": "SD",
@@ -809,7 +809,7 @@
           "Thumbnail": "https://i.imgur.com/ucIzYgj.png",
           "Rating": 0,
           "Duration": "",
-          "Year": null,
+          "Year": 0,
           "Servers": [
             {
               "name": "HD",
@@ -826,7 +826,7 @@
           "Thumbnail": "https://i.imgur.com/yJhZN08.png",
           "Rating": 0,
           "Duration": "",
-          "Year": null,
+          "Year": 0,
           "Servers": [
             {
               "name": "HD",
@@ -843,7 +843,7 @@
           "Thumbnail": "https://i.imgur.com/2a0CHbg.png",
           "Rating": 0,
           "Duration": "",
-          "Year": null,
+          "Year": 0,
           "Servers": [
             {
               "name": "HD",
@@ -860,7 +860,7 @@
           "Thumbnail": "https://i.imgur.com/yllKClE.png",
           "Rating": 0,
           "Duration": "",
-          "Year": null,
+          "Year": 0,
           "Servers": [
             {
               "name": "HD",
@@ -898,7 +898,7 @@
           "Description": "",
           "Poster": "",
           "Thumbnail": "",
-          "Rating": null,
+          "Rating": 0,
           "Duration": "",
           "Year": 2020,
           "Servers": [
