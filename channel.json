@@ -1,0 +1,1319 @@
+[
+  
+  {
+    "Title": "KAPAMILYA",
+    "SubCategory": "Entertainment",
+    "Country": "🇵🇭 Philippines",
+    "Description": "ABS-CBN's flagship entertainment channel featuring dramas, variety shows, and news.",
+    "Poster": "https://i.imgur.com/GEUL42b.png",
+    "Thumbnail": "https://i.imgur.com/GEUL42b.png",
+    "Rating": 4.7,
+    "Duration": "24/7",
+    "Year": 2020,
+    "Servers": [
+      { "name": "HD", "url": "https://cdn-ue1-prod.tsv2.amagi.tv/linear/amg01006-abs-cbn-kapcha-dash-abscbnono/index.mpd" }
+    ]
+  },
+  {
+    "Title": "GMA PINOY TV",
+    "SubCategory": "News",
+    "Country": "🇵🇭 Philippines",
+    "Description": "International feed of GMA Network, targeting overseas Filipinos with news and shows.",
+    "Poster": "https://i.imgur.com/QtZzwZm.png",
+    "Thumbnail": "https://i.imgur.com/QtZzwZm.png",
+    "Rating": 4.6,
+    "Duration": "24/7",
+    "Year": 2005,
+    "Servers": [
+      { "name": "HD", "url": "https://amg01006-abs-cbn-abscbn-gma-x7-dash-abscbnono-dzsx9.amagi.tv/index.mpd" }
+    ]
+  },
+  {
+    "Title": "Animax",
+    "SubCategory": "Animation",
+    "Country": "🇯🇵 Japan",
+    "Description": "Sony-owned channel specializing in anime programming.",
+    "Poster": "https://i.imgur.com/iYRTs2n.png",
+    "Thumbnail": "https://i.imgur.com/iYRTs2n.png",
+    "Rating": 4.4,
+    "Duration": "24/7",
+    "Year": 1998,
+    "Servers": [
+      { "name": "HD", "url": "https://tglmp01.akamaized.net/out/v1/de55fad9216e4fe7ad8d2eed456ba1ec/manifest.mpd" }
+    ]
+  },
+  {
+    "Title": "CINEMA ONE",
+    "SubCategory": "Movies",
+    "Country": "🇵🇭 Philippines",
+    "Description": "Filipino movie channel featuring classic and contemporary films.",
+    "Poster": "https://i.imgur.com/moSPpuJ.png",
+    "Thumbnail": "https://i.imgur.com/moSPpuJ.png",
+    "Rating": 4.3,
+    "Duration": "24/7",
+    "Year": 1994,
+    "Servers": [
+      { "name": "HD", "url": "https://d9rpesrrg1bdi.cloudfront.net/out/v1/93b9db7b231d45f28f64f29b86dc6c65/index.mpd" }
+    ]
+  },
+  {
+    "Title": "CINEMO",
+    "SubCategory": "Movies",
+    "Country": "🇵🇭 Philippines",
+    "Description": "Movie channel showcasing Filipino and international films.",
+    "Poster": "https://i.imgur.com/2Jn7QHG.png",
+    "Thumbnail": "https://i.imgur.com/2Jn7QHG.png",
+    "Rating": 4.2,
+    "Duration": "24/7",
+    "Year": 2018,
+    "Servers": [
+      { "name": "HD", "url": "https://d1bail49udbz1k.cloudfront.net/out/v1/3a895f368f4a467c9bca0962559efc19/index.mpd" }
+    ]
+  },
+  {
+    "Title": "Star Channel",
+    "SubCategory": "Entertainment",
+    "Country": "🇺🇸 USA",
+    "Description": "Premium entertainment network featuring Hollywood movies and series.",
+    "Poster": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cd/Star_Channel_2023.svg/220px-Star_Channel_2023.svg.png",
+    "Thumbnail": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cd/Star_Channel_2023.svg/220px-Star_Channel_2023.svg.png",
+    "Rating": 4.8,
+    "Duration": "24/7",
+    "Year": 1995,
+    "Servers": [
+      { "name": "HD", "url": "https://streamer1.nexgen.bz/STAR/tracks-v1a1/mono.m3u8" }
+    ]
+  },
+  {
+    "Title": "UNBEATEN",
+    "SubCategory": "Sports",
+    "Country": "🇵🇭 Philippines",
+    "Description": "Sports channel dedicated to boxing and combat sports.",
+    "Poster": "https://unbeaten.com/assets/images/Unbeaten_Buffering.jpg",
+    "Thumbnail": "https://unbeaten.com/assets/images/Unbeaten_Buffering.jpg",
+    "Rating": 4.1,
+    "Duration": "24/7",
+    "Year": 2021,
+    "Servers": [
+      { "name": "HD", "url": "https://unbeaten-tcl.amagi.tv/playlist.m3u8" }
+    ]
+  },
+  {
+    "Title": "TV5",
+    "SubCategory": "General",
+    "Country": "🇵🇭 Philippines",
+    "Description": "Free-to-air network offering news, entertainment, and sports.",
+    "Poster": "https://i.imgur.com/Ddyfzrn.png",
+    "Thumbnail": "https://i.imgur.com/Ddyfzrn.png",
+    "Rating": 4.0,
+    "Duration": "24/7",
+    "Year": 1960,
+    "Servers": [
+      { "name": "HD", "url": "https://qp-pldt-live-grp-02-prod.akamaized.net/out/u/tv5_hd.mpd" }
+    ]
+  },
+  {
+    "Title": "TFC",
+    "SubCategory": "Entertainment",
+    "Country": "🇵🇭 Philippines",
+    "Description": "Global subscription network for overseas Filipinos, featuring ABS-CBN content.",
+    "Poster": "https://i.imgur.com/zZWj5vn.png",
+    "Thumbnail": "https://i.imgur.com/zZWj5vn.png",
+    "Rating": 4.7,
+    "Duration": "24/7",
+    "Year": 1994,
+    "Servers": [
+      { "name": "HD", "url": "https://cdn-ue1-prod.tsv2.amagi.tv/linear/amg01006-abs-cbn-tfcasia-dash-abscbnono/7045bc3c-9492-42d4-974e-a3b217776e57/index.mpd" }
+    ]
+  },
+  {
+    "Title": "PBO",
+    "SubCategory": "Sports",
+    "Country": "🇵🇭 Philippines",
+    "Description": "Philippine Basketball Organization channel showcasing local and international games.",
+    "Poster": "https://i.imgur.com/buOVATz.png",
+    "Thumbnail": "https://i.imgur.com/buOVATz.png",
+    "Rating": 4.5,
+    "Duration": "24/7",
+    "Year": 2011,
+    "Servers": [
+      { "name": "SD", "url": "https://qp-pldt-live-grp-04-prod.akamaized.net/out/u/pbo_sd.mpd" }
+    ]
+  },
+  {
+    "Title": "Sari-Sari",
+    "SubCategory": "Entertainment",
+    "Country": "🇵🇭 Philippines",
+    "Description": "Channel featuring a mix of lifestyle, entertainment, and variety shows.",
+    "Poster": "https://i.imgur.com/MXxN1UO.png",
+    "Thumbnail": "https://i.imgur.com/MXxN1UO.png",
+    "Rating": 3.9,
+    "Duration": "24/7",
+    "Year": 2019,
+    "Servers": [
+      { "name": "SD", "url": "https://qp-pldt-live-grp-06-prod.akamaized.net/out/u/cg_sari_sari_sd.mpd" }
+    ]
+  },
+  {
+    "Title": "Viva Cinema",
+    "SubCategory": "Movies",
+    "Country": "🇵🇭 Philippines",
+    "Description": "Movie channel from Viva Entertainment, showcasing Filipino films.",
+    "Poster": "https://i.imgur.com/51RWtvd.png",
+    "Thumbnail": "https://i.imgur.com/51RWtvd.png",
+    "Rating": 4.0,
+    "Duration": "24/7",
+    "Year": 2015,
+    "Servers": [
+      { "name": "SD", "url": "https://qp-pldt-live-grp-06-prod.akamaized.net/out/u/viva_sd.mpd" }
+    ]
+  },
+  {
+    "Title": "HallyPop",
+    "SubCategory": "Music",
+    "Country": "🇰🇷 South Korea",
+    "Description": "Korean pop music and entertainment channel.",
+    "Poster": "https://i.imgur.com/uBbgIek.png",
+    "Thumbnail": "https://i.imgur.com/uBbgIek.png",
+    "Rating": 4.3,
+    "Duration": "24/7",
+    "Year": 2020,
+    "Servers": [
+      { "name": "HD", "url": "https://jungotvstream.chanall.tv/jungotv/hallypop/stream.m3u8" }
+    ]
+  },
+  {
+    "Title": "Jungo Pinoy TV",
+    "SubCategory": "General",
+    "Country": "🇵🇭 Philippines",
+    "Description": "Channel catering to overseas Filipinos with Pinoy content.",
+    "Poster": "https://i.imgur.com/FpeuHI0.png",
+    "Thumbnail": "https://i.imgur.com/FpeuHI0.png",
+    "Rating": 3.8,
+    "Duration": "24/7",
+    "Year": 2018,
+    "Servers": [
+      { "name": "HD", "url": "https://jungotvstream.chanall.tv/jungotv/jungopinoytv/stream.m3u8" }
+    ]
+  },
+  {
+    "Title": "ANC",
+    "SubCategory": "News",
+    "Country": "🇵🇭 Philippines",
+    "Description": "ABS-CBN News Channel, providing 24/7 news coverage.",
+    "Poster": "https://i.imgur.com/Bcu69bU.png",
+    "Thumbnail": "https://i.imgur.com/Bcu69bU.png",
+    "Rating": 4.6,
+    "Duration": "24/7",
+    "Year": 1996,
+    "Servers": [
+      { "name": "HD", "url": "https://cdn-ue1-prod.tsv2.amagi.tv/linear/amg01006-abs-cbn-anc-global-dash-abscbnono/index.mpd" }
+    ]
+  },
+  {
+    "Title": "TVN Movies Pinoy",
+    "SubCategory": "Movies",
+    "Country": "🇵🇭 Philippines",
+    "Description": "Movie channel featuring Filipino and international films.",
+    "Poster": "https://i.imgur.com/tHWr33B.png",
+    "Thumbnail": "https://i.imgur.com/tHWr33B.png",
+    "Rating": 4.1,
+    "Duration": "24/7",
+    "Year": 2017,
+    "Servers": [
+      { "name": "HD", "url": "https://qp-pldt-live-grp-07-prod.akamaized.net/out/u/cg_tvnmovie.mpd" }
+    ]
+  },
+  {
+    "Title": "TMC",
+    "SubCategory": "Movies",
+    "Country": "🇵🇭 Philippines",
+    "Description": "Tagalog Movie Channel showcasing Filipino films.",
+    "Poster": "https://i.imgur.com/6mNCite.png",
+    "Thumbnail": "https://i.imgur.com/6mNCite.png",
+    "Rating": 4.0,
+    "Duration": "24/7",
+    "Year": 2016,
+    "Servers": [
+      { "name": "HD", "url": "https://qp-pldt-live-grp-07-prod.akamaized.net/out/u/cg_tagalogmovie.mpd" }
+    ]
+  },
+  {
+    "Title": "Cartoon Network",
+    "SubCategory": "Animation",
+    "Country": "🇺🇸 USA",
+    "Description": "Global kids' channel featuring animated series and cartoons.",
+    "Poster": "https://i.imgur.com/R1fV2uY.png",
+    "Thumbnail": "https://i.imgur.com/R1fV2uY.png",
+    "Rating": 4.7,
+    "Duration": "24/7",
+    "Year": 1992,
+    "Servers": [
+      { "name": "HD", "url": "https://qp-pldt-live-grp-12-prod.akamaized.net/out/u/dr_cartoonnetworkhd.mpd" }
+    ]
+  },
+  {
+    "Title": "Disney Channel",
+    "SubCategory": "Kids",
+    "Country": "🇺🇸 USA",
+    "Description": "Kids' channel featuring Disney shows, movies, and original series.",
+    "Poster": "https://i.imgur.com/NVRbZfJ.png",
+    "Thumbnail": "https://i.imgur.com/NVRbZfJ.png",
+    "Rating": 4.8,
+    "Duration": "24/7",
+    "Year": 1983,
+    "Servers": [
+      { "name": "HD", "url": "https://disney-channel.13l.link/live/Disney/index.m3u8" }
+    ]
+  },
+  {
+    "Title": "DreamWorks Tagalized",
+    "SubCategory": "Animation",
+    "Country": "🇵🇭 Philippines",
+    "Description": "Tagalog-dubbed DreamWorks animated movies and series.",
+    "Poster": "https://i.imgur.com/fh1Lg7b.png",
+    "Thumbnail": "https://i.imgur.com/fh1Lg7b.png",
+    "Rating": 4.4,
+    "Duration": "24/7",
+    "Year": 2019,
+    "Servers": [
+      { "name": "HD", "url": "https://qp-pldt-live-grp-07-prod.akamaized.net/out/u/cg_dreamworktag.mpd" }
+    ]
+  },
+  {
+    "Title": "DreamWorks",
+    "SubCategory": "Animation",
+    "Country": "🇺🇸 USA",
+    "Description": "Channel featuring DreamWorks Animation content.",
+    "Poster": "https://i.imgur.com/fh1Lg7b.png",
+    "Thumbnail": "https://i.imgur.com/fh1Lg7b.png",
+    "Rating": 4.5,
+    "Duration": "24/7",
+    "Year": 2015,
+    "Servers": [
+      { "name": "HD", "url": "https://qp-pldt-live-grp-02-prod.akamaized.net/out/u/cg_dreamworks_hd1.mpd" }
+    ]
+  },
+  {
+    "Title": "PBS Local",
+    "SubCategory": "General",
+    "Country": "🇺🇸 USA",
+    "Description": "Public Broadcasting Service offering educational and local content.",
+    "Poster": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e3/PBS_Kids_logo_%282022%29.svg/1200px-PBS_Kids_logo_%282022%29.svg.png",
+    "Thumbnail": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e3/PBS_Kids_logo_%282022%29.svg/1200px-PBS_Kids_logo_%282022%29.svg.png",
+    "Rating": 4.2,
+    "Duration": "24/7",
+    "Year": 1969,
+    "Servers": [
+      { "name": "SD", "url": "https://2-fss-2.streamhoster.com/pl_140/amlst:200914-1298290/chunklist_b2000000.m3u8" }
+    ]
+  },
+  {
+    "Title": "HBO",
+    "SubCategory": "Movies",
+    "Country": "🇺🇸 USA",
+    "Description": "Premium cable network featuring blockbuster movies and original series.",
+    "Poster": "https://i.imgur.com/fHBIgs6.png",
+    "Thumbnail": "https://i.imgur.com/fHBIgs6.png",
+    "Rating": 4.9,
+    "Duration": "24/7",
+    "Year": 1972,
+    "Servers": [
+      { "name": "HD", "url": "https://qp-pldt-live-grp-03-prod.akamaized.net/out/u/cg_hbohd.mpd" }
+    ]
+  },
+  {
+    "Title": "HBO Family",
+    "SubCategory": "Family",
+    "Country": "🇺🇸 USA",
+    "Description": "Family-friendly movies and shows from HBO.",
+    "Poster": "https://i.imgur.com/WANpEkc.png",
+    "Thumbnail": "https://i.imgur.com/WANpEkc.png",
+    "Rating": 4.6,
+    "Duration": "24/7",
+    "Year": 1996,
+    "Servers": [
+      { "name": "HD", "url": "https://qp-pldt-live-grp-03-prod.akamaized.net/out/u/cg_hbofam.mpd" }
+    ]
+  },
+  {
+    "Title": "HBO Signature",
+    "SubCategory": "Entertainment",
+    "Country": "🇺🇸 USA",
+    "Description": "HBO's channel for critically acclaimed series and films.",
+    "Poster": "https://i.imgur.com/Q2ki7HC.png",
+    "Thumbnail": "https://i.imgur.com/Q2ki7HC.png",
+    "Rating": 4.7,
+    "Duration": "24/7",
+    "Year": 1991,
+    "Servers": [
+      { "name": "HD", "url": "https://qp-pldt-live-grp-01-prod.akamaized.net/out/u/cg_hbosign.mpd" }
+    ]
+  },
+  {
+    "Title": "HBO Hits",
+    "SubCategory": "Movies",
+    "Country": "🇺🇸 USA",
+    "Description": "HBO's movie channel featuring popular films.",
+    "Poster": "https://i.imgur.com/iCnfJS0.png",
+    "Thumbnail": "https://i.imgur.com/iCnfJS0.png",
+    "Rating": 4.8,
+    "Duration": "24/7",
+    "Year": 2011,
+    "Servers": [
+      { "name": "HD", "url": "https://qp-pldt-live-grp-09-prod.akamaized.net/out/u/cg_hbohits.mpd" }
+    ]
+  },
+  {
+    "Title": "Cinemax",
+    "SubCategory": "Movies",
+    "Country": "🇺🇸 USA",
+    "Description": "Premium movie channel from HBO's sister network.",
+    "Poster": "https://i.imgur.com/r8qzNiy.png",
+    "Thumbnail": "https://i.imgur.com/r8qzNiy.png",
+    "Rating": 4.5,
+    "Duration": "24/7",
+    "Year": 1980,
+    "Servers": [
+      { "name": "HD", "url": "https://qp-pldt-live-grp-01-prod.akamaized.net/out/u/cg_cinemax.mpd" }
+    ]
+  },
+  {
+    "Title": "Hits Now",
+    "SubCategory": "Music",
+    "Country": "🇺🇸 USA",
+    "Description": "Music channel featuring the latest hits.",
+    "Poster": "https://i.imgur.com/S3pNx8G.png",
+    "Thumbnail": "https://i.imgur.com/S3pNx8G.png",
+    "Rating": 4.3,
+    "Duration": "24/7",
+    "Year": 2015,
+    "Servers": [
+      { "name": "HD", "url": "https://qp-pldt-live-grp-09-prod.akamaized.net/out/u/cg_hitsnow.mpd" }
+    ]
+  },
+  {
+    "Title": "Hits",
+    "SubCategory": "Music",
+    "Country": "🇺🇸 USA",
+    "Description": "Music channel playing popular hits across decades.",
+    "Poster": "https://i.imgur.com/jghDgUJ.png",
+    "Thumbnail": "https://i.imgur.com/jghDgUJ.png",
+    "Rating": 4.2,
+    "Duration": "24/7",
+    "Year": 2010,
+    "Servers": [
+      { "name": "HD", "url": "https://qp-pldt-live-grp-04-prod.akamaized.net/out/u/hits_hd1.mpd" }
+    ]
+  },
+  {
+    "Title": "Hits Movies",
+    "SubCategory": "Movies",
+    "Country": "🇺🇸 USA",
+    "Description": "Movie channel featuring popular films.",
+    "Poster": "https://i.imgur.com/zzdj40q.png",
+    "Thumbnail": "https://i.imgur.com/zzdj40q.png",
+    "Rating": 4.4,
+    "Duration": "24/7",
+    "Year": 2012,
+    "Servers": [
+      { "name": "HD", "url": "https://qp-pldt-live-grp-12-prod.akamaized.net/out/u/dr_hitsmovies.mpd" }
+    ]
+  },
+  {
+    "Title": "AXN",
+    "SubCategory": "Entertainment",
+    "Country": "🇺🇸 USA",
+    "Description": "Action and adventure TV series and movies.",
+    "Poster": "https://i.imgur.com/Dj6tVaG.png",
+    "Thumbnail": "https://i.imgur.com/Dj6tVaG.png",
+    "Rating": 4.5,
+    "Duration": "24/7",
+    "Year": 1997,
+    "Servers": [
+      { "name": "SD", "url": "https://qp-pldt-live-grp-06-prod.akamaized.net/out/u/cg_axn_sd.mpd" }
+    ]
+  },
+  {
+    "Title": "Warner TV",
+    "SubCategory": "Entertainment",
+    "Country": "🇺🇸 USA",
+    "Description": "Warner Bros. entertainment channel featuring series and movies.",
+    "Poster": "https://i.imgur.com/vGEL2Ne.png",
+    "Thumbnail": "https://i.imgur.com/vGEL2Ne.png",
+    "Rating": 4.6,
+    "Duration": "24/7",
+    "Year": 2010,
+    "Servers": [
+      { "name": "HD", "url": "https://qp-pldt-live-grp-11-prod.akamaized.net/out/u/dr_warnertvhd.mpd" }
+    ]
+  },
+  {
+    "Title": "Thrill",
+    "SubCategory": "Entertainment",
+    "Country": "🇺🇸 USA",
+    "Description": "Channel dedicated to thriller and suspense content.",
+    "Poster": "https://i.imgur.com/Szf7VBM.png",
+    "Thumbnail": "https://i.imgur.com/Szf7VBM.png",
+    "Rating": 4.3,
+    "Duration": "24/7",
+    "Year": 2015,
+    "Servers": [
+      { "name": "SD", "url": "https://qp-pldt-live-grp-06-prod.akamaized.net/out/u/cg_thrill_sd.mpd" }
+    ]
+  },
+  {
+    "Title": "Lotus Macau",
+    "SubCategory": "Entertainment",
+    "Country": "🇲🇴 Macau",
+    "Description": "Macau-based entertainment channel.",
+    "Poster": "https://i.imgur.com/sKfzEuf.png",
+    "Thumbnail": "https://i.imgur.com/sKfzEuf.png",
+    "Rating": 3.9,
+    "Duration": "24/7",
+    "Year": 2010,
+    "Servers": [
+      { "name": "HD", "url": "https://qp-pldt-live-grp-07-prod.akamaized.net/out/u/lotusmacau_prd.mpd" }
+    ]
+  },
+  {
+    "Title": "IBC13",
+    "SubCategory": "General",
+    "Country": "🇵🇭 Philippines",
+    "Description": "Philippine free-to-air television network.",
+    "Poster": "https://i.imgur.com/Org4yTu.png",
+    "Thumbnail": "https://i.imgur.com/Org4yTu.png",
+    "Rating": 3.8,
+    "Duration": "24/7",
+    "Year": 1960,
+    "Servers": [
+      { "name": "SD", "url": "https://qp-pldt-live-grp-07-prod.akamaized.net/out/u/ibc13_sd.mpd" }
+    ]
+  },
+  {
+    "Title": "PTV4",
+    "SubCategory": "News",
+    "Country": "🇵🇭 Philippines",
+    "Description": "Philippine government-owned news and public affairs channel.",
+    "Poster": "https://i.imgur.com/Ktl7qZt.png",
+    "Thumbnail": "https://i.imgur.com/Ktl7qZt.png",
+    "Rating": 3.7,
+    "Duration": "24/7",
+    "Year": 1974,
+    "Servers": [
+      { "name": "SD", "url": "https://qp-pldt-live-grp-02-prod.akamaized.net/out/u/cg_ptv4_sd.mpd" }
+    ]
+  },
+  {
+    "Title": "DepEd Channel",
+    "SubCategory": "Education",
+    "Country": "🇵🇭 Philippines",
+    "Description": "Educational channel by the Philippine Department of Education.",
+    "Poster": "https://i.imgur.com/TyFFBWn.png",
+    "Thumbnail": "https://i.imgur.com/TyFFBWn.png",
+    "Rating": 4.0,
+    "Duration": "24/7",
+    "Year": 2020,
+    "Servers": [
+      { "name": "SD", "url": "https://qp-pldt-live-grp-07-prod.akamaized.net/out/u/depedch_sd.mpd" }
+    ]
+  },
+  {
+    "Title": "Buko Channel",
+    "SubCategory": "Entertainment",
+    "Country": "🇵🇭 Philippines",
+    "Description": "Entertainment channel featuring local content.",
+    "Poster": "https://i.imgur.com/Wv0K5Yc.png",
+    "Thumbnail": "https://i.imgur.com/Wv0K5Yc.png",
+    "Rating": 3.9,
+    "Duration": "24/7",
+    "Year": 2019,
+    "Servers": [
+      { "name": "SD", "url": "https://qp-pldt-live-grp-06-prod.akamaized.net/out/u/cg_buko_sd.mpd" }
+    ]
+  },
+  {
+    "Title": "Knowledge Channel",
+    "SubCategory": "Education",
+    "Country": "🇵🇭 Philippines",
+    "Description": "Educational channel for students and teachers.",
+    "Poster": "https://i.imgur.com/UIqEr2y.png",
+    "Thumbnail": "https://i.imgur.com/UIqEr2y.png",
+    "Rating": 4.2,
+    "Duration": "24/7",
+    "Year": 1999,
+    "Servers": [
+      { "name": "HD", "url": "https://qp-pldt-live-grp-13-prod.akamaized.net/out/u/dr_knowledgechannel.mpd" }
+    ]
+  },
+  {
+    "Title": "TVN",
+    "SubCategory": "Entertainment",
+    "Country": "🇰🇷 South Korea",
+    "Description": "Korean entertainment channel featuring dramas and variety shows.",
+    "Poster": "https://i.imgur.com/gmM3ncL.png",
+    "Thumbnail": "https://i.imgur.com/gmM3ncL.png",
+    "Rating": 4.5,
+    "Duration": "24/7",
+    "Year": 2006,
+    "Servers": [
+      { "name": "HD", "url": "https://qp-pldt-live-grp-09-prod.akamaized.net/out/u/cg_tvnpre.mpd" }
+    ]
+  },
+  {
+    "Title": "RPTV",
+    "SubCategory": "News",
+    "Country": "🇵🇭 Philippines",
+    "Description": "News and public affairs channel.",
+    "Poster": "https://i.imgur.com/GjQEEvq.png",
+    "Thumbnail": "https://i.imgur.com/GjQEEvq.png",
+    "Rating": 4.0,
+    "Duration": "24/7",
+    "Year": 2021,
+    "Servers": [
+      { "name": "HD", "url": "https://qp-pldt-live-grp-03-prod.akamaized.net/out/u/cnn_rptv_prod_hd.mpd" }
+    ]
+  },
+  {
+    "Title": "MPTV",
+    "SubCategory": "Entertainment",
+    "Country": "🇵🇭 Philippines",
+    "Description": "Entertainment channel featuring movies and series.",
+    "Poster": "https://i.imgur.com/BMCnoRn.png",
+    "Thumbnail": "https://i.imgur.com/BMCnoRn.png",
+    "Rating": 3.9,
+    "Duration": "24/7",
+    "Year": 2018,
+    "Servers": [
+      { "name": "HD", "url": "https://qp-pldt-live-grp-09-prod.akamaized.net/out/u/cg_mptv.mpd" }
+    ]
+  },
+  {
+    "Title": "UAAP Varsity",
+    "SubCategory": "Sports",
+    "Country": "🇵🇭 Philippines",
+    "Description": "Sports channel covering UAAP collegiate games.",
+    "Poster": "https://i.imgur.com/rifinVV.png",
+    "Thumbnail": "https://i.imgur.com/rifinVV.png",
+    "Rating": 4.3,
+    "Duration": "24/7",
+    "Year": 2015,
+    "Servers": [
+      { "name": "SD", "url": "https://qp-pldt-live-grp-04-prod.akamaized.net/out/u/cg_uaap_cplay_sd.mpd" }
+    ]
+  },
+  {
+    "Title": "PBA Rush",
+    "SubCategory": "Sports",
+    "Country": "🇵🇭 Philippines",
+    "Description": "Channel dedicated to Philippine Basketball Association (PBA) games.",
+    "Poster": "https://i.imgur.com/J4QCDLG.png",
+    "Thumbnail": "https://i.imgur.com/J4QCDLG.png",
+    "Rating": 4.4,
+    "Duration": "24/7",
+    "Year": 2014,
+    "Servers": [
+      { "name": "HD", "url": "https://qp-pldt-live-grp-01-prod.akamaized.net/out/u/cg_pbarush_hd1.mpd" }
+    ]
+  },
+  {
+    "Title": "NBA TV Philippines",
+    "SubCategory": "Sports",
+    "Country": "🇵🇭 Philippines",
+    "Description": "Philippine feed of NBA TV, covering basketball games and analysis.",
+    "Poster": "https://i.imgur.com/sG7zuX0.png",
+    "Thumbnail": "https://i.imgur.com/sG7zuX0.png",
+    "Rating": 4.7,
+    "Duration": "24/7",
+    "Year": 2012,
+    "Servers": [
+      { "name": "HD", "url": "https://qp-pldt-live-grp-02-prod.akamaized.net/out/u/pl_nba.mpd" }
+    ]
+  },
+  {
+    "Title": "One Sports Plus",
+    "SubCategory": "Sports",
+    "Country": "🇵🇭 Philippines",
+    "Description": "Sports channel featuring local and international events.",
+    "Poster": "https://i.imgur.com/rKCkaHh.png",
+    "Thumbnail": "https://i.imgur.com/rKCkaHh.png",
+    "Rating": 4.2,
+    "Duration": "24/7",
+    "Year": 2019,
+    "Servers": [
+      { "name": "HD", "url": "https://qp-pldt-live-grp-03-prod.akamaized.net/out/u/cg_onesportsplus_hd1.mpd" }
+    ]
+  },
+  {
+    "Title": "One PH",
+    "SubCategory": "News",
+    "Country": "🇵🇭 Philippines",
+    "Description": "News and public affairs channel.",
+    "Poster": "https://i.imgur.com/syEhuvH.png",
+    "Thumbnail": "https://i.imgur.com/syEhuvH.png",
+    "Rating": 4.0,
+    "Duration": "24/7",
+    "Year": 2019,
+    "Servers": [
+      { "name": "SD", "url": "https://qp-pldt-live-grp-04-prod.akamaized.net/out/u/oneph_sd.mpd" }
+    ]
+  },
+  {
+    "Title": "One Sports",
+    "SubCategory": "Sports",
+    "Country": "🇵🇭 Philippines",
+    "Description": "Sports channel covering local and international games.",
+    "Poster": "https://i.imgur.com/iyBXXpU.png",
+    "Thumbnail": "https://i.imgur.com/iyBXXpU.png",
+    "Rating": 4.3,
+    "Duration": "24/7",
+    "Year": 2019,
+    "Servers": [
+      { "name": "HD", "url": "https://qp-pldt-live-grp-07-prod.akamaized.net/out/u/cg_onesports_hd.mpd" }
+    ]
+  },
+  {
+    "Title": "TAP TV",
+    "SubCategory": "Entertainment",
+    "Country": "🇵🇭 Philippines",
+    "Description": "Entertainment channel featuring movies and series.",
+    "Poster": "https://i.imgur.com/KJaSftF.png",
+    "Thumbnail": "https://i.imgur.com/KJaSftF.png",
+    "Rating": 3.9,
+    "Duration": "24/7",
+    "Year": 2018,
+    "Servers": [
+      { "name": "SD", "url": "https://qp-pldt-live-grp-06-prod.akamaized.net/out/u/cg_taptv_sd.mpd" }
+    ]
+  },
+  {
+    "Title": "Tap Edge",
+    "SubCategory": "Entertainment",
+    "Country": "🇵🇭 Philippines",
+    "Description": "Entertainment channel with edgy and alternative content.",
+    "Poster": "https://i.imgur.com/EKt9NGv.png",
+    "Thumbnail": "https://i.imgur.com/EKt9NGv.png",
+    "Rating": 3.8,
+    "Duration": "24/7",
+    "Year": 2019,
+    "Servers": [
+      { "name": "HD", "url": "https://qp-pldt-live-grp-12-prod.akamaized.net/out/u/dr_tapedge.mpd" }
+    ]
+  },
+  {
+    "Title": "Tap Sports",
+    "SubCategory": "Sports",
+    "Country": "🇵🇭 Philippines",
+    "Description": "Sports channel featuring local and international events.",
+    "Poster": "https://i.imgur.com/EEDMg6S.png",
+    "Thumbnail": "https://i.imgur.com/EEDMg6S.png",
+    "Rating": 4.1,
+    "Duration": "24/7",
+    "Year": 2019,
+    "Servers": [
+      { "name": "HD", "url": "https://qp-pldt-live-grp-11-prod.akamaized.net/out/u/dr_tapsports.mpd" }
+    ]
+  },
+  {
+    "Title": "Tap Movies",
+    "SubCategory": "Movies",
+    "Country": "🇵🇭 Philippines",
+    "Description": "Movie channel featuring Filipino and international films.",
+    "Poster": "https://i.imgur.com/5mRcvMS.png",
+    "Thumbnail": "https://i.imgur.com/5mRcvMS.png",
+    "Rating": 4.0,
+    "Duration": "24/7",
+    "Year": 2019,
+    "Servers": [
+      { "name": "HD", "url": "https://qp-pldt-live-grp-13-prod.akamaized.net/out/u/dr_popupppvhd.mpd" }
+    ]
+  },
+  {
+    "Title": "Tap Action Flix",
+    "SubCategory": "Movies",
+    "Country": "🇵🇭 Philippines",
+    "Description": "Action movie channel featuring high-octane films.",
+    "Poster": "https://i.imgur.com/70wmIdp.png",
+    "Thumbnail": "https://i.imgur.com/70wmIdp.png",
+    "Rating": 4.2,
+    "Duration": "24/7",
+    "Year": 2020,
+    "Servers": [
+      { "name": "HD", "url": "https://qp-pldt-live-grp-06-prod.akamaized.net/out/u/cg_tapactionflix_hd1.mpd" }
+    ]
+  },
+  {
+    "Title": "CCTV4",
+    "SubCategory": "News",
+    "Country": "🇨🇳 China",
+    "Description": "Chinese international news and entertainment channel.",
+    "Poster": "https://i.imgur.com/siVwIW8.png",
+    "Thumbnail": "https://i.imgur.com/siVwIW8.png",
+    "Rating": 4.0,
+    "Duration": "24/7",
+    "Year": 1992,
+    "Servers": [
+      { "name": "HD", "url": "https://qp-pldt-live-grp-12-prod.akamaized.net/out/u/dr_cctv4.mpd" }
+    ]
+  },
+  {
+    "Title": "Arirang Korea",
+    "SubCategory": "News",
+    "Country": "🇰🇷 South Korea",
+    "Description": "Korean international news and culture channel.",
+    "Poster": "https://i.imgur.com/say6vAQ.png",
+    "Thumbnail": "https://i.imgur.com/say6vAQ.png",
+    "Rating": 4.1,
+    "Duration": "24/7",
+    "Year": 1996,
+    "Servers": [
+      { "name": "SD", "url": "https://qp-pldt-live-grp-01-prod.akamaized.net/out/u/arirang_sd.mpd" }
+    ]
+  },
+  {
+    "Title": "BBC Earth",
+    "SubCategory": "Documentary",
+    "Country": "🇬🇧 UK",
+    "Description": "Documentary channel featuring nature and science programs.",
+    "Poster": "https://i.imgur.com/TE9MEV1.png",
+    "Thumbnail": "https://i.imgur.com/TE9MEV1.png",
+    "Rating": 4.8,
+    "Duration": "24/7",
+    "Year": 2015,
+    "Servers": [
+      { "name": "HD", "url": "https://qp-pldt-live-grp-03-prod.akamaized.net/out/u/cg_bbcearth_hd1.mpd" }
+    ]
+  },
+  {
+    "Title": "Premier Sports",
+    "SubCategory": "Sports",
+    "Country": "🇬🇧 UK",
+    "Description": "Sports channel featuring football, rugby, and other events.",
+    "Poster": "https://i.imgur.com/dBmvkdJ.png",
+    "Thumbnail": "https://i.imgur.com/dBmvkdJ.png",
+    "Rating": 4.5,
+    "Duration": "24/7",
+    "Year": 2009,
+    "Servers": [
+      { "name": "HD", "url": "https://qp-pldt-live-grp-03-prod.akamaized.net/out/u/cg_premiersports_hd1.mpd" }
+    ]
+  },
+  {
+    "Title": "Premier Sports 2",
+    "SubCategory": "Sports",
+    "Country": "🇬🇧 UK",
+    "Description": "Secondary sports channel from Premier Sports.",
+    "Poster": "https://i.imgur.com/xX9NPje.png",
+    "Thumbnail": "https://i.imgur.com/xX9NPje.png",
+    "Rating": 4.4,
+    "Duration": "24/7",
+    "Year": 2012,
+    "Servers": [
+      { "name": "HD", "url": "https://qp-pldt-live-grp-13-prod.akamaized.net/out/u/dr_premiertennishd.mpd" }
+    ]
+  },
+  {
+    "Title": "WWE Network",
+    "SubCategory": "Sports",
+    "Country": "🇺🇸 USA",
+    "Description": "Professional wrestling channel featuring WWE events and shows.",
+    "Poster": "https://imgur.com/YLM91P6.png",
+    "Thumbnail": "https://imgur.com/YLM91P6.png",
+    "Rating": 4.6,
+    "Duration": "24/7",
+    "Year": 2014,
+    "Servers": [
+      { "name": "HD", "url": "https://linearjitp-playback.astro.com.my/dash-wv/linear/2603/default_primary.mpd" }
+    ]
+  },
+  {
+    "Title": "History",
+    "SubCategory": "Documentary",
+    "Country": "🇺🇸 USA",
+    "Description": "Documentary channel featuring historical events and series.",
+    "Poster": "https://i.imgur.com/BkoC446.png",
+    "Thumbnail": "https://i.imgur.com/BkoC446.png",
+    "Rating": 4.5,
+    "Duration": "24/7",
+    "Year": 1995,
+    "Servers": [
+      { "name": "HD", "url": "https://qp-pldt-live-grp-11-prod.akamaized.net/out/u/dr_historyhd.mpd" }
+    ]
+  },
+  {
+    "Title": "Animal Planet",
+    "SubCategory": "Documentary",
+    "Country": "🇺🇸 USA",
+    "Description": "Documentary channel focused on animals and wildlife.",
+    "Poster": "https://i.imgur.com/1NcoovM.png",
+    "Thumbnail": "https://i.imgur.com/1NcoovM.png",
+    "Rating": 4.4,
+    "Duration": "24/7",
+    "Year": 1996,
+    "Servers": [
+      { "name": "SD", "url": "https://qp-pldt-live-grp-02-prod.akamaized.net/out/u/cg_animal_planet_sd.mpd" }
+    ]
+  },
+  {
+    "Title": "Fashion TV",
+    "SubCategory": "Lifestyle",
+    "Country": "🇫🇷 France",
+    "Description": "Fashion and lifestyle channel showcasing runway shows and trends.",
+    "Poster": "https://i.imgur.com/wzjqyZE.png",
+    "Thumbnail": "https://i.imgur.com/wzjqyZE.png",
+    "Rating": 3.9,
+    "Duration": "24/7",
+    "Year": 1997,
+    "Servers": [
+      { "name": "HD", "url": "https://qp-pldt-live-grp-11-prod.akamaized.net/out/u/dr_fashiontvhd.mpd" }
+    ]
+  },
+  {
+    "Title": "Food Network",
+    "SubCategory": "Lifestyle",
+    "Country": "🇺🇸 USA",
+    "Description": "Cooking and food-related programming.",
+    "Poster": "https://i.imgur.com/EXC1yRz.png",
+    "Thumbnail": "https://i.imgur.com/EXC1yRz.png",
+    "Rating": 4.3,
+    "Duration": "24/7",
+    "Year": 1993,
+    "Servers": [
+      { "name": "HD", "url": "https://qp-pldt-live-grp-09-prod.akamaized.net/out/u/cg_foodnetwork_hd1.mpd" }
+    ]
+  },
+  {
+    "Title": "Bloomberg",
+    "SubCategory": "News",
+    "Country": "🇺🇸 USA",
+    "Description": "Financial news and market updates.",
+    "Poster": "https://i.imgur.com/pl4w2NN.png",
+    "Thumbnail": "https://i.imgur.com/pl4w2NN.png",
+    "Rating": 4.2,
+    "Duration": "24/7",
+    "Year": 1994,
+    "Servers": [
+      { "name": "SD", "url": "https://qp-pldt-live-grp-09-prod.akamaized.net/out/u/bloomberg_sd.mpd" }
+    ]
+  },
+  {
+    "Title": "BBC News Asia Pacific (720p)",
+    "SubCategory": "News",
+    "Country": "🇬🇧 UK",
+    "Description": "BBC's international news coverage for the Asia-Pacific region.",
+    "Poster": "/icon-512.png",
+    "Thumbnail": "/icon-512.png",
+    "Rating": 4.7,
+    "Duration": "24/7",
+    "Year": null,
+    "Servers": [
+      { "name": "HD", "url": "https://cdn4.skygo.mn/live/disk1/BBC_News/HLSv3-FTA/BBC_News.m3u8" }
+    ]
+  },
+  {
+    "Title": "CLTV 36 (720p) [Not 24/7]",
+    "SubCategory": "News",
+    "Country": "🇵🇭 Philippines",
+    "Description": "Local news channel based in Pampanga, Philippines.",
+    "Poster": "/icon-512.png",
+    "Thumbnail": "/icon-512.png",
+    "Rating": 3.8,
+    "Duration": "Part-time",
+    "Year": null,
+    "Servers": [
+      { "name": "HD", "url": "https://live.cltv36.tv:5443/LiveApp/streams/cltvlive.m3u8" }
+    ]
+  },
+  {
+    "Title": "EWTN Africa Asia (720p)",
+    "SubCategory": "Religious",
+    "Country": "🇺🇸 USA",
+    "Description": "Catholic religious programming for Africa and Asia.",
+    "Poster": "/icon-512.png",
+    "Thumbnail": "/icon-512.png",
+    "Rating": 3.9,
+    "Duration": "24/7",
+    "Year": null,
+    "Servers": [
+      { "name": "HD", "url": "https://cdn3.wowza.com/1/ZVBYYXFLLzE0c3NC/Qk1FMURC/hls/live/playlist.m3u8" }
+    ]
+  },
+  {
+    "Title": "EWTN Asia-Pacific (720p) [Not 24/7]",
+    "SubCategory": "Religious",
+    "Country": "🇺🇸 USA",
+    "Description": "Catholic religious programming for the Asia-Pacific region.",
+    "Poster": "/icon-512.png",
+    "Thumbnail": "/icon-512.png",
+    "Rating": 3.9,
+    "Duration": "Part-time",
+    "Year": null,
+    "Servers": [
+      { "name": "HD", "url": "https://cdn3.wowza.com/1/QmVNUVhTNTZSS3Uz/YWQ0aHpi/hls/live/playlist.m3u8" }
+    ]
+  },
+  {
+    "Title": "Zarok TV Sorani (720p)",
+    "SubCategory": "Kids",
+    "Country": "🇮🇶 Iraq",
+    "Description": "Kurdish children's channel broadcasting in Sorani dialect.",
+    "Poster": "/icon-512.png",
+    "Thumbnail": "/icon-512.png",
+    "Rating": 3.7,
+    "Duration": "24/7",
+    "Year": null,
+    "Servers": [
+      { "name": "HD", "url": "https://zindisorani.zaroktv.com.tr/hls/stream.m3u8" }
+    ]
+  },
+  {
+    "Title": "Arirang",
+    "SubCategory": "News",
+    "Country": "🇰🇷 South Korea",
+    "Description": "Korean international news and culture channel.",
+    "Poster": "/icon-512.png",
+    "Thumbnail": "/icon-512.png",
+    "Rating": 4.1,
+    "Duration": "24/7",
+    "Year": null,
+    "Servers": [
+      { "name": "HD", "url": "https://amdlive-ch03-ctnd-com.akamaized.net/arirang_1ch/smil:arirang_1ch.smil/playlist.m3u8" }
+    ]
+  },
+  {
+    "Title": "ALJAZEERA",
+    "SubCategory": "News",
+    "Country": "🇶🇦 Qatar",
+    "Description": "International news channel based in Qatar.",
+    "Poster": "/icon-512.png",
+    "Thumbnail": "/icon-512.png",
+    "Rating": 4.5,
+    "Duration": "24/7",
+    "Year": null,
+    "Servers": [
+      { "name": "HD", "url": "https://live-hls-web-aje.getaj.net/AJE/index.m3u8" }
+    ]
+  },
+  {
+    "Title": "Bloomberg",
+    "SubCategory": "News",
+    "Country": "🇺🇸 USA",
+    "Description": "Financial news and market updates.",
+    "Poster": "/icon-512.png",
+    "Thumbnail": "/icon-512.png",
+    "Rating": 4.2,
+    "Duration": "24/7",
+    "Year": null,
+    "Servers": [
+      { "name": "HD", "url": "https://www.bloomberg.com/media-manifest/streams/asia.m3u8" }
+    ]
+  },
+  {
+    "Title": "BBC World News",
+    "SubCategory": "News",
+    "Country": "🇬🇧 UK",
+    "Description": "BBC's international news coverage.",
+    "Poster": "/icon-512.png",
+    "Thumbnail": "/icon-512.png",
+    "Rating": 4.7,
+    "Duration": "24/7",
+    "Year": null,
+    "Servers": [
+      { "name": "HD", "url": "https://vs-hls-push-ww-live.akamaized.net/x=4/i=urn:bbc:pips:service:bbc_news_channel_hd/t=3840/v=pv14/b=5070016/main.m3u8" }
+    ]
+  },
+  {
+    "Title": "CGTN News",
+    "SubCategory": "News",
+    "Country": "🇨🇳 China",
+    "Description": "China Global Television Network's English-language news channel.",
+    "Poster": "/icon-512.png",
+    "Thumbnail": "/icon-512.png",
+    "Rating": 4.0,
+    "Duration": "24/7",
+    "Year": null,
+    "Servers": [
+      { "name": "HD", "url": "https://news.cgtn.com/resource/live/english/cgtn-news.m3u8" }
+    ]
+  },
+  {
+    "Title": "Outdoor Channel",
+    "SubCategory": "Lifestyle",
+    "Country": "🇺🇸 USA",
+    "Description": "Channel dedicated to outdoor activities like hunting and fishing.",
+    "Poster": "/icon-512.png",
+    "Thumbnail": "/icon-512.png",
+    "Rating": 4.1,
+    "Duration": "24/7",
+    "Year": null,
+    "Servers": [
+      { "name": "HD", "url": "https://cdn-apse1-prod.tsv2.amagi.tv/linear/amg00718-outdoorchannela-outdoortvnz-samsungnz/playlist.m3u8" }
+    ]
+  },
+  {
+    "Title": "Thrillers",
+    "SubCategory": "Movies",
+    "Country": "🇺🇸 USA",
+    "Description": "Movie channel specializing in thriller and suspense films.",
+    "Poster": "/icon-512.png",
+    "Thumbnail": "/icon-512.png",
+    "Rating": 4.2,
+    "Duration": "24/7",
+    "Year": null,
+    "Servers": [
+      { "name": "HD", "url": "https://amc-rushbyamc-1-us.vizio.wurl.tv/playlist.m3u8" }
+    ]
+  },
+  {
+    "Title": "Baywatch",
+    "SubCategory": "Entertainment",
+    "Country": "🇺🇸 USA",
+    "Description": "Channel featuring the classic TV series 'Baywatch' and similar content.",
+    "Poster": "/icon-512.png",
+    "Thumbnail": "/icon-512.png",
+    "Rating": 3.9,
+    "Duration": "24/7",
+    "Year": null,
+    "Servers": [
+      { "name": "HD", "url": "https://d1ku2wsea2oun8.cloudfront.net/playlist.m3u8" }
+    ]
+  },
+  {
+    "Title": "Bein Sports Xtra",
+    "SubCategory": "Sports",
+    "Country": "🇶🇦 Qatar",
+    "Description": "Sports channel featuring football and other events.",
+    "Poster": "/icon-512.png",
+    "Thumbnail": "/icon-512.png",
+    "Rating": 4.3,
+    "Duration": "24/7",
+    "Year": null,
+    "Servers": [
+      { "name": "HD", "url": "https://amg01334-beinsportsllc-beinxtra-localnow-kcy6r.amagi.tv/playlist.m3u8" }
+    ]
+  },
+  {
+    "Title": "MovieSphere",
+    "SubCategory": "Movies",
+    "Country": "🇬🇧 UK",
+    "Description": "Movie channel featuring a variety of films.",
+    "Poster": "/icon-512.png",
+    "Thumbnail": "/icon-512.png",
+    "Rating": 4.0,
+    "Duration": "24/7",
+    "Year": null,
+    "Servers": [
+      { "name": "HD", "url": "https://moviesphereuk-samsunguk.amagi.tv/playlist.m3u8" }
+    ]
+  },
+  {
+    "Title": "3ABN Kids",
+    "SubCategory": "Kids",
+    "Country": "🇺🇸 USA",
+    "Description": "Christian children's programming.",
+    "Poster": "/icon-512.png",
+    "Thumbnail": "/icon-512.png",
+    "Rating": 3.8,
+    "Duration": "24/7",
+    "Year": null,
+    "Servers": [
+      { "name": "HD", "url": "https://3abn.bozztv.com/3abn2/Kids_live/smil:Kids_live.smil/playlist.m3u8" }
+    ]
+  },
+  {
+    "Title": "Blues TV",
+    "SubCategory": "Music",
+    "Country": "🇺🇸 USA",
+    "Description": "Music channel dedicated to blues music.",
+    "Poster": "/icon-512.png",
+    "Thumbnail": "/icon-512.png",
+    "Rating": 3.9,
+    "Duration": "24/7",
+    "Year": null,
+    "Servers": [
+      { "name": "HD", "url": "https://2-fss-2.streamhoster.com/pl_138/205510-3094608-1/playlist.m3u8" }
+    ]
+  },
+  {
+    "Title": "Japanim TV (1080p)",
+    "SubCategory": "Animation",
+    "Country": "🇯🇵 Japan",
+    "Description": "Japanese animation channel featuring anime series.",
+    "Poster": "/icon-512.png",
+    "Thumbnail": "/icon-512.png",
+    "Rating": 4.4,
+    "Duration": "24/7",
+    "Year": null,
+    "Servers": [
+      { "name": "FHD", "url": "https://foxkidstv.be:3369/stream/play.m3u8" }
+    ]
+  },
+  {
+    "Title": "Kuriakos Kids (1080p)",
+    "SubCategory": "Kids",
+    "Country": "🇺🇸 USA",
+    "Description": "Christian children's channel with educational content.",
+    "Poster": "/icon-512.png",
+    "Thumbnail": "/icon-512.png",
+    "Rating": 3.9,
+    "Duration": "24/7",
+    "Year": null,
+    "Servers": [
+      { "name": "FHD", "url": "https://w2.manasat.com/kkids/smil:kkids.smil/playlist.m3u8" }
+    ]
+  },
+  {
+    "Title": "Magic Kids (486p)",
+    "SubCategory": "Kids",
+    "Country": "🇺🇸 USA",
+    "Description": "Children's entertainment channel.",
+    "Poster": "/icon-512.png",
+    "Thumbnail": "/icon-512.png",
+    "Rating": 3.7,
+    "Duration": "24/7",
+    "Year": null,
+    "Servers": [
+      { "name": "SD", "url": "https://magicstream.ddns.net/magicstream/stream.m3u8" }
+    ]
+  },
+  {
+    "Title": "Persiana Junior",
+    "SubCategory": "Kids",
+    "Country": "🇮🇷 Iran",
+    "Description": "Persian-language children's channel.",
+    "Poster": "/icon-512.png",
+    "Thumbnail": "/icon-512.png",
+    "Rating": 3.8,
+    "Duration": "24/7",
+    "Year": null,
+    "Servers": [
+      { "name": "HD", "url": "https://junhls.persiana.live/hls/stream.m3u8" }
+    ]
+  },
+  {
+    "Title": "XilamTV (1080p)",
+    "SubCategory": "Animation",
+    "Country": "🇫🇷 France",
+    "Description": "French animation channel featuring cartoons and kids' shows.",
+    "Poster": "/icon-512.png",
+    "Thumbnail": "/icon-512.png",
+    "Rating": 4.0,
+    "Duration": "24/7",
+    "Year": null,
+    "Servers": [
+      { "name": "FHD", "url": "https://xilam-animation-1-fr.samsung.wurl.tv/playlist.m3u8" }
+    ]
+  },
+  {
+    "Title": "Zarok TV Sorani (720p)",
+    "SubCategory": "Kids",
+    "Country": "🇮🇶 Iraq",
+    "Description": "Kurdish children's channel broadcasting in Sorani dialect.",
+    "Poster": "/icon-512.png",
+    "Thumbnail": "/icon-512.png",
+    "Rating": 3.7,
+    "Duration": "24/7",
+    "Year": null,
+    "Servers": [
+      { "name": "HD", "url": "https://zindisorani.zaroktv.com.tr/hls/stream.m3u8" }
+    ]
+  },
+  {
+    "Title": "30A We Love Cars",
+    "SubCategory": "Lifestyle",
+    "Country": "🇺🇸 USA",
+    "Description": "Channel dedicated to car culture and automotive enthusiasts.",
+    "Poster": "/icon-512.png",
+    "Thumbnail": "/icon-512.png",
+    "Rating": 3.9,
+    "Duration": "24/7",
+    "Year": null,
+    "Servers": [
+      { "name": "HD", "url": "https://30a-tv.com/feeds/vidaa/cars.m3u8" }
+    ]
+  },
+  {
+    "Title": "Canal Motor (720p)",
+    "SubCategory": "Lifestyle",
+    "Country": "🇵🇹 Portugal",
+    "Description": "Portuguese channel focused on motorsports and cars.",
+    "Poster": "/icon-512.png",
+    "Thumbnail": "/icon-512.png",
+    "Rating": 4.0,
+    "Duration": "24/7",
+    "Year": null,
+    "Servers": [
+      { "name": "HD", "url": "https://digicom.hls.iptvdc.com/canalmotor/index.m3u8" }
+    ]
+  },
+  {
+    "Title": "Choppertown (720p)",
+    "SubCategory": "Lifestyle",
+    "Country": "🇺🇸 USA",
+    "Description": "Channel dedicated to motorcycle culture and events.",
+    "Poster": "/icon-512.png",
+    "Thumbnail": "/icon-512.png",
+    "Rating": 3.8,
+    "Duration": "24/7",
+    "Year": null,
+    "Servers": [
+      { "name": "HD", "url": "https://linear-11.frequency.stream/dist/glewedtv/11/hls/master/playlist.m3u8" }
+    ]
+  },
+  {
+    "Title": "Fun Roads TV (720p)",
+    "SubCategory": "Lifestyle",
+    "Country": "🇺🇸 USA",
+    "Description": "Travel and road trip channel featuring scenic routes and destinations.",
+    "Poster": "/icon-512.png",
+    "Thumbnail": "/icon-512.png",
+    "Rating": 3.9,
+    "Duration": "24/7",
+    "Year": null,
+    "Servers": [
+      { "name": "HD", "url": "https://a-cdn.klowdtv.com/live3/funroads_720p/playlist.m3u8" }
+    ]
+  },
+  {
+    "Title": "Garage TV Latin America",
+    "SubCategory": "Lifestyle",
+    "Country": "🇲🇽 Mexico",
+    "Description": "Latin American channel focused on car restoration and mechanics.",
+    "Poster": "/icon-512.png",
+    "Thumbnail": "/icon-512.png",
+    "Rating": 3.8,
+    "Duration": "24/7",
+    "Year": null,
+    "Servers": [
+      { "name": "HD", "url": "https://stream1.sersat.com/hls/garagetv.m3u8" }
+    ]
+  },
+  {
+    "Title": "Retro TV (KCKS-LD9) (480p)",
+    "SubCategory": "Entertainment",
+    "Country": "🇺🇸 USA",
+    "Description": "Retro television channel featuring classic TV shows.",
+    "Poster": "/icon-512.png",
+    "Thumbnail": "/icon-512.png",
+    "Rating": 4.0,
+    "Duration": "24/7",
+    "Year": null,
+    "Servers": [
+      { "name": "SD", "url": "https://cdn.igocast.com/channel9_hls/channel9_master.m3u8" }
+    ]
+  },
+  {
+    "Title": "Mindanow Network TV",
+    "SubCategory": "General",
+    "Country": "🇵🇭 Philippines",
+    "Description": "Regional channel serving Mindanao with local news and programs.",
+    "Poster": "https://i.imgur.com/xBlYirh.jpeg",
+    "Thumbnail": "https://i.imgur.com/xBlYirh.jpeg",
+    "Rating": 3.9,
+    "Duration": "24/7",
+    "Year": null,
+    "Servers": [
+      { "name": "HD", "url": "https://streams1.comclark.com/overlay/mindanow/playlist.m3u8" }
+    ]
+  }
+]
