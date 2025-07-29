@@ -38,6 +38,26 @@
           ]
         },
         {
+          "Title": "Bitmovin Clearkey Demo",
+          "SubCategory": "Movies",
+          "Country": "🌐 Asia",
+          "Description": "HBO Family Asia is a pay television network that features family-friendly movies.",
+          "Poster": "https://i.imgur.com/5krGyOX.png",
+          "Thumbnail": "https://i.imgur.com/5krGyOX.png",
+          "Rating": 0,
+          "Duration": "",
+          "Year": 0,
+          "Servers": [
+            {
+      "name": "HD",
+      "url": "https://bitmovin-a.akamaihd.net/content/mi201109210084_1/manifest.mpd",
+      "is_drm_protected": true,
+      "drm_kid": "10000000000000000000000000000001",
+      "drm_key": "10000000000000000000000000000001"
+    }
+          ]
+        },
+        {
           "Title": "HBO Family Asia",
           "SubCategory": "Movies",
           "Country": "🌐 Asia",
