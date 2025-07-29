@@ -58,6 +58,23 @@
           ]
         },
         {
+          "Title": "Animax Jp",
+          "SubCategory": "Entertaiemt",
+          "Country": "🌐 Asia",
+          "Description": "HBO Family Asia is a pay television network that features family-friendly movies.",
+          "Poster": "http://115.146.176.131/images/2acf9495fde07739914e7a7bb3ffee94.png",
+          "Thumbnail": "http://115.146.176.131/images/2acf9495fde07739914e7a7bb3ffee94.png",
+          "Rating": 0,
+          "Duration": "",
+          "Year": 0,
+          "Servers": [
+            {
+              "name": "HD",
+              "url": "http://vthanh.utako.moe/Animax/index.m3u8"
+            }
+          ]
+        },
+        {
           "Title": "CNN Philippines",
           "SubCategory": "News",
           "Country": "🌐 Asia",
