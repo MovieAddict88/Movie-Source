@@ -58,19 +58,19 @@
           ]
         },
         {
-          "Title": "Testing Family Asia",
-          "SubCategory": "Movies",
+          "Title": "CNN Philippines",
+          "SubCategory": "News",
           "Country": "🌐 Asia",
           "Description": "HBO Family Asia is a pay television network that features family-friendly movies.",
-          "Poster": "https://i.imgur.com/5krGyOX.png",
-          "Thumbnail": "https://i.imgur.com/5krGyOX.png",
+          "Poster": "http://115.146.176.131/images/2acf9495fde07739914e7a7bb3ffee94.png",
+          "Thumbnail": "http://115.146.176.131/images/2acf9495fde07739914e7a7bb3ffee94.png",
           "Rating": 0,
           "Duration": "",
           "Year": 0,
           "Servers": [
             {
               "name": "HD",
-              "url": "https://qp-pldt-live-grp-02-prod.akamaized.net/out/u/tv5_hd.m3u8"
+              "url": "https://turnerlive.warnermediacdn.com/hls/live/586495/cnngo/cnn_slate/VIDEO_0_3564000.m3u8"
             }
           ]
         },
