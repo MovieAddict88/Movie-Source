@@ -52,8 +52,8 @@
       "name": "HD",
       "url": "https://storage.googleapis.com/shaka-demo-assets/angel-one-clearkey/dash.mpd",
       "is_drm_protected": true,
-      "drm_kid": "1ae8ccd0e6b74651a1b5a51d8e6b6cfd",
-      "drm_key": "1ae8ccd0e6b74651a1b5a51d8e6b6cfd"
+      "drm_kid": "1ae8ccd0e6e84a6e9a4e5e5e5e5e5e5e",
+      "drm_key": "1ae8ccd0e6e84a6e9a4e5e5e5e5e5e5e"
     }
           ]
         },
