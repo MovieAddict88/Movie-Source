@@ -614,22 +614,25 @@
           ]
         },
         {
-          "Title": "TV5",
-          "SubCategory": "Entertainment",
-          "Country": "🇵🇭 PH",
-          "Description": "TV5 is a major Filipino commercial television network based in Mandaluyong City.",
-          "Poster": "https://i.imgur.com/Ufp278A.png",
-          "Thumbnail": "https://i.imgur.com/Ufp278A.png",
-          "Rating": 0,
-          "Duration": "",
-          "Year": 0,
-          "Servers": [
-            {
-              "name": "HD",
-              "url": "https://qp-pldt-live-grp-02-prod.akamaized.net/out/u/tv5_hd.mpd"
-            }
-          ]
-        },
+  "Title": "TV5",
+  "SubCategory": "Entertainment",
+  "Country": "🇵🇭 PH",
+  "Description": "TV5 is a major Filipino commercial television network based in Mandaluyong City.",
+  "Poster": "https://i.imgur.com/Ufp278A.png",
+  "Thumbnail": "https://i.imgur.com/Ufp278A.png",
+  "Rating": 0,
+  "Duration": "",
+  "Year": 0,
+  "Servers": [
+    {
+      "name": "HD",
+      "url": "https://qp-pldt-live-grp-02-prod.akamaized.net/out/u/tv5_hd.mpd",
+      "is_drm_protected": true,
+      "drm_kid": "2615129ef2c846a9bbd43a641c7303ef",
+      "drm_key": "07c7f996b1734ea288641a68e1cfdc4d"
+    }
+  ]
+},
         {
           "Title": "Pinoy Box Office",
           "SubCategory": "Movies",
