@@ -50,10 +50,10 @@
           "Servers": [
             {
       "name": "HD",
-      "url": "https://bitmovin-a.akamaihd.net/content/mi201109210084_1/manifest.mpd",
+      "url": "https://storage.googleapis.com/shaka-demo-assets/angel-one-clearkey/dash.mpd",
       "is_drm_protected": true,
-      "drm_kid": "10000000000000000000000000000001",
-      "drm_key": "10000000000000000000000000000001"
+      "drm_kid": "1ae8ccd0e6b74651a1b5a51d8e6b6cfd",
+      "drm_key": "1ae8ccd0e6b74651a1b5a51d8e6b6cfd"
     }
           ]
         },
