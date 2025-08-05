@@ -858,6 +858,26 @@
           ]
         },
         {
+          "Title": "TV 5",
+          "SubCategory": "Entertainment",
+          "Country": "Asia",
+          "Description": "",
+          "Poster": "https://i.imgur.com/Ufp278A.png",
+          "Thumbnail": "https://i.imgur.com/Ufp278A.png",
+          "Rating": 0,
+          "Duration": "",
+          "Year": 0,
+          "Servers": [
+            {
+              "name": "HD",
+              "url": "https://qp-pldt-live-grp-02-prod.akamaized.net/out/u/tv5_hd.mpd",
+                "license": "2615129ef2c846a9bbd43a641c7303ef:07c7f996b1734ea288641a68e1cfdc4d",
+                "drm": true
+              
+            }
+          ]
+        },
+        {
           "Title": "HBO Asia",
           "SubCategory": "Movies",
           "Country": "Asia",
