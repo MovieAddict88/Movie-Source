@@ -6849,6 +6849,14 @@
                     {
                       "name": "MultiEmbed Server 1080p",
                       "url": "https://multiembed.mov/directstream.php?video_id=259291&tmdb=1&s=1&e=1"
+                    },
+                    {
+                      "name": "Mega Drive",
+                      "url": "https://mega.nz/file/j1dkTS4S#ebV3tWNwlZIh1SoQbBrPeQ7M3X9edbs6bWUsejeK2Qk"
+                    },
+                    {
+                      "name": "Google Drive",
+                      "url": "https://drive.google.com/file/d/1BaZdGSUBqeaVDDOh37LK4aY0oNkHjWlb/preview"
                     }
                   ]
                 },
