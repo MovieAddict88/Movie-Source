@@ -15,1793 +15,2187 @@
         "Drama",
         "Horror",
         "Sci-Fi",
-        "Animation",
-        "Family",
-        "Adventure"
+        "Thriller",
+        "Science Fiction"
       ],
       "Entries": [
         {
-          "Title": "The Dark Knight",
-          "SubCategory": "Drama",
+          "Title": "Séance Games: Metaxu",
+          "SubCategory": "Horror",
           "Country": "",
-          "Description": "Batman raises the stakes in his war on crime. With the help of Lt. Jim Gordon and District Attorney Harvey Dent, Batman sets out to dismantle the remaining criminal organizations that plague the streets. The partnership proves to be effective, but they soon find themselves prey to a reign of chaos unleashed by a rising criminal mastermind known to the terrified citizens of Gotham as the Joker.",
-          "Poster": "https://image.tmdb.org/t/p/w500/qJ2tW6WMUDux911r6m7haRef0WH.jpg",
-          "Thumbnail": "https://image.tmdb.org/t/p/w500/qJ2tW6WMUDux911r6m7haRef0WH.jpg",
-          "Rating": 9,
-          "Duration": "2:32",
-          "Year": 2008,
-          "Servers": [
-            {
-              "url": "https://vidsrc.net/embed/movie/155"
-            },
-            {
-              "url": "https://vidjoy.pro/embed/movie/155"
-            },
-            {
-              "url": "https://multiembed.mov/directstream.php?video_id=155&content_type=movie"
-            },
-            {
-              "url": "https://embed.su/embed/movie/155"
-            },
-            {
-              "url": "https://vidsrc.me/embed/movie/155"
-            },
-            {
-              "url": "https://player.autoembed.cc/embed/movie/155"
-            },
-            {
-              "url": "https://player.smashy.stream/movie/155"
-            },
-            {
-              "url": "https://vidsrc.to/embed/movie/155"
-            },
-            {
-              "url": "https://vidsrc.xyz/embed/movie/155"
-            },
-            {
-              "url": "https://www.embedsoap.com/embed/movie/155"
-            },
-            {
-              "url": "https://moviesapi.club/movie/155"
-            },
-            {
-              "url": "https://dbgo.fun/movie/155"
-            },
-            {
-              "url": "https://flixhq.to/watch/movie/155"
-            },
-            {
-              "url": "https://gomovies.sx/watch/movie/155"
-            },
-            {
-              "url": "https://www.showbox.media/embed/movie/155"
-            },
-            {
-              "url": "https://primewire.mx/embed/movie/155"
-            },
-            {
-              "url": "https://hdtoday.tv/embed/movie/155"
-            },
-            {
-              "url": "https://vidcloud.to/embed/movie/155"
-            },
-            {
-              "url": "https://streamwish.to/e/155"
-            },
-            {
-              "url": "https://doodstream.com/e/155"
-            },
-            {
-              "url": "https://streamtape.com/e/155"
-            },
-            {
-              "url": "https://mixdrop.co/e/155"
-            },
-            {
-              "url": "https://filemoon.sx/e/155"
-            },
-            {
-              "url": "https://upstream.to/embed-155.html"
-            }
-          ]
-        },
-        {
-          "Title": "Moana 2",
-          "SubCategory": "Animation",
-          "Country": "",
-          "Description": "After receiving an unexpected call from her wayfinding ancestors, Moana journeys alongside Maui and a new crew to the far seas of Oceania and into dangerous, long-lost waters for an adventure unlike anything she's ever faced.",
-          "Poster": "https://image.tmdb.org/t/p/w500/aLVkiINlIeCkcZIzb7XHzPYgO6L.jpg",
-          "Thumbnail": "https://image.tmdb.org/t/p/w500/aLVkiINlIeCkcZIzb7XHzPYgO6L.jpg",
-          "Rating": 7,
-          "Duration": "1:40",
-          "Year": 2024,
-          "Servers": [
-            {
-              "url": "https://vidsrc.net/embed/movie/1241982"
-            },
-            {
-              "url": "https://vidjoy.pro/embed/movie/1241982"
-            },
-            {
-              "url": "https://multiembed.mov/directstream.php?video_id=1241982&content_type=movie"
-            },
-            {
-              "url": "https://embed.su/embed/movie/1241982"
-            },
-            {
-              "url": "https://vidsrc.me/embed/movie/1241982"
-            },
-            {
-              "url": "https://player.autoembed.cc/embed/movie/1241982"
-            },
-            {
-              "url": "https://player.smashy.stream/movie/1241982"
-            },
-            {
-              "url": "https://vidsrc.to/embed/movie/1241982"
-            },
-            {
-              "url": "https://vidsrc.xyz/embed/movie/1241982"
-            },
-            {
-              "url": "https://www.embedsoap.com/embed/movie/1241982"
-            },
-            {
-              "url": "https://moviesapi.club/movie/1241982"
-            },
-            {
-              "url": "https://dbgo.fun/movie/1241982"
-            },
-            {
-              "url": "https://flixhq.to/watch/movie/1241982"
-            },
-            {
-              "url": "https://gomovies.sx/watch/movie/1241982"
-            },
-            {
-              "url": "https://www.showbox.media/embed/movie/1241982"
-            },
-            {
-              "url": "https://primewire.mx/embed/movie/1241982"
-            },
-            {
-              "url": "https://hdtoday.tv/embed/movie/1241982"
-            },
-            {
-              "url": "https://vidcloud.to/embed/movie/1241982"
-            },
-            {
-              "url": "https://streamwish.to/e/1241982"
-            },
-            {
-              "url": "https://doodstream.com/e/1241982"
-            },
-            {
-              "url": "https://streamtape.com/e/1241982"
-            },
-            {
-              "url": "https://mixdrop.co/e/1241982"
-            },
-            {
-              "url": "https://filemoon.sx/e/1241982"
-            },
-            {
-              "url": "https://upstream.to/embed-1241982.html"
-            }
-          ]
-        },
-        {
-          "Title": "The Green Dinosaur",
-          "SubCategory": "Animation",
-          "Country": "",
-          "Description": "When the world around him is mysteriously erased, a little green dinosaur named Diplodocus must travel through the pages of a comic book and adventure through time to bring color back to his land. Alongside a wizard and two scientists, Diplo’s plans go awry as he learns that there may be a dimension to his world that he never considered.",
-          "Poster": "https://image.tmdb.org/t/p/w500/9mnMMiwv20EL5weJrLZCaF8cM2u.jpg",
-          "Thumbnail": "https://image.tmdb.org/t/p/w500/9mnMMiwv20EL5weJrLZCaF8cM2u.jpg",
-          "Rating": 7,
-          "Duration": "1:39",
-          "Year": 2024,
-          "Servers": [
-            {
-              "url": "https://vidsrc.net/embed/movie/947478"
-            },
-            {
-              "url": "https://vidjoy.pro/embed/movie/947478"
-            },
-            {
-              "url": "https://multiembed.mov/directstream.php?video_id=947478&content_type=movie"
-            },
-            {
-              "url": "https://embed.su/embed/movie/947478"
-            },
-            {
-              "url": "https://vidsrc.me/embed/movie/947478"
-            },
-            {
-              "url": "https://player.autoembed.cc/embed/movie/947478"
-            },
-            {
-              "url": "https://player.smashy.stream/movie/947478"
-            },
-            {
-              "url": "https://vidsrc.to/embed/movie/947478"
-            },
-            {
-              "url": "https://vidsrc.xyz/embed/movie/947478"
-            },
-            {
-              "url": "https://www.embedsoap.com/embed/movie/947478"
-            },
-            {
-              "url": "https://moviesapi.club/movie/947478"
-            },
-            {
-              "url": "https://dbgo.fun/movie/947478"
-            },
-            {
-              "url": "https://flixhq.to/watch/movie/947478"
-            },
-            {
-              "url": "https://gomovies.sx/watch/movie/947478"
-            },
-            {
-              "url": "https://www.showbox.media/embed/movie/947478"
-            },
-            {
-              "url": "https://primewire.mx/embed/movie/947478"
-            },
-            {
-              "url": "https://hdtoday.tv/embed/movie/947478"
-            },
-            {
-              "url": "https://vidcloud.to/embed/movie/947478"
-            },
-            {
-              "url": "https://streamwish.to/e/947478"
-            },
-            {
-              "url": "https://doodstream.com/e/947478"
-            },
-            {
-              "url": "https://streamtape.com/e/947478"
-            },
-            {
-              "url": "https://mixdrop.co/e/947478"
-            },
-            {
-              "url": "https://filemoon.sx/e/947478"
-            },
-            {
-              "url": "https://upstream.to/embed-947478.html"
-            }
-          ]
-        },
-        {
-          "Title": "Night",
-          "SubCategory": "Animation",
-          "Country": "",
-          "Description": "Night has to trick the mother of the missing child into sleeping to save her soul.",
-          "Poster": "https://image.tmdb.org/t/p/w500/wtNHVaiEWwc05Iwzu1gravgvtDo.jpg",
-          "Thumbnail": "https://image.tmdb.org/t/p/w500/wtNHVaiEWwc05Iwzu1gravgvtDo.jpg",
-          "Rating": 10,
-          "Duration": "16:00",
-          "Year": 2024,
-          "Servers": [
-            {
-              "url": "https://vidsrc.net/embed/movie/846817"
-            },
-            {
-              "url": "https://vidjoy.pro/embed/movie/846817"
-            },
-            {
-              "url": "https://multiembed.mov/directstream.php?video_id=846817&content_type=movie"
-            },
-            {
-              "url": "https://embed.su/embed/movie/846817"
-            },
-            {
-              "url": "https://vidsrc.me/embed/movie/846817"
-            },
-            {
-              "url": "https://player.autoembed.cc/embed/movie/846817"
-            },
-            {
-              "url": "https://player.smashy.stream/movie/846817"
-            },
-            {
-              "url": "https://vidsrc.to/embed/movie/846817"
-            },
-            {
-              "url": "https://vidsrc.xyz/embed/movie/846817"
-            },
-            {
-              "url": "https://www.embedsoap.com/embed/movie/846817"
-            },
-            {
-              "url": "https://moviesapi.club/movie/846817"
-            },
-            {
-              "url": "https://dbgo.fun/movie/846817"
-            },
-            {
-              "url": "https://flixhq.to/watch/movie/846817"
-            },
-            {
-              "url": "https://gomovies.sx/watch/movie/846817"
-            },
-            {
-              "url": "https://www.showbox.media/embed/movie/846817"
-            },
-            {
-              "url": "https://primewire.mx/embed/movie/846817"
-            },
-            {
-              "url": "https://hdtoday.tv/embed/movie/846817"
-            },
-            {
-              "url": "https://vidcloud.to/embed/movie/846817"
-            },
-            {
-              "url": "https://streamwish.to/e/846817"
-            },
-            {
-              "url": "https://doodstream.com/e/846817"
-            },
-            {
-              "url": "https://streamtape.com/e/846817"
-            },
-            {
-              "url": "https://mixdrop.co/e/846817"
-            },
-            {
-              "url": "https://filemoon.sx/e/846817"
-            },
-            {
-              "url": "https://upstream.to/embed-846817.html"
-            }
-          ]
-        },
-        {
-          "Title": "SuperKlaus",
-          "SubCategory": "Animation",
-          "Country": "",
-          "Description": "Santa Claus's wish comes true when he accidentally bumps his head and starts believing he's SuperKlaus. With the help of Billie and Leo his elf-xecutive assistant, SuperKlaus will take on a toy-obsessed businessman to save Christmas.",
-          "Poster": "https://image.tmdb.org/t/p/w500/8sgc5TA8xsi4wpKrf7XrFKscujQ.jpg",
-          "Thumbnail": "https://image.tmdb.org/t/p/w500/8sgc5TA8xsi4wpKrf7XrFKscujQ.jpg",
-          "Rating": 6,
-          "Duration": "1:28",
-          "Year": 2024,
-          "Servers": [
-            {
-              "url": "https://vidsrc.net/embed/movie/1100998"
-            },
-            {
-              "url": "https://vidjoy.pro/embed/movie/1100998"
-            },
-            {
-              "url": "https://multiembed.mov/directstream.php?video_id=1100998&content_type=movie"
-            },
-            {
-              "url": "https://embed.su/embed/movie/1100998"
-            },
-            {
-              "url": "https://vidsrc.me/embed/movie/1100998"
-            },
-            {
-              "url": "https://player.autoembed.cc/embed/movie/1100998"
-            },
-            {
-              "url": "https://player.smashy.stream/movie/1100998"
-            },
-            {
-              "url": "https://vidsrc.to/embed/movie/1100998"
-            },
-            {
-              "url": "https://vidsrc.xyz/embed/movie/1100998"
-            },
-            {
-              "url": "https://www.embedsoap.com/embed/movie/1100998"
-            },
-            {
-              "url": "https://moviesapi.club/movie/1100998"
-            },
-            {
-              "url": "https://dbgo.fun/movie/1100998"
-            },
-            {
-              "url": "https://flixhq.to/watch/movie/1100998"
-            },
-            {
-              "url": "https://gomovies.sx/watch/movie/1100998"
-            },
-            {
-              "url": "https://www.showbox.media/embed/movie/1100998"
-            },
-            {
-              "url": "https://primewire.mx/embed/movie/1100998"
-            },
-            {
-              "url": "https://hdtoday.tv/embed/movie/1100998"
-            },
-            {
-              "url": "https://vidcloud.to/embed/movie/1100998"
-            },
-            {
-              "url": "https://streamwish.to/e/1100998"
-            },
-            {
-              "url": "https://doodstream.com/e/1100998"
-            },
-            {
-              "url": "https://streamtape.com/e/1100998"
-            },
-            {
-              "url": "https://mixdrop.co/e/1100998"
-            },
-            {
-              "url": "https://filemoon.sx/e/1100998"
-            },
-            {
-              "url": "https://upstream.to/embed-1100998.html"
-            }
-          ]
-        },
-        {
-          "Title": "Inside Out 2",
-          "SubCategory": "Animation",
-          "Country": "",
-          "Description": "Teenager Riley's mind headquarters is undergoing a sudden demolition to make room for something entirely unexpected: new Emotions! Joy, Sadness, Anger, Fear and Disgust, who’ve long been running a successful operation by all accounts, aren’t sure how to feel when Anxiety shows up. And it looks like she’s not alone.",
-          "Poster": "https://image.tmdb.org/t/p/w500/vpnVM9B6NMmQpWeZvzLvDESb2QY.jpg",
-          "Thumbnail": "https://image.tmdb.org/t/p/w500/vpnVM9B6NMmQpWeZvzLvDESb2QY.jpg",
-          "Rating": 8,
-          "Duration": "1:37",
-          "Year": 2024,
-          "Servers": [
-            {
-              "url": "https://vidsrc.net/embed/movie/1022789"
-            },
-            {
-              "url": "https://vidjoy.pro/embed/movie/1022789"
-            },
-            {
-              "url": "https://multiembed.mov/directstream.php?video_id=1022789&content_type=movie"
-            },
-            {
-              "url": "https://embed.su/embed/movie/1022789"
-            },
-            {
-              "url": "https://vidsrc.me/embed/movie/1022789"
-            },
-            {
-              "url": "https://player.autoembed.cc/embed/movie/1022789"
-            },
-            {
-              "url": "https://player.smashy.stream/movie/1022789"
-            },
-            {
-              "url": "https://vidsrc.to/embed/movie/1022789"
-            },
-            {
-              "url": "https://vidsrc.xyz/embed/movie/1022789"
-            },
-            {
-              "url": "https://www.embedsoap.com/embed/movie/1022789"
-            },
-            {
-              "url": "https://moviesapi.club/movie/1022789"
-            },
-            {
-              "url": "https://dbgo.fun/movie/1022789"
-            },
-            {
-              "url": "https://flixhq.to/watch/movie/1022789"
-            },
-            {
-              "url": "https://gomovies.sx/watch/movie/1022789"
-            },
-            {
-              "url": "https://www.showbox.media/embed/movie/1022789"
-            },
-            {
-              "url": "https://primewire.mx/embed/movie/1022789"
-            },
-            {
-              "url": "https://hdtoday.tv/embed/movie/1022789"
-            },
-            {
-              "url": "https://vidcloud.to/embed/movie/1022789"
-            },
-            {
-              "url": "https://streamwish.to/e/1022789"
-            },
-            {
-              "url": "https://doodstream.com/e/1022789"
-            },
-            {
-              "url": "https://streamtape.com/e/1022789"
-            },
-            {
-              "url": "https://mixdrop.co/e/1022789"
-            },
-            {
-              "url": "https://filemoon.sx/e/1022789"
-            },
-            {
-              "url": "https://upstream.to/embed-1022789.html"
-            }
-          ]
-        },
-        {
-          "Title": "Despicable Me 4",
-          "SubCategory": "Family",
-          "Country": "",
-          "Description": "Gru and Lucy and their girls—Margo, Edith and Agnes—welcome a new member to the Gru family, Gru Jr., who is intent on tormenting his dad. Gru also faces a new nemesis in Maxime Le Mal and his femme fatale girlfriend Valentina, forcing the family to go on the run.",
-          "Poster": "https://image.tmdb.org/t/p/w500/wWba3TaojhK7NdycRhoQpsG0FaH.jpg",
-          "Thumbnail": "https://image.tmdb.org/t/p/w500/wWba3TaojhK7NdycRhoQpsG0FaH.jpg",
-          "Rating": 7,
-          "Duration": "1:34",
-          "Year": 2024,
-          "Servers": [
-            {
-              "url": "https://vidsrc.net/embed/movie/519182"
-            },
-            {
-              "url": "https://vidjoy.pro/embed/movie/519182"
-            },
-            {
-              "url": "https://multiembed.mov/directstream.php?video_id=519182&content_type=movie"
-            },
-            {
-              "url": "https://embed.su/embed/movie/519182"
-            },
-            {
-              "url": "https://vidsrc.me/embed/movie/519182"
-            },
-            {
-              "url": "https://player.autoembed.cc/embed/movie/519182"
-            },
-            {
-              "url": "https://player.smashy.stream/movie/519182"
-            },
-            {
-              "url": "https://vidsrc.to/embed/movie/519182"
-            },
-            {
-              "url": "https://vidsrc.xyz/embed/movie/519182"
-            },
-            {
-              "url": "https://www.embedsoap.com/embed/movie/519182"
-            },
-            {
-              "url": "https://moviesapi.club/movie/519182"
-            },
-            {
-              "url": "https://dbgo.fun/movie/519182"
-            },
-            {
-              "url": "https://flixhq.to/watch/movie/519182"
-            },
-            {
-              "url": "https://gomovies.sx/watch/movie/519182"
-            },
-            {
-              "url": "https://www.showbox.media/embed/movie/519182"
-            },
-            {
-              "url": "https://primewire.mx/embed/movie/519182"
-            },
-            {
-              "url": "https://hdtoday.tv/embed/movie/519182"
-            },
-            {
-              "url": "https://vidcloud.to/embed/movie/519182"
-            },
-            {
-              "url": "https://streamwish.to/e/519182"
-            },
-            {
-              "url": "https://doodstream.com/e/519182"
-            },
-            {
-              "url": "https://streamtape.com/e/519182"
-            },
-            {
-              "url": "https://mixdrop.co/e/519182"
-            },
-            {
-              "url": "https://filemoon.sx/e/519182"
-            },
-            {
-              "url": "https://upstream.to/embed-519182.html"
-            }
-          ]
-        },
-        {
-          "Title": "Mufasa: The Lion King",
-          "SubCategory": "Adventure",
-          "Country": "",
-          "Description": "Mufasa, a cub lost and alone, meets a sympathetic lion named Taka, the heir to a royal bloodline. The chance meeting sets in motion an expansive journey of a group of misfits searching for their destiny.",
-          "Poster": "https://image.tmdb.org/t/p/w500/jbOSUAWMGzGL1L4EaUF8K6zYFo7.jpg",
-          "Thumbnail": "https://image.tmdb.org/t/p/w500/jbOSUAWMGzGL1L4EaUF8K6zYFo7.jpg",
-          "Rating": 7,
-          "Duration": "1:58",
-          "Year": 2024,
-          "Servers": [
-            {
-              "url": "https://vidsrc.net/embed/movie/762509"
-            },
-            {
-              "url": "https://vidjoy.pro/embed/movie/762509"
-            },
-            {
-              "url": "https://multiembed.mov/directstream.php?video_id=762509&content_type=movie"
-            },
-            {
-              "url": "https://embed.su/embed/movie/762509"
-            },
-            {
-              "url": "https://vidsrc.me/embed/movie/762509"
-            },
-            {
-              "url": "https://player.autoembed.cc/embed/movie/762509"
-            },
-            {
-              "url": "https://player.smashy.stream/movie/762509"
-            },
-            {
-              "url": "https://vidsrc.to/embed/movie/762509"
-            },
-            {
-              "url": "https://vidsrc.xyz/embed/movie/762509"
-            },
-            {
-              "url": "https://www.embedsoap.com/embed/movie/762509"
-            },
-            {
-              "url": "https://moviesapi.club/movie/762509"
-            },
-            {
-              "url": "https://dbgo.fun/movie/762509"
-            },
-            {
-              "url": "https://flixhq.to/watch/movie/762509"
-            },
-            {
-              "url": "https://gomovies.sx/watch/movie/762509"
-            },
-            {
-              "url": "https://www.showbox.media/embed/movie/762509"
-            },
-            {
-              "url": "https://primewire.mx/embed/movie/762509"
-            },
-            {
-              "url": "https://hdtoday.tv/embed/movie/762509"
-            },
-            {
-              "url": "https://vidcloud.to/embed/movie/762509"
-            },
-            {
-              "url": "https://streamwish.to/e/762509"
-            },
-            {
-              "url": "https://doodstream.com/e/762509"
-            },
-            {
-              "url": "https://streamtape.com/e/762509"
-            },
-            {
-              "url": "https://mixdrop.co/e/762509"
-            },
-            {
-              "url": "https://filemoon.sx/e/762509"
-            },
-            {
-              "url": "https://upstream.to/embed-762509.html"
-            }
-          ]
-        },
-        {
-          "Title": "The Girl Downstairs Extra: Promised Future",
-          "SubCategory": "Animation",
-          "Country": "",
-          "Description": "Freshman Yuan Juntang applied to Minsong University in order to get closer to Zhu Zhu, whom he has had a crush on. At the university, he meets Li Shiya who used to be his idol, and takes a temporary absence from school.",
-          "Poster": "https://image.tmdb.org/t/p/w500/hvY6vP4mRu5NPe2x02ft7mXBeS5.jpg",
-          "Thumbnail": "https://image.tmdb.org/t/p/w500/hvY6vP4mRu5NPe2x02ft7mXBeS5.jpg",
-          "Rating": 10,
-          "Duration": "11:00",
-          "Year": 2024,
-          "Servers": [
-            {
-              "url": "https://vidsrc.net/embed/movie/1354253"
-            },
-            {
-              "url": "https://vidjoy.pro/embed/movie/1354253"
-            },
-            {
-              "url": "https://multiembed.mov/directstream.php?video_id=1354253&content_type=movie"
-            },
-            {
-              "url": "https://embed.su/embed/movie/1354253"
-            },
-            {
-              "url": "https://vidsrc.me/embed/movie/1354253"
-            },
-            {
-              "url": "https://player.autoembed.cc/embed/movie/1354253"
-            },
-            {
-              "url": "https://player.smashy.stream/movie/1354253"
-            },
-            {
-              "url": "https://vidsrc.to/embed/movie/1354253"
-            },
-            {
-              "url": "https://vidsrc.xyz/embed/movie/1354253"
-            },
-            {
-              "url": "https://www.embedsoap.com/embed/movie/1354253"
-            },
-            {
-              "url": "https://moviesapi.club/movie/1354253"
-            },
-            {
-              "url": "https://dbgo.fun/movie/1354253"
-            },
-            {
-              "url": "https://flixhq.to/watch/movie/1354253"
-            },
-            {
-              "url": "https://gomovies.sx/watch/movie/1354253"
-            },
-            {
-              "url": "https://www.showbox.media/embed/movie/1354253"
-            },
-            {
-              "url": "https://primewire.mx/embed/movie/1354253"
-            },
-            {
-              "url": "https://hdtoday.tv/embed/movie/1354253"
-            },
-            {
-              "url": "https://vidcloud.to/embed/movie/1354253"
-            },
-            {
-              "url": "https://streamwish.to/e/1354253"
-            },
-            {
-              "url": "https://doodstream.com/e/1354253"
-            },
-            {
-              "url": "https://streamtape.com/e/1354253"
-            },
-            {
-              "url": "https://mixdrop.co/e/1354253"
-            },
-            {
-              "url": "https://filemoon.sx/e/1354253"
-            },
-            {
-              "url": "https://upstream.to/embed-1354253.html"
-            }
-          ]
-        },
-        {
-          "Title": "Kung Fu Panda 4",
-          "SubCategory": "Animation",
-          "Country": "",
-          "Description": "Po is gearing up to become the spiritual leader of his Valley of Peace, but also needs someone to take his place as Dragon Warrior. As such, he will train a new kung fu practitioner for the spot and will encounter a villain called the Chameleon who conjures villains from the past.",
-          "Poster": "https://image.tmdb.org/t/p/w500/nqXsAaQsKw2gKpkfhIgjXNDRqg7.jpg",
-          "Thumbnail": "https://image.tmdb.org/t/p/w500/nqXsAaQsKw2gKpkfhIgjXNDRqg7.jpg",
-          "Rating": 7,
-          "Duration": "1:34",
-          "Year": 2024,
-          "Servers": [
-            {
-              "url": "https://vidsrc.net/embed/movie/1011985"
-            },
-            {
-              "url": "https://vidjoy.pro/embed/movie/1011985"
-            },
-            {
-              "url": "https://multiembed.mov/directstream.php?video_id=1011985&content_type=movie"
-            },
-            {
-              "url": "https://embed.su/embed/movie/1011985"
-            },
-            {
-              "url": "https://vidsrc.me/embed/movie/1011985"
-            },
-            {
-              "url": "https://player.autoembed.cc/embed/movie/1011985"
-            },
-            {
-              "url": "https://player.smashy.stream/movie/1011985"
-            },
-            {
-              "url": "https://vidsrc.to/embed/movie/1011985"
-            },
-            {
-              "url": "https://vidsrc.xyz/embed/movie/1011985"
-            },
-            {
-              "url": "https://www.embedsoap.com/embed/movie/1011985"
-            },
-            {
-              "url": "https://moviesapi.club/movie/1011985"
-            },
-            {
-              "url": "https://dbgo.fun/movie/1011985"
-            },
-            {
-              "url": "https://flixhq.to/watch/movie/1011985"
-            },
-            {
-              "url": "https://gomovies.sx/watch/movie/1011985"
-            },
-            {
-              "url": "https://www.showbox.media/embed/movie/1011985"
-            },
-            {
-              "url": "https://primewire.mx/embed/movie/1011985"
-            },
-            {
-              "url": "https://hdtoday.tv/embed/movie/1011985"
-            },
-            {
-              "url": "https://vidcloud.to/embed/movie/1011985"
-            },
-            {
-              "url": "https://streamwish.to/e/1011985"
-            },
-            {
-              "url": "https://doodstream.com/e/1011985"
-            },
-            {
-              "url": "https://streamtape.com/e/1011985"
-            },
-            {
-              "url": "https://mixdrop.co/e/1011985"
-            },
-            {
-              "url": "https://filemoon.sx/e/1011985"
-            },
-            {
-              "url": "https://upstream.to/embed-1011985.html"
-            }
-          ]
-        },
-        {
-          "Title": "The Wild Robot",
-          "SubCategory": "Animation",
-          "Country": "",
-          "Description": "After a shipwreck, an intelligent robot called Roz is stranded on an uninhabited island. To survive the harsh environment, Roz bonds with the island's animals and cares for an orphaned baby goose.",
-          "Poster": "https://image.tmdb.org/t/p/w500/wTnV3PCVW5O92JMrFvvrRcV39RU.jpg",
-          "Thumbnail": "https://image.tmdb.org/t/p/w500/wTnV3PCVW5O92JMrFvvrRcV39RU.jpg",
-          "Rating": 8,
-          "Duration": "1:42",
-          "Year": 2024,
-          "Servers": [
-            {
-              "url": "https://vidsrc.net/embed/movie/1184918"
-            },
-            {
-              "url": "https://vidjoy.pro/embed/movie/1184918"
-            },
-            {
-              "url": "https://multiembed.mov/directstream.php?video_id=1184918&content_type=movie"
-            },
-            {
-              "url": "https://embed.su/embed/movie/1184918"
-            },
-            {
-              "url": "https://vidsrc.me/embed/movie/1184918"
-            },
-            {
-              "url": "https://player.autoembed.cc/embed/movie/1184918"
-            },
-            {
-              "url": "https://player.smashy.stream/movie/1184918"
-            },
-            {
-              "url": "https://vidsrc.to/embed/movie/1184918"
-            },
-            {
-              "url": "https://vidsrc.xyz/embed/movie/1184918"
-            },
-            {
-              "url": "https://www.embedsoap.com/embed/movie/1184918"
-            },
-            {
-              "url": "https://moviesapi.club/movie/1184918"
-            },
-            {
-              "url": "https://dbgo.fun/movie/1184918"
-            },
-            {
-              "url": "https://flixhq.to/watch/movie/1184918"
-            },
-            {
-              "url": "https://gomovies.sx/watch/movie/1184918"
-            },
-            {
-              "url": "https://www.showbox.media/embed/movie/1184918"
-            },
-            {
-              "url": "https://primewire.mx/embed/movie/1184918"
-            },
-            {
-              "url": "https://hdtoday.tv/embed/movie/1184918"
-            },
-            {
-              "url": "https://vidcloud.to/embed/movie/1184918"
-            },
-            {
-              "url": "https://streamwish.to/e/1184918"
-            },
-            {
-              "url": "https://doodstream.com/e/1184918"
-            },
-            {
-              "url": "https://streamtape.com/e/1184918"
-            },
-            {
-              "url": "https://mixdrop.co/e/1184918"
-            },
-            {
-              "url": "https://filemoon.sx/e/1184918"
-            },
-            {
-              "url": "https://upstream.to/embed-1184918.html"
-            }
-          ]
-        },
-        {
-          "Title": "Flow",
-          "SubCategory": "Animation",
-          "Country": "",
-          "Description": "A solitary cat, displaced by a great flood, finds refuge on a boat with various species and must navigate the challenges of adapting to a transformed world together.",
-          "Poster": "https://image.tmdb.org/t/p/w500/imKSymKBK7o73sajciEmndJoVkR.jpg",
-          "Thumbnail": "https://image.tmdb.org/t/p/w500/imKSymKBK7o73sajciEmndJoVkR.jpg",
+          "Description": "Social media stars unite to play METAXU, an online séance game, only to find they have unwittingly unleashed the Gates of Hell.",
+          "Poster": "https://image.tmdb.org/t/p/w500/4CfL5wy0srwNLi6hP9EZVwSAX41.jpg",
+          "Thumbnail": "https://image.tmdb.org/t/p/w500/4CfL5wy0srwNLi6hP9EZVwSAX41.jpg",
           "Rating": 8,
           "Duration": "1:25",
           "Year": 2024,
           "Servers": [
             {
-              "url": "https://vidsrc.net/embed/movie/823219"
+              "name": "VidSrc 1080p",
+              "url": "https://vidsrc.net/embed/movie/1245934"
             },
             {
-              "url": "https://vidjoy.pro/embed/movie/823219"
+              "name": "VidJoy 1080p",
+              "url": "https://vidjoy.pro/embed/movie/1245934"
             },
             {
-              "url": "https://multiembed.mov/directstream.php?video_id=823219&content_type=movie"
+              "name": "MultiEmbed 1080p",
+              "url": "https://multiembed.mov/directstream.php?video_id=1245934&content_type=movie"
             },
             {
-              "url": "https://embed.su/embed/movie/823219"
+              "name": "Embed.su 1080p",
+              "url": "https://embed.su/embed/movie/1245934"
             },
             {
-              "url": "https://vidsrc.me/embed/movie/823219"
+              "name": "VidSrc.me 1080p",
+              "url": "https://vidsrc.me/embed/movie/1245934"
             },
             {
-              "url": "https://player.autoembed.cc/embed/movie/823219"
+              "name": "AutoEmbed 1080p",
+              "url": "https://player.autoembed.cc/embed/movie/1245934"
             },
             {
-              "url": "https://player.smashy.stream/movie/823219"
+              "name": "SmashyStream 1080p",
+              "url": "https://player.smashy.stream/movie/1245934"
             },
             {
-              "url": "https://vidsrc.to/embed/movie/823219"
+              "name": "VidSrc.to 1080p",
+              "url": "https://vidsrc.to/embed/movie/1245934"
             },
             {
-              "url": "https://vidsrc.xyz/embed/movie/823219"
+              "name": "VidSrc.xyz 1080p",
+              "url": "https://vidsrc.xyz/embed/movie/1245934"
             },
             {
-              "url": "https://www.embedsoap.com/embed/movie/823219"
+              "name": "EmbedSoap 1080p",
+              "url": "https://www.embedsoap.com/embed/movie/1245934"
             },
             {
-              "url": "https://moviesapi.club/movie/823219"
+              "name": "MoviesAPI 1080p",
+              "url": "https://moviesapi.club/movie/1245934"
             },
             {
-              "url": "https://dbgo.fun/movie/823219"
+              "name": "DBGO 1080p",
+              "url": "https://dbgo.fun/movie/1245934"
             },
             {
-              "url": "https://flixhq.to/watch/movie/823219"
+              "name": "FlixHQ 1080p",
+              "url": "https://flixhq.to/watch/movie/1245934"
             },
             {
-              "url": "https://gomovies.sx/watch/movie/823219"
+              "name": "GoMovies 1080p",
+              "url": "https://gomovies.sx/watch/movie/1245934"
             },
             {
-              "url": "https://www.showbox.media/embed/movie/823219"
+              "name": "ShowBox 1080p",
+              "url": "https://www.showbox.media/embed/movie/1245934"
             },
             {
-              "url": "https://primewire.mx/embed/movie/823219"
+              "name": "PrimeWire 1080p",
+              "url": "https://primewire.mx/embed/movie/1245934"
             },
             {
-              "url": "https://hdtoday.tv/embed/movie/823219"
+              "name": "HDToday 1080p",
+              "url": "https://hdtoday.tv/embed/movie/1245934"
             },
             {
-              "url": "https://vidcloud.to/embed/movie/823219"
+              "name": "VidCloud 1080p",
+              "url": "https://vidcloud.to/embed/movie/1245934"
             },
             {
-              "url": "https://streamwish.to/e/823219"
+              "name": "StreamWish 1080p",
+              "url": "https://streamwish.to/e/1245934"
             },
             {
-              "url": "https://doodstream.com/e/823219"
+              "name": "DoodStream 1080p",
+              "url": "https://doodstream.com/e/1245934"
             },
             {
-              "url": "https://streamtape.com/e/823219"
+              "name": "StreamTape 1080p",
+              "url": "https://streamtape.com/e/1245934"
             },
             {
-              "url": "https://mixdrop.co/e/823219"
+              "name": "MixDrop 1080p",
+              "url": "https://mixdrop.co/e/1245934"
             },
             {
-              "url": "https://filemoon.sx/e/823219"
+              "name": "FileMoon 1080p",
+              "url": "https://filemoon.sx/e/1245934"
             },
             {
-              "url": "https://upstream.to/embed-823219.html"
+              "name": "UpStream 1080p",
+              "url": "https://upstream.to/embed-1245934.html"
             }
           ]
         },
         {
-          "Title": "The Bad Guys: Haunted Heist",
-          "SubCategory": "Animation",
+          "Title": "Angels Fallen: Warriors of Peace",
+          "SubCategory": "Horror",
           "Country": "",
-          "Description": "The crafty Bad Guys crew embarks on a high-stakes Halloween heist to swipe a priceless amulet from a spooky mansion. What could go wrong?",
-          "Poster": "https://image.tmdb.org/t/p/w500/oEJC05CqPugMxC4rFu9r6r6vg6m.jpg",
-          "Thumbnail": "https://image.tmdb.org/t/p/w500/oEJC05CqPugMxC4rFu9r6r6vg6m.jpg",
-          "Rating": 7,
-          "Duration": "25:00",
+          "Description": "When an Iraq War veteran receives a calling from a higher power, he embarks on a mission to stop a fallen angel from raising an army of the dead to take over the world.",
+          "Poster": "https://image.tmdb.org/t/p/w500/dKdKUSGQ9E0G73WPr9xIHrofpkT.jpg",
+          "Thumbnail": "https://image.tmdb.org/t/p/w500/dKdKUSGQ9E0G73WPr9xIHrofpkT.jpg",
+          "Rating": 6,
+          "Duration": "1:43",
           "Year": 2024,
           "Servers": [
             {
-              "url": "https://vidsrc.net/embed/movie/1329336"
+              "name": "VidSrc 1080p",
+              "url": "https://vidsrc.net/embed/movie/1058537"
             },
             {
-              "url": "https://vidjoy.pro/embed/movie/1329336"
+              "name": "VidJoy 1080p",
+              "url": "https://vidjoy.pro/embed/movie/1058537"
             },
             {
-              "url": "https://multiembed.mov/directstream.php?video_id=1329336&content_type=movie"
+              "name": "MultiEmbed 1080p",
+              "url": "https://multiembed.mov/directstream.php?video_id=1058537&content_type=movie"
             },
             {
-              "url": "https://embed.su/embed/movie/1329336"
+              "name": "Embed.su 1080p",
+              "url": "https://embed.su/embed/movie/1058537"
             },
             {
-              "url": "https://vidsrc.me/embed/movie/1329336"
+              "name": "VidSrc.me 1080p",
+              "url": "https://vidsrc.me/embed/movie/1058537"
             },
             {
-              "url": "https://player.autoembed.cc/embed/movie/1329336"
+              "name": "AutoEmbed 1080p",
+              "url": "https://player.autoembed.cc/embed/movie/1058537"
             },
             {
-              "url": "https://player.smashy.stream/movie/1329336"
+              "name": "SmashyStream 1080p",
+              "url": "https://player.smashy.stream/movie/1058537"
             },
             {
-              "url": "https://vidsrc.to/embed/movie/1329336"
+              "name": "VidSrc.to 1080p",
+              "url": "https://vidsrc.to/embed/movie/1058537"
             },
             {
-              "url": "https://vidsrc.xyz/embed/movie/1329336"
+              "name": "VidSrc.xyz 1080p",
+              "url": "https://vidsrc.xyz/embed/movie/1058537"
             },
             {
-              "url": "https://www.embedsoap.com/embed/movie/1329336"
+              "name": "EmbedSoap 1080p",
+              "url": "https://www.embedsoap.com/embed/movie/1058537"
             },
             {
-              "url": "https://moviesapi.club/movie/1329336"
+              "name": "MoviesAPI 1080p",
+              "url": "https://moviesapi.club/movie/1058537"
             },
             {
-              "url": "https://dbgo.fun/movie/1329336"
+              "name": "DBGO 1080p",
+              "url": "https://dbgo.fun/movie/1058537"
             },
             {
-              "url": "https://flixhq.to/watch/movie/1329336"
+              "name": "FlixHQ 1080p",
+              "url": "https://flixhq.to/watch/movie/1058537"
             },
             {
-              "url": "https://gomovies.sx/watch/movie/1329336"
+              "name": "GoMovies 1080p",
+              "url": "https://gomovies.sx/watch/movie/1058537"
             },
             {
-              "url": "https://www.showbox.media/embed/movie/1329336"
+              "name": "ShowBox 1080p",
+              "url": "https://www.showbox.media/embed/movie/1058537"
             },
             {
-              "url": "https://primewire.mx/embed/movie/1329336"
+              "name": "PrimeWire 1080p",
+              "url": "https://primewire.mx/embed/movie/1058537"
             },
             {
-              "url": "https://hdtoday.tv/embed/movie/1329336"
+              "name": "HDToday 1080p",
+              "url": "https://hdtoday.tv/embed/movie/1058537"
             },
             {
-              "url": "https://vidcloud.to/embed/movie/1329336"
+              "name": "VidCloud 1080p",
+              "url": "https://vidcloud.to/embed/movie/1058537"
             },
             {
-              "url": "https://streamwish.to/e/1329336"
+              "name": "StreamWish 1080p",
+              "url": "https://streamwish.to/e/1058537"
             },
             {
-              "url": "https://doodstream.com/e/1329336"
+              "name": "DoodStream 1080p",
+              "url": "https://doodstream.com/e/1058537"
             },
             {
-              "url": "https://streamtape.com/e/1329336"
+              "name": "StreamTape 1080p",
+              "url": "https://streamtape.com/e/1058537"
             },
             {
-              "url": "https://mixdrop.co/e/1329336"
+              "name": "MixDrop 1080p",
+              "url": "https://mixdrop.co/e/1058537"
             },
             {
-              "url": "https://filemoon.sx/e/1329336"
+              "name": "FileMoon 1080p",
+              "url": "https://filemoon.sx/e/1058537"
             },
             {
-              "url": "https://upstream.to/embed-1329336.html"
+              "name": "UpStream 1080p",
+              "url": "https://upstream.to/embed-1058537.html"
             }
           ]
         },
         {
-          "Title": "Solo Leveling -ReAwakening-",
+          "Title": "Nudus",
+          "SubCategory": "Horror",
+          "Country": "",
+          "Description": "As she awakens from a prolonged coma, a woman is shocked to learn all the details of her life her captors her captors have access to.",
+          "Poster": "https://image.tmdb.org/t/p/w500/7gV1u6ozmtNBuWxfndldwEM4KlN.jpg",
+          "Thumbnail": "https://image.tmdb.org/t/p/w500/7gV1u6ozmtNBuWxfndldwEM4KlN.jpg",
+          "Rating": 7,
+          "Duration": "1:34",
+          "Year": 2024,
+          "Servers": [
+            {
+              "name": "VidSrc 1080p",
+              "url": "https://vidsrc.net/embed/movie/1268870"
+            },
+            {
+              "name": "VidJoy 1080p",
+              "url": "https://vidjoy.pro/embed/movie/1268870"
+            },
+            {
+              "name": "MultiEmbed 1080p",
+              "url": "https://multiembed.mov/directstream.php?video_id=1268870&content_type=movie"
+            },
+            {
+              "name": "Embed.su 1080p",
+              "url": "https://embed.su/embed/movie/1268870"
+            },
+            {
+              "name": "VidSrc.me 1080p",
+              "url": "https://vidsrc.me/embed/movie/1268870"
+            },
+            {
+              "name": "AutoEmbed 1080p",
+              "url": "https://player.autoembed.cc/embed/movie/1268870"
+            },
+            {
+              "name": "SmashyStream 1080p",
+              "url": "https://player.smashy.stream/movie/1268870"
+            },
+            {
+              "name": "VidSrc.to 1080p",
+              "url": "https://vidsrc.to/embed/movie/1268870"
+            },
+            {
+              "name": "VidSrc.xyz 1080p",
+              "url": "https://vidsrc.xyz/embed/movie/1268870"
+            },
+            {
+              "name": "EmbedSoap 1080p",
+              "url": "https://www.embedsoap.com/embed/movie/1268870"
+            },
+            {
+              "name": "MoviesAPI 1080p",
+              "url": "https://moviesapi.club/movie/1268870"
+            },
+            {
+              "name": "DBGO 1080p",
+              "url": "https://dbgo.fun/movie/1268870"
+            },
+            {
+              "name": "FlixHQ 1080p",
+              "url": "https://flixhq.to/watch/movie/1268870"
+            },
+            {
+              "name": "GoMovies 1080p",
+              "url": "https://gomovies.sx/watch/movie/1268870"
+            },
+            {
+              "name": "ShowBox 1080p",
+              "url": "https://www.showbox.media/embed/movie/1268870"
+            },
+            {
+              "name": "PrimeWire 1080p",
+              "url": "https://primewire.mx/embed/movie/1268870"
+            },
+            {
+              "name": "HDToday 1080p",
+              "url": "https://hdtoday.tv/embed/movie/1268870"
+            },
+            {
+              "name": "VidCloud 1080p",
+              "url": "https://vidcloud.to/embed/movie/1268870"
+            },
+            {
+              "name": "StreamWish 1080p",
+              "url": "https://streamwish.to/e/1268870"
+            },
+            {
+              "name": "DoodStream 1080p",
+              "url": "https://doodstream.com/e/1268870"
+            },
+            {
+              "name": "StreamTape 1080p",
+              "url": "https://streamtape.com/e/1268870"
+            },
+            {
+              "name": "MixDrop 1080p",
+              "url": "https://mixdrop.co/e/1268870"
+            },
+            {
+              "name": "FileMoon 1080p",
+              "url": "https://filemoon.sx/e/1268870"
+            },
+            {
+              "name": "UpStream 1080p",
+              "url": "https://upstream.to/embed-1268870.html"
+            }
+          ]
+        },
+        {
+          "Title": "Crazy Lizard",
           "SubCategory": "Action",
           "Country": "",
-          "Description": "Over a decade after 'gates' connecting worlds appeared, awakening 'hunters' with superpowers, weakest hunter Sung Jinwoo encounters a double dungeon and accepts a mysterious quest, becoming the only one able to level up, changing his fate. A catch-up recap of the first season coupled with an exclusive sneak peek of the first two episodes of the highly anticipated second season in one momentous theatrical fan experience.",
-          "Poster": "https://image.tmdb.org/t/p/w500/dblIFen0bNZAq8icJXHwrjfymDW.jpg",
-          "Thumbnail": "https://image.tmdb.org/t/p/w500/dblIFen0bNZAq8icJXHwrjfymDW.jpg",
-          "Rating": 7,
-          "Duration": "1:56",
+          "Description": "A young man climbs into the mountains to pick up a meteorite that has fallen there and is killed by something. The \"thing\" descends to the village and begins to eat the inhabitants one by one, terrorizing the entire island.",
+          "Poster": "https://image.tmdb.org/t/p/w500/9TFaFsSXedaALXTzba349euDeoY.jpg",
+          "Thumbnail": "https://image.tmdb.org/t/p/w500/9TFaFsSXedaALXTzba349euDeoY.jpg",
+          "Rating": 6,
+          "Duration": "1:15",
           "Year": 2024,
           "Servers": [
             {
-              "url": "https://vidsrc.net/embed/movie/1357633"
+              "name": "VidSrc 1080p",
+              "url": "https://vidsrc.net/embed/movie/1442776"
             },
             {
-              "url": "https://vidjoy.pro/embed/movie/1357633"
+              "name": "VidJoy 1080p",
+              "url": "https://vidjoy.pro/embed/movie/1442776"
             },
             {
-              "url": "https://multiembed.mov/directstream.php?video_id=1357633&content_type=movie"
+              "name": "MultiEmbed 1080p",
+              "url": "https://multiembed.mov/directstream.php?video_id=1442776&content_type=movie"
             },
             {
-              "url": "https://embed.su/embed/movie/1357633"
+              "name": "Embed.su 1080p",
+              "url": "https://embed.su/embed/movie/1442776"
             },
             {
-              "url": "https://vidsrc.me/embed/movie/1357633"
+              "name": "VidSrc.me 1080p",
+              "url": "https://vidsrc.me/embed/movie/1442776"
             },
             {
-              "url": "https://player.autoembed.cc/embed/movie/1357633"
+              "name": "AutoEmbed 1080p",
+              "url": "https://player.autoembed.cc/embed/movie/1442776"
             },
             {
-              "url": "https://player.smashy.stream/movie/1357633"
+              "name": "SmashyStream 1080p",
+              "url": "https://player.smashy.stream/movie/1442776"
             },
             {
-              "url": "https://vidsrc.to/embed/movie/1357633"
+              "name": "VidSrc.to 1080p",
+              "url": "https://vidsrc.to/embed/movie/1442776"
             },
             {
-              "url": "https://vidsrc.xyz/embed/movie/1357633"
+              "name": "VidSrc.xyz 1080p",
+              "url": "https://vidsrc.xyz/embed/movie/1442776"
             },
             {
-              "url": "https://www.embedsoap.com/embed/movie/1357633"
+              "name": "EmbedSoap 1080p",
+              "url": "https://www.embedsoap.com/embed/movie/1442776"
             },
             {
-              "url": "https://moviesapi.club/movie/1357633"
+              "name": "MoviesAPI 1080p",
+              "url": "https://moviesapi.club/movie/1442776"
             },
             {
-              "url": "https://dbgo.fun/movie/1357633"
+              "name": "DBGO 1080p",
+              "url": "https://dbgo.fun/movie/1442776"
             },
             {
-              "url": "https://flixhq.to/watch/movie/1357633"
+              "name": "FlixHQ 1080p",
+              "url": "https://flixhq.to/watch/movie/1442776"
             },
             {
-              "url": "https://gomovies.sx/watch/movie/1357633"
+              "name": "GoMovies 1080p",
+              "url": "https://gomovies.sx/watch/movie/1442776"
             },
             {
-              "url": "https://www.showbox.media/embed/movie/1357633"
+              "name": "ShowBox 1080p",
+              "url": "https://www.showbox.media/embed/movie/1442776"
             },
             {
-              "url": "https://primewire.mx/embed/movie/1357633"
+              "name": "PrimeWire 1080p",
+              "url": "https://primewire.mx/embed/movie/1442776"
             },
             {
-              "url": "https://hdtoday.tv/embed/movie/1357633"
+              "name": "HDToday 1080p",
+              "url": "https://hdtoday.tv/embed/movie/1442776"
             },
             {
-              "url": "https://vidcloud.to/embed/movie/1357633"
+              "name": "VidCloud 1080p",
+              "url": "https://vidcloud.to/embed/movie/1442776"
             },
             {
-              "url": "https://streamwish.to/e/1357633"
+              "name": "StreamWish 1080p",
+              "url": "https://streamwish.to/e/1442776"
             },
             {
-              "url": "https://doodstream.com/e/1357633"
+              "name": "DoodStream 1080p",
+              "url": "https://doodstream.com/e/1442776"
             },
             {
-              "url": "https://streamtape.com/e/1357633"
+              "name": "StreamTape 1080p",
+              "url": "https://streamtape.com/e/1442776"
             },
             {
-              "url": "https://mixdrop.co/e/1357633"
+              "name": "MixDrop 1080p",
+              "url": "https://mixdrop.co/e/1442776"
             },
             {
-              "url": "https://filemoon.sx/e/1357633"
+              "name": "FileMoon 1080p",
+              "url": "https://filemoon.sx/e/1442776"
             },
             {
-              "url": "https://upstream.to/embed-1357633.html"
+              "name": "UpStream 1080p",
+              "url": "https://upstream.to/embed-1442776.html"
             }
           ]
         },
         {
-          "Title": "The Garfield Movie",
-          "SubCategory": "Family",
+          "Title": "The Hangman",
+          "SubCategory": "Horror",
           "Country": "",
-          "Description": "Garfield, the world-famous, Monday-hating, lasagna-loving indoor cat, is about to have a wild outdoor adventure! After an unexpected reunion with his long-lost father – scruffy street cat Vic – Garfield and his canine friend Odie are forced from their perfectly pampered life into joining Vic in a hilarious, high-stakes heist.",
-          "Poster": "https://image.tmdb.org/t/p/w500/xYduFGuch9OwbCOEUiamml18ZoB.jpg",
-          "Thumbnail": "https://image.tmdb.org/t/p/w500/xYduFGuch9OwbCOEUiamml18ZoB.jpg",
+          "Description": "Troubled father Leon takes son camping in Appalachia. Local cult summons evil Hangman demon. Son goes missing. Leon must confront cult, monster to find him amid rising body count.",
+          "Poster": "https://image.tmdb.org/t/p/w500/rij9Eh4RVXyPet8A1BNU8pDvtmu.jpg",
+          "Thumbnail": "https://image.tmdb.org/t/p/w500/rij9Eh4RVXyPet8A1BNU8pDvtmu.jpg",
+          "Rating": 6,
+          "Duration": "1:38",
+          "Year": 2024,
+          "Servers": [
+            {
+              "name": "VidSrc 1080p",
+              "url": "https://vidsrc.net/embed/movie/1257586"
+            },
+            {
+              "name": "VidJoy 1080p",
+              "url": "https://vidjoy.pro/embed/movie/1257586"
+            },
+            {
+              "name": "MultiEmbed 1080p",
+              "url": "https://multiembed.mov/directstream.php?video_id=1257586&content_type=movie"
+            },
+            {
+              "name": "Embed.su 1080p",
+              "url": "https://embed.su/embed/movie/1257586"
+            },
+            {
+              "name": "VidSrc.me 1080p",
+              "url": "https://vidsrc.me/embed/movie/1257586"
+            },
+            {
+              "name": "AutoEmbed 1080p",
+              "url": "https://player.autoembed.cc/embed/movie/1257586"
+            },
+            {
+              "name": "SmashyStream 1080p",
+              "url": "https://player.smashy.stream/movie/1257586"
+            },
+            {
+              "name": "VidSrc.to 1080p",
+              "url": "https://vidsrc.to/embed/movie/1257586"
+            },
+            {
+              "name": "VidSrc.xyz 1080p",
+              "url": "https://vidsrc.xyz/embed/movie/1257586"
+            },
+            {
+              "name": "EmbedSoap 1080p",
+              "url": "https://www.embedsoap.com/embed/movie/1257586"
+            },
+            {
+              "name": "MoviesAPI 1080p",
+              "url": "https://moviesapi.club/movie/1257586"
+            },
+            {
+              "name": "DBGO 1080p",
+              "url": "https://dbgo.fun/movie/1257586"
+            },
+            {
+              "name": "FlixHQ 1080p",
+              "url": "https://flixhq.to/watch/movie/1257586"
+            },
+            {
+              "name": "GoMovies 1080p",
+              "url": "https://gomovies.sx/watch/movie/1257586"
+            },
+            {
+              "name": "ShowBox 1080p",
+              "url": "https://www.showbox.media/embed/movie/1257586"
+            },
+            {
+              "name": "PrimeWire 1080p",
+              "url": "https://primewire.mx/embed/movie/1257586"
+            },
+            {
+              "name": "HDToday 1080p",
+              "url": "https://hdtoday.tv/embed/movie/1257586"
+            },
+            {
+              "name": "VidCloud 1080p",
+              "url": "https://vidcloud.to/embed/movie/1257586"
+            },
+            {
+              "name": "StreamWish 1080p",
+              "url": "https://streamwish.to/e/1257586"
+            },
+            {
+              "name": "DoodStream 1080p",
+              "url": "https://doodstream.com/e/1257586"
+            },
+            {
+              "name": "StreamTape 1080p",
+              "url": "https://streamtape.com/e/1257586"
+            },
+            {
+              "name": "MixDrop 1080p",
+              "url": "https://mixdrop.co/e/1257586"
+            },
+            {
+              "name": "FileMoon 1080p",
+              "url": "https://filemoon.sx/e/1257586"
+            },
+            {
+              "name": "UpStream 1080p",
+              "url": "https://upstream.to/embed-1257586.html"
+            }
+          ]
+        },
+        {
+          "Title": "The Substance",
+          "SubCategory": "Drama",
+          "Country": "",
+          "Description": "A fading celebrity decides to use a black market drug, a cell-replicating substance that temporarily creates a younger, better version of herself.",
+          "Poster": "https://image.tmdb.org/t/p/w500/q6HjZlvyKxYmhlRhnnxeyudzK9A.jpg",
+          "Thumbnail": "https://image.tmdb.org/t/p/w500/q6HjZlvyKxYmhlRhnnxeyudzK9A.jpg",
+          "Rating": 7,
+          "Duration": "2:21",
+          "Year": 2024,
+          "Servers": [
+            {
+              "name": "VidSrc 1080p",
+              "url": "https://vidsrc.net/embed/movie/933260"
+            },
+            {
+              "name": "VidJoy 1080p",
+              "url": "https://vidjoy.pro/embed/movie/933260"
+            },
+            {
+              "name": "MultiEmbed 1080p",
+              "url": "https://multiembed.mov/directstream.php?video_id=933260&content_type=movie"
+            },
+            {
+              "name": "Embed.su 1080p",
+              "url": "https://embed.su/embed/movie/933260"
+            },
+            {
+              "name": "VidSrc.me 1080p",
+              "url": "https://vidsrc.me/embed/movie/933260"
+            },
+            {
+              "name": "AutoEmbed 1080p",
+              "url": "https://player.autoembed.cc/embed/movie/933260"
+            },
+            {
+              "name": "SmashyStream 1080p",
+              "url": "https://player.smashy.stream/movie/933260"
+            },
+            {
+              "name": "VidSrc.to 1080p",
+              "url": "https://vidsrc.to/embed/movie/933260"
+            },
+            {
+              "name": "VidSrc.xyz 1080p",
+              "url": "https://vidsrc.xyz/embed/movie/933260"
+            },
+            {
+              "name": "EmbedSoap 1080p",
+              "url": "https://www.embedsoap.com/embed/movie/933260"
+            },
+            {
+              "name": "MoviesAPI 1080p",
+              "url": "https://moviesapi.club/movie/933260"
+            },
+            {
+              "name": "DBGO 1080p",
+              "url": "https://dbgo.fun/movie/933260"
+            },
+            {
+              "name": "FlixHQ 1080p",
+              "url": "https://flixhq.to/watch/movie/933260"
+            },
+            {
+              "name": "GoMovies 1080p",
+              "url": "https://gomovies.sx/watch/movie/933260"
+            },
+            {
+              "name": "ShowBox 1080p",
+              "url": "https://www.showbox.media/embed/movie/933260"
+            },
+            {
+              "name": "PrimeWire 1080p",
+              "url": "https://primewire.mx/embed/movie/933260"
+            },
+            {
+              "name": "HDToday 1080p",
+              "url": "https://hdtoday.tv/embed/movie/933260"
+            },
+            {
+              "name": "VidCloud 1080p",
+              "url": "https://vidcloud.to/embed/movie/933260"
+            },
+            {
+              "name": "StreamWish 1080p",
+              "url": "https://streamwish.to/e/933260"
+            },
+            {
+              "name": "DoodStream 1080p",
+              "url": "https://doodstream.com/e/933260"
+            },
+            {
+              "name": "StreamTape 1080p",
+              "url": "https://streamtape.com/e/933260"
+            },
+            {
+              "name": "MixDrop 1080p",
+              "url": "https://mixdrop.co/e/933260"
+            },
+            {
+              "name": "FileMoon 1080p",
+              "url": "https://filemoon.sx/e/933260"
+            },
+            {
+              "name": "UpStream 1080p",
+              "url": "https://upstream.to/embed-933260.html"
+            }
+          ]
+        },
+        {
+          "Title": "The Cellar",
+          "SubCategory": "Horror",
+          "Country": "",
+          "Description": "A young girl wakes up imprisoned underground, with amnesia. She must escape, unravel the mystery behind her captivity, and confront her personal struggles. A suspenseful tale of survival, truth, and inner turmoil unfolds.",
+          "Poster": "https://image.tmdb.org/t/p/w500/tNUzN0zqewZEmvnmyFSiGUKUS82.jpg",
+          "Thumbnail": "https://image.tmdb.org/t/p/w500/tNUzN0zqewZEmvnmyFSiGUKUS82.jpg",
+          "Rating": 7,
+          "Duration": "1:25",
+          "Year": 2024,
+          "Servers": [
+            {
+              "name": "VidSrc 1080p",
+              "url": "https://vidsrc.net/embed/movie/1357933"
+            },
+            {
+              "name": "VidJoy 1080p",
+              "url": "https://vidjoy.pro/embed/movie/1357933"
+            },
+            {
+              "name": "MultiEmbed 1080p",
+              "url": "https://multiembed.mov/directstream.php?video_id=1357933&content_type=movie"
+            },
+            {
+              "name": "Embed.su 1080p",
+              "url": "https://embed.su/embed/movie/1357933"
+            },
+            {
+              "name": "VidSrc.me 1080p",
+              "url": "https://vidsrc.me/embed/movie/1357933"
+            },
+            {
+              "name": "AutoEmbed 1080p",
+              "url": "https://player.autoembed.cc/embed/movie/1357933"
+            },
+            {
+              "name": "SmashyStream 1080p",
+              "url": "https://player.smashy.stream/movie/1357933"
+            },
+            {
+              "name": "VidSrc.to 1080p",
+              "url": "https://vidsrc.to/embed/movie/1357933"
+            },
+            {
+              "name": "VidSrc.xyz 1080p",
+              "url": "https://vidsrc.xyz/embed/movie/1357933"
+            },
+            {
+              "name": "EmbedSoap 1080p",
+              "url": "https://www.embedsoap.com/embed/movie/1357933"
+            },
+            {
+              "name": "MoviesAPI 1080p",
+              "url": "https://moviesapi.club/movie/1357933"
+            },
+            {
+              "name": "DBGO 1080p",
+              "url": "https://dbgo.fun/movie/1357933"
+            },
+            {
+              "name": "FlixHQ 1080p",
+              "url": "https://flixhq.to/watch/movie/1357933"
+            },
+            {
+              "name": "GoMovies 1080p",
+              "url": "https://gomovies.sx/watch/movie/1357933"
+            },
+            {
+              "name": "ShowBox 1080p",
+              "url": "https://www.showbox.media/embed/movie/1357933"
+            },
+            {
+              "name": "PrimeWire 1080p",
+              "url": "https://primewire.mx/embed/movie/1357933"
+            },
+            {
+              "name": "HDToday 1080p",
+              "url": "https://hdtoday.tv/embed/movie/1357933"
+            },
+            {
+              "name": "VidCloud 1080p",
+              "url": "https://vidcloud.to/embed/movie/1357933"
+            },
+            {
+              "name": "StreamWish 1080p",
+              "url": "https://streamwish.to/e/1357933"
+            },
+            {
+              "name": "DoodStream 1080p",
+              "url": "https://doodstream.com/e/1357933"
+            },
+            {
+              "name": "StreamTape 1080p",
+              "url": "https://streamtape.com/e/1357933"
+            },
+            {
+              "name": "MixDrop 1080p",
+              "url": "https://mixdrop.co/e/1357933"
+            },
+            {
+              "name": "FileMoon 1080p",
+              "url": "https://filemoon.sx/e/1357933"
+            },
+            {
+              "name": "UpStream 1080p",
+              "url": "https://upstream.to/embed-1357933.html"
+            }
+          ]
+        },
+        {
+          "Title": "Alien: Romulus",
+          "SubCategory": "Horror",
+          "Country": "",
+          "Description": "While scavenging the deep ends of a derelict space station, a group of young space colonizers come face to face with the most terrifying life form in the universe.",
+          "Poster": "https://image.tmdb.org/t/p/w500/b33nnKl1GSFbao4l3fZDDqsMx0F.jpg",
+          "Thumbnail": "https://image.tmdb.org/t/p/w500/b33nnKl1GSFbao4l3fZDDqsMx0F.jpg",
+          "Rating": 7,
+          "Duration": "1:59",
+          "Year": 2024,
+          "Servers": [
+            {
+              "name": "VidSrc 1080p",
+              "url": "https://vidsrc.net/embed/movie/945961"
+            },
+            {
+              "name": "VidJoy 1080p",
+              "url": "https://vidjoy.pro/embed/movie/945961"
+            },
+            {
+              "name": "MultiEmbed 1080p",
+              "url": "https://multiembed.mov/directstream.php?video_id=945961&content_type=movie"
+            },
+            {
+              "name": "Embed.su 1080p",
+              "url": "https://embed.su/embed/movie/945961"
+            },
+            {
+              "name": "VidSrc.me 1080p",
+              "url": "https://vidsrc.me/embed/movie/945961"
+            },
+            {
+              "name": "AutoEmbed 1080p",
+              "url": "https://player.autoembed.cc/embed/movie/945961"
+            },
+            {
+              "name": "SmashyStream 1080p",
+              "url": "https://player.smashy.stream/movie/945961"
+            },
+            {
+              "name": "VidSrc.to 1080p",
+              "url": "https://vidsrc.to/embed/movie/945961"
+            },
+            {
+              "name": "VidSrc.xyz 1080p",
+              "url": "https://vidsrc.xyz/embed/movie/945961"
+            },
+            {
+              "name": "EmbedSoap 1080p",
+              "url": "https://www.embedsoap.com/embed/movie/945961"
+            },
+            {
+              "name": "MoviesAPI 1080p",
+              "url": "https://moviesapi.club/movie/945961"
+            },
+            {
+              "name": "DBGO 1080p",
+              "url": "https://dbgo.fun/movie/945961"
+            },
+            {
+              "name": "FlixHQ 1080p",
+              "url": "https://flixhq.to/watch/movie/945961"
+            },
+            {
+              "name": "GoMovies 1080p",
+              "url": "https://gomovies.sx/watch/movie/945961"
+            },
+            {
+              "name": "ShowBox 1080p",
+              "url": "https://www.showbox.media/embed/movie/945961"
+            },
+            {
+              "name": "PrimeWire 1080p",
+              "url": "https://primewire.mx/embed/movie/945961"
+            },
+            {
+              "name": "HDToday 1080p",
+              "url": "https://hdtoday.tv/embed/movie/945961"
+            },
+            {
+              "name": "VidCloud 1080p",
+              "url": "https://vidcloud.to/embed/movie/945961"
+            },
+            {
+              "name": "StreamWish 1080p",
+              "url": "https://streamwish.to/e/945961"
+            },
+            {
+              "name": "DoodStream 1080p",
+              "url": "https://doodstream.com/e/945961"
+            },
+            {
+              "name": "StreamTape 1080p",
+              "url": "https://streamtape.com/e/945961"
+            },
+            {
+              "name": "MixDrop 1080p",
+              "url": "https://mixdrop.co/e/945961"
+            },
+            {
+              "name": "FileMoon 1080p",
+              "url": "https://filemoon.sx/e/945961"
+            },
+            {
+              "name": "UpStream 1080p",
+              "url": "https://upstream.to/embed-945961.html"
+            }
+          ]
+        },
+        {
+          "Title": "Conjuring the Cult",
+          "SubCategory": "Horror",
+          "Country": "",
+          "Description": "After discovering his blood-soaked daughter dead in the bathtub, David Bryson attends a self-help group to help save him from his ghostly nightmares. But when a group of mysterious cult-like women offer to help him resurrect his daughter. David's choices will not just decide his fate... but the fate of his dead daughter's SOUL.",
+          "Poster": "https://image.tmdb.org/t/p/w500/t4MiAeYpjL7saYvqvcn9xtOfA4K.jpg",
+          "Thumbnail": "https://image.tmdb.org/t/p/w500/t4MiAeYpjL7saYvqvcn9xtOfA4K.jpg",
+          "Rating": 5,
+          "Duration": "1:33",
+          "Year": 2024,
+          "Servers": [
+            {
+              "name": "VidSrc 1080p",
+              "url": "https://vidsrc.net/embed/movie/1359977"
+            },
+            {
+              "name": "VidJoy 1080p",
+              "url": "https://vidjoy.pro/embed/movie/1359977"
+            },
+            {
+              "name": "MultiEmbed 1080p",
+              "url": "https://multiembed.mov/directstream.php?video_id=1359977&content_type=movie"
+            },
+            {
+              "name": "Embed.su 1080p",
+              "url": "https://embed.su/embed/movie/1359977"
+            },
+            {
+              "name": "VidSrc.me 1080p",
+              "url": "https://vidsrc.me/embed/movie/1359977"
+            },
+            {
+              "name": "AutoEmbed 1080p",
+              "url": "https://player.autoembed.cc/embed/movie/1359977"
+            },
+            {
+              "name": "SmashyStream 1080p",
+              "url": "https://player.smashy.stream/movie/1359977"
+            },
+            {
+              "name": "VidSrc.to 1080p",
+              "url": "https://vidsrc.to/embed/movie/1359977"
+            },
+            {
+              "name": "VidSrc.xyz 1080p",
+              "url": "https://vidsrc.xyz/embed/movie/1359977"
+            },
+            {
+              "name": "EmbedSoap 1080p",
+              "url": "https://www.embedsoap.com/embed/movie/1359977"
+            },
+            {
+              "name": "MoviesAPI 1080p",
+              "url": "https://moviesapi.club/movie/1359977"
+            },
+            {
+              "name": "DBGO 1080p",
+              "url": "https://dbgo.fun/movie/1359977"
+            },
+            {
+              "name": "FlixHQ 1080p",
+              "url": "https://flixhq.to/watch/movie/1359977"
+            },
+            {
+              "name": "GoMovies 1080p",
+              "url": "https://gomovies.sx/watch/movie/1359977"
+            },
+            {
+              "name": "ShowBox 1080p",
+              "url": "https://www.showbox.media/embed/movie/1359977"
+            },
+            {
+              "name": "PrimeWire 1080p",
+              "url": "https://primewire.mx/embed/movie/1359977"
+            },
+            {
+              "name": "HDToday 1080p",
+              "url": "https://hdtoday.tv/embed/movie/1359977"
+            },
+            {
+              "name": "VidCloud 1080p",
+              "url": "https://vidcloud.to/embed/movie/1359977"
+            },
+            {
+              "name": "StreamWish 1080p",
+              "url": "https://streamwish.to/e/1359977"
+            },
+            {
+              "name": "DoodStream 1080p",
+              "url": "https://doodstream.com/e/1359977"
+            },
+            {
+              "name": "StreamTape 1080p",
+              "url": "https://streamtape.com/e/1359977"
+            },
+            {
+              "name": "MixDrop 1080p",
+              "url": "https://mixdrop.co/e/1359977"
+            },
+            {
+              "name": "FileMoon 1080p",
+              "url": "https://filemoon.sx/e/1359977"
+            },
+            {
+              "name": "UpStream 1080p",
+              "url": "https://upstream.to/embed-1359977.html"
+            }
+          ]
+        },
+        {
+          "Title": "Spirit in the Blood",
+          "SubCategory": "Thriller",
+          "Country": "",
+          "Description": "After a young girl is found dead in a secluded religious mountain community, a pack of teenage girls decide to fight against the evil spirits they believe killed her by embracing their own dark nature.",
+          "Poster": "https://image.tmdb.org/t/p/w500/1rEGnHwe4BqiARrjzcan6tmIisK.jpg",
+          "Thumbnail": "https://image.tmdb.org/t/p/w500/1rEGnHwe4BqiARrjzcan6tmIisK.jpg",
+          "Rating": 4,
+          "Duration": "1:38",
+          "Year": 2024,
+          "Servers": [
+            {
+              "name": "VidSrc 1080p",
+              "url": "https://vidsrc.net/embed/movie/1275003"
+            },
+            {
+              "name": "VidJoy 1080p",
+              "url": "https://vidjoy.pro/embed/movie/1275003"
+            },
+            {
+              "name": "MultiEmbed 1080p",
+              "url": "https://multiembed.mov/directstream.php?video_id=1275003&content_type=movie"
+            },
+            {
+              "name": "Embed.su 1080p",
+              "url": "https://embed.su/embed/movie/1275003"
+            },
+            {
+              "name": "VidSrc.me 1080p",
+              "url": "https://vidsrc.me/embed/movie/1275003"
+            },
+            {
+              "name": "AutoEmbed 1080p",
+              "url": "https://player.autoembed.cc/embed/movie/1275003"
+            },
+            {
+              "name": "SmashyStream 1080p",
+              "url": "https://player.smashy.stream/movie/1275003"
+            },
+            {
+              "name": "VidSrc.to 1080p",
+              "url": "https://vidsrc.to/embed/movie/1275003"
+            },
+            {
+              "name": "VidSrc.xyz 1080p",
+              "url": "https://vidsrc.xyz/embed/movie/1275003"
+            },
+            {
+              "name": "EmbedSoap 1080p",
+              "url": "https://www.embedsoap.com/embed/movie/1275003"
+            },
+            {
+              "name": "MoviesAPI 1080p",
+              "url": "https://moviesapi.club/movie/1275003"
+            },
+            {
+              "name": "DBGO 1080p",
+              "url": "https://dbgo.fun/movie/1275003"
+            },
+            {
+              "name": "FlixHQ 1080p",
+              "url": "https://flixhq.to/watch/movie/1275003"
+            },
+            {
+              "name": "GoMovies 1080p",
+              "url": "https://gomovies.sx/watch/movie/1275003"
+            },
+            {
+              "name": "ShowBox 1080p",
+              "url": "https://www.showbox.media/embed/movie/1275003"
+            },
+            {
+              "name": "PrimeWire 1080p",
+              "url": "https://primewire.mx/embed/movie/1275003"
+            },
+            {
+              "name": "HDToday 1080p",
+              "url": "https://hdtoday.tv/embed/movie/1275003"
+            },
+            {
+              "name": "VidCloud 1080p",
+              "url": "https://vidcloud.to/embed/movie/1275003"
+            },
+            {
+              "name": "StreamWish 1080p",
+              "url": "https://streamwish.to/e/1275003"
+            },
+            {
+              "name": "DoodStream 1080p",
+              "url": "https://doodstream.com/e/1275003"
+            },
+            {
+              "name": "StreamTape 1080p",
+              "url": "https://streamtape.com/e/1275003"
+            },
+            {
+              "name": "MixDrop 1080p",
+              "url": "https://mixdrop.co/e/1275003"
+            },
+            {
+              "name": "FileMoon 1080p",
+              "url": "https://filemoon.sx/e/1275003"
+            },
+            {
+              "name": "UpStream 1080p",
+              "url": "https://upstream.to/embed-1275003.html"
+            }
+          ]
+        },
+        {
+          "Title": "Apocalypse Z: The Beginning of the End",
+          "SubCategory": "Drama",
+          "Country": "",
+          "Description": "When a kind of rabies that transforms people into aggressive creatures spreads across the planet, Manel isolates himself at home with his cat, relying on his wits to survive; but soon they must go out in search of food, by land and by sea, dodging many dangers.",
+          "Poster": "https://image.tmdb.org/t/p/w500/wIGJnIFQlESkC2rLpfA8EDHqk4g.jpg",
+          "Thumbnail": "https://image.tmdb.org/t/p/w500/wIGJnIFQlESkC2rLpfA8EDHqk4g.jpg",
+          "Rating": 7,
+          "Duration": "1:59",
+          "Year": 2024,
+          "Servers": [
+            {
+              "name": "VidSrc 1080p",
+              "url": "https://vidsrc.net/embed/movie/1118031"
+            },
+            {
+              "name": "VidJoy 1080p",
+              "url": "https://vidjoy.pro/embed/movie/1118031"
+            },
+            {
+              "name": "MultiEmbed 1080p",
+              "url": "https://multiembed.mov/directstream.php?video_id=1118031&content_type=movie"
+            },
+            {
+              "name": "Embed.su 1080p",
+              "url": "https://embed.su/embed/movie/1118031"
+            },
+            {
+              "name": "VidSrc.me 1080p",
+              "url": "https://vidsrc.me/embed/movie/1118031"
+            },
+            {
+              "name": "AutoEmbed 1080p",
+              "url": "https://player.autoembed.cc/embed/movie/1118031"
+            },
+            {
+              "name": "SmashyStream 1080p",
+              "url": "https://player.smashy.stream/movie/1118031"
+            },
+            {
+              "name": "VidSrc.to 1080p",
+              "url": "https://vidsrc.to/embed/movie/1118031"
+            },
+            {
+              "name": "VidSrc.xyz 1080p",
+              "url": "https://vidsrc.xyz/embed/movie/1118031"
+            },
+            {
+              "name": "EmbedSoap 1080p",
+              "url": "https://www.embedsoap.com/embed/movie/1118031"
+            },
+            {
+              "name": "MoviesAPI 1080p",
+              "url": "https://moviesapi.club/movie/1118031"
+            },
+            {
+              "name": "DBGO 1080p",
+              "url": "https://dbgo.fun/movie/1118031"
+            },
+            {
+              "name": "FlixHQ 1080p",
+              "url": "https://flixhq.to/watch/movie/1118031"
+            },
+            {
+              "name": "GoMovies 1080p",
+              "url": "https://gomovies.sx/watch/movie/1118031"
+            },
+            {
+              "name": "ShowBox 1080p",
+              "url": "https://www.showbox.media/embed/movie/1118031"
+            },
+            {
+              "name": "PrimeWire 1080p",
+              "url": "https://primewire.mx/embed/movie/1118031"
+            },
+            {
+              "name": "HDToday 1080p",
+              "url": "https://hdtoday.tv/embed/movie/1118031"
+            },
+            {
+              "name": "VidCloud 1080p",
+              "url": "https://vidcloud.to/embed/movie/1118031"
+            },
+            {
+              "name": "StreamWish 1080p",
+              "url": "https://streamwish.to/e/1118031"
+            },
+            {
+              "name": "DoodStream 1080p",
+              "url": "https://doodstream.com/e/1118031"
+            },
+            {
+              "name": "StreamTape 1080p",
+              "url": "https://streamtape.com/e/1118031"
+            },
+            {
+              "name": "MixDrop 1080p",
+              "url": "https://mixdrop.co/e/1118031"
+            },
+            {
+              "name": "FileMoon 1080p",
+              "url": "https://filemoon.sx/e/1118031"
+            },
+            {
+              "name": "UpStream 1080p",
+              "url": "https://upstream.to/embed-1118031.html"
+            }
+          ]
+        },
+        {
+          "Title": "Smile 2",
+          "SubCategory": "Horror",
+          "Country": "",
+          "Description": "About to embark on a new world tour, global pop sensation Skye Riley begins experiencing increasingly terrifying and inexplicable events. Overwhelmed by the escalating horrors and the pressures of fame, Skye is forced to face her dark past to regain control of her life before it spirals out of control.",
+          "Poster": "https://image.tmdb.org/t/p/w500/ht8Uv9QPv9y7K0RvUyJIaXOZTfd.jpg",
+          "Thumbnail": "https://image.tmdb.org/t/p/w500/ht8Uv9QPv9y7K0RvUyJIaXOZTfd.jpg",
+          "Rating": 7,
+          "Duration": "2:07",
+          "Year": 2024,
+          "Servers": [
+            {
+              "name": "VidSrc 1080p",
+              "url": "https://vidsrc.net/embed/movie/1100782"
+            },
+            {
+              "name": "VidJoy 1080p",
+              "url": "https://vidjoy.pro/embed/movie/1100782"
+            },
+            {
+              "name": "MultiEmbed 1080p",
+              "url": "https://multiembed.mov/directstream.php?video_id=1100782&content_type=movie"
+            },
+            {
+              "name": "Embed.su 1080p",
+              "url": "https://embed.su/embed/movie/1100782"
+            },
+            {
+              "name": "VidSrc.me 1080p",
+              "url": "https://vidsrc.me/embed/movie/1100782"
+            },
+            {
+              "name": "AutoEmbed 1080p",
+              "url": "https://player.autoembed.cc/embed/movie/1100782"
+            },
+            {
+              "name": "SmashyStream 1080p",
+              "url": "https://player.smashy.stream/movie/1100782"
+            },
+            {
+              "name": "VidSrc.to 1080p",
+              "url": "https://vidsrc.to/embed/movie/1100782"
+            },
+            {
+              "name": "VidSrc.xyz 1080p",
+              "url": "https://vidsrc.xyz/embed/movie/1100782"
+            },
+            {
+              "name": "EmbedSoap 1080p",
+              "url": "https://www.embedsoap.com/embed/movie/1100782"
+            },
+            {
+              "name": "MoviesAPI 1080p",
+              "url": "https://moviesapi.club/movie/1100782"
+            },
+            {
+              "name": "DBGO 1080p",
+              "url": "https://dbgo.fun/movie/1100782"
+            },
+            {
+              "name": "FlixHQ 1080p",
+              "url": "https://flixhq.to/watch/movie/1100782"
+            },
+            {
+              "name": "GoMovies 1080p",
+              "url": "https://gomovies.sx/watch/movie/1100782"
+            },
+            {
+              "name": "ShowBox 1080p",
+              "url": "https://www.showbox.media/embed/movie/1100782"
+            },
+            {
+              "name": "PrimeWire 1080p",
+              "url": "https://primewire.mx/embed/movie/1100782"
+            },
+            {
+              "name": "HDToday 1080p",
+              "url": "https://hdtoday.tv/embed/movie/1100782"
+            },
+            {
+              "name": "VidCloud 1080p",
+              "url": "https://vidcloud.to/embed/movie/1100782"
+            },
+            {
+              "name": "StreamWish 1080p",
+              "url": "https://streamwish.to/e/1100782"
+            },
+            {
+              "name": "DoodStream 1080p",
+              "url": "https://doodstream.com/e/1100782"
+            },
+            {
+              "name": "StreamTape 1080p",
+              "url": "https://streamtape.com/e/1100782"
+            },
+            {
+              "name": "MixDrop 1080p",
+              "url": "https://mixdrop.co/e/1100782"
+            },
+            {
+              "name": "FileMoon 1080p",
+              "url": "https://filemoon.sx/e/1100782"
+            },
+            {
+              "name": "UpStream 1080p",
+              "url": "https://upstream.to/embed-1100782.html"
+            }
+          ]
+        },
+        {
+          "Title": "Terrifier 3",
+          "SubCategory": "Horror",
+          "Country": "",
+          "Description": "Five years after surviving Art the Clown's Halloween massacre, Sienna and Jonathan are still struggling to rebuild their shattered lives. As the holiday season approaches, they try to embrace the Christmas spirit and leave the horrors of the past behind. But just when they think they're safe, Art returns, determined to turn their holiday cheer into a new nightmare. The festive season quickly unravels as Art unleashes his twisted brand of terror, proving that no holiday is safe.",
+          "Poster": "https://image.tmdb.org/t/p/w500/ju10W5gl3PPK3b7TjEmVOZap51I.jpg",
+          "Thumbnail": "https://image.tmdb.org/t/p/w500/ju10W5gl3PPK3b7TjEmVOZap51I.jpg",
+          "Rating": 7,
+          "Duration": "2:05",
+          "Year": 2024,
+          "Servers": [
+            {
+              "name": "VidSrc 1080p",
+              "url": "https://vidsrc.net/embed/movie/1034541"
+            },
+            {
+              "name": "VidJoy 1080p",
+              "url": "https://vidjoy.pro/embed/movie/1034541"
+            },
+            {
+              "name": "MultiEmbed 1080p",
+              "url": "https://multiembed.mov/directstream.php?video_id=1034541&content_type=movie"
+            },
+            {
+              "name": "Embed.su 1080p",
+              "url": "https://embed.su/embed/movie/1034541"
+            },
+            {
+              "name": "VidSrc.me 1080p",
+              "url": "https://vidsrc.me/embed/movie/1034541"
+            },
+            {
+              "name": "AutoEmbed 1080p",
+              "url": "https://player.autoembed.cc/embed/movie/1034541"
+            },
+            {
+              "name": "SmashyStream 1080p",
+              "url": "https://player.smashy.stream/movie/1034541"
+            },
+            {
+              "name": "VidSrc.to 1080p",
+              "url": "https://vidsrc.to/embed/movie/1034541"
+            },
+            {
+              "name": "VidSrc.xyz 1080p",
+              "url": "https://vidsrc.xyz/embed/movie/1034541"
+            },
+            {
+              "name": "EmbedSoap 1080p",
+              "url": "https://www.embedsoap.com/embed/movie/1034541"
+            },
+            {
+              "name": "MoviesAPI 1080p",
+              "url": "https://moviesapi.club/movie/1034541"
+            },
+            {
+              "name": "DBGO 1080p",
+              "url": "https://dbgo.fun/movie/1034541"
+            },
+            {
+              "name": "FlixHQ 1080p",
+              "url": "https://flixhq.to/watch/movie/1034541"
+            },
+            {
+              "name": "GoMovies 1080p",
+              "url": "https://gomovies.sx/watch/movie/1034541"
+            },
+            {
+              "name": "ShowBox 1080p",
+              "url": "https://www.showbox.media/embed/movie/1034541"
+            },
+            {
+              "name": "PrimeWire 1080p",
+              "url": "https://primewire.mx/embed/movie/1034541"
+            },
+            {
+              "name": "HDToday 1080p",
+              "url": "https://hdtoday.tv/embed/movie/1034541"
+            },
+            {
+              "name": "VidCloud 1080p",
+              "url": "https://vidcloud.to/embed/movie/1034541"
+            },
+            {
+              "name": "StreamWish 1080p",
+              "url": "https://streamwish.to/e/1034541"
+            },
+            {
+              "name": "DoodStream 1080p",
+              "url": "https://doodstream.com/e/1034541"
+            },
+            {
+              "name": "StreamTape 1080p",
+              "url": "https://streamtape.com/e/1034541"
+            },
+            {
+              "name": "MixDrop 1080p",
+              "url": "https://mixdrop.co/e/1034541"
+            },
+            {
+              "name": "FileMoon 1080p",
+              "url": "https://filemoon.sx/e/1034541"
+            },
+            {
+              "name": "UpStream 1080p",
+              "url": "https://upstream.to/embed-1034541.html"
+            }
+          ]
+        },
+        {
+          "Title": "Subservience",
+          "SubCategory": "Science Fiction",
+          "Country": "",
+          "Description": "With his wife out sick, a struggling father brings home a lifelike AI, only to have his self-aware new help want everything her new family has to offer... Like the affection of her owner and she'll kill to get it.",
+          "Poster": "https://image.tmdb.org/t/p/w500/gBenxR01Uy0Ev9RTIw6dVBPoyQU.jpg",
+          "Thumbnail": "https://image.tmdb.org/t/p/w500/gBenxR01Uy0Ev9RTIw6dVBPoyQU.jpg",
+          "Rating": 7,
+          "Duration": "1:45",
+          "Year": 2024,
+          "Servers": [
+            {
+              "name": "VidSrc 1080p",
+              "url": "https://vidsrc.net/embed/movie/1064028"
+            },
+            {
+              "name": "VidJoy 1080p",
+              "url": "https://vidjoy.pro/embed/movie/1064028"
+            },
+            {
+              "name": "MultiEmbed 1080p",
+              "url": "https://multiembed.mov/directstream.php?video_id=1064028&content_type=movie"
+            },
+            {
+              "name": "Embed.su 1080p",
+              "url": "https://embed.su/embed/movie/1064028"
+            },
+            {
+              "name": "VidSrc.me 1080p",
+              "url": "https://vidsrc.me/embed/movie/1064028"
+            },
+            {
+              "name": "AutoEmbed 1080p",
+              "url": "https://player.autoembed.cc/embed/movie/1064028"
+            },
+            {
+              "name": "SmashyStream 1080p",
+              "url": "https://player.smashy.stream/movie/1064028"
+            },
+            {
+              "name": "VidSrc.to 1080p",
+              "url": "https://vidsrc.to/embed/movie/1064028"
+            },
+            {
+              "name": "VidSrc.xyz 1080p",
+              "url": "https://vidsrc.xyz/embed/movie/1064028"
+            },
+            {
+              "name": "EmbedSoap 1080p",
+              "url": "https://www.embedsoap.com/embed/movie/1064028"
+            },
+            {
+              "name": "MoviesAPI 1080p",
+              "url": "https://moviesapi.club/movie/1064028"
+            },
+            {
+              "name": "DBGO 1080p",
+              "url": "https://dbgo.fun/movie/1064028"
+            },
+            {
+              "name": "FlixHQ 1080p",
+              "url": "https://flixhq.to/watch/movie/1064028"
+            },
+            {
+              "name": "GoMovies 1080p",
+              "url": "https://gomovies.sx/watch/movie/1064028"
+            },
+            {
+              "name": "ShowBox 1080p",
+              "url": "https://www.showbox.media/embed/movie/1064028"
+            },
+            {
+              "name": "PrimeWire 1080p",
+              "url": "https://primewire.mx/embed/movie/1064028"
+            },
+            {
+              "name": "HDToday 1080p",
+              "url": "https://hdtoday.tv/embed/movie/1064028"
+            },
+            {
+              "name": "VidCloud 1080p",
+              "url": "https://vidcloud.to/embed/movie/1064028"
+            },
+            {
+              "name": "StreamWish 1080p",
+              "url": "https://streamwish.to/e/1064028"
+            },
+            {
+              "name": "DoodStream 1080p",
+              "url": "https://doodstream.com/e/1064028"
+            },
+            {
+              "name": "StreamTape 1080p",
+              "url": "https://streamtape.com/e/1064028"
+            },
+            {
+              "name": "MixDrop 1080p",
+              "url": "https://mixdrop.co/e/1064028"
+            },
+            {
+              "name": "FileMoon 1080p",
+              "url": "https://filemoon.sx/e/1064028"
+            },
+            {
+              "name": "UpStream 1080p",
+              "url": "https://upstream.to/embed-1064028.html"
+            }
+          ]
+        },
+        {
+          "Title": "Nosferatu",
+          "SubCategory": "Drama",
+          "Country": "",
+          "Description": "A gothic tale of obsession between a haunted young woman and the terrifying vampire infatuated with her, causing untold horror in its wake.",
+          "Poster": "https://image.tmdb.org/t/p/w500/5qGIxdEO841C0tdY8vOdLoRVrr0.jpg",
+          "Thumbnail": "https://image.tmdb.org/t/p/w500/5qGIxdEO841C0tdY8vOdLoRVrr0.jpg",
+          "Rating": 7,
+          "Duration": "2:13",
+          "Year": 2024,
+          "Servers": [
+            {
+              "name": "VidSrc 1080p",
+              "url": "https://vidsrc.net/embed/movie/426063"
+            },
+            {
+              "name": "VidJoy 1080p",
+              "url": "https://vidjoy.pro/embed/movie/426063"
+            },
+            {
+              "name": "MultiEmbed 1080p",
+              "url": "https://multiembed.mov/directstream.php?video_id=426063&content_type=movie"
+            },
+            {
+              "name": "Embed.su 1080p",
+              "url": "https://embed.su/embed/movie/426063"
+            },
+            {
+              "name": "VidSrc.me 1080p",
+              "url": "https://vidsrc.me/embed/movie/426063"
+            },
+            {
+              "name": "AutoEmbed 1080p",
+              "url": "https://player.autoembed.cc/embed/movie/426063"
+            },
+            {
+              "name": "SmashyStream 1080p",
+              "url": "https://player.smashy.stream/movie/426063"
+            },
+            {
+              "name": "VidSrc.to 1080p",
+              "url": "https://vidsrc.to/embed/movie/426063"
+            },
+            {
+              "name": "VidSrc.xyz 1080p",
+              "url": "https://vidsrc.xyz/embed/movie/426063"
+            },
+            {
+              "name": "EmbedSoap 1080p",
+              "url": "https://www.embedsoap.com/embed/movie/426063"
+            },
+            {
+              "name": "MoviesAPI 1080p",
+              "url": "https://moviesapi.club/movie/426063"
+            },
+            {
+              "name": "DBGO 1080p",
+              "url": "https://dbgo.fun/movie/426063"
+            },
+            {
+              "name": "FlixHQ 1080p",
+              "url": "https://flixhq.to/watch/movie/426063"
+            },
+            {
+              "name": "GoMovies 1080p",
+              "url": "https://gomovies.sx/watch/movie/426063"
+            },
+            {
+              "name": "ShowBox 1080p",
+              "url": "https://www.showbox.media/embed/movie/426063"
+            },
+            {
+              "name": "PrimeWire 1080p",
+              "url": "https://primewire.mx/embed/movie/426063"
+            },
+            {
+              "name": "HDToday 1080p",
+              "url": "https://hdtoday.tv/embed/movie/426063"
+            },
+            {
+              "name": "VidCloud 1080p",
+              "url": "https://vidcloud.to/embed/movie/426063"
+            },
+            {
+              "name": "StreamWish 1080p",
+              "url": "https://streamwish.to/e/426063"
+            },
+            {
+              "name": "DoodStream 1080p",
+              "url": "https://doodstream.com/e/426063"
+            },
+            {
+              "name": "StreamTape 1080p",
+              "url": "https://streamtape.com/e/426063"
+            },
+            {
+              "name": "MixDrop 1080p",
+              "url": "https://mixdrop.co/e/426063"
+            },
+            {
+              "name": "FileMoon 1080p",
+              "url": "https://filemoon.sx/e/426063"
+            },
+            {
+              "name": "UpStream 1080p",
+              "url": "https://upstream.to/embed-426063.html"
+            }
+          ]
+        },
+        {
+          "Title": "Saint Catherine",
+          "SubCategory": "Horror",
+          "Country": "",
+          "Description": "An orphaned girl is rescued from a satanic ritual and taken to Saint Catherine Institute for homeless youth. There she will learn new skills while facing demons that stalk her.",
+          "Poster": "https://image.tmdb.org/t/p/w500/hBJdzKPeDaC96AzlrtMWBomYSZV.jpg",
+          "Thumbnail": "https://image.tmdb.org/t/p/w500/hBJdzKPeDaC96AzlrtMWBomYSZV.jpg",
+          "Rating": 7,
+          "Duration": "1:26",
+          "Year": 2024,
+          "Servers": [
+            {
+              "name": "VidSrc 1080p",
+              "url": "https://vidsrc.net/embed/movie/1356236"
+            },
+            {
+              "name": "VidJoy 1080p",
+              "url": "https://vidjoy.pro/embed/movie/1356236"
+            },
+            {
+              "name": "MultiEmbed 1080p",
+              "url": "https://multiembed.mov/directstream.php?video_id=1356236&content_type=movie"
+            },
+            {
+              "name": "Embed.su 1080p",
+              "url": "https://embed.su/embed/movie/1356236"
+            },
+            {
+              "name": "VidSrc.me 1080p",
+              "url": "https://vidsrc.me/embed/movie/1356236"
+            },
+            {
+              "name": "AutoEmbed 1080p",
+              "url": "https://player.autoembed.cc/embed/movie/1356236"
+            },
+            {
+              "name": "SmashyStream 1080p",
+              "url": "https://player.smashy.stream/movie/1356236"
+            },
+            {
+              "name": "VidSrc.to 1080p",
+              "url": "https://vidsrc.to/embed/movie/1356236"
+            },
+            {
+              "name": "VidSrc.xyz 1080p",
+              "url": "https://vidsrc.xyz/embed/movie/1356236"
+            },
+            {
+              "name": "EmbedSoap 1080p",
+              "url": "https://www.embedsoap.com/embed/movie/1356236"
+            },
+            {
+              "name": "MoviesAPI 1080p",
+              "url": "https://moviesapi.club/movie/1356236"
+            },
+            {
+              "name": "DBGO 1080p",
+              "url": "https://dbgo.fun/movie/1356236"
+            },
+            {
+              "name": "FlixHQ 1080p",
+              "url": "https://flixhq.to/watch/movie/1356236"
+            },
+            {
+              "name": "GoMovies 1080p",
+              "url": "https://gomovies.sx/watch/movie/1356236"
+            },
+            {
+              "name": "ShowBox 1080p",
+              "url": "https://www.showbox.media/embed/movie/1356236"
+            },
+            {
+              "name": "PrimeWire 1080p",
+              "url": "https://primewire.mx/embed/movie/1356236"
+            },
+            {
+              "name": "HDToday 1080p",
+              "url": "https://hdtoday.tv/embed/movie/1356236"
+            },
+            {
+              "name": "VidCloud 1080p",
+              "url": "https://vidcloud.to/embed/movie/1356236"
+            },
+            {
+              "name": "StreamWish 1080p",
+              "url": "https://streamwish.to/e/1356236"
+            },
+            {
+              "name": "DoodStream 1080p",
+              "url": "https://doodstream.com/e/1356236"
+            },
+            {
+              "name": "StreamTape 1080p",
+              "url": "https://streamtape.com/e/1356236"
+            },
+            {
+              "name": "MixDrop 1080p",
+              "url": "https://mixdrop.co/e/1356236"
+            },
+            {
+              "name": "FileMoon 1080p",
+              "url": "https://filemoon.sx/e/1356236"
+            },
+            {
+              "name": "UpStream 1080p",
+              "url": "https://upstream.to/embed-1356236.html"
+            }
+          ]
+        },
+        {
+          "Title": "Lembayung",
+          "SubCategory": "Horror",
+          "Country": "",
+          "Description": "Arum and Pica, who wanted to complete their internship at Lembayung hospital, had to face mysterious terror from a woman satan who was suspected of hanged herself in the bathroom. The situation became even more tense after they asked others for help to the point where they threatened their own lives and those closest to them.",
+          "Poster": "https://image.tmdb.org/t/p/w500/5x9LrW0yvtt6S3XovIQHgXfYvLL.jpg",
+          "Thumbnail": "https://image.tmdb.org/t/p/w500/5x9LrW0yvtt6S3XovIQHgXfYvLL.jpg",
+          "Rating": 7,
+          "Duration": "2:03",
+          "Year": 2024,
+          "Servers": [
+            {
+              "name": "VidSrc 1080p",
+              "url": "https://vidsrc.net/embed/movie/1164355"
+            },
+            {
+              "name": "VidJoy 1080p",
+              "url": "https://vidjoy.pro/embed/movie/1164355"
+            },
+            {
+              "name": "MultiEmbed 1080p",
+              "url": "https://multiembed.mov/directstream.php?video_id=1164355&content_type=movie"
+            },
+            {
+              "name": "Embed.su 1080p",
+              "url": "https://embed.su/embed/movie/1164355"
+            },
+            {
+              "name": "VidSrc.me 1080p",
+              "url": "https://vidsrc.me/embed/movie/1164355"
+            },
+            {
+              "name": "AutoEmbed 1080p",
+              "url": "https://player.autoembed.cc/embed/movie/1164355"
+            },
+            {
+              "name": "SmashyStream 1080p",
+              "url": "https://player.smashy.stream/movie/1164355"
+            },
+            {
+              "name": "VidSrc.to 1080p",
+              "url": "https://vidsrc.to/embed/movie/1164355"
+            },
+            {
+              "name": "VidSrc.xyz 1080p",
+              "url": "https://vidsrc.xyz/embed/movie/1164355"
+            },
+            {
+              "name": "EmbedSoap 1080p",
+              "url": "https://www.embedsoap.com/embed/movie/1164355"
+            },
+            {
+              "name": "MoviesAPI 1080p",
+              "url": "https://moviesapi.club/movie/1164355"
+            },
+            {
+              "name": "DBGO 1080p",
+              "url": "https://dbgo.fun/movie/1164355"
+            },
+            {
+              "name": "FlixHQ 1080p",
+              "url": "https://flixhq.to/watch/movie/1164355"
+            },
+            {
+              "name": "GoMovies 1080p",
+              "url": "https://gomovies.sx/watch/movie/1164355"
+            },
+            {
+              "name": "ShowBox 1080p",
+              "url": "https://www.showbox.media/embed/movie/1164355"
+            },
+            {
+              "name": "PrimeWire 1080p",
+              "url": "https://primewire.mx/embed/movie/1164355"
+            },
+            {
+              "name": "HDToday 1080p",
+              "url": "https://hdtoday.tv/embed/movie/1164355"
+            },
+            {
+              "name": "VidCloud 1080p",
+              "url": "https://vidcloud.to/embed/movie/1164355"
+            },
+            {
+              "name": "StreamWish 1080p",
+              "url": "https://streamwish.to/e/1164355"
+            },
+            {
+              "name": "DoodStream 1080p",
+              "url": "https://doodstream.com/e/1164355"
+            },
+            {
+              "name": "StreamTape 1080p",
+              "url": "https://streamtape.com/e/1164355"
+            },
+            {
+              "name": "MixDrop 1080p",
+              "url": "https://mixdrop.co/e/1164355"
+            },
+            {
+              "name": "FileMoon 1080p",
+              "url": "https://filemoon.sx/e/1164355"
+            },
+            {
+              "name": "UpStream 1080p",
+              "url": "https://upstream.to/embed-1164355.html"
+            }
+          ]
+        },
+        {
+          "Title": "A Quiet Place: Day One",
+          "SubCategory": "Horror",
+          "Country": "",
+          "Description": "As New York City is invaded by alien creatures who hunt by sound, a woman named Sam fights to survive with her cat.",
+          "Poster": "https://image.tmdb.org/t/p/w500/hU42CRk14JuPEdqZG3AWmagiPAP.jpg",
+          "Thumbnail": "https://image.tmdb.org/t/p/w500/hU42CRk14JuPEdqZG3AWmagiPAP.jpg",
           "Rating": 7,
           "Duration": "1:40",
           "Year": 2024,
           "Servers": [
             {
-              "url": "https://vidsrc.net/embed/movie/748783"
+              "name": "VidSrc 1080p",
+              "url": "https://vidsrc.net/embed/movie/762441"
             },
             {
-              "url": "https://vidjoy.pro/embed/movie/748783"
+              "name": "VidJoy 1080p",
+              "url": "https://vidjoy.pro/embed/movie/762441"
             },
             {
-              "url": "https://multiembed.mov/directstream.php?video_id=748783&content_type=movie"
+              "name": "MultiEmbed 1080p",
+              "url": "https://multiembed.mov/directstream.php?video_id=762441&content_type=movie"
             },
             {
-              "url": "https://embed.su/embed/movie/748783"
+              "name": "Embed.su 1080p",
+              "url": "https://embed.su/embed/movie/762441"
             },
             {
-              "url": "https://vidsrc.me/embed/movie/748783"
+              "name": "VidSrc.me 1080p",
+              "url": "https://vidsrc.me/embed/movie/762441"
             },
             {
-              "url": "https://player.autoembed.cc/embed/movie/748783"
+              "name": "AutoEmbed 1080p",
+              "url": "https://player.autoembed.cc/embed/movie/762441"
             },
             {
-              "url": "https://player.smashy.stream/movie/748783"
+              "name": "SmashyStream 1080p",
+              "url": "https://player.smashy.stream/movie/762441"
             },
             {
-              "url": "https://vidsrc.to/embed/movie/748783"
+              "name": "VidSrc.to 1080p",
+              "url": "https://vidsrc.to/embed/movie/762441"
             },
             {
-              "url": "https://vidsrc.xyz/embed/movie/748783"
+              "name": "VidSrc.xyz 1080p",
+              "url": "https://vidsrc.xyz/embed/movie/762441"
             },
             {
-              "url": "https://www.embedsoap.com/embed/movie/748783"
+              "name": "EmbedSoap 1080p",
+              "url": "https://www.embedsoap.com/embed/movie/762441"
             },
             {
-              "url": "https://moviesapi.club/movie/748783"
+              "name": "MoviesAPI 1080p",
+              "url": "https://moviesapi.club/movie/762441"
             },
             {
-              "url": "https://dbgo.fun/movie/748783"
+              "name": "DBGO 1080p",
+              "url": "https://dbgo.fun/movie/762441"
             },
             {
-              "url": "https://flixhq.to/watch/movie/748783"
+              "name": "FlixHQ 1080p",
+              "url": "https://flixhq.to/watch/movie/762441"
             },
             {
-              "url": "https://gomovies.sx/watch/movie/748783"
+              "name": "GoMovies 1080p",
+              "url": "https://gomovies.sx/watch/movie/762441"
             },
             {
-              "url": "https://www.showbox.media/embed/movie/748783"
+              "name": "ShowBox 1080p",
+              "url": "https://www.showbox.media/embed/movie/762441"
             },
             {
-              "url": "https://primewire.mx/embed/movie/748783"
+              "name": "PrimeWire 1080p",
+              "url": "https://primewire.mx/embed/movie/762441"
             },
             {
-              "url": "https://hdtoday.tv/embed/movie/748783"
+              "name": "HDToday 1080p",
+              "url": "https://hdtoday.tv/embed/movie/762441"
             },
             {
-              "url": "https://vidcloud.to/embed/movie/748783"
+              "name": "VidCloud 1080p",
+              "url": "https://vidcloud.to/embed/movie/762441"
             },
             {
-              "url": "https://streamwish.to/e/748783"
+              "name": "StreamWish 1080p",
+              "url": "https://streamwish.to/e/762441"
             },
             {
-              "url": "https://doodstream.com/e/748783"
+              "name": "DoodStream 1080p",
+              "url": "https://doodstream.com/e/762441"
             },
             {
-              "url": "https://streamtape.com/e/748783"
+              "name": "StreamTape 1080p",
+              "url": "https://streamtape.com/e/762441"
             },
             {
-              "url": "https://mixdrop.co/e/748783"
+              "name": "MixDrop 1080p",
+              "url": "https://mixdrop.co/e/762441"
             },
             {
-              "url": "https://filemoon.sx/e/748783"
+              "name": "FileMoon 1080p",
+              "url": "https://filemoon.sx/e/762441"
             },
             {
-              "url": "https://upstream.to/embed-748783.html"
+              "name": "UpStream 1080p",
+              "url": "https://upstream.to/embed-762441.html"
             }
           ]
         },
         {
-          "Title": "Strawberry Prince Movie: The Beginning - Strawberry School Festival!!!",
-          "SubCategory": "Animation",
+          "Title": "Werewolves",
+          "SubCategory": "Action",
           "Country": "",
-          "Description": "An anime movie based on the boy band Strawberry Prince.",
-          "Poster": "https://image.tmdb.org/t/p/w500/kaBZWQ8mmT0fhIBdrafHinIVomN.jpg",
-          "Thumbnail": "https://image.tmdb.org/t/p/w500/kaBZWQ8mmT0fhIBdrafHinIVomN.jpg",
-          "Rating": 0,
-          "Duration": "1:23",
-          "Year": 2024,
-          "Servers": [
-            {
-              "url": "https://vidsrc.net/embed/movie/1266536"
-            },
-            {
-              "url": "https://vidjoy.pro/embed/movie/1266536"
-            },
-            {
-              "url": "https://multiembed.mov/directstream.php?video_id=1266536&content_type=movie"
-            },
-            {
-              "url": "https://embed.su/embed/movie/1266536"
-            },
-            {
-              "url": "https://vidsrc.me/embed/movie/1266536"
-            },
-            {
-              "url": "https://player.autoembed.cc/embed/movie/1266536"
-            },
-            {
-              "url": "https://player.smashy.stream/movie/1266536"
-            },
-            {
-              "url": "https://vidsrc.to/embed/movie/1266536"
-            },
-            {
-              "url": "https://vidsrc.xyz/embed/movie/1266536"
-            },
-            {
-              "url": "https://www.embedsoap.com/embed/movie/1266536"
-            },
-            {
-              "url": "https://moviesapi.club/movie/1266536"
-            },
-            {
-              "url": "https://dbgo.fun/movie/1266536"
-            },
-            {
-              "url": "https://flixhq.to/watch/movie/1266536"
-            },
-            {
-              "url": "https://gomovies.sx/watch/movie/1266536"
-            },
-            {
-              "url": "https://www.showbox.media/embed/movie/1266536"
-            },
-            {
-              "url": "https://primewire.mx/embed/movie/1266536"
-            },
-            {
-              "url": "https://hdtoday.tv/embed/movie/1266536"
-            },
-            {
-              "url": "https://vidcloud.to/embed/movie/1266536"
-            },
-            {
-              "url": "https://streamwish.to/e/1266536"
-            },
-            {
-              "url": "https://doodstream.com/e/1266536"
-            },
-            {
-              "url": "https://streamtape.com/e/1266536"
-            },
-            {
-              "url": "https://mixdrop.co/e/1266536"
-            },
-            {
-              "url": "https://filemoon.sx/e/1266536"
-            },
-            {
-              "url": "https://upstream.to/embed-1266536.html"
-            }
-          ]
-        },
-        {
-          "Title": "Miraculous World: London, At the Edge of Time",
-          "SubCategory": "Animation",
-          "Country": "",
-          "Description": "To save the future from a terrible fate, Marinette becomes Chronobug and teams up with Bunnyx to defeat a mysterious opponent who travels through time. Who is this new supervillain, and why are they obsessed with exposing Marinette's secret superhero identity? Marinette's only hope is to defeat her new opponent to prevent the end of Ladybug and time itself!",
-          "Poster": "https://image.tmdb.org/t/p/w500/6AtoMpHvs9pxd30KsyK8QmJ9W9M.jpg",
-          "Thumbnail": "https://image.tmdb.org/t/p/w500/6AtoMpHvs9pxd30KsyK8QmJ9W9M.jpg",
-          "Rating": 7,
-          "Duration": "50:00",
-          "Year": 2024,
-          "Servers": [
-            {
-              "url": "https://vidsrc.net/embed/movie/1147416"
-            },
-            {
-              "url": "https://vidjoy.pro/embed/movie/1147416"
-            },
-            {
-              "url": "https://multiembed.mov/directstream.php?video_id=1147416&content_type=movie"
-            },
-            {
-              "url": "https://embed.su/embed/movie/1147416"
-            },
-            {
-              "url": "https://vidsrc.me/embed/movie/1147416"
-            },
-            {
-              "url": "https://player.autoembed.cc/embed/movie/1147416"
-            },
-            {
-              "url": "https://player.smashy.stream/movie/1147416"
-            },
-            {
-              "url": "https://vidsrc.to/embed/movie/1147416"
-            },
-            {
-              "url": "https://vidsrc.xyz/embed/movie/1147416"
-            },
-            {
-              "url": "https://www.embedsoap.com/embed/movie/1147416"
-            },
-            {
-              "url": "https://moviesapi.club/movie/1147416"
-            },
-            {
-              "url": "https://dbgo.fun/movie/1147416"
-            },
-            {
-              "url": "https://flixhq.to/watch/movie/1147416"
-            },
-            {
-              "url": "https://gomovies.sx/watch/movie/1147416"
-            },
-            {
-              "url": "https://www.showbox.media/embed/movie/1147416"
-            },
-            {
-              "url": "https://primewire.mx/embed/movie/1147416"
-            },
-            {
-              "url": "https://hdtoday.tv/embed/movie/1147416"
-            },
-            {
-              "url": "https://vidcloud.to/embed/movie/1147416"
-            },
-            {
-              "url": "https://streamwish.to/e/1147416"
-            },
-            {
-              "url": "https://doodstream.com/e/1147416"
-            },
-            {
-              "url": "https://streamtape.com/e/1147416"
-            },
-            {
-              "url": "https://mixdrop.co/e/1147416"
-            },
-            {
-              "url": "https://filemoon.sx/e/1147416"
-            },
-            {
-              "url": "https://upstream.to/embed-1147416.html"
-            }
-          ]
-        },
-        {
-          "Title": "Transformers One",
-          "SubCategory": "Animation",
-          "Country": "",
-          "Description": "The untold origin story of Optimus Prime and Megatron, better known as sworn enemies, but once were friends bonded like brothers who changed the fate of Cybertron forever.",
-          "Poster": "https://image.tmdb.org/t/p/w500/bBY65ft2yCquqcm9Icx5IG3R3Jy.jpg",
-          "Thumbnail": "https://image.tmdb.org/t/p/w500/bBY65ft2yCquqcm9Icx5IG3R3Jy.jpg",
-          "Rating": 8,
-          "Duration": "1:44",
-          "Year": 2024,
-          "Servers": [
-            {
-              "url": "https://vidsrc.net/embed/movie/698687"
-            },
-            {
-              "url": "https://vidjoy.pro/embed/movie/698687"
-            },
-            {
-              "url": "https://multiembed.mov/directstream.php?video_id=698687&content_type=movie"
-            },
-            {
-              "url": "https://embed.su/embed/movie/698687"
-            },
-            {
-              "url": "https://vidsrc.me/embed/movie/698687"
-            },
-            {
-              "url": "https://player.autoembed.cc/embed/movie/698687"
-            },
-            {
-              "url": "https://player.smashy.stream/movie/698687"
-            },
-            {
-              "url": "https://vidsrc.to/embed/movie/698687"
-            },
-            {
-              "url": "https://vidsrc.xyz/embed/movie/698687"
-            },
-            {
-              "url": "https://www.embedsoap.com/embed/movie/698687"
-            },
-            {
-              "url": "https://moviesapi.club/movie/698687"
-            },
-            {
-              "url": "https://dbgo.fun/movie/698687"
-            },
-            {
-              "url": "https://flixhq.to/watch/movie/698687"
-            },
-            {
-              "url": "https://gomovies.sx/watch/movie/698687"
-            },
-            {
-              "url": "https://www.showbox.media/embed/movie/698687"
-            },
-            {
-              "url": "https://primewire.mx/embed/movie/698687"
-            },
-            {
-              "url": "https://hdtoday.tv/embed/movie/698687"
-            },
-            {
-              "url": "https://vidcloud.to/embed/movie/698687"
-            },
-            {
-              "url": "https://streamwish.to/e/698687"
-            },
-            {
-              "url": "https://doodstream.com/e/698687"
-            },
-            {
-              "url": "https://streamtape.com/e/698687"
-            },
-            {
-              "url": "https://mixdrop.co/e/698687"
-            },
-            {
-              "url": "https://filemoon.sx/e/698687"
-            },
-            {
-              "url": "https://upstream.to/embed-698687.html"
-            }
-          ]
-        },
-        {
-          "Title": "Memoir of a Snail",
-          "SubCategory": "Animation",
-          "Country": "",
-          "Description": "Forcibly separated from her twin brother when they are orphaned, a melancholic misfit learns how to find confidence within herself amid the clutter of misfortunes and everyday life.",
-          "Poster": "https://image.tmdb.org/t/p/w500/woaN8CbloH0akyX0E72ayxlJAB4.jpg",
-          "Thumbnail": "https://image.tmdb.org/t/p/w500/woaN8CbloH0akyX0E72ayxlJAB4.jpg",
-          "Rating": 8,
+          "Description": "A year after a supermoon’s light activated a dormant gene, transforming humans into bloodthirsty werewolves and causing nearly a billion deaths, the nightmare resurfaces as the supermoon rises again. Two scientists attempt to stop the mutation but fail and must now struggle to reach one of their family homes.",
+          "Poster": "https://image.tmdb.org/t/p/w500/otXBlMPbFBRs6o2Xt6KX59Qw6dL.jpg",
+          "Thumbnail": "https://image.tmdb.org/t/p/w500/otXBlMPbFBRs6o2Xt6KX59Qw6dL.jpg",
+          "Rating": 6,
           "Duration": "1:34",
           "Year": 2024,
           "Servers": [
             {
-              "url": "https://vidsrc.net/embed/movie/1064486"
+              "name": "VidSrc 1080p",
+              "url": "https://vidsrc.net/embed/movie/970450"
             },
             {
-              "url": "https://vidjoy.pro/embed/movie/1064486"
+              "name": "VidJoy 1080p",
+              "url": "https://vidjoy.pro/embed/movie/970450"
             },
             {
-              "url": "https://multiembed.mov/directstream.php?video_id=1064486&content_type=movie"
+              "name": "MultiEmbed 1080p",
+              "url": "https://multiembed.mov/directstream.php?video_id=970450&content_type=movie"
             },
             {
-              "url": "https://embed.su/embed/movie/1064486"
+              "name": "Embed.su 1080p",
+              "url": "https://embed.su/embed/movie/970450"
             },
             {
-              "url": "https://vidsrc.me/embed/movie/1064486"
+              "name": "VidSrc.me 1080p",
+              "url": "https://vidsrc.me/embed/movie/970450"
             },
             {
-              "url": "https://player.autoembed.cc/embed/movie/1064486"
+              "name": "AutoEmbed 1080p",
+              "url": "https://player.autoembed.cc/embed/movie/970450"
             },
             {
-              "url": "https://player.smashy.stream/movie/1064486"
+              "name": "SmashyStream 1080p",
+              "url": "https://player.smashy.stream/movie/970450"
             },
             {
-              "url": "https://vidsrc.to/embed/movie/1064486"
+              "name": "VidSrc.to 1080p",
+              "url": "https://vidsrc.to/embed/movie/970450"
             },
             {
-              "url": "https://vidsrc.xyz/embed/movie/1064486"
+              "name": "VidSrc.xyz 1080p",
+              "url": "https://vidsrc.xyz/embed/movie/970450"
             },
             {
-              "url": "https://www.embedsoap.com/embed/movie/1064486"
+              "name": "EmbedSoap 1080p",
+              "url": "https://www.embedsoap.com/embed/movie/970450"
             },
             {
-              "url": "https://moviesapi.club/movie/1064486"
+              "name": "MoviesAPI 1080p",
+              "url": "https://moviesapi.club/movie/970450"
             },
             {
-              "url": "https://dbgo.fun/movie/1064486"
+              "name": "DBGO 1080p",
+              "url": "https://dbgo.fun/movie/970450"
             },
             {
-              "url": "https://flixhq.to/watch/movie/1064486"
+              "name": "FlixHQ 1080p",
+              "url": "https://flixhq.to/watch/movie/970450"
             },
             {
-              "url": "https://gomovies.sx/watch/movie/1064486"
+              "name": "GoMovies 1080p",
+              "url": "https://gomovies.sx/watch/movie/970450"
             },
             {
-              "url": "https://www.showbox.media/embed/movie/1064486"
+              "name": "ShowBox 1080p",
+              "url": "https://www.showbox.media/embed/movie/970450"
             },
             {
-              "url": "https://primewire.mx/embed/movie/1064486"
+              "name": "PrimeWire 1080p",
+              "url": "https://primewire.mx/embed/movie/970450"
             },
             {
-              "url": "https://hdtoday.tv/embed/movie/1064486"
+              "name": "HDToday 1080p",
+              "url": "https://hdtoday.tv/embed/movie/970450"
             },
             {
-              "url": "https://vidcloud.to/embed/movie/1064486"
+              "name": "VidCloud 1080p",
+              "url": "https://vidcloud.to/embed/movie/970450"
             },
             {
-              "url": "https://streamwish.to/e/1064486"
+              "name": "StreamWish 1080p",
+              "url": "https://streamwish.to/e/970450"
             },
             {
-              "url": "https://doodstream.com/e/1064486"
+              "name": "DoodStream 1080p",
+              "url": "https://doodstream.com/e/970450"
             },
             {
-              "url": "https://streamtape.com/e/1064486"
+              "name": "StreamTape 1080p",
+              "url": "https://streamtape.com/e/970450"
             },
             {
-              "url": "https://mixdrop.co/e/1064486"
+              "name": "MixDrop 1080p",
+              "url": "https://mixdrop.co/e/970450"
             },
             {
-              "url": "https://filemoon.sx/e/1064486"
+              "name": "FileMoon 1080p",
+              "url": "https://filemoon.sx/e/970450"
             },
             {
-              "url": "https://upstream.to/embed-1064486.html"
+              "name": "UpStream 1080p",
+              "url": "https://upstream.to/embed-970450.html"
             }
           ]
         },
         {
-          "Title": "The Lord of the Rings: The War of the Rohirrim",
-          "SubCategory": "Animation",
+          "Title": "Project Silence",
+          "SubCategory": "Thriller",
           "Country": "",
-          "Description": "A sudden attack by Wulf, a clever and traitorous lord of Rohan seeking vengeance for the death of his father, forces Helm Hammerhand, the King of Rohan, and his people to make a daring last stand in the ancient stronghold of the Hornburg.",
-          "Poster": "https://image.tmdb.org/t/p/w500/hE9SAMyMSUGAPsHUGdyl6irv11v.jpg",
-          "Thumbnail": "https://image.tmdb.org/t/p/w500/hE9SAMyMSUGAPsHUGdyl6irv11v.jpg",
+          "Description": "Due to sudden deteriorating weather conditions, visibility on the Airport Bridge is severely impaired, leaving people stranded and at risk of the bridge collapsing due to a series of chain collisions and explosions. Amidst the chaos, the canine subjects \"Echo\" from the military experiment \"Project Silence,\" who were being transported in secret, break free, and all human survivors become targets of relentless attacks.",
+          "Poster": "https://image.tmdb.org/t/p/w500/lZT5Cq4wkz7IeJEnz94U94xuEWD.jpg",
+          "Thumbnail": "https://image.tmdb.org/t/p/w500/lZT5Cq4wkz7IeJEnz94U94xuEWD.jpg",
           "Rating": 7,
-          "Duration": "2:14",
+          "Duration": "1:36",
           "Year": 2024,
           "Servers": [
             {
-              "url": "https://vidsrc.net/embed/movie/839033"
+              "name": "VidSrc 1080p",
+              "url": "https://vidsrc.net/embed/movie/726139"
             },
             {
-              "url": "https://vidjoy.pro/embed/movie/839033"
+              "name": "VidJoy 1080p",
+              "url": "https://vidjoy.pro/embed/movie/726139"
             },
             {
-              "url": "https://multiembed.mov/directstream.php?video_id=839033&content_type=movie"
+              "name": "MultiEmbed 1080p",
+              "url": "https://multiembed.mov/directstream.php?video_id=726139&content_type=movie"
             },
             {
-              "url": "https://embed.su/embed/movie/839033"
+              "name": "Embed.su 1080p",
+              "url": "https://embed.su/embed/movie/726139"
             },
             {
-              "url": "https://vidsrc.me/embed/movie/839033"
+              "name": "VidSrc.me 1080p",
+              "url": "https://vidsrc.me/embed/movie/726139"
             },
             {
-              "url": "https://player.autoembed.cc/embed/movie/839033"
+              "name": "AutoEmbed 1080p",
+              "url": "https://player.autoembed.cc/embed/movie/726139"
             },
             {
-              "url": "https://player.smashy.stream/movie/839033"
+              "name": "SmashyStream 1080p",
+              "url": "https://player.smashy.stream/movie/726139"
             },
             {
-              "url": "https://vidsrc.to/embed/movie/839033"
+              "name": "VidSrc.to 1080p",
+              "url": "https://vidsrc.to/embed/movie/726139"
             },
             {
-              "url": "https://vidsrc.xyz/embed/movie/839033"
+              "name": "VidSrc.xyz 1080p",
+              "url": "https://vidsrc.xyz/embed/movie/726139"
             },
             {
-              "url": "https://www.embedsoap.com/embed/movie/839033"
+              "name": "EmbedSoap 1080p",
+              "url": "https://www.embedsoap.com/embed/movie/726139"
             },
             {
-              "url": "https://moviesapi.club/movie/839033"
+              "name": "MoviesAPI 1080p",
+              "url": "https://moviesapi.club/movie/726139"
             },
             {
-              "url": "https://dbgo.fun/movie/839033"
+              "name": "DBGO 1080p",
+              "url": "https://dbgo.fun/movie/726139"
             },
             {
-              "url": "https://flixhq.to/watch/movie/839033"
+              "name": "FlixHQ 1080p",
+              "url": "https://flixhq.to/watch/movie/726139"
             },
             {
-              "url": "https://gomovies.sx/watch/movie/839033"
+              "name": "GoMovies 1080p",
+              "url": "https://gomovies.sx/watch/movie/726139"
             },
             {
-              "url": "https://www.showbox.media/embed/movie/839033"
+              "name": "ShowBox 1080p",
+              "url": "https://www.showbox.media/embed/movie/726139"
             },
             {
-              "url": "https://primewire.mx/embed/movie/839033"
+              "name": "PrimeWire 1080p",
+              "url": "https://primewire.mx/embed/movie/726139"
             },
             {
-              "url": "https://hdtoday.tv/embed/movie/839033"
+              "name": "HDToday 1080p",
+              "url": "https://hdtoday.tv/embed/movie/726139"
             },
             {
-              "url": "https://vidcloud.to/embed/movie/839033"
+              "name": "VidCloud 1080p",
+              "url": "https://vidcloud.to/embed/movie/726139"
             },
             {
-              "url": "https://streamwish.to/e/839033"
+              "name": "StreamWish 1080p",
+              "url": "https://streamwish.to/e/726139"
             },
             {
-              "url": "https://doodstream.com/e/839033"
+              "name": "DoodStream 1080p",
+              "url": "https://doodstream.com/e/726139"
             },
             {
-              "url": "https://streamtape.com/e/839033"
+              "name": "StreamTape 1080p",
+              "url": "https://streamtape.com/e/726139"
             },
             {
-              "url": "https://mixdrop.co/e/839033"
+              "name": "MixDrop 1080p",
+              "url": "https://mixdrop.co/e/726139"
             },
             {
-              "url": "https://filemoon.sx/e/839033"
+              "name": "FileMoon 1080p",
+              "url": "https://filemoon.sx/e/726139"
             },
             {
-              "url": "https://upstream.to/embed-839033.html"
-            }
-          ]
-        },
-        {
-          "Title": "Panda Bear in Africa",
-          "SubCategory": "Animation",
-          "Country": "",
-          "Description": "A young adventurous panda travels from China to Africa to rescue his best friend, Jielong the Dragon, who has been kidnapped. On his journey, he discovers a strange amazing new world of mountains, deserts and jungles.",
-          "Poster": "https://image.tmdb.org/t/p/w500/wxpu7svVqA0ALYpofQBPujGelN3.jpg",
-          "Thumbnail": "https://image.tmdb.org/t/p/w500/wxpu7svVqA0ALYpofQBPujGelN3.jpg",
-          "Rating": 7,
-          "Duration": "1:34",
-          "Year": 2024,
-          "Servers": [
-            {
-              "url": "https://vidsrc.net/embed/movie/676685"
-            },
-            {
-              "url": "https://vidjoy.pro/embed/movie/676685"
-            },
-            {
-              "url": "https://multiembed.mov/directstream.php?video_id=676685&content_type=movie"
-            },
-            {
-              "url": "https://embed.su/embed/movie/676685"
-            },
-            {
-              "url": "https://vidsrc.me/embed/movie/676685"
-            },
-            {
-              "url": "https://player.autoembed.cc/embed/movie/676685"
-            },
-            {
-              "url": "https://player.smashy.stream/movie/676685"
-            },
-            {
-              "url": "https://vidsrc.to/embed/movie/676685"
-            },
-            {
-              "url": "https://vidsrc.xyz/embed/movie/676685"
-            },
-            {
-              "url": "https://www.embedsoap.com/embed/movie/676685"
-            },
-            {
-              "url": "https://moviesapi.club/movie/676685"
-            },
-            {
-              "url": "https://dbgo.fun/movie/676685"
-            },
-            {
-              "url": "https://flixhq.to/watch/movie/676685"
-            },
-            {
-              "url": "https://gomovies.sx/watch/movie/676685"
-            },
-            {
-              "url": "https://www.showbox.media/embed/movie/676685"
-            },
-            {
-              "url": "https://primewire.mx/embed/movie/676685"
-            },
-            {
-              "url": "https://hdtoday.tv/embed/movie/676685"
-            },
-            {
-              "url": "https://vidcloud.to/embed/movie/676685"
-            },
-            {
-              "url": "https://streamwish.to/e/676685"
-            },
-            {
-              "url": "https://doodstream.com/e/676685"
-            },
-            {
-              "url": "https://streamtape.com/e/676685"
-            },
-            {
-              "url": "https://mixdrop.co/e/676685"
-            },
-            {
-              "url": "https://filemoon.sx/e/676685"
-            },
-            {
-              "url": "https://upstream.to/embed-676685.html"
+              "name": "UpStream 1080p",
+              "url": "https://upstream.to/embed-726139.html"
             }
           ]
         }
