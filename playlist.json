@@ -1051,10 +1051,10 @@
           "Title": "Moonshine",
           "SubCategory": "Historical, Romance, Drama",
           "Country": "South Korea 🇰🇷",
-          "Description": "The Finley-Cullens are a dysfunctional family of adult half-siblings battling to take control over the family business - a ramshackle summer resort on the South Shore of Nova Scotia, one septic tank away from bankruptcy and with a dark family secret at its core.",
-          "Poster": "https://image.tmdb.org/t/p/w500/jDhM8gMmzOMxmg8FC0VEf2DMaNb.jpg",
-          "Thumbnail": "https://image.tmdb.org/t/p/w500/bErOVyokqltl1on0t1GYVeKNYkI.jpg",
-          "Rating": 6,
+          "Description": "About human love against the backdrop of the most powerful alcohol prohibition period in the Joseon. The private prosecutor who comes to Seoul to raise the family, a poor man and his wife who start to make drinks to pay off their debts, and the prince who keeps going over the wall to drink; the drama is about three people who can end each other's lives fatefully encountering in front of a secret liquor warehouse.",
+          "Poster": "https://image.tmdb.org/t/p/w500/dJAlUCdFWAso5cowfv3vhI2QtZY.jpg",
+          "Thumbnail": "https://image.tmdb.org/t/p/w500/4uP29QKhIfAkrplsr2hM5zr9WCJ.jpg",
+          "Rating": 8,
           "Year": 2021,
           "Seasons": [
             {
@@ -1063,10 +1063,10 @@
               "Episodes": [
                 {
                   "Episode": 1,
-                  "Title": "The Alcohol Inspector",
-                  "Duration": "60 min",
-                  "Description": "",
-                  "Thumbnail": "",
+                  "Title": "Alcohol Prohibition",
+                  "Duration": "1:09",
+                  "Description": "Nam Young travels all the way to Hanyang to take the civil service examinations and runs into Ro Seo, who is in trouble as usual. Ro Seo works all day and night to earn a living and take care of her older brother, Hae Soo. However, to make things worse, Hae Soo only accumulates more debt, and Ro Seo runs into an illegal liquor store on her way to meet the creditor.",
+                  "Thumbnail": "https://image.tmdb.org/t/p/w500/lshy548xih0KJw6XfbphEuJbrG1.jpg",
                   "Servers": [
                     {
                       "name": "SD",
@@ -1078,28 +1078,28 @@
                       "name": "VidSrc 1080p",
                       "subtitle1": "",
                       "subtitle2": "",
-                      "url": "https://vidsrc.net/embed/tv/133439/1/1"
+                      "url": "https://vidsrc.net/embed/tv/129889/1/1"
                     },
                     {
                       "name": "VidJoy 1080p",
                       "subtitle1": "",
                       "subtitle2": "",
-                      "url": "https://vidjoy.pro/embed/tv/133439/1/1"
+                      "url": "https://vidjoy.pro/embed/tv/129889/1/1"
                     },
                     {
                       "name": "MultiEmbed 1080p",
                       "subtitle1": "",
                       "subtitle2": "",
-                      "url": "https://multiembed.mov/directstream.php?video_id=133439&tmdb=1&s=1&e=1"
+                      "url": "https://multiembed.mov/directstream.php?video_id=129889&tmdb=1&s=1&e=1"
                     }
                   ]
                 },
                 {
                   "Episode": 2,
-                  "Title": "The Secret Brewery",
-                  "Duration": "60 min",
-                  "Description": "",
-                  "Thumbnail": "",
+                  "Title": "Liquor in a Wagon",
+                  "Duration": "1:09",
+                  "Description": "Ro Seo has no choice but to let Young rent one of the rooms at her house since she can make some money out of it. Furthermore, she even brews liquor with Geum secretly to pay off her debt quickly. She comes up with the idea of running a mobile bar so they can run away when the inspectors are out. However, living with Young, she is sitting on pins and needles every day.",
+                  "Thumbnail": "https://image.tmdb.org/t/p/w500/I8fVFVOrxlipMUGOe2M2rvf0ET.jpg",
                   "Servers": [
                     {
                       "name": "SD",
@@ -1111,28 +1111,28 @@
                       "name": "VidSrc 1080p",
                       "subtitle1": "",
                       "subtitle2": "",
-                      "url": "https://vidsrc.net/embed/tv/133439/1/2"
+                      "url": "https://vidsrc.net/embed/tv/129889/1/2"
                     },
                     {
                       "name": "VidJoy 1080p",
                       "subtitle1": "",
                       "subtitle2": "",
-                      "url": "https://vidjoy.pro/embed/tv/133439/1/2"
+                      "url": "https://vidjoy.pro/embed/tv/129889/1/2"
                     },
                     {
                       "name": "MultiEmbed 1080p",
                       "subtitle1": "",
                       "subtitle2": "",
-                      "url": "https://multiembed.mov/directstream.php?video_id=133439&tmdb=1&s=1&e=2"
+                      "url": "https://multiembed.mov/directstream.php?video_id=129889&tmdb=1&s=1&e=2"
                     }
                   ]
                 },
                 {
                   "Episode": 3,
-                  "Title": "Unexpected Encounter",
-                  "Duration": "60 min",
-                  "Description": "",
-                  "Thumbnail": "",
+                  "Title": "Buddha's Birthday",
+                  "Duration": "1:09",
+                  "Description": "Young is familiar with the moonshiner's eyes but cannot figure out who it was. Therefore, Ro Seo gets anxious and decides to kick him out of her home. Meanwhile, all of the liquors from Merchant Sim are confiscated as the wood ice storage is discovered by Young. Ro Seo takes this chance to sell the liquors she made to Un Sim from Giringak on Buddha's Birthday.",
+                  "Thumbnail": "https://image.tmdb.org/t/p/w500/dluEAgMl3pnF5pjClgFmClxzENz.jpg",
                   "Servers": [
                     {
                       "name": "SD",
@@ -1144,28 +1144,28 @@
                       "name": "VidSrc 1080p",
                       "subtitle1": "",
                       "subtitle2": "",
-                      "url": "https://vidsrc.net/embed/tv/133439/1/3"
+                      "url": "https://vidsrc.net/embed/tv/129889/1/3"
                     },
                     {
                       "name": "VidJoy 1080p",
                       "subtitle1": "",
                       "subtitle2": "",
-                      "url": "https://vidjoy.pro/embed/tv/133439/1/3"
+                      "url": "https://vidjoy.pro/embed/tv/129889/1/3"
                     },
                     {
                       "name": "MultiEmbed 1080p",
                       "subtitle1": "",
                       "subtitle2": "",
-                      "url": "https://multiembed.mov/directstream.php?video_id=133439&tmdb=1&s=1&e=3"
+                      "url": "https://multiembed.mov/directstream.php?video_id=129889&tmdb=1&s=1&e=3"
                     }
                   ]
                 },
                 {
                   "Episode": 4,
-                  "Title": "The Investigation Begins",
-                  "Duration": "60 min",
-                  "Description": "",
-                  "Thumbnail": "",
+                  "Title": "The Petition",
+                  "Duration": "1:09",
+                  "Description": "Young is deeply disappointed in Ro Seo as he finds out about her secret moonshine business. However, she saves him from the sword fight between the Crown Prince's guards and Sang Mok's gang. After that night at the apothecary shop, Sang Mok is gone missing, and Young is desperate to find him alive, so is Merchant Sim. Furthermore, Geum comes back to Ro Seo with even bigger trouble.",
+                  "Thumbnail": "https://image.tmdb.org/t/p/w500/8hwQsV5R0F5S6QZdQK6XGpQA3ly.jpg",
                   "Servers": [
                     {
                       "name": "SD",
@@ -1177,28 +1177,28 @@
                       "name": "VidSrc 1080p",
                       "subtitle1": "",
                       "subtitle2": "",
-                      "url": "https://vidsrc.net/embed/tv/133439/1/4"
+                      "url": "https://vidsrc.net/embed/tv/129889/1/4"
                     },
                     {
                       "name": "VidJoy 1080p",
                       "subtitle1": "",
                       "subtitle2": "",
-                      "url": "https://vidjoy.pro/embed/tv/133439/1/4"
+                      "url": "https://vidjoy.pro/embed/tv/129889/1/4"
                     },
                     {
                       "name": "MultiEmbed 1080p",
                       "subtitle1": "",
                       "subtitle2": "",
-                      "url": "https://multiembed.mov/directstream.php?video_id=133439&tmdb=1&s=1&e=4"
+                      "url": "https://multiembed.mov/directstream.php?video_id=129889&tmdb=1&s=1&e=4"
                     }
                   ]
                 },
                 {
                   "Episode": 5,
-                  "Title": "Hidden Identities",
-                  "Duration": "60 min",
-                  "Description": "",
-                  "Thumbnail": "",
+                  "Title": "Ro Seo Meets Un Sim",
+                  "Duration": "1:03",
+                  "Description": "Ro Seo tries to save Sang Mok, but unfortunately, he falls off the cliff, and even worse, he runs away from the scene. Both Young and Ro Seo blame each other for ruining their plan. Young tries to find a solution that does not push Ro Seo into more trouble. However, Ro Seo already feels sorry for putting Young in a difficult situation, so she decides to take care of it on her own.",
+                  "Thumbnail": "https://image.tmdb.org/t/p/w500/f6OicFbBVn4YkblrN2SexSg8Yti.jpg",
                   "Servers": [
                     {
                       "name": "SD",
@@ -1210,28 +1210,28 @@
                       "name": "VidSrc 1080p",
                       "subtitle1": "",
                       "subtitle2": "",
-                      "url": "https://vidsrc.net/embed/tv/133439/1/5"
+                      "url": "https://vidsrc.net/embed/tv/129889/1/5"
                     },
                     {
                       "name": "VidJoy 1080p",
                       "subtitle1": "",
                       "subtitle2": "",
-                      "url": "https://vidjoy.pro/embed/tv/133439/1/5"
+                      "url": "https://vidjoy.pro/embed/tv/129889/1/5"
                     },
                     {
                       "name": "MultiEmbed 1080p",
                       "subtitle1": "",
                       "subtitle2": "",
-                      "url": "https://multiembed.mov/directstream.php?video_id=133439&tmdb=1&s=1&e=5"
+                      "url": "https://multiembed.mov/directstream.php?video_id=129889&tmdb=1&s=1&e=5"
                     }
                   ]
                 },
                 {
                   "Episode": 6,
-                  "Title": "Dangerous Attraction",
-                  "Duration": "60 min",
-                  "Description": "",
-                  "Thumbnail": "",
+                  "Title": "The Daughter of the Minister of War",
+                  "Duration": "1:03",
+                  "Description": "Fortunately, Ro Seo gets away with the kidnapping incident as Sang Mok can't remember anything due to his injuries. Meanwhile, Young must marry Ae Jin as their fathers have decided, and both Ro Seo and Young realize that they have feelings for each other. However, Ro Seo starts to avoid him to get over him, and Young can't stop thinking about her, especially when Pyo is around her.",
+                  "Thumbnail": "https://image.tmdb.org/t/p/w500/wMQv490f6zzauFvDE6rrlhcvttw.jpg",
                   "Servers": [
                     {
                       "name": "SD",
@@ -1243,28 +1243,28 @@
                       "name": "VidSrc 1080p",
                       "subtitle1": "",
                       "subtitle2": "",
-                      "url": "https://vidsrc.net/embed/tv/133439/1/6"
+                      "url": "https://vidsrc.net/embed/tv/129889/1/6"
                     },
                     {
                       "name": "VidJoy 1080p",
                       "subtitle1": "",
                       "subtitle2": "",
-                      "url": "https://vidjoy.pro/embed/tv/133439/1/6"
+                      "url": "https://vidjoy.pro/embed/tv/129889/1/6"
                     },
                     {
                       "name": "MultiEmbed 1080p",
                       "subtitle1": "",
                       "subtitle2": "",
-                      "url": "https://multiembed.mov/directstream.php?video_id=133439&tmdb=1&s=1&e=6"
+                      "url": "https://multiembed.mov/directstream.php?video_id=129889&tmdb=1&s=1&e=6"
                     }
                   ]
                 },
                 {
                   "Episode": 7,
-                  "Title": "Family Secrets",
-                  "Duration": "60 min",
-                  "Description": "",
-                  "Thumbnail": "",
+                  "Title": "Before the Summer Ends",
+                  "Duration": "1:03",
+                  "Description": "Thanks to the help of Pyo, Ro Seo was able to get away from Young’s interrogation. However, Young is still suspicious of her, and therefore, he asks Chun Gae to follow her around to find out who saved him. Meanwhile, Young’s father wants to rush the wedding before summer ends, but Young’s feeling for Ro Seo only gets deeper and deeper.",
+                  "Thumbnail": "https://image.tmdb.org/t/p/w500/4XDqsgTAw4gMySVEIgsEbPsBJxU.jpg",
                   "Servers": [
                     {
                       "name": "SD",
@@ -1276,28 +1276,28 @@
                       "name": "VidSrc 1080p",
                       "subtitle1": "",
                       "subtitle2": "",
-                      "url": "https://vidsrc.net/embed/tv/133439/1/7"
+                      "url": "https://vidsrc.net/embed/tv/129889/1/7"
                     },
                     {
                       "name": "VidJoy 1080p",
                       "subtitle1": "",
                       "subtitle2": "",
-                      "url": "https://vidjoy.pro/embed/tv/133439/1/7"
+                      "url": "https://vidjoy.pro/embed/tv/129889/1/7"
                     },
                     {
                       "name": "MultiEmbed 1080p",
                       "subtitle1": "",
                       "subtitle2": "",
-                      "url": "https://multiembed.mov/directstream.php?video_id=133439&tmdb=1&s=1&e=7"
+                      "url": "https://multiembed.mov/directstream.php?video_id=129889&tmdb=1&s=1&e=7"
                     }
                   ]
                 },
                 {
                   "Episode": 8,
-                  "Title": "The Royal Decree",
-                  "Duration": "60 min",
-                  "Description": "",
-                  "Thumbnail": "",
+                  "Title": "Wagons to Giringak",
+                  "Duration": "1:03",
+                  "Description": "Young finally catches the real culprit who killed Gang San and raided the forge. At the same time, Young notices that he has the same scar as the man he saw at Mangwol Temple when he was little. Meanwhile, Ro Seo and Geum brew liquor for Un Sim with Lady Park as promised. However, they have to get past the inspection at Sungnyemun to deliver them to Giringak.",
+                  "Thumbnail": "https://image.tmdb.org/t/p/w500/pKg2fn6FRE36GluRsVOB7HLJtDf.jpg",
                   "Servers": [
                     {
                       "name": "SD",
@@ -1309,28 +1309,28 @@
                       "name": "VidSrc 1080p",
                       "subtitle1": "",
                       "subtitle2": "",
-                      "url": "https://vidsrc.net/embed/tv/133439/1/8"
+                      "url": "https://vidsrc.net/embed/tv/129889/1/8"
                     },
                     {
                       "name": "VidJoy 1080p",
                       "subtitle1": "",
                       "subtitle2": "",
-                      "url": "https://vidjoy.pro/embed/tv/133439/1/8"
+                      "url": "https://vidjoy.pro/embed/tv/129889/1/8"
                     },
                     {
                       "name": "MultiEmbed 1080p",
                       "subtitle1": "",
                       "subtitle2": "",
-                      "url": "https://multiembed.mov/directstream.php?video_id=133439&tmdb=1&s=1&e=8"
+                      "url": "https://multiembed.mov/directstream.php?video_id=129889&tmdb=1&s=1&e=8"
                     }
                   ]
                 },
                 {
                   "Episode": 9,
-                  "Title": "Forbidden Tastes",
-                  "Duration": "60 min",
-                  "Description": "",
-                  "Thumbnail": "",
+                  "Title": "The Well in the Forest",
+                  "Duration": "1:03",
+                  "Description": "Ro Seo pushes the liquor wagon to Merchant Sim and his gang to save Young. As they get away from him, they run into the suspicious well in the forest again. Meanwhile, Pyo looks for ways to have Ro Seo in his palace and asks his mother, Royal Consort Lee, for her help. Although Young is not pleased with the idea, he follows his plan for Ro Seo's safety.",
+                  "Thumbnail": "https://image.tmdb.org/t/p/w500/u1mMqmWgE3E8vsINeFapNBe3fbL.jpg",
                   "Servers": [
                     {
                       "name": "SD",
@@ -1342,28 +1342,28 @@
                       "name": "VidSrc 1080p",
                       "subtitle1": "",
                       "subtitle2": "",
-                      "url": "https://vidsrc.net/embed/tv/133439/1/9"
+                      "url": "https://vidsrc.net/embed/tv/129889/1/9"
                     },
                     {
                       "name": "VidJoy 1080p",
                       "subtitle1": "",
                       "subtitle2": "",
-                      "url": "https://vidjoy.pro/embed/tv/133439/1/9"
+                      "url": "https://vidjoy.pro/embed/tv/129889/1/9"
                     },
                     {
                       "name": "MultiEmbed 1080p",
                       "subtitle1": "",
                       "subtitle2": "",
-                      "url": "https://multiembed.mov/directstream.php?video_id=133439&tmdb=1&s=1&e=9"
+                      "url": "https://multiembed.mov/directstream.php?video_id=129889&tmdb=1&s=1&e=9"
                     }
                   ]
                 },
                 {
                   "Episode": 10,
-                  "Title": "Crossroads",
-                  "Duration": "60 min",
-                  "Description": "",
-                  "Thumbnail": "",
+                  "Title": "The Fireworks",
+                  "Duration": "1:02",
+                  "Description": "Merchant Sim fails to murder Young and Ro Seo because Si Heum shows up to protect Pyo. After that incident, Pyo realizes that Si Heum and Chief State Councilor were involved in Ho Yeon's death. Meanwhile, Merchant Sim has made too many enemies by running his moonshine business, and even Sang Mok joins Young and Ro Seo to get back at him.",
+                  "Thumbnail": "https://image.tmdb.org/t/p/w500/tmF0SK4f8URecDgAOmMZsDQsHyh.jpg",
                   "Servers": [
                     {
                       "name": "SD",
@@ -1375,28 +1375,28 @@
                       "name": "VidSrc 1080p",
                       "subtitle1": "",
                       "subtitle2": "",
-                      "url": "https://vidsrc.net/embed/tv/133439/1/10"
+                      "url": "https://vidsrc.net/embed/tv/129889/1/10"
                     },
                     {
                       "name": "VidJoy 1080p",
                       "subtitle1": "",
                       "subtitle2": "",
-                      "url": "https://vidjoy.pro/embed/tv/133439/1/10"
+                      "url": "https://vidjoy.pro/embed/tv/129889/1/10"
                     },
                     {
                       "name": "MultiEmbed 1080p",
                       "subtitle1": "",
                       "subtitle2": "",
-                      "url": "https://multiembed.mov/directstream.php?video_id=133439&tmdb=1&s=1&e=10"
+                      "url": "https://multiembed.mov/directstream.php?video_id=129889&tmdb=1&s=1&e=10"
                     }
                   ]
                 },
                 {
                   "Episode": 11,
-                  "Title": "Exposed Truths",
-                  "Duration": "60 min",
-                  "Description": "",
-                  "Thumbnail": "",
+                  "Title": "Nam Young’s Death",
+                  "Duration": "1:03",
+                  "Description": "Young gets stabbed by Merchant Sim right before he meets Ro Seo, and he even tells him that he will go after Ro Seo as well. Inspector Kim and Officer Hwang get shocked when they find his dead body at the river the next day. However, even before she gets the news, Ro Seo needs to leave Hanyang immediately as her composite sketch has been put up everywhere in the capital.",
+                  "Thumbnail": "https://image.tmdb.org/t/p/w500/qWiBHf4F7s47DBGlYs9BKH3Kz5B.jpg",
                   "Servers": [
                     {
                       "name": "SD",
@@ -1408,28 +1408,28 @@
                       "name": "VidSrc 1080p",
                       "subtitle1": "",
                       "subtitle2": "",
-                      "url": "https://vidsrc.net/embed/tv/133439/1/11"
+                      "url": "https://vidsrc.net/embed/tv/129889/1/11"
                     },
                     {
                       "name": "VidJoy 1080p",
                       "subtitle1": "",
                       "subtitle2": "",
-                      "url": "https://vidjoy.pro/embed/tv/133439/1/11"
+                      "url": "https://vidjoy.pro/embed/tv/129889/1/11"
                     },
                     {
                       "name": "MultiEmbed 1080p",
                       "subtitle1": "",
                       "subtitle2": "",
-                      "url": "https://multiembed.mov/directstream.php?video_id=133439&tmdb=1&s=1&e=11"
+                      "url": "https://multiembed.mov/directstream.php?video_id=129889&tmdb=1&s=1&e=11"
                     }
                   ]
                 },
                 {
                   "Episode": 12,
-                  "Title": "Political Schemes",
-                  "Duration": "60 min",
-                  "Description": "",
-                  "Thumbnail": "",
+                  "Title": "The Dragon Palace",
+                  "Duration": "1:04",
+                  "Description": "After Young realizes that Ro Seo's father saved his life, he starts to avoid Ro Seo, and she feels extremely lonely and disappointed. Meanwhile, Young and the inspectors at Saheonbu notice that the incident is not only about Merchant Sim and the Office of Prohibition, but it is also related to Crown Prince Sung Hyun's death as well.",
+                  "Thumbnail": "https://image.tmdb.org/t/p/w500/9B2KtZJg9VgAddVT3WY15KStcI1.jpg",
                   "Servers": [
                     {
                       "name": "SD",
@@ -1441,28 +1441,28 @@
                       "name": "VidSrc 1080p",
                       "subtitle1": "",
                       "subtitle2": "",
-                      "url": "https://vidsrc.net/embed/tv/133439/1/12"
+                      "url": "https://vidsrc.net/embed/tv/129889/1/12"
                     },
                     {
                       "name": "VidJoy 1080p",
                       "subtitle1": "",
                       "subtitle2": "",
-                      "url": "https://vidjoy.pro/embed/tv/133439/1/12"
+                      "url": "https://vidjoy.pro/embed/tv/129889/1/12"
                     },
                     {
                       "name": "MultiEmbed 1080p",
                       "subtitle1": "",
                       "subtitle2": "",
-                      "url": "https://multiembed.mov/directstream.php?video_id=133439&tmdb=1&s=1&e=12"
+                      "url": "https://multiembed.mov/directstream.php?video_id=129889&tmdb=1&s=1&e=12"
                     }
                   ]
                 },
                 {
                   "Episode": 13,
-                  "Title": "Sacrifices",
-                  "Duration": "60 min",
-                  "Description": "",
-                  "Thumbnail": "",
+                  "Title": "A Lady in a Palanquin",
+                  "Duration": "1:03",
+                  "Description": "As Ro Seo runs away from the police, a lady in a palanquin helps her hide from them. When she comes back to the house, she wonders why Young has her father's keepsake, so he tells her the truth behind the Mangwol Temple incident. Meanwhile, Chief Royal Secretary becomes the head of the Office of Prohibition as he planned, and he manages to assign more soldiers into the Office of Prohibition as well.",
+                  "Thumbnail": "https://image.tmdb.org/t/p/w500/deKdXK36wjmfral9lxVS5WDSQD9.jpg",
                   "Servers": [
                     {
                       "name": "SD",
@@ -1474,28 +1474,28 @@
                       "name": "VidSrc 1080p",
                       "subtitle1": "",
                       "subtitle2": "",
-                      "url": "https://vidsrc.net/embed/tv/133439/1/13"
+                      "url": "https://vidsrc.net/embed/tv/129889/1/13"
                     },
                     {
                       "name": "VidJoy 1080p",
                       "subtitle1": "",
                       "subtitle2": "",
-                      "url": "https://vidjoy.pro/embed/tv/133439/1/13"
+                      "url": "https://vidjoy.pro/embed/tv/129889/1/13"
                     },
                     {
                       "name": "MultiEmbed 1080p",
                       "subtitle1": "",
                       "subtitle2": "",
-                      "url": "https://multiembed.mov/directstream.php?video_id=133439&tmdb=1&s=1&e=13"
+                      "url": "https://multiembed.mov/directstream.php?video_id=129889&tmdb=1&s=1&e=13"
                     }
                   ]
                 },
                 {
                   "Episode": 14,
-                  "Title": "Reckoning",
-                  "Duration": "60 min",
-                  "Description": "",
-                  "Thumbnail": "",
+                  "Title": "The Queen Summons Ro Seo",
+                  "Duration": "1:04",
+                  "Description": "Ro Seo is still a wanted woman, but the queen asks to have her brought to the palace. When she arrives, Ro Seo receives something that belonged to her father before he was killed. Hoping that this is the clue that they have been searching for, Ro Seo and Young continue to investigate. However, Pyo tries to stop Ro Seo from her quest to avenge her father's death.",
+                  "Thumbnail": "https://image.tmdb.org/t/p/w500/gQkRgks5LhGBzB1NU3EnpsUZTCj.jpg",
                   "Servers": [
                     {
                       "name": "SD",
@@ -1507,28 +1507,28 @@
                       "name": "VidSrc 1080p",
                       "subtitle1": "",
                       "subtitle2": "",
-                      "url": "https://vidsrc.net/embed/tv/133439/1/14"
+                      "url": "https://vidsrc.net/embed/tv/129889/1/14"
                     },
                     {
                       "name": "VidJoy 1080p",
                       "subtitle1": "",
                       "subtitle2": "",
-                      "url": "https://vidjoy.pro/embed/tv/133439/1/14"
+                      "url": "https://vidjoy.pro/embed/tv/129889/1/14"
                     },
                     {
                       "name": "MultiEmbed 1080p",
                       "subtitle1": "",
                       "subtitle2": "",
-                      "url": "https://multiembed.mov/directstream.php?video_id=133439&tmdb=1&s=1&e=14"
+                      "url": "https://multiembed.mov/directstream.php?video_id=129889&tmdb=1&s=1&e=14"
                     }
                   ]
                 },
                 {
                   "Episode": 15,
-                  "Title": "Final Preparations",
-                  "Duration": "60 min",
-                  "Description": "",
-                  "Thumbnail": "",
+                  "Title": "A Talented Monkey",
+                  "Duration": "1:06",
+                  "Description": "Young and Ro Seo figure out that Jannabi refers to Chief Royal Secretary. Young orders Officer Hwang and Chief Inspector Kim to relay his message to the King. Meanwhile, Pyo realizes that he became the Crown Prince through the conspiracy of his uncle, so he has no choice but to remain silent and let his uncle get rid of both Ro Seo and Young for his family.",
+                  "Thumbnail": "https://image.tmdb.org/t/p/w500/zTZ6X2KYunohcEUebeuzwPlP7ks.jpg",
                   "Servers": [
                     {
                       "name": "SD",
@@ -1540,28 +1540,28 @@
                       "name": "VidSrc 1080p",
                       "subtitle1": "",
                       "subtitle2": "",
-                      "url": "https://vidsrc.net/embed/tv/133439/1/15"
+                      "url": "https://vidsrc.net/embed/tv/129889/1/15"
                     },
                     {
                       "name": "VidJoy 1080p",
                       "subtitle1": "",
                       "subtitle2": "",
-                      "url": "https://vidjoy.pro/embed/tv/133439/1/15"
+                      "url": "https://vidjoy.pro/embed/tv/129889/1/15"
                     },
                     {
                       "name": "MultiEmbed 1080p",
                       "subtitle1": "",
                       "subtitle2": "",
-                      "url": "https://multiembed.mov/directstream.php?video_id=133439&tmdb=1&s=1&e=15"
+                      "url": "https://multiembed.mov/directstream.php?video_id=129889&tmdb=1&s=1&e=15"
                     }
                   ]
                 },
                 {
                   "Episode": 16,
-                  "Title": "A New Dawn",
-                  "Duration": "60 min",
-                  "Description": "",
-                  "Thumbnail": "",
+                  "Title": "A Shade of Dazzling Green",
+                  "Duration": "1:07",
+                  "Description": "Alcohol prohibition was implemented by the Chief Royal Secretary to gain power over people and the King. When Young and Ro Seo visit Mangwol Temple again, they find the evidence that Ho Yeon left for them. Meanwhile, Un Sim discovers the truth behind Merchant Sim's birth, and therefore, she wants to get revenge for him.",
+                  "Thumbnail": "https://image.tmdb.org/t/p/w500/vycdRXxUw030XTqYyEUn79C6vrs.jpg",
                   "Servers": [
                     {
                       "name": "SD",
@@ -1573,19 +1573,19 @@
                       "name": "VidSrc 1080p",
                       "subtitle1": "",
                       "subtitle2": "",
-                      "url": "https://vidsrc.net/embed/tv/133439/1/16"
+                      "url": "https://vidsrc.net/embed/tv/129889/1/16"
                     },
                     {
                       "name": "VidJoy 1080p",
                       "subtitle1": "",
                       "subtitle2": "",
-                      "url": "https://vidjoy.pro/embed/tv/133439/1/16"
+                      "url": "https://vidjoy.pro/embed/tv/129889/1/16"
                     },
                     {
                       "name": "MultiEmbed 1080p",
                       "subtitle1": "",
                       "subtitle2": "",
-                      "url": "https://multiembed.mov/directstream.php?video_id=133439&tmdb=1&s=1&e=16"
+                      "url": "https://multiembed.mov/directstream.php?video_id=129889&tmdb=1&s=1&e=16"
                     }
                   ]
                 }
@@ -1609,10 +1609,10 @@
               "Episodes": [
                 {
                   "Episode": 1,
-                  "Title": "Winter Olympics",
-                  "Duration": "22m",
-                  "Description": "",
-                  "Thumbnail": "",
+                  "Title": "Monster Lake",
+                  "Duration": "22:00",
+                  "Description": "Gadget looks for a missing scientist who vanished at a lake rumored to harbor a monster.",
+                  "Thumbnail": "https://image.tmdb.org/t/p/w500/9lfQ1ACPcNQSvFuayx2ps8PiBUD.jpg",
                   "Servers": [
                     {
                       "name": "MP4",
@@ -1648,10 +1648,10 @@
                 },
                 {
                   "Episode": 2,
-                  "Title": "Monster Lake",
-                  "Duration": "22m",
-                  "Description": "",
-                  "Thumbnail": "",
+                  "Title": "Down on the Farm",
+                  "Duration": "22:00",
+                  "Description": "M.A.D. tries to do Gadget in by locking him in a missile hidden in a farm's grain silo.",
+                  "Thumbnail": "https://image.tmdb.org/t/p/w500/r68MCwGSP0zskFvW4ghSeq9hvCN.jpg",
                   "Servers": [
                     {
                       "name": "MP4",
@@ -1687,10 +1687,10 @@
                 },
                 {
                   "Episode": 3,
-                  "Title": "Down on the Farm",
-                  "Duration": "22m",
-                  "Description": "",
-                  "Thumbnail": "",
+                  "Title": "Gadget at the Circus",
+                  "Duration": "22:00",
+                  "Description": "Gadget brings Penny to the circus as he investigates a top-secret mission. The Inspector believes that Dr. Claw has replaced some of the circus performers with M.A.D. Agents! Gadget goes undercover as a clown to uncover the truth.",
+                  "Thumbnail": "https://image.tmdb.org/t/p/w500/zUihMofopDwS54wCHKBuJ3RZa4g.jpg",
                   "Servers": [
                     {
                       "name": "MP4",
@@ -1726,10 +1726,10 @@
                 },
                 {
                   "Episode": 4,
-                  "Title": "Gadget at the Circus",
-                  "Duration": "22m",
-                  "Description": "",
-                  "Thumbnail": "",
+                  "Title": "The Amazon",
+                  "Duration": "22:00",
+                  "Description": "Dr. Claw kidnaps Professor Von Slickstein, the brilliant scientist who invented all of Gadget's gadgets, and takes him to the Amazon to build an army of Gadget-like robots.",
+                  "Thumbnail": "https://image.tmdb.org/t/p/w500/36fZzHSsRMjvdjqIl5B5UFebbGT.jpg",
                   "Servers": [
                     {
                       "name": "MP4",
@@ -1765,10 +1765,10 @@
                 },
                 {
                   "Episode": 5,
-                  "Title": "The Amazon",
-                  "Duration": "22m",
-                  "Description": "",
-                  "Thumbnail": "",
+                  "Title": "Health Spa",
+                  "Duration": "22:00",
+                  "Description": "Dr. Claw tricks Gadget into attending a \"vacation\" at a M.A.D.-trapped health spa. Can Penny and Brain save him?",
+                  "Thumbnail": "https://image.tmdb.org/t/p/w500/vHhq4Syvb1U26V3JYTUlUsSBt5S.jpg",
                   "Servers": [
                     {
                       "name": "MP4",
@@ -1804,10 +1804,10 @@
                 },
                 {
                   "Episode": 6,
-                  "Title": "Health Spa",
-                  "Duration": "22m",
-                  "Description": "",
-                  "Thumbnail": "",
+                  "Title": "The Boat",
+                  "Duration": "22:00",
+                  "Description": "Gadget is assigned to board a cruise ship and safeguard the passenger's priceless jewelry from Dr. Claw's clutches.",
+                  "Thumbnail": "https://image.tmdb.org/t/p/w500/tCXVZiEVxjYyxC4yeKkmAQ0I6vY.jpg",
                   "Servers": [
                     {
                       "name": "MP4",
@@ -1843,10 +1843,10 @@
                 },
                 {
                   "Episode": 7,
-                  "Title": "The Boat",
-                  "Duration": "22m",
-                  "Description": "",
-                  "Thumbnail": "",
+                  "Title": "Haunted Castle",
+                  "Duration": "22:00",
+                  "Description": "While searching for a crime-fighters' convention in Transylvania Gadget arrives at a castle that Dr. Claw has booby-trapped to kill him.",
+                  "Thumbnail": "https://image.tmdb.org/t/p/w500/dzPGRiYGGhMb1Wql3Jcgu2XO6f6.jpg",
                   "Servers": [
                     {
                       "name": "MP4",
@@ -1882,10 +1882,10 @@
                 },
                 {
                   "Episode": 8,
-                  "Title": "Haunted Castle",
-                  "Duration": "22m",
-                  "Description": "",
-                  "Thumbnail": "",
+                  "Title": "Race to the Finish",
+                  "Duration": "22:00",
+                  "Description": "Gadget enters the Gadget Mobile in a race and finds that Dr. Claw has also entered with a plot to eliminate him and his competition by sabotaging the other race cars.",
+                  "Thumbnail": "https://image.tmdb.org/t/p/w500/idE6SPexdO7ceEwafwYBJABhAx2.jpg",
                   "Servers": [
                     {
                       "name": "MP4",
@@ -1921,10 +1921,10 @@
                 },
                 {
                   "Episode": 9,
-                  "Title": "Race to the Finish",
-                  "Duration": "22m",
-                  "Description": "",
-                  "Thumbnail": "",
+                  "Title": "The Ruby",
+                  "Duration": "22:00",
+                  "Description": "Gadget is sent to India to investigate a missing ruby, which has been stolen by M.A.D. to be used as an amplifying power source for a laser beam that will destroy an advanced satellite in space.",
+                  "Thumbnail": "https://image.tmdb.org/t/p/w500/s7LvCouiOf0wjbUFcogQ9fau1rU.jpg",
                   "Servers": [
                     {
                       "name": "MP4",
@@ -1960,10 +1960,10 @@
                 },
                 {
                   "Episode": 10,
-                  "Title": "The Ruby",
-                  "Duration": "22m",
-                  "Description": "",
-                  "Thumbnail": "",
+                  "Title": "A Star is Lost",
+                  "Duration": "22:00",
+                  "Description": "Gadget has to guard the life of famed rock singer Rick Rocker, whom M.A.D. has sinister plans for. But Gadget winds up replacing Rocker as the current reigning King of Rock!",
+                  "Thumbnail": "https://image.tmdb.org/t/p/w500/5cqgYiNZfrDhaWQHRwHpEvyXAtD.jpg",
                   "Servers": [
                     {
                       "name": "MP4",
@@ -1999,10 +1999,10 @@
                 },
                 {
                   "Episode": 11,
-                  "Title": "A Star is Lost",
-                  "Duration": "22m",
-                  "Description": "",
-                  "Thumbnail": "",
+                  "Title": "All That Glitters",
+                  "Duration": "22:00",
+                  "Description": "Gadget is assigned to find El Dorado, the fabled Lost City of Gold, before Dr. Claw's agents find it and tear it apart to melt down the gold.",
+                  "Thumbnail": "https://image.tmdb.org/t/p/w500/spPyNpV21Rw3uqDLOVqaTtrpAEp.jpg",
                   "Servers": [
                     {
                       "name": "MP4",
@@ -2038,10 +2038,10 @@
                 },
                 {
                   "Episode": 12,
-                  "Title": "All That Glitters",
-                  "Duration": "22m",
-                  "Description": "",
-                  "Thumbnail": "",
+                  "Title": "Movie Set",
+                  "Duration": "22:00",
+                  "Description": "Gadget falls for actress Lana Lamour unaware that she's a M.A.D. agent and that her movie is M.A.D.'s cover for filming top secret facilities.",
+                  "Thumbnail": "https://image.tmdb.org/t/p/w500/azBSvPbGHcQuN0djjSGaBaPKsmB.jpg",
                   "Servers": [
                     {
                       "name": "MP4",
@@ -2077,10 +2077,10 @@
                 },
                 {
                   "Episode": 13,
-                  "Title": "Movie Set",
-                  "Duration": "22m",
-                  "Description": "",
-                  "Thumbnail": "",
+                  "Title": "Amusement Park",
+                  "Duration": "22:00",
+                  "Description": "Gadget has to find the bomb Dr. Claw has hidden in Metro City's amusement park.",
+                  "Thumbnail": "https://image.tmdb.org/t/p/w500/9Y9o4qIOfTQW8SZ30nwvh1FQMDP.jpg",
                   "Servers": [
                     {
                       "name": "MP4",
@@ -2116,10 +2116,10 @@
                 },
                 {
                   "Episode": 14,
-                  "Title": "Amusement Park",
-                  "Duration": "22m",
-                  "Description": "",
-                  "Thumbnail": "",
+                  "Title": "Art Heist",
+                  "Duration": "22:00",
+                  "Description": "Gadget has to stop M.A.D. from looting the New York Museum of Art.",
+                  "Thumbnail": "https://image.tmdb.org/t/p/w500/9g451zAmk4TGbyswQHbFsn0tZGs.jpg",
                   "Servers": [
                     {
                       "name": "MP4",
@@ -2155,10 +2155,10 @@
                 },
                 {
                   "Episode": 15,
-                  "Title": "Art Heist",
-                  "Duration": "22m",
-                  "Description": "",
-                  "Thumbnail": "",
+                  "Title": "Volcano Island",
+                  "Duration": "22:00",
+                  "Description": "A prophet working for M.A.D. predicts doom for an island resort and plans to use his \"pineapple bombs\" to trigger the island's volcano to ensure his prediction comes true.",
+                  "Thumbnail": "https://image.tmdb.org/t/p/w500/bzxCBVWFXyegwAYB35MXYY1RT3h.jpg",
                   "Servers": [
                     {
                       "name": "MP4",
@@ -2194,10 +2194,10 @@
                 },
                 {
                   "Episode": 16,
-                  "Title": "Volcano Island (Gadget Goes Hawaiian)",
-                  "Duration": "22m",
-                  "Description": "",
-                  "Thumbnail": "",
+                  "Title": "The Invasion",
+                  "Duration": "23:00",
+                  "Description": "M.A.D. agents disguised as Martians terrorize Metro City.",
+                  "Thumbnail": "https://image.tmdb.org/t/p/w500/8G3KpPegFk2iKrqsB7bhcCYR3uY.jpg",
                   "Servers": [
                     {
                       "name": "MP4",
@@ -2233,10 +2233,10 @@
                 },
                 {
                   "Episode": 17,
-                  "Title": "The Invasion",
-                  "Duration": "22m",
-                  "Description": "",
-                  "Thumbnail": "",
+                  "Title": "The Infiltration",
+                  "Duration": "23:00",
+                  "Description": "Presto Chango, the world's greatest disguise artist and a M.A.D. agent, plans to infiltrate an Interpol conference in London disguised as Inspector Gadget.",
+                  "Thumbnail": "https://image.tmdb.org/t/p/w500/pxZcUR9CLMZfZ0arWFVHgMA33mH.jpg",
                   "Servers": [
                     {
                       "name": "MP4",
@@ -2272,10 +2272,10 @@
                 },
                 {
                   "Episode": 18,
-                  "Title": "The Infiltration",
-                  "Duration": "22m",
-                  "Description": "",
-                  "Thumbnail": "",
+                  "Title": "The Curse of the Pharaoh",
+                  "Duration": "22:00",
+                  "Description": "M.A.D. agents disguised as mummies and ancient Egyptian gods try to loot the tomb of a newly discovered pharaoh.",
+                  "Thumbnail": "https://image.tmdb.org/t/p/w500/xMu8geKjFTPd8uAu2SrWrprt4al.jpg",
                   "Servers": [
                     {
                       "name": "MP4",
@@ -2311,10 +2311,10 @@
                 },
                 {
                   "Episode": 19,
-                  "Title": "The Curse of the Pharoah (Poot-Ta-Foot's Curse)",
-                  "Duration": "22m",
-                  "Description": "",
-                  "Thumbnail": "",
+                  "Title": "M.A.D. Trap",
+                  "Duration": "22:00",
+                  "Description": "M.A.D. agent Rat begins committing crimes in an easy to predict pattern to lure Inspector Gadget into a steel foundry that has been turned in a deathtrap.",
+                  "Thumbnail": "https://image.tmdb.org/t/p/w500/j6YyrWItVWh1hqXMl40ItpG5YD3.jpg",
                   "Servers": [
                     {
                       "name": "MP4",
@@ -2350,10 +2350,10 @@
                 },
                 {
                   "Episode": 20,
-                  "Title": "M.A.D. Trap",
-                  "Duration": "22m",
-                  "Description": "",
-                  "Thumbnail": "",
+                  "Title": "Basic Training",
+                  "Duration": "22:00",
+                  "Description": "Gadget must protect a trainload of important computer parts from M.A.D. hijackers.",
+                  "Thumbnail": "https://image.tmdb.org/t/p/w500/vaa55rveiIgCYW4mGv5mWgyOLOT.jpg",
                   "Servers": [
                     {
                       "name": "MP4",
@@ -2389,10 +2389,10 @@
                 },
                 {
                   "Episode": 21,
-                  "Title": "Basic Training",
-                  "Duration": "22m",
-                  "Description": "",
-                  "Thumbnail": "",
+                  "Title": "Sleeping Gas",
+                  "Duration": "23:00",
+                  "Description": "Gadget is assigned to halt a diabolical M.A.D. scheme: put entire cities to sleep with a powerful sleeping gas.",
+                  "Thumbnail": "https://image.tmdb.org/t/p/w500/euh1NVG8kSe5xvueXxMn9t3sBy7.jpg",
                   "Servers": [
                     {
                       "name": "MP4",
@@ -2428,10 +2428,10 @@
                 },
                 {
                   "Episode": 22,
-                  "Title": "Sleeping Gas",
-                  "Duration": "22m",
-                  "Description": "",
-                  "Thumbnail": "",
+                  "Title": "Gadget's Replacement",
+                  "Duration": "22:00",
+                  "Description": "A new supercomputer has made the Metro City police so efficient that Chief Quimby fires Gadget but M.A.D. has a plan to control the computer and feed the police false information.",
+                  "Thumbnail": "https://image.tmdb.org/t/p/w500/c1Rz0jJ5giTdmAU6MUHumyChn4j.jpg",
                   "Servers": [
                     {
                       "name": "MP4",
@@ -2467,10 +2467,10 @@
                 },
                 {
                   "Episode": 23,
-                  "Title": "Gadget's Replacement",
-                  "Duration": "22m",
-                  "Description": "",
-                  "Thumbnail": "",
+                  "Title": "Greenfinger",
+                  "Duration": "22:00",
+                  "Description": "Gadget is assigned to protect Professor Greenfinger who has developed a super plant growth formula, but Greenfinger has already been replaced by a M.A.D. agent.",
+                  "Thumbnail": "https://image.tmdb.org/t/p/w500/glW1A1szC9uEnfwRCiMXSwbCOLC.jpg",
                   "Servers": [
                     {
                       "name": "MP4",
@@ -2506,10 +2506,10 @@
                 },
                 {
                   "Episode": 24,
-                  "Title": "Greenfinger",
-                  "Duration": "22m",
-                  "Description": "",
-                  "Thumbnail": "",
+                  "Title": "Gadget Goes West",
+                  "Duration": "22:00",
+                  "Description": "Inspector Gadget arrives at a western tourist town that plays heavily on its cowboy image to stop modern day outlaw Black Bart.",
+                  "Thumbnail": "https://image.tmdb.org/t/p/w500/h62TMCiOfYAjinfNuEuuMOOquFO.jpg",
                   "Servers": [
                     {
                       "name": "MP4",
@@ -2545,10 +2545,10 @@
                 },
                 {
                   "Episode": 25,
-                  "Title": "Gadget Goes West",
-                  "Duration": "22m",
-                  "Description": "",
-                  "Thumbnail": "",
+                  "Title": "Launch Time",
+                  "Duration": "22:00",
+                  "Description": "M.A.D. tries to sabotage a NASA mission.",
+                  "Thumbnail": "https://image.tmdb.org/t/p/w500/jULDSaRXSRzsjiJ4UJ2K5qshTFy.jpg",
                   "Servers": [
                     {
                       "name": "MP4",
@@ -2584,10 +2584,10 @@
                 },
                 {
                   "Episode": 26,
-                  "Title": "Launch Time",
-                  "Duration": "22m",
-                  "Description": "",
-                  "Thumbnail": "",
+                  "Title": "Photo Safari",
+                  "Duration": "22:00",
+                  "Description": "Inspector Gadget must stop Dr. Claw from using animals to scare villagers away.",
+                  "Thumbnail": "https://image.tmdb.org/t/p/w500/8SKnHPRJLfqG8OnP2AFyjIN5Ns7.jpg",
                   "Servers": [
                     {
                       "name": "MP4",
@@ -2623,10 +2623,10 @@
                 },
                 {
                   "Episode": 27,
-                  "Title": "Photo Safari (Black Devil)",
-                  "Duration": "22m",
-                  "Description": "",
-                  "Thumbnail": "",
+                  "Title": "The Coo-Coo-Clock Caper",
+                  "Duration": "23:00",
+                  "Description": "While Gadget is searching Switzerland for stolen gold, Penny runs afoul of the murderous M.A.D. Agent, The Clockmaker.",
+                  "Thumbnail": "https://image.tmdb.org/t/p/w500/4yNmwBpgYADgeSI6vPBojQnLHWs.jpg",
                   "Servers": [
                     {
                       "name": "MP4",
@@ -2662,10 +2662,10 @@
                 },
                 {
                   "Episode": 28,
-                  "Title": "The Coo Coo Clock Caper",
-                  "Duration": "22m",
-                  "Description": "",
-                  "Thumbnail": "",
+                  "Title": "The Bermuda Triangle",
+                  "Duration": "22:00",
+                  "Description": "Ships are vanishing in the Bermuda Triangle, but the seemingly supernatural aspects of the disappearances are subterfuge by Dr. Claw, who is using an enormous machine to swallow oil tankers and ransack them.",
+                  "Thumbnail": "https://image.tmdb.org/t/p/w500/sKKlCI3bm4FwM53sntFmpwxQRJT.jpg",
                   "Servers": [
                     {
                       "name": "MP4",
@@ -2701,10 +2701,10 @@
                 },
                 {
                   "Episode": 29,
-                  "Title": "Bermuda Triangle",
-                  "Duration": "22m",
-                  "Description": "",
-                  "Thumbnail": "",
+                  "Title": "The Japanese Connection",
+                  "Duration": "23:00",
+                  "Description": "Penny won a computer contest and is in Japan helping her local counterpart, Atsuko, to foil an alliance between Dr. Claw and his Japanese counterpart, Iji Waruda-san.",
+                  "Thumbnail": "https://image.tmdb.org/t/p/w500/zzFMVgxxgWkC2quThmLqKLjg0Ep.jpg",
                   "Servers": [
                     {
                       "name": "MP4",
@@ -2740,10 +2740,10 @@
                 },
                 {
                   "Episode": 30,
-                  "Title": "The Japanese Connection",
-                  "Duration": "22m",
-                  "Description": "",
-                  "Thumbnail": "",
+                  "Title": "Arabian Nights",
+                  "Duration": "22:00",
+                  "Description": "Gadget is sent to the wealthy Middle-Eastern kingdom of Yetzanistan to safeguard a sacred sword.",
+                  "Thumbnail": "https://image.tmdb.org/t/p/w500/clv0XnagAl0XqXtaUIOlhvvXQBM.jpg",
                   "Servers": [
                     {
                       "name": "MP4",
@@ -2779,10 +2779,10 @@
                 },
                 {
                   "Episode": 31,
-                  "Title": "Arabian Nights",
-                  "Duration": "22m",
-                  "Description": "",
-                  "Thumbnail": "",
+                  "Title": "Clear Case",
+                  "Duration": "23:00",
+                  "Description": "South African diamond miners are terrorized by a ghost who is actually a M.A.D. scientist using diamond dust to create invisibility suits.",
+                  "Thumbnail": "https://image.tmdb.org/t/p/w500/6bYWGUxlBy2vxLp7M3kzgATLLWP.jpg",
                   "Servers": [
                     {
                       "name": "MP4",
@@ -2818,10 +2818,10 @@
                 },
                 {
                   "Episode": 32,
-                  "Title": "Clear Case",
-                  "Duration": "22m",
-                  "Description": "",
-                  "Thumbnail": "",
+                  "Title": "Dutch Treat",
+                  "Duration": "22:00",
+                  "Description": "Inspector Gadget hunts for diamond smugglers in the land of tulips and chocolate.",
+                  "Thumbnail": "https://image.tmdb.org/t/p/w500/xh0li5Pcqx6tsifhHPfRPDwY8mB.jpg",
                   "Servers": [
                     {
                       "name": "MP4",
@@ -2857,10 +2857,10 @@
                 },
                 {
                   "Episode": 33,
-                  "Title": "Dutch Treat",
-                  "Duration": "22m",
-                  "Description": "",
-                  "Thumbnail": "",
+                  "Title": "The Great Divide",
+                  "Duration": "22:00",
+                  "Description": "Gadget visits the Balkans to stop a war between a tribe of super-strong men and super-strong women while Dr. Claw tries to steal the potion that gives them their uncanny strength.",
+                  "Thumbnail": "https://image.tmdb.org/t/p/w500/rU69VIBTImXr2hzxhn6EixUARoV.jpg",
                   "Servers": [
                     {
                       "name": "MP4",
@@ -2896,10 +2896,10 @@
                 },
                 {
                   "Episode": 34,
-                  "Title": "The Great Divide",
-                  "Duration": "22m",
-                  "Description": "",
-                  "Thumbnail": "",
+                  "Title": "Eye of the Dragon",
+                  "Duration": "22:00",
+                  "Description": "Gadget is sent to Hong Kong to recover the priceless jewel the Eye of the Dragon and foil an alliance between Dr. Claw and Hong Kong's crime-lord Mr. Chow.",
+                  "Thumbnail": "https://image.tmdb.org/t/p/w500/t3xmjxAENOl9sXxv4VX1xzSkqeD.jpg",
                   "Servers": [
                     {
                       "name": "MP4",
@@ -2935,10 +2935,10 @@
                 },
                 {
                   "Episode": 35,
-                  "Title": "Eye of the Dragon",
-                  "Duration": "22m",
-                  "Description": "",
-                  "Thumbnail": "",
+                  "Title": "Doubled Agent",
+                  "Duration": "22:00",
+                  "Description": "M.A.D. engineers an android replica of Inspector Gadget that is used to steal from Metro City's banks in order to have the real Gadget framed for armed-robbery. With our hero wrongfully incarcerated, Dr. Claw sets his sights on kidnapping the Shah of Freeland and demanding a hefty ransom for his release.",
+                  "Thumbnail": "https://image.tmdb.org/t/p/w500/p5SlTk3EEaAvB9iofvtxZzzuiB7.jpg",
                   "Servers": [
                     {
                       "name": "MP4",
@@ -2974,10 +2974,10 @@
                 },
                 {
                   "Episode": 36,
-                  "Title": "Doubled Agent",
-                  "Duration": "22m",
-                  "Description": "",
-                  "Thumbnail": "",
+                  "Title": "Plantform of the Opera",
+                  "Duration": "22:00",
+                  "Description": "M.A.D. agents use an opera house as cover to tunnel into a bank vault while protected by a killer man-eating plant.",
+                  "Thumbnail": "https://image.tmdb.org/t/p/w500/dL2Bh6IMD0yvTi2Kbdj1z22Gnj6.jpg",
                   "Servers": [
                     {
                       "name": "MP4",
@@ -3013,10 +3013,10 @@
                 },
                 {
                   "Episode": 37,
-                  "Title": "Plantform of the Opera",
-                  "Duration": "22m",
-                  "Description": "",
-                  "Thumbnail": "",
+                  "Title": "Don't Hold Your Breath",
+                  "Duration": "23:00",
+                  "Description": "Inspector Gadget is assigned to look into a case of some missing oceanographers who were searching for an undersea city when they disappeared.",
+                  "Thumbnail": "https://image.tmdb.org/t/p/w500/lL7AwBw7qOopjLGzSO1cynAWTyL.jpg",
                   "Servers": [
                     {
                       "name": "MP4",
@@ -3052,10 +3052,10 @@
                 },
                 {
                   "Episode": 38,
-                  "Title": "Don't Hold Your Breath",
-                  "Duration": "22m",
-                  "Description": "",
-                  "Thumbnail": "",
+                  "Title": "Gone Went the Wind",
+                  "Duration": "23:00",
+                  "Description": "A M.A.D. scientist at the North Pole creates a machine to cause windstorms all over the globe.",
+                  "Thumbnail": "https://image.tmdb.org/t/p/w500/nl8aOuQkQZ9eI5HWMeT2BzfKAvL.jpg",
                   "Servers": [
                     {
                       "name": "MP4",
@@ -3091,10 +3091,10 @@
                 },
                 {
                   "Episode": 39,
-                  "Title": "Gone Went the Wind",
-                  "Duration": "22m",
-                  "Description": "",
-                  "Thumbnail": "",
+                  "Title": "King Wrong",
+                  "Duration": "22:00",
+                  "Description": "In the far-off country of Pianostan, the people remain happy as long as their King is miserable. But M.A.D. has been ensuring that the King is happy in order to disrupt the peace, so Inspector Gadget is sent out to investigate. To further complicate matters, the King looks exactly like the Inspector!",
+                  "Thumbnail": "https://image.tmdb.org/t/p/w500/1BoMHhijQXZVGgVCxtuyf6Xqwc.jpg",
                   "Servers": [
                     {
                       "name": "MP4",
@@ -3130,10 +3130,10 @@
                 },
                 {
                   "Episode": 40,
-                  "Title": "King Wrong",
-                  "Duration": "22m",
-                  "Description": "",
-                  "Thumbnail": "",
+                  "Title": "Pirate Island",
+                  "Duration": "22:00",
+                  "Description": "Inspector Gadget, Penny, and Brain are on vacation in the Caribbean. But before they've had a chance to get any serious R & R on Gadget's dilapidated old rust-bucket of a boat, duty calls and Inspector Gadget is back to work.",
+                  "Thumbnail": "https://image.tmdb.org/t/p/w500/iiyccF2aC8GP5bxNx4uMYt73eCC.jpg",
                   "Servers": [
                     {
                       "name": "MP4",
@@ -3169,10 +3169,10 @@
                 },
                 {
                   "Episode": 41,
-                  "Title": "Pirate Island",
-                  "Duration": "22m",
-                  "Description": "",
-                  "Thumbnail": "",
+                  "Title": "M.A.D. Academy",
+                  "Duration": "23:00",
+                  "Description": "Gadget is assigned to find and shut down M.A.D.'s training center for its agents and Dr. Claw decides eliminating Gadget will make a good class project for the latest batch of recruits.",
+                  "Thumbnail": "https://image.tmdb.org/t/p/w500/28WraZxQV96jowtXE0f7vp8jOdk.jpg",
                   "Servers": [
                     {
                       "name": "MP4",
@@ -3208,10 +3208,10 @@
                 },
                 {
                   "Episode": 42,
-                  "Title": "M.A.D. Acadamy",
-                  "Duration": "22m",
-                  "Description": "",
-                  "Thumbnail": "",
+                  "Title": "No Flies on Us",
+                  "Duration": "22:00",
+                  "Description": "In Malaysia, the Wild Man of Borneo (a M.A.D. scientist), has both derived a virus from flies and concocted its antidote. A head-cold-suffering Gadget must stop Dr. Claw's plan to turn everyone on the planet into babbling, bubble-blowing imbeciles.",
+                  "Thumbnail": "https://image.tmdb.org/t/p/w500/uiQON5acXprxtslLNNvc619oIw.jpg",
                   "Servers": [
                     {
                       "name": "MP4",
@@ -3247,10 +3247,10 @@
                 },
                 {
                   "Episode": 43,
-                  "Title": "No Flies on Us",
-                  "Duration": "22m",
-                  "Description": "",
-                  "Thumbnail": "",
+                  "Title": "Luck of the Irish",
+                  "Duration": "22:00",
+                  "Description": "Gadget heads to Ireland to locate the Blarney Stone, \"The national treasure of Ireland,\" when it's stolen by M.A.D. agents. While plotting to use a laser cannon to slice up the Stone and smuggle it out of the country, Dr. Claw dispatches the quarrelsome O'Shea Brothers to eliminate Gadget.",
+                  "Thumbnail": "https://image.tmdb.org/t/p/w500/hIZyImQdlWVqHEJJeXknBILWF9N.jpg",
                   "Servers": [
                     {
                       "name": "MP4",
@@ -3286,10 +3286,10 @@
                 },
                 {
                   "Episode": 44,
-                  "Title": "Luck of the Irish",
-                  "Duration": "22m",
-                  "Description": "",
-                  "Thumbnail": "",
+                  "Title": "Prince of the Gypsies",
+                  "Duration": "22:00",
+                  "Description": "Dr. Claw tries to frame the gypsies of Freedonia for the theft of the Royal Coat of Arms. So Gadget investigates the gypsies while Penny and her new friend, Anya, try to find the real thief.",
+                  "Thumbnail": "https://image.tmdb.org/t/p/w500/A0Sxzv3zgba7K6fBFfjRnbVKwt6.jpg",
                   "Servers": [
                     {
                       "name": "MP4",
@@ -3325,10 +3325,10 @@
                 },
                 {
                   "Episode": 45,
-                  "Title": "Prince of the Gypsies",
-                  "Duration": "22m",
-                  "Description": "",
-                  "Thumbnail": "",
+                  "Title": "Old Man of the Mountain",
+                  "Duration": "22:00",
+                  "Description": "M.A.D. has abducted a prominent seismologist, who is coerced by Dr. Claw to construct a machine capable of generating deadly earthquakes upon the world.  Gadget's case takes him deep within the Rocky Mountains, where his misadventures are compounded by a M.A.D. ranger agent and a grizzled, gold-crazed prospector.",
+                  "Thumbnail": "https://image.tmdb.org/t/p/w500/ifKlVUtvbTun7yrmgXkil4M5Xxm.jpg",
                   "Servers": [
                     {
                       "name": "MP4",
@@ -3364,10 +3364,10 @@
                 },
                 {
                   "Episode": 46,
-                  "Title": "Old Man of the Mountain",
-                  "Duration": "22m",
-                  "Description": "",
-                  "Thumbnail": "",
+                  "Title": "The Emerald Duck",
+                  "Duration": "22:00",
+                  "Description": "Gadget heads for Mexico, where he must stop \"The oldest Mayan artifact known to exist,\" the Emerald Duck, from falling into the hands of a M.A.D. agent -- a Mexican bandit named Macho Miguel. The Emerald Duck is the key to activating a powerful and ancient weapon.",
+                  "Thumbnail": "https://image.tmdb.org/t/p/w500/8YNiwXhIifMhdhOD5Boakk8yfsv.jpg",
                   "Servers": [
                     {
                       "name": "MP4",
@@ -3403,10 +3403,10 @@
                 },
                 {
                   "Episode": 47,
-                  "Title": "The Emerald Duck",
-                  "Duration": "22m",
-                  "Description": "",
-                  "Thumbnail": "",
+                  "Title": "Do Unto Udders",
+                  "Duration": "22:00",
+                  "Description": "M.A.D. utilizes satellite waves to cause local cows to stop producing milk, forcing consumers to purchase milk from \"New Foods Dairy\" (a M.A.D. front).",
+                  "Thumbnail": "https://image.tmdb.org/t/p/w500/f0hQI65ixNH2QQmInE49YXBiF0O.jpg",
                   "Servers": [
                     {
                       "name": "MP4",
@@ -3442,10 +3442,10 @@
                 },
                 {
                   "Episode": 48,
-                  "Title": "Do Unto Udders",
-                  "Duration": "22m",
-                  "Description": "",
-                  "Thumbnail": "",
+                  "Title": "Did You Myth Me?",
+                  "Duration": "22:00",
+                  "Description": "A M.A.D. scientist tries to steal an ancient Greek scroll said to hold the secret of turning lead into gold.",
+                  "Thumbnail": "https://image.tmdb.org/t/p/w500/kfVKhgOpg5rIaDxWySbDqaOObjT.jpg",
                   "Servers": [
                     {
                       "name": "MP4",
@@ -3481,10 +3481,10 @@
                 },
                 {
                   "Episode": 49,
-                  "Title": "Did You Myth Me",
-                  "Duration": "22m",
-                  "Description": "",
-                  "Thumbnail": "",
+                  "Title": "A Bad Altitude",
+                  "Duration": "22:00",
+                  "Description": "Dr. Claw intends to sink most of an island so that his (currently) mountaintop resort will become the only hotel on \"M.A.D. Island\".",
+                  "Thumbnail": "https://image.tmdb.org/t/p/w500/3lHKwP6C18a96BzasXPcrYAiBfB.jpg",
                   "Servers": [
                     {
                       "name": "MP4",
@@ -3520,10 +3520,10 @@
                 },
                 {
                   "Episode": 50,
-                  "Title": "A Bad Altitude",
-                  "Duration": "22m",
-                  "Description": "",
-                  "Thumbnail": "",
+                  "Title": "Funny Money",
+                  "Duration": "22:00",
+                  "Description": "M.A.D. has enlisted the aid of the incarcerated Funny Money counterfeiting gang in a plot to generate millions upon millions of bogus dollars for Dr. Claw to use in his dirty work. Two of the gang's three members manage to escape from prison in order to set up shop, while the last and most talented member, a visually-challenged man named Squint, must be up to the arduous task of bumping off Gadget when he comes to the jail to investigate the break-out.",
+                  "Thumbnail": "https://image.tmdb.org/t/p/w500/s4wK3TDEyS3ffvLuFw7z2uwyT6Z.jpg",
                   "Servers": [
                     {
                       "name": "MP4",
@@ -3559,10 +3559,10 @@
                 },
                 {
                   "Episode": 51,
-                  "Title": "Funny Money",
-                  "Duration": "22m",
-                  "Description": "",
-                  "Thumbnail": "",
+                  "Title": "Follow That Jet",
+                  "Duration": "23:00",
+                  "Description": "Dr. Claw begins making US Airforce jets disappear so that he can create his own private M.A.D. airforce.",
+                  "Thumbnail": "https://image.tmdb.org/t/p/w500/7OcoImww7nbaFaSMyX4v09qDGFR.jpg",
                   "Servers": [
                     {
                       "name": "MP4",
@@ -3598,10 +3598,10 @@
                 },
                 {
                   "Episode": 52,
-                  "Title": "Follow That Jet",
-                  "Duration": "22m",
-                  "Description": "",
-                  "Thumbnail": "",
+                  "Title": "Dry Spell",
+                  "Duration": "23:00",
+                  "Description": "A M.A.D. agent and his Blue Trolls causes a drought in Metro City by cutting off the city's mountain water resources.",
+                  "Thumbnail": "https://image.tmdb.org/t/p/w500/khvHyd986kzLwi3FsyA4zniFYnK.jpg",
                   "Servers": [
                     {
                       "name": "MP4",
@@ -3637,10 +3637,10 @@
                 },
                 {
                   "Episode": 53,
-                  "Title": "Dry Spell",
-                  "Duration": "22m",
-                  "Description": "",
-                  "Thumbnail": "",
+                  "Title": "Smeldorado",
+                  "Duration": "23:00",
+                  "Description": "Dr. Claw creates a ray that turns gold into smelly cheese, planning to change it back once the government empties Fort Knox of the foul smelling stuff.",
+                  "Thumbnail": "https://image.tmdb.org/t/p/w500/4tiByDQaAX2xyoRmk081t11gRiw.jpg",
                   "Servers": [
                     {
                       "name": "MP4",
@@ -3676,10 +3676,10 @@
                 },
                 {
                   "Episode": 54,
-                  "Title": "Smeldorado",
-                  "Duration": "22m",
-                  "Description": "",
-                  "Thumbnail": "",
+                  "Title": "Quimby Exchange",
+                  "Duration": "23:00",
+                  "Description": "Gadget is assigned to protect \"Nervous Nick\" Defecto, a former M.A.D. agent, from Dr. Claw's wrath. In revenge, Dr. Claw takes Chief Quimby hostage and offers him in exchange for his wayward agent.",
+                  "Thumbnail": "https://image.tmdb.org/t/p/w500/ru76OvWMP8w8wK4RkYiJ3lNfMs4.jpg",
                   "Servers": [
                     {
                       "name": "MP4",
@@ -3715,10 +3715,10 @@
                 },
                 {
                   "Episode": 55,
-                  "Title": "Quimby Exchange",
-                  "Duration": "22m",
-                  "Description": "",
-                  "Thumbnail": "",
+                  "Title": "Weather In Tibet",
+                  "Duration": "22:00",
+                  "Description": "Penny teams up with a Tibetan boy to destroy a M.A.D. weather control machine while her uncle blunders around as usual.",
+                  "Thumbnail": "https://image.tmdb.org/t/p/w500/vy0iIxJZMmfvfWyWHlFzJYXJwkn.jpg",
                   "Servers": [
                     {
                       "name": "MP4",
@@ -3754,10 +3754,10 @@
                 },
                 {
                   "Episode": 56,
-                  "Title": "Weather In Tibet",
-                  "Duration": "22m",
-                  "Description": "",
-                  "Thumbnail": "",
+                  "Title": "Unhenged",
+                  "Duration": "23:00",
+                  "Description": "Gadget must put a stop to M.A.D.'s latest plot for global domination, which involves the kidnapping of the world's leading solar scientists and coercing them to design and construct a solar-powered heat cannon at the grounds of mysterious Stonehenge.",
+                  "Thumbnail": "https://image.tmdb.org/t/p/w500/f3vKJ5Amkwx8vMqLT1gIcrGeGYZ.jpg",
                   "Servers": [
                     {
                       "name": "MP4",
@@ -3793,10 +3793,10 @@
                 },
                 {
                   "Episode": 57,
-                  "Title": "Unhenged",
-                  "Duration": "22m",
-                  "Description": "",
-                  "Thumbnail": "",
+                  "Title": "Snakin' All Over",
+                  "Duration": "23:00",
+                  "Description": "A M.A.D. agent intends to use his pet snakes to steal a valuable coin collection.",
+                  "Thumbnail": "https://image.tmdb.org/t/p/w500/h8T6CgXXf45X35Rk0LTufdriAKw.jpg",
                   "Servers": [
                     {
                       "name": "MP4",
@@ -3832,10 +3832,10 @@
                 },
                 {
                   "Episode": 58,
-                  "Title": "Snakin' All Over",
-                  "Duration": "22m",
-                  "Description": "",
-                  "Thumbnail": "",
+                  "Title": "In Seine",
+                  "Duration": "23:00",
+                  "Description": "In Paris a M.A.D. agent uses a robot to rob the rich and famous.",
+                  "Thumbnail": "https://image.tmdb.org/t/p/w500/6bbaMkujJo1yDBv9ZVSZfA1OIwA.jpg",
                   "Servers": [
                     {
                       "name": "MP4",
@@ -3871,10 +3871,10 @@
                 },
                 {
                   "Episode": 59,
-                  "Title": "In Seine",
-                  "Duration": "22m",
-                  "Description": "",
-                  "Thumbnail": "",
+                  "Title": "Tree Guesses",
+                  "Duration": "22:00",
+                  "Description": "Dr. Claw has concocted a chemical compound that decomposes wood at an accelerated rate, which he threatens to unleash upon the world's forests in exchange for a hefty ransom.",
+                  "Thumbnail": "https://image.tmdb.org/t/p/w500/fZ7kCZNIbfNXQkYX21yVZqHxMV3.jpg",
                   "Servers": [
                     {
                       "name": "MP4",
@@ -3910,10 +3910,10 @@
                 },
                 {
                   "Episode": 60,
-                  "Title": "Tree Guesses",
-                  "Duration": "22m",
-                  "Description": "",
-                  "Thumbnail": "",
+                  "Title": "Birds of a Feather",
+                  "Duration": "23:00",
+                  "Description": "In Turkey a M.A.D. agent uses his birds to steal a very valuable gemstone from an exhibition.",
+                  "Thumbnail": "https://image.tmdb.org/t/p/w500/1dlifCFSyoelYpUUJeBFJnZq3kq.jpg",
                   "Servers": [
                     {
                       "name": "MP4",
@@ -3949,10 +3949,10 @@
                 },
                 {
                   "Episode": 61,
-                  "Title": "Birds of a Feather",
-                  "Duration": "22m",
-                  "Description": "",
-                  "Thumbnail": "",
+                  "Title": "So it is Written",
+                  "Duration": "23:00",
+                  "Description": "Gadget arrives in an Arabian country where he is believed to be the prophesied one who will find a long lost treasure cave. Dr. Claw is eager to let his old enemy lead him to the treasure before eliminating him.",
+                  "Thumbnail": "https://image.tmdb.org/t/p/w500/yeI1bkEVllHXzfT9JFEA3q0DItL.jpg",
                   "Servers": [
                     {
                       "name": "MP4",
@@ -3988,10 +3988,10 @@
                 },
                 {
                   "Episode": 62,
-                  "Title": "So it is Written",
-                  "Duration": "22m",
-                  "Description": "",
-                  "Thumbnail": "",
+                  "Title": "Fang the Wonder Dog",
+                  "Duration": "22:00",
+                  "Description": "Dr. Claw tries to abduct movie star \"Fang the Wonder Dog\" from the set of his latest film so he can ransom him.",
+                  "Thumbnail": "https://image.tmdb.org/t/p/w500/y4IGwyPXrRX0Hnk1s8l65nuPGBi.jpg",
                   "Servers": [
                     {
                       "name": "MP4",
@@ -4027,10 +4027,10 @@
                 },
                 {
                   "Episode": 63,
-                  "Title": "Fang the Wonder Dog",
-                  "Duration": "22m",
-                  "Description": "",
-                  "Thumbnail": "",
+                  "Title": "School for Pickpockets",
+                  "Duration": "23:00",
+                  "Description": "Gadget must foil Dr. Claw's plans to steal his new Gadget watch, and close down the school for pickpockets.",
+                  "Thumbnail": "https://image.tmdb.org/t/p/w500/x3UYMBBNVP7MiI655r9TKnAgBqL.jpg",
                   "Servers": [
                     {
                       "name": "MP4",
@@ -4066,10 +4066,10 @@
                 },
                 {
                   "Episode": 64,
-                  "Title": "School for Pickpockets",
-                  "Duration": "22m",
-                  "Description": "",
-                  "Thumbnail": "",
+                  "Title": "Quizmaster",
+                  "Duration": "22:00",
+                  "Description": "A slick game show host mesmerizes contestants when they enter his TV program's sealed \"21\"-like booth, which is outfitted with hypnotic lights. The contestants are then commanded to rob banks and turn over the stolen loot to Dr. Claw. Gadget investigates, but becomes another victim of the hypnosis.",
+                  "Thumbnail": "https://image.tmdb.org/t/p/w500/gduVT7E5BG4JhGnthlLKMpNL5hZ.jpg",
                   "Servers": [
                     {
                       "name": "MP4",
@@ -4105,10 +4105,10 @@
                 },
                 {
                   "Episode": 65,
-                  "Title": "Quizz Master",
-                  "Duration": "22m",
-                  "Description": "",
-                  "Thumbnail": "",
+                  "Title": "Gadget in Winterland",
+                  "Duration": "22:00",
+                  "Description": "Gadget goes to the Winterland Resort where the world's athletes are gathered for the opening of the Olympic games. Dr.Claw tries to ruin the Olympics by replacing the torch bearer with a M.A.D. Agent and replacing the torch with dynamite.\n\nNOTE: This was a re-worked version of the pilot episode \"Winter Olympics\". Some of the dialogue was re-dubbed to address the purpose of Gadget's mustache, and the standard season 1 opening and ending credits were used.",
+                  "Thumbnail": "https://image.tmdb.org/t/p/w500/49veQUcq5tNcWd1SeF2YDmhpzqQ.jpg",
                   "Servers": [
                     {
                       "name": "MP4",
@@ -4150,10 +4150,10 @@
               "Episodes": [
                 {
                   "Episode": 1,
-                  "Title": "Magic Gadget",
-                  "Duration": "22m",
-                  "Description": "",
-                  "Thumbnail": "",
+                  "Title": "Gadget in Mini Madness",
+                  "Duration": "21:00",
+                  "Description": "Professor Dumkopf of M.A.D. unleashes the Linguinis, five little imp-like creatures, on Inspector Gadget's house with the mission of deep-sixing the Inspector.",
+                  "Thumbnail": "https://image.tmdb.org/t/p/w500/3hBepgfsv4BIXxJg12exxrkpNn5.jpg",
                   "Servers": [
                     {
                       "name": "MP4",
@@ -4189,10 +4189,10 @@
                 },
                 {
                   "Episode": 2,
-                  "Title": "The Great Wambini's Seance",
-                  "Duration": "22m",
-                  "Description": "",
-                  "Thumbnail": "",
+                  "Title": "The Incredible Shrinking Gadget",
+                  "Duration": "21:00",
+                  "Description": "Professor Dumkopf of M.A.D. is back, this time with a shrink-ray gun he uses repeatedly on Inspector Gadget in an attempt to shrink him into nothingness.",
+                  "Thumbnail": "https://image.tmdb.org/t/p/w500/s6RkdLwxI3PwHuyuQ0g9sbgeKfT.jpg",
                   "Servers": [
                     {
                       "name": "MP4",
@@ -4228,10 +4228,10 @@
                 },
                 {
                   "Episode": 3,
-                  "Title": "Wambini Predicts",
-                  "Duration": "22m",
-                  "Description": "",
-                  "Thumbnail": "",
+                  "Title": "Gadget Meets the Grappler",
+                  "Duration": "21:00",
+                  "Description": "The Gadget clan faces one last threat from M.A.D.'s Dr. Dumbkopf, which involves battling his hulking, irascible humanoid assistant named the Grappler.  Fortunately, sweets, candies, and ultimately Penny's kindness help in soothing the soul of this misunderstood beast and thwarting Dr. Dumbkopf for the last time.",
+                  "Thumbnail": "https://image.tmdb.org/t/p/w500/ijH1brRrdfjmqUZEDKoWAnqMiwh.jpg",
                   "Servers": [
                     {
                       "name": "MP4",
@@ -4267,10 +4267,10 @@
                 },
                 {
                   "Episode": 4,
-                  "Title": "The Capeman Cometh",
-                  "Duration": "22m",
-                  "Description": "",
-                  "Thumbnail": "",
+                  "Title": "Focus on Gadget",
+                  "Duration": "21:00",
+                  "Description": "When a space station orbiting Earth goes silent, Gadget must investigate. Penny and Brain tag along aboard the space shuttle that takes Gadget to his destination, where Penny discovers that the station's soft-spoken HAL-like supercomputer is under the control of two M.A.D. agents, Dr. Null and Dr. Void.  Their evil plot involves a giant magnifying glass that can aim and intensify the sun's rays towards Earth.",
+                  "Thumbnail": "https://image.tmdb.org/t/p/w500/dbYF6S9YcVwK5K90NlLSPRt2zAu.jpg",
                   "Servers": [
                     {
                       "name": "MP4",
@@ -4306,10 +4306,10 @@
                 },
                 {
                   "Episode": 5,
-                  "Title": "Crashcourse in Crime",
-                  "Duration": "22m",
-                  "Description": "",
-                  "Thumbnail": "",
+                  "Title": "M.A.D. in the Moon",
+                  "Duration": "21:00",
+                  "Description": "Using bombs disguised as kewpie dolls, Dr. Claw and his agents, Null and Void, scheme to alter the surface of the moon so that it will resemble the M.A.D. logo.",
+                  "Thumbnail": "https://image.tmdb.org/t/p/w500/k44zkD2tZmiUhH2Jnq4gyqcbX4c.jpg",
                   "Servers": [
                     {
                       "name": "MP4",
@@ -4345,10 +4345,10 @@
                 },
                 {
                   "Episode": 6,
-                  "Title": "Gadget's Gadgets",
-                  "Duration": "22m",
-                  "Description": "",
-                  "Thumbnail": "",
+                  "Title": "N.S.F. Gadget",
+                  "Duration": "20:00",
+                  "Description": "M.A.D. gains control of Metro City's banks, by tapping into an orbiting satellite. With the added distraction of \"Crazy Gas\", a substance that induces hallucinations in their victims, can even Inspector Gadget ever hope to regain control of the city's bank accounts?",
+                  "Thumbnail": "https://image.tmdb.org/t/p/w500/s0ixUnangdpcGUhgYrS92qtL7ED.jpg",
                   "Servers": [
                     {
                       "name": "MP4",
@@ -4384,10 +4384,10 @@
                 },
                 {
                   "Episode": 7,
-                  "Title": "Gadget in Minimadness",
-                  "Duration": "22m",
-                  "Description": "",
-                  "Thumbnail": "",
+                  "Title": "Magic Gadget",
+                  "Duration": "21:00",
+                  "Description": "The Great Wambini, famed magician and M.A.D. agent, gives a performance Metro City will never forget -- with the demise of Inspector Gadget as the planned finale.",
+                  "Thumbnail": "https://image.tmdb.org/t/p/w500/rRd5m7eLgDEz6L5wxVBB2XAJWCb.jpg",
                   "Servers": [
                     {
                       "name": "MP4",
@@ -4423,10 +4423,10 @@
                 },
                 {
                   "Episode": 8,
-                  "Title": "The Incredible Shrinking Gadget",
-                  "Duration": "22m",
-                  "Description": "",
-                  "Thumbnail": "",
+                  "Title": "The Great Wambini's Seance",
+                  "Duration": "22:00",
+                  "Description": "All the pets in Metro City are being kidnapped, and M.A.D. is the likely suspect. Could the Great Wambini be the key to the case?",
+                  "Thumbnail": "https://image.tmdb.org/t/p/w500/iAXY61hn7ETuNQ9pX2BsTSHMMp6.jpg",
                   "Servers": [
                     {
                       "name": "MP4",
@@ -4462,10 +4462,10 @@
                 },
                 {
                   "Episode": 9,
-                  "Title": "Gadget Meets the Grappler",
-                  "Duration": "22m",
-                  "Description": "",
-                  "Thumbnail": "",
+                  "Title": "Wambini Predicts",
+                  "Duration": "22:00",
+                  "Description": "The Great Wambini goes to Alpakistan to win the King's diamond-spitting llama by making three accurate predictions. Gadget is sent along to investigate M.A.D. involvement, and ends up playing in the National Floobyball Tournament.",
+                  "Thumbnail": "https://image.tmdb.org/t/p/w500/qHFCsGPtwmzTEFiluNLCkHPN5yQ.jpg",
                   "Servers": [
                     {
                       "name": "MP4",
@@ -4501,10 +4501,10 @@
                 },
                 {
                   "Episode": 10,
-                  "Title": "Ghost Catchers",
-                  "Duration": "22m",
-                  "Description": "",
-                  "Thumbnail": "",
+                  "Title": "Bad Dreams are Made of This",
+                  "Duration": "21:00",
+                  "Description": "Something ominous is inexplicably causing the citizens of Metro City to be beset by unstoppable nightmares. Penny's nightmare is that her computerbook falls into the hands of M.A.D.",
+                  "Thumbnail": "https://image.tmdb.org/t/p/w500/wcPa1c4bLw9YuAz0Cz7iv1eRk2a.jpg",
                   "Servers": [
                     {
                       "name": "MP4",
@@ -4540,10 +4540,10 @@
                 },
                 {
                   "Episode": 11,
-                  "Title": "Busy Signal",
-                  "Duration": "22m",
-                  "Description": "",
-                  "Thumbnail": "",
+                  "Title": "Ghost Catchers",
+                  "Duration": "21:00",
+                  "Description": "Dr. Spectrum of M.A.D. invents \"Ghost Globules\" -- pellets that produce glowing ghostly critters. He plans to sets them loose on Metro City, then offer to sell people a spray that will banish them. Inspector Gadget investigates a costume party while on the trail.",
+                  "Thumbnail": "https://image.tmdb.org/t/p/w500/lSCs5gHAyrryvyi6UvBNtYCru1W.jpg",
                   "Servers": [
                     {
                       "name": "MP4",
@@ -4579,10 +4579,10 @@
                 },
                 {
                   "Episode": 12,
-                  "Title": "Bad Dreams are Made of This",
-                  "Duration": "22m",
-                  "Description": "",
-                  "Thumbnail": "",
+                  "Title": "Busy Signal",
+                  "Duration": "21:00",
+                  "Description": "Under the guise of a local telephone company, M.A.D. inventor Dr. Spectrum and his goons systemically target the mansions of Metro City's elite neighborhoods and proceed to burglarize them with the dial of a number and with a zap of a teleportation gun to send the loot straight into Claw's hands.penny,is,caguht,and,odered,to,be,sent,to,doctor,claw",
+                  "Thumbnail": "https://image.tmdb.org/t/p/w500/pdQhUD3MuoOJ2cMe9gT1SUPlysD.jpg",
                   "Servers": [
                     {
                       "name": "MP4",
@@ -4618,10 +4618,10 @@
                 },
                 {
                   "Episode": 13,
-                  "Title": "Focus on Gadget",
-                  "Duration": "22m",
-                  "Description": "",
-                  "Thumbnail": "",
+                  "Title": "The Capeman Cometh",
+                  "Duration": "22:00",
+                  "Description": "Corporal Capeman joins Inspector Gadget posing as his assistant while Gadget pursues the notorious ninja.",
+                  "Thumbnail": "https://image.tmdb.org/t/p/w500/aZSaWbc1EyR0u5wWQl6gPB5e3ar.jpg",
                   "Servers": [
                     {
                       "name": "MP4",
@@ -4657,10 +4657,10 @@
                 },
                 {
                   "Episode": 14,
-                  "Title": "M.A.D. in the Moon",
-                  "Duration": "22m",
-                  "Description": "",
-                  "Thumbnail": "",
+                  "Title": "Crash Course in Crime",
+                  "Duration": "22:00",
+                  "Description": "While Gadget trains his new assistant Capeman, Dr. Claw launches a crime spree to celebrate M.A.D.'s anniversary.",
+                  "Thumbnail": "https://image.tmdb.org/t/p/w500/9agI0qEyqIKbkKtsRVysLNsQcfv.jpg",
                   "Servers": [
                     {
                       "name": "MP4",
@@ -4696,10 +4696,10 @@
                 },
                 {
                   "Episode": 15,
-                  "Title": "N.S.F. Gadget",
-                  "Duration": "22m",
-                  "Description": "",
-                  "Thumbnail": "",
+                  "Title": "Gadget's Gadgets",
+                  "Duration": "21:00",
+                  "Description": "Inspector Gadget and Capeman are both sent to a clinic run by M.A.D. They tell Gadget that they are going to test his gadgets, but in reality they plan to destroy them.",
+                  "Thumbnail": "https://image.tmdb.org/t/p/w500/yQyG9A2vRaYxjMhgi2aytEHbOOu.jpg",
                   "Servers": [
                     {
                       "name": "MP4",
@@ -4736,9 +4736,9 @@
                 {
                   "Episode": 16,
                   "Title": "Tyrannosaurus Gadget",
-                  "Duration": "22m",
-                  "Description": "",
-                  "Thumbnail": "",
+                  "Duration": "21:00",
+                  "Description": "A M.A.D. agent devises a plot to bring dinosaurs back into the 20th Century so Dr. Claw can crush Metro City, while at the same time killing Gadget's ancestors to ensure he never exists in the present.",
+                  "Thumbnail": "https://image.tmdb.org/t/p/w500/ngcQ51SaQtx8TYRt2vXyUzvn3WC.jpg",
                   "Servers": [
                     {
                       "name": "MP4",
@@ -4775,9 +4775,9 @@
                 {
                   "Episode": 17,
                   "Title": "Gadget's Roma",
-                  "Duration": "22m",
-                  "Description": "",
-                  "Thumbnail": "",
+                  "Duration": "21:00",
+                  "Description": "Inspector Gadget, Penny, and Brain travel back in time again -- on this occasion, to ancient Rome to prevent Dr. Claw's own time traveler, Thelma Bodkin, from deciphering an ancient mosaic and stealing the treasure it describes.",
+                  "Thumbnail": "https://image.tmdb.org/t/p/w500/nii9ipKKFw3skpsNeidXrqFvhIX.jpg",
                   "Servers": [
                     {
                       "name": "MP4",
@@ -4814,9 +4814,9 @@
                 {
                   "Episode": 18,
                   "Title": "Gadget's Clean Sweep",
-                  "Duration": "22m",
-                  "Description": "",
-                  "Thumbnail": "",
+                  "Duration": "21:00",
+                  "Description": "M.A.D. agents travel back in time to 19th-century England to steal the crown jewels and wipe out Inspector Gadget's ancestors, chimney sweeps named Chimney and Char Gadget. Gadget is assigned to follow them back in time and stop them.",
+                  "Thumbnail": "https://image.tmdb.org/t/p/w500/5n18dQVEylPFC4UJa2ExBOsWdSS.jpg",
                   "Servers": [
                     {
                       "name": "MP4",
@@ -4853,9 +4853,9 @@
                 {
                   "Episode": 19,
                   "Title": "Gadget Meets the Clan",
-                  "Duration": "22m",
-                  "Description": "",
-                  "Thumbnail": "",
+                  "Duration": "21:00",
+                  "Description": "Dr. Claw hires a retired mob boss, the wheelchair-bound Great Great Godfather, to assassinate Inspector Gadget.",
+                  "Thumbnail": "https://image.tmdb.org/t/p/w500/dbsnyrqWSe4cVyFdwHTNuRtTadP.jpg",
                   "Servers": [
                     {
                       "name": "MP4",
@@ -4892,9 +4892,9 @@
                 {
                   "Episode": 20,
                   "Title": "Gadget and Old Lace",
-                  "Duration": "22m",
-                  "Description": "",
-                  "Thumbnail": "",
+                  "Duration": "21:00",
+                  "Description": "Dr. Claw seeks the wise advice of his mentor in destroying Gadget and winds up with two Black Widows who believe assassinating Gadget would be their cup of tea.",
+                  "Thumbnail": "https://image.tmdb.org/t/p/w500/n5KhnphHF5oGP1NIyPXcJxcZhmq.jpg",
                   "Servers": [
                     {
                       "name": "MP4",
@@ -4931,9 +4931,9 @@
                 {
                   "Episode": 21,
                   "Title": "Gadget and the Red Rose",
-                  "Duration": "22m",
-                  "Description": "",
-                  "Thumbnail": "",
+                  "Duration": "21:00",
+                  "Description": "Dr. Claw brings gangster Spuds Malone out of retirement to eliminate Gadget with his infamous potato-firing tommy gun \"Red Rose\".",
+                  "Thumbnail": "https://image.tmdb.org/t/p/w500/ry1V8qRFPHTV1jgpGbkdmx0h8pa.jpg",
                   "Servers": [
                     {
                       "name": "MP4",
@@ -4987,10 +4987,10 @@
               "Episodes": [
                 {
                   "Episode": 1,
-                  "Title": "The Last Son of Krypton, Part 1",
-                  "Duration": "21 min",
-                  "Description": "",
-                  "Thumbnail": "",
+                  "Title": "The Last Son of Krypton (1)",
+                  "Duration": "21:00",
+                  "Description": "Jor-El, a Kryptonian scientist and Council Member, rescues his son Kal-El from the dying planet by launching the baby to Earth.",
+                  "Thumbnail": "https://image.tmdb.org/t/p/w500/sN544L8UAoTqA8wENmNgQ3clsiX.jpg",
                   "Servers": [
                     {
                       "name": "720p",
@@ -5024,10 +5024,10 @@
                 },
                 {
                   "Episode": 2,
-                  "Title": "The Last Son of Krypton, Part 2",
-                  "Duration": "21 min",
-                  "Description": "",
-                  "Thumbnail": "",
+                  "Title": "The Last Son of Krypton (2)",
+                  "Duration": "21:00",
+                  "Description": "Young Clark Kent discovers his true identity; and, as an adult, presents himself to Metropolis as Superman.",
+                  "Thumbnail": "https://image.tmdb.org/t/p/w500/pPGsTsvEefjDWtlIJifCSmF3kBl.jpg",
                   "Servers": [
                     {
                       "name": "720p",
@@ -5061,10 +5061,10 @@
                 },
                 {
                   "Episode": 3,
-                  "Title": "The Last Son of Krypton, Part 3",
-                  "Duration": "21 min",
-                  "Description": "",
-                  "Thumbnail": "",
+                  "Title": "The Last Son of Krypton (3)",
+                  "Duration": "21:00",
+                  "Description": "Superman thwarts a plot by Lex Luthor to sell the LEXO-SKEL SUIT 5000 to Kaznian terrorists, via their agent John Corben.",
+                  "Thumbnail": "https://image.tmdb.org/t/p/w500/zKzyuVXcpfnuAdUX7Iu0kBvIUPC.jpg",
                   "Servers": [
                     {
                       "name": "720p",
@@ -5099,9 +5099,9 @@
                 {
                   "Episode": 4,
                   "Title": "Fun and Games",
-                  "Duration": "21 min",
-                  "Description": "",
-                  "Thumbnail": "",
+                  "Duration": "21:00",
+                  "Description": "Superman rescues Metropolis thug Bruno Mannheim - and Lois - from the vengeful Toyman.",
+                  "Thumbnail": "https://image.tmdb.org/t/p/w500/gEY06K0rpw43wAuoGcHqJgVmwTK.jpg",
                   "Servers": [
                     {
                       "name": "720p",
@@ -5136,9 +5136,9 @@
                 {
                   "Episode": 5,
                   "Title": "A Little Piece of Home",
-                  "Duration": "21 min",
-                  "Description": "",
-                  "Thumbnail": "",
+                  "Duration": "21:00",
+                  "Description": "Lex Luthor discovers Superman's vulnerability to Kryptonite, and attempts to exploit this weakness to rid himself once and for all of the Man of Steel.",
+                  "Thumbnail": "https://image.tmdb.org/t/p/w500/3CKcSAZmnPrUKxYMocnAhLHlCT0.jpg",
                   "Servers": [
                     {
                       "name": "720p",
@@ -5173,9 +5173,9 @@
                 {
                   "Episode": 6,
                   "Title": "Feeding Time",
-                  "Duration": "21 min",
-                  "Description": "",
-                  "Thumbnail": "",
+                  "Duration": "21:00",
+                  "Description": "After toxic chemicals transform janitor Rudy Jones into the energy-draining Parasite, he imprisons Superman, intent on keeping the Man of Steel as his own personal power source.",
+                  "Thumbnail": "https://image.tmdb.org/t/p/w500/r0IqOYlD6mXxRsNKPkTdpuUR0Cs.jpg",
                   "Servers": [
                     {
                       "name": "720p",
@@ -5210,9 +5210,9 @@
                 {
                   "Episode": 7,
                   "Title": "The Way of All Flesh",
-                  "Duration": "21 min",
-                  "Description": "",
-                  "Thumbnail": "",
+                  "Duration": "21:00",
+                  "Description": "Thanks to the orchestrations of Lex Luthor, terrorist John Corben becomes Metallo, a skin-covered cyborg with a Krytonite heart. Luthor then sets the supervillain on a quest to kill Superman.",
+                  "Thumbnail": "https://image.tmdb.org/t/p/w500/mOtog0Argaa3NlvOO6IUJDxANA3.jpg",
                   "Servers": [
                     {
                       "name": "720p",
@@ -5247,9 +5247,9 @@
                 {
                   "Episode": 8,
                   "Title": "Stolen Memories",
-                  "Duration": "21 min",
-                  "Description": "",
-                  "Thumbnail": "",
+                  "Duration": "21:00",
+                  "Description": "Brainiac, once Krypton's all-knowing planetary computer, comes to Earth as part of his information-gathering trek across the galaxy. But, as Superman discovers, Brainiac's intent after gathering the world's knowledge is to destroy the Earth.",
+                  "Thumbnail": "https://image.tmdb.org/t/p/w500/hHQ5YP24CwTQTkUklwdvN3djb8a.jpg",
                   "Servers": [
                     {
                       "name": "720p",
@@ -5283,10 +5283,10 @@
                 },
                 {
                   "Episode": 9,
-                  "Title": "The Main Man, Part 1",
-                  "Duration": "21 min",
-                  "Description": "",
-                  "Thumbnail": "",
+                  "Title": "The Main Man (1)",
+                  "Duration": "21:00",
+                  "Description": "Intergalactic bounty hunter Lobo is employed to capture the Man of Steel, but thanks to a double-cross by the rare-species-collecting Preserver, both Superman and Lobo end up trapped in the Preserver's personal zoo.",
+                  "Thumbnail": "https://image.tmdb.org/t/p/w500/akJ7IqMfAIWUFrvgGummsbQ6PJ4.jpg",
                   "Servers": [
                     {
                       "name": "720p",
@@ -5320,10 +5320,10 @@
                 },
                 {
                   "Episode": 10,
-                  "Title": "The Main Man, Part 2",
-                  "Duration": "21 min",
-                  "Description": "",
-                  "Thumbnail": "",
+                  "Title": "The Main Man (2)",
+                  "Duration": "21:00",
+                  "Description": "Superman and Lobo team up to escape the Preserver and a vile band of competing bounty hunters with their own vendetta against the \"Main Man\".",
+                  "Thumbnail": "https://image.tmdb.org/t/p/w500/sUi0goJAgXaTUSsla8L8ccJgILr.jpg",
                   "Servers": [
                     {
                       "name": "720p",
@@ -5358,9 +5358,9 @@
                 {
                   "Episode": 11,
                   "Title": "My Girl",
-                  "Duration": "21 min",
-                  "Description": "",
-                  "Thumbnail": "",
+                  "Duration": "21:00",
+                  "Description": "Clark's childhood sweetheart Lana Lang comes to Metropolis, and puts her own life in danger by trying to spy on Lex Luthor for Superman.",
+                  "Thumbnail": "https://image.tmdb.org/t/p/w500/oCAHj5LBuhuqVBVrauH1tIs4IF6.jpg",
                   "Servers": [
                     {
                       "name": "720p",
@@ -5395,9 +5395,9 @@
                 {
                   "Episode": 12,
                   "Title": "Tools of the Trade",
-                  "Duration": "21 min",
-                  "Description": "",
-                  "Thumbnail": "",
+                  "Duration": "21:00",
+                  "Description": "Bruno Mannheim's Intergang terrorizes Metropolis with hi-tech weapons from Darkseid, while SCU Inspector Dan Turpin goes on a personal hunt for answers.",
+                  "Thumbnail": "https://image.tmdb.org/t/p/w500/rUzpcZvzG57eQxPe1uPLi40M6m9.jpg",
                   "Servers": [
                     {
                       "name": "720p",
@@ -5432,9 +5432,9 @@
                 {
                   "Episode": 13,
                   "Title": "Two's a Crowd",
-                  "Duration": "21 min",
-                  "Description": "",
-                  "Thumbnail": "",
+                  "Duration": "21:00",
+                  "Description": "When embittered scientist Earl Garver goes into a coma before revealing the location of a ticking bomb, Superman risks enlisting the Parasite to drain the information from Garver's mind.",
+                  "Thumbnail": "https://image.tmdb.org/t/p/w500/vgOqlfy7MNGXZuPoFgWONUJ91CN.jpg",
                   "Servers": [
                     {
                       "name": "720p",
@@ -5474,10 +5474,10 @@
               "Episodes": [
                 {
                   "Episode": 1,
-                  "Title": "Blasts From the Past, Part 1",
-                  "Duration": "21 min",
-                  "Description": "",
-                  "Thumbnail": "",
+                  "Title": "Blasts from the Past (1)",
+                  "Duration": "21:00",
+                  "Description": "Superman decides to release Mala, a Kryptonian criminal, from the Phantom Zone, but when Mala proves too power-hungry for this world, Superman tries to send her back. Mala escapes with the Phantom Zone Projector and releases Krypton's most notorious traitor, Jax-Ur.",
+                  "Thumbnail": "https://image.tmdb.org/t/p/w500/n5gZegTFbCFeKWdVtM5sHprcSru.jpg",
                   "Servers": [
                     {
                       "name": "720p",
@@ -5511,10 +5511,10 @@
                 },
                 {
                   "Episode": 2,
-                  "Title": "Blasts From the Past, Part 2",
-                  "Duration": "21 min",
-                  "Description": "",
-                  "Thumbnail": "",
+                  "Title": "Blasts from the Past (2)",
+                  "Duration": "21:00",
+                  "Description": "Superman and Professor Hamilton start building a new Phantom Zone projector to balance the odds. However Jax-Ur and Mala manage to send Superman into the Phantom Zone, and then destroy the Projector. As their decimating attacks begin, it's up to Lois and Professor Hamilton to rescue the Man of Steel in time.",
+                  "Thumbnail": "https://image.tmdb.org/t/p/w500/knvCoroK93Wn32YlPBapqbGBNvH.jpg",
                   "Servers": [
                     {
                       "name": "720p",
@@ -5549,9 +5549,9 @@
                 {
                   "Episode": 3,
                   "Title": "The Prometheon",
-                  "Duration": "21 min",
-                  "Description": "",
-                  "Thumbnail": "",
+                  "Duration": "21:00",
+                  "Description": "A giant humanoid creature with incredible strength and heat-sapping abilities, falls to Earth and now threatens the planet. Superman has to fight the creature's advances and send it back into outer space.",
+                  "Thumbnail": "https://image.tmdb.org/t/p/w500/b2vqizaFvhS3ljQlkZFuuhDxHBs.jpg",
                   "Servers": [
                     {
                       "name": "720p",
@@ -5586,9 +5586,9 @@
                 {
                   "Episode": 4,
                   "Title": "Speed Demons",
-                  "Duration": "21 min",
-                  "Description": "",
-                  "Thumbnail": "",
+                  "Duration": "21:00",
+                  "Description": "The Flash teams up with Superman to counter Mark Mardon, a.k.a. \"The Weather Wizard,\" who holds Metropolis hostage with the threat of unleashing a killer hurricane.",
+                  "Thumbnail": "https://image.tmdb.org/t/p/w500/ccfRDnO8ddtkag57rbr8xuqayog.jpg",
                   "Servers": [
                     {
                       "name": "720p",
@@ -5623,9 +5623,9 @@
                 {
                   "Episode": 5,
                   "Title": "Livewire",
-                  "Duration": "21 min",
-                  "Description": "",
-                  "Thumbnail": "",
+                  "Duration": "21:00",
+                  "Description": "Radio shock-jock Leslie Willis is turned into a being of pure electricity, and begins her media-crazed rampage to drain Metropolis' power and kill Superman in the bargain.",
+                  "Thumbnail": "https://image.tmdb.org/t/p/w500/bMzJeymKaA8Cl9j8OFmbUnavtYi.jpg",
                   "Servers": [
                     {
                       "name": "720p",
@@ -5660,9 +5660,9 @@
                 {
                   "Episode": 6,
                   "Title": "Identity Crisis",
-                  "Duration": "21 min",
-                  "Description": "",
-                  "Thumbnail": "",
+                  "Duration": "21:00",
+                  "Description": "Superman encounters Bizarro, an imperfect genetic double of The Man of Steel, who tries to take Superman's place as Metropolis' hero.",
+                  "Thumbnail": "https://image.tmdb.org/t/p/w500/8Ib7zjkxQGrkIUCVweh8RY6opzN.jpg",
                   "Servers": [
                     {
                       "name": "720p",
@@ -5697,9 +5697,9 @@
                 {
                   "Episode": 7,
                   "Title": "Target",
-                  "Duration": "21 min",
-                  "Description": "",
-                  "Thumbnail": "",
+                  "Duration": "21:00",
+                  "Description": "Lois is the \"target\" of explosive revenge from a one-time Lexcorp inventor, named Edward Lytener.",
+                  "Thumbnail": "https://image.tmdb.org/t/p/w500/aPtwD5Q8cye5ZD3KPNNwJzjCSmh.jpg",
                   "Servers": [
                     {
                       "name": "720p",
@@ -5734,9 +5734,9 @@
                 {
                   "Episode": 8,
                   "Title": "Mxyzpixilated",
-                  "Duration": "21 min",
-                  "Description": "",
-                  "Thumbnail": "",
+                  "Duration": "21:00",
+                  "Description": "The Man of Steel is challenged to a battle of wits by Mxyzptlk, a playful yet pixilating imp from the fifth dimension.",
+                  "Thumbnail": "https://image.tmdb.org/t/p/w500/d8DPFQKYFw417gTPsJVgBYtcsVH.jpg",
                   "Servers": [
                     {
                       "name": "720p",
@@ -5771,9 +5771,9 @@
                 {
                   "Episode": 9,
                   "Title": "Action Figures",
-                  "Duration": "21 min",
-                  "Description": "",
-                  "Thumbnail": "",
+                  "Duration": "21:00",
+                  "Description": "On an island with an active volcano that is about to erupt, Metallo appears with temporary amnesia.",
+                  "Thumbnail": "https://image.tmdb.org/t/p/w500/x5ALKpd6E1lKd3GpHPuJ2cB3mgw.jpg",
                   "Servers": [
                     {
                       "name": "720p",
@@ -5808,9 +5808,9 @@
                 {
                   "Episode": 10,
                   "Title": "Double Dose",
-                  "Duration": "21 min",
-                  "Description": "",
-                  "Thumbnail": "",
+                  "Duration": "21:00",
+                  "Description": "Livewire escapes from prison, eager to attain revenge on Superman -- something that she hopes to achieve by teaming up with the Parasite.",
+                  "Thumbnail": "https://image.tmdb.org/t/p/w500/xmbtV2XHiwMkeCuigjGIf7fY25N.jpg",
                   "Servers": [
                     {
                       "name": "720p",
@@ -5845,9 +5845,9 @@
                 {
                   "Episode": 11,
                   "Title": "Solar Power",
-                  "Duration": "21 min",
-                  "Description": "",
-                  "Thumbnail": "",
+                  "Duration": "21:00",
+                  "Description": "Edward Lytener escapes from Stryker's Island and becomes Luminus. He hopes to render Superman powerless by hijacking a number of satellites so that they permit only red light to filter through from the sun.",
+                  "Thumbnail": "https://image.tmdb.org/t/p/w500/neficOUJ6TSGn7EfOmS7Q1Zk1MK.jpg",
                   "Servers": [
                     {
                       "name": "720p",
@@ -5882,9 +5882,9 @@
                 {
                   "Episode": 12,
                   "Title": "Brave New Metropolis",
-                  "Duration": "21 min",
-                  "Description": "",
-                  "Thumbnail": "",
+                  "Duration": "21:00",
+                  "Description": "Lois stumbles into a parallel world where Superman and Lex Luthor work together as dictators of Metropolis.",
+                  "Thumbnail": "https://image.tmdb.org/t/p/w500/vkSGlDaVQTju4pN8vEsjRBqXekX.jpg",
                   "Servers": [
                     {
                       "name": "720p",
@@ -5919,9 +5919,9 @@
                 {
                   "Episode": 13,
                   "Title": "Monkey Fun",
-                  "Duration": "21 min",
-                  "Description": "",
-                  "Thumbnail": "",
+                  "Duration": "21:00",
+                  "Description": "A monkey returned to earth from space begins to grow incredibly large and threatens Metropolis.",
+                  "Thumbnail": "https://image.tmdb.org/t/p/w500/4tHdT0K2ZfwrzaZs6lyUuAHHZ6J.jpg",
                   "Servers": [
                     {
                       "name": "720p",
@@ -5956,9 +5956,9 @@
                 {
                   "Episode": 14,
                   "Title": "Ghost in the Machine",
-                  "Duration": "21 min",
-                  "Description": "",
-                  "Thumbnail": "",
+                  "Duration": "21:00",
+                  "Description": "Lex Luthor is forced to build a new body for Brainiac who has downloaded himself into LexCorp's computers.",
+                  "Thumbnail": "https://image.tmdb.org/t/p/w500/fYKT9aH6uX8Loi0GPSQGdfL0y5m.jpg",
                   "Servers": [
                     {
                       "name": "720p",
@@ -5993,9 +5993,9 @@
                 {
                   "Episode": 15,
                   "Title": "Father's Day",
-                  "Duration": "21 min",
-                  "Description": "",
-                  "Thumbnail": "",
+                  "Duration": "21:00",
+                  "Description": "Kalibak, the son of Darkseid, comes to Metropolis to kill Superman, and prove himself to his father.",
+                  "Thumbnail": "https://image.tmdb.org/t/p/w500/tcw5aFCrKJBcVCkdUdzFNuQ7SRv.jpg",
                   "Servers": [
                     {
                       "name": "720p",
@@ -6029,10 +6029,10 @@
                 },
                 {
                   "Episode": 16,
-                  "Title": "World's Finest, Part 1",
-                  "Duration": "21 min",
-                  "Description": "",
-                  "Thumbnail": "",
+                  "Title": "World's Finest (1)",
+                  "Duration": "21:00",
+                  "Description": "Batman travels to Metropolis when the Joker steals a solid Kryptonite statue and makes a deal with Lex Luthor to kill Superman.",
+                  "Thumbnail": "https://image.tmdb.org/t/p/w500/93HLsmRQSrTItRDNfGkpZIM0VcI.jpg",
                   "Servers": [
                     {
                       "name": "720p",
@@ -6066,10 +6066,10 @@
                 },
                 {
                   "Episode": 17,
-                  "Title": "World's Finest, Part 2",
-                  "Duration": "21 min",
-                  "Description": "",
-                  "Thumbnail": "",
+                  "Title": "World's Finest (2)",
+                  "Duration": "21:00",
+                  "Description": "Lois Lane becomes romantically tied to Bruce Wayne and is kidnapped by the Joker in an attempt to lure superman to his death.",
+                  "Thumbnail": "https://image.tmdb.org/t/p/w500/oSIBkuH6I3HlRqPQp3A4jZtIfsg.jpg",
                   "Servers": [
                     {
                       "name": "720p",
@@ -6103,10 +6103,10 @@
                 },
                 {
                   "Episode": 18,
-                  "Title": "World's Finest, Part 3",
-                  "Duration": "21 min",
-                  "Description": "",
-                  "Thumbnail": "",
+                  "Title": "World's Finest (3)",
+                  "Duration": "21:00",
+                  "Description": "Lois ends her romance with Bruce Wayne when she discovers that he is Batman. Lex Luthor tries to end his alliance with the Joker, but the Joker turns the tables and kidnaps Lex and steals a powerful aircraft to attack Metropolis.",
+                  "Thumbnail": "https://image.tmdb.org/t/p/w500/9kZFQsmg3jndEJKLsoKeAb91J08.jpg",
                   "Servers": [
                     {
                       "name": "720p",
@@ -6141,9 +6141,9 @@
                 {
                   "Episode": 19,
                   "Title": "The Hand of Fate",
-                  "Duration": "21 min",
-                  "Description": "",
-                  "Thumbnail": "",
+                  "Duration": "21:00",
+                  "Description": "When an evil demon is unleashed, Superman attempts to enlist the aid of the now disinterested wizard superhero Doctor Fate.",
+                  "Thumbnail": "https://image.tmdb.org/t/p/w500/hulhYVnTt56oeXSZMCeNXkZd8CW.jpg",
                   "Servers": [
                     {
                       "name": "720p",
@@ -6178,9 +6178,9 @@
                 {
                   "Episode": 20,
                   "Title": "Bizarro's World",
-                  "Duration": "21 min",
-                  "Description": "",
-                  "Thumbnail": "",
+                  "Duration": "21:00",
+                  "Description": "Bizarro learns of the destruction of Krypton and attempts to recreate the destruction in Metropolis.",
+                  "Thumbnail": "https://image.tmdb.org/t/p/w500/d0Zh8I5hsLbxP1h9pnNKVK5kplj.jpg",
                   "Servers": [
                     {
                       "name": "720p",
@@ -6215,9 +6215,9 @@
                 {
                   "Episode": 21,
                   "Title": "Prototype",
-                  "Duration": "21 min",
-                  "Description": "",
-                  "Thumbnail": "",
+                  "Duration": "21:00",
+                  "Description": "A suit of power armor is given to police officer who unfortunately is corrupted by the power it gives him.",
+                  "Thumbnail": "https://image.tmdb.org/t/p/w500/ajsI3siyAHEJdyxlArBrFWgUR5z.jpg",
                   "Servers": [
                     {
                       "name": "720p",
@@ -6252,9 +6252,9 @@
                 {
                   "Episode": 22,
                   "Title": "The Late Mr. Kent",
-                  "Duration": "21 min",
-                  "Description": "",
-                  "Thumbnail": "",
+                  "Duration": "21:00",
+                  "Description": "Clark Kent is thought to be dead after an automobile accident. Superman must nevertheless save an innocent man from execution and find the real culprit.",
+                  "Thumbnail": "https://image.tmdb.org/t/p/w500/2LKj5o1kNE4PegyQB92IHTzUWFA.jpg",
                   "Servers": [
                     {
                       "name": "720p",
@@ -6289,9 +6289,9 @@
                 {
                   "Episode": 23,
                   "Title": "Heavy Metal",
-                  "Duration": "21 min",
-                  "Description": "",
-                  "Thumbnail": "",
+                  "Duration": "21:00",
+                  "Description": "Superman teams up with Steel to deal with Metallo.",
+                  "Thumbnail": "https://image.tmdb.org/t/p/w500/pXDt0IP29tROaMwWNkrBziIkTwT.jpg",
                   "Servers": [
                     {
                       "name": "720p",
@@ -6326,9 +6326,9 @@
                 {
                   "Episode": 24,
                   "Title": "Warrior Queen",
-                  "Duration": "21 min",
-                  "Description": "",
-                  "Thumbnail": "",
+                  "Duration": "21:00",
+                  "Description": "Maxima, Queen of Almerac, kidnaps Superman with the intent of making him her husband.",
+                  "Thumbnail": "https://image.tmdb.org/t/p/w500/ycjviumxTSMUhsGghjwT66TtEuX.jpg",
                   "Servers": [
                     {
                       "name": "720p",
@@ -6362,10 +6362,10 @@
                 },
                 {
                   "Episode": 25,
-                  "Title": "Apokolips...Now!, Part 1",
-                  "Duration": "21 min",
-                  "Description": "",
-                  "Thumbnail": "",
+                  "Title": "Apokolips... Now! (1)",
+                  "Duration": "21:00",
+                  "Description": "Superman teams up with Orion, an escapee from Apokolips, to take on Darkseid as he prepares to attack Earth.",
+                  "Thumbnail": "https://image.tmdb.org/t/p/w500/hHrTZsPWESTSQ0oYfj8ToYVcffj.jpg",
                   "Servers": [
                     {
                       "name": "720p",
@@ -6399,10 +6399,10 @@
                 },
                 {
                   "Episode": 26,
-                  "Title": "Apokolips...Now!, Part 2",
-                  "Duration": "21 min",
-                  "Description": "",
-                  "Thumbnail": "",
+                  "Title": "Apokolips... Now! (2)",
+                  "Duration": "21:00",
+                  "Description": "Darkseid invades Earth with the help of Steppenwolf. With help from the citizens of Metropolis and the arrival of troops from New Genesis, Superman is able to stop his advance, but not without losses.",
+                  "Thumbnail": "https://image.tmdb.org/t/p/w500/rfIJG7EYvSqwkz2LVVUePeK610d.jpg",
                   "Servers": [
                     {
                       "name": "720p",
@@ -6436,10 +6436,10 @@
                 },
                 {
                   "Episode": 27,
-                  "Title": "Little Girl Lost, Part 1",
-                  "Duration": "21 min",
-                  "Description": "",
-                  "Thumbnail": "",
+                  "Title": "Little Girl Lost (1)",
+                  "Duration": "21:00",
+                  "Description": "Superman rescues and brings home the sole survivor of the lost Kryptonian colony of Argos, the rambunctious Kara aka Supergirl.",
+                  "Thumbnail": "https://image.tmdb.org/t/p/w500/b0w94c9NUIVgG3Ni3OSasNZQhUz.jpg",
                   "Servers": [
                     {
                       "name": "720p",
@@ -6473,10 +6473,10 @@
                 },
                 {
                   "Episode": 28,
-                  "Title": "Little Girl Lost, Part 2",
-                  "Duration": "21 min",
-                  "Description": "",
-                  "Thumbnail": "",
+                  "Title": "Little Girl Lost (2)",
+                  "Duration": "21:00",
+                  "Description": "When Superman is captured by Granny Goodness and her Female Furies, Supergirl follows them to the planet Apokolips to rescue him.",
+                  "Thumbnail": "https://image.tmdb.org/t/p/w500/vCuBfJrDWIOpdhemcCbyOmwlG9S.jpg",
                   "Servers": [
                     {
                       "name": "720p",
@@ -6517,9 +6517,9 @@
                 {
                   "Episode": 1,
                   "Title": "Where There's Smoke",
-                  "Duration": "21 min",
-                  "Description": "",
-                  "Thumbnail": "",
+                  "Duration": "21:00",
+                  "Description": "Superman gets caught in the middle of a fight between Volcana, a woman with powerful paranormal skills, and the government agents that want to turn her into a weapon.",
+                  "Thumbnail": "https://image.tmdb.org/t/p/w500/aFwVaN4v7cz6mdCznQtqoKGGpsf.jpg",
                   "Servers": [
                     {
                       "name": "720p",
@@ -6554,9 +6554,9 @@
                 {
                   "Episode": 2,
                   "Title": "Knight Time",
-                  "Duration": "21 min",
-                  "Description": "",
-                  "Thumbnail": "",
+                  "Duration": "21:00",
+                  "Description": "After Bruce Wayne is kidnapped, Superman must go undercover as Batman to find him.",
+                  "Thumbnail": "https://image.tmdb.org/t/p/w500/wSuWF43MLTU6THFjmFpkqfzEioD.jpg",
                   "Servers": [
                     {
                       "name": "720p",
@@ -6591,9 +6591,9 @@
                 {
                   "Episode": 3,
                   "Title": "New Kids in Town",
-                  "Duration": "21 min",
-                  "Description": "",
-                  "Thumbnail": "",
+                  "Duration": "21:00",
+                  "Description": "Brainiac travels back in time from the year 2979 to destroy a young Clark Kent before he can become Superman. The Legion of Superheroes, however, send three of their own to stop him: Saturn Girl, Cosmic Boy, and Chameleon Boy.",
+                  "Thumbnail": "https://image.tmdb.org/t/p/w500/2lazfVbVo2wBjbK5QGxke23hmdQ.jpg",
                   "Servers": [
                     {
                       "name": "720p",
@@ -6628,9 +6628,9 @@
                 {
                   "Episode": 4,
                   "Title": "Obsession",
-                  "Duration": "21 min",
-                  "Description": "",
-                  "Thumbnail": "",
+                  "Duration": "21:00",
+                  "Description": "Superman must stop the Toyman as he tries to abduct Darci Mason a popular supermodel and robot created by the Toyman.",
+                  "Thumbnail": "https://image.tmdb.org/t/p/w500/nBWyHvP0R4GGBUYEleUKuztaQA8.jpg",
                   "Servers": [
                     {
                       "name": "720p",
@@ -6665,9 +6665,9 @@
                 {
                   "Episode": 5,
                   "Title": "Little Big Head Man",
-                  "Duration": "21 min",
-                  "Description": "",
-                  "Thumbnail": "",
+                  "Duration": "21:00",
+                  "Description": "Mr. Mxypzptlk magically transports Bizarro back to Metropolis in order to torment Superman.",
+                  "Thumbnail": "https://image.tmdb.org/t/p/w500/wJrKXibueLadOJXO6tR2wVktsES.jpg",
                   "Servers": [
                     {
                       "name": "720p",
@@ -6702,9 +6702,9 @@
                 {
                   "Episode": 6,
                   "Title": "Absolute Power",
-                  "Duration": "21 min",
-                  "Description": "",
-                  "Thumbnail": "",
+                  "Duration": "21:00",
+                  "Description": "Superman stumbles across a world ruled by Phantom Zone criminals and tyrants Jax-Ur and Mala.",
+                  "Thumbnail": "https://image.tmdb.org/t/p/w500/lT2IRpg5PkeMMag8eKKAqrPc0AG.jpg",
                   "Servers": [
                     {
                       "name": "720p",
@@ -6739,9 +6739,9 @@
                 {
                   "Episode": 7,
                   "Title": "In Brightest Day...",
-                  "Duration": "21 min",
-                  "Description": "",
-                  "Thumbnail": "",
+                  "Duration": "21:00",
+                  "Description": "Superman teams up with Kyle Rayner the new Green Lantern in order to stop Sinestro.",
+                  "Thumbnail": "https://image.tmdb.org/t/p/w500/vuS2hOL6ZIHsQD8S1pR9KUG7krH.jpg",
                   "Servers": [
                     {
                       "name": "720p",
@@ -6776,9 +6776,9 @@
                 {
                   "Episode": 8,
                   "Title": "Superman's Pal",
-                  "Duration": "21 min",
-                  "Description": "",
-                  "Thumbnail": "",
+                  "Duration": "21:00",
+                  "Description": "Jimmy becomes known as Superman's pal, which although may sound cool at first, it certainly attracts lots of trouble to Jimmy.",
+                  "Thumbnail": "https://image.tmdb.org/t/p/w500/ivrU9zlxH1i7EzHCTBlsX6Lbizz.jpg",
                   "Servers": [
                     {
                       "name": "720p",
@@ -6813,9 +6813,9 @@
                 {
                   "Episode": 9,
                   "Title": "A Fish Story",
-                  "Duration": "21 min",
-                  "Description": "",
-                  "Thumbnail": "",
+                  "Duration": "21:00",
+                  "Description": "Marine animals attack Metropolis because Lex Luthor has captured Aquaman.",
+                  "Thumbnail": "https://image.tmdb.org/t/p/w500/c9BhYyLkFSRrn2TYulIGzeFkP2r.jpg",
                   "Servers": [
                     {
                       "name": "720p",
@@ -6850,9 +6850,9 @@
                 {
                   "Episode": 10,
                   "Title": "Unity",
-                  "Duration": "21 min",
-                  "Description": "",
-                  "Thumbnail": "",
+                  "Duration": "21:00",
+                  "Description": "Superman and Supergirl team up to save Smallville from an alien menance.",
+                  "Thumbnail": "https://image.tmdb.org/t/p/w500/yoxgptuVaPH43nW4G8irQhIi95i.jpg",
                   "Servers": [
                     {
                       "name": "720p",
