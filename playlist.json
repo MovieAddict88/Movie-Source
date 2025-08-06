@@ -319585,12 +319585,36 @@
                   ]
                 },
                 {
-                  "Episode": 24,
-                  "Title": "Just Another Manic Kahn-Day",
-                  "Servers": [
-                    {
-                      "name": "720p",
-                      "url": "https://ia601804.us.archive.org/16/items/king-of-the-hill_202103/Season%2013/1324%20-%20Just%20Another%20Manic%20Kahn-Day.mp4"
-                    },
-                    {
-                      "name": "720p"
+  "Episode": 24,
+  "Title": "Just Another Manic Kahn-Day",
+  "Servers": [
+    {
+      "name": "720p",
+      "url": "https://ia601804.us.archive.org/16/items/king-of-the-hill_202103/Season%2013/1324%20-%20Just%20Another%20Manic%20Kahn-Day.mp4"
+    },
+    {
+      "name": "720p",
+      "url": "https://ia601804.us.archive.org/16/items/king-of-the-hill_202103/Season%2013/1324%20-%20Just%20Another%20Manic%20Kahn-Day.mkv"
+    },
+    {
+      "name": "vidsrc",
+      "url": "https://vidsrc.net/embed/tv/2122/13/24"
+    },
+    {
+      "name": "vidjoy",
+      "url": "https://vidjoy.pro/embed/tv/2122/13/24"
+    },
+    {
+      "name": "multiembed",
+      "url": "https://multiembed.mov/directstream.php?video_id=2122&tmdb=1&s=13&e=24"
+    }
+  ]
+}
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
