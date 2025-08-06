@@ -858,25 +858,6 @@
           ]
         },
         {
-  "Title": "TV 5",
-  "SubCategory": "Entertainment",
-  "Country": "Asia",
-  "Description": "",
-  "Poster": "https://i.imgur.com/Ufp278A.png",
-  "Thumbnail": "https://i.imgur.com/Ufp278A.png",
-  "Rating": 0,
-  "Duration": "",
-  "Year": 0,
-  "Servers": [
-    {
-      "name": "HD",
-      "url": "https://qp-pldt-live-grp-03-prod.akamaized.net/out/u/cg_hbohd.mpd",
-      "license": "d47ebabf7a21430b83a8c4b82d9ef6b1:54c213b2b5f885f1e0290ee4131d425b",
-      "drm": true
-    }
-  ]
-},
-        {
           "Title": "HBO Asia",
           "SubCategory": "Movies",
           "Country": "Asia",
@@ -889,7 +870,7 @@
           "Servers": [
             {
               "name": "HD",
-              "url": "https://qp-pldt-live-grp-03-prod.akamaized.net/out/u/cg_hbohd.mpd"
+              "url": "https://qp-pldt-live-grp-03-prod.akamaized.net/out/u/cg_hbohd.mpd",
               "license": "d47ebabf7a21430b83a8c4b82d9ef6b1:54c213b2b5f885f1e0290ee4131d425b",
       "drm": true
               
@@ -967,9 +948,36 @@
     {
       "MainCategory": "Movies",
       "SubCategories": [
-        "Action"
+        "Action",
+        "Animation"
       ],
-      "Entries": []
+      "Entries": [
+        {
+          "Title": "One Piece: Stampede",
+          "SubCategory": "Animation",
+          "Country": "",
+          "Description": "The world's boldest buccaneers set sail for the great Pirate Festival, where the Straw Hats join a mad-dash race to find Gol D. Roger's treasure. There's just one little problem: An old member of Roger's crew has a sinister score to settle.",
+          "Poster": "https://image.tmdb.org/t/p/w500/4E2lyUGLEr3yH4q6kJxPkQUhX7n.jpg",
+          "Thumbnail": "https://image.tmdb.org/t/p/w500/4E2lyUGLEr3yH4q6kJxPkQUhX7n.jpg",
+          "Rating": 8,
+          "Duration": "1:41",
+          "Year": 2019,
+          "Servers": [
+            {
+              "name": "VidSrc Server 1080p",
+              "url": "https://vidsrc.net/embed/movie/568012"
+            },
+            {
+              "name": "VidJoy Server 1080p",
+              "url": "https://vidjoy.pro/embed/movie/568012"
+            },
+            {
+              "name": "MultiEmbed Server 1080p",
+              "url": "https://multiembed.mov/directstream.php?video_id=568012&tmdb=1"
+            }
+          ]
+        }
+      ]
     },
     {
       "MainCategory": "TV Series",
@@ -980,7 +988,8 @@
         "Animation",
         "Drama",
         "Action & Adventure",
-        "Sci-Fi & Fantasy"
+        "Sci-Fi & Fantasy",
+        "Comedy"
       ],
       "Entries": [
         {
@@ -6871,14 +6880,6 @@
                     {
                       "name": "MultiEmbed Server 1080p",
                       "url": "https://multiembed.mov/directstream.php?video_id=259291&tmdb=1&s=1&e=1"
-                    },
-                    {
-                      "name": "Mega Drive",
-                      "url": "https://mega.nz/file/j1dkTS4S#ebV3tWNwlZIh1SoQbBrPeQ7M3X9edbs6bWUsejeK2Qk"
-                    },
-                    {
-                      "name": "Google Drive",
-                      "url": "https://drive.google.com/file/d/1BaZdGSUBqeaVDDOh37LK4aY0oNkHjWlb/preview"
                     }
                   ]
                 },
@@ -63402,6 +63403,360 @@
                     {
                       "name": "MultiEmbed Server 1080p",
                       "url": "https://multiembed.mov/directstream.php?video_id=215803&tmdb=1&s=3&e=87"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "Title": "Strong Woman Do Bong-Soon",
+          "SubCategory": "Comedy",
+          "Country": "",
+          "Description": "Born with supernatural strength, Bong-soon fights evil and procures justice while getting tangled in a love triangle with her CEO boss and cop crush.",
+          "Poster": "https://image.tmdb.org/t/p/w500/sPdS6oUdXfBNGKROE5RY5s5laqx.jpg",
+          "Thumbnail": "https://image.tmdb.org/t/p/w500/sPdS6oUdXfBNGKROE5RY5s5laqx.jpg",
+          "Rating": 8,
+          "Year": 2017,
+          "Seasons": [
+            {
+              "Season": 1,
+              "SeasonPoster": "https://image.tmdb.org/t/p/w500/sPdS6oUdXfBNGKROE5RY5s5laqx.jpg",
+              "Episodes": [
+                {
+                  "Episode": 1,
+                  "Title": "Ridiculous Punks",
+                  "Duration": "1:09",
+                  "Description": "For generations, a superpower has been passed down the maternal line in Bong-soon's family. But for 27 years, she has always tried to keep it hidden.",
+                  "Thumbnail": "https://image.tmdb.org/t/p/w500/6zXhFepEZ7FWwGc3bQnvZs9DYTZ.jpg",
+                  "Servers": [
+                    {
+                      "name": "VidSrc Server 1080p",
+                      "url": "https://vidsrc.net/embed/tv/68814/1/1"
+                    },
+                    {
+                      "name": "VidJoy Server 1080p",
+                      "url": "https://vidjoy.pro/embed/tv/68814/1/1"
+                    },
+                    {
+                      "name": "MultiEmbed Server 1080p",
+                      "url": "https://multiembed.mov/directstream.php?video_id=68814&tmdb=1&s=1&e=1"
+                    }
+                  ]
+                },
+                {
+                  "Episode": 2,
+                  "Title": "A Criminal's Heart",
+                  "Duration": "1:07",
+                  "Description": "As Min-hyuk spends the day shopping and playing, Bong-soon is forced to follow him around. While at a park, they spot a suspicious man spying on them.",
+                  "Thumbnail": "https://image.tmdb.org/t/p/w500/kyaSfuj7IHbXW2XRjmnsEiQ4F4S.jpg",
+                  "Servers": [
+                    {
+                      "name": "VidSrc Server 1080p",
+                      "url": "https://vidsrc.net/embed/tv/68814/1/2"
+                    },
+                    {
+                      "name": "VidJoy Server 1080p",
+                      "url": "https://vidjoy.pro/embed/tv/68814/1/2"
+                    },
+                    {
+                      "name": "MultiEmbed Server 1080p",
+                      "url": "https://multiembed.mov/directstream.php?video_id=68814&tmdb=1&s=1&e=2"
+                    }
+                  ]
+                },
+                {
+                  "Episode": 3,
+                  "Title": "That Jerk's Secret",
+                  "Duration": "1:06",
+                  "Description": "Bong-soon finds a painting in Min-hyuk's closet that seems out of place. The next day, the two visit the owner of the motorcycle they saw at the park.",
+                  "Thumbnail": "https://image.tmdb.org/t/p/w500/t4tyggG842cxiVSYs6XVmtye61I.jpg",
+                  "Servers": [
+                    {
+                      "name": "VidSrc Server 1080p",
+                      "url": "https://vidsrc.net/embed/tv/68814/1/3"
+                    },
+                    {
+                      "name": "VidJoy Server 1080p",
+                      "url": "https://vidjoy.pro/embed/tv/68814/1/3"
+                    },
+                    {
+                      "name": "MultiEmbed Server 1080p",
+                      "url": "https://multiembed.mov/directstream.php?video_id=68814&tmdb=1&s=1&e=3"
+                    }
+                  ]
+                },
+                {
+                  "Episode": 4,
+                  "Title": "Her True Identity",
+                  "Duration": "1:06",
+                  "Description": "Bong-soon struggles to control not just her power, but also her emotions. To make matters worse, Min-hyuk keeps giving her a hard time.",
+                  "Thumbnail": "https://image.tmdb.org/t/p/w500/fbdrmJChNtAtEmGHznY5j1GP0QU.jpg",
+                  "Servers": [
+                    {
+                      "name": "VidSrc Server 1080p",
+                      "url": "https://vidsrc.net/embed/tv/68814/1/4"
+                    },
+                    {
+                      "name": "VidJoy Server 1080p",
+                      "url": "https://vidjoy.pro/embed/tv/68814/1/4"
+                    },
+                    {
+                      "name": "MultiEmbed Server 1080p",
+                      "url": "https://multiembed.mov/directstream.php?video_id=68814&tmdb=1&s=1&e=4"
+                    }
+                  ]
+                },
+                {
+                  "Episode": 5,
+                  "Title": "Seems As If They're a Friend, and Yet Not",
+                  "Duration": "1:06",
+                  "Description": "The criminal at large seems to be attacking only certain people. Concerned for Bong-soon's safety, Min-hyuk and Guk-doo clash over how to protect her.",
+                  "Thumbnail": "https://image.tmdb.org/t/p/w500/kueGaWu7H4bJsstPjnhd0ZUI7nH.jpg",
+                  "Servers": [
+                    {
+                      "name": "VidSrc Server 1080p",
+                      "url": "https://vidsrc.net/embed/tv/68814/1/5"
+                    },
+                    {
+                      "name": "VidJoy Server 1080p",
+                      "url": "https://vidjoy.pro/embed/tv/68814/1/5"
+                    },
+                    {
+                      "name": "MultiEmbed Server 1080p",
+                      "url": "https://multiembed.mov/directstream.php?video_id=68814&tmdb=1&s=1&e=5"
+                    }
+                  ]
+                },
+                {
+                  "Episode": 6,
+                  "Title": "Happy Together",
+                  "Duration": "1:06",
+                  "Description": "Not able to trust one another overnight, Bong-soon, Min-hyuk and Guk-doo decide to play games instead, evoking the two men's competitive spirits.",
+                  "Thumbnail": "https://image.tmdb.org/t/p/w500/mLvmv2dgLXxmxYFGjrlB75vyJwk.jpg",
+                  "Servers": [
+                    {
+                      "name": "VidSrc Server 1080p",
+                      "url": "https://vidsrc.net/embed/tv/68814/1/6"
+                    },
+                    {
+                      "name": "VidJoy Server 1080p",
+                      "url": "https://vidjoy.pro/embed/tv/68814/1/6"
+                    },
+                    {
+                      "name": "MultiEmbed Server 1080p",
+                      "url": "https://multiembed.mov/directstream.php?video_id=68814&tmdb=1&s=1&e=6"
+                    }
+                  ]
+                },
+                {
+                  "Episode": 7,
+                  "Title": "Changes",
+                  "Duration": "1:10",
+                  "Description": "Osung Group's shareholders get angry when Min-hyuk fails to show up on time to the meeting to discuss his qualifications as the next company leader.",
+                  "Thumbnail": "https://image.tmdb.org/t/p/w500/42s3BZcdqJJNlN1B31NtJcNThgN.jpg",
+                  "Servers": [
+                    {
+                      "name": "VidSrc Server 1080p",
+                      "url": "https://vidsrc.net/embed/tv/68814/1/7"
+                    },
+                    {
+                      "name": "VidJoy Server 1080p",
+                      "url": "https://vidjoy.pro/embed/tv/68814/1/7"
+                    },
+                    {
+                      "name": "MultiEmbed Server 1080p",
+                      "url": "https://multiembed.mov/directstream.php?video_id=68814&tmdb=1&s=1&e=7"
+                    }
+                  ]
+                },
+                {
+                  "Episode": 8,
+                  "Title": "One Step Closer",
+                  "Duration": "1:09",
+                  "Description": "Profilers suggest misogyny motivated the recent crimes. Bong-soon decides to put her dream of developing games second to catching the culprit.",
+                  "Thumbnail": "https://image.tmdb.org/t/p/w500/vp3JKehqxLSXr7N62PvOOJQzR62.jpg",
+                  "Servers": [
+                    {
+                      "name": "VidSrc Server 1080p",
+                      "url": "https://vidsrc.net/embed/tv/68814/1/8"
+                    },
+                    {
+                      "name": "VidJoy Server 1080p",
+                      "url": "https://vidjoy.pro/embed/tv/68814/1/8"
+                    },
+                    {
+                      "name": "MultiEmbed Server 1080p",
+                      "url": "https://multiembed.mov/directstream.php?video_id=68814&tmdb=1&s=1&e=8"
+                    }
+                  ]
+                },
+                {
+                  "Episode": 9,
+                  "Title": "Love Risking One's Life",
+                  "Duration": "1:06",
+                  "Description": "Both Min-hyuk and Guk-doo arrive at the fight scene just before one of Baek Tak's men starts running toward Bong-soon with a dagger in hand.",
+                  "Thumbnail": "https://image.tmdb.org/t/p/w500/zsec04ZYXthWt0KhBT3xtZWrzHQ.jpg",
+                  "Servers": [
+                    {
+                      "name": "VidSrc Server 1080p",
+                      "url": "https://vidsrc.net/embed/tv/68814/1/9"
+                    },
+                    {
+                      "name": "VidJoy Server 1080p",
+                      "url": "https://vidjoy.pro/embed/tv/68814/1/9"
+                    },
+                    {
+                      "name": "MultiEmbed Server 1080p",
+                      "url": "https://multiembed.mov/directstream.php?video_id=68814&tmdb=1&s=1&e=9"
+                    }
+                  ]
+                },
+                {
+                  "Episode": 10,
+                  "Title": "Find A Hidden Heart",
+                  "Duration": "1:07",
+                  "Description": "Frustrated with police legalism, Guk-doo takes drastic measures. Bong-soon is preoccupied with catching the culprit herself, which worries Min-hyuk.",
+                  "Thumbnail": "https://image.tmdb.org/t/p/w500/ovNhKnWCOHoglJ8x65zCXm5R27w.jpg",
+                  "Servers": [
+                    {
+                      "name": "VidSrc Server 1080p",
+                      "url": "https://vidsrc.net/embed/tv/68814/1/10"
+                    },
+                    {
+                      "name": "VidJoy Server 1080p",
+                      "url": "https://vidjoy.pro/embed/tv/68814/1/10"
+                    },
+                    {
+                      "name": "MultiEmbed Server 1080p",
+                      "url": "https://multiembed.mov/directstream.php?video_id=68814&tmdb=1&s=1&e=10"
+                    }
+                  ]
+                },
+                {
+                  "Episode": 11,
+                  "Title": "Timing",
+                  "Duration": "1:08",
+                  "Description": "With the kidnapping case still unsolved and both Min-hyuk and Guk-doo asking to see her that night, Bong-soon finds her life is full of dilemmas.",
+                  "Thumbnail": "https://image.tmdb.org/t/p/w500/zVKZstRCYoGoSPZdINLbeYpGS9i.jpg",
+                  "Servers": [
+                    {
+                      "name": "VidSrc Server 1080p",
+                      "url": "https://vidsrc.net/embed/tv/68814/1/11"
+                    },
+                    {
+                      "name": "VidJoy Server 1080p",
+                      "url": "https://vidjoy.pro/embed/tv/68814/1/11"
+                    },
+                    {
+                      "name": "MultiEmbed Server 1080p",
+                      "url": "https://multiembed.mov/directstream.php?video_id=68814&tmdb=1&s=1&e=11"
+                    }
+                  ]
+                },
+                {
+                  "Episode": 12,
+                  "Title": "Help Me",
+                  "Duration": "1:05",
+                  "Description": "Guk-doo's police team keeps hitting roadblocks while chasing down their suspect. Bong-soon senses something is off from Kyung-shim's text messages.",
+                  "Thumbnail": "https://image.tmdb.org/t/p/w500/8JVnxjVCnR7mFu0fK8ijSamyaio.jpg",
+                  "Servers": [
+                    {
+                      "name": "VidSrc Server 1080p",
+                      "url": "https://vidsrc.net/embed/tv/68814/1/12"
+                    },
+                    {
+                      "name": "VidJoy Server 1080p",
+                      "url": "https://vidjoy.pro/embed/tv/68814/1/12"
+                    },
+                    {
+                      "name": "MultiEmbed Server 1080p",
+                      "url": "https://multiembed.mov/directstream.php?video_id=68814&tmdb=1&s=1&e=12"
+                    }
+                  ]
+                },
+                {
+                  "Episode": 13,
+                  "Title": "Nevertheless",
+                  "Duration": "1:04",
+                  "Description": "Replaying the video of Kyung-shim, Bong-soon hears a strange background noise. Following his hunch, Guk-doo decides to check out the junkyard again.",
+                  "Thumbnail": "https://image.tmdb.org/t/p/w500/3H8zOyGCkptuEMZGC0dCLH8fx8C.jpg",
+                  "Servers": [
+                    {
+                      "name": "VidSrc Server 1080p",
+                      "url": "https://vidsrc.net/embed/tv/68814/1/13"
+                    },
+                    {
+                      "name": "VidJoy Server 1080p",
+                      "url": "https://vidjoy.pro/embed/tv/68814/1/13"
+                    },
+                    {
+                      "name": "MultiEmbed Server 1080p",
+                      "url": "https://multiembed.mov/directstream.php?video_id=68814&tmdb=1&s=1&e=13"
+                    }
+                  ]
+                },
+                {
+                  "Episode": 14,
+                  "Title": "A Prelude to the Battle",
+                  "Duration": "1:07",
+                  "Description": "When Bong-soon doesn't come home late into the night, her dad gets worried. Guk-doo is conflicted over what to include on Kyung-shim's case report.",
+                  "Thumbnail": "https://image.tmdb.org/t/p/w500/g1ZIDUaW5O7ovI9skOWq4xsTyYO.jpg",
+                  "Servers": [
+                    {
+                      "name": "VidSrc Server 1080p",
+                      "url": "https://vidsrc.net/embed/tv/68814/1/14"
+                    },
+                    {
+                      "name": "VidJoy Server 1080p",
+                      "url": "https://vidjoy.pro/embed/tv/68814/1/14"
+                    },
+                    {
+                      "name": "MultiEmbed Server 1080p",
+                      "url": "https://multiembed.mov/directstream.php?video_id=68814&tmdb=1&s=1&e=14"
+                    }
+                  ]
+                },
+                {
+                  "Episode": 15,
+                  "Title": "Level Up",
+                  "Duration": "1:06",
+                  "Description": "With the case unresolved, Guk-doo's team visits Min-hyuk's company to gather clues. Guk-doo hears from Bong-soon the details of last night's events.",
+                  "Thumbnail": "https://image.tmdb.org/t/p/w500/9xM6UuvazMP5KS8zFQ4tlitoP7m.jpg",
+                  "Servers": [
+                    {
+                      "name": "VidSrc Server 1080p",
+                      "url": "https://vidsrc.net/embed/tv/68814/1/15"
+                    },
+                    {
+                      "name": "VidJoy Server 1080p",
+                      "url": "https://vidjoy.pro/embed/tv/68814/1/15"
+                    },
+                    {
+                      "name": "MultiEmbed Server 1080p",
+                      "url": "https://multiembed.mov/directstream.php?video_id=68814&tmdb=1&s=1&e=15"
+                    }
+                  ]
+                },
+                {
+                  "Episode": 16,
+                  "Title": "Final",
+                  "Duration": "1:11",
+                  "Description": "As Bong-soon prepares to launch her online game inspired by her own story, she no longer feels ashamed to be her \"special\" self offline as well.",
+                  "Thumbnail": "https://image.tmdb.org/t/p/w500/zyMIXfQjfyoATpB7j6NJrm42GfD.jpg",
+                  "Servers": [
+                    {
+                      "name": "VidSrc Server 1080p",
+                      "url": "https://vidsrc.net/embed/tv/68814/1/16"
+                    },
+                    {
+                      "name": "VidJoy Server 1080p",
+                      "url": "https://vidjoy.pro/embed/tv/68814/1/16"
+                    },
+                    {
+                      "name": "MultiEmbed Server 1080p",
+                      "url": "https://multiembed.mov/directstream.php?video_id=68814&tmdb=1&s=1&e=16"
                     }
                   ]
                 }
