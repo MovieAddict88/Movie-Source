@@ -1,7 +1,7 @@
 {
   "Categories": [
     {
-      "MainCategory": "Live TV",
+      "MainCategory": "LiveTV",
       "SubCategories": [
         "Entertainment"
       ],
@@ -18,10 +18,10 @@
       ],
       "Entries": [
         {
-          "Title": "Four Sisters Before the Wedding",
+          "Title": "FourSistersBeforetheWedding",
           "SubCategory": "Comedy",
           "Country": "",
-          "Description": "When their parents' marriage threatens to crumble, the teenage Salazar siblings plot to reconcile them before their 20th wedding anniversary.",
+          "Description": "Whentheirparents'marriagethreatenstocrumble,theteenageSalazarsiblingsplottoreconcilethembeforetheir20thweddinganniversary.",
           "Poster": "https://image.tmdb.org/t/p/w500/jqx1WB1ozhnBgSF4DQlthIK8t5g.jpg",
           "Thumbnail": "https://image.tmdb.org/t/p/w500/jqx1WB1ozhnBgSF4DQlthIK8t5g.jpg",
           "Rating": 6,
@@ -29,99 +29,99 @@
           "Year": 2020,
           "Servers": [
             {
-              "name": "VidSrc 1080p",
+              "name": "VidSrc1080p",
               "url": "https://vidsrc.net/embed/movie/696209"
             },
             {
-              "name": "VidJoy 1080p",
+              "name": "VidJoy1080p",
               "url": "https://vidjoy.pro/embed/movie/696209"
             },
             {
-              "name": "MultiEmbed 1080p",
+              "name": "MultiEmbed1080p",
               "url": "https://multiembed.mov/directstream.php?video_id=696209&content_type=movie"
             },
             {
-              "name": "Embed.su 1080p",
+              "name": "Embed.su1080p",
               "url": "https://embed.su/embed/movie/696209"
             },
             {
-              "name": "VidSrc.me 1080p",
+              "name": "VidSrc.me1080p",
               "url": "https://vidsrc.me/embed/movie/696209"
             },
             {
-              "name": "AutoEmbed 1080p",
+              "name": "AutoEmbed1080p",
               "url": "https://player.autoembed.cc/embed/movie/696209"
             },
             {
-              "name": "SmashyStream 1080p",
+              "name": "SmashyStream1080p",
               "url": "https://player.smashy.stream/movie/696209"
             },
             {
-              "name": "VidSrc.to 1080p",
+              "name": "VidSrc.to1080p",
               "url": "https://vidsrc.to/embed/movie/696209"
             },
             {
-              "name": "VidSrc.xyz 1080p",
+              "name": "VidSrc.xyz1080p",
               "url": "https://vidsrc.xyz/embed/movie/696209"
             },
             {
-              "name": "EmbedSoap 1080p",
+              "name": "EmbedSoap1080p",
               "url": "https://www.embedsoap.com/embed/movie/696209"
             },
             {
-              "name": "MoviesAPI 1080p",
+              "name": "MoviesAPI1080p",
               "url": "https://moviesapi.club/movie/696209"
             },
             {
-              "name": "DBGO 1080p",
+              "name": "DBGO1080p",
               "url": "https://dbgo.fun/movie/696209"
             },
             {
-              "name": "FlixHQ 1080p",
+              "name": "FlixHQ1080p",
               "url": "https://flixhq.to/watch/movie/696209"
             },
             {
-              "name": "GoMovies 1080p",
+              "name": "GoMovies1080p",
               "url": "https://gomovies.sx/watch/movie/696209"
             },
             {
-              "name": "ShowBox 1080p",
+              "name": "ShowBox1080p",
               "url": "https://www.showbox.media/embed/movie/696209"
             },
             {
-              "name": "PrimeWire 1080p",
+              "name": "PrimeWire1080p",
               "url": "https://primewire.mx/embed/movie/696209"
             },
             {
-              "name": "HDToday 1080p",
+              "name": "HDToday1080p",
               "url": "https://hdtoday.tv/embed/movie/696209"
             },
             {
-              "name": "VidCloud 1080p",
+              "name": "VidCloud1080p",
               "url": "https://vidcloud.to/embed/movie/696209"
             },
             {
-              "name": "StreamWish 1080p",
+              "name": "StreamWish1080p",
               "url": "https://streamwish.to/e/696209"
             },
             {
-              "name": "DoodStream 1080p",
+              "name": "DoodStream1080p",
               "url": "https://doodstream.com/e/696209"
             },
             {
-              "name": "StreamTape 1080p",
+              "name": "StreamTape1080p",
               "url": "https://streamtape.com/e/696209"
             },
             {
-              "name": "MixDrop 1080p",
+              "name": "MixDrop1080p",
               "url": "https://mixdrop.co/e/696209"
             },
             {
-              "name": "FileMoon 1080p",
+              "name": "FileMoon1080p",
               "url": "https://filemoon.sx/e/696209"
             },
             {
-              "name": "UpStream 1080p",
+              "name": "UpStream1080p",
               "url": "https://upstream.to/embed-696209.html"
             }
           ]
@@ -129,13 +129,13 @@
       ]
     },
     {
-      "MainCategory": "TV Series",
+      "MainCategory": "TVSeries",
       "SubCategories": [
         "Anime",
         "Action",
         "Comedy",
         "Drama",
-        "Action & Adventure"
+        "Action&Adventure"
       ],
       "Entries": []
     }
