@@ -14,91 +14,116 @@
         "Comedy",
         "Drama",
         "Horror",
-        "Sci-Fi"
+        "Sci-Fi",
+        "Science Fiction"
       ],
       "Entries": [
         {
-          "Title": "Mischief",
-          "SubCategory": "Drama",
+          "Title": "Jurassic World Rebirth",
+          "SubCategory": "Science Fiction",
           "Country": "",
-          "Description": "Sex and rumors abound in this erotic story about high school student Jules, who won’t stop at anything to get back best friend Dahlia from new student Nessa, even if it means making up stories of illicit affairs with teachers.",
-          "Poster": "https://image.tmdb.org/t/p/w500/aQCJba6669KSTHrreNlrZuLPwWQ.jpg",
-          "Thumbnail": "https://image.tmdb.org/t/p/w500/aQCJba6669KSTHrreNlrZuLPwWQ.jpg",
-          "Rating": 8,
-          "Duration": "1:06",
-          "Year": 2024,
+          "Description": "Five years after the events of Jurassic World Dominion, covert operations expert Zora Bennett is contracted to lead a skilled team on a top-secret mission to secure genetic material from the world's three most massive dinosaurs. When Zora's operation intersects with a civilian family whose boating expedition was capsized, they all find themselves stranded on an island where they come face-to-face with a sinister, shocking discovery that's been hidden from the world for decades.",
+          "Poster": "https://image.tmdb.org/t/p/w500/1RICxzeoNCAO5NpcRMIgg1XT6fm.jpg",
+          "Thumbnail": "https://image.tmdb.org/t/p/w500/1RICxzeoNCAO5NpcRMIgg1XT6fm.jpg",
+          "Rating": 6,
+          "Duration": "2:14",
+          "Year": 2025,
           "Servers": [
             {
-              "url": "https://vidsrc.net/embed/movie/1337397"
+              "name": "VidSrc 1080p",
+              "url": "https://vidsrc.net/embed/movie/1234821"
             },
             {
-              "url": "https://vidjoy.pro/embed/movie/1337397"
+              "name": "VidJoy 1080p",
+              "url": "https://vidjoy.pro/embed/movie/1234821"
             },
             {
-              "url": "https://multiembed.mov/directstream.php?video_id=1337397&content_type=movie"
+              "name": "MultiEmbed 1080p",
+              "url": "https://multiembed.mov/directstream.php?video_id=1234821&content_type=movie"
             },
             {
-              "url": "https://embed.su/embed/movie/1337397"
+              "name": "Embed.su 1080p",
+              "url": "https://embed.su/embed/movie/1234821"
             },
             {
-              "url": "https://vidsrc.me/embed/movie/1337397"
+              "name": "VidSrc.me 1080p",
+              "url": "https://vidsrc.me/embed/movie/1234821"
             },
             {
-              "url": "https://player.autoembed.cc/embed/movie/1337397"
+              "name": "AutoEmbed 1080p",
+              "url": "https://player.autoembed.cc/embed/movie/1234821"
             },
             {
-              "url": "https://player.smashy.stream/movie/1337397"
+              "name": "SmashyStream 1080p",
+              "url": "https://player.smashy.stream/movie/1234821"
             },
             {
-              "url": "https://vidsrc.to/embed/movie/1337397"
+              "name": "VidSrc.to 1080p",
+              "url": "https://vidsrc.to/embed/movie/1234821"
             },
             {
-              "url": "https://vidsrc.xyz/embed/movie/1337397"
+              "name": "VidSrc.xyz 1080p",
+              "url": "https://vidsrc.xyz/embed/movie/1234821"
             },
             {
-              "url": "https://www.embedsoap.com/embed/movie/1337397"
+              "name": "EmbedSoap 1080p",
+              "url": "https://www.embedsoap.com/embed/movie/1234821"
             },
             {
-              "url": "https://moviesapi.club/movie/1337397"
+              "name": "MoviesAPI 1080p",
+              "url": "https://moviesapi.club/movie/1234821"
             },
             {
-              "url": "https://dbgo.fun/movie/1337397"
+              "name": "DBGO 1080p",
+              "url": "https://dbgo.fun/movie/1234821"
             },
             {
-              "url": "https://flixhq.to/watch/movie/1337397"
+              "name": "FlixHQ 1080p",
+              "url": "https://flixhq.to/watch/movie/1234821"
             },
             {
-              "url": "https://gomovies.sx/watch/movie/1337397"
+              "name": "GoMovies 1080p",
+              "url": "https://gomovies.sx/watch/movie/1234821"
             },
             {
-              "url": "https://www.showbox.media/embed/movie/1337397"
+              "name": "ShowBox 1080p",
+              "url": "https://www.showbox.media/embed/movie/1234821"
             },
             {
-              "url": "https://primewire.mx/embed/movie/1337397"
+              "name": "PrimeWire 1080p",
+              "url": "https://primewire.mx/embed/movie/1234821"
             },
             {
-              "url": "https://hdtoday.tv/embed/movie/1337397"
+              "name": "HDToday 1080p",
+              "url": "https://hdtoday.tv/embed/movie/1234821"
             },
             {
-              "url": "https://vidcloud.to/embed/movie/1337397"
+              "name": "VidCloud 1080p",
+              "url": "https://vidcloud.to/embed/movie/1234821"
             },
             {
-              "url": "https://streamwish.to/e/1337397"
+              "name": "StreamWish 1080p",
+              "url": "https://streamwish.to/e/1234821"
             },
             {
-              "url": "https://doodstream.com/e/1337397"
+              "name": "DoodStream 1080p",
+              "url": "https://doodstream.com/e/1234821"
             },
             {
-              "url": "https://streamtape.com/e/1337397"
+              "name": "StreamTape 1080p",
+              "url": "https://streamtape.com/e/1234821"
             },
             {
-              "url": "https://mixdrop.co/e/1337397"
+              "name": "MixDrop 1080p",
+              "url": "https://mixdrop.co/e/1234821"
             },
             {
-              "url": "https://filemoon.sx/e/1337397"
+              "name": "FileMoon 1080p",
+              "url": "https://filemoon.sx/e/1234821"
             },
             {
-              "url": "https://upstream.to/embed-1337397.html"
+              "name": "UpStream 1080p",
+              "url": "https://upstream.to/embed-1234821.html"
             }
           ]
         }
@@ -114,826 +139,1486 @@
       ],
       "Entries": [
         {
-          "Title": "Pyramid Game",
+          "Title": "Saving Grace",
           "SubCategory": "Drama",
           "Country": "",
-          "Description": "Every last Thursday of the month at an all-girls high school, the students of Class 2–5 cast their votes in a popularity poll. The results classify them into Grades A, B, C, D, and F. If they fall into Grade F, they become legitimate victims of school violence.",
-          "Poster": "https://image.tmdb.org/t/p/w500/pBUERwWNCuO36CPxiVFsoQCPu7W.jpg",
-          "Thumbnail": "https://image.tmdb.org/t/p/w500/pBUERwWNCuO36CPxiVFsoQCPu7W.jpg",
-          "Rating": 8,
+          "Description": "Anna, an elementary school teacher, discovers that her student Grace is a victim of abuse. Driven by maternal instinct, Anna abducts Grace to protect her and assumes the role of a mother. As they bond amid threats from the authorities and Grace's abusive mother, Anna confronts her painful past, realizing that she needs healing as much as Grace does.",
+          "Poster": "https://image.tmdb.org/t/p/w500/p3HlWoyruk41DPquKuWS0ZVoK0j.jpg",
+          "Thumbnail": "https://image.tmdb.org/t/p/w500/p3HlWoyruk41DPquKuWS0ZVoK0j.jpg",
+          "Rating": 10,
           "Year": 2024,
           "Seasons": [
             {
               "Season": 1,
-              "SeasonPoster": "https://image.tmdb.org/t/p/w500/pBUERwWNCuO36CPxiVFsoQCPu7W.jpg",
+              "SeasonPoster": "https://image.tmdb.org/t/p/w500/p3HlWoyruk41DPquKuWS0ZVoK0j.jpg",
               "Episodes": [
                 {
                   "Episode": 1,
-                  "Title": "Sung Soo Ji: The Transfer Student",
-                  "Duration": "53:00",
-                  "Description": "Soo Ji transfers to Baekyeon Girls’ High School and discovers that her class plays a game called the Pyramid Game in which the students decide on a hierarchy based on a popular vote. As Soo Ji ends up in the lowest rank, she devises a plan to get back on her feet.",
-                  "Thumbnail": "https://image.tmdb.org/t/p/w500/53DckG9m3mnA2k06OIZWggZRLnZ.jpg",
+                  "Title": "Episode 1",
+                  "Duration": "1:00",
+                  "Description": "Anna, an emotionally distant teacher, determinedly prepares for an opportunity abroad. However, an unexpected turn of events leads her to meet Grace, a young student suffering from abuse. As she grows closer to the young girl, Anna becomes torn between pursuing her dreams and saving Grace from her abusive parents.",
+                  "Thumbnail": "https://image.tmdb.org/t/p/w500/4S68qxIkStzIFAu8EwZhLHPCFKe.jpg",
                   "Servers": [
                     {
-                      "url": "https://vidsrc.net/embed/tv/227192/1/1"
+                      "name": "VidSrc 1080p",
+                      "url": "https://vidsrc.net/embed/tv/259291/1/1"
                     },
                     {
-                      "url": "https://vidjoy.pro/embed/tv/227192/1/1"
+                      "name": "VidJoy 1080p",
+                      "url": "https://vidjoy.pro/embed/tv/259291/1/1"
                     },
                     {
-                      "url": "https://multiembed.mov/directstream.php?video_id=227192&tmdb=1&s=1&e=1"
+                      "name": "MultiEmbed 1080p",
+                      "url": "https://multiembed.mov/directstream.php?video_id=259291&tmdb=1&s=1&e=1"
                     },
                     {
-                      "url": "https://embed.su/embed/tv/227192/1/1"
+                      "name": "Embed.su 1080p",
+                      "url": "https://embed.su/embed/tv/259291/1/1"
                     },
                     {
-                      "url": "https://vidsrc.me/embed/tv/227192/1/1"
+                      "name": "VidSrc.me 1080p",
+                      "url": "https://vidsrc.me/embed/tv/259291/1/1"
                     },
                     {
-                      "url": "https://player.autoembed.cc/embed/tv/227192/1/1"
+                      "name": "AutoEmbed 1080p",
+                      "url": "https://player.autoembed.cc/embed/tv/259291/1/1"
                     },
                     {
-                      "url": "https://player.smashy.stream/movie/227192?s=1&e=1"
+                      "name": "SmashyStream 1080p",
+                      "url": "https://player.smashy.stream/movie/259291?s=1&e=1"
                     },
                     {
-                      "url": "https://vidsrc.to/embed/tv/227192/1/1"
+                      "name": "VidSrc.to 1080p",
+                      "url": "https://vidsrc.to/embed/tv/259291/1/1"
                     },
                     {
-                      "url": "https://vidsrc.xyz/embed/tv/227192/1/1"
+                      "name": "VidSrc.xyz 1080p",
+                      "url": "https://vidsrc.xyz/embed/tv/259291/1/1"
                     },
                     {
-                      "url": "https://www.embedsoap.com/embed/tv/227192/1/1"
+                      "name": "EmbedSoap 1080p",
+                      "url": "https://www.embedsoap.com/embed/tv/259291/1/1"
                     },
                     {
-                      "url": "https://moviesapi.club/movie/227192?s=1&e=1"
+                      "name": "MoviesAPI 1080p",
+                      "url": "https://moviesapi.club/movie/259291?s=1&e=1"
                     },
                     {
-                      "url": "https://dbgo.fun/movie/227192?s=1&e=1"
+                      "name": "DBGO 1080p",
+                      "url": "https://dbgo.fun/movie/259291?s=1&e=1"
                     },
                     {
-                      "url": "https://flixhq.to/watch/tv/227192/1/1"
+                      "name": "FlixHQ 1080p",
+                      "url": "https://flixhq.to/watch/tv/259291/1/1"
                     },
                     {
-                      "url": "https://gomovies.sx/watch/tv/227192/1/1"
+                      "name": "GoMovies 1080p",
+                      "url": "https://gomovies.sx/watch/tv/259291/1/1"
                     },
                     {
-                      "url": "https://www.showbox.media/embed/tv/227192/1/1"
+                      "name": "ShowBox 1080p",
+                      "url": "https://www.showbox.media/embed/tv/259291/1/1"
                     },
                     {
-                      "url": "https://primewire.mx/embed/tv/227192/1/1"
+                      "name": "PrimeWire 1080p",
+                      "url": "https://primewire.mx/embed/tv/259291/1/1"
                     },
                     {
-                      "url": "https://hdtoday.tv/embed/tv/227192/1/1"
+                      "name": "HDToday 1080p",
+                      "url": "https://hdtoday.tv/embed/tv/259291/1/1"
                     },
                     {
-                      "url": "https://vidcloud.to/embed/tv/227192/1/1"
+                      "name": "VidCloud 1080p",
+                      "url": "https://vidcloud.to/embed/tv/259291/1/1"
                     },
                     {
-                      "url": "https://streamwish.to/e/227192_s1e1"
+                      "name": "StreamWish 1080p",
+                      "url": "https://streamwish.to/e/259291_s1e1"
                     },
                     {
-                      "url": "https://doodstream.com/e/227192_s1e1"
+                      "name": "DoodStream 1080p",
+                      "url": "https://doodstream.com/e/259291_s1e1"
                     },
                     {
-                      "url": "https://streamtape.com/e/227192_s1e1"
+                      "name": "StreamTape 1080p",
+                      "url": "https://streamtape.com/e/259291_s1e1"
                     },
                     {
-                      "url": "https://mixdrop.co/e/227192_s1e1"
+                      "name": "MixDrop 1080p",
+                      "url": "https://mixdrop.co/e/259291_s1e1"
                     },
                     {
-                      "url": "https://filemoon.sx/e/227192_s1e1"
+                      "name": "FileMoon 1080p",
+                      "url": "https://filemoon.sx/e/259291_s1e1"
                     },
                     {
-                      "url": "https://upstream.to/embed-227192s1e1.html"
+                      "name": "UpStream 1080p",
+                      "url": "https://upstream.to/embed-259291s1e1.html"
                     }
                   ]
                 },
                 {
                   "Episode": 2,
-                  "Title": "The Mastermind of the Pyramid Game",
-                  "Duration": "57:00",
-                  "Description": "Soo Ji is determined to figure out the characteristics of her classmates and the mastermind behind the Pyramid Game. She also tries to join forces with other girls who seem vulnerable. She even asks her homeroom teacher for help, only to be disappointed. Meanwhile, the 14th Pyramid Game begins, and Ja Eun, who kept skipping school, shows up.",
-                  "Thumbnail": "https://image.tmdb.org/t/p/w500/9Jnyhpgp69mHF7Y0C3oamAcCt1K.jpg",
+                  "Title": "Episode 2",
+                  "Duration": "1:00",
+                  "Description": "Anna rescues Grace and accompanies her to Quezon, but they face numerous setbacks along the way. The news of Grace's disappearance reaches public affairs host Miranda Valdez, who then shows interest in the story to save her program. Meanwhile, Chito gets questioned by the authorities about the possible abuse of the missing child.",
+                  "Thumbnail": "https://image.tmdb.org/t/p/w500/ouAxHWooqmeAd8gbiJszovJ0BXa.jpg",
                   "Servers": [
                     {
-                      "url": "https://vidsrc.net/embed/tv/227192/1/2"
+                      "name": "VidSrc 1080p",
+                      "url": "https://vidsrc.net/embed/tv/259291/1/2"
                     },
                     {
-                      "url": "https://vidjoy.pro/embed/tv/227192/1/2"
+                      "name": "VidJoy 1080p",
+                      "url": "https://vidjoy.pro/embed/tv/259291/1/2"
                     },
                     {
-                      "url": "https://multiembed.mov/directstream.php?video_id=227192&tmdb=1&s=1&e=2"
+                      "name": "MultiEmbed 1080p",
+                      "url": "https://multiembed.mov/directstream.php?video_id=259291&tmdb=1&s=1&e=2"
                     },
                     {
-                      "url": "https://embed.su/embed/tv/227192/1/2"
+                      "name": "Embed.su 1080p",
+                      "url": "https://embed.su/embed/tv/259291/1/2"
                     },
                     {
-                      "url": "https://vidsrc.me/embed/tv/227192/1/2"
+                      "name": "VidSrc.me 1080p",
+                      "url": "https://vidsrc.me/embed/tv/259291/1/2"
                     },
                     {
-                      "url": "https://player.autoembed.cc/embed/tv/227192/1/2"
+                      "name": "AutoEmbed 1080p",
+                      "url": "https://player.autoembed.cc/embed/tv/259291/1/2"
                     },
                     {
-                      "url": "https://player.smashy.stream/movie/227192?s=1&e=2"
+                      "name": "SmashyStream 1080p",
+                      "url": "https://player.smashy.stream/movie/259291?s=1&e=2"
                     },
                     {
-                      "url": "https://vidsrc.to/embed/tv/227192/1/2"
+                      "name": "VidSrc.to 1080p",
+                      "url": "https://vidsrc.to/embed/tv/259291/1/2"
                     },
                     {
-                      "url": "https://vidsrc.xyz/embed/tv/227192/1/2"
+                      "name": "VidSrc.xyz 1080p",
+                      "url": "https://vidsrc.xyz/embed/tv/259291/1/2"
                     },
                     {
-                      "url": "https://www.embedsoap.com/embed/tv/227192/1/2"
+                      "name": "EmbedSoap 1080p",
+                      "url": "https://www.embedsoap.com/embed/tv/259291/1/2"
                     },
                     {
-                      "url": "https://moviesapi.club/movie/227192?s=1&e=2"
+                      "name": "MoviesAPI 1080p",
+                      "url": "https://moviesapi.club/movie/259291?s=1&e=2"
                     },
                     {
-                      "url": "https://dbgo.fun/movie/227192?s=1&e=2"
+                      "name": "DBGO 1080p",
+                      "url": "https://dbgo.fun/movie/259291?s=1&e=2"
                     },
                     {
-                      "url": "https://flixhq.to/watch/tv/227192/1/2"
+                      "name": "FlixHQ 1080p",
+                      "url": "https://flixhq.to/watch/tv/259291/1/2"
                     },
                     {
-                      "url": "https://gomovies.sx/watch/tv/227192/1/2"
+                      "name": "GoMovies 1080p",
+                      "url": "https://gomovies.sx/watch/tv/259291/1/2"
                     },
                     {
-                      "url": "https://www.showbox.media/embed/tv/227192/1/2"
+                      "name": "ShowBox 1080p",
+                      "url": "https://www.showbox.media/embed/tv/259291/1/2"
                     },
                     {
-                      "url": "https://primewire.mx/embed/tv/227192/1/2"
+                      "name": "PrimeWire 1080p",
+                      "url": "https://primewire.mx/embed/tv/259291/1/2"
                     },
                     {
-                      "url": "https://hdtoday.tv/embed/tv/227192/1/2"
+                      "name": "HDToday 1080p",
+                      "url": "https://hdtoday.tv/embed/tv/259291/1/2"
                     },
                     {
-                      "url": "https://vidcloud.to/embed/tv/227192/1/2"
+                      "name": "VidCloud 1080p",
+                      "url": "https://vidcloud.to/embed/tv/259291/1/2"
                     },
                     {
-                      "url": "https://streamwish.to/e/227192_s1e2"
+                      "name": "StreamWish 1080p",
+                      "url": "https://streamwish.to/e/259291_s1e2"
                     },
                     {
-                      "url": "https://doodstream.com/e/227192_s1e2"
+                      "name": "DoodStream 1080p",
+                      "url": "https://doodstream.com/e/259291_s1e2"
                     },
                     {
-                      "url": "https://streamtape.com/e/227192_s1e2"
+                      "name": "StreamTape 1080p",
+                      "url": "https://streamtape.com/e/259291_s1e2"
                     },
                     {
-                      "url": "https://mixdrop.co/e/227192_s1e2"
+                      "name": "MixDrop 1080p",
+                      "url": "https://mixdrop.co/e/259291_s1e2"
                     },
                     {
-                      "url": "https://filemoon.sx/e/227192_s1e2"
+                      "name": "FileMoon 1080p",
+                      "url": "https://filemoon.sx/e/259291_s1e2"
                     },
                     {
-                      "url": "https://upstream.to/embed-227192s1e2.html"
+                      "name": "UpStream 1080p",
+                      "url": "https://upstream.to/embed-259291s1e2.html"
                     }
                   ]
                 },
                 {
                   "Episode": 3,
-                  "Title": "The Birth of a Trio",
+                  "Title": "Episode 3",
                   "Duration": "1:00",
-                  "Description": "Soo Ji moves up to Grade C, and the treatment she gets changed completely overnight. She breaks the promise she made with Ja Eun, but she decides to join hands with her and help the new girl in Grade F, Pyo Ji Ae. Soo Ji, Ja Eun, and Ji Ae come up with a plan to destroy the pyramid altogether.",
-                  "Thumbnail": "https://image.tmdb.org/t/p/w500/swqK0Iu4obsHABbcqQPJjdYghPp.jpg",
+                  "Description": "Anna and Grace find refuge in Lucia's abandoned orphanage. While Anna works to provide for their needs, her past catches up with her when Miranda, Detective Oscar and TV producer Julius investigate her involvement in the missing girl's case. As the pressure of investigation mounts and Lucia's vindictive son looms eviction, Anna faces a heart-wrenching decision for Grace.",
+                  "Thumbnail": "https://image.tmdb.org/t/p/w500/pgW33Nx6uNtoODHSYjhtyEO7zJV.jpg",
                   "Servers": [
                     {
-                      "url": "https://vidsrc.net/embed/tv/227192/1/3"
+                      "name": "VidSrc 1080p",
+                      "url": "https://vidsrc.net/embed/tv/259291/1/3"
                     },
                     {
-                      "url": "https://vidjoy.pro/embed/tv/227192/1/3"
+                      "name": "VidJoy 1080p",
+                      "url": "https://vidjoy.pro/embed/tv/259291/1/3"
                     },
                     {
-                      "url": "https://multiembed.mov/directstream.php?video_id=227192&tmdb=1&s=1&e=3"
+                      "name": "MultiEmbed 1080p",
+                      "url": "https://multiembed.mov/directstream.php?video_id=259291&tmdb=1&s=1&e=3"
                     },
                     {
-                      "url": "https://embed.su/embed/tv/227192/1/3"
+                      "name": "Embed.su 1080p",
+                      "url": "https://embed.su/embed/tv/259291/1/3"
                     },
                     {
-                      "url": "https://vidsrc.me/embed/tv/227192/1/3"
+                      "name": "VidSrc.me 1080p",
+                      "url": "https://vidsrc.me/embed/tv/259291/1/3"
                     },
                     {
-                      "url": "https://player.autoembed.cc/embed/tv/227192/1/3"
+                      "name": "AutoEmbed 1080p",
+                      "url": "https://player.autoembed.cc/embed/tv/259291/1/3"
                     },
                     {
-                      "url": "https://player.smashy.stream/movie/227192?s=1&e=3"
+                      "name": "SmashyStream 1080p",
+                      "url": "https://player.smashy.stream/movie/259291?s=1&e=3"
                     },
                     {
-                      "url": "https://vidsrc.to/embed/tv/227192/1/3"
+                      "name": "VidSrc.to 1080p",
+                      "url": "https://vidsrc.to/embed/tv/259291/1/3"
                     },
                     {
-                      "url": "https://vidsrc.xyz/embed/tv/227192/1/3"
+                      "name": "VidSrc.xyz 1080p",
+                      "url": "https://vidsrc.xyz/embed/tv/259291/1/3"
                     },
                     {
-                      "url": "https://www.embedsoap.com/embed/tv/227192/1/3"
+                      "name": "EmbedSoap 1080p",
+                      "url": "https://www.embedsoap.com/embed/tv/259291/1/3"
                     },
                     {
-                      "url": "https://moviesapi.club/movie/227192?s=1&e=3"
+                      "name": "MoviesAPI 1080p",
+                      "url": "https://moviesapi.club/movie/259291?s=1&e=3"
                     },
                     {
-                      "url": "https://dbgo.fun/movie/227192?s=1&e=3"
+                      "name": "DBGO 1080p",
+                      "url": "https://dbgo.fun/movie/259291?s=1&e=3"
                     },
                     {
-                      "url": "https://flixhq.to/watch/tv/227192/1/3"
+                      "name": "FlixHQ 1080p",
+                      "url": "https://flixhq.to/watch/tv/259291/1/3"
                     },
                     {
-                      "url": "https://gomovies.sx/watch/tv/227192/1/3"
+                      "name": "GoMovies 1080p",
+                      "url": "https://gomovies.sx/watch/tv/259291/1/3"
                     },
                     {
-                      "url": "https://www.showbox.media/embed/tv/227192/1/3"
+                      "name": "ShowBox 1080p",
+                      "url": "https://www.showbox.media/embed/tv/259291/1/3"
                     },
                     {
-                      "url": "https://primewire.mx/embed/tv/227192/1/3"
+                      "name": "PrimeWire 1080p",
+                      "url": "https://primewire.mx/embed/tv/259291/1/3"
                     },
                     {
-                      "url": "https://hdtoday.tv/embed/tv/227192/1/3"
+                      "name": "HDToday 1080p",
+                      "url": "https://hdtoday.tv/embed/tv/259291/1/3"
                     },
                     {
-                      "url": "https://vidcloud.to/embed/tv/227192/1/3"
+                      "name": "VidCloud 1080p",
+                      "url": "https://vidcloud.to/embed/tv/259291/1/3"
                     },
                     {
-                      "url": "https://streamwish.to/e/227192_s1e3"
+                      "name": "StreamWish 1080p",
+                      "url": "https://streamwish.to/e/259291_s1e3"
                     },
                     {
-                      "url": "https://doodstream.com/e/227192_s1e3"
+                      "name": "DoodStream 1080p",
+                      "url": "https://doodstream.com/e/259291_s1e3"
                     },
                     {
-                      "url": "https://streamtape.com/e/227192_s1e3"
+                      "name": "StreamTape 1080p",
+                      "url": "https://streamtape.com/e/259291_s1e3"
                     },
                     {
-                      "url": "https://mixdrop.co/e/227192_s1e3"
+                      "name": "MixDrop 1080p",
+                      "url": "https://mixdrop.co/e/259291_s1e3"
                     },
                     {
-                      "url": "https://filemoon.sx/e/227192_s1e3"
+                      "name": "FileMoon 1080p",
+                      "url": "https://filemoon.sx/e/259291_s1e3"
                     },
                     {
-                      "url": "https://upstream.to/embed-227192s1e3.html"
+                      "name": "UpStream 1080p",
+                      "url": "https://upstream.to/embed-259291s1e3.html"
                     }
                   ]
                 },
                 {
                   "Episode": 4,
-                  "Title": "The Leaked Plan",
-                  "Duration": "50:00",
-                  "Description": "Soo Ji begins to feel uneasy about the unfolding events, suspecting that her plan may have been compromised and that Ha Rin is catching on. Learning this, Pyo Ji Ae worries she may have made a mistake and dreads the potential consequences. Meanwhile, Soo Ji hints to Hae Jun that she holds leverage over her, coercing Hae Jun into assisting her. Soo Ji recruits a hacker to join her team.",
-                  "Thumbnail": "https://image.tmdb.org/t/p/w500/die1iaWAtxL58yO26Gh7HjqBLkZ.jpg",
+                  "Title": "Episode 4",
+                  "Duration": "59:00",
+                  "Description": "Tension rises when the police locate Lucia's orphanage and Sarah catches sight of her daughter, Grace. Luckily, Grace manages to escape while Sarah is left bewildered by her action. Left with no other option, Anna takes Grace to Palawan and seeks help from her adoptive mother, Helena. However, family tensions rise, threatening to expose Anna's secret.",
+                  "Thumbnail": "https://image.tmdb.org/t/p/w500/4va0SaI6u56VCtEGPql22HQG6Ex.jpg",
                   "Servers": [
                     {
-                      "url": "https://vidsrc.net/embed/tv/227192/1/4"
+                      "name": "VidSrc 1080p",
+                      "url": "https://vidsrc.net/embed/tv/259291/1/4"
                     },
                     {
-                      "url": "https://vidjoy.pro/embed/tv/227192/1/4"
+                      "name": "VidJoy 1080p",
+                      "url": "https://vidjoy.pro/embed/tv/259291/1/4"
                     },
                     {
-                      "url": "https://multiembed.mov/directstream.php?video_id=227192&tmdb=1&s=1&e=4"
+                      "name": "MultiEmbed 1080p",
+                      "url": "https://multiembed.mov/directstream.php?video_id=259291&tmdb=1&s=1&e=4"
                     },
                     {
-                      "url": "https://embed.su/embed/tv/227192/1/4"
+                      "name": "Embed.su 1080p",
+                      "url": "https://embed.su/embed/tv/259291/1/4"
                     },
                     {
-                      "url": "https://vidsrc.me/embed/tv/227192/1/4"
+                      "name": "VidSrc.me 1080p",
+                      "url": "https://vidsrc.me/embed/tv/259291/1/4"
                     },
                     {
-                      "url": "https://player.autoembed.cc/embed/tv/227192/1/4"
+                      "name": "AutoEmbed 1080p",
+                      "url": "https://player.autoembed.cc/embed/tv/259291/1/4"
                     },
                     {
-                      "url": "https://player.smashy.stream/movie/227192?s=1&e=4"
+                      "name": "SmashyStream 1080p",
+                      "url": "https://player.smashy.stream/movie/259291?s=1&e=4"
                     },
                     {
-                      "url": "https://vidsrc.to/embed/tv/227192/1/4"
+                      "name": "VidSrc.to 1080p",
+                      "url": "https://vidsrc.to/embed/tv/259291/1/4"
                     },
                     {
-                      "url": "https://vidsrc.xyz/embed/tv/227192/1/4"
+                      "name": "VidSrc.xyz 1080p",
+                      "url": "https://vidsrc.xyz/embed/tv/259291/1/4"
                     },
                     {
-                      "url": "https://www.embedsoap.com/embed/tv/227192/1/4"
+                      "name": "EmbedSoap 1080p",
+                      "url": "https://www.embedsoap.com/embed/tv/259291/1/4"
                     },
                     {
-                      "url": "https://moviesapi.club/movie/227192?s=1&e=4"
+                      "name": "MoviesAPI 1080p",
+                      "url": "https://moviesapi.club/movie/259291?s=1&e=4"
                     },
                     {
-                      "url": "https://dbgo.fun/movie/227192?s=1&e=4"
+                      "name": "DBGO 1080p",
+                      "url": "https://dbgo.fun/movie/259291?s=1&e=4"
                     },
                     {
-                      "url": "https://flixhq.to/watch/tv/227192/1/4"
+                      "name": "FlixHQ 1080p",
+                      "url": "https://flixhq.to/watch/tv/259291/1/4"
                     },
                     {
-                      "url": "https://gomovies.sx/watch/tv/227192/1/4"
+                      "name": "GoMovies 1080p",
+                      "url": "https://gomovies.sx/watch/tv/259291/1/4"
                     },
                     {
-                      "url": "https://www.showbox.media/embed/tv/227192/1/4"
+                      "name": "ShowBox 1080p",
+                      "url": "https://www.showbox.media/embed/tv/259291/1/4"
                     },
                     {
-                      "url": "https://primewire.mx/embed/tv/227192/1/4"
+                      "name": "PrimeWire 1080p",
+                      "url": "https://primewire.mx/embed/tv/259291/1/4"
                     },
                     {
-                      "url": "https://hdtoday.tv/embed/tv/227192/1/4"
+                      "name": "HDToday 1080p",
+                      "url": "https://hdtoday.tv/embed/tv/259291/1/4"
                     },
                     {
-                      "url": "https://vidcloud.to/embed/tv/227192/1/4"
+                      "name": "VidCloud 1080p",
+                      "url": "https://vidcloud.to/embed/tv/259291/1/4"
                     },
                     {
-                      "url": "https://streamwish.to/e/227192_s1e4"
+                      "name": "StreamWish 1080p",
+                      "url": "https://streamwish.to/e/259291_s1e4"
                     },
                     {
-                      "url": "https://doodstream.com/e/227192_s1e4"
+                      "name": "DoodStream 1080p",
+                      "url": "https://doodstream.com/e/259291_s1e4"
                     },
                     {
-                      "url": "https://streamtape.com/e/227192_s1e4"
+                      "name": "StreamTape 1080p",
+                      "url": "https://streamtape.com/e/259291_s1e4"
                     },
                     {
-                      "url": "https://mixdrop.co/e/227192_s1e4"
+                      "name": "MixDrop 1080p",
+                      "url": "https://mixdrop.co/e/259291_s1e4"
                     },
                     {
-                      "url": "https://filemoon.sx/e/227192_s1e4"
+                      "name": "FileMoon 1080p",
+                      "url": "https://filemoon.sx/e/259291_s1e4"
                     },
                     {
-                      "url": "https://upstream.to/embed-227192s1e4.html"
+                      "name": "UpStream 1080p",
+                      "url": "https://upstream.to/embed-259291s1e4.html"
                     }
                   ]
                 },
                 {
                   "Episode": 5,
-                  "Title": "Parent Observation Day",
-                  "Duration": "1:01",
-                  "Description": "During the parents' visit to the school, Soo Ji gets caught up in Ha Rin's trap. While Soo Ji tries to make a pact with Do Ah,  Seung Yi puts on a show to put Soo Ji on the spot. Although the parents witness the ordeal, Ha Rin turns the situation to her advantage and even has her grandmother, the chairwoman of Baekyeon Group. Meanwhile, Soo Ji switches to her Plan B.",
-                  "Thumbnail": "https://image.tmdb.org/t/p/w500/nPCy7GUwIl5wwE4rkkmnw8AiM63.jpg",
+                  "Title": "Episode 5",
+                  "Duration": "1:00",
+                  "Description": "To protect Grace, Anna is forced to pretend that the former is her child and divert the police investigation away from her. However, Julius relentlessly asks questions who the child's father is, while Helena starts to doubt her supposed granddaughter's identity. Soon, a heated confrontation compels Anna to reveal her long-buried secrets.",
+                  "Thumbnail": "https://image.tmdb.org/t/p/w500/1XknxO1EQMo1zDBzeIA9bROC5yg.jpg",
                   "Servers": [
                     {
-                      "url": "https://vidsrc.net/embed/tv/227192/1/5"
+                      "name": "VidSrc 1080p",
+                      "url": "https://vidsrc.net/embed/tv/259291/1/5"
                     },
                     {
-                      "url": "https://vidjoy.pro/embed/tv/227192/1/5"
+                      "name": "VidJoy 1080p",
+                      "url": "https://vidjoy.pro/embed/tv/259291/1/5"
                     },
                     {
-                      "url": "https://multiembed.mov/directstream.php?video_id=227192&tmdb=1&s=1&e=5"
+                      "name": "MultiEmbed 1080p",
+                      "url": "https://multiembed.mov/directstream.php?video_id=259291&tmdb=1&s=1&e=5"
                     },
                     {
-                      "url": "https://embed.su/embed/tv/227192/1/5"
+                      "name": "Embed.su 1080p",
+                      "url": "https://embed.su/embed/tv/259291/1/5"
                     },
                     {
-                      "url": "https://vidsrc.me/embed/tv/227192/1/5"
+                      "name": "VidSrc.me 1080p",
+                      "url": "https://vidsrc.me/embed/tv/259291/1/5"
                     },
                     {
-                      "url": "https://player.autoembed.cc/embed/tv/227192/1/5"
+                      "name": "AutoEmbed 1080p",
+                      "url": "https://player.autoembed.cc/embed/tv/259291/1/5"
                     },
                     {
-                      "url": "https://player.smashy.stream/movie/227192?s=1&e=5"
+                      "name": "SmashyStream 1080p",
+                      "url": "https://player.smashy.stream/movie/259291?s=1&e=5"
                     },
                     {
-                      "url": "https://vidsrc.to/embed/tv/227192/1/5"
+                      "name": "VidSrc.to 1080p",
+                      "url": "https://vidsrc.to/embed/tv/259291/1/5"
                     },
                     {
-                      "url": "https://vidsrc.xyz/embed/tv/227192/1/5"
+                      "name": "VidSrc.xyz 1080p",
+                      "url": "https://vidsrc.xyz/embed/tv/259291/1/5"
                     },
                     {
-                      "url": "https://www.embedsoap.com/embed/tv/227192/1/5"
+                      "name": "EmbedSoap 1080p",
+                      "url": "https://www.embedsoap.com/embed/tv/259291/1/5"
                     },
                     {
-                      "url": "https://moviesapi.club/movie/227192?s=1&e=5"
+                      "name": "MoviesAPI 1080p",
+                      "url": "https://moviesapi.club/movie/259291?s=1&e=5"
                     },
                     {
-                      "url": "https://dbgo.fun/movie/227192?s=1&e=5"
+                      "name": "DBGO 1080p",
+                      "url": "https://dbgo.fun/movie/259291?s=1&e=5"
                     },
                     {
-                      "url": "https://flixhq.to/watch/tv/227192/1/5"
+                      "name": "FlixHQ 1080p",
+                      "url": "https://flixhq.to/watch/tv/259291/1/5"
                     },
                     {
-                      "url": "https://gomovies.sx/watch/tv/227192/1/5"
+                      "name": "GoMovies 1080p",
+                      "url": "https://gomovies.sx/watch/tv/259291/1/5"
                     },
                     {
-                      "url": "https://www.showbox.media/embed/tv/227192/1/5"
+                      "name": "ShowBox 1080p",
+                      "url": "https://www.showbox.media/embed/tv/259291/1/5"
                     },
                     {
-                      "url": "https://primewire.mx/embed/tv/227192/1/5"
+                      "name": "PrimeWire 1080p",
+                      "url": "https://primewire.mx/embed/tv/259291/1/5"
                     },
                     {
-                      "url": "https://hdtoday.tv/embed/tv/227192/1/5"
+                      "name": "HDToday 1080p",
+                      "url": "https://hdtoday.tv/embed/tv/259291/1/5"
                     },
                     {
-                      "url": "https://vidcloud.to/embed/tv/227192/1/5"
+                      "name": "VidCloud 1080p",
+                      "url": "https://vidcloud.to/embed/tv/259291/1/5"
                     },
                     {
-                      "url": "https://streamwish.to/e/227192_s1e5"
+                      "name": "StreamWish 1080p",
+                      "url": "https://streamwish.to/e/259291_s1e5"
                     },
                     {
-                      "url": "https://doodstream.com/e/227192_s1e5"
+                      "name": "DoodStream 1080p",
+                      "url": "https://doodstream.com/e/259291_s1e5"
                     },
                     {
-                      "url": "https://streamtape.com/e/227192_s1e5"
+                      "name": "StreamTape 1080p",
+                      "url": "https://streamtape.com/e/259291_s1e5"
                     },
                     {
-                      "url": "https://mixdrop.co/e/227192_s1e5"
+                      "name": "MixDrop 1080p",
+                      "url": "https://mixdrop.co/e/259291_s1e5"
                     },
                     {
-                      "url": "https://filemoon.sx/e/227192_s1e5"
+                      "name": "FileMoon 1080p",
+                      "url": "https://filemoon.sx/e/259291_s1e5"
                     },
                     {
-                      "url": "https://upstream.to/embed-227192s1e5.html"
+                      "name": "UpStream 1080p",
+                      "url": "https://upstream.to/embed-259291s1e5.html"
                     }
                   ]
                 },
                 {
                   "Episode": 6,
-                  "Title": "Tables Turned",
-                  "Duration": "1:04",
-                  "Description": "With no Grade F in the 15th game, Soo Ji changes gears to eliminate the game with Ye Lim's help. First, she suggests voting to revoke Grade A privileges and puts Ha Rin on the spot. Meanwhile, Ha Rin doesn't give in to Soo Ji's hindrances and thinks of a plan to demolish Soo Ji's game.",
-                  "Thumbnail": "https://image.tmdb.org/t/p/w500/eoJsPPts543FAHh77LuVMqtXZZx.jpg",
+                  "Title": "Episode 6",
+                  "Duration": "1:00",
+                  "Description": "After discovering that Anna is hiding Grace, Julius forces them to surrender. However, an accident strands them in a deserted house where Anna and Grace reveal to Julius the whole truth behind their actions. Tensions escalate at the Sarmientos' inn as Miranda, Oscar, Sarah, and Chito become more suspicious of Anna compelling her to choose between Grace and her family.",
+                  "Thumbnail": "https://image.tmdb.org/t/p/w500/A9LB8LemW0i8gwQwIX1McnyGAT1.jpg",
                   "Servers": [
                     {
-                      "url": "https://vidsrc.net/embed/tv/227192/1/6"
+                      "name": "VidSrc 1080p",
+                      "url": "https://vidsrc.net/embed/tv/259291/1/6"
                     },
                     {
-                      "url": "https://vidjoy.pro/embed/tv/227192/1/6"
+                      "name": "VidJoy 1080p",
+                      "url": "https://vidjoy.pro/embed/tv/259291/1/6"
                     },
                     {
-                      "url": "https://multiembed.mov/directstream.php?video_id=227192&tmdb=1&s=1&e=6"
+                      "name": "MultiEmbed 1080p",
+                      "url": "https://multiembed.mov/directstream.php?video_id=259291&tmdb=1&s=1&e=6"
                     },
                     {
-                      "url": "https://embed.su/embed/tv/227192/1/6"
+                      "name": "Embed.su 1080p",
+                      "url": "https://embed.su/embed/tv/259291/1/6"
                     },
                     {
-                      "url": "https://vidsrc.me/embed/tv/227192/1/6"
+                      "name": "VidSrc.me 1080p",
+                      "url": "https://vidsrc.me/embed/tv/259291/1/6"
                     },
                     {
-                      "url": "https://player.autoembed.cc/embed/tv/227192/1/6"
+                      "name": "AutoEmbed 1080p",
+                      "url": "https://player.autoembed.cc/embed/tv/259291/1/6"
                     },
                     {
-                      "url": "https://player.smashy.stream/movie/227192?s=1&e=6"
+                      "name": "SmashyStream 1080p",
+                      "url": "https://player.smashy.stream/movie/259291?s=1&e=6"
                     },
                     {
-                      "url": "https://vidsrc.to/embed/tv/227192/1/6"
+                      "name": "VidSrc.to 1080p",
+                      "url": "https://vidsrc.to/embed/tv/259291/1/6"
                     },
                     {
-                      "url": "https://vidsrc.xyz/embed/tv/227192/1/6"
+                      "name": "VidSrc.xyz 1080p",
+                      "url": "https://vidsrc.xyz/embed/tv/259291/1/6"
                     },
                     {
-                      "url": "https://www.embedsoap.com/embed/tv/227192/1/6"
+                      "name": "EmbedSoap 1080p",
+                      "url": "https://www.embedsoap.com/embed/tv/259291/1/6"
                     },
                     {
-                      "url": "https://moviesapi.club/movie/227192?s=1&e=6"
+                      "name": "MoviesAPI 1080p",
+                      "url": "https://moviesapi.club/movie/259291?s=1&e=6"
                     },
                     {
-                      "url": "https://dbgo.fun/movie/227192?s=1&e=6"
+                      "name": "DBGO 1080p",
+                      "url": "https://dbgo.fun/movie/259291?s=1&e=6"
                     },
                     {
-                      "url": "https://flixhq.to/watch/tv/227192/1/6"
+                      "name": "FlixHQ 1080p",
+                      "url": "https://flixhq.to/watch/tv/259291/1/6"
                     },
                     {
-                      "url": "https://gomovies.sx/watch/tv/227192/1/6"
+                      "name": "GoMovies 1080p",
+                      "url": "https://gomovies.sx/watch/tv/259291/1/6"
                     },
                     {
-                      "url": "https://www.showbox.media/embed/tv/227192/1/6"
+                      "name": "ShowBox 1080p",
+                      "url": "https://www.showbox.media/embed/tv/259291/1/6"
                     },
                     {
-                      "url": "https://primewire.mx/embed/tv/227192/1/6"
+                      "name": "PrimeWire 1080p",
+                      "url": "https://primewire.mx/embed/tv/259291/1/6"
                     },
                     {
-                      "url": "https://hdtoday.tv/embed/tv/227192/1/6"
+                      "name": "HDToday 1080p",
+                      "url": "https://hdtoday.tv/embed/tv/259291/1/6"
                     },
                     {
-                      "url": "https://vidcloud.to/embed/tv/227192/1/6"
+                      "name": "VidCloud 1080p",
+                      "url": "https://vidcloud.to/embed/tv/259291/1/6"
                     },
                     {
-                      "url": "https://streamwish.to/e/227192_s1e6"
+                      "name": "StreamWish 1080p",
+                      "url": "https://streamwish.to/e/259291_s1e6"
                     },
                     {
-                      "url": "https://doodstream.com/e/227192_s1e6"
+                      "name": "DoodStream 1080p",
+                      "url": "https://doodstream.com/e/259291_s1e6"
                     },
                     {
-                      "url": "https://streamtape.com/e/227192_s1e6"
+                      "name": "StreamTape 1080p",
+                      "url": "https://streamtape.com/e/259291_s1e6"
                     },
                     {
-                      "url": "https://mixdrop.co/e/227192_s1e6"
+                      "name": "MixDrop 1080p",
+                      "url": "https://mixdrop.co/e/259291_s1e6"
                     },
                     {
-                      "url": "https://filemoon.sx/e/227192_s1e6"
+                      "name": "FileMoon 1080p",
+                      "url": "https://filemoon.sx/e/259291_s1e6"
                     },
                     {
-                      "url": "https://upstream.to/embed-227192s1e6.html"
+                      "name": "UpStream 1080p",
+                      "url": "https://upstream.to/embed-259291s1e6.html"
                     }
                   ]
                 },
                 {
                   "Episode": 7,
-                  "Title": "Shattering Friendship",
-                  "Duration": "56:00",
-                  "Description": "Baekyeon Girls’ High School goes on a school retreat. While practicing diving, someone pushes Ha Rin into the water, and Ja Yeon jumps in to save her. The next day, Class Five plays a survival game using paint guns. The last five standing, Soo Ji, Ja Eun, Jae Hyung, Eun Jung, and Ji Ae are put in danger of ending up in Grade F.",
-                  "Thumbnail": "https://image.tmdb.org/t/p/w500/cAc6VTiEf31mwi0YqZpcti9s4Qq.jpg",
+                  "Title": "Episode 7",
+                  "Duration": "1:00",
+                  "Description": "Helena urges Anna to return Grace to her mother, while Sarah's persistent harassment causes an accident at the Sarmiento's inn. Julius helps Anna and Grace hide, but Jessica soon finds their shelter and gets incriminating evidence against Anna. Meanwhile, a stolen bracelet leads Miranda to uncover a shocking truth about someone she has been searching for over the years.",
+                  "Thumbnail": "https://image.tmdb.org/t/p/w500/mffa47aG2x27eU5yEjt2NNnwd2S.jpg",
                   "Servers": [
                     {
-                      "url": "https://vidsrc.net/embed/tv/227192/1/7"
+                      "name": "VidSrc 1080p",
+                      "url": "https://vidsrc.net/embed/tv/259291/1/7"
                     },
                     {
-                      "url": "https://vidjoy.pro/embed/tv/227192/1/7"
+                      "name": "VidJoy 1080p",
+                      "url": "https://vidjoy.pro/embed/tv/259291/1/7"
                     },
                     {
-                      "url": "https://multiembed.mov/directstream.php?video_id=227192&tmdb=1&s=1&e=7"
+                      "name": "MultiEmbed 1080p",
+                      "url": "https://multiembed.mov/directstream.php?video_id=259291&tmdb=1&s=1&e=7"
                     },
                     {
-                      "url": "https://embed.su/embed/tv/227192/1/7"
+                      "name": "Embed.su 1080p",
+                      "url": "https://embed.su/embed/tv/259291/1/7"
                     },
                     {
-                      "url": "https://vidsrc.me/embed/tv/227192/1/7"
+                      "name": "VidSrc.me 1080p",
+                      "url": "https://vidsrc.me/embed/tv/259291/1/7"
                     },
                     {
-                      "url": "https://player.autoembed.cc/embed/tv/227192/1/7"
+                      "name": "AutoEmbed 1080p",
+                      "url": "https://player.autoembed.cc/embed/tv/259291/1/7"
                     },
                     {
-                      "url": "https://player.smashy.stream/movie/227192?s=1&e=7"
+                      "name": "SmashyStream 1080p",
+                      "url": "https://player.smashy.stream/movie/259291?s=1&e=7"
                     },
                     {
-                      "url": "https://vidsrc.to/embed/tv/227192/1/7"
+                      "name": "VidSrc.to 1080p",
+                      "url": "https://vidsrc.to/embed/tv/259291/1/7"
                     },
                     {
-                      "url": "https://vidsrc.xyz/embed/tv/227192/1/7"
+                      "name": "VidSrc.xyz 1080p",
+                      "url": "https://vidsrc.xyz/embed/tv/259291/1/7"
                     },
                     {
-                      "url": "https://www.embedsoap.com/embed/tv/227192/1/7"
+                      "name": "EmbedSoap 1080p",
+                      "url": "https://www.embedsoap.com/embed/tv/259291/1/7"
                     },
                     {
-                      "url": "https://moviesapi.club/movie/227192?s=1&e=7"
+                      "name": "MoviesAPI 1080p",
+                      "url": "https://moviesapi.club/movie/259291?s=1&e=7"
                     },
                     {
-                      "url": "https://dbgo.fun/movie/227192?s=1&e=7"
+                      "name": "DBGO 1080p",
+                      "url": "https://dbgo.fun/movie/259291?s=1&e=7"
                     },
                     {
-                      "url": "https://flixhq.to/watch/tv/227192/1/7"
+                      "name": "FlixHQ 1080p",
+                      "url": "https://flixhq.to/watch/tv/259291/1/7"
                     },
                     {
-                      "url": "https://gomovies.sx/watch/tv/227192/1/7"
+                      "name": "GoMovies 1080p",
+                      "url": "https://gomovies.sx/watch/tv/259291/1/7"
                     },
                     {
-                      "url": "https://www.showbox.media/embed/tv/227192/1/7"
+                      "name": "ShowBox 1080p",
+                      "url": "https://www.showbox.media/embed/tv/259291/1/7"
                     },
                     {
-                      "url": "https://primewire.mx/embed/tv/227192/1/7"
+                      "name": "PrimeWire 1080p",
+                      "url": "https://primewire.mx/embed/tv/259291/1/7"
                     },
                     {
-                      "url": "https://hdtoday.tv/embed/tv/227192/1/7"
+                      "name": "HDToday 1080p",
+                      "url": "https://hdtoday.tv/embed/tv/259291/1/7"
                     },
                     {
-                      "url": "https://vidcloud.to/embed/tv/227192/1/7"
+                      "name": "VidCloud 1080p",
+                      "url": "https://vidcloud.to/embed/tv/259291/1/7"
                     },
                     {
-                      "url": "https://streamwish.to/e/227192_s1e7"
+                      "name": "StreamWish 1080p",
+                      "url": "https://streamwish.to/e/259291_s1e7"
                     },
                     {
-                      "url": "https://doodstream.com/e/227192_s1e7"
+                      "name": "DoodStream 1080p",
+                      "url": "https://doodstream.com/e/259291_s1e7"
                     },
                     {
-                      "url": "https://streamtape.com/e/227192_s1e7"
+                      "name": "StreamTape 1080p",
+                      "url": "https://streamtape.com/e/259291_s1e7"
                     },
                     {
-                      "url": "https://mixdrop.co/e/227192_s1e7"
+                      "name": "MixDrop 1080p",
+                      "url": "https://mixdrop.co/e/259291_s1e7"
                     },
                     {
-                      "url": "https://filemoon.sx/e/227192_s1e7"
+                      "name": "FileMoon 1080p",
+                      "url": "https://filemoon.sx/e/259291_s1e7"
                     },
                     {
-                      "url": "https://upstream.to/embed-227192s1e7.html"
+                      "name": "UpStream 1080p",
+                      "url": "https://upstream.to/embed-259291s1e7.html"
                     }
                   ]
                 },
                 {
                   "Episode": 8,
-                  "Title": "The Majority",
-                  "Duration": "58:00",
-                  "Description": "Soo Ji decides to recruit more girls to end the game and Ha Rin for good. When Da Yeon is about to be punished for what she did to Eun Jung, their teacher tells everyone that Da Yeon has to transfer to another school. Meanwhile, right before the Pyramid Game is held, Ye Lim gets taken to the hospital.",
-                  "Thumbnail": "https://image.tmdb.org/t/p/w500/13VN1qLx7Fu3szeZQe0ca0mJmhs.jpg",
+                  "Title": "Episode 8",
+                  "Duration": "57:00",
+                  "Description": "After discovering Anna's past, an unjust manipulation of their interview compels Miranda to choose between helping Anna and protecting her career. A heated confrontation between Miranda and Helena causes past pains to resurface. Grace's and Anna's safety are put at risk when Princess makes a reckless decision and Julius' father discovers his involvement in the missing girl's case.",
+                  "Thumbnail": "https://image.tmdb.org/t/p/w500/ouGPcRg4vrxX2dYoskRt7Abb2xW.jpg",
                   "Servers": [
                     {
-                      "url": "https://vidsrc.net/embed/tv/227192/1/8"
+                      "name": "VidSrc 1080p",
+                      "url": "https://vidsrc.net/embed/tv/259291/1/8"
                     },
                     {
-                      "url": "https://vidjoy.pro/embed/tv/227192/1/8"
+                      "name": "VidJoy 1080p",
+                      "url": "https://vidjoy.pro/embed/tv/259291/1/8"
                     },
                     {
-                      "url": "https://multiembed.mov/directstream.php?video_id=227192&tmdb=1&s=1&e=8"
+                      "name": "MultiEmbed 1080p",
+                      "url": "https://multiembed.mov/directstream.php?video_id=259291&tmdb=1&s=1&e=8"
                     },
                     {
-                      "url": "https://embed.su/embed/tv/227192/1/8"
+                      "name": "Embed.su 1080p",
+                      "url": "https://embed.su/embed/tv/259291/1/8"
                     },
                     {
-                      "url": "https://vidsrc.me/embed/tv/227192/1/8"
+                      "name": "VidSrc.me 1080p",
+                      "url": "https://vidsrc.me/embed/tv/259291/1/8"
                     },
                     {
-                      "url": "https://player.autoembed.cc/embed/tv/227192/1/8"
+                      "name": "AutoEmbed 1080p",
+                      "url": "https://player.autoembed.cc/embed/tv/259291/1/8"
                     },
                     {
-                      "url": "https://player.smashy.stream/movie/227192?s=1&e=8"
+                      "name": "SmashyStream 1080p",
+                      "url": "https://player.smashy.stream/movie/259291?s=1&e=8"
                     },
                     {
-                      "url": "https://vidsrc.to/embed/tv/227192/1/8"
+                      "name": "VidSrc.to 1080p",
+                      "url": "https://vidsrc.to/embed/tv/259291/1/8"
                     },
                     {
-                      "url": "https://vidsrc.xyz/embed/tv/227192/1/8"
+                      "name": "VidSrc.xyz 1080p",
+                      "url": "https://vidsrc.xyz/embed/tv/259291/1/8"
                     },
                     {
-                      "url": "https://www.embedsoap.com/embed/tv/227192/1/8"
+                      "name": "EmbedSoap 1080p",
+                      "url": "https://www.embedsoap.com/embed/tv/259291/1/8"
                     },
                     {
-                      "url": "https://moviesapi.club/movie/227192?s=1&e=8"
+                      "name": "MoviesAPI 1080p",
+                      "url": "https://moviesapi.club/movie/259291?s=1&e=8"
                     },
                     {
-                      "url": "https://dbgo.fun/movie/227192?s=1&e=8"
+                      "name": "DBGO 1080p",
+                      "url": "https://dbgo.fun/movie/259291?s=1&e=8"
                     },
                     {
-                      "url": "https://flixhq.to/watch/tv/227192/1/8"
+                      "name": "FlixHQ 1080p",
+                      "url": "https://flixhq.to/watch/tv/259291/1/8"
                     },
                     {
-                      "url": "https://gomovies.sx/watch/tv/227192/1/8"
+                      "name": "GoMovies 1080p",
+                      "url": "https://gomovies.sx/watch/tv/259291/1/8"
                     },
                     {
-                      "url": "https://www.showbox.media/embed/tv/227192/1/8"
+                      "name": "ShowBox 1080p",
+                      "url": "https://www.showbox.media/embed/tv/259291/1/8"
                     },
                     {
-                      "url": "https://primewire.mx/embed/tv/227192/1/8"
+                      "name": "PrimeWire 1080p",
+                      "url": "https://primewire.mx/embed/tv/259291/1/8"
                     },
                     {
-                      "url": "https://hdtoday.tv/embed/tv/227192/1/8"
+                      "name": "HDToday 1080p",
+                      "url": "https://hdtoday.tv/embed/tv/259291/1/8"
                     },
                     {
-                      "url": "https://vidcloud.to/embed/tv/227192/1/8"
+                      "name": "VidCloud 1080p",
+                      "url": "https://vidcloud.to/embed/tv/259291/1/8"
                     },
                     {
-                      "url": "https://streamwish.to/e/227192_s1e8"
+                      "name": "StreamWish 1080p",
+                      "url": "https://streamwish.to/e/259291_s1e8"
                     },
                     {
-                      "url": "https://doodstream.com/e/227192_s1e8"
+                      "name": "DoodStream 1080p",
+                      "url": "https://doodstream.com/e/259291_s1e8"
                     },
                     {
-                      "url": "https://streamtape.com/e/227192_s1e8"
+                      "name": "StreamTape 1080p",
+                      "url": "https://streamtape.com/e/259291_s1e8"
                     },
                     {
-                      "url": "https://mixdrop.co/e/227192_s1e8"
+                      "name": "MixDrop 1080p",
+                      "url": "https://mixdrop.co/e/259291_s1e8"
                     },
                     {
-                      "url": "https://filemoon.sx/e/227192_s1e8"
+                      "name": "FileMoon 1080p",
+                      "url": "https://filemoon.sx/e/259291_s1e8"
                     },
                     {
-                      "url": "https://upstream.to/embed-227192s1e8.html"
+                      "name": "UpStream 1080p",
+                      "url": "https://upstream.to/embed-259291s1e8.html"
                     }
                   ]
                 },
                 {
                   "Episode": 9,
-                  "Title": "The Final Vote",
-                  "Duration": "54:00",
-                  "Description": "The 16th Pyramid Game begins, and Ha Rin suggests choosing a classmate who will become a permanent Grade F. Before the voting takes place, Soo Ji tells the class that Ye Lim was attacked and hospitalized. The class decides to vote on whether to stay. playing or not, and the entire process is broadcast live, causing the school to be in an uproar. Meanwhile, Ja Eun tells Soo Ji what she did to Ha Rin when they were little.",
-                  "Thumbnail": "https://image.tmdb.org/t/p/w500/ySyDAVzMzHkShZJJOcUowwSgG6V.jpg",
+                  "Title": "Episode 9",
+                  "Duration": "1:00",
+                  "Description": "Despite managing to escape Palawan with her help, Anna struggles to fully trust Miranda. Meanwhile, Miranda receives a startling news that makes her determined to set things right for Anna. While the television host works to clear Anna's name and exposes Sarah's true nature, Sarah finds someone's help to fight back Miranda, raising suspicions about who might be hiding Anna.",
+                  "Thumbnail": "https://image.tmdb.org/t/p/w500/ntUPCt2YkuwUaToay7BC6y4tBJT.jpg",
                   "Servers": [
                     {
-                      "url": "https://vidsrc.net/embed/tv/227192/1/9"
+                      "name": "VidSrc 1080p",
+                      "url": "https://vidsrc.net/embed/tv/259291/1/9"
                     },
                     {
-                      "url": "https://vidjoy.pro/embed/tv/227192/1/9"
+                      "name": "VidJoy 1080p",
+                      "url": "https://vidjoy.pro/embed/tv/259291/1/9"
                     },
                     {
-                      "url": "https://multiembed.mov/directstream.php?video_id=227192&tmdb=1&s=1&e=9"
+                      "name": "MultiEmbed 1080p",
+                      "url": "https://multiembed.mov/directstream.php?video_id=259291&tmdb=1&s=1&e=9"
                     },
                     {
-                      "url": "https://embed.su/embed/tv/227192/1/9"
+                      "name": "Embed.su 1080p",
+                      "url": "https://embed.su/embed/tv/259291/1/9"
                     },
                     {
-                      "url": "https://vidsrc.me/embed/tv/227192/1/9"
+                      "name": "VidSrc.me 1080p",
+                      "url": "https://vidsrc.me/embed/tv/259291/1/9"
                     },
                     {
-                      "url": "https://player.autoembed.cc/embed/tv/227192/1/9"
+                      "name": "AutoEmbed 1080p",
+                      "url": "https://player.autoembed.cc/embed/tv/259291/1/9"
                     },
                     {
-                      "url": "https://player.smashy.stream/movie/227192?s=1&e=9"
+                      "name": "SmashyStream 1080p",
+                      "url": "https://player.smashy.stream/movie/259291?s=1&e=9"
                     },
                     {
-                      "url": "https://vidsrc.to/embed/tv/227192/1/9"
+                      "name": "VidSrc.to 1080p",
+                      "url": "https://vidsrc.to/embed/tv/259291/1/9"
                     },
                     {
-                      "url": "https://vidsrc.xyz/embed/tv/227192/1/9"
+                      "name": "VidSrc.xyz 1080p",
+                      "url": "https://vidsrc.xyz/embed/tv/259291/1/9"
                     },
                     {
-                      "url": "https://www.embedsoap.com/embed/tv/227192/1/9"
+                      "name": "EmbedSoap 1080p",
+                      "url": "https://www.embedsoap.com/embed/tv/259291/1/9"
                     },
                     {
-                      "url": "https://moviesapi.club/movie/227192?s=1&e=9"
+                      "name": "MoviesAPI 1080p",
+                      "url": "https://moviesapi.club/movie/259291?s=1&e=9"
                     },
                     {
-                      "url": "https://dbgo.fun/movie/227192?s=1&e=9"
+                      "name": "DBGO 1080p",
+                      "url": "https://dbgo.fun/movie/259291?s=1&e=9"
                     },
                     {
-                      "url": "https://flixhq.to/watch/tv/227192/1/9"
+                      "name": "FlixHQ 1080p",
+                      "url": "https://flixhq.to/watch/tv/259291/1/9"
                     },
                     {
-                      "url": "https://gomovies.sx/watch/tv/227192/1/9"
+                      "name": "GoMovies 1080p",
+                      "url": "https://gomovies.sx/watch/tv/259291/1/9"
                     },
                     {
-                      "url": "https://www.showbox.media/embed/tv/227192/1/9"
+                      "name": "ShowBox 1080p",
+                      "url": "https://www.showbox.media/embed/tv/259291/1/9"
                     },
                     {
-                      "url": "https://primewire.mx/embed/tv/227192/1/9"
+                      "name": "PrimeWire 1080p",
+                      "url": "https://primewire.mx/embed/tv/259291/1/9"
                     },
                     {
-                      "url": "https://hdtoday.tv/embed/tv/227192/1/9"
+                      "name": "HDToday 1080p",
+                      "url": "https://hdtoday.tv/embed/tv/259291/1/9"
                     },
                     {
-                      "url": "https://vidcloud.to/embed/tv/227192/1/9"
+                      "name": "VidCloud 1080p",
+                      "url": "https://vidcloud.to/embed/tv/259291/1/9"
                     },
                     {
-                      "url": "https://streamwish.to/e/227192_s1e9"
+                      "name": "StreamWish 1080p",
+                      "url": "https://streamwish.to/e/259291_s1e9"
                     },
                     {
-                      "url": "https://doodstream.com/e/227192_s1e9"
+                      "name": "DoodStream 1080p",
+                      "url": "https://doodstream.com/e/259291_s1e9"
                     },
                     {
-                      "url": "https://streamtape.com/e/227192_s1e9"
+                      "name": "StreamTape 1080p",
+                      "url": "https://streamtape.com/e/259291_s1e9"
                     },
                     {
-                      "url": "https://mixdrop.co/e/227192_s1e9"
+                      "name": "MixDrop 1080p",
+                      "url": "https://mixdrop.co/e/259291_s1e9"
                     },
                     {
-                      "url": "https://filemoon.sx/e/227192_s1e9"
+                      "name": "FileMoon 1080p",
+                      "url": "https://filemoon.sx/e/259291_s1e9"
                     },
                     {
-                      "url": "https://upstream.to/embed-227192s1e9.html"
+                      "name": "UpStream 1080p",
+                      "url": "https://upstream.to/embed-259291s1e9.html"
                     }
                   ]
                 },
                 {
                   "Episode": 10,
-                  "Title": "The Verdict",
-                  "Duration": "1:02",
-                  "Description": "Ja Eun reveals what she used to do to Ha Rin, but Soo Ji thinks Ha Rin is just using it as an excuse to make Ja Eun's life miserable. The school and Baekyeon Group decide to blame Soo Ji and her group for the violence at school, but Ms. Yoon Na Hee takes action and reveals the video of Soo Ji being bullied. Meanwhile, Soo Ji reveals the corruption behind the teacher recruitment.",
-                  "Thumbnail": "https://image.tmdb.org/t/p/w500/jTK1udjRYa7NPBX6Nkbir6We8rY.jpg",
+                  "Title": "Episode 10",
+                  "Duration": "59:00",
+                  "Description": "Helena is desperate to keep Anna away from Miranda, fearing that their growing bond will unravel her dark secrets. Anna, determined to flee with Grace, considers questionable means when their hideout gets discovered. Jessica's actions become more unpredictable, while Sarah's growing suspicions intensify the looming threat.",
+                  "Thumbnail": "https://image.tmdb.org/t/p/w500/rbxX9tagni4pOQimnlemDcGJNWI.jpg",
                   "Servers": [
                     {
-                      "url": "https://vidsrc.net/embed/tv/227192/1/10"
+                      "name": "VidSrc 1080p",
+                      "url": "https://vidsrc.net/embed/tv/259291/1/10"
                     },
                     {
-                      "url": "https://vidjoy.pro/embed/tv/227192/1/10"
+                      "name": "VidJoy 1080p",
+                      "url": "https://vidjoy.pro/embed/tv/259291/1/10"
                     },
                     {
-                      "url": "https://multiembed.mov/directstream.php?video_id=227192&tmdb=1&s=1&e=10"
+                      "name": "MultiEmbed 1080p",
+                      "url": "https://multiembed.mov/directstream.php?video_id=259291&tmdb=1&s=1&e=10"
                     },
                     {
-                      "url": "https://embed.su/embed/tv/227192/1/10"
+                      "name": "Embed.su 1080p",
+                      "url": "https://embed.su/embed/tv/259291/1/10"
                     },
                     {
-                      "url": "https://vidsrc.me/embed/tv/227192/1/10"
+                      "name": "VidSrc.me 1080p",
+                      "url": "https://vidsrc.me/embed/tv/259291/1/10"
                     },
                     {
-                      "url": "https://player.autoembed.cc/embed/tv/227192/1/10"
+                      "name": "AutoEmbed 1080p",
+                      "url": "https://player.autoembed.cc/embed/tv/259291/1/10"
                     },
                     {
-                      "url": "https://player.smashy.stream/movie/227192?s=1&e=10"
+                      "name": "SmashyStream 1080p",
+                      "url": "https://player.smashy.stream/movie/259291?s=1&e=10"
                     },
                     {
-                      "url": "https://vidsrc.to/embed/tv/227192/1/10"
+                      "name": "VidSrc.to 1080p",
+                      "url": "https://vidsrc.to/embed/tv/259291/1/10"
                     },
                     {
-                      "url": "https://vidsrc.xyz/embed/tv/227192/1/10"
+                      "name": "VidSrc.xyz 1080p",
+                      "url": "https://vidsrc.xyz/embed/tv/259291/1/10"
                     },
                     {
-                      "url": "https://www.embedsoap.com/embed/tv/227192/1/10"
+                      "name": "EmbedSoap 1080p",
+                      "url": "https://www.embedsoap.com/embed/tv/259291/1/10"
                     },
                     {
-                      "url": "https://moviesapi.club/movie/227192?s=1&e=10"
+                      "name": "MoviesAPI 1080p",
+                      "url": "https://moviesapi.club/movie/259291?s=1&e=10"
                     },
                     {
-                      "url": "https://dbgo.fun/movie/227192?s=1&e=10"
+                      "name": "DBGO 1080p",
+                      "url": "https://dbgo.fun/movie/259291?s=1&e=10"
                     },
                     {
-                      "url": "https://flixhq.to/watch/tv/227192/1/10"
+                      "name": "FlixHQ 1080p",
+                      "url": "https://flixhq.to/watch/tv/259291/1/10"
                     },
                     {
-                      "url": "https://gomovies.sx/watch/tv/227192/1/10"
+                      "name": "GoMovies 1080p",
+                      "url": "https://gomovies.sx/watch/tv/259291/1/10"
                     },
                     {
-                      "url": "https://www.showbox.media/embed/tv/227192/1/10"
+                      "name": "ShowBox 1080p",
+                      "url": "https://www.showbox.media/embed/tv/259291/1/10"
                     },
                     {
-                      "url": "https://primewire.mx/embed/tv/227192/1/10"
+                      "name": "PrimeWire 1080p",
+                      "url": "https://primewire.mx/embed/tv/259291/1/10"
                     },
                     {
-                      "url": "https://hdtoday.tv/embed/tv/227192/1/10"
+                      "name": "HDToday 1080p",
+                      "url": "https://hdtoday.tv/embed/tv/259291/1/10"
                     },
                     {
-                      "url": "https://vidcloud.to/embed/tv/227192/1/10"
+                      "name": "VidCloud 1080p",
+                      "url": "https://vidcloud.to/embed/tv/259291/1/10"
                     },
                     {
-                      "url": "https://streamwish.to/e/227192_s1e10"
+                      "name": "StreamWish 1080p",
+                      "url": "https://streamwish.to/e/259291_s1e10"
                     },
                     {
-                      "url": "https://doodstream.com/e/227192_s1e10"
+                      "name": "DoodStream 1080p",
+                      "url": "https://doodstream.com/e/259291_s1e10"
                     },
                     {
-                      "url": "https://streamtape.com/e/227192_s1e10"
+                      "name": "StreamTape 1080p",
+                      "url": "https://streamtape.com/e/259291_s1e10"
                     },
                     {
-                      "url": "https://mixdrop.co/e/227192_s1e10"
+                      "name": "MixDrop 1080p",
+                      "url": "https://mixdrop.co/e/259291_s1e10"
                     },
                     {
-                      "url": "https://filemoon.sx/e/227192_s1e10"
+                      "name": "FileMoon 1080p",
+                      "url": "https://filemoon.sx/e/259291_s1e10"
                     },
                     {
-                      "url": "https://upstream.to/embed-227192s1e10.html"
+                      "name": "UpStream 1080p",
+                      "url": "https://upstream.to/embed-259291s1e10.html"
+                    }
+                  ]
+                },
+                {
+                  "Episode": 11,
+                  "Title": "Episode 11",
+                  "Duration": "59:00",
+                  "Description": "As Oscar closes in on Grace and Anna, Erin's resurfacing memories reveal the root of Anna's painful past. Princess' betrayal prompts the Sarmientos to uncover a life-altering truth about Helena. In a selfless move, Miranda makes a sacrifice that will put her career and reputation in jeopardy.",
+                  "Thumbnail": "https://image.tmdb.org/t/p/w500/e7YaFiWvsMU32vGkkmYGt5q0fPj.jpg",
+                  "Servers": [
+                    {
+                      "name": "VidSrc 1080p",
+                      "url": "https://vidsrc.net/embed/tv/259291/1/11"
+                    },
+                    {
+                      "name": "VidJoy 1080p",
+                      "url": "https://vidjoy.pro/embed/tv/259291/1/11"
+                    },
+                    {
+                      "name": "MultiEmbed 1080p",
+                      "url": "https://multiembed.mov/directstream.php?video_id=259291&tmdb=1&s=1&e=11"
+                    },
+                    {
+                      "name": "Embed.su 1080p",
+                      "url": "https://embed.su/embed/tv/259291/1/11"
+                    },
+                    {
+                      "name": "VidSrc.me 1080p",
+                      "url": "https://vidsrc.me/embed/tv/259291/1/11"
+                    },
+                    {
+                      "name": "AutoEmbed 1080p",
+                      "url": "https://player.autoembed.cc/embed/tv/259291/1/11"
+                    },
+                    {
+                      "name": "SmashyStream 1080p",
+                      "url": "https://player.smashy.stream/movie/259291?s=1&e=11"
+                    },
+                    {
+                      "name": "VidSrc.to 1080p",
+                      "url": "https://vidsrc.to/embed/tv/259291/1/11"
+                    },
+                    {
+                      "name": "VidSrc.xyz 1080p",
+                      "url": "https://vidsrc.xyz/embed/tv/259291/1/11"
+                    },
+                    {
+                      "name": "EmbedSoap 1080p",
+                      "url": "https://www.embedsoap.com/embed/tv/259291/1/11"
+                    },
+                    {
+                      "name": "MoviesAPI 1080p",
+                      "url": "https://moviesapi.club/movie/259291?s=1&e=11"
+                    },
+                    {
+                      "name": "DBGO 1080p",
+                      "url": "https://dbgo.fun/movie/259291?s=1&e=11"
+                    },
+                    {
+                      "name": "FlixHQ 1080p",
+                      "url": "https://flixhq.to/watch/tv/259291/1/11"
+                    },
+                    {
+                      "name": "GoMovies 1080p",
+                      "url": "https://gomovies.sx/watch/tv/259291/1/11"
+                    },
+                    {
+                      "name": "ShowBox 1080p",
+                      "url": "https://www.showbox.media/embed/tv/259291/1/11"
+                    },
+                    {
+                      "name": "PrimeWire 1080p",
+                      "url": "https://primewire.mx/embed/tv/259291/1/11"
+                    },
+                    {
+                      "name": "HDToday 1080p",
+                      "url": "https://hdtoday.tv/embed/tv/259291/1/11"
+                    },
+                    {
+                      "name": "VidCloud 1080p",
+                      "url": "https://vidcloud.to/embed/tv/259291/1/11"
+                    },
+                    {
+                      "name": "StreamWish 1080p",
+                      "url": "https://streamwish.to/e/259291_s1e11"
+                    },
+                    {
+                      "name": "DoodStream 1080p",
+                      "url": "https://doodstream.com/e/259291_s1e11"
+                    },
+                    {
+                      "name": "StreamTape 1080p",
+                      "url": "https://streamtape.com/e/259291_s1e11"
+                    },
+                    {
+                      "name": "MixDrop 1080p",
+                      "url": "https://mixdrop.co/e/259291_s1e11"
+                    },
+                    {
+                      "name": "FileMoon 1080p",
+                      "url": "https://filemoon.sx/e/259291_s1e11"
+                    },
+                    {
+                      "name": "UpStream 1080p",
+                      "url": "https://upstream.to/embed-259291s1e11.html"
+                    }
+                  ]
+                },
+                {
+                  "Episode": 12,
+                  "Title": "Episode 12",
+                  "Duration": "56:00",
+                  "Description": "Anna's world crumbles when she discovers a long-buried family secret. Miranda entrusts Grace with the key to her shared past with Anna and tries to protect her secret at all costs. However, a revenge-driven Sarah exposes a startling revelation that threatens to break Anna and Miranda's fragile bond.",
+                  "Thumbnail": "https://image.tmdb.org/t/p/w500/2OMm4EL7unu9SN8hFkjoqtZAFGU.jpg",
+                  "Servers": [
+                    {
+                      "name": "VidSrc 1080p",
+                      "url": "https://vidsrc.net/embed/tv/259291/1/12"
+                    },
+                    {
+                      "name": "VidJoy 1080p",
+                      "url": "https://vidjoy.pro/embed/tv/259291/1/12"
+                    },
+                    {
+                      "name": "MultiEmbed 1080p",
+                      "url": "https://multiembed.mov/directstream.php?video_id=259291&tmdb=1&s=1&e=12"
+                    },
+                    {
+                      "name": "Embed.su 1080p",
+                      "url": "https://embed.su/embed/tv/259291/1/12"
+                    },
+                    {
+                      "name": "VidSrc.me 1080p",
+                      "url": "https://vidsrc.me/embed/tv/259291/1/12"
+                    },
+                    {
+                      "name": "AutoEmbed 1080p",
+                      "url": "https://player.autoembed.cc/embed/tv/259291/1/12"
+                    },
+                    {
+                      "name": "SmashyStream 1080p",
+                      "url": "https://player.smashy.stream/movie/259291?s=1&e=12"
+                    },
+                    {
+                      "name": "VidSrc.to 1080p",
+                      "url": "https://vidsrc.to/embed/tv/259291/1/12"
+                    },
+                    {
+                      "name": "VidSrc.xyz 1080p",
+                      "url": "https://vidsrc.xyz/embed/tv/259291/1/12"
+                    },
+                    {
+                      "name": "EmbedSoap 1080p",
+                      "url": "https://www.embedsoap.com/embed/tv/259291/1/12"
+                    },
+                    {
+                      "name": "MoviesAPI 1080p",
+                      "url": "https://moviesapi.club/movie/259291?s=1&e=12"
+                    },
+                    {
+                      "name": "DBGO 1080p",
+                      "url": "https://dbgo.fun/movie/259291?s=1&e=12"
+                    },
+                    {
+                      "name": "FlixHQ 1080p",
+                      "url": "https://flixhq.to/watch/tv/259291/1/12"
+                    },
+                    {
+                      "name": "GoMovies 1080p",
+                      "url": "https://gomovies.sx/watch/tv/259291/1/12"
+                    },
+                    {
+                      "name": "ShowBox 1080p",
+                      "url": "https://www.showbox.media/embed/tv/259291/1/12"
+                    },
+                    {
+                      "name": "PrimeWire 1080p",
+                      "url": "https://primewire.mx/embed/tv/259291/1/12"
+                    },
+                    {
+                      "name": "HDToday 1080p",
+                      "url": "https://hdtoday.tv/embed/tv/259291/1/12"
+                    },
+                    {
+                      "name": "VidCloud 1080p",
+                      "url": "https://vidcloud.to/embed/tv/259291/1/12"
+                    },
+                    {
+                      "name": "StreamWish 1080p",
+                      "url": "https://streamwish.to/e/259291_s1e12"
+                    },
+                    {
+                      "name": "DoodStream 1080p",
+                      "url": "https://doodstream.com/e/259291_s1e12"
+                    },
+                    {
+                      "name": "StreamTape 1080p",
+                      "url": "https://streamtape.com/e/259291_s1e12"
+                    },
+                    {
+                      "name": "MixDrop 1080p",
+                      "url": "https://mixdrop.co/e/259291_s1e12"
+                    },
+                    {
+                      "name": "FileMoon 1080p",
+                      "url": "https://filemoon.sx/e/259291_s1e12"
+                    },
+                    {
+                      "name": "UpStream 1080p",
+                      "url": "https://upstream.to/embed-259291s1e12.html"
+                    }
+                  ]
+                },
+                {
+                  "Episode": 13,
+                  "Title": "Episode 13",
+                  "Duration": "1:00",
+                  "Description": "Despite Miranda's struggle with her worsening condition, Anna finds it difficult to forgive her biological mother. However, a sudden discovery leads to Anna's change of heart. As everyone continues to search for Grace, the accused teacher faces harassment and serious charges in court—until an unexpected arrival seemingly changes everything.",
+                  "Thumbnail": "https://image.tmdb.org/t/p/w500/mjnPt1ZSbAgOHyfza0xeqXtVUnf.jpg",
+                  "Servers": [
+                    {
+                      "name": "VidSrc 1080p",
+                      "url": "https://vidsrc.net/embed/tv/259291/1/13"
+                    },
+                    {
+                      "name": "VidJoy 1080p",
+                      "url": "https://vidjoy.pro/embed/tv/259291/1/13"
+                    },
+                    {
+                      "name": "MultiEmbed 1080p",
+                      "url": "https://multiembed.mov/directstream.php?video_id=259291&tmdb=1&s=1&e=13"
+                    },
+                    {
+                      "name": "Embed.su 1080p",
+                      "url": "https://embed.su/embed/tv/259291/1/13"
+                    },
+                    {
+                      "name": "VidSrc.me 1080p",
+                      "url": "https://vidsrc.me/embed/tv/259291/1/13"
+                    },
+                    {
+                      "name": "AutoEmbed 1080p",
+                      "url": "https://player.autoembed.cc/embed/tv/259291/1/13"
+                    },
+                    {
+                      "name": "SmashyStream 1080p",
+                      "url": "https://player.smashy.stream/movie/259291?s=1&e=13"
+                    },
+                    {
+                      "name": "VidSrc.to 1080p",
+                      "url": "https://vidsrc.to/embed/tv/259291/1/13"
+                    },
+                    {
+                      "name": "VidSrc.xyz 1080p",
+                      "url": "https://vidsrc.xyz/embed/tv/259291/1/13"
+                    },
+                    {
+                      "name": "EmbedSoap 1080p",
+                      "url": "https://www.embedsoap.com/embed/tv/259291/1/13"
+                    },
+                    {
+                      "name": "MoviesAPI 1080p",
+                      "url": "https://moviesapi.club/movie/259291?s=1&e=13"
+                    },
+                    {
+                      "name": "DBGO 1080p",
+                      "url": "https://dbgo.fun/movie/259291?s=1&e=13"
+                    },
+                    {
+                      "name": "FlixHQ 1080p",
+                      "url": "https://flixhq.to/watch/tv/259291/1/13"
+                    },
+                    {
+                      "name": "GoMovies 1080p",
+                      "url": "https://gomovies.sx/watch/tv/259291/1/13"
+                    },
+                    {
+                      "name": "ShowBox 1080p",
+                      "url": "https://www.showbox.media/embed/tv/259291/1/13"
+                    },
+                    {
+                      "name": "PrimeWire 1080p",
+                      "url": "https://primewire.mx/embed/tv/259291/1/13"
+                    },
+                    {
+                      "name": "HDToday 1080p",
+                      "url": "https://hdtoday.tv/embed/tv/259291/1/13"
+                    },
+                    {
+                      "name": "VidCloud 1080p",
+                      "url": "https://vidcloud.to/embed/tv/259291/1/13"
+                    },
+                    {
+                      "name": "StreamWish 1080p",
+                      "url": "https://streamwish.to/e/259291_s1e13"
+                    },
+                    {
+                      "name": "DoodStream 1080p",
+                      "url": "https://doodstream.com/e/259291_s1e13"
+                    },
+                    {
+                      "name": "StreamTape 1080p",
+                      "url": "https://streamtape.com/e/259291_s1e13"
+                    },
+                    {
+                      "name": "MixDrop 1080p",
+                      "url": "https://mixdrop.co/e/259291_s1e13"
+                    },
+                    {
+                      "name": "FileMoon 1080p",
+                      "url": "https://filemoon.sx/e/259291_s1e13"
+                    },
+                    {
+                      "name": "UpStream 1080p",
+                      "url": "https://upstream.to/embed-259291s1e13.html"
+                    }
+                  ]
+                },
+                {
+                  "Episode": 14,
+                  "Title": "Episode 14",
+                  "Duration": "1:00",
+                  "Description": "Grace does everything she can to help Anna, only to hear that she has to stay in a shelter for her safety and well-being. Meanwhile, Sarah's anger fuels her relentless drive to win Grace back, leading her to make a desperate attempt to reclaim her daughter. As tensions escalate, Anna makes a bold and unexpected move to save Grace.",
+                  "Thumbnail": "https://image.tmdb.org/t/p/w500/6JKmxubGvd5qfu8CkvytvikPRlb.jpg",
+                  "Servers": [
+                    {
+                      "name": "VidSrc 1080p",
+                      "url": "https://vidsrc.net/embed/tv/259291/1/14"
+                    },
+                    {
+                      "name": "VidJoy 1080p",
+                      "url": "https://vidjoy.pro/embed/tv/259291/1/14"
+                    },
+                    {
+                      "name": "MultiEmbed 1080p",
+                      "url": "https://multiembed.mov/directstream.php?video_id=259291&tmdb=1&s=1&e=14"
+                    },
+                    {
+                      "name": "Embed.su 1080p",
+                      "url": "https://embed.su/embed/tv/259291/1/14"
+                    },
+                    {
+                      "name": "VidSrc.me 1080p",
+                      "url": "https://vidsrc.me/embed/tv/259291/1/14"
+                    },
+                    {
+                      "name": "AutoEmbed 1080p",
+                      "url": "https://player.autoembed.cc/embed/tv/259291/1/14"
+                    },
+                    {
+                      "name": "SmashyStream 1080p",
+                      "url": "https://player.smashy.stream/movie/259291?s=1&e=14"
+                    },
+                    {
+                      "name": "VidSrc.to 1080p",
+                      "url": "https://vidsrc.to/embed/tv/259291/1/14"
+                    },
+                    {
+                      "name": "VidSrc.xyz 1080p",
+                      "url": "https://vidsrc.xyz/embed/tv/259291/1/14"
+                    },
+                    {
+                      "name": "EmbedSoap 1080p",
+                      "url": "https://www.embedsoap.com/embed/tv/259291/1/14"
+                    },
+                    {
+                      "name": "MoviesAPI 1080p",
+                      "url": "https://moviesapi.club/movie/259291?s=1&e=14"
+                    },
+                    {
+                      "name": "DBGO 1080p",
+                      "url": "https://dbgo.fun/movie/259291?s=1&e=14"
+                    },
+                    {
+                      "name": "FlixHQ 1080p",
+                      "url": "https://flixhq.to/watch/tv/259291/1/14"
+                    },
+                    {
+                      "name": "GoMovies 1080p",
+                      "url": "https://gomovies.sx/watch/tv/259291/1/14"
+                    },
+                    {
+                      "name": "ShowBox 1080p",
+                      "url": "https://www.showbox.media/embed/tv/259291/1/14"
+                    },
+                    {
+                      "name": "PrimeWire 1080p",
+                      "url": "https://primewire.mx/embed/tv/259291/1/14"
+                    },
+                    {
+                      "name": "HDToday 1080p",
+                      "url": "https://hdtoday.tv/embed/tv/259291/1/14"
+                    },
+                    {
+                      "name": "VidCloud 1080p",
+                      "url": "https://vidcloud.to/embed/tv/259291/1/14"
+                    },
+                    {
+                      "name": "StreamWish 1080p",
+                      "url": "https://streamwish.to/e/259291_s1e14"
+                    },
+                    {
+                      "name": "DoodStream 1080p",
+                      "url": "https://doodstream.com/e/259291_s1e14"
+                    },
+                    {
+                      "name": "StreamTape 1080p",
+                      "url": "https://streamtape.com/e/259291_s1e14"
+                    },
+                    {
+                      "name": "MixDrop 1080p",
+                      "url": "https://mixdrop.co/e/259291_s1e14"
+                    },
+                    {
+                      "name": "FileMoon 1080p",
+                      "url": "https://filemoon.sx/e/259291_s1e14"
+                    },
+                    {
+                      "name": "UpStream 1080p",
+                      "url": "https://upstream.to/embed-259291s1e14.html"
                     }
                   ]
                 }
