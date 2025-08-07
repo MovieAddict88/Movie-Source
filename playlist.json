@@ -112,7 +112,836 @@
         "Comedy",
         "Drama"
       ],
-      "Entries": []
+      "Entries": [
+        {
+          "Title": "Pyramid Game",
+          "SubCategory": "Drama",
+          "Country": "",
+          "Description": "Every last Thursday of the month at an all-girls high school, the students of Class 2–5 cast their votes in a popularity poll. The results classify them into Grades A, B, C, D, and F. If they fall into Grade F, they become legitimate victims of school violence.",
+          "Poster": "https://image.tmdb.org/t/p/w500/pBUERwWNCuO36CPxiVFsoQCPu7W.jpg",
+          "Thumbnail": "https://image.tmdb.org/t/p/w500/pBUERwWNCuO36CPxiVFsoQCPu7W.jpg",
+          "Rating": 8,
+          "Year": 2024,
+          "Seasons": [
+            {
+              "Season": 1,
+              "SeasonPoster": "https://image.tmdb.org/t/p/w500/pBUERwWNCuO36CPxiVFsoQCPu7W.jpg",
+              "Episodes": [
+                {
+                  "Episode": 1,
+                  "Title": "Sung Soo Ji: The Transfer Student",
+                  "Duration": "53:00",
+                  "Description": "Soo Ji transfers to Baekyeon Girls’ High School and discovers that her class plays a game called the Pyramid Game in which the students decide on a hierarchy based on a popular vote. As Soo Ji ends up in the lowest rank, she devises a plan to get back on her feet.",
+                  "Thumbnail": "https://image.tmdb.org/t/p/w500/53DckG9m3mnA2k06OIZWggZRLnZ.jpg",
+                  "Servers": [
+                    {
+                      "url": "https://vidsrc.net/embed/tv/227192/1/1"
+                    },
+                    {
+                      "url": "https://vidjoy.pro/embed/tv/227192/1/1"
+                    },
+                    {
+                      "url": "https://multiembed.mov/directstream.php?video_id=227192&tmdb=1&s=1&e=1"
+                    },
+                    {
+                      "url": "https://embed.su/embed/tv/227192/1/1"
+                    },
+                    {
+                      "url": "https://vidsrc.me/embed/tv/227192/1/1"
+                    },
+                    {
+                      "url": "https://player.autoembed.cc/embed/tv/227192/1/1"
+                    },
+                    {
+                      "url": "https://player.smashy.stream/movie/227192?s=1&e=1"
+                    },
+                    {
+                      "url": "https://vidsrc.to/embed/tv/227192/1/1"
+                    },
+                    {
+                      "url": "https://vidsrc.xyz/embed/tv/227192/1/1"
+                    },
+                    {
+                      "url": "https://www.embedsoap.com/embed/tv/227192/1/1"
+                    },
+                    {
+                      "url": "https://moviesapi.club/movie/227192?s=1&e=1"
+                    },
+                    {
+                      "url": "https://dbgo.fun/movie/227192?s=1&e=1"
+                    },
+                    {
+                      "url": "https://flixhq.to/watch/tv/227192/1/1"
+                    },
+                    {
+                      "url": "https://gomovies.sx/watch/tv/227192/1/1"
+                    },
+                    {
+                      "url": "https://www.showbox.media/embed/tv/227192/1/1"
+                    },
+                    {
+                      "url": "https://primewire.mx/embed/tv/227192/1/1"
+                    },
+                    {
+                      "url": "https://hdtoday.tv/embed/tv/227192/1/1"
+                    },
+                    {
+                      "url": "https://vidcloud.to/embed/tv/227192/1/1"
+                    },
+                    {
+                      "url": "https://streamwish.to/e/227192_s1e1"
+                    },
+                    {
+                      "url": "https://doodstream.com/e/227192_s1e1"
+                    },
+                    {
+                      "url": "https://streamtape.com/e/227192_s1e1"
+                    },
+                    {
+                      "url": "https://mixdrop.co/e/227192_s1e1"
+                    },
+                    {
+                      "url": "https://filemoon.sx/e/227192_s1e1"
+                    },
+                    {
+                      "url": "https://upstream.to/embed-227192s1e1.html"
+                    }
+                  ]
+                },
+                {
+                  "Episode": 2,
+                  "Title": "The Mastermind of the Pyramid Game",
+                  "Duration": "57:00",
+                  "Description": "Soo Ji is determined to figure out the characteristics of her classmates and the mastermind behind the Pyramid Game. She also tries to join forces with other girls who seem vulnerable. She even asks her homeroom teacher for help, only to be disappointed. Meanwhile, the 14th Pyramid Game begins, and Ja Eun, who kept skipping school, shows up.",
+                  "Thumbnail": "https://image.tmdb.org/t/p/w500/9Jnyhpgp69mHF7Y0C3oamAcCt1K.jpg",
+                  "Servers": [
+                    {
+                      "url": "https://vidsrc.net/embed/tv/227192/1/2"
+                    },
+                    {
+                      "url": "https://vidjoy.pro/embed/tv/227192/1/2"
+                    },
+                    {
+                      "url": "https://multiembed.mov/directstream.php?video_id=227192&tmdb=1&s=1&e=2"
+                    },
+                    {
+                      "url": "https://embed.su/embed/tv/227192/1/2"
+                    },
+                    {
+                      "url": "https://vidsrc.me/embed/tv/227192/1/2"
+                    },
+                    {
+                      "url": "https://player.autoembed.cc/embed/tv/227192/1/2"
+                    },
+                    {
+                      "url": "https://player.smashy.stream/movie/227192?s=1&e=2"
+                    },
+                    {
+                      "url": "https://vidsrc.to/embed/tv/227192/1/2"
+                    },
+                    {
+                      "url": "https://vidsrc.xyz/embed/tv/227192/1/2"
+                    },
+                    {
+                      "url": "https://www.embedsoap.com/embed/tv/227192/1/2"
+                    },
+                    {
+                      "url": "https://moviesapi.club/movie/227192?s=1&e=2"
+                    },
+                    {
+                      "url": "https://dbgo.fun/movie/227192?s=1&e=2"
+                    },
+                    {
+                      "url": "https://flixhq.to/watch/tv/227192/1/2"
+                    },
+                    {
+                      "url": "https://gomovies.sx/watch/tv/227192/1/2"
+                    },
+                    {
+                      "url": "https://www.showbox.media/embed/tv/227192/1/2"
+                    },
+                    {
+                      "url": "https://primewire.mx/embed/tv/227192/1/2"
+                    },
+                    {
+                      "url": "https://hdtoday.tv/embed/tv/227192/1/2"
+                    },
+                    {
+                      "url": "https://vidcloud.to/embed/tv/227192/1/2"
+                    },
+                    {
+                      "url": "https://streamwish.to/e/227192_s1e2"
+                    },
+                    {
+                      "url": "https://doodstream.com/e/227192_s1e2"
+                    },
+                    {
+                      "url": "https://streamtape.com/e/227192_s1e2"
+                    },
+                    {
+                      "url": "https://mixdrop.co/e/227192_s1e2"
+                    },
+                    {
+                      "url": "https://filemoon.sx/e/227192_s1e2"
+                    },
+                    {
+                      "url": "https://upstream.to/embed-227192s1e2.html"
+                    }
+                  ]
+                },
+                {
+                  "Episode": 3,
+                  "Title": "The Birth of a Trio",
+                  "Duration": "1:00",
+                  "Description": "Soo Ji moves up to Grade C, and the treatment she gets changed completely overnight. She breaks the promise she made with Ja Eun, but she decides to join hands with her and help the new girl in Grade F, Pyo Ji Ae. Soo Ji, Ja Eun, and Ji Ae come up with a plan to destroy the pyramid altogether.",
+                  "Thumbnail": "https://image.tmdb.org/t/p/w500/swqK0Iu4obsHABbcqQPJjdYghPp.jpg",
+                  "Servers": [
+                    {
+                      "url": "https://vidsrc.net/embed/tv/227192/1/3"
+                    },
+                    {
+                      "url": "https://vidjoy.pro/embed/tv/227192/1/3"
+                    },
+                    {
+                      "url": "https://multiembed.mov/directstream.php?video_id=227192&tmdb=1&s=1&e=3"
+                    },
+                    {
+                      "url": "https://embed.su/embed/tv/227192/1/3"
+                    },
+                    {
+                      "url": "https://vidsrc.me/embed/tv/227192/1/3"
+                    },
+                    {
+                      "url": "https://player.autoembed.cc/embed/tv/227192/1/3"
+                    },
+                    {
+                      "url": "https://player.smashy.stream/movie/227192?s=1&e=3"
+                    },
+                    {
+                      "url": "https://vidsrc.to/embed/tv/227192/1/3"
+                    },
+                    {
+                      "url": "https://vidsrc.xyz/embed/tv/227192/1/3"
+                    },
+                    {
+                      "url": "https://www.embedsoap.com/embed/tv/227192/1/3"
+                    },
+                    {
+                      "url": "https://moviesapi.club/movie/227192?s=1&e=3"
+                    },
+                    {
+                      "url": "https://dbgo.fun/movie/227192?s=1&e=3"
+                    },
+                    {
+                      "url": "https://flixhq.to/watch/tv/227192/1/3"
+                    },
+                    {
+                      "url": "https://gomovies.sx/watch/tv/227192/1/3"
+                    },
+                    {
+                      "url": "https://www.showbox.media/embed/tv/227192/1/3"
+                    },
+                    {
+                      "url": "https://primewire.mx/embed/tv/227192/1/3"
+                    },
+                    {
+                      "url": "https://hdtoday.tv/embed/tv/227192/1/3"
+                    },
+                    {
+                      "url": "https://vidcloud.to/embed/tv/227192/1/3"
+                    },
+                    {
+                      "url": "https://streamwish.to/e/227192_s1e3"
+                    },
+                    {
+                      "url": "https://doodstream.com/e/227192_s1e3"
+                    },
+                    {
+                      "url": "https://streamtape.com/e/227192_s1e3"
+                    },
+                    {
+                      "url": "https://mixdrop.co/e/227192_s1e3"
+                    },
+                    {
+                      "url": "https://filemoon.sx/e/227192_s1e3"
+                    },
+                    {
+                      "url": "https://upstream.to/embed-227192s1e3.html"
+                    }
+                  ]
+                },
+                {
+                  "Episode": 4,
+                  "Title": "The Leaked Plan",
+                  "Duration": "50:00",
+                  "Description": "Soo Ji begins to feel uneasy about the unfolding events, suspecting that her plan may have been compromised and that Ha Rin is catching on. Learning this, Pyo Ji Ae worries she may have made a mistake and dreads the potential consequences. Meanwhile, Soo Ji hints to Hae Jun that she holds leverage over her, coercing Hae Jun into assisting her. Soo Ji recruits a hacker to join her team.",
+                  "Thumbnail": "https://image.tmdb.org/t/p/w500/die1iaWAtxL58yO26Gh7HjqBLkZ.jpg",
+                  "Servers": [
+                    {
+                      "url": "https://vidsrc.net/embed/tv/227192/1/4"
+                    },
+                    {
+                      "url": "https://vidjoy.pro/embed/tv/227192/1/4"
+                    },
+                    {
+                      "url": "https://multiembed.mov/directstream.php?video_id=227192&tmdb=1&s=1&e=4"
+                    },
+                    {
+                      "url": "https://embed.su/embed/tv/227192/1/4"
+                    },
+                    {
+                      "url": "https://vidsrc.me/embed/tv/227192/1/4"
+                    },
+                    {
+                      "url": "https://player.autoembed.cc/embed/tv/227192/1/4"
+                    },
+                    {
+                      "url": "https://player.smashy.stream/movie/227192?s=1&e=4"
+                    },
+                    {
+                      "url": "https://vidsrc.to/embed/tv/227192/1/4"
+                    },
+                    {
+                      "url": "https://vidsrc.xyz/embed/tv/227192/1/4"
+                    },
+                    {
+                      "url": "https://www.embedsoap.com/embed/tv/227192/1/4"
+                    },
+                    {
+                      "url": "https://moviesapi.club/movie/227192?s=1&e=4"
+                    },
+                    {
+                      "url": "https://dbgo.fun/movie/227192?s=1&e=4"
+                    },
+                    {
+                      "url": "https://flixhq.to/watch/tv/227192/1/4"
+                    },
+                    {
+                      "url": "https://gomovies.sx/watch/tv/227192/1/4"
+                    },
+                    {
+                      "url": "https://www.showbox.media/embed/tv/227192/1/4"
+                    },
+                    {
+                      "url": "https://primewire.mx/embed/tv/227192/1/4"
+                    },
+                    {
+                      "url": "https://hdtoday.tv/embed/tv/227192/1/4"
+                    },
+                    {
+                      "url": "https://vidcloud.to/embed/tv/227192/1/4"
+                    },
+                    {
+                      "url": "https://streamwish.to/e/227192_s1e4"
+                    },
+                    {
+                      "url": "https://doodstream.com/e/227192_s1e4"
+                    },
+                    {
+                      "url": "https://streamtape.com/e/227192_s1e4"
+                    },
+                    {
+                      "url": "https://mixdrop.co/e/227192_s1e4"
+                    },
+                    {
+                      "url": "https://filemoon.sx/e/227192_s1e4"
+                    },
+                    {
+                      "url": "https://upstream.to/embed-227192s1e4.html"
+                    }
+                  ]
+                },
+                {
+                  "Episode": 5,
+                  "Title": "Parent Observation Day",
+                  "Duration": "1:01",
+                  "Description": "During the parents' visit to the school, Soo Ji gets caught up in Ha Rin's trap. While Soo Ji tries to make a pact with Do Ah,  Seung Yi puts on a show to put Soo Ji on the spot. Although the parents witness the ordeal, Ha Rin turns the situation to her advantage and even has her grandmother, the chairwoman of Baekyeon Group. Meanwhile, Soo Ji switches to her Plan B.",
+                  "Thumbnail": "https://image.tmdb.org/t/p/w500/nPCy7GUwIl5wwE4rkkmnw8AiM63.jpg",
+                  "Servers": [
+                    {
+                      "url": "https://vidsrc.net/embed/tv/227192/1/5"
+                    },
+                    {
+                      "url": "https://vidjoy.pro/embed/tv/227192/1/5"
+                    },
+                    {
+                      "url": "https://multiembed.mov/directstream.php?video_id=227192&tmdb=1&s=1&e=5"
+                    },
+                    {
+                      "url": "https://embed.su/embed/tv/227192/1/5"
+                    },
+                    {
+                      "url": "https://vidsrc.me/embed/tv/227192/1/5"
+                    },
+                    {
+                      "url": "https://player.autoembed.cc/embed/tv/227192/1/5"
+                    },
+                    {
+                      "url": "https://player.smashy.stream/movie/227192?s=1&e=5"
+                    },
+                    {
+                      "url": "https://vidsrc.to/embed/tv/227192/1/5"
+                    },
+                    {
+                      "url": "https://vidsrc.xyz/embed/tv/227192/1/5"
+                    },
+                    {
+                      "url": "https://www.embedsoap.com/embed/tv/227192/1/5"
+                    },
+                    {
+                      "url": "https://moviesapi.club/movie/227192?s=1&e=5"
+                    },
+                    {
+                      "url": "https://dbgo.fun/movie/227192?s=1&e=5"
+                    },
+                    {
+                      "url": "https://flixhq.to/watch/tv/227192/1/5"
+                    },
+                    {
+                      "url": "https://gomovies.sx/watch/tv/227192/1/5"
+                    },
+                    {
+                      "url": "https://www.showbox.media/embed/tv/227192/1/5"
+                    },
+                    {
+                      "url": "https://primewire.mx/embed/tv/227192/1/5"
+                    },
+                    {
+                      "url": "https://hdtoday.tv/embed/tv/227192/1/5"
+                    },
+                    {
+                      "url": "https://vidcloud.to/embed/tv/227192/1/5"
+                    },
+                    {
+                      "url": "https://streamwish.to/e/227192_s1e5"
+                    },
+                    {
+                      "url": "https://doodstream.com/e/227192_s1e5"
+                    },
+                    {
+                      "url": "https://streamtape.com/e/227192_s1e5"
+                    },
+                    {
+                      "url": "https://mixdrop.co/e/227192_s1e5"
+                    },
+                    {
+                      "url": "https://filemoon.sx/e/227192_s1e5"
+                    },
+                    {
+                      "url": "https://upstream.to/embed-227192s1e5.html"
+                    }
+                  ]
+                },
+                {
+                  "Episode": 6,
+                  "Title": "Tables Turned",
+                  "Duration": "1:04",
+                  "Description": "With no Grade F in the 15th game, Soo Ji changes gears to eliminate the game with Ye Lim's help. First, she suggests voting to revoke Grade A privileges and puts Ha Rin on the spot. Meanwhile, Ha Rin doesn't give in to Soo Ji's hindrances and thinks of a plan to demolish Soo Ji's game.",
+                  "Thumbnail": "https://image.tmdb.org/t/p/w500/eoJsPPts543FAHh77LuVMqtXZZx.jpg",
+                  "Servers": [
+                    {
+                      "url": "https://vidsrc.net/embed/tv/227192/1/6"
+                    },
+                    {
+                      "url": "https://vidjoy.pro/embed/tv/227192/1/6"
+                    },
+                    {
+                      "url": "https://multiembed.mov/directstream.php?video_id=227192&tmdb=1&s=1&e=6"
+                    },
+                    {
+                      "url": "https://embed.su/embed/tv/227192/1/6"
+                    },
+                    {
+                      "url": "https://vidsrc.me/embed/tv/227192/1/6"
+                    },
+                    {
+                      "url": "https://player.autoembed.cc/embed/tv/227192/1/6"
+                    },
+                    {
+                      "url": "https://player.smashy.stream/movie/227192?s=1&e=6"
+                    },
+                    {
+                      "url": "https://vidsrc.to/embed/tv/227192/1/6"
+                    },
+                    {
+                      "url": "https://vidsrc.xyz/embed/tv/227192/1/6"
+                    },
+                    {
+                      "url": "https://www.embedsoap.com/embed/tv/227192/1/6"
+                    },
+                    {
+                      "url": "https://moviesapi.club/movie/227192?s=1&e=6"
+                    },
+                    {
+                      "url": "https://dbgo.fun/movie/227192?s=1&e=6"
+                    },
+                    {
+                      "url": "https://flixhq.to/watch/tv/227192/1/6"
+                    },
+                    {
+                      "url": "https://gomovies.sx/watch/tv/227192/1/6"
+                    },
+                    {
+                      "url": "https://www.showbox.media/embed/tv/227192/1/6"
+                    },
+                    {
+                      "url": "https://primewire.mx/embed/tv/227192/1/6"
+                    },
+                    {
+                      "url": "https://hdtoday.tv/embed/tv/227192/1/6"
+                    },
+                    {
+                      "url": "https://vidcloud.to/embed/tv/227192/1/6"
+                    },
+                    {
+                      "url": "https://streamwish.to/e/227192_s1e6"
+                    },
+                    {
+                      "url": "https://doodstream.com/e/227192_s1e6"
+                    },
+                    {
+                      "url": "https://streamtape.com/e/227192_s1e6"
+                    },
+                    {
+                      "url": "https://mixdrop.co/e/227192_s1e6"
+                    },
+                    {
+                      "url": "https://filemoon.sx/e/227192_s1e6"
+                    },
+                    {
+                      "url": "https://upstream.to/embed-227192s1e6.html"
+                    }
+                  ]
+                },
+                {
+                  "Episode": 7,
+                  "Title": "Shattering Friendship",
+                  "Duration": "56:00",
+                  "Description": "Baekyeon Girls’ High School goes on a school retreat. While practicing diving, someone pushes Ha Rin into the water, and Ja Yeon jumps in to save her. The next day, Class Five plays a survival game using paint guns. The last five standing, Soo Ji, Ja Eun, Jae Hyung, Eun Jung, and Ji Ae are put in danger of ending up in Grade F.",
+                  "Thumbnail": "https://image.tmdb.org/t/p/w500/cAc6VTiEf31mwi0YqZpcti9s4Qq.jpg",
+                  "Servers": [
+                    {
+                      "url": "https://vidsrc.net/embed/tv/227192/1/7"
+                    },
+                    {
+                      "url": "https://vidjoy.pro/embed/tv/227192/1/7"
+                    },
+                    {
+                      "url": "https://multiembed.mov/directstream.php?video_id=227192&tmdb=1&s=1&e=7"
+                    },
+                    {
+                      "url": "https://embed.su/embed/tv/227192/1/7"
+                    },
+                    {
+                      "url": "https://vidsrc.me/embed/tv/227192/1/7"
+                    },
+                    {
+                      "url": "https://player.autoembed.cc/embed/tv/227192/1/7"
+                    },
+                    {
+                      "url": "https://player.smashy.stream/movie/227192?s=1&e=7"
+                    },
+                    {
+                      "url": "https://vidsrc.to/embed/tv/227192/1/7"
+                    },
+                    {
+                      "url": "https://vidsrc.xyz/embed/tv/227192/1/7"
+                    },
+                    {
+                      "url": "https://www.embedsoap.com/embed/tv/227192/1/7"
+                    },
+                    {
+                      "url": "https://moviesapi.club/movie/227192?s=1&e=7"
+                    },
+                    {
+                      "url": "https://dbgo.fun/movie/227192?s=1&e=7"
+                    },
+                    {
+                      "url": "https://flixhq.to/watch/tv/227192/1/7"
+                    },
+                    {
+                      "url": "https://gomovies.sx/watch/tv/227192/1/7"
+                    },
+                    {
+                      "url": "https://www.showbox.media/embed/tv/227192/1/7"
+                    },
+                    {
+                      "url": "https://primewire.mx/embed/tv/227192/1/7"
+                    },
+                    {
+                      "url": "https://hdtoday.tv/embed/tv/227192/1/7"
+                    },
+                    {
+                      "url": "https://vidcloud.to/embed/tv/227192/1/7"
+                    },
+                    {
+                      "url": "https://streamwish.to/e/227192_s1e7"
+                    },
+                    {
+                      "url": "https://doodstream.com/e/227192_s1e7"
+                    },
+                    {
+                      "url": "https://streamtape.com/e/227192_s1e7"
+                    },
+                    {
+                      "url": "https://mixdrop.co/e/227192_s1e7"
+                    },
+                    {
+                      "url": "https://filemoon.sx/e/227192_s1e7"
+                    },
+                    {
+                      "url": "https://upstream.to/embed-227192s1e7.html"
+                    }
+                  ]
+                },
+                {
+                  "Episode": 8,
+                  "Title": "The Majority",
+                  "Duration": "58:00",
+                  "Description": "Soo Ji decides to recruit more girls to end the game and Ha Rin for good. When Da Yeon is about to be punished for what she did to Eun Jung, their teacher tells everyone that Da Yeon has to transfer to another school. Meanwhile, right before the Pyramid Game is held, Ye Lim gets taken to the hospital.",
+                  "Thumbnail": "https://image.tmdb.org/t/p/w500/13VN1qLx7Fu3szeZQe0ca0mJmhs.jpg",
+                  "Servers": [
+                    {
+                      "url": "https://vidsrc.net/embed/tv/227192/1/8"
+                    },
+                    {
+                      "url": "https://vidjoy.pro/embed/tv/227192/1/8"
+                    },
+                    {
+                      "url": "https://multiembed.mov/directstream.php?video_id=227192&tmdb=1&s=1&e=8"
+                    },
+                    {
+                      "url": "https://embed.su/embed/tv/227192/1/8"
+                    },
+                    {
+                      "url": "https://vidsrc.me/embed/tv/227192/1/8"
+                    },
+                    {
+                      "url": "https://player.autoembed.cc/embed/tv/227192/1/8"
+                    },
+                    {
+                      "url": "https://player.smashy.stream/movie/227192?s=1&e=8"
+                    },
+                    {
+                      "url": "https://vidsrc.to/embed/tv/227192/1/8"
+                    },
+                    {
+                      "url": "https://vidsrc.xyz/embed/tv/227192/1/8"
+                    },
+                    {
+                      "url": "https://www.embedsoap.com/embed/tv/227192/1/8"
+                    },
+                    {
+                      "url": "https://moviesapi.club/movie/227192?s=1&e=8"
+                    },
+                    {
+                      "url": "https://dbgo.fun/movie/227192?s=1&e=8"
+                    },
+                    {
+                      "url": "https://flixhq.to/watch/tv/227192/1/8"
+                    },
+                    {
+                      "url": "https://gomovies.sx/watch/tv/227192/1/8"
+                    },
+                    {
+                      "url": "https://www.showbox.media/embed/tv/227192/1/8"
+                    },
+                    {
+                      "url": "https://primewire.mx/embed/tv/227192/1/8"
+                    },
+                    {
+                      "url": "https://hdtoday.tv/embed/tv/227192/1/8"
+                    },
+                    {
+                      "url": "https://vidcloud.to/embed/tv/227192/1/8"
+                    },
+                    {
+                      "url": "https://streamwish.to/e/227192_s1e8"
+                    },
+                    {
+                      "url": "https://doodstream.com/e/227192_s1e8"
+                    },
+                    {
+                      "url": "https://streamtape.com/e/227192_s1e8"
+                    },
+                    {
+                      "url": "https://mixdrop.co/e/227192_s1e8"
+                    },
+                    {
+                      "url": "https://filemoon.sx/e/227192_s1e8"
+                    },
+                    {
+                      "url": "https://upstream.to/embed-227192s1e8.html"
+                    }
+                  ]
+                },
+                {
+                  "Episode": 9,
+                  "Title": "The Final Vote",
+                  "Duration": "54:00",
+                  "Description": "The 16th Pyramid Game begins, and Ha Rin suggests choosing a classmate who will become a permanent Grade F. Before the voting takes place, Soo Ji tells the class that Ye Lim was attacked and hospitalized. The class decides to vote on whether to stay. playing or not, and the entire process is broadcast live, causing the school to be in an uproar. Meanwhile, Ja Eun tells Soo Ji what she did to Ha Rin when they were little.",
+                  "Thumbnail": "https://image.tmdb.org/t/p/w500/ySyDAVzMzHkShZJJOcUowwSgG6V.jpg",
+                  "Servers": [
+                    {
+                      "url": "https://vidsrc.net/embed/tv/227192/1/9"
+                    },
+                    {
+                      "url": "https://vidjoy.pro/embed/tv/227192/1/9"
+                    },
+                    {
+                      "url": "https://multiembed.mov/directstream.php?video_id=227192&tmdb=1&s=1&e=9"
+                    },
+                    {
+                      "url": "https://embed.su/embed/tv/227192/1/9"
+                    },
+                    {
+                      "url": "https://vidsrc.me/embed/tv/227192/1/9"
+                    },
+                    {
+                      "url": "https://player.autoembed.cc/embed/tv/227192/1/9"
+                    },
+                    {
+                      "url": "https://player.smashy.stream/movie/227192?s=1&e=9"
+                    },
+                    {
+                      "url": "https://vidsrc.to/embed/tv/227192/1/9"
+                    },
+                    {
+                      "url": "https://vidsrc.xyz/embed/tv/227192/1/9"
+                    },
+                    {
+                      "url": "https://www.embedsoap.com/embed/tv/227192/1/9"
+                    },
+                    {
+                      "url": "https://moviesapi.club/movie/227192?s=1&e=9"
+                    },
+                    {
+                      "url": "https://dbgo.fun/movie/227192?s=1&e=9"
+                    },
+                    {
+                      "url": "https://flixhq.to/watch/tv/227192/1/9"
+                    },
+                    {
+                      "url": "https://gomovies.sx/watch/tv/227192/1/9"
+                    },
+                    {
+                      "url": "https://www.showbox.media/embed/tv/227192/1/9"
+                    },
+                    {
+                      "url": "https://primewire.mx/embed/tv/227192/1/9"
+                    },
+                    {
+                      "url": "https://hdtoday.tv/embed/tv/227192/1/9"
+                    },
+                    {
+                      "url": "https://vidcloud.to/embed/tv/227192/1/9"
+                    },
+                    {
+                      "url": "https://streamwish.to/e/227192_s1e9"
+                    },
+                    {
+                      "url": "https://doodstream.com/e/227192_s1e9"
+                    },
+                    {
+                      "url": "https://streamtape.com/e/227192_s1e9"
+                    },
+                    {
+                      "url": "https://mixdrop.co/e/227192_s1e9"
+                    },
+                    {
+                      "url": "https://filemoon.sx/e/227192_s1e9"
+                    },
+                    {
+                      "url": "https://upstream.to/embed-227192s1e9.html"
+                    }
+                  ]
+                },
+                {
+                  "Episode": 10,
+                  "Title": "The Verdict",
+                  "Duration": "1:02",
+                  "Description": "Ja Eun reveals what she used to do to Ha Rin, but Soo Ji thinks Ha Rin is just using it as an excuse to make Ja Eun's life miserable. The school and Baekyeon Group decide to blame Soo Ji and her group for the violence at school, but Ms. Yoon Na Hee takes action and reveals the video of Soo Ji being bullied. Meanwhile, Soo Ji reveals the corruption behind the teacher recruitment.",
+                  "Thumbnail": "https://image.tmdb.org/t/p/w500/jTK1udjRYa7NPBX6Nkbir6We8rY.jpg",
+                  "Servers": [
+                    {
+                      "url": "https://vidsrc.net/embed/tv/227192/1/10"
+                    },
+                    {
+                      "url": "https://vidjoy.pro/embed/tv/227192/1/10"
+                    },
+                    {
+                      "url": "https://multiembed.mov/directstream.php?video_id=227192&tmdb=1&s=1&e=10"
+                    },
+                    {
+                      "url": "https://embed.su/embed/tv/227192/1/10"
+                    },
+                    {
+                      "url": "https://vidsrc.me/embed/tv/227192/1/10"
+                    },
+                    {
+                      "url": "https://player.autoembed.cc/embed/tv/227192/1/10"
+                    },
+                    {
+                      "url": "https://player.smashy.stream/movie/227192?s=1&e=10"
+                    },
+                    {
+                      "url": "https://vidsrc.to/embed/tv/227192/1/10"
+                    },
+                    {
+                      "url": "https://vidsrc.xyz/embed/tv/227192/1/10"
+                    },
+                    {
+                      "url": "https://www.embedsoap.com/embed/tv/227192/1/10"
+                    },
+                    {
+                      "url": "https://moviesapi.club/movie/227192?s=1&e=10"
+                    },
+                    {
+                      "url": "https://dbgo.fun/movie/227192?s=1&e=10"
+                    },
+                    {
+                      "url": "https://flixhq.to/watch/tv/227192/1/10"
+                    },
+                    {
+                      "url": "https://gomovies.sx/watch/tv/227192/1/10"
+                    },
+                    {
+                      "url": "https://www.showbox.media/embed/tv/227192/1/10"
+                    },
+                    {
+                      "url": "https://primewire.mx/embed/tv/227192/1/10"
+                    },
+                    {
+                      "url": "https://hdtoday.tv/embed/tv/227192/1/10"
+                    },
+                    {
+                      "url": "https://vidcloud.to/embed/tv/227192/1/10"
+                    },
+                    {
+                      "url": "https://streamwish.to/e/227192_s1e10"
+                    },
+                    {
+                      "url": "https://doodstream.com/e/227192_s1e10"
+                    },
+                    {
+                      "url": "https://streamtape.com/e/227192_s1e10"
+                    },
+                    {
+                      "url": "https://mixdrop.co/e/227192_s1e10"
+                    },
+                    {
+                      "url": "https://filemoon.sx/e/227192_s1e10"
+                    },
+                    {
+                      "url": "https://upstream.to/embed-227192s1e10.html"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ]
 }
