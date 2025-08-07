@@ -135,7 +135,8 @@
         "Anime",
         "Action",
         "Comedy",
-        "Drama"
+        "Drama",
+        "Animation"
       ],
       "Entries": [
         {
@@ -1619,6 +1620,2334 @@
                     {
                       "name": "UpStream 1080p",
                       "url": "https://upstream.to/embed-259291s1e14.html"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "Title": "SAKAMOTO DAYS",
+          "SubCategory": "Animation",
+          "Country": "",
+          "Description": "Once the greatest hitman of all, Taro Sakamoto retired in the name of love. But when his past catches up, he must fight to protect his beloved family.",
+          "Poster": "https://image.tmdb.org/t/p/w500/wRpCqsJFyKNuh5FMegNPrhzp2NF.jpg",
+          "Thumbnail": "https://image.tmdb.org/t/p/w500/wRpCqsJFyKNuh5FMegNPrhzp2NF.jpg",
+          "Rating": 8,
+          "Year": 2025,
+          "Seasons": [
+            {
+              "Season": 1,
+              "SeasonPoster": "https://image.tmdb.org/t/p/w500/wRpCqsJFyKNuh5FMegNPrhzp2NF.jpg",
+              "Episodes": [
+                {
+                  "Episode": 1,
+                  "Title": "The Legendary Hit Man",
+                  "Duration": "24:00",
+                  "Description": "Sakamoto enjoys a quiet life in retirement with his family. But one day, an old colleague demands he return to the assassin world — or face consequences.",
+                  "Thumbnail": "https://image.tmdb.org/t/p/w500/8mzJg0n2ZggznEnTbA6KfjHETMI.jpg",
+                  "Servers": [
+                    {
+                      "name": "VidSrc 1080p",
+                      "url": "https://vidsrc.net/embed/tv/207332/1/1"
+                    },
+                    {
+                      "name": "VidJoy 1080p",
+                      "url": "https://vidjoy.pro/embed/tv/207332/1/1"
+                    },
+                    {
+                      "name": "MultiEmbed 1080p",
+                      "url": "https://multiembed.mov/directstream.php?video_id=207332&tmdb=1&s=1&e=1"
+                    },
+                    {
+                      "name": "Embed.su 1080p",
+                      "url": "https://embed.su/embed/tv/207332/1/1"
+                    },
+                    {
+                      "name": "VidSrc.me 1080p",
+                      "url": "https://vidsrc.me/embed/tv/207332/1/1"
+                    },
+                    {
+                      "name": "AutoEmbed 1080p",
+                      "url": "https://player.autoembed.cc/embed/tv/207332/1/1"
+                    },
+                    {
+                      "name": "SmashyStream 1080p",
+                      "url": "https://player.smashy.stream/movie/207332?s=1&e=1"
+                    },
+                    {
+                      "name": "VidSrc.to 1080p",
+                      "url": "https://vidsrc.to/embed/tv/207332/1/1"
+                    },
+                    {
+                      "name": "VidSrc.xyz 1080p",
+                      "url": "https://vidsrc.xyz/embed/tv/207332/1/1"
+                    },
+                    {
+                      "name": "EmbedSoap 1080p",
+                      "url": "https://www.embedsoap.com/embed/tv/207332/1/1"
+                    },
+                    {
+                      "name": "MoviesAPI 1080p",
+                      "url": "https://moviesapi.club/movie/207332?s=1&e=1"
+                    },
+                    {
+                      "name": "DBGO 1080p",
+                      "url": "https://dbgo.fun/movie/207332?s=1&e=1"
+                    },
+                    {
+                      "name": "FlixHQ 1080p",
+                      "url": "https://flixhq.to/watch/tv/207332/1/1"
+                    },
+                    {
+                      "name": "GoMovies 1080p",
+                      "url": "https://gomovies.sx/watch/tv/207332/1/1"
+                    },
+                    {
+                      "name": "ShowBox 1080p",
+                      "url": "https://www.showbox.media/embed/tv/207332/1/1"
+                    },
+                    {
+                      "name": "PrimeWire 1080p",
+                      "url": "https://primewire.mx/embed/tv/207332/1/1"
+                    },
+                    {
+                      "name": "HDToday 1080p",
+                      "url": "https://hdtoday.tv/embed/tv/207332/1/1"
+                    },
+                    {
+                      "name": "VidCloud 1080p",
+                      "url": "https://vidcloud.to/embed/tv/207332/1/1"
+                    },
+                    {
+                      "name": "StreamWish 1080p",
+                      "url": "https://streamwish.to/e/207332_s1e1"
+                    },
+                    {
+                      "name": "DoodStream 1080p",
+                      "url": "https://doodstream.com/e/207332_s1e1"
+                    },
+                    {
+                      "name": "StreamTape 1080p",
+                      "url": "https://streamtape.com/e/207332_s1e1"
+                    },
+                    {
+                      "name": "MixDrop 1080p",
+                      "url": "https://mixdrop.co/e/207332_s1e1"
+                    },
+                    {
+                      "name": "FileMoon 1080p",
+                      "url": "https://filemoon.sx/e/207332_s1e1"
+                    },
+                    {
+                      "name": "UpStream 1080p",
+                      "url": "https://upstream.to/embed-207332s1e1.html"
+                    }
+                  ]
+                },
+                {
+                  "Episode": 2,
+                  "Title": "Vs. Son Hee and Bacho",
+                  "Duration": "24:00",
+                  "Description": "While out on an errand, Sakamoto and Shin encounter Lu Shaotang, the daughter of a mafia boss, who's on the run and targeted by twin assassins.",
+                  "Thumbnail": "https://image.tmdb.org/t/p/w500/oEE5uaOpal0SleMPXy8mRxyusgw.jpg",
+                  "Servers": [
+                    {
+                      "name": "VidSrc 1080p",
+                      "url": "https://vidsrc.net/embed/tv/207332/1/2"
+                    },
+                    {
+                      "name": "VidJoy 1080p",
+                      "url": "https://vidjoy.pro/embed/tv/207332/1/2"
+                    },
+                    {
+                      "name": "MultiEmbed 1080p",
+                      "url": "https://multiembed.mov/directstream.php?video_id=207332&tmdb=1&s=1&e=2"
+                    },
+                    {
+                      "name": "Embed.su 1080p",
+                      "url": "https://embed.su/embed/tv/207332/1/2"
+                    },
+                    {
+                      "name": "VidSrc.me 1080p",
+                      "url": "https://vidsrc.me/embed/tv/207332/1/2"
+                    },
+                    {
+                      "name": "AutoEmbed 1080p",
+                      "url": "https://player.autoembed.cc/embed/tv/207332/1/2"
+                    },
+                    {
+                      "name": "SmashyStream 1080p",
+                      "url": "https://player.smashy.stream/movie/207332?s=1&e=2"
+                    },
+                    {
+                      "name": "VidSrc.to 1080p",
+                      "url": "https://vidsrc.to/embed/tv/207332/1/2"
+                    },
+                    {
+                      "name": "VidSrc.xyz 1080p",
+                      "url": "https://vidsrc.xyz/embed/tv/207332/1/2"
+                    },
+                    {
+                      "name": "EmbedSoap 1080p",
+                      "url": "https://www.embedsoap.com/embed/tv/207332/1/2"
+                    },
+                    {
+                      "name": "MoviesAPI 1080p",
+                      "url": "https://moviesapi.club/movie/207332?s=1&e=2"
+                    },
+                    {
+                      "name": "DBGO 1080p",
+                      "url": "https://dbgo.fun/movie/207332?s=1&e=2"
+                    },
+                    {
+                      "name": "FlixHQ 1080p",
+                      "url": "https://flixhq.to/watch/tv/207332/1/2"
+                    },
+                    {
+                      "name": "GoMovies 1080p",
+                      "url": "https://gomovies.sx/watch/tv/207332/1/2"
+                    },
+                    {
+                      "name": "ShowBox 1080p",
+                      "url": "https://www.showbox.media/embed/tv/207332/1/2"
+                    },
+                    {
+                      "name": "PrimeWire 1080p",
+                      "url": "https://primewire.mx/embed/tv/207332/1/2"
+                    },
+                    {
+                      "name": "HDToday 1080p",
+                      "url": "https://hdtoday.tv/embed/tv/207332/1/2"
+                    },
+                    {
+                      "name": "VidCloud 1080p",
+                      "url": "https://vidcloud.to/embed/tv/207332/1/2"
+                    },
+                    {
+                      "name": "StreamWish 1080p",
+                      "url": "https://streamwish.to/e/207332_s1e2"
+                    },
+                    {
+                      "name": "DoodStream 1080p",
+                      "url": "https://doodstream.com/e/207332_s1e2"
+                    },
+                    {
+                      "name": "StreamTape 1080p",
+                      "url": "https://streamtape.com/e/207332_s1e2"
+                    },
+                    {
+                      "name": "MixDrop 1080p",
+                      "url": "https://mixdrop.co/e/207332_s1e2"
+                    },
+                    {
+                      "name": "FileMoon 1080p",
+                      "url": "https://filemoon.sx/e/207332_s1e2"
+                    },
+                    {
+                      "name": "UpStream 1080p",
+                      "url": "https://upstream.to/embed-207332s1e2.html"
+                    }
+                  ]
+                },
+                {
+                  "Episode": 3,
+                  "Title": "Welcome to Sugar Park",
+                  "Duration": "24:00",
+                  "Description": "After learning of the huge bounty on Sakamoto's head, the crew tries to enjoy a family outing at the amusement park while fending off assassins.",
+                  "Thumbnail": "https://image.tmdb.org/t/p/w500/6vtclWDIoHLhrIfZgsygyEPn0rp.jpg",
+                  "Servers": [
+                    {
+                      "name": "VidSrc 1080p",
+                      "url": "https://vidsrc.net/embed/tv/207332/1/3"
+                    },
+                    {
+                      "name": "VidJoy 1080p",
+                      "url": "https://vidjoy.pro/embed/tv/207332/1/3"
+                    },
+                    {
+                      "name": "MultiEmbed 1080p",
+                      "url": "https://multiembed.mov/directstream.php?video_id=207332&tmdb=1&s=1&e=3"
+                    },
+                    {
+                      "name": "Embed.su 1080p",
+                      "url": "https://embed.su/embed/tv/207332/1/3"
+                    },
+                    {
+                      "name": "VidSrc.me 1080p",
+                      "url": "https://vidsrc.me/embed/tv/207332/1/3"
+                    },
+                    {
+                      "name": "AutoEmbed 1080p",
+                      "url": "https://player.autoembed.cc/embed/tv/207332/1/3"
+                    },
+                    {
+                      "name": "SmashyStream 1080p",
+                      "url": "https://player.smashy.stream/movie/207332?s=1&e=3"
+                    },
+                    {
+                      "name": "VidSrc.to 1080p",
+                      "url": "https://vidsrc.to/embed/tv/207332/1/3"
+                    },
+                    {
+                      "name": "VidSrc.xyz 1080p",
+                      "url": "https://vidsrc.xyz/embed/tv/207332/1/3"
+                    },
+                    {
+                      "name": "EmbedSoap 1080p",
+                      "url": "https://www.embedsoap.com/embed/tv/207332/1/3"
+                    },
+                    {
+                      "name": "MoviesAPI 1080p",
+                      "url": "https://moviesapi.club/movie/207332?s=1&e=3"
+                    },
+                    {
+                      "name": "DBGO 1080p",
+                      "url": "https://dbgo.fun/movie/207332?s=1&e=3"
+                    },
+                    {
+                      "name": "FlixHQ 1080p",
+                      "url": "https://flixhq.to/watch/tv/207332/1/3"
+                    },
+                    {
+                      "name": "GoMovies 1080p",
+                      "url": "https://gomovies.sx/watch/tv/207332/1/3"
+                    },
+                    {
+                      "name": "ShowBox 1080p",
+                      "url": "https://www.showbox.media/embed/tv/207332/1/3"
+                    },
+                    {
+                      "name": "PrimeWire 1080p",
+                      "url": "https://primewire.mx/embed/tv/207332/1/3"
+                    },
+                    {
+                      "name": "HDToday 1080p",
+                      "url": "https://hdtoday.tv/embed/tv/207332/1/3"
+                    },
+                    {
+                      "name": "VidCloud 1080p",
+                      "url": "https://vidcloud.to/embed/tv/207332/1/3"
+                    },
+                    {
+                      "name": "StreamWish 1080p",
+                      "url": "https://streamwish.to/e/207332_s1e3"
+                    },
+                    {
+                      "name": "DoodStream 1080p",
+                      "url": "https://doodstream.com/e/207332_s1e3"
+                    },
+                    {
+                      "name": "StreamTape 1080p",
+                      "url": "https://streamtape.com/e/207332_s1e3"
+                    },
+                    {
+                      "name": "MixDrop 1080p",
+                      "url": "https://mixdrop.co/e/207332_s1e3"
+                    },
+                    {
+                      "name": "FileMoon 1080p",
+                      "url": "https://filemoon.sx/e/207332_s1e3"
+                    },
+                    {
+                      "name": "UpStream 1080p",
+                      "url": "https://upstream.to/embed-207332s1e3.html"
+                    }
+                  ]
+                },
+                {
+                  "Episode": 4,
+                  "Title": "Hard-Boiled",
+                  "Duration": "24:00",
+                  "Description": "With the poison-wielding hitman taken out, the Sakamotos head to their next attraction, where they're ambushed by Dondenkai Ltd's ultimate assassin duo.",
+                  "Thumbnail": "https://image.tmdb.org/t/p/w500/sRggWai2AOpuBGMdP5JSAN0lok9.jpg",
+                  "Servers": [
+                    {
+                      "name": "VidSrc 1080p",
+                      "url": "https://vidsrc.net/embed/tv/207332/1/4"
+                    },
+                    {
+                      "name": "VidJoy 1080p",
+                      "url": "https://vidjoy.pro/embed/tv/207332/1/4"
+                    },
+                    {
+                      "name": "MultiEmbed 1080p",
+                      "url": "https://multiembed.mov/directstream.php?video_id=207332&tmdb=1&s=1&e=4"
+                    },
+                    {
+                      "name": "Embed.su 1080p",
+                      "url": "https://embed.su/embed/tv/207332/1/4"
+                    },
+                    {
+                      "name": "VidSrc.me 1080p",
+                      "url": "https://vidsrc.me/embed/tv/207332/1/4"
+                    },
+                    {
+                      "name": "AutoEmbed 1080p",
+                      "url": "https://player.autoembed.cc/embed/tv/207332/1/4"
+                    },
+                    {
+                      "name": "SmashyStream 1080p",
+                      "url": "https://player.smashy.stream/movie/207332?s=1&e=4"
+                    },
+                    {
+                      "name": "VidSrc.to 1080p",
+                      "url": "https://vidsrc.to/embed/tv/207332/1/4"
+                    },
+                    {
+                      "name": "VidSrc.xyz 1080p",
+                      "url": "https://vidsrc.xyz/embed/tv/207332/1/4"
+                    },
+                    {
+                      "name": "EmbedSoap 1080p",
+                      "url": "https://www.embedsoap.com/embed/tv/207332/1/4"
+                    },
+                    {
+                      "name": "MoviesAPI 1080p",
+                      "url": "https://moviesapi.club/movie/207332?s=1&e=4"
+                    },
+                    {
+                      "name": "DBGO 1080p",
+                      "url": "https://dbgo.fun/movie/207332?s=1&e=4"
+                    },
+                    {
+                      "name": "FlixHQ 1080p",
+                      "url": "https://flixhq.to/watch/tv/207332/1/4"
+                    },
+                    {
+                      "name": "GoMovies 1080p",
+                      "url": "https://gomovies.sx/watch/tv/207332/1/4"
+                    },
+                    {
+                      "name": "ShowBox 1080p",
+                      "url": "https://www.showbox.media/embed/tv/207332/1/4"
+                    },
+                    {
+                      "name": "PrimeWire 1080p",
+                      "url": "https://primewire.mx/embed/tv/207332/1/4"
+                    },
+                    {
+                      "name": "HDToday 1080p",
+                      "url": "https://hdtoday.tv/embed/tv/207332/1/4"
+                    },
+                    {
+                      "name": "VidCloud 1080p",
+                      "url": "https://vidcloud.to/embed/tv/207332/1/4"
+                    },
+                    {
+                      "name": "StreamWish 1080p",
+                      "url": "https://streamwish.to/e/207332_s1e4"
+                    },
+                    {
+                      "name": "DoodStream 1080p",
+                      "url": "https://doodstream.com/e/207332_s1e4"
+                    },
+                    {
+                      "name": "StreamTape 1080p",
+                      "url": "https://streamtape.com/e/207332_s1e4"
+                    },
+                    {
+                      "name": "MixDrop 1080p",
+                      "url": "https://mixdrop.co/e/207332_s1e4"
+                    },
+                    {
+                      "name": "FileMoon 1080p",
+                      "url": "https://filemoon.sx/e/207332_s1e4"
+                    },
+                    {
+                      "name": "UpStream 1080p",
+                      "url": "https://upstream.to/embed-207332s1e4.html"
+                    }
+                  ]
+                },
+                {
+                  "Episode": 5,
+                  "Title": "Source of Strength",
+                  "Duration": "24:00",
+                  "Description": "Sakamoto goes all out in a fierce one-on-one duel with Boiled. Meanwhile, ORDER members are tasked with handling a serial case targeting assassins.",
+                  "Thumbnail": "https://image.tmdb.org/t/p/w500/ypdUkTA1ENSbdjwfUTCthl9qq5H.jpg",
+                  "Servers": [
+                    {
+                      "name": "VidSrc 1080p",
+                      "url": "https://vidsrc.net/embed/tv/207332/1/5"
+                    },
+                    {
+                      "name": "VidJoy 1080p",
+                      "url": "https://vidjoy.pro/embed/tv/207332/1/5"
+                    },
+                    {
+                      "name": "MultiEmbed 1080p",
+                      "url": "https://multiembed.mov/directstream.php?video_id=207332&tmdb=1&s=1&e=5"
+                    },
+                    {
+                      "name": "Embed.su 1080p",
+                      "url": "https://embed.su/embed/tv/207332/1/5"
+                    },
+                    {
+                      "name": "VidSrc.me 1080p",
+                      "url": "https://vidsrc.me/embed/tv/207332/1/5"
+                    },
+                    {
+                      "name": "AutoEmbed 1080p",
+                      "url": "https://player.autoembed.cc/embed/tv/207332/1/5"
+                    },
+                    {
+                      "name": "SmashyStream 1080p",
+                      "url": "https://player.smashy.stream/movie/207332?s=1&e=5"
+                    },
+                    {
+                      "name": "VidSrc.to 1080p",
+                      "url": "https://vidsrc.to/embed/tv/207332/1/5"
+                    },
+                    {
+                      "name": "VidSrc.xyz 1080p",
+                      "url": "https://vidsrc.xyz/embed/tv/207332/1/5"
+                    },
+                    {
+                      "name": "EmbedSoap 1080p",
+                      "url": "https://www.embedsoap.com/embed/tv/207332/1/5"
+                    },
+                    {
+                      "name": "MoviesAPI 1080p",
+                      "url": "https://moviesapi.club/movie/207332?s=1&e=5"
+                    },
+                    {
+                      "name": "DBGO 1080p",
+                      "url": "https://dbgo.fun/movie/207332?s=1&e=5"
+                    },
+                    {
+                      "name": "FlixHQ 1080p",
+                      "url": "https://flixhq.to/watch/tv/207332/1/5"
+                    },
+                    {
+                      "name": "GoMovies 1080p",
+                      "url": "https://gomovies.sx/watch/tv/207332/1/5"
+                    },
+                    {
+                      "name": "ShowBox 1080p",
+                      "url": "https://www.showbox.media/embed/tv/207332/1/5"
+                    },
+                    {
+                      "name": "PrimeWire 1080p",
+                      "url": "https://primewire.mx/embed/tv/207332/1/5"
+                    },
+                    {
+                      "name": "HDToday 1080p",
+                      "url": "https://hdtoday.tv/embed/tv/207332/1/5"
+                    },
+                    {
+                      "name": "VidCloud 1080p",
+                      "url": "https://vidcloud.to/embed/tv/207332/1/5"
+                    },
+                    {
+                      "name": "StreamWish 1080p",
+                      "url": "https://streamwish.to/e/207332_s1e5"
+                    },
+                    {
+                      "name": "DoodStream 1080p",
+                      "url": "https://doodstream.com/e/207332_s1e5"
+                    },
+                    {
+                      "name": "StreamTape 1080p",
+                      "url": "https://streamtape.com/e/207332_s1e5"
+                    },
+                    {
+                      "name": "MixDrop 1080p",
+                      "url": "https://mixdrop.co/e/207332_s1e5"
+                    },
+                    {
+                      "name": "FileMoon 1080p",
+                      "url": "https://filemoon.sx/e/207332_s1e5"
+                    },
+                    {
+                      "name": "UpStream 1080p",
+                      "url": "https://upstream.to/embed-207332s1e5.html"
+                    }
+                  ]
+                },
+                {
+                  "Episode": 6,
+                  "Title": "Heisuke Mashimo",
+                  "Duration": "23:00",
+                  "Description": "Hoping to win the million-yen prize, Team Sakamoto enters the shopping district's survival tournament and teams up with a completely clueless sniper.",
+                  "Thumbnail": "https://image.tmdb.org/t/p/w500/b8qiOlRAN8cGHICFwvy7mWcJrrM.jpg",
+                  "Servers": [
+                    {
+                      "name": "VidSrc 1080p",
+                      "url": "https://vidsrc.net/embed/tv/207332/1/6"
+                    },
+                    {
+                      "name": "VidJoy 1080p",
+                      "url": "https://vidjoy.pro/embed/tv/207332/1/6"
+                    },
+                    {
+                      "name": "MultiEmbed 1080p",
+                      "url": "https://multiembed.mov/directstream.php?video_id=207332&tmdb=1&s=1&e=6"
+                    },
+                    {
+                      "name": "Embed.su 1080p",
+                      "url": "https://embed.su/embed/tv/207332/1/6"
+                    },
+                    {
+                      "name": "VidSrc.me 1080p",
+                      "url": "https://vidsrc.me/embed/tv/207332/1/6"
+                    },
+                    {
+                      "name": "AutoEmbed 1080p",
+                      "url": "https://player.autoembed.cc/embed/tv/207332/1/6"
+                    },
+                    {
+                      "name": "SmashyStream 1080p",
+                      "url": "https://player.smashy.stream/movie/207332?s=1&e=6"
+                    },
+                    {
+                      "name": "VidSrc.to 1080p",
+                      "url": "https://vidsrc.to/embed/tv/207332/1/6"
+                    },
+                    {
+                      "name": "VidSrc.xyz 1080p",
+                      "url": "https://vidsrc.xyz/embed/tv/207332/1/6"
+                    },
+                    {
+                      "name": "EmbedSoap 1080p",
+                      "url": "https://www.embedsoap.com/embed/tv/207332/1/6"
+                    },
+                    {
+                      "name": "MoviesAPI 1080p",
+                      "url": "https://moviesapi.club/movie/207332?s=1&e=6"
+                    },
+                    {
+                      "name": "DBGO 1080p",
+                      "url": "https://dbgo.fun/movie/207332?s=1&e=6"
+                    },
+                    {
+                      "name": "FlixHQ 1080p",
+                      "url": "https://flixhq.to/watch/tv/207332/1/6"
+                    },
+                    {
+                      "name": "GoMovies 1080p",
+                      "url": "https://gomovies.sx/watch/tv/207332/1/6"
+                    },
+                    {
+                      "name": "ShowBox 1080p",
+                      "url": "https://www.showbox.media/embed/tv/207332/1/6"
+                    },
+                    {
+                      "name": "PrimeWire 1080p",
+                      "url": "https://primewire.mx/embed/tv/207332/1/6"
+                    },
+                    {
+                      "name": "HDToday 1080p",
+                      "url": "https://hdtoday.tv/embed/tv/207332/1/6"
+                    },
+                    {
+                      "name": "VidCloud 1080p",
+                      "url": "https://vidcloud.to/embed/tv/207332/1/6"
+                    },
+                    {
+                      "name": "StreamWish 1080p",
+                      "url": "https://streamwish.to/e/207332_s1e6"
+                    },
+                    {
+                      "name": "DoodStream 1080p",
+                      "url": "https://doodstream.com/e/207332_s1e6"
+                    },
+                    {
+                      "name": "StreamTape 1080p",
+                      "url": "https://streamtape.com/e/207332_s1e6"
+                    },
+                    {
+                      "name": "MixDrop 1080p",
+                      "url": "https://mixdrop.co/e/207332_s1e6"
+                    },
+                    {
+                      "name": "FileMoon 1080p",
+                      "url": "https://filemoon.sx/e/207332_s1e6"
+                    },
+                    {
+                      "name": "UpStream 1080p",
+                      "url": "https://upstream.to/embed-207332s1e6.html"
+                    }
+                  ]
+                },
+                {
+                  "Episode": 7,
+                  "Title": "Jurassic Bastard",
+                  "Duration": "23:00",
+                  "Description": "While manning the store alone, Lu gets kidnapped by a mysterious group. Sakamoto and Shin pursue her but are halted by an invisible assassin.",
+                  "Thumbnail": "https://image.tmdb.org/t/p/w500/wAQEWEpi47Y2Vwn4JYLrbhWRbZo.jpg",
+                  "Servers": [
+                    {
+                      "name": "VidSrc 1080p",
+                      "url": "https://vidsrc.net/embed/tv/207332/1/7"
+                    },
+                    {
+                      "name": "VidJoy 1080p",
+                      "url": "https://vidjoy.pro/embed/tv/207332/1/7"
+                    },
+                    {
+                      "name": "MultiEmbed 1080p",
+                      "url": "https://multiembed.mov/directstream.php?video_id=207332&tmdb=1&s=1&e=7"
+                    },
+                    {
+                      "name": "Embed.su 1080p",
+                      "url": "https://embed.su/embed/tv/207332/1/7"
+                    },
+                    {
+                      "name": "VidSrc.me 1080p",
+                      "url": "https://vidsrc.me/embed/tv/207332/1/7"
+                    },
+                    {
+                      "name": "AutoEmbed 1080p",
+                      "url": "https://player.autoembed.cc/embed/tv/207332/1/7"
+                    },
+                    {
+                      "name": "SmashyStream 1080p",
+                      "url": "https://player.smashy.stream/movie/207332?s=1&e=7"
+                    },
+                    {
+                      "name": "VidSrc.to 1080p",
+                      "url": "https://vidsrc.to/embed/tv/207332/1/7"
+                    },
+                    {
+                      "name": "VidSrc.xyz 1080p",
+                      "url": "https://vidsrc.xyz/embed/tv/207332/1/7"
+                    },
+                    {
+                      "name": "EmbedSoap 1080p",
+                      "url": "https://www.embedsoap.com/embed/tv/207332/1/7"
+                    },
+                    {
+                      "name": "MoviesAPI 1080p",
+                      "url": "https://moviesapi.club/movie/207332?s=1&e=7"
+                    },
+                    {
+                      "name": "DBGO 1080p",
+                      "url": "https://dbgo.fun/movie/207332?s=1&e=7"
+                    },
+                    {
+                      "name": "FlixHQ 1080p",
+                      "url": "https://flixhq.to/watch/tv/207332/1/7"
+                    },
+                    {
+                      "name": "GoMovies 1080p",
+                      "url": "https://gomovies.sx/watch/tv/207332/1/7"
+                    },
+                    {
+                      "name": "ShowBox 1080p",
+                      "url": "https://www.showbox.media/embed/tv/207332/1/7"
+                    },
+                    {
+                      "name": "PrimeWire 1080p",
+                      "url": "https://primewire.mx/embed/tv/207332/1/7"
+                    },
+                    {
+                      "name": "HDToday 1080p",
+                      "url": "https://hdtoday.tv/embed/tv/207332/1/7"
+                    },
+                    {
+                      "name": "VidCloud 1080p",
+                      "url": "https://vidcloud.to/embed/tv/207332/1/7"
+                    },
+                    {
+                      "name": "StreamWish 1080p",
+                      "url": "https://streamwish.to/e/207332_s1e7"
+                    },
+                    {
+                      "name": "DoodStream 1080p",
+                      "url": "https://doodstream.com/e/207332_s1e7"
+                    },
+                    {
+                      "name": "StreamTape 1080p",
+                      "url": "https://streamtape.com/e/207332_s1e7"
+                    },
+                    {
+                      "name": "MixDrop 1080p",
+                      "url": "https://mixdrop.co/e/207332_s1e7"
+                    },
+                    {
+                      "name": "FileMoon 1080p",
+                      "url": "https://filemoon.sx/e/207332_s1e7"
+                    },
+                    {
+                      "name": "UpStream 1080p",
+                      "url": "https://upstream.to/embed-207332s1e7.html"
+                    }
+                  ]
+                },
+                {
+                  "Episode": 8,
+                  "Title": "Sakamoto's vs. the Lab",
+                  "Duration": "24:00",
+                  "Description": "To rescue Lu, Sakamoto and Shin infiltrate a top-secret lab seized by assassins. Meanwhile, in the prison cell, Lu meets someone from Shin's childhood.",
+                  "Thumbnail": "https://image.tmdb.org/t/p/w500/sbK6J9MVN7KCDqTd1xTEcqNNWjy.jpg",
+                  "Servers": [
+                    {
+                      "name": "VidSrc 1080p",
+                      "url": "https://vidsrc.net/embed/tv/207332/1/8"
+                    },
+                    {
+                      "name": "VidJoy 1080p",
+                      "url": "https://vidjoy.pro/embed/tv/207332/1/8"
+                    },
+                    {
+                      "name": "MultiEmbed 1080p",
+                      "url": "https://multiembed.mov/directstream.php?video_id=207332&tmdb=1&s=1&e=8"
+                    },
+                    {
+                      "name": "Embed.su 1080p",
+                      "url": "https://embed.su/embed/tv/207332/1/8"
+                    },
+                    {
+                      "name": "VidSrc.me 1080p",
+                      "url": "https://vidsrc.me/embed/tv/207332/1/8"
+                    },
+                    {
+                      "name": "AutoEmbed 1080p",
+                      "url": "https://player.autoembed.cc/embed/tv/207332/1/8"
+                    },
+                    {
+                      "name": "SmashyStream 1080p",
+                      "url": "https://player.smashy.stream/movie/207332?s=1&e=8"
+                    },
+                    {
+                      "name": "VidSrc.to 1080p",
+                      "url": "https://vidsrc.to/embed/tv/207332/1/8"
+                    },
+                    {
+                      "name": "VidSrc.xyz 1080p",
+                      "url": "https://vidsrc.xyz/embed/tv/207332/1/8"
+                    },
+                    {
+                      "name": "EmbedSoap 1080p",
+                      "url": "https://www.embedsoap.com/embed/tv/207332/1/8"
+                    },
+                    {
+                      "name": "MoviesAPI 1080p",
+                      "url": "https://moviesapi.club/movie/207332?s=1&e=8"
+                    },
+                    {
+                      "name": "DBGO 1080p",
+                      "url": "https://dbgo.fun/movie/207332?s=1&e=8"
+                    },
+                    {
+                      "name": "FlixHQ 1080p",
+                      "url": "https://flixhq.to/watch/tv/207332/1/8"
+                    },
+                    {
+                      "name": "GoMovies 1080p",
+                      "url": "https://gomovies.sx/watch/tv/207332/1/8"
+                    },
+                    {
+                      "name": "ShowBox 1080p",
+                      "url": "https://www.showbox.media/embed/tv/207332/1/8"
+                    },
+                    {
+                      "name": "PrimeWire 1080p",
+                      "url": "https://primewire.mx/embed/tv/207332/1/8"
+                    },
+                    {
+                      "name": "HDToday 1080p",
+                      "url": "https://hdtoday.tv/embed/tv/207332/1/8"
+                    },
+                    {
+                      "name": "VidCloud 1080p",
+                      "url": "https://vidcloud.to/embed/tv/207332/1/8"
+                    },
+                    {
+                      "name": "StreamWish 1080p",
+                      "url": "https://streamwish.to/e/207332_s1e8"
+                    },
+                    {
+                      "name": "DoodStream 1080p",
+                      "url": "https://doodstream.com/e/207332_s1e8"
+                    },
+                    {
+                      "name": "StreamTape 1080p",
+                      "url": "https://streamtape.com/e/207332_s1e8"
+                    },
+                    {
+                      "name": "MixDrop 1080p",
+                      "url": "https://mixdrop.co/e/207332_s1e8"
+                    },
+                    {
+                      "name": "FileMoon 1080p",
+                      "url": "https://filemoon.sx/e/207332_s1e8"
+                    },
+                    {
+                      "name": "UpStream 1080p",
+                      "url": "https://upstream.to/embed-207332s1e8.html"
+                    }
+                  ]
+                },
+                {
+                  "Episode": 9,
+                  "Title": "All Aboard",
+                  "Duration": "24:00",
+                  "Description": "In the depths of the Lab, Shin and Heisuke join forces to take down the invisible assailant, while Sakamoto engages in an intense battle against Kashima.",
+                  "Thumbnail": "https://image.tmdb.org/t/p/w500/i4okwYuooDi85mwTtuj6Kne29Se.jpg",
+                  "Servers": [
+                    {
+                      "name": "VidSrc 1080p",
+                      "url": "https://vidsrc.net/embed/tv/207332/1/9"
+                    },
+                    {
+                      "name": "VidJoy 1080p",
+                      "url": "https://vidjoy.pro/embed/tv/207332/1/9"
+                    },
+                    {
+                      "name": "MultiEmbed 1080p",
+                      "url": "https://multiembed.mov/directstream.php?video_id=207332&tmdb=1&s=1&e=9"
+                    },
+                    {
+                      "name": "Embed.su 1080p",
+                      "url": "https://embed.su/embed/tv/207332/1/9"
+                    },
+                    {
+                      "name": "VidSrc.me 1080p",
+                      "url": "https://vidsrc.me/embed/tv/207332/1/9"
+                    },
+                    {
+                      "name": "AutoEmbed 1080p",
+                      "url": "https://player.autoembed.cc/embed/tv/207332/1/9"
+                    },
+                    {
+                      "name": "SmashyStream 1080p",
+                      "url": "https://player.smashy.stream/movie/207332?s=1&e=9"
+                    },
+                    {
+                      "name": "VidSrc.to 1080p",
+                      "url": "https://vidsrc.to/embed/tv/207332/1/9"
+                    },
+                    {
+                      "name": "VidSrc.xyz 1080p",
+                      "url": "https://vidsrc.xyz/embed/tv/207332/1/9"
+                    },
+                    {
+                      "name": "EmbedSoap 1080p",
+                      "url": "https://www.embedsoap.com/embed/tv/207332/1/9"
+                    },
+                    {
+                      "name": "MoviesAPI 1080p",
+                      "url": "https://moviesapi.club/movie/207332?s=1&e=9"
+                    },
+                    {
+                      "name": "DBGO 1080p",
+                      "url": "https://dbgo.fun/movie/207332?s=1&e=9"
+                    },
+                    {
+                      "name": "FlixHQ 1080p",
+                      "url": "https://flixhq.to/watch/tv/207332/1/9"
+                    },
+                    {
+                      "name": "GoMovies 1080p",
+                      "url": "https://gomovies.sx/watch/tv/207332/1/9"
+                    },
+                    {
+                      "name": "ShowBox 1080p",
+                      "url": "https://www.showbox.media/embed/tv/207332/1/9"
+                    },
+                    {
+                      "name": "PrimeWire 1080p",
+                      "url": "https://primewire.mx/embed/tv/207332/1/9"
+                    },
+                    {
+                      "name": "HDToday 1080p",
+                      "url": "https://hdtoday.tv/embed/tv/207332/1/9"
+                    },
+                    {
+                      "name": "VidCloud 1080p",
+                      "url": "https://vidcloud.to/embed/tv/207332/1/9"
+                    },
+                    {
+                      "name": "StreamWish 1080p",
+                      "url": "https://streamwish.to/e/207332_s1e9"
+                    },
+                    {
+                      "name": "DoodStream 1080p",
+                      "url": "https://doodstream.com/e/207332_s1e9"
+                    },
+                    {
+                      "name": "StreamTape 1080p",
+                      "url": "https://streamtape.com/e/207332_s1e9"
+                    },
+                    {
+                      "name": "MixDrop 1080p",
+                      "url": "https://mixdrop.co/e/207332_s1e9"
+                    },
+                    {
+                      "name": "FileMoon 1080p",
+                      "url": "https://filemoon.sx/e/207332_s1e9"
+                    },
+                    {
+                      "name": "UpStream 1080p",
+                      "url": "https://upstream.to/embed-207332s1e9.html"
+                    }
+                  ]
+                },
+                {
+                  "Episode": 10,
+                  "Title": "Bathhouse Roughhouse",
+                  "Duration": "24:00",
+                  "Description": "Exhausted from their battle, the crew heads to a local bathhouse but finds it too dangerous to relax. Later, a mysterious man arrives in search of Lu.",
+                  "Thumbnail": "https://image.tmdb.org/t/p/w500/7mkGjdPmcnoZyjvhzBTFQ1QmQb6.jpg",
+                  "Servers": [
+                    {
+                      "name": "VidSrc 1080p",
+                      "url": "https://vidsrc.net/embed/tv/207332/1/10"
+                    },
+                    {
+                      "name": "VidJoy 1080p",
+                      "url": "https://vidjoy.pro/embed/tv/207332/1/10"
+                    },
+                    {
+                      "name": "MultiEmbed 1080p",
+                      "url": "https://multiembed.mov/directstream.php?video_id=207332&tmdb=1&s=1&e=10"
+                    },
+                    {
+                      "name": "Embed.su 1080p",
+                      "url": "https://embed.su/embed/tv/207332/1/10"
+                    },
+                    {
+                      "name": "VidSrc.me 1080p",
+                      "url": "https://vidsrc.me/embed/tv/207332/1/10"
+                    },
+                    {
+                      "name": "AutoEmbed 1080p",
+                      "url": "https://player.autoembed.cc/embed/tv/207332/1/10"
+                    },
+                    {
+                      "name": "SmashyStream 1080p",
+                      "url": "https://player.smashy.stream/movie/207332?s=1&e=10"
+                    },
+                    {
+                      "name": "VidSrc.to 1080p",
+                      "url": "https://vidsrc.to/embed/tv/207332/1/10"
+                    },
+                    {
+                      "name": "VidSrc.xyz 1080p",
+                      "url": "https://vidsrc.xyz/embed/tv/207332/1/10"
+                    },
+                    {
+                      "name": "EmbedSoap 1080p",
+                      "url": "https://www.embedsoap.com/embed/tv/207332/1/10"
+                    },
+                    {
+                      "name": "MoviesAPI 1080p",
+                      "url": "https://moviesapi.club/movie/207332?s=1&e=10"
+                    },
+                    {
+                      "name": "DBGO 1080p",
+                      "url": "https://dbgo.fun/movie/207332?s=1&e=10"
+                    },
+                    {
+                      "name": "FlixHQ 1080p",
+                      "url": "https://flixhq.to/watch/tv/207332/1/10"
+                    },
+                    {
+                      "name": "GoMovies 1080p",
+                      "url": "https://gomovies.sx/watch/tv/207332/1/10"
+                    },
+                    {
+                      "name": "ShowBox 1080p",
+                      "url": "https://www.showbox.media/embed/tv/207332/1/10"
+                    },
+                    {
+                      "name": "PrimeWire 1080p",
+                      "url": "https://primewire.mx/embed/tv/207332/1/10"
+                    },
+                    {
+                      "name": "HDToday 1080p",
+                      "url": "https://hdtoday.tv/embed/tv/207332/1/10"
+                    },
+                    {
+                      "name": "VidCloud 1080p",
+                      "url": "https://vidcloud.to/embed/tv/207332/1/10"
+                    },
+                    {
+                      "name": "StreamWish 1080p",
+                      "url": "https://streamwish.to/e/207332_s1e10"
+                    },
+                    {
+                      "name": "DoodStream 1080p",
+                      "url": "https://doodstream.com/e/207332_s1e10"
+                    },
+                    {
+                      "name": "StreamTape 1080p",
+                      "url": "https://streamtape.com/e/207332_s1e10"
+                    },
+                    {
+                      "name": "MixDrop 1080p",
+                      "url": "https://mixdrop.co/e/207332_s1e10"
+                    },
+                    {
+                      "name": "FileMoon 1080p",
+                      "url": "https://filemoon.sx/e/207332_s1e10"
+                    },
+                    {
+                      "name": "UpStream 1080p",
+                      "url": "https://upstream.to/embed-207332s1e10.html"
+                    }
+                  ]
+                },
+                {
+                  "Episode": 11,
+                  "Title": "Casino Battle",
+                  "Duration": "24:00",
+                  "Description": "The crew faces Wutang in a high-stakes casino showdown to learn who issued Sakamoto's bounty. Meanwhile, X sends a group of vicious assassins their way",
+                  "Thumbnail": "https://image.tmdb.org/t/p/w500/iAHih3zBgtj8GVc272L0VrhBB87.jpg",
+                  "Servers": [
+                    {
+                      "name": "VidSrc 1080p",
+                      "url": "https://vidsrc.net/embed/tv/207332/1/11"
+                    },
+                    {
+                      "name": "VidJoy 1080p",
+                      "url": "https://vidjoy.pro/embed/tv/207332/1/11"
+                    },
+                    {
+                      "name": "MultiEmbed 1080p",
+                      "url": "https://multiembed.mov/directstream.php?video_id=207332&tmdb=1&s=1&e=11"
+                    },
+                    {
+                      "name": "Embed.su 1080p",
+                      "url": "https://embed.su/embed/tv/207332/1/11"
+                    },
+                    {
+                      "name": "VidSrc.me 1080p",
+                      "url": "https://vidsrc.me/embed/tv/207332/1/11"
+                    },
+                    {
+                      "name": "AutoEmbed 1080p",
+                      "url": "https://player.autoembed.cc/embed/tv/207332/1/11"
+                    },
+                    {
+                      "name": "SmashyStream 1080p",
+                      "url": "https://player.smashy.stream/movie/207332?s=1&e=11"
+                    },
+                    {
+                      "name": "VidSrc.to 1080p",
+                      "url": "https://vidsrc.to/embed/tv/207332/1/11"
+                    },
+                    {
+                      "name": "VidSrc.xyz 1080p",
+                      "url": "https://vidsrc.xyz/embed/tv/207332/1/11"
+                    },
+                    {
+                      "name": "EmbedSoap 1080p",
+                      "url": "https://www.embedsoap.com/embed/tv/207332/1/11"
+                    },
+                    {
+                      "name": "MoviesAPI 1080p",
+                      "url": "https://moviesapi.club/movie/207332?s=1&e=11"
+                    },
+                    {
+                      "name": "DBGO 1080p",
+                      "url": "https://dbgo.fun/movie/207332?s=1&e=11"
+                    },
+                    {
+                      "name": "FlixHQ 1080p",
+                      "url": "https://flixhq.to/watch/tv/207332/1/11"
+                    },
+                    {
+                      "name": "GoMovies 1080p",
+                      "url": "https://gomovies.sx/watch/tv/207332/1/11"
+                    },
+                    {
+                      "name": "ShowBox 1080p",
+                      "url": "https://www.showbox.media/embed/tv/207332/1/11"
+                    },
+                    {
+                      "name": "PrimeWire 1080p",
+                      "url": "https://primewire.mx/embed/tv/207332/1/11"
+                    },
+                    {
+                      "name": "HDToday 1080p",
+                      "url": "https://hdtoday.tv/embed/tv/207332/1/11"
+                    },
+                    {
+                      "name": "VidCloud 1080p",
+                      "url": "https://vidcloud.to/embed/tv/207332/1/11"
+                    },
+                    {
+                      "name": "StreamWish 1080p",
+                      "url": "https://streamwish.to/e/207332_s1e11"
+                    },
+                    {
+                      "name": "DoodStream 1080p",
+                      "url": "https://doodstream.com/e/207332_s1e11"
+                    },
+                    {
+                      "name": "StreamTape 1080p",
+                      "url": "https://streamtape.com/e/207332_s1e11"
+                    },
+                    {
+                      "name": "MixDrop 1080p",
+                      "url": "https://mixdrop.co/e/207332_s1e11"
+                    },
+                    {
+                      "name": "FileMoon 1080p",
+                      "url": "https://filemoon.sx/e/207332_s1e11"
+                    },
+                    {
+                      "name": "UpStream 1080p",
+                      "url": "https://upstream.to/embed-207332s1e11.html"
+                    }
+                  ]
+                },
+                {
+                  "Episode": 12,
+                  "Title": "Overload",
+                  "Duration": "24:00",
+                  "Description": "As Sakamoto gathers intel on the assassins targeting him, ORDER begins hunting the death row inmates. Later, Shin and Lu face a deadly assault.",
+                  "Thumbnail": "https://image.tmdb.org/t/p/w500/3DVD79zAqEbtT7SDZFYBCUmK0Zs.jpg",
+                  "Servers": [
+                    {
+                      "name": "VidSrc 1080p",
+                      "url": "https://vidsrc.net/embed/tv/207332/1/12"
+                    },
+                    {
+                      "name": "VidJoy 1080p",
+                      "url": "https://vidjoy.pro/embed/tv/207332/1/12"
+                    },
+                    {
+                      "name": "MultiEmbed 1080p",
+                      "url": "https://multiembed.mov/directstream.php?video_id=207332&tmdb=1&s=1&e=12"
+                    },
+                    {
+                      "name": "Embed.su 1080p",
+                      "url": "https://embed.su/embed/tv/207332/1/12"
+                    },
+                    {
+                      "name": "VidSrc.me 1080p",
+                      "url": "https://vidsrc.me/embed/tv/207332/1/12"
+                    },
+                    {
+                      "name": "AutoEmbed 1080p",
+                      "url": "https://player.autoembed.cc/embed/tv/207332/1/12"
+                    },
+                    {
+                      "name": "SmashyStream 1080p",
+                      "url": "https://player.smashy.stream/movie/207332?s=1&e=12"
+                    },
+                    {
+                      "name": "VidSrc.to 1080p",
+                      "url": "https://vidsrc.to/embed/tv/207332/1/12"
+                    },
+                    {
+                      "name": "VidSrc.xyz 1080p",
+                      "url": "https://vidsrc.xyz/embed/tv/207332/1/12"
+                    },
+                    {
+                      "name": "EmbedSoap 1080p",
+                      "url": "https://www.embedsoap.com/embed/tv/207332/1/12"
+                    },
+                    {
+                      "name": "MoviesAPI 1080p",
+                      "url": "https://moviesapi.club/movie/207332?s=1&e=12"
+                    },
+                    {
+                      "name": "DBGO 1080p",
+                      "url": "https://dbgo.fun/movie/207332?s=1&e=12"
+                    },
+                    {
+                      "name": "FlixHQ 1080p",
+                      "url": "https://flixhq.to/watch/tv/207332/1/12"
+                    },
+                    {
+                      "name": "GoMovies 1080p",
+                      "url": "https://gomovies.sx/watch/tv/207332/1/12"
+                    },
+                    {
+                      "name": "ShowBox 1080p",
+                      "url": "https://www.showbox.media/embed/tv/207332/1/12"
+                    },
+                    {
+                      "name": "PrimeWire 1080p",
+                      "url": "https://primewire.mx/embed/tv/207332/1/12"
+                    },
+                    {
+                      "name": "HDToday 1080p",
+                      "url": "https://hdtoday.tv/embed/tv/207332/1/12"
+                    },
+                    {
+                      "name": "VidCloud 1080p",
+                      "url": "https://vidcloud.to/embed/tv/207332/1/12"
+                    },
+                    {
+                      "name": "StreamWish 1080p",
+                      "url": "https://streamwish.to/e/207332_s1e12"
+                    },
+                    {
+                      "name": "DoodStream 1080p",
+                      "url": "https://doodstream.com/e/207332_s1e12"
+                    },
+                    {
+                      "name": "StreamTape 1080p",
+                      "url": "https://streamtape.com/e/207332_s1e12"
+                    },
+                    {
+                      "name": "MixDrop 1080p",
+                      "url": "https://mixdrop.co/e/207332_s1e12"
+                    },
+                    {
+                      "name": "FileMoon 1080p",
+                      "url": "https://filemoon.sx/e/207332_s1e12"
+                    },
+                    {
+                      "name": "UpStream 1080p",
+                      "url": "https://upstream.to/embed-207332s1e12.html"
+                    }
+                  ]
+                },
+                {
+                  "Episode": 13,
+                  "Title": "Just Desserts",
+                  "Duration": "24:00",
+                  "Description": "Saw's attacks push Shin and Lu to awaken new abilities, turning the tables on the deadly killer. Meanwhile, Dump ambushes Osaragi at a temple.",
+                  "Thumbnail": "https://image.tmdb.org/t/p/w500/A7HcVVa4xlptprgyOgiIlr2im7J.jpg",
+                  "Servers": [
+                    {
+                      "name": "VidSrc 1080p",
+                      "url": "https://vidsrc.net/embed/tv/207332/1/13"
+                    },
+                    {
+                      "name": "VidJoy 1080p",
+                      "url": "https://vidjoy.pro/embed/tv/207332/1/13"
+                    },
+                    {
+                      "name": "MultiEmbed 1080p",
+                      "url": "https://multiembed.mov/directstream.php?video_id=207332&tmdb=1&s=1&e=13"
+                    },
+                    {
+                      "name": "Embed.su 1080p",
+                      "url": "https://embed.su/embed/tv/207332/1/13"
+                    },
+                    {
+                      "name": "VidSrc.me 1080p",
+                      "url": "https://vidsrc.me/embed/tv/207332/1/13"
+                    },
+                    {
+                      "name": "AutoEmbed 1080p",
+                      "url": "https://player.autoembed.cc/embed/tv/207332/1/13"
+                    },
+                    {
+                      "name": "SmashyStream 1080p",
+                      "url": "https://player.smashy.stream/movie/207332?s=1&e=13"
+                    },
+                    {
+                      "name": "VidSrc.to 1080p",
+                      "url": "https://vidsrc.to/embed/tv/207332/1/13"
+                    },
+                    {
+                      "name": "VidSrc.xyz 1080p",
+                      "url": "https://vidsrc.xyz/embed/tv/207332/1/13"
+                    },
+                    {
+                      "name": "EmbedSoap 1080p",
+                      "url": "https://www.embedsoap.com/embed/tv/207332/1/13"
+                    },
+                    {
+                      "name": "MoviesAPI 1080p",
+                      "url": "https://moviesapi.club/movie/207332?s=1&e=13"
+                    },
+                    {
+                      "name": "DBGO 1080p",
+                      "url": "https://dbgo.fun/movie/207332?s=1&e=13"
+                    },
+                    {
+                      "name": "FlixHQ 1080p",
+                      "url": "https://flixhq.to/watch/tv/207332/1/13"
+                    },
+                    {
+                      "name": "GoMovies 1080p",
+                      "url": "https://gomovies.sx/watch/tv/207332/1/13"
+                    },
+                    {
+                      "name": "ShowBox 1080p",
+                      "url": "https://www.showbox.media/embed/tv/207332/1/13"
+                    },
+                    {
+                      "name": "PrimeWire 1080p",
+                      "url": "https://primewire.mx/embed/tv/207332/1/13"
+                    },
+                    {
+                      "name": "HDToday 1080p",
+                      "url": "https://hdtoday.tv/embed/tv/207332/1/13"
+                    },
+                    {
+                      "name": "VidCloud 1080p",
+                      "url": "https://vidcloud.to/embed/tv/207332/1/13"
+                    },
+                    {
+                      "name": "StreamWish 1080p",
+                      "url": "https://streamwish.to/e/207332_s1e13"
+                    },
+                    {
+                      "name": "DoodStream 1080p",
+                      "url": "https://doodstream.com/e/207332_s1e13"
+                    },
+                    {
+                      "name": "StreamTape 1080p",
+                      "url": "https://streamtape.com/e/207332_s1e13"
+                    },
+                    {
+                      "name": "MixDrop 1080p",
+                      "url": "https://mixdrop.co/e/207332_s1e13"
+                    },
+                    {
+                      "name": "FileMoon 1080p",
+                      "url": "https://filemoon.sx/e/207332_s1e13"
+                    },
+                    {
+                      "name": "UpStream 1080p",
+                      "url": "https://upstream.to/embed-207332s1e13.html"
+                    }
+                  ]
+                },
+                {
+                  "Episode": 14,
+                  "Title": "Strong Assault",
+                  "Duration": "24:00",
+                  "Description": "The battles rage on even as the crew gets treated by Granny Miya! Minimalist threatens Aoi at the store while Heisuke clashes with Apart at Tokyo Tower.",
+                  "Thumbnail": "https://image.tmdb.org/t/p/w500/8s7ApdfQo1C2qVr0jdiiTeOCvy6.jpg",
+                  "Servers": [
+                    {
+                      "name": "VidSrc 1080p",
+                      "url": "https://vidsrc.net/embed/tv/207332/1/14"
+                    },
+                    {
+                      "name": "VidJoy 1080p",
+                      "url": "https://vidjoy.pro/embed/tv/207332/1/14"
+                    },
+                    {
+                      "name": "MultiEmbed 1080p",
+                      "url": "https://multiembed.mov/directstream.php?video_id=207332&tmdb=1&s=1&e=14"
+                    },
+                    {
+                      "name": "Embed.su 1080p",
+                      "url": "https://embed.su/embed/tv/207332/1/14"
+                    },
+                    {
+                      "name": "VidSrc.me 1080p",
+                      "url": "https://vidsrc.me/embed/tv/207332/1/14"
+                    },
+                    {
+                      "name": "AutoEmbed 1080p",
+                      "url": "https://player.autoembed.cc/embed/tv/207332/1/14"
+                    },
+                    {
+                      "name": "SmashyStream 1080p",
+                      "url": "https://player.smashy.stream/movie/207332?s=1&e=14"
+                    },
+                    {
+                      "name": "VidSrc.to 1080p",
+                      "url": "https://vidsrc.to/embed/tv/207332/1/14"
+                    },
+                    {
+                      "name": "VidSrc.xyz 1080p",
+                      "url": "https://vidsrc.xyz/embed/tv/207332/1/14"
+                    },
+                    {
+                      "name": "EmbedSoap 1080p",
+                      "url": "https://www.embedsoap.com/embed/tv/207332/1/14"
+                    },
+                    {
+                      "name": "MoviesAPI 1080p",
+                      "url": "https://moviesapi.club/movie/207332?s=1&e=14"
+                    },
+                    {
+                      "name": "DBGO 1080p",
+                      "url": "https://dbgo.fun/movie/207332?s=1&e=14"
+                    },
+                    {
+                      "name": "FlixHQ 1080p",
+                      "url": "https://flixhq.to/watch/tv/207332/1/14"
+                    },
+                    {
+                      "name": "GoMovies 1080p",
+                      "url": "https://gomovies.sx/watch/tv/207332/1/14"
+                    },
+                    {
+                      "name": "ShowBox 1080p",
+                      "url": "https://www.showbox.media/embed/tv/207332/1/14"
+                    },
+                    {
+                      "name": "PrimeWire 1080p",
+                      "url": "https://primewire.mx/embed/tv/207332/1/14"
+                    },
+                    {
+                      "name": "HDToday 1080p",
+                      "url": "https://hdtoday.tv/embed/tv/207332/1/14"
+                    },
+                    {
+                      "name": "VidCloud 1080p",
+                      "url": "https://vidcloud.to/embed/tv/207332/1/14"
+                    },
+                    {
+                      "name": "StreamWish 1080p",
+                      "url": "https://streamwish.to/e/207332_s1e14"
+                    },
+                    {
+                      "name": "DoodStream 1080p",
+                      "url": "https://doodstream.com/e/207332_s1e14"
+                    },
+                    {
+                      "name": "StreamTape 1080p",
+                      "url": "https://streamtape.com/e/207332_s1e14"
+                    },
+                    {
+                      "name": "MixDrop 1080p",
+                      "url": "https://mixdrop.co/e/207332_s1e14"
+                    },
+                    {
+                      "name": "FileMoon 1080p",
+                      "url": "https://filemoon.sx/e/207332_s1e14"
+                    },
+                    {
+                      "name": "UpStream 1080p",
+                      "url": "https://upstream.to/embed-207332s1e14.html"
+                    }
+                  ]
+                },
+                {
+                  "Episode": 15,
+                  "Title": "Round and Round the Tower",
+                  "Duration": "24:00",
+                  "Description": "Deadly battles with death row inmates break out everywhere! The Minimalist who attacked the Sakamoto Store is defeated by Nagumo of ORDER, disguised as Aoi, leaving only Apart as the only death row inmate remaining.",
+                  "Thumbnail": "https://image.tmdb.org/t/p/w500/gCRyPCly1ARZWPiFSSSAceEVxEB.jpg",
+                  "Servers": [
+                    {
+                      "name": "VidSrc 1080p",
+                      "url": "https://vidsrc.net/embed/tv/207332/1/15"
+                    },
+                    {
+                      "name": "VidJoy 1080p",
+                      "url": "https://vidjoy.pro/embed/tv/207332/1/15"
+                    },
+                    {
+                      "name": "MultiEmbed 1080p",
+                      "url": "https://multiembed.mov/directstream.php?video_id=207332&tmdb=1&s=1&e=15"
+                    },
+                    {
+                      "name": "Embed.su 1080p",
+                      "url": "https://embed.su/embed/tv/207332/1/15"
+                    },
+                    {
+                      "name": "VidSrc.me 1080p",
+                      "url": "https://vidsrc.me/embed/tv/207332/1/15"
+                    },
+                    {
+                      "name": "AutoEmbed 1080p",
+                      "url": "https://player.autoembed.cc/embed/tv/207332/1/15"
+                    },
+                    {
+                      "name": "SmashyStream 1080p",
+                      "url": "https://player.smashy.stream/movie/207332?s=1&e=15"
+                    },
+                    {
+                      "name": "VidSrc.to 1080p",
+                      "url": "https://vidsrc.to/embed/tv/207332/1/15"
+                    },
+                    {
+                      "name": "VidSrc.xyz 1080p",
+                      "url": "https://vidsrc.xyz/embed/tv/207332/1/15"
+                    },
+                    {
+                      "name": "EmbedSoap 1080p",
+                      "url": "https://www.embedsoap.com/embed/tv/207332/1/15"
+                    },
+                    {
+                      "name": "MoviesAPI 1080p",
+                      "url": "https://moviesapi.club/movie/207332?s=1&e=15"
+                    },
+                    {
+                      "name": "DBGO 1080p",
+                      "url": "https://dbgo.fun/movie/207332?s=1&e=15"
+                    },
+                    {
+                      "name": "FlixHQ 1080p",
+                      "url": "https://flixhq.to/watch/tv/207332/1/15"
+                    },
+                    {
+                      "name": "GoMovies 1080p",
+                      "url": "https://gomovies.sx/watch/tv/207332/1/15"
+                    },
+                    {
+                      "name": "ShowBox 1080p",
+                      "url": "https://www.showbox.media/embed/tv/207332/1/15"
+                    },
+                    {
+                      "name": "PrimeWire 1080p",
+                      "url": "https://primewire.mx/embed/tv/207332/1/15"
+                    },
+                    {
+                      "name": "HDToday 1080p",
+                      "url": "https://hdtoday.tv/embed/tv/207332/1/15"
+                    },
+                    {
+                      "name": "VidCloud 1080p",
+                      "url": "https://vidcloud.to/embed/tv/207332/1/15"
+                    },
+                    {
+                      "name": "StreamWish 1080p",
+                      "url": "https://streamwish.to/e/207332_s1e15"
+                    },
+                    {
+                      "name": "DoodStream 1080p",
+                      "url": "https://doodstream.com/e/207332_s1e15"
+                    },
+                    {
+                      "name": "StreamTape 1080p",
+                      "url": "https://streamtape.com/e/207332_s1e15"
+                    },
+                    {
+                      "name": "MixDrop 1080p",
+                      "url": "https://mixdrop.co/e/207332_s1e15"
+                    },
+                    {
+                      "name": "FileMoon 1080p",
+                      "url": "https://filemoon.sx/e/207332_s1e15"
+                    },
+                    {
+                      "name": "UpStream 1080p",
+                      "url": "https://upstream.to/embed-207332s1e15.html"
+                    }
+                  ]
+                },
+                {
+                  "Episode": 16,
+                  "Title": "Slice Slice Dance",
+                  "Duration": "25:00",
+                  "Description": "No description available",
+                  "Thumbnail": "https://image.tmdb.org/t/p/w500/uBJrcmKjb1nZ4z5bQV0aiay4Aco.jpg",
+                  "Servers": [
+                    {
+                      "name": "VidSrc 1080p",
+                      "url": "https://vidsrc.net/embed/tv/207332/1/16"
+                    },
+                    {
+                      "name": "VidJoy 1080p",
+                      "url": "https://vidjoy.pro/embed/tv/207332/1/16"
+                    },
+                    {
+                      "name": "MultiEmbed 1080p",
+                      "url": "https://multiembed.mov/directstream.php?video_id=207332&tmdb=1&s=1&e=16"
+                    },
+                    {
+                      "name": "Embed.su 1080p",
+                      "url": "https://embed.su/embed/tv/207332/1/16"
+                    },
+                    {
+                      "name": "VidSrc.me 1080p",
+                      "url": "https://vidsrc.me/embed/tv/207332/1/16"
+                    },
+                    {
+                      "name": "AutoEmbed 1080p",
+                      "url": "https://player.autoembed.cc/embed/tv/207332/1/16"
+                    },
+                    {
+                      "name": "SmashyStream 1080p",
+                      "url": "https://player.smashy.stream/movie/207332?s=1&e=16"
+                    },
+                    {
+                      "name": "VidSrc.to 1080p",
+                      "url": "https://vidsrc.to/embed/tv/207332/1/16"
+                    },
+                    {
+                      "name": "VidSrc.xyz 1080p",
+                      "url": "https://vidsrc.xyz/embed/tv/207332/1/16"
+                    },
+                    {
+                      "name": "EmbedSoap 1080p",
+                      "url": "https://www.embedsoap.com/embed/tv/207332/1/16"
+                    },
+                    {
+                      "name": "MoviesAPI 1080p",
+                      "url": "https://moviesapi.club/movie/207332?s=1&e=16"
+                    },
+                    {
+                      "name": "DBGO 1080p",
+                      "url": "https://dbgo.fun/movie/207332?s=1&e=16"
+                    },
+                    {
+                      "name": "FlixHQ 1080p",
+                      "url": "https://flixhq.to/watch/tv/207332/1/16"
+                    },
+                    {
+                      "name": "GoMovies 1080p",
+                      "url": "https://gomovies.sx/watch/tv/207332/1/16"
+                    },
+                    {
+                      "name": "ShowBox 1080p",
+                      "url": "https://www.showbox.media/embed/tv/207332/1/16"
+                    },
+                    {
+                      "name": "PrimeWire 1080p",
+                      "url": "https://primewire.mx/embed/tv/207332/1/16"
+                    },
+                    {
+                      "name": "HDToday 1080p",
+                      "url": "https://hdtoday.tv/embed/tv/207332/1/16"
+                    },
+                    {
+                      "name": "VidCloud 1080p",
+                      "url": "https://vidcloud.to/embed/tv/207332/1/16"
+                    },
+                    {
+                      "name": "StreamWish 1080p",
+                      "url": "https://streamwish.to/e/207332_s1e16"
+                    },
+                    {
+                      "name": "DoodStream 1080p",
+                      "url": "https://doodstream.com/e/207332_s1e16"
+                    },
+                    {
+                      "name": "StreamTape 1080p",
+                      "url": "https://streamtape.com/e/207332_s1e16"
+                    },
+                    {
+                      "name": "MixDrop 1080p",
+                      "url": "https://mixdrop.co/e/207332_s1e16"
+                    },
+                    {
+                      "name": "FileMoon 1080p",
+                      "url": "https://filemoon.sx/e/207332_s1e16"
+                    },
+                    {
+                      "name": "UpStream 1080p",
+                      "url": "https://upstream.to/embed-207332s1e16.html"
+                    }
+                  ]
+                },
+                {
+                  "Episode": 17,
+                  "Title": "Episode 17",
+                  "Duration": "Unknown",
+                  "Description": "No description available",
+                  "Thumbnail": "https://image.tmdb.org/t/p/w500/wRpCqsJFyKNuh5FMegNPrhzp2NF.jpg",
+                  "Servers": [
+                    {
+                      "name": "VidSrc 1080p",
+                      "url": "https://vidsrc.net/embed/tv/207332/1/17"
+                    },
+                    {
+                      "name": "VidJoy 1080p",
+                      "url": "https://vidjoy.pro/embed/tv/207332/1/17"
+                    },
+                    {
+                      "name": "MultiEmbed 1080p",
+                      "url": "https://multiembed.mov/directstream.php?video_id=207332&tmdb=1&s=1&e=17"
+                    },
+                    {
+                      "name": "Embed.su 1080p",
+                      "url": "https://embed.su/embed/tv/207332/1/17"
+                    },
+                    {
+                      "name": "VidSrc.me 1080p",
+                      "url": "https://vidsrc.me/embed/tv/207332/1/17"
+                    },
+                    {
+                      "name": "AutoEmbed 1080p",
+                      "url": "https://player.autoembed.cc/embed/tv/207332/1/17"
+                    },
+                    {
+                      "name": "SmashyStream 1080p",
+                      "url": "https://player.smashy.stream/movie/207332?s=1&e=17"
+                    },
+                    {
+                      "name": "VidSrc.to 1080p",
+                      "url": "https://vidsrc.to/embed/tv/207332/1/17"
+                    },
+                    {
+                      "name": "VidSrc.xyz 1080p",
+                      "url": "https://vidsrc.xyz/embed/tv/207332/1/17"
+                    },
+                    {
+                      "name": "EmbedSoap 1080p",
+                      "url": "https://www.embedsoap.com/embed/tv/207332/1/17"
+                    },
+                    {
+                      "name": "MoviesAPI 1080p",
+                      "url": "https://moviesapi.club/movie/207332?s=1&e=17"
+                    },
+                    {
+                      "name": "DBGO 1080p",
+                      "url": "https://dbgo.fun/movie/207332?s=1&e=17"
+                    },
+                    {
+                      "name": "FlixHQ 1080p",
+                      "url": "https://flixhq.to/watch/tv/207332/1/17"
+                    },
+                    {
+                      "name": "GoMovies 1080p",
+                      "url": "https://gomovies.sx/watch/tv/207332/1/17"
+                    },
+                    {
+                      "name": "ShowBox 1080p",
+                      "url": "https://www.showbox.media/embed/tv/207332/1/17"
+                    },
+                    {
+                      "name": "PrimeWire 1080p",
+                      "url": "https://primewire.mx/embed/tv/207332/1/17"
+                    },
+                    {
+                      "name": "HDToday 1080p",
+                      "url": "https://hdtoday.tv/embed/tv/207332/1/17"
+                    },
+                    {
+                      "name": "VidCloud 1080p",
+                      "url": "https://vidcloud.to/embed/tv/207332/1/17"
+                    },
+                    {
+                      "name": "StreamWish 1080p",
+                      "url": "https://streamwish.to/e/207332_s1e17"
+                    },
+                    {
+                      "name": "DoodStream 1080p",
+                      "url": "https://doodstream.com/e/207332_s1e17"
+                    },
+                    {
+                      "name": "StreamTape 1080p",
+                      "url": "https://streamtape.com/e/207332_s1e17"
+                    },
+                    {
+                      "name": "MixDrop 1080p",
+                      "url": "https://mixdrop.co/e/207332_s1e17"
+                    },
+                    {
+                      "name": "FileMoon 1080p",
+                      "url": "https://filemoon.sx/e/207332_s1e17"
+                    },
+                    {
+                      "name": "UpStream 1080p",
+                      "url": "https://upstream.to/embed-207332s1e17.html"
+                    }
+                  ]
+                },
+                {
+                  "Episode": 18,
+                  "Title": "Episode 18",
+                  "Duration": "Unknown",
+                  "Description": "No description available",
+                  "Thumbnail": "https://image.tmdb.org/t/p/w500/wRpCqsJFyKNuh5FMegNPrhzp2NF.jpg",
+                  "Servers": [
+                    {
+                      "name": "VidSrc 1080p",
+                      "url": "https://vidsrc.net/embed/tv/207332/1/18"
+                    },
+                    {
+                      "name": "VidJoy 1080p",
+                      "url": "https://vidjoy.pro/embed/tv/207332/1/18"
+                    },
+                    {
+                      "name": "MultiEmbed 1080p",
+                      "url": "https://multiembed.mov/directstream.php?video_id=207332&tmdb=1&s=1&e=18"
+                    },
+                    {
+                      "name": "Embed.su 1080p",
+                      "url": "https://embed.su/embed/tv/207332/1/18"
+                    },
+                    {
+                      "name": "VidSrc.me 1080p",
+                      "url": "https://vidsrc.me/embed/tv/207332/1/18"
+                    },
+                    {
+                      "name": "AutoEmbed 1080p",
+                      "url": "https://player.autoembed.cc/embed/tv/207332/1/18"
+                    },
+                    {
+                      "name": "SmashyStream 1080p",
+                      "url": "https://player.smashy.stream/movie/207332?s=1&e=18"
+                    },
+                    {
+                      "name": "VidSrc.to 1080p",
+                      "url": "https://vidsrc.to/embed/tv/207332/1/18"
+                    },
+                    {
+                      "name": "VidSrc.xyz 1080p",
+                      "url": "https://vidsrc.xyz/embed/tv/207332/1/18"
+                    },
+                    {
+                      "name": "EmbedSoap 1080p",
+                      "url": "https://www.embedsoap.com/embed/tv/207332/1/18"
+                    },
+                    {
+                      "name": "MoviesAPI 1080p",
+                      "url": "https://moviesapi.club/movie/207332?s=1&e=18"
+                    },
+                    {
+                      "name": "DBGO 1080p",
+                      "url": "https://dbgo.fun/movie/207332?s=1&e=18"
+                    },
+                    {
+                      "name": "FlixHQ 1080p",
+                      "url": "https://flixhq.to/watch/tv/207332/1/18"
+                    },
+                    {
+                      "name": "GoMovies 1080p",
+                      "url": "https://gomovies.sx/watch/tv/207332/1/18"
+                    },
+                    {
+                      "name": "ShowBox 1080p",
+                      "url": "https://www.showbox.media/embed/tv/207332/1/18"
+                    },
+                    {
+                      "name": "PrimeWire 1080p",
+                      "url": "https://primewire.mx/embed/tv/207332/1/18"
+                    },
+                    {
+                      "name": "HDToday 1080p",
+                      "url": "https://hdtoday.tv/embed/tv/207332/1/18"
+                    },
+                    {
+                      "name": "VidCloud 1080p",
+                      "url": "https://vidcloud.to/embed/tv/207332/1/18"
+                    },
+                    {
+                      "name": "StreamWish 1080p",
+                      "url": "https://streamwish.to/e/207332_s1e18"
+                    },
+                    {
+                      "name": "DoodStream 1080p",
+                      "url": "https://doodstream.com/e/207332_s1e18"
+                    },
+                    {
+                      "name": "StreamTape 1080p",
+                      "url": "https://streamtape.com/e/207332_s1e18"
+                    },
+                    {
+                      "name": "MixDrop 1080p",
+                      "url": "https://mixdrop.co/e/207332_s1e18"
+                    },
+                    {
+                      "name": "FileMoon 1080p",
+                      "url": "https://filemoon.sx/e/207332_s1e18"
+                    },
+                    {
+                      "name": "UpStream 1080p",
+                      "url": "https://upstream.to/embed-207332s1e18.html"
+                    }
+                  ]
+                },
+                {
+                  "Episode": 19,
+                  "Title": "Episode 19",
+                  "Duration": "Unknown",
+                  "Description": "No description available",
+                  "Thumbnail": "https://image.tmdb.org/t/p/w500/wRpCqsJFyKNuh5FMegNPrhzp2NF.jpg",
+                  "Servers": [
+                    {
+                      "name": "VidSrc 1080p",
+                      "url": "https://vidsrc.net/embed/tv/207332/1/19"
+                    },
+                    {
+                      "name": "VidJoy 1080p",
+                      "url": "https://vidjoy.pro/embed/tv/207332/1/19"
+                    },
+                    {
+                      "name": "MultiEmbed 1080p",
+                      "url": "https://multiembed.mov/directstream.php?video_id=207332&tmdb=1&s=1&e=19"
+                    },
+                    {
+                      "name": "Embed.su 1080p",
+                      "url": "https://embed.su/embed/tv/207332/1/19"
+                    },
+                    {
+                      "name": "VidSrc.me 1080p",
+                      "url": "https://vidsrc.me/embed/tv/207332/1/19"
+                    },
+                    {
+                      "name": "AutoEmbed 1080p",
+                      "url": "https://player.autoembed.cc/embed/tv/207332/1/19"
+                    },
+                    {
+                      "name": "SmashyStream 1080p",
+                      "url": "https://player.smashy.stream/movie/207332?s=1&e=19"
+                    },
+                    {
+                      "name": "VidSrc.to 1080p",
+                      "url": "https://vidsrc.to/embed/tv/207332/1/19"
+                    },
+                    {
+                      "name": "VidSrc.xyz 1080p",
+                      "url": "https://vidsrc.xyz/embed/tv/207332/1/19"
+                    },
+                    {
+                      "name": "EmbedSoap 1080p",
+                      "url": "https://www.embedsoap.com/embed/tv/207332/1/19"
+                    },
+                    {
+                      "name": "MoviesAPI 1080p",
+                      "url": "https://moviesapi.club/movie/207332?s=1&e=19"
+                    },
+                    {
+                      "name": "DBGO 1080p",
+                      "url": "https://dbgo.fun/movie/207332?s=1&e=19"
+                    },
+                    {
+                      "name": "FlixHQ 1080p",
+                      "url": "https://flixhq.to/watch/tv/207332/1/19"
+                    },
+                    {
+                      "name": "GoMovies 1080p",
+                      "url": "https://gomovies.sx/watch/tv/207332/1/19"
+                    },
+                    {
+                      "name": "ShowBox 1080p",
+                      "url": "https://www.showbox.media/embed/tv/207332/1/19"
+                    },
+                    {
+                      "name": "PrimeWire 1080p",
+                      "url": "https://primewire.mx/embed/tv/207332/1/19"
+                    },
+                    {
+                      "name": "HDToday 1080p",
+                      "url": "https://hdtoday.tv/embed/tv/207332/1/19"
+                    },
+                    {
+                      "name": "VidCloud 1080p",
+                      "url": "https://vidcloud.to/embed/tv/207332/1/19"
+                    },
+                    {
+                      "name": "StreamWish 1080p",
+                      "url": "https://streamwish.to/e/207332_s1e19"
+                    },
+                    {
+                      "name": "DoodStream 1080p",
+                      "url": "https://doodstream.com/e/207332_s1e19"
+                    },
+                    {
+                      "name": "StreamTape 1080p",
+                      "url": "https://streamtape.com/e/207332_s1e19"
+                    },
+                    {
+                      "name": "MixDrop 1080p",
+                      "url": "https://mixdrop.co/e/207332_s1e19"
+                    },
+                    {
+                      "name": "FileMoon 1080p",
+                      "url": "https://filemoon.sx/e/207332_s1e19"
+                    },
+                    {
+                      "name": "UpStream 1080p",
+                      "url": "https://upstream.to/embed-207332s1e19.html"
+                    }
+                  ]
+                },
+                {
+                  "Episode": 20,
+                  "Title": "Episode 20",
+                  "Duration": "Unknown",
+                  "Description": "No description available",
+                  "Thumbnail": "https://image.tmdb.org/t/p/w500/wRpCqsJFyKNuh5FMegNPrhzp2NF.jpg",
+                  "Servers": [
+                    {
+                      "name": "VidSrc 1080p",
+                      "url": "https://vidsrc.net/embed/tv/207332/1/20"
+                    },
+                    {
+                      "name": "VidJoy 1080p",
+                      "url": "https://vidjoy.pro/embed/tv/207332/1/20"
+                    },
+                    {
+                      "name": "MultiEmbed 1080p",
+                      "url": "https://multiembed.mov/directstream.php?video_id=207332&tmdb=1&s=1&e=20"
+                    },
+                    {
+                      "name": "Embed.su 1080p",
+                      "url": "https://embed.su/embed/tv/207332/1/20"
+                    },
+                    {
+                      "name": "VidSrc.me 1080p",
+                      "url": "https://vidsrc.me/embed/tv/207332/1/20"
+                    },
+                    {
+                      "name": "AutoEmbed 1080p",
+                      "url": "https://player.autoembed.cc/embed/tv/207332/1/20"
+                    },
+                    {
+                      "name": "SmashyStream 1080p",
+                      "url": "https://player.smashy.stream/movie/207332?s=1&e=20"
+                    },
+                    {
+                      "name": "VidSrc.to 1080p",
+                      "url": "https://vidsrc.to/embed/tv/207332/1/20"
+                    },
+                    {
+                      "name": "VidSrc.xyz 1080p",
+                      "url": "https://vidsrc.xyz/embed/tv/207332/1/20"
+                    },
+                    {
+                      "name": "EmbedSoap 1080p",
+                      "url": "https://www.embedsoap.com/embed/tv/207332/1/20"
+                    },
+                    {
+                      "name": "MoviesAPI 1080p",
+                      "url": "https://moviesapi.club/movie/207332?s=1&e=20"
+                    },
+                    {
+                      "name": "DBGO 1080p",
+                      "url": "https://dbgo.fun/movie/207332?s=1&e=20"
+                    },
+                    {
+                      "name": "FlixHQ 1080p",
+                      "url": "https://flixhq.to/watch/tv/207332/1/20"
+                    },
+                    {
+                      "name": "GoMovies 1080p",
+                      "url": "https://gomovies.sx/watch/tv/207332/1/20"
+                    },
+                    {
+                      "name": "ShowBox 1080p",
+                      "url": "https://www.showbox.media/embed/tv/207332/1/20"
+                    },
+                    {
+                      "name": "PrimeWire 1080p",
+                      "url": "https://primewire.mx/embed/tv/207332/1/20"
+                    },
+                    {
+                      "name": "HDToday 1080p",
+                      "url": "https://hdtoday.tv/embed/tv/207332/1/20"
+                    },
+                    {
+                      "name": "VidCloud 1080p",
+                      "url": "https://vidcloud.to/embed/tv/207332/1/20"
+                    },
+                    {
+                      "name": "StreamWish 1080p",
+                      "url": "https://streamwish.to/e/207332_s1e20"
+                    },
+                    {
+                      "name": "DoodStream 1080p",
+                      "url": "https://doodstream.com/e/207332_s1e20"
+                    },
+                    {
+                      "name": "StreamTape 1080p",
+                      "url": "https://streamtape.com/e/207332_s1e20"
+                    },
+                    {
+                      "name": "MixDrop 1080p",
+                      "url": "https://mixdrop.co/e/207332_s1e20"
+                    },
+                    {
+                      "name": "FileMoon 1080p",
+                      "url": "https://filemoon.sx/e/207332_s1e20"
+                    },
+                    {
+                      "name": "UpStream 1080p",
+                      "url": "https://upstream.to/embed-207332s1e20.html"
+                    }
+                  ]
+                },
+                {
+                  "Episode": 21,
+                  "Title": "Episode 21",
+                  "Duration": "Unknown",
+                  "Description": "No description available",
+                  "Thumbnail": "https://image.tmdb.org/t/p/w500/wRpCqsJFyKNuh5FMegNPrhzp2NF.jpg",
+                  "Servers": [
+                    {
+                      "name": "VidSrc 1080p",
+                      "url": "https://vidsrc.net/embed/tv/207332/1/21"
+                    },
+                    {
+                      "name": "VidJoy 1080p",
+                      "url": "https://vidjoy.pro/embed/tv/207332/1/21"
+                    },
+                    {
+                      "name": "MultiEmbed 1080p",
+                      "url": "https://multiembed.mov/directstream.php?video_id=207332&tmdb=1&s=1&e=21"
+                    },
+                    {
+                      "name": "Embed.su 1080p",
+                      "url": "https://embed.su/embed/tv/207332/1/21"
+                    },
+                    {
+                      "name": "VidSrc.me 1080p",
+                      "url": "https://vidsrc.me/embed/tv/207332/1/21"
+                    },
+                    {
+                      "name": "AutoEmbed 1080p",
+                      "url": "https://player.autoembed.cc/embed/tv/207332/1/21"
+                    },
+                    {
+                      "name": "SmashyStream 1080p",
+                      "url": "https://player.smashy.stream/movie/207332?s=1&e=21"
+                    },
+                    {
+                      "name": "VidSrc.to 1080p",
+                      "url": "https://vidsrc.to/embed/tv/207332/1/21"
+                    },
+                    {
+                      "name": "VidSrc.xyz 1080p",
+                      "url": "https://vidsrc.xyz/embed/tv/207332/1/21"
+                    },
+                    {
+                      "name": "EmbedSoap 1080p",
+                      "url": "https://www.embedsoap.com/embed/tv/207332/1/21"
+                    },
+                    {
+                      "name": "MoviesAPI 1080p",
+                      "url": "https://moviesapi.club/movie/207332?s=1&e=21"
+                    },
+                    {
+                      "name": "DBGO 1080p",
+                      "url": "https://dbgo.fun/movie/207332?s=1&e=21"
+                    },
+                    {
+                      "name": "FlixHQ 1080p",
+                      "url": "https://flixhq.to/watch/tv/207332/1/21"
+                    },
+                    {
+                      "name": "GoMovies 1080p",
+                      "url": "https://gomovies.sx/watch/tv/207332/1/21"
+                    },
+                    {
+                      "name": "ShowBox 1080p",
+                      "url": "https://www.showbox.media/embed/tv/207332/1/21"
+                    },
+                    {
+                      "name": "PrimeWire 1080p",
+                      "url": "https://primewire.mx/embed/tv/207332/1/21"
+                    },
+                    {
+                      "name": "HDToday 1080p",
+                      "url": "https://hdtoday.tv/embed/tv/207332/1/21"
+                    },
+                    {
+                      "name": "VidCloud 1080p",
+                      "url": "https://vidcloud.to/embed/tv/207332/1/21"
+                    },
+                    {
+                      "name": "StreamWish 1080p",
+                      "url": "https://streamwish.to/e/207332_s1e21"
+                    },
+                    {
+                      "name": "DoodStream 1080p",
+                      "url": "https://doodstream.com/e/207332_s1e21"
+                    },
+                    {
+                      "name": "StreamTape 1080p",
+                      "url": "https://streamtape.com/e/207332_s1e21"
+                    },
+                    {
+                      "name": "MixDrop 1080p",
+                      "url": "https://mixdrop.co/e/207332_s1e21"
+                    },
+                    {
+                      "name": "FileMoon 1080p",
+                      "url": "https://filemoon.sx/e/207332_s1e21"
+                    },
+                    {
+                      "name": "UpStream 1080p",
+                      "url": "https://upstream.to/embed-207332s1e21.html"
+                    }
+                  ]
+                },
+                {
+                  "Episode": 22,
+                  "Title": "Episode 22",
+                  "Duration": "Unknown",
+                  "Description": "No description available",
+                  "Thumbnail": "https://image.tmdb.org/t/p/w500/wRpCqsJFyKNuh5FMegNPrhzp2NF.jpg",
+                  "Servers": [
+                    {
+                      "name": "VidSrc 1080p",
+                      "url": "https://vidsrc.net/embed/tv/207332/1/22"
+                    },
+                    {
+                      "name": "VidJoy 1080p",
+                      "url": "https://vidjoy.pro/embed/tv/207332/1/22"
+                    },
+                    {
+                      "name": "MultiEmbed 1080p",
+                      "url": "https://multiembed.mov/directstream.php?video_id=207332&tmdb=1&s=1&e=22"
+                    },
+                    {
+                      "name": "Embed.su 1080p",
+                      "url": "https://embed.su/embed/tv/207332/1/22"
+                    },
+                    {
+                      "name": "VidSrc.me 1080p",
+                      "url": "https://vidsrc.me/embed/tv/207332/1/22"
+                    },
+                    {
+                      "name": "AutoEmbed 1080p",
+                      "url": "https://player.autoembed.cc/embed/tv/207332/1/22"
+                    },
+                    {
+                      "name": "SmashyStream 1080p",
+                      "url": "https://player.smashy.stream/movie/207332?s=1&e=22"
+                    },
+                    {
+                      "name": "VidSrc.to 1080p",
+                      "url": "https://vidsrc.to/embed/tv/207332/1/22"
+                    },
+                    {
+                      "name": "VidSrc.xyz 1080p",
+                      "url": "https://vidsrc.xyz/embed/tv/207332/1/22"
+                    },
+                    {
+                      "name": "EmbedSoap 1080p",
+                      "url": "https://www.embedsoap.com/embed/tv/207332/1/22"
+                    },
+                    {
+                      "name": "MoviesAPI 1080p",
+                      "url": "https://moviesapi.club/movie/207332?s=1&e=22"
+                    },
+                    {
+                      "name": "DBGO 1080p",
+                      "url": "https://dbgo.fun/movie/207332?s=1&e=22"
+                    },
+                    {
+                      "name": "FlixHQ 1080p",
+                      "url": "https://flixhq.to/watch/tv/207332/1/22"
+                    },
+                    {
+                      "name": "GoMovies 1080p",
+                      "url": "https://gomovies.sx/watch/tv/207332/1/22"
+                    },
+                    {
+                      "name": "ShowBox 1080p",
+                      "url": "https://www.showbox.media/embed/tv/207332/1/22"
+                    },
+                    {
+                      "name": "PrimeWire 1080p",
+                      "url": "https://primewire.mx/embed/tv/207332/1/22"
+                    },
+                    {
+                      "name": "HDToday 1080p",
+                      "url": "https://hdtoday.tv/embed/tv/207332/1/22"
+                    },
+                    {
+                      "name": "VidCloud 1080p",
+                      "url": "https://vidcloud.to/embed/tv/207332/1/22"
+                    },
+                    {
+                      "name": "StreamWish 1080p",
+                      "url": "https://streamwish.to/e/207332_s1e22"
+                    },
+                    {
+                      "name": "DoodStream 1080p",
+                      "url": "https://doodstream.com/e/207332_s1e22"
+                    },
+                    {
+                      "name": "StreamTape 1080p",
+                      "url": "https://streamtape.com/e/207332_s1e22"
+                    },
+                    {
+                      "name": "MixDrop 1080p",
+                      "url": "https://mixdrop.co/e/207332_s1e22"
+                    },
+                    {
+                      "name": "FileMoon 1080p",
+                      "url": "https://filemoon.sx/e/207332_s1e22"
+                    },
+                    {
+                      "name": "UpStream 1080p",
+                      "url": "https://upstream.to/embed-207332s1e22.html"
                     }
                   ]
                 }
