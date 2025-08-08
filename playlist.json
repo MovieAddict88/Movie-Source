@@ -18,7 +18,9 @@
         "Science Fiction",
         "Crime",
         "Animation",
-        "Mystery"
+        "Mystery",
+        "Adventure",
+        "Family"
       ],
       "Entries": [
         {
@@ -963,6 +965,546 @@
             {
               "name": "VidLink.pro 1080p",
               "url": "https://vidlink.pro/movie/573435"
+            }
+          ]
+        },
+        {
+          "Title": "Moana 2",
+          "SubCategory": "Animation",
+          "Country": "",
+          "Description": "After receiving an unexpected call from her wayfinding ancestors, Moana journeys alongside Maui and a new crew to the far seas of Oceania and into dangerous, long-lost waters for an adventure unlike anything she's ever faced.",
+          "Poster": "https://image.tmdb.org/t/p/w500/aLVkiINlIeCkcZIzb7XHzPYgO6L.jpg",
+          "Thumbnail": "https://image.tmdb.org/t/p/w500/aLVkiINlIeCkcZIzb7XHzPYgO6L.jpg",
+          "Rating": 7,
+          "Duration": "1:40",
+          "Year": 2024,
+          "Servers": [
+            {
+              "name": "VidSrc 1080p",
+              "url": "https://vidsrc.net/embed/movie/1241982"
+            },
+            {
+              "name": "VidJoy 1080p",
+              "url": "https://vidjoy.pro/embed/movie/1241982"
+            },
+            {
+              "name": "Embed.su 1080p",
+              "url": "https://embed.su/embed/movie/1241982"
+            },
+            {
+              "name": "VidSrc.me 1080p",
+              "url": "https://vidsrc.me/embed/movie/1241982"
+            },
+            {
+              "name": "AutoEmbed 1080p",
+              "url": "https://player.autoembed.cc/embed/movie/1241982"
+            },
+            {
+              "name": "VidSrc.to 1080p",
+              "url": "https://vidsrc.to/embed/movie/1241982"
+            },
+            {
+              "name": "VidSrc.xyz 1080p",
+              "url": "https://vidsrc.xyz/embed/movie/1241982"
+            },
+            {
+              "name": "VidLink.pro 1080p",
+              "url": "https://vidlink.pro/movie/1241982"
+            }
+          ]
+        },
+        {
+          "Title": "The Green Dinosaur",
+          "SubCategory": "Animation",
+          "Country": "",
+          "Description": "When the world around him is mysteriously erased, a little green dinosaur named Diplodocus must travel through the pages of a comic book and adventure through time to bring color back to his land. Alongside a wizard and two scientists, Diplo’s plans go awry as he learns that there may be a dimension to his world that he never considered.",
+          "Poster": "https://image.tmdb.org/t/p/w500/9mnMMiwv20EL5weJrLZCaF8cM2u.jpg",
+          "Thumbnail": "https://image.tmdb.org/t/p/w500/9mnMMiwv20EL5weJrLZCaF8cM2u.jpg",
+          "Rating": 7,
+          "Duration": "1:39",
+          "Year": 2024,
+          "Servers": [
+            {
+              "name": "VidSrc 1080p",
+              "url": "https://vidsrc.net/embed/movie/947478"
+            },
+            {
+              "name": "VidJoy 1080p",
+              "url": "https://vidjoy.pro/embed/movie/947478"
+            },
+            {
+              "name": "Embed.su 1080p",
+              "url": "https://embed.su/embed/movie/947478"
+            },
+            {
+              "name": "VidSrc.me 1080p",
+              "url": "https://vidsrc.me/embed/movie/947478"
+            },
+            {
+              "name": "AutoEmbed 1080p",
+              "url": "https://player.autoembed.cc/embed/movie/947478"
+            },
+            {
+              "name": "VidSrc.to 1080p",
+              "url": "https://vidsrc.to/embed/movie/947478"
+            },
+            {
+              "name": "VidSrc.xyz 1080p",
+              "url": "https://vidsrc.xyz/embed/movie/947478"
+            },
+            {
+              "name": "VidLink.pro 1080p",
+              "url": "https://vidlink.pro/movie/947478"
+            }
+          ]
+        },
+        {
+          "Title": "SuperKlaus",
+          "SubCategory": "Animation",
+          "Country": "",
+          "Description": "Santa Claus's wish comes true when he accidentally bumps his head and starts believing he's SuperKlaus. With the help of Billie and Leo his elf-xecutive assistant, SuperKlaus will take on a toy-obsessed businessman to save Christmas.",
+          "Poster": "https://image.tmdb.org/t/p/w500/8sgc5TA8xsi4wpKrf7XrFKscujQ.jpg",
+          "Thumbnail": "https://image.tmdb.org/t/p/w500/8sgc5TA8xsi4wpKrf7XrFKscujQ.jpg",
+          "Rating": 6,
+          "Duration": "1:28",
+          "Year": 2024,
+          "Servers": [
+            {
+              "name": "VidSrc 1080p",
+              "url": "https://vidsrc.net/embed/movie/1100998"
+            },
+            {
+              "name": "VidJoy 1080p",
+              "url": "https://vidjoy.pro/embed/movie/1100998"
+            },
+            {
+              "name": "Embed.su 1080p",
+              "url": "https://embed.su/embed/movie/1100998"
+            },
+            {
+              "name": "VidSrc.me 1080p",
+              "url": "https://vidsrc.me/embed/movie/1100998"
+            },
+            {
+              "name": "AutoEmbed 1080p",
+              "url": "https://player.autoembed.cc/embed/movie/1100998"
+            },
+            {
+              "name": "VidSrc.to 1080p",
+              "url": "https://vidsrc.to/embed/movie/1100998"
+            },
+            {
+              "name": "VidSrc.xyz 1080p",
+              "url": "https://vidsrc.xyz/embed/movie/1100998"
+            },
+            {
+              "name": "VidLink.pro 1080p",
+              "url": "https://vidlink.pro/movie/1100998"
+            }
+          ]
+        },
+        {
+          "Title": "Inside Out 2",
+          "SubCategory": "Animation",
+          "Country": "",
+          "Description": "Teenager Riley's mind headquarters is undergoing a sudden demolition to make room for something entirely unexpected: new Emotions! Joy, Sadness, Anger, Fear and Disgust, who’ve long been running a successful operation by all accounts, aren’t sure how to feel when Anxiety shows up. And it looks like she’s not alone.",
+          "Poster": "https://image.tmdb.org/t/p/w500/vpnVM9B6NMmQpWeZvzLvDESb2QY.jpg",
+          "Thumbnail": "https://image.tmdb.org/t/p/w500/vpnVM9B6NMmQpWeZvzLvDESb2QY.jpg",
+          "Rating": 8,
+          "Duration": "1:37",
+          "Year": 2024,
+          "Servers": [
+            {
+              "name": "VidSrc 1080p",
+              "url": "https://vidsrc.net/embed/movie/1022789"
+            },
+            {
+              "name": "VidJoy 1080p",
+              "url": "https://vidjoy.pro/embed/movie/1022789"
+            },
+            {
+              "name": "Embed.su 1080p",
+              "url": "https://embed.su/embed/movie/1022789"
+            },
+            {
+              "name": "VidSrc.me 1080p",
+              "url": "https://vidsrc.me/embed/movie/1022789"
+            },
+            {
+              "name": "AutoEmbed 1080p",
+              "url": "https://player.autoembed.cc/embed/movie/1022789"
+            },
+            {
+              "name": "VidSrc.to 1080p",
+              "url": "https://vidsrc.to/embed/movie/1022789"
+            },
+            {
+              "name": "VidSrc.xyz 1080p",
+              "url": "https://vidsrc.xyz/embed/movie/1022789"
+            },
+            {
+              "name": "VidLink.pro 1080p",
+              "url": "https://vidlink.pro/movie/1022789"
+            }
+          ]
+        },
+        {
+          "Title": "Mufasa: The Lion King",
+          "SubCategory": "Adventure",
+          "Country": "",
+          "Description": "Mufasa, a cub lost and alone, meets a sympathetic lion named Taka, the heir to a royal bloodline. The chance meeting sets in motion an expansive journey of a group of misfits searching for their destiny.",
+          "Poster": "https://image.tmdb.org/t/p/w500/jbOSUAWMGzGL1L4EaUF8K6zYFo7.jpg",
+          "Thumbnail": "https://image.tmdb.org/t/p/w500/jbOSUAWMGzGL1L4EaUF8K6zYFo7.jpg",
+          "Rating": 7,
+          "Duration": "1:58",
+          "Year": 2024,
+          "Servers": [
+            {
+              "name": "VidSrc 1080p",
+              "url": "https://vidsrc.net/embed/movie/762509"
+            },
+            {
+              "name": "VidJoy 1080p",
+              "url": "https://vidjoy.pro/embed/movie/762509"
+            },
+            {
+              "name": "Embed.su 1080p",
+              "url": "https://embed.su/embed/movie/762509"
+            },
+            {
+              "name": "VidSrc.me 1080p",
+              "url": "https://vidsrc.me/embed/movie/762509"
+            },
+            {
+              "name": "AutoEmbed 1080p",
+              "url": "https://player.autoembed.cc/embed/movie/762509"
+            },
+            {
+              "name": "VidSrc.to 1080p",
+              "url": "https://vidsrc.to/embed/movie/762509"
+            },
+            {
+              "name": "VidSrc.xyz 1080p",
+              "url": "https://vidsrc.xyz/embed/movie/762509"
+            },
+            {
+              "name": "VidLink.pro 1080p",
+              "url": "https://vidlink.pro/movie/762509"
+            }
+          ]
+        },
+        {
+          "Title": "Flow",
+          "SubCategory": "Animation",
+          "Country": "",
+          "Description": "A solitary cat, displaced by a great flood, finds refuge on a boat with various species and must navigate the challenges of adapting to a transformed world together.",
+          "Poster": "https://image.tmdb.org/t/p/w500/imKSymKBK7o73sajciEmndJoVkR.jpg",
+          "Thumbnail": "https://image.tmdb.org/t/p/w500/imKSymKBK7o73sajciEmndJoVkR.jpg",
+          "Rating": 8,
+          "Duration": "1:25",
+          "Year": 2024,
+          "Servers": [
+            {
+              "name": "VidSrc 1080p",
+              "url": "https://vidsrc.net/embed/movie/823219"
+            },
+            {
+              "name": "VidJoy 1080p",
+              "url": "https://vidjoy.pro/embed/movie/823219"
+            },
+            {
+              "name": "Embed.su 1080p",
+              "url": "https://embed.su/embed/movie/823219"
+            },
+            {
+              "name": "VidSrc.me 1080p",
+              "url": "https://vidsrc.me/embed/movie/823219"
+            },
+            {
+              "name": "AutoEmbed 1080p",
+              "url": "https://player.autoembed.cc/embed/movie/823219"
+            },
+            {
+              "name": "VidSrc.to 1080p",
+              "url": "https://vidsrc.to/embed/movie/823219"
+            },
+            {
+              "name": "VidSrc.xyz 1080p",
+              "url": "https://vidsrc.xyz/embed/movie/823219"
+            },
+            {
+              "name": "VidLink.pro 1080p",
+              "url": "https://vidlink.pro/movie/823219"
+            }
+          ]
+        },
+        {
+          "Title": "Dune: Part Two",
+          "SubCategory": "Science Fiction",
+          "Country": "",
+          "Description": "Follow the mythic journey of Paul Atreides as he unites with Chani and the Fremen while on a path of revenge against the conspirators who destroyed his family. Facing a choice between the love of his life and the fate of the known universe, Paul endeavors to prevent a terrible future only he can foresee.",
+          "Poster": "https://image.tmdb.org/t/p/w500/6izwz7rsy95ARzTR3poZ8H6c5pp.jpg",
+          "Thumbnail": "https://image.tmdb.org/t/p/w500/6izwz7rsy95ARzTR3poZ8H6c5pp.jpg",
+          "Rating": 8,
+          "Duration": "2:47",
+          "Year": 2024,
+          "Servers": [
+            {
+              "name": "VidSrc 1080p",
+              "url": "https://vidsrc.net/embed/movie/693134"
+            },
+            {
+              "name": "VidJoy 1080p",
+              "url": "https://vidjoy.pro/embed/movie/693134"
+            },
+            {
+              "name": "Embed.su 1080p",
+              "url": "https://embed.su/embed/movie/693134"
+            },
+            {
+              "name": "VidSrc.me 1080p",
+              "url": "https://vidsrc.me/embed/movie/693134"
+            },
+            {
+              "name": "AutoEmbed 1080p",
+              "url": "https://player.autoembed.cc/embed/movie/693134"
+            },
+            {
+              "name": "VidSrc.to 1080p",
+              "url": "https://vidsrc.to/embed/movie/693134"
+            },
+            {
+              "name": "VidSrc.xyz 1080p",
+              "url": "https://vidsrc.xyz/embed/movie/693134"
+            },
+            {
+              "name": "VidLink.pro 1080p",
+              "url": "https://vidlink.pro/movie/693134"
+            }
+          ]
+        },
+        {
+          "Title": "Bambi: A Life in the Woods",
+          "SubCategory": "Adventure",
+          "Country": "",
+          "Description": "The life of Bambi, a male roe deer, from his birth through childhood, the loss of his mother, the finding of a mate, the lessons he learns from his father, and the experience he gains about the dangers posed by human hunters in the forest.",
+          "Poster": "https://image.tmdb.org/t/p/w500/vWNVHtwOhcoOEUSrY1iHRGbgH8O.jpg",
+          "Thumbnail": "https://image.tmdb.org/t/p/w500/vWNVHtwOhcoOEUSrY1iHRGbgH8O.jpg",
+          "Rating": 6,
+          "Duration": "1:18",
+          "Year": 2024,
+          "Servers": [
+            {
+              "name": "VidSrc 1080p",
+              "url": "https://vidsrc.net/embed/movie/1094473"
+            },
+            {
+              "name": "VidJoy 1080p",
+              "url": "https://vidjoy.pro/embed/movie/1094473"
+            },
+            {
+              "name": "Embed.su 1080p",
+              "url": "https://embed.su/embed/movie/1094473"
+            },
+            {
+              "name": "VidSrc.me 1080p",
+              "url": "https://vidsrc.me/embed/movie/1094473"
+            },
+            {
+              "name": "AutoEmbed 1080p",
+              "url": "https://player.autoembed.cc/embed/movie/1094473"
+            },
+            {
+              "name": "VidSrc.to 1080p",
+              "url": "https://vidsrc.to/embed/movie/1094473"
+            },
+            {
+              "name": "VidSrc.xyz 1080p",
+              "url": "https://vidsrc.xyz/embed/movie/1094473"
+            },
+            {
+              "name": "VidLink.pro 1080p",
+              "url": "https://vidlink.pro/movie/1094473"
+            }
+          ]
+        },
+        {
+          "Title": "Solo Leveling -ReAwakening-",
+          "SubCategory": "Action",
+          "Country": "",
+          "Description": "Over a decade after 'gates' connecting worlds appeared, awakening 'hunters' with superpowers, weakest hunter Sung Jinwoo encounters a double dungeon and accepts a mysterious quest, becoming the only one able to level up, changing his fate. A catch-up recap of the first season coupled with an exclusive sneak peek of the first two episodes of the highly anticipated second season in one momentous theatrical fan experience.",
+          "Poster": "https://image.tmdb.org/t/p/w500/dblIFen0bNZAq8icJXHwrjfymDW.jpg",
+          "Thumbnail": "https://image.tmdb.org/t/p/w500/dblIFen0bNZAq8icJXHwrjfymDW.jpg",
+          "Rating": 7,
+          "Duration": "1:56",
+          "Year": 2024,
+          "Servers": [
+            {
+              "name": "VidSrc 1080p",
+              "url": "https://vidsrc.net/embed/movie/1357633"
+            },
+            {
+              "name": "VidJoy 1080p",
+              "url": "https://vidjoy.pro/embed/movie/1357633"
+            },
+            {
+              "name": "Embed.su 1080p",
+              "url": "https://embed.su/embed/movie/1357633"
+            },
+            {
+              "name": "VidSrc.me 1080p",
+              "url": "https://vidsrc.me/embed/movie/1357633"
+            },
+            {
+              "name": "AutoEmbed 1080p",
+              "url": "https://player.autoembed.cc/embed/movie/1357633"
+            },
+            {
+              "name": "VidSrc.to 1080p",
+              "url": "https://vidsrc.to/embed/movie/1357633"
+            },
+            {
+              "name": "VidSrc.xyz 1080p",
+              "url": "https://vidsrc.xyz/embed/movie/1357633"
+            },
+            {
+              "name": "VidLink.pro 1080p",
+              "url": "https://vidlink.pro/movie/1357633"
+            }
+          ]
+        },
+        {
+          "Title": "The Garfield Movie",
+          "SubCategory": "Family",
+          "Country": "",
+          "Description": "Garfield, the world-famous, Monday-hating, lasagna-loving indoor cat, is about to have a wild outdoor adventure! After an unexpected reunion with his long-lost father – scruffy street cat Vic – Garfield and his canine friend Odie are forced from their perfectly pampered life into joining Vic in a hilarious, high-stakes heist.",
+          "Poster": "https://image.tmdb.org/t/p/w500/xYduFGuch9OwbCOEUiamml18ZoB.jpg",
+          "Thumbnail": "https://image.tmdb.org/t/p/w500/xYduFGuch9OwbCOEUiamml18ZoB.jpg",
+          "Rating": 7,
+          "Duration": "1:40",
+          "Year": 2024,
+          "Servers": [
+            {
+              "name": "VidSrc 1080p",
+              "url": "https://vidsrc.net/embed/movie/748783"
+            },
+            {
+              "name": "VidJoy 1080p",
+              "url": "https://vidjoy.pro/embed/movie/748783"
+            },
+            {
+              "name": "Embed.su 1080p",
+              "url": "https://embed.su/embed/movie/748783"
+            },
+            {
+              "name": "VidSrc.me 1080p",
+              "url": "https://vidsrc.me/embed/movie/748783"
+            },
+            {
+              "name": "AutoEmbed 1080p",
+              "url": "https://player.autoembed.cc/embed/movie/748783"
+            },
+            {
+              "name": "VidSrc.to 1080p",
+              "url": "https://vidsrc.to/embed/movie/748783"
+            },
+            {
+              "name": "VidSrc.xyz 1080p",
+              "url": "https://vidsrc.xyz/embed/movie/748783"
+            },
+            {
+              "name": "VidLink.pro 1080p",
+              "url": "https://vidlink.pro/movie/748783"
+            }
+          ]
+        },
+        {
+          "Title": "Kingdom of the Planet of the Apes",
+          "SubCategory": "Science Fiction",
+          "Country": "",
+          "Description": "Several generations following Caesar's reign, apes – now the dominant species – live harmoniously while humans have been reduced to living in the shadows. As a new tyrannical ape leader builds his empire, one young ape undertakes a harrowing journey that will cause him to question all he's known about the past and to make choices that will define a future for apes and humans alike.",
+          "Poster": "https://image.tmdb.org/t/p/w500/gKkl37BQuKTanygYQG1pyYgLVgf.jpg",
+          "Thumbnail": "https://image.tmdb.org/t/p/w500/gKkl37BQuKTanygYQG1pyYgLVgf.jpg",
+          "Rating": 7,
+          "Duration": "2:25",
+          "Year": 2024,
+          "Servers": [
+            {
+              "name": "VidSrc 1080p",
+              "url": "https://vidsrc.net/embed/movie/653346"
+            },
+            {
+              "name": "VidJoy 1080p",
+              "url": "https://vidjoy.pro/embed/movie/653346"
+            },
+            {
+              "name": "Embed.su 1080p",
+              "url": "https://embed.su/embed/movie/653346"
+            },
+            {
+              "name": "VidSrc.me 1080p",
+              "url": "https://vidsrc.me/embed/movie/653346"
+            },
+            {
+              "name": "AutoEmbed 1080p",
+              "url": "https://player.autoembed.cc/embed/movie/653346"
+            },
+            {
+              "name": "VidSrc.to 1080p",
+              "url": "https://vidsrc.to/embed/movie/653346"
+            },
+            {
+              "name": "VidSrc.xyz 1080p",
+              "url": "https://vidsrc.xyz/embed/movie/653346"
+            },
+            {
+              "name": "VidLink.pro 1080p",
+              "url": "https://vidlink.pro/movie/653346"
+            }
+          ]
+        },
+        {
+          "Title": "Miraculous World: London, At the Edge of Time",
+          "SubCategory": "Animation",
+          "Country": "",
+          "Description": "To save the future from a terrible fate, Marinette becomes Chronobug and teams up with Bunnyx to defeat a mysterious opponent who travels through time. Who is this new supervillain, and why are they obsessed with exposing Marinette's secret superhero identity? Marinette's only hope is to defeat her new opponent to prevent the end of Ladybug and time itself!",
+          "Poster": "https://image.tmdb.org/t/p/w500/6AtoMpHvs9pxd30KsyK8QmJ9W9M.jpg",
+          "Thumbnail": "https://image.tmdb.org/t/p/w500/6AtoMpHvs9pxd30KsyK8QmJ9W9M.jpg",
+          "Rating": 7,
+          "Duration": "50:00",
+          "Year": 2024,
+          "Servers": [
+            {
+              "name": "VidSrc 1080p",
+              "url": "https://vidsrc.net/embed/movie/1147416"
+            },
+            {
+              "name": "VidJoy 1080p",
+              "url": "https://vidjoy.pro/embed/movie/1147416"
+            },
+            {
+              "name": "Embed.su 1080p",
+              "url": "https://embed.su/embed/movie/1147416"
+            },
+            {
+              "name": "VidSrc.me 1080p",
+              "url": "https://vidsrc.me/embed/movie/1147416"
+            },
+            {
+              "name": "AutoEmbed 1080p",
+              "url": "https://player.autoembed.cc/embed/movie/1147416"
+            },
+            {
+              "name": "VidSrc.to 1080p",
+              "url": "https://vidsrc.to/embed/movie/1147416"
+            },
+            {
+              "name": "VidSrc.xyz 1080p",
+              "url": "https://vidsrc.xyz/embed/movie/1147416"
+            },
+            {
+              "name": "VidLink.pro 1080p",
+              "url": "https://vidlink.pro/movie/1147416"
             }
           ]
         }
