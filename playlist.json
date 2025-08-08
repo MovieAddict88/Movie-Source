@@ -15,7 +15,10 @@
         "Drama",
         "Horror",
         "Sci-Fi",
-        "Science Fiction"
+        "Science Fiction",
+        "Crime",
+        "Animation",
+        "Mystery"
       ],
       "Entries": [
         {
@@ -60,6 +63,906 @@
             {
               "name": "VidLink.pro 1080p",
               "url": "https://vidlink.pro/movie/1234821"
+            }
+          ]
+        },
+        {
+          "Title": "Angels Fallen: Warriors of Peace",
+          "SubCategory": "Horror",
+          "Country": "",
+          "Description": "When an Iraq War veteran receives a calling from a higher power, he embarks on a mission to stop a fallen angel from raising an army of the dead to take over the world.",
+          "Poster": "https://image.tmdb.org/t/p/w500/dKdKUSGQ9E0G73WPr9xIHrofpkT.jpg",
+          "Thumbnail": "https://image.tmdb.org/t/p/w500/dKdKUSGQ9E0G73WPr9xIHrofpkT.jpg",
+          "Rating": 6,
+          "Duration": "1:43",
+          "Year": 2024,
+          "Servers": [
+            {
+              "name": "VidSrc 1080p",
+              "url": "https://vidsrc.net/embed/movie/1058537"
+            },
+            {
+              "name": "VidJoy 1080p",
+              "url": "https://vidjoy.pro/embed/movie/1058537"
+            },
+            {
+              "name": "Embed.su 1080p",
+              "url": "https://embed.su/embed/movie/1058537"
+            },
+            {
+              "name": "VidSrc.me 1080p",
+              "url": "https://vidsrc.me/embed/movie/1058537"
+            },
+            {
+              "name": "AutoEmbed 1080p",
+              "url": "https://player.autoembed.cc/embed/movie/1058537"
+            },
+            {
+              "name": "VidSrc.to 1080p",
+              "url": "https://vidsrc.to/embed/movie/1058537"
+            },
+            {
+              "name": "VidSrc.xyz 1080p",
+              "url": "https://vidsrc.xyz/embed/movie/1058537"
+            },
+            {
+              "name": "VidLink.pro 1080p",
+              "url": "https://vidlink.pro/movie/1058537"
+            }
+          ]
+        },
+        {
+          "Title": "Long Distance",
+          "SubCategory": "Science Fiction",
+          "Country": "",
+          "Description": "After crash-landing on an alien planet, an asteroid miner must contend with the challenges of his new surroundings, while making his way across the harsh terrain to the only other survivor – a woman who is trapped in her escape pod.",
+          "Poster": "https://image.tmdb.org/t/p/w500/m5NKltgQqqyoWJNuK18IqEGRG7J.jpg",
+          "Thumbnail": "https://image.tmdb.org/t/p/w500/m5NKltgQqqyoWJNuK18IqEGRG7J.jpg",
+          "Rating": 6,
+          "Duration": "1:27",
+          "Year": 2024,
+          "Servers": [
+            {
+              "name": "VidSrc 1080p",
+              "url": "https://vidsrc.net/embed/movie/605722"
+            },
+            {
+              "name": "VidJoy 1080p",
+              "url": "https://vidjoy.pro/embed/movie/605722"
+            },
+            {
+              "name": "Embed.su 1080p",
+              "url": "https://embed.su/embed/movie/605722"
+            },
+            {
+              "name": "VidSrc.me 1080p",
+              "url": "https://vidsrc.me/embed/movie/605722"
+            },
+            {
+              "name": "AutoEmbed 1080p",
+              "url": "https://player.autoembed.cc/embed/movie/605722"
+            },
+            {
+              "name": "VidSrc.to 1080p",
+              "url": "https://vidsrc.to/embed/movie/605722"
+            },
+            {
+              "name": "VidSrc.xyz 1080p",
+              "url": "https://vidsrc.xyz/embed/movie/605722"
+            },
+            {
+              "name": "VidLink.pro 1080p",
+              "url": "https://vidlink.pro/movie/605722"
+            }
+          ]
+        },
+        {
+          "Title": "Sonic the Hedgehog 3",
+          "SubCategory": "Action",
+          "Country": "",
+          "Description": "Sonic, Knuckles, and Tails reunite against a powerful new adversary, Shadow, a mysterious villain with powers unlike anything they have faced before. With their abilities outmatched in every way, Team Sonic must seek out an unlikely alliance in hopes of stopping Shadow and protecting the planet.",
+          "Poster": "https://image.tmdb.org/t/p/w500/d8Ryb8AunYAuycVKDp5HpdWPKgC.jpg",
+          "Thumbnail": "https://image.tmdb.org/t/p/w500/d8Ryb8AunYAuycVKDp5HpdWPKgC.jpg",
+          "Rating": 8,
+          "Duration": "1:50",
+          "Year": 2024,
+          "Servers": [
+            {
+              "name": "VidSrc 1080p",
+              "url": "https://vidsrc.net/embed/movie/939243"
+            },
+            {
+              "name": "VidJoy 1080p",
+              "url": "https://vidjoy.pro/embed/movie/939243"
+            },
+            {
+              "name": "Embed.su 1080p",
+              "url": "https://embed.su/embed/movie/939243"
+            },
+            {
+              "name": "VidSrc.me 1080p",
+              "url": "https://vidsrc.me/embed/movie/939243"
+            },
+            {
+              "name": "AutoEmbed 1080p",
+              "url": "https://player.autoembed.cc/embed/movie/939243"
+            },
+            {
+              "name": "VidSrc.to 1080p",
+              "url": "https://vidsrc.to/embed/movie/939243"
+            },
+            {
+              "name": "VidSrc.xyz 1080p",
+              "url": "https://vidsrc.xyz/embed/movie/939243"
+            },
+            {
+              "name": "VidLink.pro 1080p",
+              "url": "https://vidlink.pro/movie/939243"
+            }
+          ]
+        },
+        {
+          "Title": "The Twisters",
+          "SubCategory": "Action",
+          "Country": "",
+          "Description": "A deadly patchwork of destructive cyclones is on an apocalyptic path of convergence at a populated Midwest city center. There, the twisters will merge into one mega tornado that threatens to obliterate the cities for hundreds of miles around.",
+          "Poster": "https://image.tmdb.org/t/p/w500/9xjSHm0R9tII8JCWHS1VdbftFk1.jpg",
+          "Thumbnail": "https://image.tmdb.org/t/p/w500/9xjSHm0R9tII8JCWHS1VdbftFk1.jpg",
+          "Rating": 6,
+          "Duration": "1:27",
+          "Year": 2024,
+          "Servers": [
+            {
+              "name": "VidSrc 1080p",
+              "url": "https://vidsrc.net/embed/movie/1311844"
+            },
+            {
+              "name": "VidJoy 1080p",
+              "url": "https://vidjoy.pro/embed/movie/1311844"
+            },
+            {
+              "name": "Embed.su 1080p",
+              "url": "https://embed.su/embed/movie/1311844"
+            },
+            {
+              "name": "VidSrc.me 1080p",
+              "url": "https://vidsrc.me/embed/movie/1311844"
+            },
+            {
+              "name": "AutoEmbed 1080p",
+              "url": "https://player.autoembed.cc/embed/movie/1311844"
+            },
+            {
+              "name": "VidSrc.to 1080p",
+              "url": "https://vidsrc.to/embed/movie/1311844"
+            },
+            {
+              "name": "VidSrc.xyz 1080p",
+              "url": "https://vidsrc.xyz/embed/movie/1311844"
+            },
+            {
+              "name": "VidLink.pro 1080p",
+              "url": "https://vidlink.pro/movie/1311844"
+            }
+          ]
+        },
+        {
+          "Title": "Crazy Lizard",
+          "SubCategory": "Action",
+          "Country": "",
+          "Description": "A young man climbs into the mountains to pick up a meteorite that has fallen there and is killed by something. The \"thing\" descends to the village and begins to eat the inhabitants one by one, terrorizing the entire island.",
+          "Poster": "https://image.tmdb.org/t/p/w500/9TFaFsSXedaALXTzba349euDeoY.jpg",
+          "Thumbnail": "https://image.tmdb.org/t/p/w500/9TFaFsSXedaALXTzba349euDeoY.jpg",
+          "Rating": 6,
+          "Duration": "1:15",
+          "Year": 2024,
+          "Servers": [
+            {
+              "name": "VidSrc 1080p",
+              "url": "https://vidsrc.net/embed/movie/1442776"
+            },
+            {
+              "name": "VidJoy 1080p",
+              "url": "https://vidjoy.pro/embed/movie/1442776"
+            },
+            {
+              "name": "Embed.su 1080p",
+              "url": "https://embed.su/embed/movie/1442776"
+            },
+            {
+              "name": "VidSrc.me 1080p",
+              "url": "https://vidsrc.me/embed/movie/1442776"
+            },
+            {
+              "name": "AutoEmbed 1080p",
+              "url": "https://player.autoembed.cc/embed/movie/1442776"
+            },
+            {
+              "name": "VidSrc.to 1080p",
+              "url": "https://vidsrc.to/embed/movie/1442776"
+            },
+            {
+              "name": "VidSrc.xyz 1080p",
+              "url": "https://vidsrc.xyz/embed/movie/1442776"
+            },
+            {
+              "name": "VidLink.pro 1080p",
+              "url": "https://vidlink.pro/movie/1442776"
+            }
+          ]
+        },
+        {
+          "Title": "Deadpool & Wolverine",
+          "SubCategory": "Action",
+          "Country": "",
+          "Description": "A listless Wade Wilson toils away in civilian life with his days as the morally flexible mercenary, Deadpool, behind him. But when his homeworld faces an existential threat, Wade must reluctantly suit-up again with an even more reluctant Wolverine.",
+          "Poster": "https://image.tmdb.org/t/p/w500/8cdWjvZQUExUUTzyp4t6EDMubfO.jpg",
+          "Thumbnail": "https://image.tmdb.org/t/p/w500/8cdWjvZQUExUUTzyp4t6EDMubfO.jpg",
+          "Rating": 8,
+          "Duration": "2:08",
+          "Year": 2024,
+          "Servers": [
+            {
+              "name": "VidSrc 1080p",
+              "url": "https://vidsrc.net/embed/movie/533535"
+            },
+            {
+              "name": "VidJoy 1080p",
+              "url": "https://vidjoy.pro/embed/movie/533535"
+            },
+            {
+              "name": "Embed.su 1080p",
+              "url": "https://embed.su/embed/movie/533535"
+            },
+            {
+              "name": "VidSrc.me 1080p",
+              "url": "https://vidsrc.me/embed/movie/533535"
+            },
+            {
+              "name": "AutoEmbed 1080p",
+              "url": "https://player.autoembed.cc/embed/movie/533535"
+            },
+            {
+              "name": "VidSrc.to 1080p",
+              "url": "https://vidsrc.to/embed/movie/533535"
+            },
+            {
+              "name": "VidSrc.xyz 1080p",
+              "url": "https://vidsrc.xyz/embed/movie/533535"
+            },
+            {
+              "name": "VidLink.pro 1080p",
+              "url": "https://vidlink.pro/movie/533535"
+            }
+          ]
+        },
+        {
+          "Title": "Venom: The Last Dance",
+          "SubCategory": "Action",
+          "Country": "",
+          "Description": "Eddie and Venom are on the run. Hunted by both of their worlds and with the net closing in, the duo are forced into a devastating decision that will bring the curtains down on Venom and Eddie's last dance.",
+          "Poster": "https://image.tmdb.org/t/p/w500/vGXptEdgZIhPg3cGlc7e8sNPC2e.jpg",
+          "Thumbnail": "https://image.tmdb.org/t/p/w500/vGXptEdgZIhPg3cGlc7e8sNPC2e.jpg",
+          "Rating": 7,
+          "Duration": "1:49",
+          "Year": 2024,
+          "Servers": [
+            {
+              "name": "VidSrc 1080p",
+              "url": "https://vidsrc.net/embed/movie/912649"
+            },
+            {
+              "name": "VidJoy 1080p",
+              "url": "https://vidjoy.pro/embed/movie/912649"
+            },
+            {
+              "name": "Embed.su 1080p",
+              "url": "https://embed.su/embed/movie/912649"
+            },
+            {
+              "name": "VidSrc.me 1080p",
+              "url": "https://vidsrc.me/embed/movie/912649"
+            },
+            {
+              "name": "AutoEmbed 1080p",
+              "url": "https://player.autoembed.cc/embed/movie/912649"
+            },
+            {
+              "name": "VidSrc.to 1080p",
+              "url": "https://vidsrc.to/embed/movie/912649"
+            },
+            {
+              "name": "VidSrc.xyz 1080p",
+              "url": "https://vidsrc.xyz/embed/movie/912649"
+            },
+            {
+              "name": "VidLink.pro 1080p",
+              "url": "https://vidlink.pro/movie/912649"
+            }
+          ]
+        },
+        {
+          "Title": "First Shift",
+          "SubCategory": "Crime",
+          "Country": "",
+          "Description": "NYPD veteran Mike and rookie Angela tackle a high-stakes day on New York's toughest streets, diving headfirst into a vortex of danger and action. Their adrenaline-fueled pursuits and unexpected threats unfold as they navigate perilous encounters. Amidst the chaos, intense challenges forge unbreakable bonds.",
+          "Poster": "https://image.tmdb.org/t/p/w500/ajsGI4JYaciPIe3gPgiJ3Vw5Vre.jpg",
+          "Thumbnail": "https://image.tmdb.org/t/p/w500/ajsGI4JYaciPIe3gPgiJ3Vw5Vre.jpg",
+          "Rating": 6,
+          "Duration": "1:29",
+          "Year": 2024,
+          "Servers": [
+            {
+              "name": "VidSrc 1080p",
+              "url": "https://vidsrc.net/embed/movie/1090007"
+            },
+            {
+              "name": "VidJoy 1080p",
+              "url": "https://vidjoy.pro/embed/movie/1090007"
+            },
+            {
+              "name": "Embed.su 1080p",
+              "url": "https://embed.su/embed/movie/1090007"
+            },
+            {
+              "name": "VidSrc.me 1080p",
+              "url": "https://vidsrc.me/embed/movie/1090007"
+            },
+            {
+              "name": "AutoEmbed 1080p",
+              "url": "https://player.autoembed.cc/embed/movie/1090007"
+            },
+            {
+              "name": "VidSrc.to 1080p",
+              "url": "https://vidsrc.to/embed/movie/1090007"
+            },
+            {
+              "name": "VidSrc.xyz 1080p",
+              "url": "https://vidsrc.xyz/embed/movie/1090007"
+            },
+            {
+              "name": "VidLink.pro 1080p",
+              "url": "https://vidlink.pro/movie/1090007"
+            }
+          ]
+        },
+        {
+          "Title": "The Roundup: Punishment",
+          "SubCategory": "Action",
+          "Country": "",
+          "Description": "'Monster Cop' Ma Seok-do investigates an illegal online gambling business led by a former STS Baek and an IT genius CEO Chang. Ma proposes an unexpected alliance to Jang and begins hunting down the criminals.",
+          "Poster": "https://image.tmdb.org/t/p/w500/yk38mNoJpsswmk9o7i7eLhO4mc.jpg",
+          "Thumbnail": "https://image.tmdb.org/t/p/w500/yk38mNoJpsswmk9o7i7eLhO4mc.jpg",
+          "Rating": 7,
+          "Duration": "1:49",
+          "Year": 2024,
+          "Servers": [
+            {
+              "name": "VidSrc 1080p",
+              "url": "https://vidsrc.net/embed/movie/1017163"
+            },
+            {
+              "name": "VidJoy 1080p",
+              "url": "https://vidjoy.pro/embed/movie/1017163"
+            },
+            {
+              "name": "Embed.su 1080p",
+              "url": "https://embed.su/embed/movie/1017163"
+            },
+            {
+              "name": "VidSrc.me 1080p",
+              "url": "https://vidsrc.me/embed/movie/1017163"
+            },
+            {
+              "name": "AutoEmbed 1080p",
+              "url": "https://player.autoembed.cc/embed/movie/1017163"
+            },
+            {
+              "name": "VidSrc.to 1080p",
+              "url": "https://vidsrc.to/embed/movie/1017163"
+            },
+            {
+              "name": "VidSrc.xyz 1080p",
+              "url": "https://vidsrc.xyz/embed/movie/1017163"
+            },
+            {
+              "name": "VidLink.pro 1080p",
+              "url": "https://vidlink.pro/movie/1017163"
+            }
+          ]
+        },
+        {
+          "Title": "Gladiator II",
+          "SubCategory": "Action",
+          "Country": "",
+          "Description": "Years after witnessing the death of the revered hero Maximus at the hands of his uncle, Lucius is forced to enter the Colosseum after his home is conquered by the tyrannical Emperors who now lead Rome with an iron fist. With rage in his heart and the future of the Empire at stake, Lucius must look to his past to find strength and honor to return the glory of Rome to its people.",
+          "Poster": "https://image.tmdb.org/t/p/w500/2cxhvwyEwRlysAmRH4iodkvo0z5.jpg",
+          "Thumbnail": "https://image.tmdb.org/t/p/w500/2cxhvwyEwRlysAmRH4iodkvo0z5.jpg",
+          "Rating": 7,
+          "Duration": "2:28",
+          "Year": 2024,
+          "Servers": [
+            {
+              "name": "VidSrc 1080p",
+              "url": "https://vidsrc.net/embed/movie/558449"
+            },
+            {
+              "name": "VidJoy 1080p",
+              "url": "https://vidjoy.pro/embed/movie/558449"
+            },
+            {
+              "name": "Embed.su 1080p",
+              "url": "https://embed.su/embed/movie/558449"
+            },
+            {
+              "name": "VidSrc.me 1080p",
+              "url": "https://vidsrc.me/embed/movie/558449"
+            },
+            {
+              "name": "AutoEmbed 1080p",
+              "url": "https://player.autoembed.cc/embed/movie/558449"
+            },
+            {
+              "name": "VidSrc.to 1080p",
+              "url": "https://vidsrc.to/embed/movie/558449"
+            },
+            {
+              "name": "VidSrc.xyz 1080p",
+              "url": "https://vidsrc.xyz/embed/movie/558449"
+            },
+            {
+              "name": "VidLink.pro 1080p",
+              "url": "https://vidlink.pro/movie/558449"
+            }
+          ]
+        },
+        {
+          "Title": "Kraven the Hunter",
+          "SubCategory": "Action",
+          "Country": "",
+          "Description": "Kraven Kravinoff's complex relationship with his ruthless gangster father, Nikolai, starts him down a path of vengeance with brutal consequences, motivating him to become not only the greatest hunter in the world, but also one of its most feared.",
+          "Poster": "https://image.tmdb.org/t/p/w500/i47IUSsN126K11JUzqQIOi1Mg1M.jpg",
+          "Thumbnail": "https://image.tmdb.org/t/p/w500/i47IUSsN126K11JUzqQIOi1Mg1M.jpg",
+          "Rating": 7,
+          "Duration": "2:07",
+          "Year": 2024,
+          "Servers": [
+            {
+              "name": "VidSrc 1080p",
+              "url": "https://vidsrc.net/embed/movie/539972"
+            },
+            {
+              "name": "VidJoy 1080p",
+              "url": "https://vidjoy.pro/embed/movie/539972"
+            },
+            {
+              "name": "Embed.su 1080p",
+              "url": "https://embed.su/embed/movie/539972"
+            },
+            {
+              "name": "VidSrc.me 1080p",
+              "url": "https://vidsrc.me/embed/movie/539972"
+            },
+            {
+              "name": "AutoEmbed 1080p",
+              "url": "https://player.autoembed.cc/embed/movie/539972"
+            },
+            {
+              "name": "VidSrc.to 1080p",
+              "url": "https://vidsrc.to/embed/movie/539972"
+            },
+            {
+              "name": "VidSrc.xyz 1080p",
+              "url": "https://vidsrc.xyz/embed/movie/539972"
+            },
+            {
+              "name": "VidLink.pro 1080p",
+              "url": "https://vidlink.pro/movie/539972"
+            }
+          ]
+        },
+        {
+          "Title": "Kung Fu Panda 4",
+          "SubCategory": "Animation",
+          "Country": "",
+          "Description": "Po is gearing up to become the spiritual leader of his Valley of Peace, but also needs someone to take his place as Dragon Warrior. As such, he will train a new kung fu practitioner for the spot and will encounter a villain called the Chameleon who conjures villains from the past.",
+          "Poster": "https://image.tmdb.org/t/p/w500/nqXsAaQsKw2gKpkfhIgjXNDRqg7.jpg",
+          "Thumbnail": "https://image.tmdb.org/t/p/w500/nqXsAaQsKw2gKpkfhIgjXNDRqg7.jpg",
+          "Rating": 7,
+          "Duration": "1:34",
+          "Year": 2024,
+          "Servers": [
+            {
+              "name": "VidSrc 1080p",
+              "url": "https://vidsrc.net/embed/movie/1011985"
+            },
+            {
+              "name": "VidJoy 1080p",
+              "url": "https://vidjoy.pro/embed/movie/1011985"
+            },
+            {
+              "name": "Embed.su 1080p",
+              "url": "https://embed.su/embed/movie/1011985"
+            },
+            {
+              "name": "VidSrc.me 1080p",
+              "url": "https://vidsrc.me/embed/movie/1011985"
+            },
+            {
+              "name": "AutoEmbed 1080p",
+              "url": "https://player.autoembed.cc/embed/movie/1011985"
+            },
+            {
+              "name": "VidSrc.to 1080p",
+              "url": "https://vidsrc.to/embed/movie/1011985"
+            },
+            {
+              "name": "VidSrc.xyz 1080p",
+              "url": "https://vidsrc.xyz/embed/movie/1011985"
+            },
+            {
+              "name": "VidLink.pro 1080p",
+              "url": "https://vidlink.pro/movie/1011985"
+            }
+          ]
+        },
+        {
+          "Title": "Utopia",
+          "SubCategory": "Mystery",
+          "Country": "",
+          "Description": "A soldier searching for his missing wife breaks into a high-tech facility, believing she's been caught in a human trafficking ring. But beyond its walls, he finds a surreal, futuristic fantasy park where reality and illusion blur. As he navigates this seductive and dangerous world, a shocking truth pulls him deeper into a deadly game where nothing is as it seems.",
+          "Poster": "https://image.tmdb.org/t/p/w500/yef0tY1Nw3BX8PJTfBLieqHj5Hw.jpg",
+          "Thumbnail": "https://image.tmdb.org/t/p/w500/yef0tY1Nw3BX8PJTfBLieqHj5Hw.jpg",
+          "Rating": 6,
+          "Duration": "1:33",
+          "Year": 2024,
+          "Servers": [
+            {
+              "name": "VidSrc 1080p",
+              "url": "https://vidsrc.net/embed/movie/1379587"
+            },
+            {
+              "name": "VidJoy 1080p",
+              "url": "https://vidjoy.pro/embed/movie/1379587"
+            },
+            {
+              "name": "Embed.su 1080p",
+              "url": "https://embed.su/embed/movie/1379587"
+            },
+            {
+              "name": "VidSrc.me 1080p",
+              "url": "https://vidsrc.me/embed/movie/1379587"
+            },
+            {
+              "name": "AutoEmbed 1080p",
+              "url": "https://player.autoembed.cc/embed/movie/1379587"
+            },
+            {
+              "name": "VidSrc.to 1080p",
+              "url": "https://vidsrc.to/embed/movie/1379587"
+            },
+            {
+              "name": "VidSrc.xyz 1080p",
+              "url": "https://vidsrc.xyz/embed/movie/1379587"
+            },
+            {
+              "name": "VidLink.pro 1080p",
+              "url": "https://vidlink.pro/movie/1379587"
+            }
+          ]
+        },
+        {
+          "Title": "Hunt the Wicked",
+          "SubCategory": "Action",
+          "Country": "",
+          "Description": "The film tells the story of narcotics police officer Huang Mingjin and the \"mysterious figure\" Wei Yunzhou. Through completely different means and methods, in the process of calculating and wrestling with each other, they tear apart the facade of urban tranquility, exposing the underground drug network woven by the hidden hand \"Long Wang\", and ultimately eradicate the darkness with the sword of justice, revealing the dawn of light.",
+          "Poster": "https://image.tmdb.org/t/p/w500/m5UBHbEjQJx3AkRZWRY6A4l4ZDT.jpg",
+          "Thumbnail": "https://image.tmdb.org/t/p/w500/m5UBHbEjQJx3AkRZWRY6A4l4ZDT.jpg",
+          "Rating": 7,
+          "Duration": "1:43",
+          "Year": 2024,
+          "Servers": [
+            {
+              "name": "VidSrc 1080p",
+              "url": "https://vidsrc.net/embed/movie/1240475"
+            },
+            {
+              "name": "VidJoy 1080p",
+              "url": "https://vidjoy.pro/embed/movie/1240475"
+            },
+            {
+              "name": "Embed.su 1080p",
+              "url": "https://embed.su/embed/movie/1240475"
+            },
+            {
+              "name": "VidSrc.me 1080p",
+              "url": "https://vidsrc.me/embed/movie/1240475"
+            },
+            {
+              "name": "AutoEmbed 1080p",
+              "url": "https://player.autoembed.cc/embed/movie/1240475"
+            },
+            {
+              "name": "VidSrc.to 1080p",
+              "url": "https://vidsrc.to/embed/movie/1240475"
+            },
+            {
+              "name": "VidSrc.xyz 1080p",
+              "url": "https://vidsrc.xyz/embed/movie/1240475"
+            },
+            {
+              "name": "VidLink.pro 1080p",
+              "url": "https://vidlink.pro/movie/1240475"
+            }
+          ]
+        },
+        {
+          "Title": "Red One",
+          "SubCategory": "Action",
+          "Country": "",
+          "Description": "After Santa Claus (codename: Red One) is kidnapped, the North Pole's Head of Security must team up with the world's most infamous tracker in a globe-trotting, action-packed mission to save Christmas.",
+          "Poster": "https://image.tmdb.org/t/p/w500/cdqLnri3NEGcmfnqwk2TSIYtddg.jpg",
+          "Thumbnail": "https://image.tmdb.org/t/p/w500/cdqLnri3NEGcmfnqwk2TSIYtddg.jpg",
+          "Rating": 7,
+          "Duration": "2:04",
+          "Year": 2024,
+          "Servers": [
+            {
+              "name": "VidSrc 1080p",
+              "url": "https://vidsrc.net/embed/movie/845781"
+            },
+            {
+              "name": "VidJoy 1080p",
+              "url": "https://vidjoy.pro/embed/movie/845781"
+            },
+            {
+              "name": "Embed.su 1080p",
+              "url": "https://embed.su/embed/movie/845781"
+            },
+            {
+              "name": "VidSrc.me 1080p",
+              "url": "https://vidsrc.me/embed/movie/845781"
+            },
+            {
+              "name": "AutoEmbed 1080p",
+              "url": "https://player.autoembed.cc/embed/movie/845781"
+            },
+            {
+              "name": "VidSrc.to 1080p",
+              "url": "https://vidsrc.to/embed/movie/845781"
+            },
+            {
+              "name": "VidSrc.xyz 1080p",
+              "url": "https://vidsrc.xyz/embed/movie/845781"
+            },
+            {
+              "name": "VidLink.pro 1080p",
+              "url": "https://vidlink.pro/movie/845781"
+            }
+          ]
+        },
+        {
+          "Title": "Life After Fighting",
+          "SubCategory": "Action",
+          "Country": "",
+          "Description": "Retired martial arts world champion Alex Faulkner has settled into a simple life, when the disappearance of two of his students leads to an unthinkable discovery close to home. Just when all hope of finding the children is lost, he locates the imprisoned girls and unsurfaces an international child trafficking operation, which draws him back into the fight of his life against those behind it.",
+          "Poster": "https://image.tmdb.org/t/p/w500/uKWAk4BHzyEOMmLKUDXoIAPhH36.jpg",
+          "Thumbnail": "https://image.tmdb.org/t/p/w500/uKWAk4BHzyEOMmLKUDXoIAPhH36.jpg",
+          "Rating": 7,
+          "Duration": "2:06",
+          "Year": 2024,
+          "Servers": [
+            {
+              "name": "VidSrc 1080p",
+              "url": "https://vidsrc.net/embed/movie/1289601"
+            },
+            {
+              "name": "VidJoy 1080p",
+              "url": "https://vidjoy.pro/embed/movie/1289601"
+            },
+            {
+              "name": "Embed.su 1080p",
+              "url": "https://embed.su/embed/movie/1289601"
+            },
+            {
+              "name": "VidSrc.me 1080p",
+              "url": "https://vidsrc.me/embed/movie/1289601"
+            },
+            {
+              "name": "AutoEmbed 1080p",
+              "url": "https://player.autoembed.cc/embed/movie/1289601"
+            },
+            {
+              "name": "VidSrc.to 1080p",
+              "url": "https://vidsrc.to/embed/movie/1289601"
+            },
+            {
+              "name": "VidSrc.xyz 1080p",
+              "url": "https://vidsrc.xyz/embed/movie/1289601"
+            },
+            {
+              "name": "VidLink.pro 1080p",
+              "url": "https://vidlink.pro/movie/1289601"
+            }
+          ]
+        },
+        {
+          "Title": "Road House",
+          "SubCategory": "Action",
+          "Country": "",
+          "Description": "Ex-UFC fighter Dalton takes a job as a bouncer at a Florida Keys roadhouse, only to discover that this paradise is not all it seems.",
+          "Poster": "https://image.tmdb.org/t/p/w500/fDEdtS4P0gJsxHDIt8dG8TR5dx1.jpg",
+          "Thumbnail": "https://image.tmdb.org/t/p/w500/fDEdtS4P0gJsxHDIt8dG8TR5dx1.jpg",
+          "Rating": 7,
+          "Duration": "2:01",
+          "Year": 2024,
+          "Servers": [
+            {
+              "name": "VidSrc 1080p",
+              "url": "https://vidsrc.net/embed/movie/359410"
+            },
+            {
+              "name": "VidJoy 1080p",
+              "url": "https://vidjoy.pro/embed/movie/359410"
+            },
+            {
+              "name": "Embed.su 1080p",
+              "url": "https://embed.su/embed/movie/359410"
+            },
+            {
+              "name": "VidSrc.me 1080p",
+              "url": "https://vidsrc.me/embed/movie/359410"
+            },
+            {
+              "name": "AutoEmbed 1080p",
+              "url": "https://player.autoembed.cc/embed/movie/359410"
+            },
+            {
+              "name": "VidSrc.to 1080p",
+              "url": "https://vidsrc.to/embed/movie/359410"
+            },
+            {
+              "name": "VidSrc.xyz 1080p",
+              "url": "https://vidsrc.xyz/embed/movie/359410"
+            },
+            {
+              "name": "VidLink.pro 1080p",
+              "url": "https://vidlink.pro/movie/359410"
+            }
+          ]
+        },
+        {
+          "Title": "Godzilla x Kong: The New Empire",
+          "SubCategory": "Action",
+          "Country": "",
+          "Description": "Following their explosive showdown, Godzilla and Kong must reunite against a colossal undiscovered threat hidden within our world, challenging their very existence – and our own.",
+          "Poster": "https://image.tmdb.org/t/p/w500/z1p34vh7dEOnLDmyCrlUVLuoDzd.jpg",
+          "Thumbnail": "https://image.tmdb.org/t/p/w500/z1p34vh7dEOnLDmyCrlUVLuoDzd.jpg",
+          "Rating": 7,
+          "Duration": "1:55",
+          "Year": 2024,
+          "Servers": [
+            {
+              "name": "VidSrc 1080p",
+              "url": "https://vidsrc.net/embed/movie/823464"
+            },
+            {
+              "name": "VidJoy 1080p",
+              "url": "https://vidjoy.pro/embed/movie/823464"
+            },
+            {
+              "name": "Embed.su 1080p",
+              "url": "https://embed.su/embed/movie/823464"
+            },
+            {
+              "name": "VidSrc.me 1080p",
+              "url": "https://vidsrc.me/embed/movie/823464"
+            },
+            {
+              "name": "AutoEmbed 1080p",
+              "url": "https://player.autoembed.cc/embed/movie/823464"
+            },
+            {
+              "name": "VidSrc.to 1080p",
+              "url": "https://vidsrc.to/embed/movie/823464"
+            },
+            {
+              "name": "VidSrc.xyz 1080p",
+              "url": "https://vidsrc.xyz/embed/movie/823464"
+            },
+            {
+              "name": "VidLink.pro 1080p",
+              "url": "https://vidlink.pro/movie/823464"
+            }
+          ]
+        },
+        {
+          "Title": "Apocalypse Z: The Beginning of the End",
+          "SubCategory": "Drama",
+          "Country": "",
+          "Description": "When a kind of rabies that transforms people into aggressive creatures spreads across the planet, Manel isolates himself at home with his cat, relying on his wits to survive; but soon they must go out in search of food, by land and by sea, dodging many dangers.",
+          "Poster": "https://image.tmdb.org/t/p/w500/wIGJnIFQlESkC2rLpfA8EDHqk4g.jpg",
+          "Thumbnail": "https://image.tmdb.org/t/p/w500/wIGJnIFQlESkC2rLpfA8EDHqk4g.jpg",
+          "Rating": 7,
+          "Duration": "1:59",
+          "Year": 2024,
+          "Servers": [
+            {
+              "name": "VidSrc 1080p",
+              "url": "https://vidsrc.net/embed/movie/1118031"
+            },
+            {
+              "name": "VidJoy 1080p",
+              "url": "https://vidjoy.pro/embed/movie/1118031"
+            },
+            {
+              "name": "Embed.su 1080p",
+              "url": "https://embed.su/embed/movie/1118031"
+            },
+            {
+              "name": "VidSrc.me 1080p",
+              "url": "https://vidsrc.me/embed/movie/1118031"
+            },
+            {
+              "name": "AutoEmbed 1080p",
+              "url": "https://player.autoembed.cc/embed/movie/1118031"
+            },
+            {
+              "name": "VidSrc.to 1080p",
+              "url": "https://vidsrc.to/embed/movie/1118031"
+            },
+            {
+              "name": "VidSrc.xyz 1080p",
+              "url": "https://vidsrc.xyz/embed/movie/1118031"
+            },
+            {
+              "name": "VidLink.pro 1080p",
+              "url": "https://vidlink.pro/movie/1118031"
+            }
+          ]
+        },
+        {
+          "Title": "Bad Boys: Ride or Die",
+          "SubCategory": "Action",
+          "Country": "",
+          "Description": "After their late former Captain is framed, Lowrey and Burnett try to clear his name, only to end up on the run themselves.",
+          "Poster": "https://image.tmdb.org/t/p/w500/oGythE98MYleE6mZlGs5oBGkux1.jpg",
+          "Thumbnail": "https://image.tmdb.org/t/p/w500/oGythE98MYleE6mZlGs5oBGkux1.jpg",
+          "Rating": 7,
+          "Duration": "1:55",
+          "Year": 2024,
+          "Servers": [
+            {
+              "name": "VidSrc 1080p",
+              "url": "https://vidsrc.net/embed/movie/573435"
+            },
+            {
+              "name": "VidJoy 1080p",
+              "url": "https://vidjoy.pro/embed/movie/573435"
+            },
+            {
+              "name": "Embed.su 1080p",
+              "url": "https://embed.su/embed/movie/573435"
+            },
+            {
+              "name": "VidSrc.me 1080p",
+              "url": "https://vidsrc.me/embed/movie/573435"
+            },
+            {
+              "name": "AutoEmbed 1080p",
+              "url": "https://player.autoembed.cc/embed/movie/573435"
+            },
+            {
+              "name": "VidSrc.to 1080p",
+              "url": "https://vidsrc.to/embed/movie/573435"
+            },
+            {
+              "name": "VidSrc.xyz 1080p",
+              "url": "https://vidsrc.xyz/embed/movie/573435"
+            },
+            {
+              "name": "VidLink.pro 1080p",
+              "url": "https://vidlink.pro/movie/573435"
             }
           ]
         }
