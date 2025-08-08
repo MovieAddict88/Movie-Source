@@ -20,7 +20,8 @@
         "Animation",
         "Mystery",
         "Adventure",
-        "Family"
+        "Family",
+        "Thriller"
       ],
       "Entries": [
         {
@@ -1505,6 +1506,816 @@
             {
               "name": "VidLink.pro 1080p",
               "url": "https://vidlink.pro/movie/1147416"
+            }
+          ]
+        },
+        {
+          "Title": "Night Carnage",
+          "SubCategory": "Action",
+          "Country": "",
+          "Description": "A blogger who is also a werewolf meets a dashing playboy with a dark secret of his own. Starring Logan Andrews and Christian Howard.",
+          "Poster": "https://image.tmdb.org/t/p/w500/w0wjPQKhlqisSbylf1sWZiNyc2h.jpg",
+          "Thumbnail": "https://image.tmdb.org/t/p/w500/w0wjPQKhlqisSbylf1sWZiNyc2h.jpg",
+          "Rating": 5,
+          "Duration": "1:20",
+          "Year": 2025,
+          "Servers": [
+            {
+              "name": "VidSrc 1080p",
+              "url": "https://vidsrc.net/embed/movie/986206"
+            },
+            {
+              "name": "VidJoy 1080p",
+              "url": "https://vidjoy.pro/embed/movie/986206"
+            },
+            {
+              "name": "Embed.su 1080p",
+              "url": "https://embed.su/embed/movie/986206"
+            },
+            {
+              "name": "VidSrc.me 1080p",
+              "url": "https://vidsrc.me/embed/movie/986206"
+            },
+            {
+              "name": "AutoEmbed 1080p",
+              "url": "https://player.autoembed.cc/embed/movie/986206"
+            },
+            {
+              "name": "VidSrc.to 1080p",
+              "url": "https://vidsrc.to/embed/movie/986206"
+            },
+            {
+              "name": "VidSrc.xyz 1080p",
+              "url": "https://vidsrc.xyz/embed/movie/986206"
+            },
+            {
+              "name": "VidLink.pro 1080p",
+              "url": "https://vidlink.pro/movie/986206"
+            }
+          ]
+        },
+        {
+          "Title": "28 Years Later",
+          "SubCategory": "Horror",
+          "Country": "",
+          "Description": "Twenty-eight years since the rage virus escaped a biological weapons laboratory, now, still in a ruthlessly enforced quarantine, some have found ways to exist amidst the infected. One such group lives on a small island connected to the mainland by a single, heavily-defended causeway. When one member departs on a mission into the dark heart of the mainland, he discovers secrets, wonders, and horrors that have mutated not only the infected but other survivors as well.",
+          "Poster": "https://image.tmdb.org/t/p/w500/mIg1qCkVxnAlM2TK3RUF0tdEXlE.jpg",
+          "Thumbnail": "https://image.tmdb.org/t/p/w500/mIg1qCkVxnAlM2TK3RUF0tdEXlE.jpg",
+          "Rating": 7,
+          "Duration": "1:55",
+          "Year": 2025,
+          "Servers": [
+            {
+              "name": "VidSrc 1080p",
+              "url": "https://vidsrc.net/embed/movie/1100988"
+            },
+            {
+              "name": "VidJoy 1080p",
+              "url": "https://vidjoy.pro/embed/movie/1100988"
+            },
+            {
+              "name": "Embed.su 1080p",
+              "url": "https://embed.su/embed/movie/1100988"
+            },
+            {
+              "name": "VidSrc.me 1080p",
+              "url": "https://vidsrc.me/embed/movie/1100988"
+            },
+            {
+              "name": "AutoEmbed 1080p",
+              "url": "https://player.autoembed.cc/embed/movie/1100988"
+            },
+            {
+              "name": "VidSrc.to 1080p",
+              "url": "https://vidsrc.to/embed/movie/1100988"
+            },
+            {
+              "name": "VidSrc.xyz 1080p",
+              "url": "https://vidsrc.xyz/embed/movie/1100988"
+            },
+            {
+              "name": "VidLink.pro 1080p",
+              "url": "https://vidlink.pro/movie/1100988"
+            }
+          ]
+        },
+        {
+          "Title": "Abraham's Boys: A Dracula Story",
+          "SubCategory": "Horror",
+          "Country": "",
+          "Description": "Following the events of Dracula, Abraham van Helsing moves his two sons, Max and Rudy, to the US in an attempt to escape their past. It does not work.",
+          "Poster": "https://image.tmdb.org/t/p/w500/e10AbPwcJk5b7ja3MQUVr5wHEeq.jpg",
+          "Thumbnail": "https://image.tmdb.org/t/p/w500/e10AbPwcJk5b7ja3MQUVr5wHEeq.jpg",
+          "Rating": 4,
+          "Duration": "1:29",
+          "Year": 2025,
+          "Servers": [
+            {
+              "name": "VidSrc 1080p",
+              "url": "https://vidsrc.net/embed/movie/1452176"
+            },
+            {
+              "name": "VidJoy 1080p",
+              "url": "https://vidjoy.pro/embed/movie/1452176"
+            },
+            {
+              "name": "Embed.su 1080p",
+              "url": "https://embed.su/embed/movie/1452176"
+            },
+            {
+              "name": "VidSrc.me 1080p",
+              "url": "https://vidsrc.me/embed/movie/1452176"
+            },
+            {
+              "name": "AutoEmbed 1080p",
+              "url": "https://player.autoembed.cc/embed/movie/1452176"
+            },
+            {
+              "name": "VidSrc.to 1080p",
+              "url": "https://vidsrc.to/embed/movie/1452176"
+            },
+            {
+              "name": "VidSrc.xyz 1080p",
+              "url": "https://vidsrc.xyz/embed/movie/1452176"
+            },
+            {
+              "name": "VidLink.pro 1080p",
+              "url": "https://vidlink.pro/movie/1452176"
+            }
+          ]
+        },
+        {
+          "Title": "Final Destination Bloodlines",
+          "SubCategory": "Horror",
+          "Country": "",
+          "Description": "Plagued by a violent recurring nightmare, college student Stefanie heads home to track down the one person who might be able to break the cycle and save her family from the grisly demise that inevitably awaits them all.",
+          "Poster": "https://image.tmdb.org/t/p/w500/6WxhEvFsauuACfv8HyoVX6mZKFj.jpg",
+          "Thumbnail": "https://image.tmdb.org/t/p/w500/6WxhEvFsauuACfv8HyoVX6mZKFj.jpg",
+          "Rating": 7,
+          "Duration": "1:50",
+          "Year": 2025,
+          "Servers": [
+            {
+              "name": "VidSrc 1080p",
+              "url": "https://vidsrc.net/embed/movie/574475"
+            },
+            {
+              "name": "VidJoy 1080p",
+              "url": "https://vidjoy.pro/embed/movie/574475"
+            },
+            {
+              "name": "Embed.su 1080p",
+              "url": "https://embed.su/embed/movie/574475"
+            },
+            {
+              "name": "VidSrc.me 1080p",
+              "url": "https://vidsrc.me/embed/movie/574475"
+            },
+            {
+              "name": "AutoEmbed 1080p",
+              "url": "https://player.autoembed.cc/embed/movie/574475"
+            },
+            {
+              "name": "VidSrc.to 1080p",
+              "url": "https://vidsrc.to/embed/movie/574475"
+            },
+            {
+              "name": "VidSrc.xyz 1080p",
+              "url": "https://vidsrc.xyz/embed/movie/574475"
+            },
+            {
+              "name": "VidLink.pro 1080p",
+              "url": "https://vidlink.pro/movie/574475"
+            }
+          ]
+        },
+        {
+          "Title": "Weapons",
+          "SubCategory": "Horror",
+          "Country": "",
+          "Description": "When all but one child from the same class mysteriously vanish on the same night at exactly the same time, a community is left questioning who or what is behind their disappearance.",
+          "Poster": "https://image.tmdb.org/t/p/w500/cpf7vsRZ0MYRQcnLWteD5jK9ymT.jpg",
+          "Thumbnail": "https://image.tmdb.org/t/p/w500/cpf7vsRZ0MYRQcnLWteD5jK9ymT.jpg",
+          "Rating": 8,
+          "Duration": "2:09",
+          "Year": 2025,
+          "Servers": [
+            {
+              "name": "VidSrc 1080p",
+              "url": "https://vidsrc.net/embed/movie/1078605"
+            },
+            {
+              "name": "VidJoy 1080p",
+              "url": "https://vidjoy.pro/embed/movie/1078605"
+            },
+            {
+              "name": "Embed.su 1080p",
+              "url": "https://embed.su/embed/movie/1078605"
+            },
+            {
+              "name": "VidSrc.me 1080p",
+              "url": "https://vidsrc.me/embed/movie/1078605"
+            },
+            {
+              "name": "AutoEmbed 1080p",
+              "url": "https://player.autoembed.cc/embed/movie/1078605"
+            },
+            {
+              "name": "VidSrc.to 1080p",
+              "url": "https://vidsrc.to/embed/movie/1078605"
+            },
+            {
+              "name": "VidSrc.xyz 1080p",
+              "url": "https://vidsrc.xyz/embed/movie/1078605"
+            },
+            {
+              "name": "VidLink.pro 1080p",
+              "url": "https://vidlink.pro/movie/1078605"
+            }
+          ]
+        },
+        {
+          "Title": "Hook",
+          "SubCategory": "Horror",
+          "Country": "",
+          "Description": "Driven by a hallucinogenic drug and a thirst for revenge, James Hook murders John Darling and loses his hand to Peter Pan. Eighteen years later, Wendy, now married to Peter, has a daughter, Lily. Lily discovers Hook is her biological father, leading her to a remote birthday retreat. Hook escapes prison and embarks on a killing spree, targeting Lily and her friends at the manor.",
+          "Poster": "https://image.tmdb.org/t/p/w500/uMCGeXaiCHQNBgh7em4Gaf73e0i.jpg",
+          "Thumbnail": "https://image.tmdb.org/t/p/w500/uMCGeXaiCHQNBgh7em4Gaf73e0i.jpg",
+          "Rating": 5,
+          "Duration": "1:18",
+          "Year": 2025,
+          "Servers": [
+            {
+              "name": "VidSrc 1080p",
+              "url": "https://vidsrc.net/embed/movie/1353328"
+            },
+            {
+              "name": "VidJoy 1080p",
+              "url": "https://vidjoy.pro/embed/movie/1353328"
+            },
+            {
+              "name": "Embed.su 1080p",
+              "url": "https://embed.su/embed/movie/1353328"
+            },
+            {
+              "name": "VidSrc.me 1080p",
+              "url": "https://vidsrc.me/embed/movie/1353328"
+            },
+            {
+              "name": "AutoEmbed 1080p",
+              "url": "https://player.autoembed.cc/embed/movie/1353328"
+            },
+            {
+              "name": "VidSrc.to 1080p",
+              "url": "https://vidsrc.to/embed/movie/1353328"
+            },
+            {
+              "name": "VidSrc.xyz 1080p",
+              "url": "https://vidsrc.xyz/embed/movie/1353328"
+            },
+            {
+              "name": "VidLink.pro 1080p",
+              "url": "https://vidlink.pro/movie/1353328"
+            }
+          ]
+        },
+        {
+          "Title": "Fréwaka",
+          "SubCategory": "Horror",
+          "Country": "",
+          "Description": "Care worker Shoo, who is haunted by a personal tragedy, is sent to a remote village to care for an agoraphobic woman, who fears both her neighbours and the Na Sídhe – sinister folkloric entities she believes abducted her decades before.",
+          "Poster": "https://image.tmdb.org/t/p/w500/pfLylbmY0uxQm6Sh63j6bpb7XB3.jpg",
+          "Thumbnail": "https://image.tmdb.org/t/p/w500/pfLylbmY0uxQm6Sh63j6bpb7XB3.jpg",
+          "Rating": 7,
+          "Duration": "1:43",
+          "Year": 2025,
+          "Servers": [
+            {
+              "name": "VidSrc 1080p",
+              "url": "https://vidsrc.net/embed/movie/1189735"
+            },
+            {
+              "name": "VidJoy 1080p",
+              "url": "https://vidjoy.pro/embed/movie/1189735"
+            },
+            {
+              "name": "Embed.su 1080p",
+              "url": "https://embed.su/embed/movie/1189735"
+            },
+            {
+              "name": "VidSrc.me 1080p",
+              "url": "https://vidsrc.me/embed/movie/1189735"
+            },
+            {
+              "name": "AutoEmbed 1080p",
+              "url": "https://player.autoembed.cc/embed/movie/1189735"
+            },
+            {
+              "name": "VidSrc.to 1080p",
+              "url": "https://vidsrc.to/embed/movie/1189735"
+            },
+            {
+              "name": "VidSrc.xyz 1080p",
+              "url": "https://vidsrc.xyz/embed/movie/1189735"
+            },
+            {
+              "name": "VidLink.pro 1080p",
+              "url": "https://vidlink.pro/movie/1189735"
+            }
+          ]
+        },
+        {
+          "Title": "Together",
+          "SubCategory": "Horror",
+          "Country": "",
+          "Description": "With a move to the countryside already testing the limits of a couple's relationship, a supernatural encounter begins an extreme transformation of their love, their lives, and their flesh.",
+          "Poster": "https://image.tmdb.org/t/p/w500/inliWt3ukcpKDGPpEe2lRDLwK2r.jpg",
+          "Thumbnail": "https://image.tmdb.org/t/p/w500/inliWt3ukcpKDGPpEe2lRDLwK2r.jpg",
+          "Rating": 8,
+          "Duration": "1:42",
+          "Year": 2025,
+          "Servers": [
+            {
+              "name": "VidSrc 1080p",
+              "url": "https://vidsrc.net/embed/movie/1242011"
+            },
+            {
+              "name": "VidJoy 1080p",
+              "url": "https://vidjoy.pro/embed/movie/1242011"
+            },
+            {
+              "name": "Embed.su 1080p",
+              "url": "https://embed.su/embed/movie/1242011"
+            },
+            {
+              "name": "VidSrc.me 1080p",
+              "url": "https://vidsrc.me/embed/movie/1242011"
+            },
+            {
+              "name": "AutoEmbed 1080p",
+              "url": "https://player.autoembed.cc/embed/movie/1242011"
+            },
+            {
+              "name": "VidSrc.to 1080p",
+              "url": "https://vidsrc.to/embed/movie/1242011"
+            },
+            {
+              "name": "VidSrc.xyz 1080p",
+              "url": "https://vidsrc.xyz/embed/movie/1242011"
+            },
+            {
+              "name": "VidLink.pro 1080p",
+              "url": "https://vidlink.pro/movie/1242011"
+            }
+          ]
+        },
+        {
+          "Title": "Bring Her Back",
+          "SubCategory": "Horror",
+          "Country": "",
+          "Description": "Following the death of their father, a brother and sister are introduced to their new sibling by their foster mother, only to learn that she has a terrifying secret.",
+          "Poster": "https://image.tmdb.org/t/p/w500/tObSf1VzzHt9xB0csanFtb3DRjf.jpg",
+          "Thumbnail": "https://image.tmdb.org/t/p/w500/tObSf1VzzHt9xB0csanFtb3DRjf.jpg",
+          "Rating": 7,
+          "Duration": "1:44",
+          "Year": 2025,
+          "Servers": [
+            {
+              "name": "VidSrc 1080p",
+              "url": "https://vidsrc.net/embed/movie/1151031"
+            },
+            {
+              "name": "VidJoy 1080p",
+              "url": "https://vidjoy.pro/embed/movie/1151031"
+            },
+            {
+              "name": "Embed.su 1080p",
+              "url": "https://embed.su/embed/movie/1151031"
+            },
+            {
+              "name": "VidSrc.me 1080p",
+              "url": "https://vidsrc.me/embed/movie/1151031"
+            },
+            {
+              "name": "AutoEmbed 1080p",
+              "url": "https://player.autoembed.cc/embed/movie/1151031"
+            },
+            {
+              "name": "VidSrc.to 1080p",
+              "url": "https://vidsrc.to/embed/movie/1151031"
+            },
+            {
+              "name": "VidSrc.xyz 1080p",
+              "url": "https://vidsrc.xyz/embed/movie/1151031"
+            },
+            {
+              "name": "VidLink.pro 1080p",
+              "url": "https://vidlink.pro/movie/1151031"
+            }
+          ]
+        },
+        {
+          "Title": "T.I.M.",
+          "SubCategory": "Science Fiction",
+          "Country": "",
+          "Description": "Prosthetics scientist Abi and her adulterous husband Paul adjust to life outside the city as Abi begins working for high-tech company Integrate, developing a humanoid AI - T.I.M.",
+          "Poster": "https://image.tmdb.org/t/p/w500/hlHJee7pGVslHjUBxdujdVkyGkl.jpg",
+          "Thumbnail": "https://image.tmdb.org/t/p/w500/hlHJee7pGVslHjUBxdujdVkyGkl.jpg",
+          "Rating": 6,
+          "Duration": "1:41",
+          "Year": 2023,
+          "Servers": [
+            {
+              "name": "VidSrc 1080p",
+              "url": "https://vidsrc.net/embed/movie/1040229"
+            },
+            {
+              "name": "VidJoy 1080p",
+              "url": "https://vidjoy.pro/embed/movie/1040229"
+            },
+            {
+              "name": "Embed.su 1080p",
+              "url": "https://embed.su/embed/movie/1040229"
+            },
+            {
+              "name": "VidSrc.me 1080p",
+              "url": "https://vidsrc.me/embed/movie/1040229"
+            },
+            {
+              "name": "AutoEmbed 1080p",
+              "url": "https://player.autoembed.cc/embed/movie/1040229"
+            },
+            {
+              "name": "VidSrc.to 1080p",
+              "url": "https://vidsrc.to/embed/movie/1040229"
+            },
+            {
+              "name": "VidSrc.xyz 1080p",
+              "url": "https://vidsrc.xyz/embed/movie/1040229"
+            },
+            {
+              "name": "VidLink.pro 1080p",
+              "url": "https://vidlink.pro/movie/1040229"
+            }
+          ]
+        },
+        {
+          "Title": "Séance Games: Metaxu",
+          "SubCategory": "Horror",
+          "Country": "",
+          "Description": "Social media stars unite to play METAXU, an online séance game, only to find they have unwittingly unleashed the Gates of Hell.",
+          "Poster": "https://image.tmdb.org/t/p/w500/4CfL5wy0srwNLi6hP9EZVwSAX41.jpg",
+          "Thumbnail": "https://image.tmdb.org/t/p/w500/4CfL5wy0srwNLi6hP9EZVwSAX41.jpg",
+          "Rating": 8,
+          "Duration": "1:25",
+          "Year": 2024,
+          "Servers": [
+            {
+              "name": "VidSrc 1080p",
+              "url": "https://vidsrc.net/embed/movie/1245934"
+            },
+            {
+              "name": "VidJoy 1080p",
+              "url": "https://vidjoy.pro/embed/movie/1245934"
+            },
+            {
+              "name": "Embed.su 1080p",
+              "url": "https://embed.su/embed/movie/1245934"
+            },
+            {
+              "name": "VidSrc.me 1080p",
+              "url": "https://vidsrc.me/embed/movie/1245934"
+            },
+            {
+              "name": "AutoEmbed 1080p",
+              "url": "https://player.autoembed.cc/embed/movie/1245934"
+            },
+            {
+              "name": "VidSrc.to 1080p",
+              "url": "https://vidsrc.to/embed/movie/1245934"
+            },
+            {
+              "name": "VidSrc.xyz 1080p",
+              "url": "https://vidsrc.xyz/embed/movie/1245934"
+            },
+            {
+              "name": "VidLink.pro 1080p",
+              "url": "https://vidlink.pro/movie/1245934"
+            }
+          ]
+        },
+        {
+          "Title": "Dangerous Animals",
+          "SubCategory": "Horror",
+          "Country": "",
+          "Description": "A savvy and free-spirited surfer is abducted by a shark-obsessed serial killer. Held captive on his boat, she must figure out how to escape before he carries out a ritualistic feeding to the sharks below.",
+          "Poster": "https://image.tmdb.org/t/p/w500/oQJ1PKLIE2gF5cr3xwjLCvv4jcU.jpg",
+          "Thumbnail": "https://image.tmdb.org/t/p/w500/oQJ1PKLIE2gF5cr3xwjLCvv4jcU.jpg",
+          "Rating": 6,
+          "Duration": "1:38",
+          "Year": 2025,
+          "Servers": [
+            {
+              "name": "VidSrc 1080p",
+              "url": "https://vidsrc.net/embed/movie/1285965"
+            },
+            {
+              "name": "VidJoy 1080p",
+              "url": "https://vidjoy.pro/embed/movie/1285965"
+            },
+            {
+              "name": "Embed.su 1080p",
+              "url": "https://embed.su/embed/movie/1285965"
+            },
+            {
+              "name": "VidSrc.me 1080p",
+              "url": "https://vidsrc.me/embed/movie/1285965"
+            },
+            {
+              "name": "AutoEmbed 1080p",
+              "url": "https://player.autoembed.cc/embed/movie/1285965"
+            },
+            {
+              "name": "VidSrc.to 1080p",
+              "url": "https://vidsrc.to/embed/movie/1285965"
+            },
+            {
+              "name": "VidSrc.xyz 1080p",
+              "url": "https://vidsrc.xyz/embed/movie/1285965"
+            },
+            {
+              "name": "VidLink.pro 1080p",
+              "url": "https://vidlink.pro/movie/1285965"
+            }
+          ]
+        },
+        {
+          "Title": "Everyone Is Going to Die",
+          "SubCategory": "Horror",
+          "Country": "",
+          "Description": "On his daughter's birthday, a wealthy father's reconciliation attempt is hijacked by two female burglars. A shakedown evolves into a lethal cat-and-mouse as hidden motives emerge, culminating in a life-altering revelation.",
+          "Poster": "https://image.tmdb.org/t/p/w500/wg5l81zU4Rd6I1WrAYOGzssRgmw.jpg",
+          "Thumbnail": "https://image.tmdb.org/t/p/w500/wg5l81zU4Rd6I1WrAYOGzssRgmw.jpg",
+          "Rating": 5,
+          "Duration": "1:22",
+          "Year": 2025,
+          "Servers": [
+            {
+              "name": "VidSrc 1080p",
+              "url": "https://vidsrc.net/embed/movie/1236471"
+            },
+            {
+              "name": "VidJoy 1080p",
+              "url": "https://vidjoy.pro/embed/movie/1236471"
+            },
+            {
+              "name": "Embed.su 1080p",
+              "url": "https://embed.su/embed/movie/1236471"
+            },
+            {
+              "name": "VidSrc.me 1080p",
+              "url": "https://vidsrc.me/embed/movie/1236471"
+            },
+            {
+              "name": "AutoEmbed 1080p",
+              "url": "https://player.autoembed.cc/embed/movie/1236471"
+            },
+            {
+              "name": "VidSrc.to 1080p",
+              "url": "https://vidsrc.to/embed/movie/1236471"
+            },
+            {
+              "name": "VidSrc.xyz 1080p",
+              "url": "https://vidsrc.xyz/embed/movie/1236471"
+            },
+            {
+              "name": "VidLink.pro 1080p",
+              "url": "https://vidlink.pro/movie/1236471"
+            }
+          ]
+        },
+        {
+          "Title": "The Ritual",
+          "SubCategory": "Horror",
+          "Country": "",
+          "Description": "Two priests, one in crisis with his faith and the other confronting a turbulent past, must overcome their differences to perform a risky exorcism.",
+          "Poster": "https://image.tmdb.org/t/p/w500/ktqPs5QyuF8SpKnipvVHb3fwD8d.jpg",
+          "Thumbnail": "https://image.tmdb.org/t/p/w500/ktqPs5QyuF8SpKnipvVHb3fwD8d.jpg",
+          "Rating": 6,
+          "Duration": "1:38",
+          "Year": 2025,
+          "Servers": [
+            {
+              "name": "VidSrc 1080p",
+              "url": "https://vidsrc.net/embed/movie/1278950"
+            },
+            {
+              "name": "VidJoy 1080p",
+              "url": "https://vidjoy.pro/embed/movie/1278950"
+            },
+            {
+              "name": "Embed.su 1080p",
+              "url": "https://embed.su/embed/movie/1278950"
+            },
+            {
+              "name": "VidSrc.me 1080p",
+              "url": "https://vidsrc.me/embed/movie/1278950"
+            },
+            {
+              "name": "AutoEmbed 1080p",
+              "url": "https://player.autoembed.cc/embed/movie/1278950"
+            },
+            {
+              "name": "VidSrc.to 1080p",
+              "url": "https://vidsrc.to/embed/movie/1278950"
+            },
+            {
+              "name": "VidSrc.xyz 1080p",
+              "url": "https://vidsrc.xyz/embed/movie/1278950"
+            },
+            {
+              "name": "VidLink.pro 1080p",
+              "url": "https://vidlink.pro/movie/1278950"
+            }
+          ]
+        },
+        {
+          "Title": "Control Room",
+          "SubCategory": "Science Fiction",
+          "Country": "",
+          "Description": "A distant space colony where Olivia and her colleague Arlo is in charge of the colony's control room, ensuring the safety and well-being of the community. But the colony comes under siege from alien creatures.",
+          "Poster": "https://image.tmdb.org/t/p/w500/4JSKy8aFyzHQYqi1998wLIBedrw.jpg",
+          "Thumbnail": "https://image.tmdb.org/t/p/w500/4JSKy8aFyzHQYqi1998wLIBedrw.jpg",
+          "Rating": 5,
+          "Duration": "1:37",
+          "Year": 2025,
+          "Servers": [
+            {
+              "name": "VidSrc 1080p",
+              "url": "https://vidsrc.net/embed/movie/1391047"
+            },
+            {
+              "name": "VidJoy 1080p",
+              "url": "https://vidjoy.pro/embed/movie/1391047"
+            },
+            {
+              "name": "Embed.su 1080p",
+              "url": "https://embed.su/embed/movie/1391047"
+            },
+            {
+              "name": "VidSrc.me 1080p",
+              "url": "https://vidsrc.me/embed/movie/1391047"
+            },
+            {
+              "name": "AutoEmbed 1080p",
+              "url": "https://player.autoembed.cc/embed/movie/1391047"
+            },
+            {
+              "name": "VidSrc.to 1080p",
+              "url": "https://vidsrc.to/embed/movie/1391047"
+            },
+            {
+              "name": "VidSrc.xyz 1080p",
+              "url": "https://vidsrc.xyz/embed/movie/1391047"
+            },
+            {
+              "name": "VidLink.pro 1080p",
+              "url": "https://vidlink.pro/movie/1391047"
+            }
+          ]
+        },
+        {
+          "Title": "Sin él",
+          "SubCategory": "Thriller",
+          "Country": "",
+          "Description": "No description available",
+          "Poster": "https://image.tmdb.org/t/p/w500/rZokIs1us8MC3I2yPyQRcQkFBqO.jpg",
+          "Thumbnail": "https://image.tmdb.org/t/p/w500/rZokIs1us8MC3I2yPyQRcQkFBqO.jpg",
+          "Rating": 7,
+          "Duration": "Unknown",
+          "Year": 2025,
+          "Servers": [
+            {
+              "name": "VidSrc 1080p",
+              "url": "https://vidsrc.net/embed/movie/1413643"
+            },
+            {
+              "name": "VidJoy 1080p",
+              "url": "https://vidjoy.pro/embed/movie/1413643"
+            },
+            {
+              "name": "Embed.su 1080p",
+              "url": "https://embed.su/embed/movie/1413643"
+            },
+            {
+              "name": "VidSrc.me 1080p",
+              "url": "https://vidsrc.me/embed/movie/1413643"
+            },
+            {
+              "name": "AutoEmbed 1080p",
+              "url": "https://player.autoembed.cc/embed/movie/1413643"
+            },
+            {
+              "name": "VidSrc.to 1080p",
+              "url": "https://vidsrc.to/embed/movie/1413643"
+            },
+            {
+              "name": "VidSrc.xyz 1080p",
+              "url": "https://vidsrc.xyz/embed/movie/1413643"
+            },
+            {
+              "name": "VidLink.pro 1080p",
+              "url": "https://vidlink.pro/movie/1413643"
+            }
+          ]
+        },
+        {
+          "Title": "Nudus",
+          "SubCategory": "Horror",
+          "Country": "",
+          "Description": "As she awakens from a prolonged coma, a woman is shocked to learn all the details of her life her captors her captors have access to.",
+          "Poster": "https://image.tmdb.org/t/p/w500/7gV1u6ozmtNBuWxfndldwEM4KlN.jpg",
+          "Thumbnail": "https://image.tmdb.org/t/p/w500/7gV1u6ozmtNBuWxfndldwEM4KlN.jpg",
+          "Rating": 7,
+          "Duration": "1:34",
+          "Year": 2024,
+          "Servers": [
+            {
+              "name": "VidSrc 1080p",
+              "url": "https://vidsrc.net/embed/movie/1268870"
+            },
+            {
+              "name": "VidJoy 1080p",
+              "url": "https://vidjoy.pro/embed/movie/1268870"
+            },
+            {
+              "name": "Embed.su 1080p",
+              "url": "https://embed.su/embed/movie/1268870"
+            },
+            {
+              "name": "VidSrc.me 1080p",
+              "url": "https://vidsrc.me/embed/movie/1268870"
+            },
+            {
+              "name": "AutoEmbed 1080p",
+              "url": "https://player.autoembed.cc/embed/movie/1268870"
+            },
+            {
+              "name": "VidSrc.to 1080p",
+              "url": "https://vidsrc.to/embed/movie/1268870"
+            },
+            {
+              "name": "VidSrc.xyz 1080p",
+              "url": "https://vidsrc.xyz/embed/movie/1268870"
+            },
+            {
+              "name": "VidLink.pro 1080p",
+              "url": "https://vidlink.pro/movie/1268870"
+            }
+          ]
+        },
+        {
+          "Title": "Clown in a Cornfield",
+          "SubCategory": "Horror",
+          "Country": "",
+          "Description": "Quinn and her father have just moved to the quiet town of Kettle Springs hoping for a fresh start. Instead, she discovers a fractured community that has fallen on hard times after the treasured Baypen Corn Syrup Factory burned down. As the locals bicker amongst themselves and tensions boil over, a sinister, grinning figure emerges from the cornfields to cleanse the town of its burdens, one bloody victim at a time.",
+          "Poster": "https://image.tmdb.org/t/p/w500/bghFYMUMEKK6GyTHRA7XVC8uWn6.jpg",
+          "Thumbnail": "https://image.tmdb.org/t/p/w500/bghFYMUMEKK6GyTHRA7XVC8uWn6.jpg",
+          "Rating": 6,
+          "Duration": "1:36",
+          "Year": 2025,
+          "Servers": [
+            {
+              "name": "VidSrc 1080p",
+              "url": "https://vidsrc.net/embed/movie/713364"
+            },
+            {
+              "name": "VidJoy 1080p",
+              "url": "https://vidjoy.pro/embed/movie/713364"
+            },
+            {
+              "name": "Embed.su 1080p",
+              "url": "https://embed.su/embed/movie/713364"
+            },
+            {
+              "name": "VidSrc.me 1080p",
+              "url": "https://vidsrc.me/embed/movie/713364"
+            },
+            {
+              "name": "AutoEmbed 1080p",
+              "url": "https://player.autoembed.cc/embed/movie/713364"
+            },
+            {
+              "name": "VidSrc.to 1080p",
+              "url": "https://vidsrc.to/embed/movie/713364"
+            },
+            {
+              "name": "VidSrc.xyz 1080p",
+              "url": "https://vidsrc.xyz/embed/movie/713364"
+            },
+            {
+              "name": "VidLink.pro 1080p",
+              "url": "https://vidlink.pro/movie/713364"
             }
           ]
         }
