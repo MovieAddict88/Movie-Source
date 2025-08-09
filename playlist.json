@@ -76,7 +76,8 @@
         "Science Fiction",
         "Fantasy",
         "Animation",
-        "Horror"
+        "Horror",
+        "Adventure"
       ],
       "Entries": [
         {
@@ -1889,6 +1890,43 @@
             {
               "name": "VidLink.pro 1080p",
               "url": "https://vidlink.pro/movie/1058537"
+            }
+          ]
+        },
+        {
+          "Title": "Tarzan-X: Shame of Jane",
+          "SubCategory": "Adventure",
+          "Country": "",
+          "Description": "When Jane discovers the Ape man, she sets the course for an erotic adventure that will take the couple from the jungle back to civilization.",
+          "Poster": "https://image.tmdb.org/t/p/w500/coUpJLjJpSb4l3fJnb7HPdBhRjH.jpg",
+          "Thumbnail": "https://image.tmdb.org/t/p/w500/coUpJLjJpSb4l3fJnb7HPdBhRjH.jpg",
+          "Rating": 5,
+          "Duration": "1:38",
+          "Year": 1995,
+          "Servers": [
+            {
+              "name": "VidSrc 1080p",
+              "url": "https://vidsrc.net/embed/movie/198638"
+            },
+            {
+              "name": "VidJoy 1080p",
+              "url": "https://vidjoy.pro/embed/movie/198638"
+            },
+            {
+              "name": "VidSrc.me 1080p",
+              "url": "https://vidsrc.me/embed/movie/198638"
+            },
+            {
+              "name": "VidSrc.to 1080p",
+              "url": "https://vidsrc.to/embed/movie/198638"
+            },
+            {
+              "name": "VidSrc.xyz 1080p",
+              "url": "https://vidsrc.xyz/embed/movie/198638"
+            },
+            {
+              "name": "VidLink.pro 1080p",
+              "url": "https://vidlink.pro/movie/198638"
             }
           ]
         }
