@@ -71,29 +71,7 @@
       "SubCategories": [
         "Action"
       ],
-      "Entries": [
-        {
-          "Title": "Hanggat May Hininga",
-          "SubCategory": "Action",
-          "Country": "",
-          "Description": "A pinoy old movie",
-          "Poster": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTQ8Vva_JHrKT3ZxYN8gwT9adxW8ROgvv2cf7GQo4X6zNBTc8jdgnlUKBw&s=10",
-          "Thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTQ8Vva_JHrKT3ZxYN8gwT9adxW8ROgvv2cf7GQo4X6zNBTc8jdgnlUKBw&s=10",
-          "Rating": 6,
-          "Duration": "2:00:00",
-          "Year": 1997,
-          "Servers": [
-            {
-              "name": "480p",
-              "url": "https://youtu.be/vvCzT-8PIho?si=sX0OLUOJg8l2biXx"
-            },
-            {
-              "name": "vidsrc",
-              "url": "vidsrc.net"
-            }
-          ]
-        }
-      ]
+      "Entries": []
     },
     {
       "MainCategory": "TV Series",
@@ -101,79 +79,7 @@
         "Anime",
         "Action,Anime"
       ],
-      "Entries": [
-        {
-          "Title": "Naruto Kid Tagalog Dub",
-          "SubCategory": "Action,Anime",
-          "Country": "",
-          "Description": "An anime series in Tagalog Dub",
-          "Poster": "https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p9161972_b_h9_aa.jpg",
-          "Thumbnail": "https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p9161972_b_h9_aa.jpg",
-          "Rating": 9,
-          "Year": 2005,
-          "Seasons": [
-            {
-              "Season": 1,
-              "SeasonPoster": "https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p9161972_b_h9_aa.jpg",
-              "Episodes": [
-                {
-                  "Episode": 1,
-                  "Title": "Episode 1",
-                  "Duration": "00:24:00",
-                  "Description": "The first episode",
-                  "Thumbnail": "https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p9161972_b_h9_aa.jpg",
-                  "Servers": [
-                    {
-                      "name": "480p",
-                      "url": "example.com"
-                    },
-                    {
-                      "name": "320p",
-                      "url": "sample.com"
-                    }
-                  ]
-                },
-                {
-                  "Episode": 2,
-                  "Title": "",
-                  "Duration": "",
-                  "Description": "",
-                  "Thumbnail": "",
-                  "Servers": [
-                    {
-                      "name": "4k",
-                      "url": "sample.com"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "Season": 2,
-              "SeasonPoster": "",
-              "Episodes": [
-                {
-                  "Episode": 1,
-                  "Title": "",
-                  "Duration": "",
-                  "Description": "",
-                  "Thumbnail": "",
-                  "Servers": [
-                    {
-                      "name": "1080",
-                      "url": "sample.com"
-                    },
-                    {
-                      "name": "720p",
-                      "url": "sample.com"
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        }
-      ]
+      "Entries": []
     }
   ]
 }
