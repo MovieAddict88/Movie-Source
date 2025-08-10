@@ -69,9 +69,277 @@
     {
       "MainCategory": "Movies",
       "SubCategories": [
-        "Action"
+        "Action",
+        "Science Fiction",
+        "Fantasy"
       ],
-      "Entries": []
+      "Entries": [
+        {
+          "Title": "Jurassic World Rebirth",
+          "SubCategory": "Science Fiction",
+          "Country": "",
+          "Description": "Five years after the events of Jurassic World Dominion, covert operations expert Zora Bennett is contracted to lead a skilled team on a top-secret mission to secure genetic material from the world's three most massive dinosaurs. When Zora's operation intersects with a civilian family whose boating expedition was capsized, they all find themselves stranded on an island where they come face-to-face with a sinister, shocking discovery that's been hidden from the world for decades.",
+          "Poster": "https://image.tmdb.org/t/p/w500/1RICxzeoNCAO5NpcRMIgg1XT6fm.jpg",
+          "Thumbnail": "https://image.tmdb.org/t/p/w500/1RICxzeoNCAO5NpcRMIgg1XT6fm.jpg",
+          "Rating": 6,
+          "Duration": "2:14",
+          "Year": 2025,
+          "Servers": [
+            {
+              "name": "VidSrc 1080p",
+              "url": "https://vidsrc.net/embed/movie/1234821"
+            },
+            {
+              "name": "VidJoy 1080p",
+              "url": "https://vidjoy.pro/embed/movie/1234821"
+            },
+            {
+              "name": "Embed.su 1080p",
+              "url": "https://embed.su/embed/movie/1234821"
+            },
+            {
+              "name": "VidSrc.me 1080p",
+              "url": "https://vidsrc.me/embed/movie/1234821"
+            },
+            {
+              "name": "AutoEmbed 1080p",
+              "url": "https://player.autoembed.cc/embed/movie/1234821"
+            },
+            {
+              "name": "VidSrc.to 1080p",
+              "url": "https://vidsrc.to/embed/movie/1234821"
+            },
+            {
+              "name": "VidSrc.xyz 1080p",
+              "url": "https://vidsrc.xyz/embed/movie/1234821"
+            },
+            {
+              "name": "GoDrivePlayer 1080p",
+              "url": "https://godriveplayer.com/embed/1234821"
+            },
+            {
+              "name": "2Embed.cc 1080p",
+              "url": "https://2embed.cc/embed/1234821"
+            },
+            {
+              "name": "VidLink.pro 1080p",
+              "url": "https://vidlink.pro/movie/1234821"
+            }
+          ]
+        },
+        {
+          "Title": "Night Carnage",
+          "SubCategory": "Action",
+          "Country": "",
+          "Description": "A blogger who is also a werewolf meets a dashing playboy with a dark secret of his own. Starring Logan Andrews and Christian Howard.",
+          "Poster": "https://image.tmdb.org/t/p/w500/w0wjPQKhlqisSbylf1sWZiNyc2h.jpg",
+          "Thumbnail": "https://image.tmdb.org/t/p/w500/w0wjPQKhlqisSbylf1sWZiNyc2h.jpg",
+          "Rating": 5,
+          "Duration": "1:20",
+          "Year": 2025,
+          "Servers": [
+            {
+              "name": "VidSrc 1080p",
+              "url": "https://vidsrc.net/embed/movie/986206"
+            },
+            {
+              "name": "VidJoy 1080p",
+              "url": "https://vidjoy.pro/embed/movie/986206"
+            },
+            {
+              "name": "Embed.su 1080p",
+              "url": "https://embed.su/embed/movie/986206"
+            },
+            {
+              "name": "VidSrc.me 1080p",
+              "url": "https://vidsrc.me/embed/movie/986206"
+            },
+            {
+              "name": "AutoEmbed 1080p",
+              "url": "https://player.autoembed.cc/embed/movie/986206"
+            },
+            {
+              "name": "VidSrc.to 1080p",
+              "url": "https://vidsrc.to/embed/movie/986206"
+            },
+            {
+              "name": "VidSrc.xyz 1080p",
+              "url": "https://vidsrc.xyz/embed/movie/986206"
+            },
+            {
+              "name": "GoDrivePlayer 1080p",
+              "url": "https://godriveplayer.com/embed/986206"
+            },
+            {
+              "name": "2Embed.cc 1080p",
+              "url": "https://2embed.cc/embed/986206"
+            },
+            {
+              "name": "VidLink.pro 1080p",
+              "url": "https://vidlink.pro/movie/986206"
+            }
+          ]
+        },
+        {
+          "Title": "The Pickup",
+          "SubCategory": "Action",
+          "Country": "",
+          "Description": "A routine cash pickup takes a wild turn when mismatched armored truck drivers Russell and Travis are ambushed by ruthless criminals led by savvy mastermind Zoe.",
+          "Poster": "https://image.tmdb.org/t/p/w500/vFWvWhfAvij8UIngg2Vf6JV95Cr.jpg",
+          "Thumbnail": "https://image.tmdb.org/t/p/w500/vFWvWhfAvij8UIngg2Vf6JV95Cr.jpg",
+          "Rating": 7,
+          "Duration": "1:34",
+          "Year": 2025,
+          "Servers": [
+            {
+              "name": "VidSrc 1080p",
+              "url": "https://vidsrc.net/embed/movie/1106289"
+            },
+            {
+              "name": "VidJoy 1080p",
+              "url": "https://vidjoy.pro/embed/movie/1106289"
+            },
+            {
+              "name": "Embed.su 1080p",
+              "url": "https://embed.su/embed/movie/1106289"
+            },
+            {
+              "name": "VidSrc.me 1080p",
+              "url": "https://vidsrc.me/embed/movie/1106289"
+            },
+            {
+              "name": "AutoEmbed 1080p",
+              "url": "https://player.autoembed.cc/embed/movie/1106289"
+            },
+            {
+              "name": "VidSrc.to 1080p",
+              "url": "https://vidsrc.to/embed/movie/1106289"
+            },
+            {
+              "name": "VidSrc.xyz 1080p",
+              "url": "https://vidsrc.xyz/embed/movie/1106289"
+            },
+            {
+              "name": "GoDrivePlayer 1080p",
+              "url": "https://godriveplayer.com/embed/1106289"
+            },
+            {
+              "name": "2Embed.cc 1080p",
+              "url": "https://2embed.cc/embed/1106289"
+            },
+            {
+              "name": "VidLink.pro 1080p",
+              "url": "https://vidlink.pro/movie/1106289"
+            }
+          ]
+        },
+        {
+          "Title": "Creation of the Gods II: Demon Force",
+          "SubCategory": "Action",
+          "Country": "",
+          "Description": "Taishi Wen Zhong led the army of Shang Dynasty including Deng Chanyu and four generals of the Mo Family to Xiqi. With the help of Kunlun immortals such as Jiang Ziya, Ji Fa led the army and civilians of Xiqi to defend their homeland.",
+          "Poster": "https://image.tmdb.org/t/p/w500/dfUCs5HNtGu4fofh83uiE2Qcy3v.jpg",
+          "Thumbnail": "https://image.tmdb.org/t/p/w500/dfUCs5HNtGu4fofh83uiE2Qcy3v.jpg",
+          "Rating": 6,
+          "Duration": "2:25",
+          "Year": 2025,
+          "Servers": [
+            {
+              "name": "VidSrc 1080p",
+              "url": "https://vidsrc.net/embed/movie/1155281"
+            },
+            {
+              "name": "VidJoy 1080p",
+              "url": "https://vidjoy.pro/embed/movie/1155281"
+            },
+            {
+              "name": "Embed.su 1080p",
+              "url": "https://embed.su/embed/movie/1155281"
+            },
+            {
+              "name": "VidSrc.me 1080p",
+              "url": "https://vidsrc.me/embed/movie/1155281"
+            },
+            {
+              "name": "AutoEmbed 1080p",
+              "url": "https://player.autoembed.cc/embed/movie/1155281"
+            },
+            {
+              "name": "VidSrc.to 1080p",
+              "url": "https://vidsrc.to/embed/movie/1155281"
+            },
+            {
+              "name": "VidSrc.xyz 1080p",
+              "url": "https://vidsrc.xyz/embed/movie/1155281"
+            },
+            {
+              "name": "GoDrivePlayer 1080p",
+              "url": "https://godriveplayer.com/embed/1155281"
+            },
+            {
+              "name": "2Embed.cc 1080p",
+              "url": "https://2embed.cc/embed/1155281"
+            },
+            {
+              "name": "VidLink.pro 1080p",
+              "url": "https://vidlink.pro/movie/1155281"
+            }
+          ]
+        },
+        {
+          "Title": "How to Train Your Dragon",
+          "SubCategory": "Fantasy",
+          "Country": "",
+          "Description": "On the rugged isle of Berk, where Vikings and dragons have been bitter enemies for generations, Hiccup stands apart, defying centuries of tradition when he befriends Toothless, a feared Night Fury dragon. Their unlikely bond reveals the true nature of dragons, challenging the very foundations of Viking society.",
+          "Poster": "https://image.tmdb.org/t/p/w500/q5pXRYTycaeW6dEgsCrd4mYPmxM.jpg",
+          "Thumbnail": "https://image.tmdb.org/t/p/w500/q5pXRYTycaeW6dEgsCrd4mYPmxM.jpg",
+          "Rating": 8,
+          "Duration": "2:05",
+          "Year": 2025,
+          "Servers": [
+            {
+              "name": "VidSrc 1080p",
+              "url": "https://vidsrc.net/embed/movie/1087192"
+            },
+            {
+              "name": "VidJoy 1080p",
+              "url": "https://vidjoy.pro/embed/movie/1087192"
+            },
+            {
+              "name": "Embed.su 1080p",
+              "url": "https://embed.su/embed/movie/1087192"
+            },
+            {
+              "name": "VidSrc.me 1080p",
+              "url": "https://vidsrc.me/embed/movie/1087192"
+            },
+            {
+              "name": "AutoEmbed 1080p",
+              "url": "https://player.autoembed.cc/embed/movie/1087192"
+            },
+            {
+              "name": "VidSrc.to 1080p",
+              "url": "https://vidsrc.to/embed/movie/1087192"
+            },
+            {
+              "name": "VidSrc.xyz 1080p",
+              "url": "https://vidsrc.xyz/embed/movie/1087192"
+            },
+            {
+              "name": "GoDrivePlayer 1080p",
+              "url": "https://godriveplayer.com/embed/1087192"
+            },
+            {
+              "name": "2Embed.cc 1080p",
+              "url": "https://2embed.cc/embed/1087192"
+            },
+            {
+              "name": "VidLink.pro 1080p",
+              "url": "https://vidlink.pro/movie/1087192"
+            }
+          ]
+        }
+      ]
     },
     {
       "MainCategory": "TV Series",
