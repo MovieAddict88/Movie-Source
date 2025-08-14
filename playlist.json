@@ -1,6 +1,1028 @@
 {
   "Categories": [
     {
+      "MainCategory": "Movies",
+      "SubCategories": [
+        "Action",
+        "Fantasy",
+        "Animation",
+        "War",
+        "Science Fiction"
+      ],
+      "Entries": [
+        {
+          "Title": "Jurassic World Rebirth",
+          "SubCategory": "Science Fiction",
+          "Country": "",
+          "Description": "Five years after the events of Jurassic World Dominion, covert operations expert Zora Bennett is contracted to lead a skilled team on a top-secret mission to secure genetic material from the world\u0027s three most massive dinosaurs. When Zora\u0027s operation intersects with a civilian family whose boating expedition was capsized, they all find themselves stranded on an island where they come face-to-face with a sinister, shocking discovery that\u0027s been hidden from the world for decades.",
+          "Poster": "https://image.tmdb.org/t/p/w500/1RICxzeoNCAO5NpcRMIgg1XT6fm.jpg",
+          "Thumbnail": "https://image.tmdb.org/t/p/w500/1RICxzeoNCAO5NpcRMIgg1XT6fm.jpg",
+          "Rating": 6.386,
+          "Duration": "",
+          "Year": 2025,
+          "Servers": [
+            {
+              "name": "VidSrc 1080p",
+              "url": "https://vidsrc.net/embed/movie/1234821"
+            },
+            {
+              "name": "VidJoy 1080p",
+              "url": "https://vidjoy.pro/embed/movie/1234821"
+            },
+            {
+              "name": "MultiEmbed 1080p",
+              "url": "https://multiembed.mov/directstream.php?video_id\u003d1234821\u0026content_type\u003dmovie"
+            },
+            {
+              "name": "Embed.su 1080p",
+              "url": "https://embed.su/embed/movie/1234821"
+            },
+            {
+              "name": "VidSrc.me 1080p",
+              "url": "https://vidsrc.me/embed/movie/1234821"
+            },
+            {
+              "name": "AutoEmbed 1080p",
+              "url": "https://player.autoembed.cc/embed/movie/1234821"
+            },
+            {
+              "name": "SmashyStream 1080p",
+              "url": "https://player.smashy.stream/movie/1234821"
+            },
+            {
+              "name": "VidSrc.to 1080p",
+              "url": "https://vidsrc.to/embed/movie/1234821"
+            },
+            {
+              "name": "VidSrc.xyz 1080p",
+              "url": "https://vidsrc.xyz/embed/movie/1234821"
+            },
+            {
+              "name": "EmbedSoap 1080p",
+              "url": "https://www.embedsoap.com/embed/movie/1234821"
+            },
+            {
+              "name": "MoviesAPI 1080p",
+              "url": "https://moviesapi.club/movie/1234821"
+            },
+            {
+              "name": "DBGO 1080p",
+              "url": "https://dbgo.fun/movie/1234821"
+            },
+            {
+              "name": "FlixHQ 1080p",
+              "url": "https://flixhq.to/watch/movie/1234821"
+            },
+            {
+              "name": "GoMovies 1080p",
+              "url": "https://gomovies.sx/watch/movie/1234821"
+            },
+            {
+              "name": "ShowBox 1080p",
+              "url": "https://www.showbox.media/embed/movie/1234821"
+            },
+            {
+              "name": "PrimeWire 1080p",
+              "url": "https://primewire.mx/embed/movie/1234821"
+            },
+            {
+              "name": "HDToday 1080p",
+              "url": "https://hdtoday.tv/embed/movie/1234821"
+            },
+            {
+              "name": "VidCloud 1080p",
+              "url": "https://vidcloud.to/embed/movie/1234821"
+            },
+            {
+              "name": "StreamWish 1080p",
+              "url": "https://streamwish.to/e/movie/1234821"
+            },
+            {
+              "name": "MixDrop 1080p",
+              "url": "https://mixdrop.co/e/movie/1234821"
+            },
+            {
+              "name": "FileMoon 1080p",
+              "url": "https://filemoon.sx/e/movie/1234821"
+            },
+            {
+              "name": "VidLink 1080p",
+              "url": "https://vidlink.pro/movie/1234821"
+            }
+          ]
+        },
+        {
+          "Title": "War of the Worlds",
+          "SubCategory": "Science Fiction",
+          "Country": "",
+          "Description": "Will Radford is a top analyst for Homeland Security who tracks potential threats through a mass surveillance program, until one day an attack by an unknown entity leads him to question whether the government is hiding something from him... and from the rest of the world.",
+          "Poster": "https://image.tmdb.org/t/p/w500/yvirUYrva23IudARHn3mMGVxWqM.jpg",
+          "Thumbnail": "https://image.tmdb.org/t/p/w500/yvirUYrva23IudARHn3mMGVxWqM.jpg",
+          "Rating": 4.188,
+          "Duration": "",
+          "Year": 2025,
+          "Servers": [
+            {
+              "name": "VidSrc 1080p",
+              "url": "https://vidsrc.net/embed/movie/755898"
+            },
+            {
+              "name": "VidJoy 1080p",
+              "url": "https://vidjoy.pro/embed/movie/755898"
+            },
+            {
+              "name": "MultiEmbed 1080p",
+              "url": "https://multiembed.mov/directstream.php?video_id\u003d755898\u0026content_type\u003dmovie"
+            },
+            {
+              "name": "Embed.su 1080p",
+              "url": "https://embed.su/embed/movie/755898"
+            },
+            {
+              "name": "VidSrc.me 1080p",
+              "url": "https://vidsrc.me/embed/movie/755898"
+            },
+            {
+              "name": "AutoEmbed 1080p",
+              "url": "https://player.autoembed.cc/embed/movie/755898"
+            },
+            {
+              "name": "SmashyStream 1080p",
+              "url": "https://player.smashy.stream/movie/755898"
+            },
+            {
+              "name": "VidSrc.to 1080p",
+              "url": "https://vidsrc.to/embed/movie/755898"
+            },
+            {
+              "name": "VidSrc.xyz 1080p",
+              "url": "https://vidsrc.xyz/embed/movie/755898"
+            },
+            {
+              "name": "EmbedSoap 1080p",
+              "url": "https://www.embedsoap.com/embed/movie/755898"
+            },
+            {
+              "name": "MoviesAPI 1080p",
+              "url": "https://moviesapi.club/movie/755898"
+            },
+            {
+              "name": "DBGO 1080p",
+              "url": "https://dbgo.fun/movie/755898"
+            },
+            {
+              "name": "FlixHQ 1080p",
+              "url": "https://flixhq.to/watch/movie/755898"
+            },
+            {
+              "name": "GoMovies 1080p",
+              "url": "https://gomovies.sx/watch/movie/755898"
+            },
+            {
+              "name": "ShowBox 1080p",
+              "url": "https://www.showbox.media/embed/movie/755898"
+            },
+            {
+              "name": "PrimeWire 1080p",
+              "url": "https://primewire.mx/embed/movie/755898"
+            },
+            {
+              "name": "HDToday 1080p",
+              "url": "https://hdtoday.tv/embed/movie/755898"
+            },
+            {
+              "name": "VidCloud 1080p",
+              "url": "https://vidcloud.to/embed/movie/755898"
+            },
+            {
+              "name": "StreamWish 1080p",
+              "url": "https://streamwish.to/e/movie/755898"
+            },
+            {
+              "name": "MixDrop 1080p",
+              "url": "https://mixdrop.co/e/movie/755898"
+            },
+            {
+              "name": "FileMoon 1080p",
+              "url": "https://filemoon.sx/e/movie/755898"
+            },
+            {
+              "name": "VidLink 1080p",
+              "url": "https://vidlink.pro/movie/755898"
+            }
+          ]
+        },
+        {
+          "Title": "The Pickup",
+          "SubCategory": "Action",
+          "Country": "",
+          "Description": "A routine cash pickup takes a wild turn when mismatched armored truck drivers Russell and Travis are ambushed by ruthless criminals led by savvy mastermind Zoe.",
+          "Poster": "https://image.tmdb.org/t/p/w500/vFWvWhfAvij8UIngg2Vf6JV95Cr.jpg",
+          "Thumbnail": "https://image.tmdb.org/t/p/w500/vFWvWhfAvij8UIngg2Vf6JV95Cr.jpg",
+          "Rating": 6.531,
+          "Duration": "",
+          "Year": 2025,
+          "Servers": [
+            {
+              "name": "VidSrc 1080p",
+              "url": "https://vidsrc.net/embed/movie/1106289"
+            },
+            {
+              "name": "VidJoy 1080p",
+              "url": "https://vidjoy.pro/embed/movie/1106289"
+            },
+            {
+              "name": "MultiEmbed 1080p",
+              "url": "https://multiembed.mov/directstream.php?video_id\u003d1106289\u0026content_type\u003dmovie"
+            },
+            {
+              "name": "Embed.su 1080p",
+              "url": "https://embed.su/embed/movie/1106289"
+            },
+            {
+              "name": "VidSrc.me 1080p",
+              "url": "https://vidsrc.me/embed/movie/1106289"
+            },
+            {
+              "name": "AutoEmbed 1080p",
+              "url": "https://player.autoembed.cc/embed/movie/1106289"
+            },
+            {
+              "name": "SmashyStream 1080p",
+              "url": "https://player.smashy.stream/movie/1106289"
+            },
+            {
+              "name": "VidSrc.to 1080p",
+              "url": "https://vidsrc.to/embed/movie/1106289"
+            },
+            {
+              "name": "VidSrc.xyz 1080p",
+              "url": "https://vidsrc.xyz/embed/movie/1106289"
+            },
+            {
+              "name": "EmbedSoap 1080p",
+              "url": "https://www.embedsoap.com/embed/movie/1106289"
+            },
+            {
+              "name": "MoviesAPI 1080p",
+              "url": "https://moviesapi.club/movie/1106289"
+            },
+            {
+              "name": "DBGO 1080p",
+              "url": "https://dbgo.fun/movie/1106289"
+            },
+            {
+              "name": "FlixHQ 1080p",
+              "url": "https://flixhq.to/watch/movie/1106289"
+            },
+            {
+              "name": "GoMovies 1080p",
+              "url": "https://gomovies.sx/watch/movie/1106289"
+            },
+            {
+              "name": "ShowBox 1080p",
+              "url": "https://www.showbox.media/embed/movie/1106289"
+            },
+            {
+              "name": "PrimeWire 1080p",
+              "url": "https://primewire.mx/embed/movie/1106289"
+            },
+            {
+              "name": "HDToday 1080p",
+              "url": "https://hdtoday.tv/embed/movie/1106289"
+            },
+            {
+              "name": "VidCloud 1080p",
+              "url": "https://vidcloud.to/embed/movie/1106289"
+            },
+            {
+              "name": "StreamWish 1080p",
+              "url": "https://streamwish.to/e/movie/1106289"
+            },
+            {
+              "name": "MixDrop 1080p",
+              "url": "https://mixdrop.co/e/movie/1106289"
+            },
+            {
+              "name": "FileMoon 1080p",
+              "url": "https://filemoon.sx/e/movie/1106289"
+            },
+            {
+              "name": "VidLink 1080p",
+              "url": "https://vidlink.pro/movie/1106289"
+            }
+          ]
+        },
+        {
+          "Title": "William Tell",
+          "SubCategory": "Action",
+          "Country": "",
+          "Description": "The narrative unfolds in the 14th Century, when the European nations vie for supremacy within the Holy Roman Empire. The ambitious Austrian Empire, desiring more land, invades neighbouring Switzerland, a serene and pastoral nation. Protagonist William Tell, a formerly peaceful hunter, finds himself forced to take action as his family and homeland come under threat from the oppressive Austrian King and his ruthless warlords.",
+          "Poster": "https://image.tmdb.org/t/p/w500/8SdaetXSTPyQVDb5pTEPRLBSx15.jpg",
+          "Thumbnail": "https://image.tmdb.org/t/p/w500/8SdaetXSTPyQVDb5pTEPRLBSx15.jpg",
+          "Rating": 6.277,
+          "Duration": "",
+          "Year": 2025,
+          "Servers": [
+            {
+              "name": "VidSrc 1080p",
+              "url": "https://vidsrc.net/embed/movie/1195631"
+            },
+            {
+              "name": "VidJoy 1080p",
+              "url": "https://vidjoy.pro/embed/movie/1195631"
+            },
+            {
+              "name": "MultiEmbed 1080p",
+              "url": "https://multiembed.mov/directstream.php?video_id\u003d1195631\u0026content_type\u003dmovie"
+            },
+            {
+              "name": "Embed.su 1080p",
+              "url": "https://embed.su/embed/movie/1195631"
+            },
+            {
+              "name": "VidSrc.me 1080p",
+              "url": "https://vidsrc.me/embed/movie/1195631"
+            },
+            {
+              "name": "AutoEmbed 1080p",
+              "url": "https://player.autoembed.cc/embed/movie/1195631"
+            },
+            {
+              "name": "SmashyStream 1080p",
+              "url": "https://player.smashy.stream/movie/1195631"
+            },
+            {
+              "name": "VidSrc.to 1080p",
+              "url": "https://vidsrc.to/embed/movie/1195631"
+            },
+            {
+              "name": "VidSrc.xyz 1080p",
+              "url": "https://vidsrc.xyz/embed/movie/1195631"
+            },
+            {
+              "name": "EmbedSoap 1080p",
+              "url": "https://www.embedsoap.com/embed/movie/1195631"
+            },
+            {
+              "name": "MoviesAPI 1080p",
+              "url": "https://moviesapi.club/movie/1195631"
+            },
+            {
+              "name": "DBGO 1080p",
+              "url": "https://dbgo.fun/movie/1195631"
+            },
+            {
+              "name": "FlixHQ 1080p",
+              "url": "https://flixhq.to/watch/movie/1195631"
+            },
+            {
+              "name": "GoMovies 1080p",
+              "url": "https://gomovies.sx/watch/movie/1195631"
+            },
+            {
+              "name": "ShowBox 1080p",
+              "url": "https://www.showbox.media/embed/movie/1195631"
+            },
+            {
+              "name": "PrimeWire 1080p",
+              "url": "https://primewire.mx/embed/movie/1195631"
+            },
+            {
+              "name": "HDToday 1080p",
+              "url": "https://hdtoday.tv/embed/movie/1195631"
+            },
+            {
+              "name": "VidCloud 1080p",
+              "url": "https://vidcloud.to/embed/movie/1195631"
+            },
+            {
+              "name": "StreamWish 1080p",
+              "url": "https://streamwish.to/e/movie/1195631"
+            },
+            {
+              "name": "MixDrop 1080p",
+              "url": "https://mixdrop.co/e/movie/1195631"
+            },
+            {
+              "name": "FileMoon 1080p",
+              "url": "https://filemoon.sx/e/movie/1195631"
+            },
+            {
+              "name": "VidLink 1080p",
+              "url": "https://vidlink.pro/movie/1195631"
+            }
+          ]
+        },
+        {
+          "Title": "Legends of the Condor Heroes: The Gallants",
+          "SubCategory": "Action",
+          "Country": "",
+          "Description": "Under Genghis Khan, the Mongolian army pushes west to destroy the Jin Dynasty, setting its sights on the Song Dynasty next. Amid internal conflicts among martial arts schools, Guo Jing unites the Central Plains\u0027 warriors to defend Xiangyang, embodying courage and loyalty in the fight for the nation.",
+          "Poster": "https://image.tmdb.org/t/p/w500/fUCFEGFlMIFet9ja72JDAeG1he8.jpg",
+          "Thumbnail": "https://image.tmdb.org/t/p/w500/fUCFEGFlMIFet9ja72JDAeG1he8.jpg",
+          "Rating": 6.176,
+          "Duration": "",
+          "Year": 2025,
+          "Servers": [
+            {
+              "name": "VidSrc 1080p",
+              "url": "https://vidsrc.net/embed/movie/1185528"
+            },
+            {
+              "name": "VidJoy 1080p",
+              "url": "https://vidjoy.pro/embed/movie/1185528"
+            },
+            {
+              "name": "MultiEmbed 1080p",
+              "url": "https://multiembed.mov/directstream.php?video_id\u003d1185528\u0026content_type\u003dmovie"
+            },
+            {
+              "name": "Embed.su 1080p",
+              "url": "https://embed.su/embed/movie/1185528"
+            },
+            {
+              "name": "VidSrc.me 1080p",
+              "url": "https://vidsrc.me/embed/movie/1185528"
+            },
+            {
+              "name": "AutoEmbed 1080p",
+              "url": "https://player.autoembed.cc/embed/movie/1185528"
+            },
+            {
+              "name": "SmashyStream 1080p",
+              "url": "https://player.smashy.stream/movie/1185528"
+            },
+            {
+              "name": "VidSrc.to 1080p",
+              "url": "https://vidsrc.to/embed/movie/1185528"
+            },
+            {
+              "name": "VidSrc.xyz 1080p",
+              "url": "https://vidsrc.xyz/embed/movie/1185528"
+            },
+            {
+              "name": "EmbedSoap 1080p",
+              "url": "https://www.embedsoap.com/embed/movie/1185528"
+            },
+            {
+              "name": "MoviesAPI 1080p",
+              "url": "https://moviesapi.club/movie/1185528"
+            },
+            {
+              "name": "DBGO 1080p",
+              "url": "https://dbgo.fun/movie/1185528"
+            },
+            {
+              "name": "FlixHQ 1080p",
+              "url": "https://flixhq.to/watch/movie/1185528"
+            },
+            {
+              "name": "GoMovies 1080p",
+              "url": "https://gomovies.sx/watch/movie/1185528"
+            },
+            {
+              "name": "ShowBox 1080p",
+              "url": "https://www.showbox.media/embed/movie/1185528"
+            },
+            {
+              "name": "PrimeWire 1080p",
+              "url": "https://primewire.mx/embed/movie/1185528"
+            },
+            {
+              "name": "HDToday 1080p",
+              "url": "https://hdtoday.tv/embed/movie/1185528"
+            },
+            {
+              "name": "VidCloud 1080p",
+              "url": "https://vidcloud.to/embed/movie/1185528"
+            },
+            {
+              "name": "StreamWish 1080p",
+              "url": "https://streamwish.to/e/movie/1185528"
+            },
+            {
+              "name": "MixDrop 1080p",
+              "url": "https://mixdrop.co/e/movie/1185528"
+            },
+            {
+              "name": "FileMoon 1080p",
+              "url": "https://filemoon.sx/e/movie/1185528"
+            },
+            {
+              "name": "VidLink 1080p",
+              "url": "https://vidlink.pro/movie/1185528"
+            }
+          ]
+        },
+        {
+          "Title": "Creation of the Gods II: Demon Force",
+          "SubCategory": "Action",
+          "Country": "",
+          "Description": "Taishi Wen Zhong led the army of Shang Dynasty including Deng Chanyu and four generals of the Mo Family to Xiqi. With the help of Kunlun immortals such as Jiang Ziya, Ji Fa led the army and civilians of Xiqi to defend their homeland.",
+          "Poster": "https://image.tmdb.org/t/p/w500/dfUCs5HNtGu4fofh83uiE2Qcy3v.jpg",
+          "Thumbnail": "https://image.tmdb.org/t/p/w500/dfUCs5HNtGu4fofh83uiE2Qcy3v.jpg",
+          "Rating": 6.342,
+          "Duration": "",
+          "Year": 2025,
+          "Servers": [
+            {
+              "name": "VidSrc 1080p",
+              "url": "https://vidsrc.net/embed/movie/1155281"
+            },
+            {
+              "name": "VidJoy 1080p",
+              "url": "https://vidjoy.pro/embed/movie/1155281"
+            },
+            {
+              "name": "MultiEmbed 1080p",
+              "url": "https://multiembed.mov/directstream.php?video_id\u003d1155281\u0026content_type\u003dmovie"
+            },
+            {
+              "name": "Embed.su 1080p",
+              "url": "https://embed.su/embed/movie/1155281"
+            },
+            {
+              "name": "VidSrc.me 1080p",
+              "url": "https://vidsrc.me/embed/movie/1155281"
+            },
+            {
+              "name": "AutoEmbed 1080p",
+              "url": "https://player.autoembed.cc/embed/movie/1155281"
+            },
+            {
+              "name": "SmashyStream 1080p",
+              "url": "https://player.smashy.stream/movie/1155281"
+            },
+            {
+              "name": "VidSrc.to 1080p",
+              "url": "https://vidsrc.to/embed/movie/1155281"
+            },
+            {
+              "name": "VidSrc.xyz 1080p",
+              "url": "https://vidsrc.xyz/embed/movie/1155281"
+            },
+            {
+              "name": "EmbedSoap 1080p",
+              "url": "https://www.embedsoap.com/embed/movie/1155281"
+            },
+            {
+              "name": "MoviesAPI 1080p",
+              "url": "https://moviesapi.club/movie/1155281"
+            },
+            {
+              "name": "DBGO 1080p",
+              "url": "https://dbgo.fun/movie/1155281"
+            },
+            {
+              "name": "FlixHQ 1080p",
+              "url": "https://flixhq.to/watch/movie/1155281"
+            },
+            {
+              "name": "GoMovies 1080p",
+              "url": "https://gomovies.sx/watch/movie/1155281"
+            },
+            {
+              "name": "ShowBox 1080p",
+              "url": "https://www.showbox.media/embed/movie/1155281"
+            },
+            {
+              "name": "PrimeWire 1080p",
+              "url": "https://primewire.mx/embed/movie/1155281"
+            },
+            {
+              "name": "HDToday 1080p",
+              "url": "https://hdtoday.tv/embed/movie/1155281"
+            },
+            {
+              "name": "VidCloud 1080p",
+              "url": "https://vidcloud.to/embed/movie/1155281"
+            },
+            {
+              "name": "StreamWish 1080p",
+              "url": "https://streamwish.to/e/movie/1155281"
+            },
+            {
+              "name": "MixDrop 1080p",
+              "url": "https://mixdrop.co/e/movie/1155281"
+            },
+            {
+              "name": "FileMoon 1080p",
+              "url": "https://filemoon.sx/e/movie/1155281"
+            },
+            {
+              "name": "VidLink 1080p",
+              "url": "https://vidlink.pro/movie/1155281"
+            }
+          ]
+        },
+        {
+          "Title": "How to Train Your Dragon",
+          "SubCategory": "Fantasy",
+          "Country": "",
+          "Description": "On the rugged isle of Berk, where Vikings and dragons have been bitter enemies for generations, Hiccup stands apart, defying centuries of tradition when he befriends Toothless, a feared Night Fury dragon. Their unlikely bond reveals the true nature of dragons, challenging the very foundations of Viking society.",
+          "Poster": "https://image.tmdb.org/t/p/w500/q5pXRYTycaeW6dEgsCrd4mYPmxM.jpg",
+          "Thumbnail": "https://image.tmdb.org/t/p/w500/q5pXRYTycaeW6dEgsCrd4mYPmxM.jpg",
+          "Rating": 8.027,
+          "Duration": "",
+          "Year": 2025,
+          "Servers": [
+            {
+              "name": "VidSrc 1080p",
+              "url": "https://vidsrc.net/embed/movie/1087192"
+            },
+            {
+              "name": "VidJoy 1080p",
+              "url": "https://vidjoy.pro/embed/movie/1087192"
+            },
+            {
+              "name": "MultiEmbed 1080p",
+              "url": "https://multiembed.mov/directstream.php?video_id\u003d1087192\u0026content_type\u003dmovie"
+            },
+            {
+              "name": "Embed.su 1080p",
+              "url": "https://embed.su/embed/movie/1087192"
+            },
+            {
+              "name": "VidSrc.me 1080p",
+              "url": "https://vidsrc.me/embed/movie/1087192"
+            },
+            {
+              "name": "AutoEmbed 1080p",
+              "url": "https://player.autoembed.cc/embed/movie/1087192"
+            },
+            {
+              "name": "SmashyStream 1080p",
+              "url": "https://player.smashy.stream/movie/1087192"
+            },
+            {
+              "name": "VidSrc.to 1080p",
+              "url": "https://vidsrc.to/embed/movie/1087192"
+            },
+            {
+              "name": "VidSrc.xyz 1080p",
+              "url": "https://vidsrc.xyz/embed/movie/1087192"
+            },
+            {
+              "name": "EmbedSoap 1080p",
+              "url": "https://www.embedsoap.com/embed/movie/1087192"
+            },
+            {
+              "name": "MoviesAPI 1080p",
+              "url": "https://moviesapi.club/movie/1087192"
+            },
+            {
+              "name": "DBGO 1080p",
+              "url": "https://dbgo.fun/movie/1087192"
+            },
+            {
+              "name": "FlixHQ 1080p",
+              "url": "https://flixhq.to/watch/movie/1087192"
+            },
+            {
+              "name": "GoMovies 1080p",
+              "url": "https://gomovies.sx/watch/movie/1087192"
+            },
+            {
+              "name": "ShowBox 1080p",
+              "url": "https://www.showbox.media/embed/movie/1087192"
+            },
+            {
+              "name": "PrimeWire 1080p",
+              "url": "https://primewire.mx/embed/movie/1087192"
+            },
+            {
+              "name": "HDToday 1080p",
+              "url": "https://hdtoday.tv/embed/movie/1087192"
+            },
+            {
+              "name": "VidCloud 1080p",
+              "url": "https://vidcloud.to/embed/movie/1087192"
+            },
+            {
+              "name": "StreamWish 1080p",
+              "url": "https://streamwish.to/e/movie/1087192"
+            },
+            {
+              "name": "MixDrop 1080p",
+              "url": "https://mixdrop.co/e/movie/1087192"
+            },
+            {
+              "name": "FileMoon 1080p",
+              "url": "https://filemoon.sx/e/movie/1087192"
+            },
+            {
+              "name": "VidLink 1080p",
+              "url": "https://vidlink.pro/movie/1087192"
+            }
+          ]
+        },
+        {
+          "Title": "Demon Slayer: Kimetsu no Yaiba Infinity Castle",
+          "SubCategory": "Animation",
+          "Country": "",
+          "Description": "As the Demon Slayer Corps members and Hashira engaged in a group strength training program, the Hashira Training, in preparation for the forthcoming battle against the demons, Muzan Kibutsuji appears at the Ubuyashiki Mansion. With the head of the Demon Corps in danger, Tanjiro and the Hashira rush to the headquarters but are plunged into a deep descent to a mysterious space by the hands of Muzan Kibutsuji.  The destination of where Tanjiro and Demon Slayer Corps have fallen is the demons\u0027 stronghold – the Infinity Castle. And so, the battleground is set as the final battle between the Demon Slayer Corps and the demons ignites.",
+          "Poster": "https://image.tmdb.org/t/p/w500/aFRDH3P7TX61FVGpaLhKr6QiOC1.jpg",
+          "Thumbnail": "https://image.tmdb.org/t/p/w500/aFRDH3P7TX61FVGpaLhKr6QiOC1.jpg",
+          "Rating": 7.125,
+          "Duration": "",
+          "Year": 2025,
+          "Servers": [
+            {
+              "name": "VidSrc 1080p",
+              "url": "https://vidsrc.net/embed/movie/1311031"
+            },
+            {
+              "name": "VidJoy 1080p",
+              "url": "https://vidjoy.pro/embed/movie/1311031"
+            },
+            {
+              "name": "MultiEmbed 1080p",
+              "url": "https://multiembed.mov/directstream.php?video_id\u003d1311031\u0026content_type\u003dmovie"
+            },
+            {
+              "name": "Embed.su 1080p",
+              "url": "https://embed.su/embed/movie/1311031"
+            },
+            {
+              "name": "VidSrc.me 1080p",
+              "url": "https://vidsrc.me/embed/movie/1311031"
+            },
+            {
+              "name": "AutoEmbed 1080p",
+              "url": "https://player.autoembed.cc/embed/movie/1311031"
+            },
+            {
+              "name": "SmashyStream 1080p",
+              "url": "https://player.smashy.stream/movie/1311031"
+            },
+            {
+              "name": "VidSrc.to 1080p",
+              "url": "https://vidsrc.to/embed/movie/1311031"
+            },
+            {
+              "name": "VidSrc.xyz 1080p",
+              "url": "https://vidsrc.xyz/embed/movie/1311031"
+            },
+            {
+              "name": "EmbedSoap 1080p",
+              "url": "https://www.embedsoap.com/embed/movie/1311031"
+            },
+            {
+              "name": "MoviesAPI 1080p",
+              "url": "https://moviesapi.club/movie/1311031"
+            },
+            {
+              "name": "DBGO 1080p",
+              "url": "https://dbgo.fun/movie/1311031"
+            },
+            {
+              "name": "FlixHQ 1080p",
+              "url": "https://flixhq.to/watch/movie/1311031"
+            },
+            {
+              "name": "GoMovies 1080p",
+              "url": "https://gomovies.sx/watch/movie/1311031"
+            },
+            {
+              "name": "ShowBox 1080p",
+              "url": "https://www.showbox.media/embed/movie/1311031"
+            },
+            {
+              "name": "PrimeWire 1080p",
+              "url": "https://primewire.mx/embed/movie/1311031"
+            },
+            {
+              "name": "HDToday 1080p",
+              "url": "https://hdtoday.tv/embed/movie/1311031"
+            },
+            {
+              "name": "VidCloud 1080p",
+              "url": "https://vidcloud.to/embed/movie/1311031"
+            },
+            {
+              "name": "StreamWish 1080p",
+              "url": "https://streamwish.to/e/movie/1311031"
+            },
+            {
+              "name": "MixDrop 1080p",
+              "url": "https://mixdrop.co/e/movie/1311031"
+            },
+            {
+              "name": "FileMoon 1080p",
+              "url": "https://filemoon.sx/e/movie/1311031"
+            },
+            {
+              "name": "VidLink 1080p",
+              "url": "https://vidlink.pro/movie/1311031"
+            }
+          ]
+        },
+        {
+          "Title": "Night Carnage",
+          "SubCategory": "Action",
+          "Country": "",
+          "Description": "A blogger who is also a werewolf meets a dashing playboy with a dark secret of his own. Starring Logan Andrews and Christian Howard.",
+          "Poster": "https://image.tmdb.org/t/p/w500/w0wjPQKhlqisSbylf1sWZiNyc2h.jpg",
+          "Thumbnail": "https://image.tmdb.org/t/p/w500/w0wjPQKhlqisSbylf1sWZiNyc2h.jpg",
+          "Rating": 5.816,
+          "Duration": "",
+          "Year": 2025,
+          "Servers": [
+            {
+              "name": "VidSrc 1080p",
+              "url": "https://vidsrc.net/embed/movie/986206"
+            },
+            {
+              "name": "VidJoy 1080p",
+              "url": "https://vidjoy.pro/embed/movie/986206"
+            },
+            {
+              "name": "MultiEmbed 1080p",
+              "url": "https://multiembed.mov/directstream.php?video_id\u003d986206\u0026content_type\u003dmovie"
+            },
+            {
+              "name": "Embed.su 1080p",
+              "url": "https://embed.su/embed/movie/986206"
+            },
+            {
+              "name": "VidSrc.me 1080p",
+              "url": "https://vidsrc.me/embed/movie/986206"
+            },
+            {
+              "name": "AutoEmbed 1080p",
+              "url": "https://player.autoembed.cc/embed/movie/986206"
+            },
+            {
+              "name": "SmashyStream 1080p",
+              "url": "https://player.smashy.stream/movie/986206"
+            },
+            {
+              "name": "VidSrc.to 1080p",
+              "url": "https://vidsrc.to/embed/movie/986206"
+            },
+            {
+              "name": "VidSrc.xyz 1080p",
+              "url": "https://vidsrc.xyz/embed/movie/986206"
+            },
+            {
+              "name": "EmbedSoap 1080p",
+              "url": "https://www.embedsoap.com/embed/movie/986206"
+            },
+            {
+              "name": "MoviesAPI 1080p",
+              "url": "https://moviesapi.club/movie/986206"
+            },
+            {
+              "name": "DBGO 1080p",
+              "url": "https://dbgo.fun/movie/986206"
+            },
+            {
+              "name": "FlixHQ 1080p",
+              "url": "https://flixhq.to/watch/movie/986206"
+            },
+            {
+              "name": "GoMovies 1080p",
+              "url": "https://gomovies.sx/watch/movie/986206"
+            },
+            {
+              "name": "ShowBox 1080p",
+              "url": "https://www.showbox.media/embed/movie/986206"
+            },
+            {
+              "name": "PrimeWire 1080p",
+              "url": "https://primewire.mx/embed/movie/986206"
+            },
+            {
+              "name": "HDToday 1080p",
+              "url": "https://hdtoday.tv/embed/movie/986206"
+            },
+            {
+              "name": "VidCloud 1080p",
+              "url": "https://vidcloud.to/embed/movie/986206"
+            },
+            {
+              "name": "StreamWish 1080p",
+              "url": "https://streamwish.to/e/movie/986206"
+            },
+            {
+              "name": "MixDrop 1080p",
+              "url": "https://mixdrop.co/e/movie/986206"
+            },
+            {
+              "name": "FileMoon 1080p",
+              "url": "https://filemoon.sx/e/movie/986206"
+            },
+            {
+              "name": "VidLink 1080p",
+              "url": "https://vidlink.pro/movie/986206"
+            }
+          ]
+        },
+        {
+          "Title": "Murder Company",
+          "SubCategory": "War",
+          "Country": "",
+          "Description": "In the midst of the D-Day invasion, a group of US soldiers are given orders to smuggle a member of the French Resistance behind enemy lines to assassinate a high-value Nazi target.",
+          "Poster": "https://image.tmdb.org/t/p/w500/eUjzUUFm1dEUR6U4r0C6s9L2FEd.jpg",
+          "Thumbnail": "https://image.tmdb.org/t/p/w500/eUjzUUFm1dEUR6U4r0C6s9L2FEd.jpg",
+          "Rating": 5.647,
+          "Duration": "",
+          "Year": 2024,
+          "Servers": [
+            {
+              "name": "VidSrc 1080p",
+              "url": "https://vidsrc.net/embed/movie/1285247"
+            },
+            {
+              "name": "VidJoy 1080p",
+              "url": "https://vidjoy.pro/embed/movie/1285247"
+            },
+            {
+              "name": "MultiEmbed 1080p",
+              "url": "https://multiembed.mov/directstream.php?video_id\u003d1285247\u0026content_type\u003dmovie"
+            },
+            {
+              "name": "Embed.su 1080p",
+              "url": "https://embed.su/embed/movie/1285247"
+            },
+            {
+              "name": "VidSrc.me 1080p",
+              "url": "https://vidsrc.me/embed/movie/1285247"
+            },
+            {
+              "name": "AutoEmbed 1080p",
+              "url": "https://player.autoembed.cc/embed/movie/1285247"
+            },
+            {
+              "name": "SmashyStream 1080p",
+              "url": "https://player.smashy.stream/movie/1285247"
+            },
+            {
+              "name": "VidSrc.to 1080p",
+              "url": "https://vidsrc.to/embed/movie/1285247"
+            },
+            {
+              "name": "VidSrc.xyz 1080p",
+              "url": "https://vidsrc.xyz/embed/movie/1285247"
+            },
+            {
+              "name": "EmbedSoap 1080p",
+              "url": "https://www.embedsoap.com/embed/movie/1285247"
+            },
+            {
+              "name": "MoviesAPI 1080p",
+              "url": "https://moviesapi.club/movie/1285247"
+            },
+            {
+              "name": "DBGO 1080p",
+              "url": "https://dbgo.fun/movie/1285247"
+            },
+            {
+              "name": "FlixHQ 1080p",
+              "url": "https://flixhq.to/watch/movie/1285247"
+            },
+            {
+              "name": "GoMovies 1080p",
+              "url": "https://gomovies.sx/watch/movie/1285247"
+            },
+            {
+              "name": "ShowBox 1080p",
+              "url": "https://www.showbox.media/embed/movie/1285247"
+            },
+            {
+              "name": "PrimeWire 1080p",
+              "url": "https://primewire.mx/embed/movie/1285247"
+            },
+            {
+              "name": "HDToday 1080p",
+              "url": "https://hdtoday.tv/embed/movie/1285247"
+            },
+            {
+              "name": "VidCloud 1080p",
+              "url": "https://vidcloud.to/embed/movie/1285247"
+            },
+            {
+              "name": "StreamWish 1080p",
+              "url": "https://streamwish.to/e/movie/1285247"
+            },
+            {
+              "name": "MixDrop 1080p",
+              "url": "https://mixdrop.co/e/movie/1285247"
+            },
+            {
+              "name": "FileMoon 1080p",
+              "url": "https://filemoon.sx/e/movie/1285247"
+            },
+            {
+              "name": "VidLink 1080p",
+              "url": "https://vidlink.pro/movie/1285247"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "MainCategory": "TV Series",
       "SubCategories": [
         "Action \u0026 Adventure"
