@@ -1,6 +1,6 @@
-{
-  "version": "20250816_143022",
-  "description": "One time donwlald as of now",
+a{
+  "version": "20250816_143023",
+  "description": "Please update for additional movies",
   "database": {
     "filename": "playlist.db",
     "url": "https://github.com/MovieAddict88/Movie-Source/raw/main/playlist.db",
