@@ -1,6 +1,6 @@
 {
   "version": "test-001",
-  "dbUrl": "",
+  "dbUrl": "https://github.com/MovieAddict88/Movie-Source/raw/main/cinecraze.db.zip",
   "sizeBytes": 461759,
   "sha256": "1e107693024747afe0e1c170abe72f7fc7d2b895fa04af9ae609c7641e246003",
   "zipped": true
