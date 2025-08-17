@@ -1,12 +1,12 @@
 {
-  "version": "2",
+  "version": "3",
   "description": "Playlist DB for CineCraze",
   "createdAt": "2025-01-01T00:00:00Z",
   "database": {
     "filename": "playlist.db",
     "url": "https://raw.githubusercontent.com/MovieAddict88/Movie-Source/main/playlist.db",
-    "sizeBytes": 0,
-    "sizeMb": 0.0,
+    "sizeBytes": 12,583,912,
+    "sizeMb": 12,
     "hash": ""
   },
   "metadata": {
@@ -14,7 +14,7 @@
     "lastUpdated": "2025-01-01T00:00:00Z"
   },
   "updateInfo": {
-    "forceUpdate": false,
+    "forceUpdate": true,
     "minAppVersion": "1.0.0",
     "recommendedUpdate": true
   }
