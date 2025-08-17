@@ -14,7 +14,7 @@
     "lastUpdated": "2025-01-01T00:00:00Z"
   },
   "updateInfo": {
-    "forceUpdate": true,
+    "forceUpdate": false,
     "minAppVersion": "1.0.0",
     "recommendedUpdate": true
   }
