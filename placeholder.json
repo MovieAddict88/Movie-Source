@@ -1,0 +1,129 @@
+{
+  "Categories": [
+    {
+      "MainCategory": "Movies",
+      "SubCategories": [
+        "Science Fiction"
+      ],
+      "Entries": [
+        {
+          "Title": "Superman",
+          "SubCategory": "Science Fiction",
+          "Country": "",
+          "Description": "Superman, a journalist in Metropolis, embarks on a journey to reconcile his Kryptonian heritage with his human upbringing as Clark Kent.",
+          "Poster": "https://image.tmdb.org/t/p/w500/ombsmhYUqR4qqOLOxAyr5V8hbyv.jpg",
+          "Thumbnail": "https://image.tmdb.org/t/p/w500/ombsmhYUqR4qqOLOxAyr5V8hbyv.jpg",
+          "Rating": 7.611,
+          "Duration": "",
+          "Year": 2025,
+          "Servers": [
+            {
+              "name": "VidSrc 1080p",
+              "url": "https://vidsrc.to/embed/{title}/embed/Superman"
+            },
+            {
+              "name": "VidSrcME 1080p",
+              "url": "https://vidsrc.me/embed/Superman"
+            },
+            {
+              "name": "VidSrcTO 1080p",
+              "url": "https://vidsrc.to/embed/Superman"
+            },
+            {
+              "name": "EmbedSU 1080p",
+              "url": "https://embed.su/embed/Superman"
+            },
+            {
+              "name": "VidJoy 1080p",
+              "url": "https://vidjoy.pro/embed/Superman"
+            },
+            {
+              "name": "MultiEmbed 1080p",
+              "url": "https://multiembed.mov/directstream.php?video_id\u003dSuperman"
+            },
+            {
+              "name": "FlixHQ 1080p",
+              "url": "https://flixhq.to/watch/Superman"
+            },
+            {
+              "name": "HDToday 1080p",
+              "url": "https://hdtoday.tv/embed/Superman"
+            },
+            {
+              "name": "VidCloud 1080p",
+              "url": "https://vidcloud.to/embed/Superman"
+            },
+            {
+              "name": "StreamWish 1080p",
+              "url": "https://streamwish.to/e/Superman"
+            },
+            {
+              "name": "MixDrop 1080p",
+              "url": "https://mixdrop.co/e/Superman"
+            },
+            {
+              "name": "FileMoon 1080p",
+              "url": "https://filemoon.sx/e/Superman"
+            },
+            {
+              "name": "VidLink 1080p",
+              "url": "https://vidlink.pro/movie/Superman"
+            },
+            {
+              "name": "StreamLare 1080p",
+              "url": "https://streamlare.com/e/Superman"
+            },
+            {
+              "name": "StreamHub 1080p",
+              "url": "https://streamhub.to/e/Superman"
+            },
+            {
+              "name": "DoodStream 1080p",
+              "url": "https://doodstream.com/e/Superman"
+            },
+            {
+              "name": "UpStream 1080p",
+              "url": "https://upstream.to/Superman"
+            },
+            {
+              "name": "StreamTape 1080p",
+              "url": "https://streamtape.com/e/Superman"
+            },
+            {
+              "name": "GoDrivePlayer 1080p",
+              "url": "https://godriveplayer.com/embed/Superman"
+            },
+            {
+              "name": "TwoTwoEmbed 1080p",
+              "url": "https://2embed.cc/embed/Superman"
+            },
+            {
+              "name": "EmbedSoap 1080p",
+              "url": "https://www.embedsoap.com/embed/Superman"
+            },
+            {
+              "name": "NontonFilm 1080p",
+              "url": "https://tv.nontonguru.info/embed/Superman"
+            },
+            {
+              "name": "GoMovies 1080p",
+              "url": "https://gomovies.sx/watch/Superman"
+            },
+            {
+              "name": "ShowBox 1080p",
+              "url": "https://www.showbox.media/embed/Superman"
+            },
+            {
+              "name": "PrimeWire 1080p",
+              "url": "https://primewire.mx/embed/Superman"
+            },
+            {
+              "name": "Cataz 1080p",
+              "url": "https://cataz.net/embed/Superman"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
