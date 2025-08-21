@@ -1,0 +1,16 @@
+name: Unzip playlist.json.zip
+on:
+  push:
+    branches: [ upload-* ]
+    paths: [ 'playlist.json.zip' ]
+jobs:
+  unzip:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Unzip to playlist.json
+        run: unzip -p playlist.json.zip > playlist.json
+      - name: Commit result
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: 'Unzip playlist.json.zip to playlist.json'
