@@ -1710,8 +1710,28 @@
                 updateGitHubConfigFromInputs();
                 showGitHubStatus('info', 'Initializing GitHub upload...');
                 updateProgress(8, 'Ensuring branch exists...');
-                const targetBranch = GITHUB_CONFIG.branch || getDefaultUploadBranch();
-                await ensureBranchExists(targetBranch, GITHUB_CONFIG.baseBranch || 'main');
+                // Resolve target branch: prefer explicit input value; otherwise generate a fresh default
+                const branchInputEl = document.getElementById('github-branch');
+                const branchInputValue = branchInputEl ? branchInputEl.value.trim() : '';
+                let targetBranch = branchInputValue ? branchInputValue : getDefaultUploadBranch();
+                const baseBranch = GITHUB_CONFIG.baseBranch || 'main';
+
+                // If a PR already exists for this branch, generate a fresh one to avoid validation errors
+                try {
+                    const existingPr = await findExistingPullRequest(targetBranch, baseBranch);
+                    if (existingPr) {
+                        const uniqueSuffix = String(Date.now()).slice(-4);
+                        const freshBranch = getDefaultUploadBranch() + '-' + uniqueSuffix;
+                        showGitHubStatus('info', `Existing PR found for ${targetBranch}. Using new branch ${freshBranch}.`);
+                        targetBranch = freshBranch;
+                    }
+                } catch (_) {}
+
+                GITHUB_CONFIG.branch = targetBranch;
+                if (branchInputEl && branchInputEl.value.trim() !== targetBranch) {
+                    branchInputEl.value = targetBranch;
+                }
+                await ensureBranchExists(targetBranch, baseBranch);
 
                 const targetPath = (GITHUB_CONFIG.useZip ? (GITHUB_CONFIG.zipPath || 'playlist.json.zip') : (filename || GITHUB_CONFIG.rawPath || 'playlist.json'));
                 const checkUrl = `https://api.github.com/repos/${GITHUB_CONFIG.owner}/${GITHUB_CONFIG.repo}/contents/${encodeURIComponent(targetPath)}?ref=${encodeURIComponent(targetBranch)}`;
@@ -1896,18 +1916,45 @@
                     }, 3000);
                     
                     // Post-upload workflow: Create PR or show next steps
-                    if (targetBranch !== GITHUB_CONFIG.baseBranch && GITHUB_CONFIG.createPR) {
+                    const baseBranch = GITHUB_CONFIG.baseBranch || 'main';
+                    if (targetBranch !== baseBranch && GITHUB_CONFIG.createPR) {
                         setTimeout(async () => {
                             try {
+                                // If a PR already exists for this branch, surface it instead of failing
+                                const existing = await findExistingPullRequest(targetBranch, baseBranch);
+                                if (existing) {
+                                    showGitHubStatus('success', `🔗 Pull request already exists! #${existing.number}`);
+                                    setTimeout(() => {
+                                        showGitHubStatus('info', `🔗 Review PR: ${existing.html_url}`);
+                                    }, 2000);
+
+                                    if (GITHUB_CONFIG.autoMerge) {
+                                        try {
+                                            showGitHubStatus('info', '🤖 Auto-merging pull request...');
+                                            await mergePullRequest(existing.number);
+                                            showGitHubStatus('success', '✅ Pull request auto-merged! Changes are now live on main branch.');
+
+                                            // Show final file URL on main branch
+                                            const mainFileUrl = `https://github.com/${GITHUB_CONFIG.owner}/${GITHUB_CONFIG.repo}/blob/${baseBranch}/${targetPath}`;
+                                            setTimeout(() => {
+                                                showGitHubStatus('info', `🎉 Live file: ${mainFileUrl}`);
+                                            }, 2000);
+                                        } catch (mergeError) {
+                                            showGitHubStatus('warning', `⚠️ Auto-merge failed: ${mergeError.message}. Please merge manually.`);
+                                        }
+                                    }
+                                    return;
+                                }
+
                                 showGitHubStatus('info', '🔄 Creating pull request to merge changes...');
-                                const pr = await createPullRequest(targetBranch, GITHUB_CONFIG.baseBranch);
-                                
+                                const pr = await createPullRequest(targetBranch, baseBranch);
+
                                 showGitHubStatus('success', `✅ Pull request created! #${pr.number}`);
-                                
+
                                 setTimeout(() => {
                                     showGitHubStatus('info', `🔗 Review PR: ${pr.html_url}`);
                                 }, 2000);
-                                
+
                                 // Auto-merge if enabled and user has permissions
                                 if (GITHUB_CONFIG.autoMerge) {
                                     setTimeout(async () => {
@@ -1915,29 +1962,45 @@
                                             showGitHubStatus('info', '🤖 Auto-merging pull request...');
                                             await mergePullRequest(pr.number);
                                             showGitHubStatus('success', '✅ Pull request auto-merged! Changes are now live on main branch.');
-                                            
+
                                             // Show final file URL on main branch
-                                            const mainFileUrl = `https://github.com/${GITHUB_CONFIG.owner}/${GITHUB_CONFIG.repo}/blob/${GITHUB_CONFIG.baseBranch}/${targetPath}`;
+                                            const mainFileUrl = `https://github.com/${GITHUB_CONFIG.owner}/${GITHUB_CONFIG.repo}/blob/${baseBranch}/${targetPath}`;
                                             setTimeout(() => {
                                                 showGitHubStatus('info', `🎉 Live file: ${mainFileUrl}`);
                                             }, 2000);
-                                            
+
                                         } catch (mergeError) {
                                             showGitHubStatus('warning', `⚠️ Auto-merge failed: ${mergeError.message}. Please merge manually.`);
                                         }
                                     }, 3000);
                                 }
-                                
+
                             } catch (prError) {
-                                showGitHubStatus('warning', `⚠️ Could not create PR: ${prError.message}. File uploaded to branch: ${targetBranch}`);
-                                
+                                // If validation failed, attempt to find and link to an existing PR
+                                try {
+                                    const existing = await findExistingPullRequest(targetBranch, baseBranch);
+                                    if (existing) {
+                                        showGitHubStatus('success', `🔗 Pull request already exists! #${existing.number}`);
+                                        setTimeout(() => {
+                                            showGitHubStatus('info', `🔗 Review PR: ${existing.html_url}`);
+                                        }, 2000);
+                                        return;
+                                    }
+                                } catch (_) {}
+
+                                if (/No commits between/i.test(prError.message)) {
+                                    showGitHubStatus('warning', `⚠️ No new commits between ${targetBranch} and ${baseBranch}.`);
+                                } else {
+                                    showGitHubStatus('warning', `⚠️ Could not create PR: ${prError.message}. File uploaded to branch: ${targetBranch}`);
+                                }
+
                                 // Show manual steps
                                 setTimeout(() => {
-                                    showGitHubStatus('info', `📋 Next steps: 1) Go to your repo 2) Create PR from ${targetBranch} to ${GITHUB_CONFIG.baseBranch} 3) Merge the PR`);
+                                    showGitHubStatus('info', `📋 Next steps: 1) Go to your repo 2) Create PR from ${targetBranch} to ${baseBranch} 3) Merge the PR`);
                                 }, 3000);
                             }
                         }, 2000);
-                    } else if (targetBranch === GITHUB_CONFIG.baseBranch) {
+                    } else if (targetBranch === baseBranch) {
                         // Already uploaded to main branch
                         setTimeout(() => {
                             showGitHubStatus('success', '🎉 File is now live on the main branch!');
@@ -2746,13 +2809,34 @@
             showGitHubStatus('info', 'Opening workflow status in new tab...');
         }
 
+        // Find an existing pull request for a given branch (open PRs only)
+        async function findExistingPullRequest(sourceBranch, targetBranch = GITHUB_CONFIG.baseBranch || 'main') {
+            try {
+                const url = `https://api.github.com/repos/${GITHUB_CONFIG.owner}/${GITHUB_CONFIG.repo}/pulls?state=open&head=${encodeURIComponent(GITHUB_CONFIG.owner + ':' + sourceBranch)}&base=${encodeURIComponent(targetBranch)}`;
+                const resp = await fetch(url, {
+                    headers: {
+                        'Authorization': `token ${GITHUB_CONFIG.token}`,
+                        'Accept': 'application/vnd.github.v3+json'
+                    }
+                });
+                if (!resp.ok) {
+                    return null;
+                }
+                const prs = await resp.json();
+                return Array.isArray(prs) && prs.length > 0 ? prs[0] : null;
+            } catch (e) {
+                console.warn('findExistingPullRequest failed:', e);
+                return null;
+            }
+        }
+
         // Create pull request to merge upload branch to main
         async function createPullRequest(sourceBranch, targetBranch = 'main', title, body) {
             try {
                 const prData = {
                     title: title || `Update playlist.json - ${new Date().toISOString().split('T')[0]}`,
                     body: body || `Automated update of playlist.json from CineCraze application.\n\n**Upload Details:**\n- Branch: ${sourceBranch}\n- Target: ${targetBranch}\n- Timestamp: ${new Date().toISOString()}\n- Data size: ${(JSON.stringify(currentData).length / 1024 / 1024).toFixed(2)}MB\n\n**Content Summary:**\n- Movies: ${currentData.Categories.find(c => c.MainCategory === 'Movies')?.Entries.length || 0}\n- TV Series: ${currentData.Categories.find(c => c.MainCategory === 'TV Series')?.Entries.length || 0}\n- Live TV: ${currentData.Categories.find(c => c.MainCategory === 'Live TV')?.Entries.length || 0}`,
-                    head: sourceBranch,
+                    head: `${GITHUB_CONFIG.owner}:${sourceBranch}`,
                     base: targetBranch
                 };
 
