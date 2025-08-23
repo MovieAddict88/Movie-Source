@@ -2918,6 +2918,142 @@
             }
         }
 
+        // Trigger manual unzip workflow
+        async function triggerUnzipWorkflow() {
+            try {
+                showGitHubStatus('info', '🔄 Triggering unzip workflow...');
+                
+                // First check if playlist.json.zip exists in main branch
+                const checkUrl = `https://api.github.com/repos/${GITHUB_CONFIG.owner}/${GITHUB_CONFIG.repo}/contents/playlist.json.zip?ref=main`;
+                const checkResponse = await fetch(checkUrl, {
+                    headers: {
+                        'Authorization': `token ${GITHUB_CONFIG.token}`,
+                        'Accept': 'application/vnd.github.v3+json'
+                    }
+                });
+
+                if (!checkResponse.ok) {
+                    throw new Error('playlist.json.zip not found in main branch');
+                }
+
+                // Trigger workflow by creating a workflow dispatch event
+                const dispatchUrl = `https://api.github.com/repos/${GITHUB_CONFIG.owner}/${GITHUB_CONFIG.repo}/actions/workflows/unzip-playlist.yml/dispatches`;
+                const dispatchResponse = await fetch(dispatchUrl, {
+                    method: 'POST',
+                    headers: {
+                        'Authorization': `token ${GITHUB_CONFIG.token}`,
+                        'Accept': 'application/vnd.github.v3+json',
+                        'Content-Type': 'application/json'
+                    },
+                    body: JSON.stringify({
+                        ref: 'main'
+                    })
+                });
+
+                if (dispatchResponse.ok) {
+                    showGitHubStatus('success', '✅ Unzip workflow triggered! Check Actions tab for progress.');
+                    setTimeout(() => {
+                        showGitHubStatus('info', `🔗 View progress: https://github.com/${GITHUB_CONFIG.owner}/${GITHUB_CONFIG.repo}/actions`);
+                    }, 2000);
+                } else {
+                    // Fallback: try to unzip directly via API
+                    await unzipPlaylistDirectly();
+                }
+            } catch (error) {
+                showGitHubStatus('warning', `⚠️ Could not trigger workflow: ${error.message}`);
+                // Try direct unzip as fallback
+                try {
+                    await unzipPlaylistDirectly();
+                } catch (fallbackError) {
+                    showGitHubStatus('error', `❌ Unzip failed: ${fallbackError.message}`);
+                }
+            }
+        }
+
+        // Directly unzip playlist.json.zip via GitHub API
+        async function unzipPlaylistDirectly() {
+            try {
+                showGitHubStatus('info', '📦 Unzipping playlist.json.zip directly...');
+                
+                // Get the zip file content
+                const zipUrl = `https://api.github.com/repos/${GITHUB_CONFIG.owner}/${GITHUB_CONFIG.repo}/contents/playlist.json.zip?ref=main`;
+                const zipResponse = await fetch(zipUrl, {
+                    headers: {
+                        'Authorization': `token ${GITHUB_CONFIG.token}`,
+                        'Accept': 'application/vnd.github.v3+json'
+                    }
+                });
+
+                if (!zipResponse.ok) {
+                    throw new Error('Could not fetch playlist.json.zip');
+                }
+
+                const zipData = await zipResponse.json();
+                const zipContent = atob(zipData.content.replace(/\s/g, ''));
+                
+                // Use JSZip to extract the content
+                const zip = new JSZip();
+                const zipFile = await zip.loadAsync(zipContent, {base64: false});
+                const playlistFile = zipFile.file('playlist.json');
+                
+                if (!playlistFile) {
+                    throw new Error('playlist.json not found in zip file');
+                }
+
+                const playlistContent = await playlistFile.async('string');
+                const encodedContent = btoa(unescape(encodeURIComponent(playlistContent)));
+
+                // Check if playlist.json already exists
+                const existingUrl = `https://api.github.com/repos/${GITHUB_CONFIG.owner}/${GITHUB_CONFIG.repo}/contents/playlist.json?ref=main`;
+                const existingResponse = await fetch(existingUrl, {
+                    headers: {
+                        'Authorization': `token ${GITHUB_CONFIG.token}`,
+                        'Accept': 'application/vnd.github.v3+json'
+                    }
+                });
+
+                let sha = null;
+                if (existingResponse.ok) {
+                    const existingData = await existingResponse.json();
+                    sha = existingData.sha;
+                }
+
+                // Create or update playlist.json
+                const updateData = {
+                    message: 'Manual unzip: Extract playlist.json from playlist.json.zip',
+                    content: encodedContent,
+                    branch: 'main'
+                };
+
+                if (sha) {
+                    updateData.sha = sha;
+                }
+
+                const updateResponse = await fetch(existingUrl, {
+                    method: 'PUT',
+                    headers: {
+                        'Authorization': `token ${GITHUB_CONFIG.token}`,
+                        'Accept': 'application/vnd.github.v3+json',
+                        'Content-Type': 'application/json'
+                    },
+                    body: JSON.stringify(updateData)
+                });
+
+                if (updateResponse.ok) {
+                    showGitHubStatus('success', '✅ Successfully unzipped and updated playlist.json!');
+                    setTimeout(() => {
+                        showGitHubStatus('info', `🔗 View file: https://github.com/${GITHUB_CONFIG.owner}/${GITHUB_CONFIG.repo}/blob/main/playlist.json`);
+                    }, 2000);
+                } else {
+                    const error = await updateResponse.json().catch(() => ({ message: 'Unknown error' }));
+                    throw new Error(`Failed to update playlist.json: ${error.message}`);
+                }
+            } catch (error) {
+                console.error('Direct unzip error:', error);
+                throw error;
+            }
+        }
+
         // Cleanup old upload branches (older than 7 days)
         async function cleanupOldBranches() {
             try {
@@ -3721,8 +3857,9 @@
                             </div>
                             <div class="form-group">
                                 <label>
-                                    <input type="checkbox" id="github-use-zip" onchange="updateGitHubConfigFromInputs(); updateGitHubFormFromConfig();"> Upload as ZIP (playlist.json.zip)
+                                    <input type="checkbox" id="github-use-zip" checked onchange="updateGitHubConfigFromInputs(); updateGitHubFormFromConfig();"> Upload as ZIP (playlist.json.zip)
                                 </label>
+                                <small class="form-text">✅ Recommended: Uploads as ZIP and auto-extracts to playlist.json via workflow</small>
                             </div>
                             <div class="form-group">
                                 <label>
@@ -3787,13 +3924,15 @@
                             <div class="form-group">
                                 <h5 style="color: var(--text-secondary); margin-bottom: 8px;">⚡ Quick Actions</h5>
                                 <div style="background: rgba(229, 9, 20, 0.1); border: 1px solid rgba(229, 9, 20, 0.3); border-radius: 8px; padding: 12px; margin-bottom: 12px;">
-                                    <strong style="color: var(--primary);">📌 To update your main playlist.json immediately:</strong>
-                                    <br><small style="color: var(--text-secondary);">Use "Direct to Main" for instant updates, or "Auto-merge PR" if you have admin permissions</small>
+                                    <strong style="color: var(--primary);">📌 To update your main playlist.json:</strong>
+                                    <br><small style="color: var(--text-secondary);">1) Upload creates playlist.json.zip → 2) Workflow auto-extracts to playlist.json</small>
+                                    <br><small style="color: var(--text-secondary);">If auto-extract fails, use the "📦 Unzip" button below</small>
                                 </div>
                                 <button class="btn btn-primary btn-small" onclick="quickUploadToMain()" style="margin-right: 8px; margin-bottom: 8px;">🎯 Direct to Main (Immediate)</button>
                                 <button class="btn btn-success btn-small" onclick="uploadWithPR()" style="margin-right: 8px; margin-bottom: 8px;">🌿 Upload + Auto-merge PR</button>
                                 <br>
                                 <button class="btn btn-warning btn-small" onclick="checkCurrentBranches()" style="margin-right: 8px; margin-bottom: 8px;">🔍 Check Branches</button>
+                                <button class="btn btn-accent btn-small" onclick="triggerUnzipWorkflow()" style="margin-right: 8px; margin-bottom: 8px;">📦 Unzip playlist.json.zip</button>
                                 <button class="btn btn-danger btn-small" onclick="cleanupOldBranches()" style="margin-right: 8px; margin-bottom: 8px;">🧹 Cleanup Old Branches</button>
                             </div>
                             

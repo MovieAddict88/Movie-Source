@@ -3,16 +3,41 @@ permissions:
   contents: write
 on:
   push:
-    branches: [ upload-* ]
+    branches: [ upload-*, main ]
     paths: [ 'playlist.json.zip' ]
+  pull_request:
+    types: [closed]
+    branches: [ main ]
+    paths: [ 'playlist.json.zip' ]
+  workflow_dispatch:
 jobs:
   unzip:
     runs-on: ubuntu-latest
+    if: github.event_name == 'push' || (github.event_name == 'pull_request' && github.event.pull_request.merged == true)
     steps:
       - uses: actions/checkout@v4
+        with:
+          ref: ${{ github.event_name == 'pull_request' && 'main' || github.ref }}
+      - name: Check if zip file exists
+        id: check_zip
+        run: |
+          if [ -f "playlist.json.zip" ]; then
+            echo "zip_exists=true" >> $GITHUB_OUTPUT
+            echo "✅ Found playlist.json.zip"
+          else
+            echo "zip_exists=false" >> $GITHUB_OUTPUT
+            echo "❌ No playlist.json.zip found"
+          fi
       - name: Unzip to playlist.json
-        run: unzip -p playlist.json.zip > playlist.json
+        if: steps.check_zip.outputs.zip_exists == 'true'
+        run: |
+          echo "📦 Unzipping playlist.json.zip..."
+          unzip -p playlist.json.zip > playlist.json
+          echo "✅ Unzipped successfully"
+          ls -la playlist.json*
       - name: Commit result
+        if: steps.check_zip.outputs.zip_exists == 'true'
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
-          commit_message: 'Unzip playlist.json.zip to playlist.json'
+          commit_message: 'Auto-unzip: Extract playlist.json from playlist.json.zip'
+          file_pattern: 'playlist.json'
