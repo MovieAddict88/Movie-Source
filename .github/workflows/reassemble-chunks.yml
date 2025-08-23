@@ -3,6 +3,7 @@ permissions:
   contents: write
   pull-requests: write
   actions: read
+  checks: write
 on:
   push:
     branches: [ chunked-upload-* ]
@@ -267,7 +268,19 @@ jobs:
           commit_user_name: 'GitHub Action'
           commit_user_email: 'action@github.com'
           
+      - name: Push changes to trigger PR
+        run: |
+          echo "📤 Pushing changes to trigger pull request..."
+          git push origin HEAD:${{ github.ref_name }} --force
+          echo "✅ Changes pushed successfully"
+          
+      - name: Wait for branch to be ready
+        run: |
+          echo "⏳ Waiting for branch to be ready..."
+          sleep 10
+          
       - name: Create Pull Request to Main
+        id: create-pr
         run: |
           echo "🔀 Creating pull request to main branch..."
           
@@ -282,13 +295,20 @@ jobs:
           
           if [ -n "$existing_pr" ]; then
             echo "✅ Pull request #$existing_pr already exists"
+            echo "pr_number=$existing_pr" >> $GITHUB_OUTPUT
           else
             # Create PR
-            gh pr create \
-              --title "Deploy playlist.json from chunked upload" \
-              --body "## Automated Playlist Deployment
+            pr_result=$(gh pr create \
+              --title "🚀 Auto-Deploy playlist.json from chunked upload" \
+              --body "## 🎉 Automated Playlist Deployment
             
             This pull request was created automatically by the reassemble workflow.
+            
+            **What Happened:**
+            ✅ Chunks were reassembled successfully
+            ✅ File was unzipped (if needed)
+            ✅ JSON validation passed
+            ✅ Ready for deployment to main branch
             
             **Details:**
             - Source Branch: \`$BRANCH_NAME\`
@@ -299,40 +319,92 @@ jobs:
             **Files Updated:**
             - playlist.json (ready for use)
             
-            **What Happened:**
-            1. ✅ Chunks were reassembled successfully
-            2. ✅ File was unzipped (if needed)
-            3. ✅ JSON validation passed
-            4. ✅ Ready for deployment to main branch
-            
             **Note:** This playlist.json is now ready to use after merging!" \
               --base "$BASE_BRANCH" \
-              --head "$BRANCH_NAME"
+              --head "$BRANCH_NAME" \
+              --json number,url)
             
-            echo "✅ Pull request created successfully"
+            if [ $? -eq 0 ]; then
+              pr_number=$(echo "$pr_result" | jq -r '.number')
+              pr_url=$(echo "$pr_result" | jq -r '.url')
+              echo "✅ Pull request created successfully: #$pr_number"
+              echo "🔗 PR URL: $pr_url"
+              echo "pr_number=$pr_number" >> $GITHUB_OUTPUT
+              echo "pr_url=$pr_url" >> $GITHUB_OUTPUT
+            else
+              echo "❌ Failed to create pull request"
+              exit 1
+            fi
           fi
           
-      - name: Auto-merge PR (if enabled)
-        if: github.ref != 'refs/heads/main'
+      - name: Auto-merge PR
+        id: auto-merge
+        if: steps.create-pr.outputs.pr_number != ''
         run: |
           echo "🤖 Attempting auto-merge..."
           
-          # Get the PR number
-          pr_number=$(gh pr list --head "${{ github.ref_name }}" --base "main" --json number --jq '.[0].number' 2>/dev/null || echo "")
+          pr_number="${{ steps.create-pr.outputs.pr_number }}"
+          echo "🔍 Found PR #$pr_number, attempting merge..."
           
-          if [ -n "$pr_number" ]; then
-            echo "🔍 Found PR #$pr_number, attempting merge..."
-            
-            # Try to merge
-            if gh pr merge "$pr_number" --merge --delete-branch; then
-              echo "✅ PR #$pr_number merged successfully!"
-              echo "🎉 playlist.json is now available on main branch!"
-            else
-              echo "⚠️ Auto-merge failed, manual merge required"
-              echo "📋 Please merge PR #$pr_number manually"
-            fi
+          # Wait a bit for GitHub to process the PR
+          echo "⏳ Waiting for PR to be ready for merge..."
+          sleep 15
+          
+          # Try to merge with different strategies
+          echo "🔄 Attempting merge with 'merge' strategy..."
+          if gh pr merge "$pr_number" --merge --delete-branch; then
+            echo "✅ PR #$pr_number merged successfully with 'merge' strategy!"
+            echo "🎉 playlist.json is now available on main branch!"
+            echo "merged=true" >> $GITHUB_OUTPUT
           else
-            echo "❌ Could not find PR for auto-merge"
+            echo "⚠️ 'merge' strategy failed, trying 'squash'..."
+            if gh pr merge "$pr_number" --squash --delete-branch; then
+              echo "✅ PR #$pr_number merged successfully with 'squash' strategy!"
+              echo "🎉 playlist.json is now available on main branch!"
+              echo "merged=true" >> $GITHUB_OUTPUT
+            else
+              echo "⚠️ 'squash' strategy failed, trying 'rebase'..."
+              if gh pr merge "$pr_number" --rebase --delete-branch; then
+                echo "✅ PR #$pr_number merged successfully with 'rebase' strategy!"
+                echo "🎉 playlist.json is now available on main branch!"
+                echo "merged=true" >> $GITHUB_OUTPUT
+              else
+                echo "❌ All merge strategies failed"
+                echo "📋 Please merge PR #$pr_number manually"
+                echo "🔗 PR URL: ${{ steps.create-pr.outputs.pr_url }}"
+                echo "merged=false" >> $GITHUB_OUTPUT
+              fi
+            fi
+          fi
+          
+      - name: Verify deployment to main
+        if: steps.auto-merge.outputs.merged == 'true'
+        run: |
+          echo "🔍 Verifying deployment to main branch..."
+          
+          # Wait for GitHub to process the merge
+          echo "⏳ Waiting for merge to be processed..."
+          sleep 20
+          
+          # Check if playlist.json exists on main branch
+          main_file_url="https://api.github.com/repos/${{ github.repository }}/contents/playlist.json?ref=main"
+          
+          # Try to fetch the file from main branch
+          if curl -s -f "$main_file_url" > /dev/null; then
+            echo "✅ playlist.json successfully deployed to main branch!"
+            echo "🎉 File is now ready to use!"
+            
+            # Get file info
+            file_info=$(curl -s "$main_file_url")
+            file_size=$(echo "$file_info" | jq -r '.size // 0')
+            file_size_mb=$(echo "scale=2; $file_size/1024/1024" | bc)
+            
+            echo "📊 File size: ${file_size_mb}MB"
+            echo "🔗 View file: https://github.com/${{ github.repository }}/blob/main/playlist.json"
+            
+          else
+            echo "⚠️ playlist.json not yet available on main branch"
+            echo "💡 This might take a few minutes to propagate"
           fi
           
       - name: Final Status
@@ -344,11 +416,28 @@ jobs:
           echo "✅ File unzipped (if needed)"
           echo "✅ JSON validation passed"
           echo "✅ Pull request created"
+          
+          if [ -n "${{ steps.create-pr.outputs.pr_number }}" ]; then
+            if [ "${{ steps.auto-merge.outputs.merged }}" == "true" ]; then
+              echo "✅ Pull request auto-merged"
+              echo "🎉 playlist.json is now available on main branch!"
+            else
+              echo "⚠️ Pull request created but merge failed"
+              echo "📋 Please merge PR #${{ steps.create-pr.outputs.pr_number }} manually"
+              echo "🔗 PR URL: ${{ steps.create-pr.outputs.pr_url }}"
+            fi
+          fi
+          
           echo ""
-          echo "📁 playlist.json is now ready for use!"
+          echo "📁 playlist.json is ready for deployment!"
           echo "🔗 View file: https://github.com/${{ github.repository }}/blob/main/playlist.json"
           echo ""
           echo "💡 Next steps:"
-          echo "1. Review and merge the pull request"
-          echo "2. playlist.json will be available on main branch"
-          echo "3. You can now use the playlist data"
+          if [ "${{ steps.auto-merge.outputs.merged }}" == "true" ]; then
+            echo "✅ File is already deployed to main branch!"
+            echo "🎉 You can now use the playlist data!"
+          else
+            echo "1. Review and merge the pull request"
+            echo "2. playlist.json will be available on main branch"
+            echo "3. You can then use the playlist data"
+          fi
