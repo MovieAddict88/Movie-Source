@@ -1,32 +1,156 @@
-name: Unzip playlist.json.zip
+name: Auto-Unzip Playlist Files and Create PR
 permissions:
   contents: write
+  pull-requests: write
 on:
   push:
-    branches: [ upload-* ]
-    paths: [ 'playlist.json.zip' ]
+    branches: [ 'upload-*' ]
+    paths: [ '*.zip' ]
 jobs:
-  unzip:
+  unzip-and-pr:
     runs-on: ubuntu-latest
+    timeout-minutes: 15
     steps:
-      - uses: actions/checkout@v4
+      - name: Checkout repository
+        uses: actions/checkout@v4
         with:
-          # Increases timeout for large files
-          fetch-depth: 0  
-          # Prevents partial checkouts
-          sparse-checkout: | 
-            playlist.json.zip
+          fetch-depth: 0
+          sparse-checkout: |
+            *.zip
+            playlist.json
 
-      - name: Unzip with efficient tool
+      - name: Check zip file integrity
+        id: check-zip
         run: |
-          # Install 7z for better compression handling
-          sudo apt-get install p7zip-full -y  
-          # Extract specific file efficiently
-          7z x -y playlist.json.zip -o. playlist.json  
+          echo "🔍 Checking zip files..."
+          for zipfile in *.zip; do
+            if [ -f "$zipfile" ]; then
+              echo "📦 Found zip file: $zipfile"
+              echo "📏 File size: $(ls -lh "$zipfile" | awk '{print $5}')"
+              
+              # Test zip file integrity
+              if unzip -t "$zipfile" > /dev/null 2>&1; then
+                echo "✅ Zip file integrity check passed"
+                echo "zip_file=$zipfile" >> $GITHUB_OUTPUT
+                echo "zip_valid=true" >> $GITHUB_OUTPUT
+                break
+              else
+                echo "❌ Zip file integrity check failed"
+                echo "zip_valid=false" >> $GITHUB_OUTPUT
+              fi
+            fi
+          done
 
-      - name: Commit result
-        uses: stefanzweifel/git-auto-commit-action@v5
+      - name: Unzip playlist files
+        if: steps.check-zip.outputs.zip_valid == 'true'
+        run: |
+          echo "🗜️ Unzipping files..."
+          for zipfile in *.zip; do
+            if [ -f "$zipfile" ]; then
+              echo "📦 Processing $zipfile..."
+              
+              # List contents before unzipping
+              echo "📋 Zip contents:"
+              unzip -l "$zipfile" | head -20
+              
+              # Unzip with error handling
+              if unzip -o "$zipfile"; then
+                echo "✅ Successfully unzipped $zipfile"
+                
+                # Check what was extracted
+                echo "📋 Extracted files:"
+                ls -la
+                
+                # Verify playlist.json was created
+                if [ -f "playlist.json" ]; then
+                  echo "✅ playlist.json found after extraction"
+                  echo "📏 New file size: $(ls -lh "playlist.json" | awk '{print $5}')"
+                else
+                  echo "❌ playlist.json not found after extraction"
+                  exit 1
+                fi
+              else
+                echo "❌ Failed to unzip $zipfile"
+                exit 1
+              fi
+            fi
+          done
+
+      - name: Verify extracted content
+        if: steps.check-zip.outputs.zip_valid == 'true'
+        run: |
+          echo "🔍 Verifying extracted content..."
+          if [ -f "playlist.json" ]; then
+            echo "✅ playlist.json exists"
+            echo "📏 File size: $(ls -lh "playlist.json" | awk '{print $5}')"
+            
+            # Basic JSON validation
+            if python3 -m json.tool playlist.json > /dev/null 2>&1; then
+              echo "✅ JSON validation passed"
+            else
+              echo "❌ JSON validation failed"
+              exit 1
+            fi
+          else
+            echo "❌ playlist.json not found"
+            exit 1
+          fi
+
+      - name: Commit unzipped files
+        if: steps.check-zip.outputs.zip_valid == 'true'
+        run: |
+          echo "📝 Committing unzipped files..."
+          
+          # Configure git
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          
+          # Add the unzipped files
+          git add playlist.json
+          
+          # Check what's staged
+          git status
+          
+          # Commit with descriptive message
+          git commit -m "Auto-unzip playlist files from zip uploads - $(date)"
+          
+          # Push the changes
+          git push origin HEAD
+
+      - name: Create Pull Request
+        if: steps.check-zip.outputs.zip_valid == 'true'
+        uses: peter-evans/create-pull-request@v5
         with:
-          commit_message: 'Unzip playlist.json.zip to playlist.json'
-          # Commit only the JSON file
-          file_pattern: playlist.json  
+          token: ${{ secrets.GITHUB_TOKEN }}
+          base: main
+          branch: ${{ github.ref_name }}
+          title: "Auto-merge: Update playlist.json from zip upload"
+          body: |
+            ## Automated Playlist Update
+            
+            This PR was automatically created after processing a zip file upload.
+            
+            **Details:**
+            - Source Branch: `${{ github.ref_name }}`
+            - Target Branch: `main`
+            - Trigger: Zip file upload to upload-* branch
+            - Timestamp: ${{ github.event.head_commit.timestamp }}
+            
+            **Changes:**
+            - Updated playlist.json from zip file
+            - Automated via GitHub Actions workflow
+            
+            **Note:** This PR was created automatically. Please review before merging.
+          delete-branch: true
+          commit-message: "Auto-commit: Update playlist.json from zip upload"
+          committer: GitHub <noreply@github.com>
+          author: GitHub <noreply@github.com>
+
+      - name: Troubleshooting info
+        if: steps.check-zip.outputs.zip_valid != 'true'
+        run: |
+          echo "🔍 Troubleshooting: Check zip file integrity and workflow logs"
+          echo "📋 Available files:"
+          ls -la
+          echo "📋 Zip files:"
+          ls -la *.zip 2>/dev/null || echo "No zip files found"

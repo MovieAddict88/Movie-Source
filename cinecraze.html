@@ -3344,18 +3344,23 @@ jobs:
         function checkDataSize(dataStr) {
             const sizeMB = dataStr.length / 1024 / 1024;
             const maxSizeMB = 100; // GitHub file size limit is 100MB
+            const zipThresholdMB = 10; // Use zip for files >10MB
             
             if (sizeMB > maxSizeMB) {
                 return {
                     tooLarge: true,
                     sizeMB: sizeMB.toFixed(2),
-                    maxSizeMB: maxSizeMB
+                    maxSizeMB: maxSizeMB,
+                    requiresZip: true,
+                    zipThresholdMB: zipThresholdMB
                 };
             }
             
             return {
                 tooLarge: false,
-                sizeMB: sizeMB.toFixed(2)
+                sizeMB: sizeMB.toFixed(2),
+                requiresZip: sizeMB > zipThresholdMB,
+                zipThresholdMB: zipThresholdMB
             };
         }
 
@@ -3391,6 +3396,14 @@ jobs:
                 if (sizeCheck.tooLarge) {
                     showGitHubStatus('error', `Data too large (${sizeCheck.sizeMB}MB). GitHub limit is ${sizeCheck.maxSizeMB}MB. Consider using zip compression or splitting the data.`);
                     return;
+                }
+                
+                // Auto-enable zip for files >10MB
+                if (sizeCheck.requiresZip && !GITHUB_CONFIG.useZip) {
+                    console.log(`📦 Auto-enabling zip compression for ${sizeCheck.sizeMB}MB file`);
+                    GITHUB_CONFIG.useZip = true;
+                    document.getElementById('github-use-zip')?.checked = true;
+                    showGitHubStatus('info', `📦 Auto-enabled zip compression for large file (${sizeCheck.sizeMB}MB)`);
                 }
                 
                 console.log(`📤 Uploading ${sizeCheck.sizeMB}MB of current data to GitHub`);
