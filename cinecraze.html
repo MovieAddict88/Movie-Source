@@ -1926,13 +1926,21 @@
                 // Upload the file with timeout and retry logic
                 const uploadUrl = `https://api.github.com/repos/${GITHUB_CONFIG.owner}/${GITHUB_CONFIG.repo}/contents/${encodeURIComponent(targetPath)}`;
                 
-                const uploadWithRetry = async (retries = 2) => {
+                const uploadWithRetry = async (retries = 3) => {
+                    // Calculate timeout based on file size (longer for larger files)
+                    const baseTimeout = 60000; // 60 seconds base
+                    const sizeTimeout = Math.max(baseTimeout, Math.floor(parseFloat(dataSizeMB) * 1000)); // 1 second per MB
+                    const maxTimeout = 300000; // 5 minutes maximum
+                    const timeout = Math.min(sizeTimeout, maxTimeout);
+                    
+                    console.log(`⏱️ Upload timeout set to ${timeout/1000}s for ${dataSizeMB}MB file`);
+                    
                     for (let attempt = 1; attempt <= retries; attempt++) {
                         try {
                             updateProgress(70, `Uploading to GitHub (attempt ${attempt}/${retries})...`);
                             
                             const controller = new AbortController();
-                            const timeoutId = setTimeout(() => controller.abort(), 60000); // 60 second timeout
+                            const timeoutId = setTimeout(() => controller.abort(), timeout);
                             
                             const uploadResponse = await fetch(uploadUrl, {
                                 method: 'PUT',
@@ -1950,15 +1958,15 @@
                             
                         } catch (error) {
                             if (error.name === 'AbortError') {
-                                console.warn(`Upload attempt ${attempt} timed out`);
+                                console.warn(`Upload attempt ${attempt} timed out after ${timeout/1000}s`);
                                 if (attempt === retries) {
-                                    throw new Error('Upload timed out after multiple attempts');
+                                    throw new Error(`Upload timed out after ${timeout/1000}s. Large files may need more time.`);
                                 }
                             } else if (attempt === retries) {
                                 throw error;
                             } else {
-                                console.warn(`Upload attempt ${attempt} failed, retrying...`, error);
-                                await new Promise(resolve => setTimeout(resolve, 2000)); // Wait 2 seconds before retry
+                                console.warn(`Upload attempt ${attempt} failed, retrying in 5 seconds...`, error);
+                                await new Promise(resolve => setTimeout(resolve, 5000)); // Wait 5 seconds before retry
                             }
                         }
                     }
@@ -2008,6 +2016,20 @@
                                 setTimeout(() => {
                                     showGitHubStatus('info', `🔗 Review PR: ${pr.html_url}`);
                                 }, 2000);
+                                
+                                                // Show workflow status if zip was uploaded
+                if (GITHUB_CONFIG.useZip) {
+                    setTimeout(() => {
+                        showGitHubStatus('info', `🔄 Auto-unzip workflow will process the zip file and update playlist.json`);
+                        showGitHubStatus('info', `📋 Check Actions tab for workflow progress`);
+                        
+                        // Show detailed workflow information
+                        setTimeout(() => {
+                            showGitHubStatus('info', `🔗 Workflow URL: https://github.com/${GITHUB_CONFIG.owner}/${GITHUB_CONFIG.repo}/actions`);
+                            showGitHubStatus('info', `📊 Use "Check Workflow" button to monitor progress`);
+                        }, 2000);
+                    }, 4000);
+                }
                                 
                                 // Auto-merge if enabled and user has permissions
                                 if (GITHUB_CONFIG.autoMerge) {
@@ -3343,19 +3365,32 @@ jobs:
         // Function to check if data is too large for GitHub
         function checkDataSize(dataStr) {
             const sizeMB = dataStr.length / 1024 / 1024;
-            const maxSizeMB = 100; // GitHub file size limit is 100MB
+            // GitHub API has a 100MB limit, but we recommend using zip for files >10MB
+            const maxSizeMB = 100;
+            const zipRecommendedMB = 10;
             
             if (sizeMB > maxSizeMB) {
                 return {
                     tooLarge: true,
                     sizeMB: sizeMB.toFixed(2),
-                    maxSizeMB: maxSizeMB
+                    maxSizeMB: maxSizeMB,
+                    recommendation: 'Use zip compression or split the data'
+                };
+            }
+            
+            if (sizeMB > zipRecommendedMB) {
+                return {
+                    tooLarge: false,
+                    sizeMB: sizeMB.toFixed(2),
+                    zipRecommended: true,
+                    recommendation: 'Consider using zip compression for better performance'
                 };
             }
             
             return {
                 tooLarge: false,
-                sizeMB: sizeMB.toFixed(2)
+                sizeMB: sizeMB.toFixed(2),
+                zipRecommended: false
             };
         }
 
@@ -3384,13 +3419,23 @@ jobs:
                 // This prevents uploading compressed/empty data
                 const dataStr = GITHUB_CONFIG.minify ? JSON.stringify(currentData) : JSON.stringify(currentData, null, 2);
                 
-                // Check data size
+                // Check data size and provide recommendations
                 const sizeCheck = checkDataSize(dataStr);
                 console.log(`📤 Data size: ${sizeCheck.sizeMB}MB`);
                 
                 if (sizeCheck.tooLarge) {
-                    showGitHubStatus('error', `Data too large (${sizeCheck.sizeMB}MB). GitHub limit is ${sizeCheck.maxSizeMB}MB. Consider using zip compression or splitting the data.`);
+                    showGitHubStatus('error', `Data too large (${sizeCheck.sizeMB}MB). GitHub limit is ${sizeCheck.maxSizeMB}MB. ${sizeCheck.recommendation}`);
                     return;
+                }
+                
+                // Auto-enable zip for large files
+                if (sizeCheck.zipRecommended && !GITHUB_CONFIG.useZip) {
+                    showGitHubStatus('warning', `⚠️ Large file detected (${sizeCheck.sizeMB}MB). Auto-enabling zip compression for better performance.`);
+                    GITHUB_CONFIG.useZip = true;
+                    const useZipEl = document.getElementById('github-use-zip');
+                    if (useZipEl) {
+                        useZipEl.checked = true;
+                    }
                 }
                 
                 console.log(`📤 Uploading ${sizeCheck.sizeMB}MB of current data to GitHub`);
@@ -3948,6 +3993,32 @@ jobs:
    - Check token permissions (repo scope needed)
    - Use debug functions for detailed info
    - Monitor workflow runs in Movie-Source repository
+   
+   **Common Issues & Solutions:**
+   
+   🚫 **Large File Upload Fails (>10MB):**
+   - ✅ Enable "Use Zip" compression
+   - ✅ Check file size in console (should show MB)
+   - ✅ Use branch upload instead of direct to main
+   - ✅ Ensure JSZip library is loaded
+   
+   🚫 **Pull Request Creation Fails:**
+   - ✅ Check if upload branch was created successfully
+   - ✅ Verify GitHub token has 'repo' scope
+   - ✅ Wait for upload to complete before PR creation
+   - ✅ Check browser console for detailed error messages
+   
+   🚫 **Workflow Not Triggering:**
+   - ✅ Ensure zip file is uploaded to 'upload-*' branch
+   - ✅ Check if auto-unzip workflow exists
+   - ✅ Use "Create Workflow" button if missing
+   - ✅ Monitor Actions tab for workflow runs
+   
+   🚫 **Zip File Not Processing:**
+   - ✅ Verify zip contains playlist.json
+   - ✅ Check workflow logs in Actions tab
+   - ✅ Use "Trigger Workflow" for manual processing
+   - ✅ Ensure workflow has proper permissions
 
 6. **Best Practices:**
    - Use descriptive branch names with timestamps

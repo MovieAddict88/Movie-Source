@@ -1,0 +1,198 @@
+name: Auto-Unzip and Create PR
+permissions:
+  contents: write
+  pull-requests: write
+on:
+  push:
+    branches: [ upload-* ]
+    paths: [ '*.zip' ]
+  workflow_dispatch: # Allow manual triggering
+
+jobs:
+  unzip-and-pr:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          fetch-depth: 0
+      
+      - name: Check zip file integrity
+        id: check-zip
+        run: |
+          echo "🔍 Checking zip files..."
+          for zipfile in *.zip; do
+            if [ -f "$zipfile" ]; then
+              echo "📦 Found zip file: $zipfile"
+              echo "📏 File size: $(ls -lh "$zipfile" | awk '{print $5}')"
+              
+              # Test zip file integrity
+              if unzip -t "$zipfile" > /dev/null 2>&1; then
+                echo "✅ Zip file integrity check passed"
+                echo "zip_file=$zipfile" >> $GITHUB_OUTPUT
+                echo "zip_valid=true" >> $GITHUB_OUTPUT
+              else
+                echo "❌ Zip file integrity check failed"
+                echo "zip_valid=false" >> $GITHUB_OUTPUT
+              fi
+              
+              # List contents
+              echo "📋 Zip contents:"
+              unzip -l "$zipfile" | head -20
+            fi
+          done
+      
+      - name: Unzip playlist files
+        if: steps.check-zip.outputs.zip_valid == 'true'
+        run: |
+          echo "🗜️ Unzipping files..."
+          for zipfile in *.zip; do
+            if [ -f "$zipfile" ]; then
+              echo "📦 Processing $zipfile..."
+              
+              # Create backup of existing files
+              if [ -f "playlist.json" ]; then
+                cp "playlist.json" "playlist.json.backup"
+                echo "💾 Backup created: playlist.json.backup"
+              fi
+              
+              # Unzip with error handling
+              if unzip -o "$zipfile"; then
+                echo "✅ Successfully unzipped $zipfile"
+                
+                # Verify the result
+                if [ -f "playlist.json" ]; then
+                  echo "✅ playlist.json extracted successfully"
+                  echo "📏 New file size: $(ls -lh "playlist.json" | awk '{print $5}')"
+                else
+                  echo "❌ playlist.json not found after extraction"
+                  # Try to find what was extracted
+                  echo "📋 Extracted files:"
+                  ls -la
+                fi
+              else
+                echo "❌ Failed to unzip $zipfile"
+                exit 1
+              fi
+            fi
+          done
+      
+      - name: Verify extracted content
+        if: steps.check-zip.outputs.zip_valid == 'true'
+        run: |
+          echo "🔍 Verifying extracted content..."
+          if [ -f "playlist.json" ]; then
+            echo "✅ playlist.json exists"
+            echo "📏 File size: $(ls -lh "playlist.json" | awk '{print $5}')"
+            
+            # Check if it's valid JSON
+            if python3 -m json.tool "playlist.json" > /dev/null 2>&1; then
+              echo "✅ JSON validation passed"
+            else
+              echo "❌ JSON validation failed - file may be corrupted"
+            fi
+            
+            # Show first few lines
+            echo "📋 First 5 lines of playlist.json:"
+            head -5 "playlist.json"
+          else
+            echo "❌ playlist.json not found"
+            echo "📋 Available files:"
+            ls -la
+            exit 1
+          fi
+      
+      - name: Commit unzipped files
+        if: steps.check-zip.outputs.zip_valid == 'true'
+        run: |
+          echo "💾 Committing changes..."
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          
+          # Add all changes
+          git add .
+          
+          # Check what's staged
+          echo "📋 Staged changes:"
+          git diff --staged --name-only
+          
+          # Commit if there are changes
+          if ! git diff --staged --quiet; then
+            git commit -m "Auto-unzip playlist files from zip uploads - $(date)"
+            echo "✅ Changes committed"
+            
+            # Push changes
+            if git push; then
+              echo "✅ Changes pushed successfully"
+            else
+              echo "❌ Failed to push changes"
+              exit 1
+            fi
+          else
+            echo "ℹ️ No changes to commit"
+          fi
+      
+      - name: Create Pull Request
+        if: steps.check-zip.outputs.zip_valid == 'true'
+        uses: peter-evans/create-pull-request@v5
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          title: "Auto-merge: Update playlist.json from zip upload"
+          body: |
+            🤖 **Automated Pull Request**
+            
+            This PR was created automatically after processing a zip file upload.
+            
+            **Changes:**
+            - Updated playlist.json from zip file
+            - File size: $(ls -lh "playlist.json" | awk '{print $5}')
+            - Timestamp: $(date)
+            
+            **Source:** Auto-unzip workflow triggered by zip upload
+            
+            ---
+            *This PR will be automatically merged if all checks pass.*
+          branch: auto-merge-playlist
+          base: main
+          delete-branch: true
+          labels: auto-merge,playlist-update
+          assignees: ${{ github.actor }}
+      
+      - name: Auto-merge PR
+        if: steps.check-zip.outputs.zip_valid == 'true'
+        run: |
+          echo "🤖 Attempting to auto-merge PR..."
+          # Wait a bit for PR to be created
+          sleep 10
+          
+          # Get the PR number
+          PR_NUMBER=$(gh pr list --head auto-merge-playlist --json number --jq '.[0].number')
+          
+          if [ ! -z "$PR_NUMBER" ]; then
+            echo "📋 Found PR #$PR_NUMBER, attempting to merge..."
+            
+            # Try to merge the PR
+            if gh pr merge $PR_NUMBER --squash --auto; then
+              echo "✅ PR #$PR_NUMBER merged successfully!"
+            else
+              echo "⚠️ Auto-merge failed, manual review required"
+            fi
+          else
+            echo "⚠️ No PR found for auto-merge"
+          fi
+      
+      - name: Show final results
+        if: always()
+        run: |
+          echo "🎉 Workflow completed!"
+          echo "📋 Final repository contents:"
+          ls -la
+          
+          if [ -f "playlist.json" ]; then
+            echo "✅ SUCCESS: playlist.json is ready!"
+            echo "📏 Final size: $(ls -lh "playlist.json" | awk '{print $5}')"
+          else
+            echo "❌ FAILURE: playlist.json not found"
+          fi
