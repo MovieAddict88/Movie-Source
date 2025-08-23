@@ -2641,6 +2641,239 @@
                 }
             }
 
+        // Function to check workflow status and configuration
+        async function checkWorkflowStatus() {
+            try {
+                showGitHubStatus('info', '🔍 Checking workflow status...');
+                
+                if (!GITHUB_CONFIG.token || !GITHUB_CONFIG.owner || !GITHUB_CONFIG.repo) {
+                    showGitHubStatus('error', 'GitHub configuration incomplete');
+                    return;
+                }
+                
+                // Check if workflow file exists
+                const workflowPath = '.github/workflows/auto-unzip.yml';
+                const workflowUrl = `https://api.github.com/repos/${GITHUB_CONFIG.owner}/${GITHUB_CONFIG.repo}/contents/${encodeURIComponent(workflowPath)}?ref=${encodeURIComponent(GITHUB_CONFIG.baseBranch || 'main')}`;
+                
+                const workflowResponse = await fetch(workflowUrl, {
+                    headers: {
+                        'Authorization': `token ${GITHUB_CONFIG.token}`,
+                        'Accept': 'application/vnd.github.v3+json'
+                    }
+                });
+                
+                if (workflowResponse.ok) {
+                    showGitHubStatus('success', '✅ Auto-unzip workflow found!');
+                    
+                    // Check recent workflow runs
+                    const runsUrl = `https://api.github.com/repos/${GITHUB_CONFIG.owner}/${GITHUB_CONFIG.repo}/actions/workflows/auto-unzip.yml/runs?per_page=5`;
+                    const runsResponse = await fetch(runsUrl, {
+                        headers: {
+                            'Authorization': `token ${GITHUB_CONFIG.token}`,
+                            'Accept': 'application/vnd.github.v3+json'
+                        }
+                    });
+                    
+                    if (runsResponse.ok) {
+                        const runs = await runsResponse.json();
+                        const recentRuns = runs.workflow_runs || [];
+                        
+                        if (recentRuns.length > 0) {
+                            showGitHubStatus('info', `📊 Found ${recentRuns.length} recent workflow runs`);
+                            
+                            recentRuns.forEach((run, index) => {
+                                const status = run.conclusion || run.status;
+                                const statusIcon = status === 'success' ? '✅' : status === 'failure' ? '❌' : '🔄';
+                                
+                                setTimeout(() => {
+                                    showGitHubStatus('info', `${statusIcon} Run #${run.run_number}: ${status} - ${new Date(run.created_at).toLocaleDateString()}`);
+                                }, (index + 1) * 2000);
+                            });
+                        } else {
+                            showGitHubStatus('info', '📊 No recent workflow runs found');
+                        }
+                    }
+                    
+                    // Check if there are any zip files in the repository
+                    const contentsUrl = `https://api.github.com/repos/${GITHUB_CONFIG.owner}/${GITHUB_CONFIG.repo}/contents?ref=${encodeURIComponent(GITHUB_CONFIG.baseBranch || 'main')}`;
+                    const contentsResponse = await fetch(contentsUrl, {
+                        headers: {
+                            'Authorization': `token ${GITHUB_CONFIG.token}`,
+                            'Accept': 'application/vnd.github.v3+json'
+                        }
+                    });
+                    
+                    if (contentsResponse.ok) {
+                        const contents = await contentsResponse.json();
+                        const zipFiles = contents.filter(item => item.name.endsWith('.zip'));
+                        const jsonFiles = contents.filter(item => item.name === 'playlist.json');
+                        
+                        if (zipFiles.length > 0) {
+                            showGitHubStatus('warning', `⚠️ Found ${zipFiles.length} zip file(s) that need processing`);
+                            zipFiles.forEach(zip => {
+                                setTimeout(() => {
+                                    showGitHubStatus('info', `🗜️ ${zip.name} (${(zip.size / 1024 / 1024).toFixed(2)}MB)`);
+                                }, 2000);
+                            });
+                        }
+                        
+                        if (jsonFiles.length > 0) {
+                            showGitHubStatus('success', '✅ playlist.json found in repository');
+                        } else {
+                            showGitHubStatus('info', '📋 No playlist.json found - zip files may need processing');
+                        }
+                    }
+                    
+                } else {
+                    showGitHubStatus('warning', '⚠️ Auto-unzip workflow not found');
+                    
+                    setTimeout(() => {
+                        showGitHubStatus('info', '💡 Use "Create Workflow" button to set up automatic zip processing');
+                    }, 2000);
+                }
+                
+            } catch (error) {
+                console.error('Workflow status check failed:', error);
+                showGitHubStatus('error', `Workflow status check failed: ${error.message}`);
+            }
+        }
+
+        // Function to create GitHub Actions workflow for auto-unzipping
+        async function createUnzipWorkflow() {
+            try {
+                showGitHubStatus('info', '🔧 Creating auto-unzip workflow...');
+                
+                if (!GITHUB_CONFIG.token || !GITHUB_CONFIG.owner || !GITHUB_CONFIG.repo) {
+                    showGitHubStatus('error', 'GitHub configuration incomplete');
+                    return;
+                }
+                
+                // Workflow content for auto-unzipping zip files
+                const workflowContent = `name: Auto-Unzip Playlist Files
+
+on:
+  push:
+    branches:
+      - 'upload-*'
+    paths:
+      - '*.zip'
+
+jobs:
+  unzip-playlist:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          token: \${{ secrets.GITHUB_TOKEN }}
+      
+      - name: Find zip files
+        id: find-zip
+        run: |
+          ZIP_FILES=\$(find . -name "*.zip" -type f)
+          echo "zip_files=\$ZIP_FILES" >> \$GITHUB_OUTPUT
+          echo "Found zip files: \$ZIP_FILES"
+      
+      - name: Unzip playlist files
+        if: steps.find-zip.outputs.zip_files != ''
+        run: |
+          for zipfile in *.zip; do
+            if [ -f "\$zipfile" ]; then
+              echo "Processing \$zipfile..."
+              unzip -o "\$zipfile"
+              echo "Unzipped \$zipfile"
+            fi
+          done
+      
+      - name: Commit unzipped files
+        if: steps.find-zip.outputs.zip_files != ''
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add .
+          if git diff --staged --quiet; then
+            echo "No changes to commit"
+          else
+            git commit -m "Auto-unzip playlist files from zip uploads"
+            git push
+          fi
+      
+      - name: Show results
+        run: |
+          echo "Workflow completed successfully!"
+          echo "Files in repository:"
+          ls -la
+          if [ -f "playlist.json" ]; then
+            echo "✅ playlist.json found and ready!"
+          else
+            echo "❌ playlist.json not found"
+          fi`;
+
+                // Create the workflow file
+                const workflowPath = '.github/workflows/auto-unzip.yml';
+                const workflowData = {
+                    message: 'Add auto-unzip workflow for playlist files',
+                    content: btoa(workflowContent),
+                    branch: GITHUB_CONFIG.baseBranch || 'main'
+                };
+
+                // Check if workflow already exists
+                const checkUrl = `https://api.github.com/repos/${GITHUB_CONFIG.owner}/${GITHUB_CONFIG.repo}/contents/${encodeURIComponent(workflowPath)}?ref=${encodeURIComponent(GITHUB_CONFIG.baseBranch || 'main')}`;
+                const checkResponse = await fetch(checkUrl, {
+                    headers: {
+                        'Authorization': `token ${GITHUB_CONFIG.token}`,
+                        'Accept': 'application/vnd.github.v3+json'
+                    }
+                });
+
+                if (checkResponse.ok) {
+                    const existingFile = await checkResponse.json();
+                    workflowData.sha = existingFile.sha;
+                    showGitHubStatus('info', 'Updating existing workflow...');
+                } else {
+                    showGitHubStatus('info', 'Creating new workflow...');
+                }
+
+                // Create/update the workflow file
+                const createUrl = `https://api.github.com/repos/${GITHUB_CONFIG.owner}/${GITHUB_CONFIG.repo}/contents/${encodeURIComponent(workflowPath)}`;
+                const createResponse = await fetch(createUrl, {
+                    method: 'PUT',
+                    headers: {
+                        'Authorization': `token ${GITHUB_CONFIG.token}`,
+                        'Accept': 'application/vnd.github.v3+json',
+                        'Content-Type': 'application/json'
+                    },
+                    body: JSON.stringify(workflowData)
+                });
+
+                if (createResponse.ok) {
+                    showGitHubStatus('success', '✅ Auto-unzip workflow created successfully!');
+                    
+                    setTimeout(() => {
+                        showGitHubStatus('info', '🔄 The workflow will now automatically unzip zip files when uploaded to upload-* branches');
+                    }, 2000);
+                    
+                    setTimeout(() => {
+                        showGitHubStatus('info', '📋 Next time you upload a zip file, it will be automatically processed');
+                    }, 4000);
+                    
+                    // Open the workflow file
+                    setTimeout(() => {
+                        const workflowUrl = `https://github.com/${GITHUB_CONFIG.owner}/${GITHUB_CONFIG.repo}/blob/${GITHUB_CONFIG.baseBranch || 'main'}/${workflowPath}`;
+                        window.open(workflowUrl, '_blank');
+                    }, 6000);
+                    
+                } else {
+                    const error = await createResponse.json().catch(() => ({ message: 'Unknown error' }));
+                    throw new Error(`Failed to create workflow: ${error.message || createResponse.statusText}`);
+                }
+
+            } catch (error) {
+                console.error('Workflow creation failed:', error);
+                showGitHubStatus('error', `Workflow creation failed: ${error.message}`);
+            }
+        }
+
         // Function to check for existing PRs and provide guidance
         async function checkExistingPRs() {
             try {
