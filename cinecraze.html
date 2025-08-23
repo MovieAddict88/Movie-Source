@@ -1849,8 +1849,15 @@
                     throw new Error('Data appears to be too small. Please check if data is properly loaded.');
                 }
                 
+                // Check for large file warnings
+                const dataSizeMB = (jsonData.length / 1024 / 1024).toFixed(2);
+                if (parseFloat(dataSizeMB) > 50) {
+                    showGitHubStatus('warning', `⚠️ Large file detected (${dataSizeMB}MB). This may take several minutes to upload and could timeout. Consider using ZIP compression.`);
+                } else if (parseFloat(dataSizeMB) > 20) {
+                    showGitHubStatus('info', `ℹ️ File size: ${dataSizeMB}MB. Upload may take a few minutes.`);
+                }
+                
                 let contentBase64 = '';
-                let dataSizeMB = (jsonData.length / 1024 / 1024).toFixed(2);
                 
                 if (GITHUB_CONFIG.useZip) {
                     // Check if JSZip is available
@@ -1923,16 +1930,21 @@
 
                 updateProgress(70, 'Uploading to GitHub...');
 
-                // Upload the file with timeout and retry logic
+                // Upload the file with improved timeout and retry logic for large files
                 const uploadUrl = `https://api.github.com/repos/${GITHUB_CONFIG.owner}/${GITHUB_CONFIG.repo}/contents/${encodeURIComponent(targetPath)}`;
                 
-                const uploadWithRetry = async (retries = 2) => {
+                // Calculate appropriate timeout based on file size
+                const fileSizeMB = parseFloat(dataSizeMB);
+                const uploadTimeout = Math.max(120000, Math.min(600000, fileSizeMB * 10000)); // 2-10 minutes based on size
+                console.log(`⏱️ Upload timeout set to ${Math.round(uploadTimeout/1000)}s for ${fileSizeMB}MB file`);
+                
+                const uploadWithRetry = async (retries = 3) => {
                     for (let attempt = 1; attempt <= retries; attempt++) {
                         try {
                             updateProgress(70, `Uploading to GitHub (attempt ${attempt}/${retries})...`);
                             
                             const controller = new AbortController();
-                            const timeoutId = setTimeout(() => controller.abort(), 60000); // 60 second timeout
+                            const timeoutId = setTimeout(() => controller.abort(), uploadTimeout);
                             
                             const uploadResponse = await fetch(uploadUrl, {
                                 method: 'PUT',
@@ -1950,15 +1962,15 @@
                             
                         } catch (error) {
                             if (error.name === 'AbortError') {
-                                console.warn(`Upload attempt ${attempt} timed out`);
+                                console.warn(`Upload attempt ${attempt} timed out after ${Math.round(uploadTimeout/1000)}s`);
                                 if (attempt === retries) {
-                                    throw new Error('Upload timed out after multiple attempts');
+                                    throw new Error(`Upload timed out after ${Math.round(uploadTimeout/1000)}s. File may be too large for GitHub API.`);
                                 }
                             } else if (attempt === retries) {
                                 throw error;
                             } else {
-                                console.warn(`Upload attempt ${attempt} failed, retrying...`, error);
-                                await new Promise(resolve => setTimeout(resolve, 2000)); // Wait 2 seconds before retry
+                                console.warn(`Upload attempt ${attempt} failed, retrying in 3s...`, error);
+                                await new Promise(resolve => setTimeout(resolve, 3000)); // Wait 3 seconds before retry
                             }
                         }
                     }
@@ -1994,8 +2006,22 @@
                         showGitHubStatus('info', `🔗 View file: ${fileUrl}`);
                     }, 3000);
                     
-                    // Post-upload workflow: Create PR or show next steps
-                    if (targetBranch !== GITHUB_CONFIG.baseBranch && GITHUB_CONFIG.createPR) {
+                    // Post-upload workflow: Handle different upload scenarios
+                    if (GITHUB_CONFIG.useZip && targetBranch !== GITHUB_CONFIG.baseBranch) {
+                        // ZIP upload to upload-* branch - workflow will handle PR creation
+                        showGitHubStatus('success', `✅ ZIP file uploaded to ${targetBranch}. The workflow will automatically unzip and create a PR.`);
+                        
+                        setTimeout(() => {
+                            const workflowUrl = `https://github.com/${GITHUB_CONFIG.owner}/${GITHUB_CONFIG.repo}/actions`;
+                            showGitHubStatus('info', `⚙️ Check workflow progress: ${workflowUrl}`);
+                        }, 2000);
+                        
+                        setTimeout(() => {
+                            showGitHubStatus('info', `📋 The workflow will automatically: 1) Unzip your file 2) Create a PR 3) You can then merge the PR`);
+                        }, 4000);
+                        
+                    } else if (targetBranch !== GITHUB_CONFIG.baseBranch && GITHUB_CONFIG.createPR) {
+                        // Non-ZIP upload to branch - create PR manually
                         setTimeout(async () => {
                             try {
                                 showGitHubStatus('info', '🔄 Creating pull request to merge changes...');
@@ -2068,6 +2094,15 @@
                         setTimeout(() => {
                             showGitHubStatus('info', `⚙️ Check workflow: ${workflowUrl}`);
                         }, 6000);
+                        
+                        // Check workflow status after a delay
+                        setTimeout(async () => {
+                            try {
+                                await checkWorkflowStatus(targetBranch);
+                            } catch (error) {
+                                console.log('Workflow status check failed:', error.message);
+                            }
+                        }, 10000);
                     }
                     
                     // Hide progress bar after success
@@ -3733,6 +3768,42 @@ jobs:
             } catch (error) {
                 console.error('❌ Error creating pull request:', error);
                 throw error;
+            }
+        }
+
+        // Check workflow status for zip uploads
+        async function checkWorkflowStatus(branchName) {
+            try {
+                console.log(`🔍 Checking workflow status for branch: ${branchName}`);
+                
+                // Check if the workflow has run
+                const workflowUrl = `https://api.github.com/repos/${GITHUB_CONFIG.owner}/${GITHUB_CONFIG.repo}/actions/workflows/unzip-playlist.yml/runs?branch=${encodeURIComponent(branchName)}&per_page=1`;
+                const response = await fetch(workflowUrl, {
+                    headers: {
+                        'Authorization': `token ${GITHUB_CONFIG.token}`,
+                        'Accept': 'application/vnd.github.v3+json'
+                    }
+                });
+                
+                if (response.ok) {
+                    const runs = await response.json();
+                    if (runs.workflow_runs && runs.workflow_runs.length > 0) {
+                        const latestRun = runs.workflow_runs[0];
+                        const status = latestRun.conclusion || latestRun.status;
+                        
+                        if (status === 'success') {
+                            showGitHubStatus('success', `✅ Workflow completed successfully! PR should be created automatically.`);
+                        } else if (status === 'failure') {
+                            showGitHubStatus('warning', `⚠️ Workflow failed. Check the Actions tab for details.`);
+                        } else if (status === 'in_progress') {
+                            showGitHubStatus('info', `🔄 Workflow is still running...`);
+                        }
+                    } else {
+                        showGitHubStatus('info', `ℹ️ Workflow not yet started. It should trigger automatically.`);
+                    }
+                }
+            } catch (error) {
+                console.log('Failed to check workflow status:', error.message);
             }
         }
 

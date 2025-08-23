@@ -5,28 +5,101 @@ on:
   push:
     branches: [ upload-* ]
     paths: [ 'playlist.json.zip' ]
+  workflow_dispatch: # Allow manual triggering
+
 jobs:
   unzip:
     runs-on: ubuntu-latest
+    timeout-minutes: 30 # Increased timeout for large files
+    
     steps:
-      - uses: actions/checkout@v4
+      - name: Checkout repository
+        uses: actions/checkout@v4
         with:
-          # Increases timeout for large files
-          fetch-depth: 0  
-          # Prevents partial checkouts
-          sparse-checkout: | 
-            playlist.json.zip
-
-      - name: Unzip with efficient tool
+          fetch-depth: 0
+          # Remove sparse checkout to avoid issues
+          
+      - name: Check file size
         run: |
-          # Install 7z for better compression handling
-          sudo apt-get install p7zip-full -y  
-          # Extract specific file efficiently
-          7z x -y playlist.json.zip -o. playlist.json  
-
-      - name: Commit result
+          echo "Checking zip file size..."
+          ls -lh playlist.json.zip
+          if [ ! -f "playlist.json.zip" ]; then
+            echo "❌ playlist.json.zip not found!"
+            exit 1
+          fi
+          
+      - name: Install 7zip
+        run: |
+          sudo apt-get update
+          sudo apt-get install p7zip-full -y
+          
+      - name: Unzip with validation
+        run: |
+          echo "Extracting playlist.json.zip..."
+          
+          # Extract the zip file
+          if 7z x -y playlist.json.zip -o. playlist.json; then
+            echo "✅ Extraction successful"
+            
+            # Validate the extracted JSON
+            if [ -f "playlist.json" ]; then
+              echo "✅ playlist.json extracted successfully"
+              
+              # Check file size
+              ls -lh playlist.json
+              
+              # Basic JSON validation
+              if python3 -m json.tool playlist.json > /dev/null 2>&1; then
+                echo "✅ JSON validation passed"
+              else
+                echo "❌ JSON validation failed - file may be corrupted"
+                exit 1
+              fi
+            else
+              echo "❌ playlist.json not found after extraction"
+              exit 1
+            fi
+          else
+            echo "❌ Extraction failed"
+            exit 1
+          fi
+          
+      - name: Commit extracted file
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
-          commit_message: 'Unzip playlist.json.zip to playlist.json'
-          # Commit only the JSON file
-          file_pattern: playlist.json  
+          commit_message: 'Auto-unzip: Extract playlist.json from zip upload'
+          file_pattern: playlist.json
+          commit_user_name: 'GitHub Action'
+          commit_user_email: 'action@github.com'
+          
+      - name: Create Pull Request
+        id: create-pr
+        uses: peter-evans/create-pull-request@v5
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          base: main
+          branch: ${{ github.ref_name }}
+          title: 'Update playlist.json from zip upload'
+          body: |
+            ## Automated Playlist Update
+            
+            This PR was created automatically after uploading a zip file to the `${{ github.ref_name }}` branch.
+            
+            **Changes:**
+            - Extracted `playlist.json` from uploaded zip file
+            - Updated playlist data
+            
+            **Source:** Zip upload to `${{ github.ref_name }}` branch
+            **Timestamp:** ${{ github.event.head_commit.timestamp }}
+            
+            Please review the changes before merging.
+            
+            ---
+            *This PR was created automatically by the unzip workflow.*
+          delete-branch: false
+          
+      - name: Comment on PR
+        if: steps.create-pr.outputs.pull-request-number
+        run: |
+          echo "PR created: #${{ steps.create-pr.outputs.pull-request-number }}"
+          echo "PR URL: ${{ steps.create-pr.outputs.pull-request-html-url }}"
