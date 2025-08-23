@@ -1,0 +1,14 @@
+{
+  "filename": "playlist.json",
+  "totalChunks": 3,
+  "totalSize": 54842788,
+  "chunks": [
+    "playlist.json.part1",
+    "playlist.json.part2",
+    "playlist.json.part3"
+  ],
+  "timestamp": "2025-08-23T11:53:21.755Z",
+  "instructions": "This file was uploaded in chunks. Use the workflow to reassemble.",
+  "chunkSize": 26214400,
+  "originalSizeMB": "52.30"
+}
