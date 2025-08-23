@@ -2137,6 +2137,16 @@
                 showGitHubStatus('error', `❌ Upload error: ${error.message}`);
                 console.error('GitHub upload error:', error);
                 
+                // Provide specific help for chunk upload errors
+                if (error.message.includes('chunk')) {
+                    showGitHubStatus('warning', '💡 Chunk upload failed. Try the "Diagnose Chunks" button to troubleshoot');
+                    showGitHubStatus('info', '🔧 Alternative: Try enabling zip compression for smaller file size');
+                } else if (error.message.includes('timeout')) {
+                    showGitHubStatus('warning', '💡 Upload timed out. Try again or use zip compression');
+                } else if (error.message.includes('413')) {
+                    showGitHubStatus('warning', '💡 File too large. Enable zip compression or use chunked upload');
+                }
+                
                 if (progressBar) {
                     setTimeout(() => {
                         progressBar.style.display = 'none';
@@ -3502,9 +3512,29 @@ jobs:
                 // Use chunked upload for very large files (>50MB)
                 if (parseFloat(sizeCheck.sizeMB) > 50) {
                     showGitHubStatus('info', `📦 Very large file detected (${sizeCheck.sizeMB}MB). Using chunked upload method.`);
-                    await uploadLargeFileInChunks(dataStr, 'playlist.json');
-                    OperationManager.finish(operationId, true, 'Chunked upload completed successfully');
-                    return;
+                    
+                    try {
+                        await uploadLargeFileInChunks(dataStr, 'playlist.json');
+                        OperationManager.finish(operationId, true, 'Chunked upload completed successfully');
+                        return;
+                    } catch (chunkError) {
+                        console.error('Chunked upload failed, trying alternative method:', chunkError);
+                        showGitHubStatus('warning', '⚠️ Chunked upload failed, trying alternative method...');
+                        
+                        // Fallback: Try to upload as a single compressed file
+                        try {
+                            showGitHubStatus('info', '🔄 Trying compressed single-file upload...');
+                            GITHUB_CONFIG.useZip = true;
+                            await uploadToGitHub(dataStr, 'playlist.json');
+                            OperationManager.finish(operationId, true, 'Alternative upload completed successfully');
+                            return;
+                        } catch (fallbackError) {
+                            console.error('Alternative upload also failed:', fallbackError);
+                            showGitHubStatus('error', '❌ Both upload methods failed. Please check your GitHub configuration and try again.');
+                            OperationManager.finish(operationId, false, 'All upload methods failed');
+                            return;
+                        }
+                    }
                 }
                 
                 // Auto-enable zip compression for large files
@@ -3555,8 +3585,8 @@ jobs:
             try {
                 showGitHubStatus('info', '📦 Large file detected. Using chunked upload method...');
                 
-                // Split data into chunks of 50MB (safe for GitHub API)
-                const chunkSize = 50 * 1024 * 1024; // 50MB in bytes
+                // Split data into chunks of 25MB (safer for GitHub API)
+                const chunkSize = 25 * 1024 * 1024; // 25MB in bytes
                 const totalSize = jsonData.length;
                 const totalChunks = Math.ceil(totalSize / chunkSize);
                 
@@ -3566,7 +3596,7 @@ jobs:
                 const chunkBranch = `chunked-upload-${Date.now()}`;
                 await ensureBranchExists(chunkBranch, GITHUB_CONFIG.baseBranch || 'main');
                 
-                // Upload chunks
+                // Upload chunks with retry logic
                 for (let i = 0; i < totalChunks; i++) {
                     const start = i * chunkSize;
                     const end = Math.min(start + chunkSize, totalSize);
@@ -3575,32 +3605,113 @@ jobs:
                     
                     showGitHubStatus('info', `📦 Uploading chunk ${i + 1}/${totalChunks} (${(chunk.length/1024/1024).toFixed(2)}MB)...`);
                     
-                    // Upload chunk
-                    const chunkData = {
-                        message: `Upload chunk ${i + 1}/${totalChunks} of ${filename}`,
-                        content: btoa(unescape(encodeURIComponent(chunk))),
-                        branch: chunkBranch
-                    };
+                    // Upload chunk with retry logic
+                    let chunkUploaded = false;
+                    let retryCount = 0;
+                    const maxRetries = 3;
                     
-                    const chunkUrl = `https://api.github.com/repos/${GITHUB_CONFIG.owner}/${GITHUB_CONFIG.repo}/contents/${chunkFilename}`;
-                    const chunkResponse = await fetch(chunkUrl, {
-                        method: 'PUT',
-                        headers: {
-                            'Authorization': `token ${GITHUB_CONFIG.token}`,
-                            'Accept': 'application/vnd.github.v3+json',
-                            'Content-Type': 'application/json'
-                        },
-                        body: JSON.stringify(chunkData)
-                    });
-                    
-                    if (!chunkResponse.ok) {
-                        throw new Error(`Failed to upload chunk ${i + 1}: ${chunkResponse.statusText}`);
+                    while (!chunkUploaded && retryCount < maxRetries) {
+                        try {
+                            retryCount++;
+                            if (retryCount > 1) {
+                                showGitHubStatus('info', `🔄 Retrying chunk ${i + 1} (attempt ${retryCount}/${maxRetries})...`);
+                                await new Promise(resolve => setTimeout(resolve, 2000 * retryCount)); // Exponential backoff
+                            }
+                            
+                            // Use a more robust base64 encoding method
+                            let contentBase64;
+                            try {
+                                const encoder = new TextEncoder();
+                                const bytes = encoder.encode(chunk);
+                                const binaryString = Array.from(bytes, byte => String.fromCharCode(byte)).join('');
+                                contentBase64 = btoa(binaryString);
+                            } catch (encodeError) {
+                                console.warn('Advanced encoding failed, using fallback:', encodeError);
+                                contentBase64 = btoa(unescape(encodeURIComponent(chunk)));
+                            }
+                            
+                            // Upload chunk
+                            const chunkData = {
+                                message: `Upload chunk ${i + 1}/${totalChunks} of ${filename}`,
+                                content: contentBase64,
+                                branch: chunkBranch
+                            };
+                            
+                            const chunkUrl = `https://api.github.com/repos/${GITHUB_CONFIG.owner}/${GITHUB_CONFIG.repo}/contents/${chunkFilename}`;
+                            
+                            // Check if file already exists to get SHA
+                            const checkUrl = `https://api.github.com/repos/${GITHUB_CONFIG.owner}/${GITHUB_CONFIG.repo}/contents/${encodeURIComponent(chunkFilename)}?ref=${encodeURIComponent(chunkBranch)}`;
+                            const checkResponse = await fetch(checkUrl, {
+                                headers: {
+                                    'Authorization': `token ${GITHUB_CONFIG.token}`,
+                                    'Accept': 'application/vnd.github.v3+json'
+                                }
+                            });
+                            
+                            if (checkResponse.ok) {
+                                const fileInfo = await checkResponse.json();
+                                chunkData.sha = fileInfo.sha;
+                                console.log(`📄 Updating existing chunk ${i + 1}`);
+                            }
+                            
+                            const chunkResponse = await fetch(chunkUrl, {
+                                method: 'PUT',
+                                headers: {
+                                    'Authorization': `token ${GITHUB_CONFIG.token}`,
+                                    'Accept': 'application/vnd.github.v3+json',
+                                    'Content-Type': 'application/json'
+                                },
+                                body: JSON.stringify(chunkData)
+                            });
+                            
+                            if (chunkResponse.ok) {
+                                chunkUploaded = true;
+                                console.log(`✅ Chunk ${i + 1} uploaded successfully`);
+                                
+                                // Progress update
+                                const progress = ((i + 1) / totalChunks) * 100;
+                                updateProgress(progress, `Chunk ${i + 1}/${totalChunks} uploaded`);
+                                
+                            } else {
+                                // Get detailed error information
+                                let errorMessage = 'Unknown error';
+                                let errorDetails = {};
+                                
+                                try {
+                                    const error = await chunkResponse.json();
+                                    errorMessage = error.message || error.error || 'Unknown error';
+                                    errorDetails = error;
+                                } catch (parseError) {
+                                    errorMessage = chunkResponse.statusText || `HTTP ${chunkResponse.status}`;
+                                }
+                                
+                                console.error(`❌ Chunk ${i + 1} upload failed:`, {
+                                    status: chunkResponse.status,
+                                    message: errorMessage,
+                                    details: errorDetails
+                                });
+                                
+                                if (retryCount === maxRetries) {
+                                    throw new Error(`Failed to upload chunk ${i + 1} after ${maxRetries} attempts: ${errorMessage}`);
+                                }
+                            }
+                            
+                        } catch (chunkError) {
+                            console.error(`❌ Chunk ${i + 1} error (attempt ${retryCount}):`, chunkError);
+                            
+                            if (retryCount === maxRetries) {
+                                throw new Error(`Chunk ${i + 1} failed after ${maxRetries} attempts: ${chunkError.message}`);
+                            }
+                        }
                     }
                     
-                    // Progress update
-                    const progress = ((i + 1) / totalChunks) * 100;
-                    updateProgress(progress, `Chunk ${i + 1}/${totalChunks} uploaded`);
+                    // Add a small delay between chunks to avoid rate limiting
+                    if (i < totalChunks - 1) {
+                        await new Promise(resolve => setTimeout(resolve, 1000));
+                    }
                 }
+                
+                showGitHubStatus('info', '📋 Creating manifest file...');
                 
                 // Create a manifest file with chunk information
                 const manifest = {
@@ -3609,7 +3720,9 @@ jobs:
                     totalSize: totalSize,
                     chunks: Array.from({length: totalChunks}, (_, i) => `${filename}.part${i + 1}`),
                     timestamp: new Date().toISOString(),
-                    instructions: 'This file was uploaded in chunks. Use the workflow to reassemble.'
+                    instructions: 'This file was uploaded in chunks. Use the workflow to reassemble.',
+                    chunkSize: chunkSize,
+                    originalSizeMB: (totalSize / 1024 / 1024).toFixed(2)
                 };
                 
                 const manifestData = {
@@ -3636,12 +3749,148 @@ jobs:
                 showGitHubStatus('success', `✅ Chunked upload completed! ${totalChunks} chunks uploaded to branch: ${chunkBranch}`);
                 showGitHubStatus('info', `📋 Next: Create PR from ${chunkBranch} to ${GITHUB_CONFIG.baseBranch || 'main'} to merge chunks`);
                 
+                // Trigger the reassemble workflow
+                setTimeout(async () => {
+                    try {
+                        showGitHubStatus('info', '🔄 Triggering reassemble workflow...');
+                        await triggerReassembleWorkflow();
+                    } catch (workflowError) {
+                        console.warn('Failed to trigger workflow automatically:', workflowError);
+                        showGitHubStatus('info', '📋 You can manually trigger the reassemble workflow using the button below');
+                    }
+                }, 3000);
+                
                 return { branch: chunkBranch, chunks: totalChunks };
                 
             } catch (error) {
                 console.error('Chunked upload error:', error);
                 showGitHubStatus('error', `❌ Chunked upload failed: ${error.message}`);
+                
+                // Provide helpful troubleshooting information
+                if (error.message.includes('chunk')) {
+                    showGitHubStatus('warning', '💡 Troubleshooting: Check your GitHub token permissions and repository access');
+                    showGitHubStatus('info', '🔧 Try using the "Trigger Reassemble" button to process existing chunks');
+                }
+                
                 throw error;
+            }
+        }
+
+        // Function to diagnose chunk upload issues
+        async function diagnoseChunkUploadIssues() {
+            try {
+                showGitHubStatus('info', '🔍 Diagnosing chunk upload issues...');
+                
+                // Check GitHub configuration
+                const configErrors = validateGitHubConfig();
+                if (configErrors.length > 0) {
+                    showGitHubStatus('error', `Configuration errors: ${configErrors.join(', ')}`);
+                    return;
+                }
+                
+                // Test GitHub API access
+                showGitHubStatus('info', '🔍 Testing GitHub API access...');
+                const testUrl = `https://api.github.com/repos/${GITHUB_CONFIG.owner}/${GITHUB_CONFIG.repo}`;
+                const testResponse = await fetch(testUrl, {
+                    headers: {
+                        'Authorization': `token ${GITHUB_CONFIG.token}`,
+                        'Accept': 'application/vnd.github.v3+json'
+                    }
+                });
+                
+                if (!testResponse.ok) {
+                    showGitHubStatus('error', `❌ GitHub API access failed: ${testResponse.status} ${testResponse.statusText}`);
+                    return;
+                }
+                
+                const repoInfo = await testResponse.json();
+                showGitHubStatus('success', `✅ Repository access: ${repoInfo.full_name}`);
+                
+                // Check permissions
+                if (repoInfo.permissions) {
+                    const permissions = repoInfo.permissions;
+                    showGitHubStatus('info', `📋 Permissions: Write=${permissions.push}, Admin=${permissions.admin}`);
+                    
+                    if (!permissions.push) {
+                        showGitHubStatus('warning', '⚠️ No write permission to repository');
+                        return;
+                    }
+                }
+                
+                // Check for existing chunked upload branches
+                showGitHubStatus('info', '🔍 Checking for existing chunked uploads...');
+                const branchesUrl = `https://api.github.com/repos/${GITHUB_CONFIG.owner}/${GITHUB_CONFIG.repo}/branches`;
+                const branchesResponse = await fetch(branchesUrl, {
+                    headers: {
+                        'Authorization': `token ${GITHUB_CONFIG.token}`,
+                        'Accept': 'application/vnd.github.v3+json'
+                    }
+                });
+                
+                if (branchesResponse.ok) {
+                    const branches = await branchesResponse.json();
+                    const chunkedBranches = branches.filter(branch => branch.name.startsWith('chunked-upload-'));
+                    
+                    if (chunkedBranches.length > 0) {
+                        showGitHubStatus('info', `📋 Found ${chunkedBranches.length} chunked upload branches`);
+                        chunkedBranches.forEach(branch => {
+                            showGitHubStatus('info', `   - ${branch.name}`);
+                        });
+                        
+                        showGitHubStatus('info', '💡 Use "Trigger Reassemble" button to process existing chunks');
+                    } else {
+                        showGitHubStatus('info', '📋 No existing chunked upload branches found');
+                    }
+                }
+                
+                // Test file creation
+                showGitHubStatus('info', '🔍 Testing file creation capability...');
+                const testBranch = `test-upload-${Date.now()}`;
+                await ensureBranchExists(testBranch, GITHUB_CONFIG.baseBranch || 'main');
+                
+                const testFile = 'test-upload.txt';
+                const testData = {
+                    message: 'Test file creation for chunked uploads',
+                    content: btoa('This is a test file to verify upload permissions'),
+                    branch: testBranch
+                };
+                
+                const testFileUrl = `https://api.github.com/repos/${GITHUB_CONFIG.owner}/${GITHUB_CONFIG.repo}/contents/${testFile}`;
+                const testFileResponse = await fetch(testFileUrl, {
+                    method: 'PUT',
+                    headers: {
+                        'Authorization': `token ${GITHUB_CONFIG.token}`,
+                        'Accept': 'application/vnd.github.v3+json',
+                        'Content-Type': 'application/json'
+                    },
+                    body: JSON.stringify(testData)
+                });
+                
+                if (testFileResponse.ok) {
+                    showGitHubStatus('success', '✅ File creation test successful');
+                    
+                    // Clean up test branch
+                    const deleteUrl = `https://api.github.com/repos/${GITHUB_CONFIG.owner}/${GITHUB_CONFIG.repo}/git/refs/heads/${testBranch}`;
+                    await fetch(deleteUrl, {
+                        method: 'DELETE',
+                        headers: {
+                            'Authorization': `token ${GITHUB_CONFIG.token}`,
+                            'Accept': 'application/vnd.github.v3+json'
+                        }
+                    });
+                    showGitHubStatus('info', '🧹 Test branch cleaned up');
+                    
+                } else {
+                    showGitHubStatus('error', `❌ File creation test failed: ${testFileResponse.status} ${testFileResponse.statusText}`);
+                    return;
+                }
+                
+                showGitHubStatus('success', '✅ Chunk upload diagnosis completed successfully');
+                showGitHubStatus('info', '💡 Your GitHub configuration appears to be working correctly');
+                
+            } catch (error) {
+                console.error('Chunk upload diagnosis failed:', error);
+                showGitHubStatus('error', `❌ Diagnosis failed: ${error.message}`);
             }
         }
 
@@ -4711,6 +4960,7 @@ jobs:
                                 <input type="text" id="github-branch" class="form-control" placeholder="e.g., upload-YYYY-MM-DD-HHMM">
                                 <small class="form-text">Use a name starting with <strong>upload-</strong> to trigger the unzip workflow. Format: upload-YYYY-MM-DD-HHMM</small>
                 <small class="form-text">💡 <strong>Large files (>50MB)</strong> will automatically use chunked upload to avoid GitHub API limits</small>
+                <small class="form-text">🔧 <strong>Troubleshooting:</strong> If chunk upload fails, use "Diagnose Chunks" button or try zip compression</small>
                             </div>
                             <div class="form-group">
                                 <label>
@@ -4780,6 +5030,7 @@ jobs:
                     <button class="btn btn-secondary" onclick="createUnzipWorkflow()">🔧 Fix Workflow</button>
                     <button class="btn btn-secondary" onclick="triggerWorkflowForExistingZip()">🚀 Trigger Workflow</button>
                     <button class="btn btn-secondary" onclick="triggerReassembleWorkflow()">🔧 Trigger Reassemble</button>
+                    <button class="btn btn-secondary" onclick="diagnoseChunkUploadIssues()">🔍 Diagnose Chunks</button>
                                 <button class="btn btn-accent" onclick="exportToGitHub()">📤 Upload to GitHub</button>
                             </div>
                             
