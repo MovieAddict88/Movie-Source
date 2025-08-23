@@ -1,0 +1,161 @@
+name: Auto-Unzip Playlist Files
+permissions:
+  contents: write
+  pull-requests: write
+on:
+  push:
+    branches: [ upload-* ]
+    paths: [ 'playlist.json.zip' ]
+  workflow_dispatch: # Allow manual triggering
+
+jobs:
+  unzip:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30 # Increased timeout for large files
+    
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          # Don't use sparse checkout for large files to avoid issues
+          
+      - name: Check zip file size
+        run: |
+          echo "📦 Checking zip file size..."
+          zip_size=$(stat -c%s playlist.json.zip)
+          zip_size_mb=$(echo "scale=2; $zip_size/1024/1024" | bc)
+          echo "📦 Zip file size: ${zip_size_mb}MB"
+          
+          if (( $(echo "$zip_size_mb > 100" | bc -l) )); then
+            echo "⚠️ Warning: Zip file is very large (${zip_size_mb}MB)"
+          fi
+
+      - name: Install 7zip
+        run: |
+          sudo apt-get update
+          sudo apt-get install p7zip-full -y
+
+      - name: Unzip playlist files
+        run: |
+          echo "🔓 Unzipping playlist.json.zip..."
+          
+          # Check if zip file exists
+          if [ ! -f "playlist.json.zip" ]; then
+            echo "❌ Error: playlist.json.zip not found"
+            exit 1
+          fi
+          
+          # List contents of zip file
+          echo "📋 Zip contents:"
+          7z l playlist.json.zip
+          
+          # Extract with verbose output
+          7z x -y playlist.json.zip -o.
+          
+          # Check extracted files
+          echo "📁 Extracted files:"
+          ls -la *.json
+          
+          # Check file sizes
+          for file in *.json; do
+            if [ -f "$file" ]; then
+              size=$(stat -c%s "$file")
+              size_mb=$(echo "scale=2; $size/1024/1024" | bc)
+              echo "📄 $file: ${size_mb}MB"
+            fi
+          done
+
+      - name: Validate JSON files
+        run: |
+          echo "🔍 Validating JSON files..."
+          
+          # Check if playlist.json exists and is valid
+          if [ -f "playlist.json" ]; then
+            echo "✅ playlist.json found"
+            
+            # Validate JSON syntax
+            if python3 -m json.tool playlist.json > /dev/null 2>&1; then
+              echo "✅ playlist.json is valid JSON"
+            else
+              echo "❌ playlist.json is not valid JSON"
+              exit 1
+            fi
+            
+            # Check file size
+            size=$(stat -c%s "playlist.json")
+            size_mb=$(echo "scale=2; $size/1024/1024" | bc)
+            echo "📊 playlist.json size: ${size_mb}MB"
+            
+            if (( $(echo "$size_mb > 100" | bc -l) )); then
+              echo "⚠️ Warning: Extracted file is very large (${size_mb}MB)"
+              echo "💡 Consider splitting the data or using Git LFS"
+            fi
+            
+          else
+            echo "❌ Error: playlist.json not found after extraction"
+            exit 1
+          fi
+
+      - name: Commit extracted files
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: |
+            Auto-unzip playlist files from zip uploads
+            
+            - Extracted playlist.json from playlist.json.zip
+            - File size: $(stat -c%s playlist.json | numfmt --to=iec)
+            - Timestamp: $(date -u +"%Y-%m-%d %H:%M:%S UTC")
+            - Workflow: ${{ github.workflow }}
+          file_pattern: |
+            playlist.json
+            *.json
+          commit_user_name: 'GitHub Action'
+          commit_user_email: 'action@github.com'
+
+      - name: Create Pull Request
+        if: github.ref != 'refs/heads/main'
+        run: |
+          echo "🔀 Creating pull request..."
+          
+          # Get branch name (remove refs/heads/ prefix)
+          BRANCH_NAME=${GITHUB_REF#refs/heads/}
+          BASE_BRANCH="main"
+          
+          echo "📋 Branch: $BRANCH_NAME -> $BASE_BRANCH"
+          
+          # Check if PR already exists
+          existing_pr=$(gh pr list --head "$BRANCH_NAME" --base "$BASE_BRANCH" --json number --jq '.[0].number' 2>/dev/null || echo "")
+          
+          if [ -n "$existing_pr" ]; then
+            echo "✅ Pull request #$existing_pr already exists"
+          else
+            # Create PR
+            gh pr create \
+              --title "Update playlist.json from $BRANCH_NAME" \
+              --body "## Automated Playlist Update
+            
+            This pull request was created automatically by the unzip workflow.
+            
+            **Details:**
+            - Source Branch: \`$BRANCH_NAME\`
+            - Target Branch: \`$BASE_BRANCH\`
+            - Workflow: ${{ github.workflow }}
+            - Timestamp: $(date -u +"%Y-%m-%d %H:%M:%S UTC")
+            
+            **Files Updated:**
+            - playlist.json (extracted from zip upload)
+            
+            **Note:** Please review the changes before merging." \
+              --base "$BASE_BRANCH" \
+              --head "$BRANCH_NAME"
+            
+            echo "✅ Pull request created successfully"
+          fi
+
+      - name: Cleanup
+        if: always()
+        run: |
+          echo "🧹 Cleaning up..."
+          # Remove temporary files if any
+          rm -f *.tmp *.log 2>/dev/null || true

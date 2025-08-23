@@ -1,0 +1,216 @@
+name: Reassemble Chunked Uploads
+permissions:
+  contents: write
+  pull-requests: write
+on:
+  push:
+    branches: [ chunked-upload-* ]
+    paths: [ '*.manifest.json' ]
+  workflow_dispatch:
+    inputs:
+      branch:
+        description: 'Branch with chunked files'
+        required: true
+        default: 'chunked-upload-'
+
+jobs:
+  reassemble:
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          
+      - name: Find manifest files
+        id: find-manifests
+        run: |
+          echo "🔍 Looking for manifest files..."
+          manifests=$(find . -name "*.manifest.json" -type f)
+          if [ -z "$manifests" ]; then
+            echo "❌ No manifest files found"
+            exit 1
+          fi
+          
+          echo "📋 Found manifest files:"
+          echo "$manifests"
+          
+          # Use the first manifest found
+          manifest_file=$(echo "$manifests" | head -n1)
+          echo "📄 Using manifest: $manifest_file"
+          echo "manifest_file=$manifest_file" >> $GITHUB_OUTPUT
+          
+      - name: Read manifest
+        id: read-manifest
+        run: |
+          manifest_file="${{ steps.find-manifests.outputs.manifest_file }}"
+          echo "📖 Reading manifest: $manifest_file"
+          
+          # Extract information from manifest
+          filename=$(jq -r '.filename' "$manifest_file")
+          total_chunks=$(jq -r '.totalChunks' "$manifest_file")
+          total_size=$(jq -r '.totalSize' "$manifest_file")
+          
+          echo "📊 File: $filename"
+          echo "📦 Total chunks: $total_chunks"
+          echo "📏 Total size: $total_size bytes"
+          
+          echo "filename=$filename" >> $GITHUB_OUTPUT
+          echo "total_chunks=$total_chunks" >> $GITHUB_OUTPUT
+          echo "total_size=$total_size" >> $GITHUB_OUTPUT
+          
+      - name: Check all chunks exist
+        run: |
+          manifest_file="${{ steps.find-manifests.outputs.manifest_file }}"
+          total_chunks="${{ steps.read-manifest.outputs.total_chunks }}"
+          
+          echo "🔍 Checking if all chunks exist..."
+          missing_chunks=0
+          
+          for i in $(seq 1 $total_chunks); do
+            chunk_file="${{ steps.read-manifest.outputs.filename }}.part$i"
+            if [ ! -f "$chunk_file" ]; then
+              echo "❌ Missing chunk: $chunk_file"
+              missing_chunks=$((missing_chunks + 1))
+            else
+              chunk_size=$(stat -c%s "$chunk_file")
+              echo "✅ Chunk $i: $chunk_file (${chunk_size} bytes)"
+            fi
+          done
+          
+          if [ $missing_chunks -gt 0 ]; then
+            echo "❌ Missing $missing_chunks chunks. Cannot reassemble file."
+            exit 1
+          fi
+          
+          echo "✅ All chunks found!"
+          
+      - name: Reassemble file
+        run: |
+          filename="${{ steps.read-manifest.outputs.filename }}"
+          total_chunks="${{ steps.read-manifest.outputs.total_chunks }}"
+          
+          echo "🔧 Reassembling $filename from $total_chunks chunks..."
+          
+          # Create the reassembled file
+          > "$filename" # Clear/create file
+          
+          for i in $(seq 1 $total_chunks); do
+            chunk_file="${filename}.part$i"
+            echo "📦 Adding chunk $i/$total_chunks: $chunk_file"
+            cat "$chunk_file" >> "$filename"
+          done
+          
+          # Verify the reassembled file
+          final_size=$(stat -c%s "$filename")
+          expected_size="${{ steps.read-manifest.outputs.total_size }}"
+          
+          echo "📊 Reassembly complete:"
+          echo "   Expected size: $expected_size bytes"
+          echo "   Actual size: $final_size bytes"
+          
+          if [ "$final_size" -eq "$expected_size" ]; then
+            echo "✅ File size matches expected size"
+          else
+            echo "❌ File size mismatch!"
+            exit 1
+          fi
+          
+          # Validate JSON
+          if python3 -c "import json; json.load(open('$filename'))" 2>/dev/null; then
+            echo "✅ File is valid JSON"
+          else
+            echo "❌ File is not valid JSON"
+            exit 1
+          fi
+          
+      - name: Commit reassembled file
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: |
+            Reassemble ${{ steps.read-manifest.outputs.filename }} from chunked upload
+            
+            - Reassembled from ${{ steps.read-manifest.outputs.total_chunks }} chunks
+            - Total size: ${{ steps.read-manifest.outputs.total_size }} bytes
+            - Timestamp: $(date -u +"%Y-%m-%d %H:%M:%S UTC")
+            - Workflow: ${{ github.workflow }}
+          file_pattern: |
+            ${{ steps.read-manifest.outputs.filename }}
+          commit_user_name: 'GitHub Action'
+          commit_user_email: 'action@github.com'
+          
+      - name: Clean up chunk files
+        run: |
+          filename="${{ steps.read-manifest.outputs.filename }}"
+          total_chunks="${{ steps.read-manifest.outputs.total_chunks }}"
+          
+          echo "🧹 Cleaning up chunk files..."
+          
+          # Remove chunk files
+          for i in $(seq 1 $total_chunks); do
+            chunk_file="${filename}.part$i"
+            if [ -f "$chunk_file" ]; then
+              rm "$chunk_file"
+              echo "🗑️ Removed: $chunk_file"
+            fi
+          done
+          
+          # Remove manifest file
+          manifest_file="${{ steps.find-manifests.outputs.manifest_file }}"
+          if [ -f "$manifest_file" ]; then
+            rm "$manifest_file"
+            echo "🗑️ Removed: $manifest_file"
+          fi
+          
+          echo "✅ Cleanup complete"
+          
+      - name: Commit cleanup
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: 'Clean up chunk files after reassembly'
+          file_pattern: |
+            *.part*
+            *.manifest.json
+          commit_user_name: 'GitHub Action'
+          commit_user_email: 'action@github.com'
+          
+      - name: Create Pull Request
+        run: |
+          echo "🔀 Creating pull request..."
+          
+          # Get branch name (remove refs/heads/ prefix)
+          BRANCH_NAME=${GITHUB_REF#refs/heads/}
+          BASE_BRANCH="main"
+          
+          echo "📋 Branch: $BRANCH_NAME -> $BASE_BRANCH"
+          
+          # Check if PR already exists
+          existing_pr=$(gh pr list --head "$BRANCH_NAME" --base "$BASE_BRANCH" --json number --jq '.[0].number' 2>/dev/null || echo "")
+          
+          if [ -n "$existing_pr" ]; then
+            echo "✅ Pull request #$existing_pr already exists"
+          else
+            # Create PR
+            gh pr create \
+              --title "Reassemble ${{ steps.read-manifest.outputs.filename }} from chunked upload" \
+              --body "## Automated File Reassembly
+            
+            This pull request was created automatically by the reassemble workflow.
+            
+            **Details:**
+            - Source Branch: \`$BRANCH_NAME\`
+            - Target Branch: \`$BASE_BRANCH\`
+            - Workflow: ${{ github.workflow }}
+            - Timestamp: $(date -u +"%Y-%m-%d %H:%M:%S UTC")
+            
+            **Files Updated:**
+            - ${{ steps.read-manifest.outputs.filename }} (reassembled from ${{ steps.read-manifest.outputs.total_chunks }} chunks)
+            
+            **Note:** This file was uploaded in chunks due to size limitations and has been automatically reassembled." \
+              --base "$BASE_BRANCH" \
+              --head "$BRANCH_NAME"
+            
+            echo "✅ Pull request created successfully"
+          fi
