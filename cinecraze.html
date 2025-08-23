@@ -3054,6 +3054,57 @@
             }
         }
 
+        // Clear cached branch name and regenerate
+        function clearCachedBranch() {
+            GITHUB_CONFIG.branch = '';
+            const branchEl = document.getElementById('github-branch');
+            if (branchEl) {
+                branchEl.value = '';
+            }
+            showGitHubStatus('info', '🔄 Cleared cached branch name - will auto-generate new one on next upload');
+        }
+
+        // Clean up specific problematic branches
+        async function cleanupProblematicBranches() {
+            try {
+                showGitHubStatus('info', '🧹 Cleaning up problematic old format branches...');
+                const branches = await listUploadBranches();
+                
+                if (branches.length === 0) {
+                    showGitHubStatus('info', '✨ No upload branches found');
+                    return;
+                }
+
+                let deletedCount = 0;
+                for (const branch of branches) {
+                    try {
+                        // Look for old format branches that might be causing issues
+                        const isOldFormat = /^upload-\d{4}-\d{2}-\d{2}-\d{4}$/.test(branch.name);
+                        const isVeryOld = /^upload-202[0-4]/.test(branch.name);
+                        
+                        if (isOldFormat || isVeryOld) {
+                            console.log(`Deleting problematic branch: ${branch.name}`);
+                            await deleteBranch(branch.name);
+                            deletedCount++;
+                        }
+                    } catch (error) {
+                        console.warn(`Could not delete branch ${branch.name}:`, error);
+                    }
+                }
+
+                if (deletedCount > 0) {
+                    showGitHubStatus('success', `🧹 Cleaned up ${deletedCount} problematic branches`);
+                    setTimeout(() => {
+                        showGitHubStatus('info', '✨ Try uploading again with a fresh branch name');
+                    }, 2000);
+                } else {
+                    showGitHubStatus('info', '✨ No problematic branches found');
+                }
+            } catch (error) {
+                showGitHubStatus('warning', `⚠️ Cleanup failed: ${error.message}`);
+            }
+        }
+
         // Cleanup old upload branches (older than 7 days)
         async function cleanupOldBranches() {
             try {
@@ -3071,19 +3122,32 @@
                 let deletedCount = 0;
                 for (const branch of branches) {
                     try {
-                        // Parse date from branch name (upload-YYYY-MM-DD-HHMMSS-xxxx)
-                        const match = branch.name.match(/upload-(\d{4})-(\d{2})-(\d{2})-(\d{6})/);
-                        if (match) {
-                            const [, year, month, day, time] = match;
+                        // Parse date from branch name - handle both old and new formats
+                        // New format: upload-YYYY-MM-DD-HHMMSS-xxxx
+                        // Old format: upload-YYYY-MM-DD-HHMM
+                        let branchDate = null;
+                        
+                        const newMatch = branch.name.match(/upload-(\d{4})-(\d{2})-(\d{2})-(\d{6})-\w+/);
+                        const oldMatch = branch.name.match(/upload-(\d{4})-(\d{2})-(\d{2})-(\d{4})$/);
+                        
+                        if (newMatch) {
+                            // New format with seconds
+                            const [, year, month, day, time] = newMatch;
                             const hour = time.substring(0, 2);
                             const minute = time.substring(2, 4);
                             const second = time.substring(4, 6);
-                            const branchDate = new Date(`${year}-${month}-${day}T${hour}:${minute}:${second}`);
-                            
-                            if (branchDate < sevenDaysAgo) {
-                                await deleteBranch(branch.name);
-                                deletedCount++;
-                            }
+                            branchDate = new Date(`${year}-${month}-${day}T${hour}:${minute}:${second}`);
+                        } else if (oldMatch) {
+                            // Old format without seconds
+                            const [, year, month, day, time] = oldMatch;
+                            const hour = time.substring(0, 2);
+                            const minute = time.substring(2, 4);
+                            branchDate = new Date(`${year}-${month}-${day}T${hour}:${minute}:00`);
+                        }
+                        
+                        if (branchDate && branchDate < sevenDaysAgo) {
+                            await deleteBranch(branch.name);
+                            deletedCount++;
                         }
                     } catch (error) {
                         console.warn(`Could not delete branch ${branch.name}:`, error);
@@ -3852,8 +3916,8 @@
                             </div>
                             <div class="form-group">
                                 <label for="github-branch">Target Branch (will be created if missing)</label>
-                                <input type="text" id="github-branch" class="form-control" placeholder="e.g., upload-YYYY-MM-DD-HHMM">
-                                <small class="form-text">Use a name starting with <strong>upload-</strong> to trigger the unzip workflow. Format: upload-YYYY-MM-DD-HHMM</small>
+                                <input type="text" id="github-branch" class="form-control" placeholder="e.g., upload-2025-01-22-155423-a3b7">
+                                <small class="form-text">Use a name starting with <strong>upload-</strong> to trigger the unzip workflow. Format: upload-YYYY-MM-DD-HHMMSS-xxxx (auto-generated)</small>
                             </div>
                             <div class="form-group">
                                 <label>
@@ -3933,6 +3997,8 @@
                                 <br>
                                 <button class="btn btn-warning btn-small" onclick="checkCurrentBranches()" style="margin-right: 8px; margin-bottom: 8px;">🔍 Check Branches</button>
                                 <button class="btn btn-accent btn-small" onclick="triggerUnzipWorkflow()" style="margin-right: 8px; margin-bottom: 8px;">📦 Unzip playlist.json.zip</button>
+                                <button class="btn btn-secondary btn-small" onclick="clearCachedBranch()" style="margin-right: 8px; margin-bottom: 8px;">🔄 Clear Branch Cache</button>
+                                <button class="btn btn-warning btn-small" onclick="cleanupProblematicBranches()" style="margin-right: 8px; margin-bottom: 8px;">🔧 Fix Branch Issues</button>
                                 <button class="btn btn-danger btn-small" onclick="cleanupOldBranches()" style="margin-right: 8px; margin-bottom: 8px;">🧹 Cleanup Old Branches</button>
                             </div>
                             
