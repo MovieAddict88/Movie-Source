@@ -1943,11 +1943,39 @@
                             throw new Error(`ZIP validation failed: ${validationError.message}`);
                         }
                         
-                        contentBase64 = base64Zip;
-                        const zipBytes = Math.floor((base64Zip.length * 3) / 4);
+                        // Final validation and encoding
+                        console.log('🔍 Final ZIP validation before upload...');
+                        
+                        // Ensure base64 is clean (no whitespace or invalid characters)
+                        const cleanBase64 = base64Zip.replace(/[^A-Za-z0-9+/=]/g, '');
+                        
+                        if (cleanBase64 !== base64Zip) {
+                            console.warn('⚠️ Cleaned invalid characters from base64 ZIP');
+                        }
+                        
+                        // Test the cleaned base64
+                        try {
+                            const testZip2 = new JSZip();
+                            await testZip2.loadAsync(cleanBase64, {base64: true});
+                            const testFile2 = testZip2.file('playlist.json');
+                            if (!testFile2) {
+                                throw new Error('playlist.json not found in cleaned ZIP');
+                            }
+                            console.log('✅ Cleaned base64 ZIP validation passed');
+                        } catch (cleanError) {
+                            console.error('❌ Cleaned ZIP validation failed:', cleanError);
+                            throw new Error(`Cleaned ZIP validation failed: ${cleanError.message}`);
+                        }
+                        
+                        contentBase64 = cleanBase64;
+                        const zipBytes = Math.floor((cleanBase64.length * 3) / 4);
                         dataSizeMB = (zipBytes / 1024 / 1024).toFixed(2);
-                        console.log('🗜️ Zipped size (MB):', dataSizeMB);
-                        console.log('🗜️ Compression ratio:', ((1 - zipBytes / jsonData.length) * 100).toFixed(1) + '%');
+                        
+                        console.log('🗜️ Final ZIP stats:');
+                        console.log(`  - Base64 length: ${cleanBase64.length} chars`);
+                        console.log(`  - Binary size: ${zipBytes} bytes (${dataSizeMB} MB)`);
+                        console.log(`  - Original JSON size: ${jsonData.length} bytes`);
+                        console.log(`  - Compression ratio: ${((1 - zipBytes / jsonData.length) * 100).toFixed(1)}%`);
                         
                     } catch (zipError) {
                         console.error('Zip creation error:', zipError);
@@ -3274,6 +3302,197 @@
             showGitHubStatus('info', '🔄 Cleared cached branch name - will auto-generate new one on next upload');
         }
 
+        // Create a test ZIP and compare with GitHub ZIP
+        async function compareZipCreation() {
+            try {
+                showGitHubStatus('info', '🧪 Creating test ZIP and comparing with GitHub...');
+                
+                if (!currentData || !currentData.Categories) {
+                    throw new Error('No data loaded - load or generate data first');
+                }
+                
+                const jsonData = JSON.stringify(currentData, null, 2);
+                
+                // Create a test ZIP
+                showGitHubStatus('info', '📦 Creating local test ZIP...');
+                const zip = new JSZip();
+                zip.file('playlist.json', jsonData);
+                
+                const base64Zip = await zip.generateAsync({
+                    type: 'base64',
+                    compression: 'DEFLATE',
+                    compressionOptions: { level: 3 }
+                });
+                
+                // Clean the base64
+                const cleanBase64 = base64Zip.replace(/[^A-Za-z0-9+/=]/g, '');
+                
+                // Test local ZIP
+                showGitHubStatus('info', '🔍 Testing local ZIP...');
+                const testZip = new JSZip();
+                await testZip.loadAsync(cleanBase64, {base64: true});
+                const testFile = testZip.file('playlist.json');
+                
+                if (!testFile) {
+                    throw new Error('Local ZIP test failed - no playlist.json');
+                }
+                
+                const localContent = await testFile.async('string');
+                if (!localContent || localContent.length === 0) {
+                    throw new Error('Local ZIP content is empty');
+                }
+                
+                showGitHubStatus('success', `✅ Local ZIP works: ${(cleanBase64.length * 3 / 4 / 1024 / 1024).toFixed(2)} MB`);
+                
+                // Now test GitHub ZIP
+                showGitHubStatus('info', '🌐 Testing GitHub ZIP...');
+                const zipUrl = `https://github.com/${GITHUB_CONFIG.owner}/${GITHUB_CONFIG.repo}/raw/main/playlist.json.zip`;
+                
+                const response = await fetch(zipUrl);
+                if (!response.ok) {
+                    throw new Error(`GitHub ZIP fetch failed: ${response.status}`);
+                }
+                
+                const arrayBuffer = await response.arrayBuffer();
+                const githubZip = new JSZip();
+                await githubZip.loadAsync(arrayBuffer);
+                
+                const githubFile = githubZip.file('playlist.json');
+                if (!githubFile) {
+                    throw new Error('GitHub ZIP has no playlist.json');
+                }
+                
+                const githubContent = await githubFile.async('string');
+                if (!githubContent || githubContent.length === 0) {
+                    throw new Error('GitHub ZIP content is empty');
+                }
+                
+                // Compare sizes
+                const localSize = localContent.length;
+                const githubSize = githubContent.length;
+                const sizeDiff = Math.abs(localSize - githubSize);
+                
+                showGitHubStatus('info', `📊 Size comparison: Local=${localSize}, GitHub=${githubSize}, Diff=${sizeDiff}`);
+                
+                if (sizeDiff === 0) {
+                    showGitHubStatus('success', '✅ Both ZIPs are identical - the upload process works correctly!');
+                } else {
+                    showGitHubStatus('warning', `⚠️ ZIP contents differ by ${sizeDiff} bytes - there may be an encoding issue`);
+                }
+                
+            } catch (error) {
+                showGitHubStatus('error', `❌ ZIP comparison failed: ${error.message}`);
+            }
+        }
+
+        // Test ZIP file directly from GitHub URL
+        async function testGitHubZip() {
+            try {
+                showGitHubStatus('info', '🔍 Testing ZIP file from GitHub...');
+                
+                const zipUrl = `https://github.com/${GITHUB_CONFIG.owner}/${GITHUB_CONFIG.repo}/raw/main/playlist.json.zip`;
+                showGitHubStatus('info', `📡 Fetching: ${zipUrl}`);
+                
+                // Fetch the ZIP file directly
+                const response = await fetch(zipUrl);
+                if (!response.ok) {
+                    throw new Error(`Failed to fetch ZIP: ${response.status} ${response.statusText}`);
+                }
+                
+                const arrayBuffer = await response.arrayBuffer();
+                const fileSizeBytes = arrayBuffer.byteLength;
+                const fileSizeMB = fileSizeBytes / 1024 / 1024;
+                
+                showGitHubStatus('info', `📊 Downloaded ${fileSizeMB.toFixed(2)} MB ZIP file`);
+                
+                if (fileSizeBytes === 0) {
+                    throw new Error('ZIP file is empty (0 bytes)');
+                }
+                
+                // Check ZIP file signature
+                const uint8Array = new Uint8Array(arrayBuffer);
+                if (uint8Array.length < 4) {
+                    throw new Error('ZIP file too small to be valid');
+                }
+                
+                // Check for ZIP signature (PK\x03\x04 or PK\x05\x06)
+                const signature = String.fromCharCode(uint8Array[0], uint8Array[1], uint8Array[2], uint8Array[3]);
+                const isValidZip = signature === 'PK\x03\x04' || signature === 'PK\x05\x06';
+                
+                if (!isValidZip) {
+                    const hexSignature = Array.from(uint8Array.slice(0, 8))
+                        .map(b => b.toString(16).padStart(2, '0'))
+                        .join(' ');
+                    throw new Error(`Invalid ZIP signature. Expected PK header, got: ${hexSignature}`);
+                }
+                
+                showGitHubStatus('info', '✅ ZIP signature valid, attempting to extract...');
+                
+                // Try to load with JSZip
+                const zip = new JSZip();
+                await zip.loadAsync(arrayBuffer);
+                
+                // List all files in the ZIP
+                const fileNames = Object.keys(zip.files);
+                showGitHubStatus('info', `📁 Files in ZIP: ${fileNames.join(', ')}`);
+                
+                if (fileNames.length === 0) {
+                    throw new Error('ZIP file contains no files');
+                }
+                
+                // Look for playlist.json
+                const playlistFile = zip.file('playlist.json');
+                if (!playlistFile) {
+                    throw new Error(`playlist.json not found. Available files: ${fileNames.join(', ')}`);
+                }
+                
+                // Extract the content
+                showGitHubStatus('info', '📤 Extracting playlist.json content...');
+                const content = await playlistFile.async('string');
+                
+                if (!content || content.length === 0) {
+                    throw new Error('playlist.json exists but content is empty');
+                }
+                
+                const contentSizeMB = new Blob([content]).size / 1024 / 1024;
+                showGitHubStatus('info', `📊 Extracted content size: ${contentSizeMB.toFixed(2)} MB`);
+                
+                // Try to parse as JSON
+                try {
+                    const parsedData = JSON.parse(content);
+                    if (!parsedData.Categories) {
+                        throw new Error('Content is JSON but missing Categories field');
+                    }
+                    
+                    const categoryCount = parsedData.Categories.length;
+                    let totalEntries = 0;
+                    parsedData.Categories.forEach(cat => {
+                        if (cat.Entries) totalEntries += cat.Entries.length;
+                    });
+                    
+                    showGitHubStatus('success', `✅ ZIP file is valid! Contains ${categoryCount} categories with ${totalEntries} total entries`);
+                    
+                    setTimeout(() => {
+                        showGitHubStatus('info', '🎯 The ZIP file is actually fine - the issue might be in the unzip workflow');
+                    }, 2000);
+                    
+                } catch (jsonError) {
+                    throw new Error(`Content is not valid JSON: ${jsonError.message}`);
+                }
+                
+            } catch (error) {
+                showGitHubStatus('error', `❌ GitHub ZIP test failed: ${error.message}`);
+                
+                setTimeout(() => {
+                    showGitHubStatus('info', '💡 This confirms the ZIP file is corrupted or improperly encoded');
+                }, 2000);
+                
+                setTimeout(() => {
+                    showGitHubStatus('info', '🔧 Try uploading fresh data or use raw JSON upload');
+                }, 4000);
+            }
+        }
+
         // Test ZIP creation with current data
         async function testZipCreation() {
             try {
@@ -4407,6 +4626,8 @@
                                 <button class="btn btn-accent btn-small" onclick="triggerUnzipWorkflow()" style="margin-right: 8px; margin-bottom: 8px;">📦 Unzip playlist.json.zip</button>
                                 <button class="btn btn-info btn-small" onclick="checkAndRepairZip()" style="margin-right: 8px; margin-bottom: 8px;">🔍 Check ZIP Health</button>
                                 <button class="btn btn-accent btn-small" onclick="testZipCreation()" style="margin-right: 8px; margin-bottom: 8px;">🧪 Test ZIP Creation</button>
+                                <button class="btn btn-primary btn-small" onclick="testGitHubZip()" style="margin-right: 8px; margin-bottom: 8px;">🌐 Test GitHub ZIP</button>
+                                <button class="btn btn-success btn-small" onclick="compareZipCreation()" style="margin-right: 8px; margin-bottom: 8px;">⚖️ Compare ZIPs</button>
                                 <button class="btn btn-secondary btn-small" onclick="clearCachedBranch()" style="margin-right: 8px; margin-bottom: 8px;">🔄 Clear Branch Cache</button>
                                 <button class="btn btn-warning btn-small" onclick="cleanupProblematicBranches()" style="margin-right: 8px; margin-bottom: 8px;">🔧 Fix Branch Issues</button>
                                 <button class="btn btn-danger btn-small" onclick="cleanupOldBranches()" style="margin-right: 8px; margin-bottom: 8px;">🧹 Cleanup Old Branches</button>
