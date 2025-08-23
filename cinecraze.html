@@ -1472,7 +1472,10 @@
             const day = String(d.getDate()).padStart(2, '0');
             const hour = String(d.getHours()).padStart(2, '0');
             const minute = String(d.getMinutes()).padStart(2, '0');
-            return `upload-${y}-${m}-${day}-${hour}${minute}`;
+            const second = String(d.getSeconds()).padStart(2, '0');
+            // Add random suffix to ensure uniqueness even within the same second
+            const randomSuffix = Math.random().toString(36).substring(2, 6);
+            return `upload-${y}-${m}-${day}-${hour}${minute}${second}-${randomSuffix}`;
         }
 
         function loadGitHubSettings() {
@@ -1902,7 +1905,15 @@
                                 showGitHubStatus('info', '🔄 Creating pull request to merge changes...');
                                 const pr = await createPullRequest(targetBranch, GITHUB_CONFIG.baseBranch);
                                 
-                                showGitHubStatus('success', `✅ Pull request created! #${pr.number}`);
+                                // Check if this was an existing PR or newly created
+                                const existingPR = await checkExistingPullRequest(targetBranch, GITHUB_CONFIG.baseBranch);
+                                const isExistingPR = existingPR && existingPR.number === pr.number;
+                                
+                                if (isExistingPR) {
+                                    showGitHubStatus('info', `📋 Found existing PR #${pr.number} - updated with new changes`);
+                                } else {
+                                    showGitHubStatus('success', `✅ Pull request created! #${pr.number}`);
+                                }
                                 
                                 setTimeout(() => {
                                     showGitHubStatus('info', `🔗 Review PR: ${pr.html_url}`);
@@ -1929,12 +1940,34 @@
                                 }
                                 
                             } catch (prError) {
-                                showGitHubStatus('warning', `⚠️ Could not create PR: ${prError.message}. File uploaded to branch: ${targetBranch}`);
+                                console.error('PR creation error details:', prError);
+                                
+                                // Provide specific guidance based on error type
+                                let errorMessage = prError.message || 'Unknown error';
+                                let guidance = '';
+                                
+                                if (errorMessage.includes('already exists') || errorMessage.includes('duplicate')) {
+                                    guidance = 'A PR may already exist for this branch. Check your repository\'s pull requests.';
+                                } else if (errorMessage.includes('validation failed') || errorMessage.includes('422')) {
+                                    guidance = 'GitHub validation failed. This may be due to branch conflicts or repository settings.';
+                                } else if (errorMessage.includes('403') || errorMessage.includes('unauthorized')) {
+                                    guidance = 'Permission denied. Check if your GitHub token has the correct permissions.';
+                                } else if (errorMessage.includes('404')) {
+                                    guidance = 'Repository or branch not found. Verify your GitHub configuration.';
+                                } else {
+                                    guidance = 'Check your repository settings and try again.';
+                                }
+                                
+                                showGitHubStatus('warning', `⚠️ Could not create PR: ${errorMessage}`);
+                                
+                                setTimeout(() => {
+                                    showGitHubStatus('info', `💡 ${guidance}`);
+                                }, 2000);
                                 
                                 // Show manual steps
                                 setTimeout(() => {
-                                    showGitHubStatus('info', `📋 Next steps: 1) Go to your repo 2) Create PR from ${targetBranch} to ${GITHUB_CONFIG.baseBranch} 3) Merge the PR`);
-                                }, 3000);
+                                    showGitHubStatus('info', `📋 Manual steps: 1) Go to your repo 2) Create PR from ${targetBranch} to ${GITHUB_CONFIG.baseBranch} 3) Merge the PR`);
+                                }, 4000);
                             }
                         }, 2000);
                     } else if (targetBranch === GITHUB_CONFIG.baseBranch) {
@@ -2746,9 +2779,39 @@
             showGitHubStatus('info', 'Opening workflow status in new tab...');
         }
 
+        // Check if a pull request already exists from source to target branch
+        async function checkExistingPullRequest(sourceBranch, targetBranch = 'main') {
+            try {
+                const response = await fetch(`https://api.github.com/repos/${GITHUB_CONFIG.owner}/${GITHUB_CONFIG.repo}/pulls?state=open&head=${GITHUB_CONFIG.owner}:${sourceBranch}&base=${targetBranch}`, {
+                    headers: {
+                        'Authorization': `token ${GITHUB_CONFIG.token}`,
+                        'Accept': 'application/vnd.github.v3+json'
+                    }
+                });
+
+                if (response.ok) {
+                    const pulls = await response.json();
+                    return pulls.length > 0 ? pulls[0] : null;
+                } else {
+                    console.warn('Could not check for existing PRs:', response.statusText);
+                    return null;
+                }
+            } catch (error) {
+                console.warn('Error checking for existing PRs:', error);
+                return null;
+            }
+        }
+
         // Create pull request to merge upload branch to main
         async function createPullRequest(sourceBranch, targetBranch = 'main', title, body) {
             try {
+                // First check if a PR already exists
+                const existingPR = await checkExistingPullRequest(sourceBranch, targetBranch);
+                if (existingPR) {
+                    console.log('✅ Found existing pull request:', existingPR.html_url);
+                    return existingPR;
+                }
+
                 const prData = {
                     title: title || `Update playlist.json - ${new Date().toISOString().split('T')[0]}`,
                     body: body || `Automated update of playlist.json from CineCraze application.\n\n**Upload Details:**\n- Branch: ${sourceBranch}\n- Target: ${targetBranch}\n- Timestamp: ${new Date().toISOString()}\n- Data size: ${(JSON.stringify(currentData).length / 1024 / 1024).toFixed(2)}MB\n\n**Content Summary:**\n- Movies: ${currentData.Categories.find(c => c.MainCategory === 'Movies')?.Entries.length || 0}\n- TV Series: ${currentData.Categories.find(c => c.MainCategory === 'TV Series')?.Entries.length || 0}\n- Live TV: ${currentData.Categories.find(c => c.MainCategory === 'Live TV')?.Entries.length || 0}`,
@@ -2772,11 +2835,107 @@
                     return pr;
                 } else {
                     const error = await response.json().catch(() => ({ message: 'Unknown error' }));
-                    throw new Error(`Failed to create PR: ${error.message || response.statusText}`);
+                    // Provide more detailed error information
+                    let errorMessage = error.message || response.statusText;
+                    if (error.errors && error.errors.length > 0) {
+                        errorMessage += ': ' + error.errors.map(e => e.message || e.code).join(', ');
+                    }
+                    throw new Error(`Failed to create PR: ${errorMessage}`);
                 }
             } catch (error) {
                 console.error('❌ Error creating pull request:', error);
                 throw error;
+            }
+        }
+
+        // List upload branches for cleanup
+        async function listUploadBranches() {
+            try {
+                const response = await fetch(`https://api.github.com/repos/${GITHUB_CONFIG.owner}/${GITHUB_CONFIG.repo}/branches`, {
+                    headers: {
+                        'Authorization': `token ${GITHUB_CONFIG.token}`,
+                        'Accept': 'application/vnd.github.v3+json'
+                    }
+                });
+
+                if (response.ok) {
+                    const branches = await response.json();
+                    return branches.filter(branch => branch.name.startsWith('upload-'));
+                } else {
+                    throw new Error(`Failed to list branches: ${response.statusText}`);
+                }
+            } catch (error) {
+                console.error('❌ Error listing branches:', error);
+                throw error;
+            }
+        }
+
+        // Delete a branch
+        async function deleteBranch(branchName) {
+            try {
+                const response = await fetch(`https://api.github.com/repos/${GITHUB_CONFIG.owner}/${GITHUB_CONFIG.repo}/git/refs/heads/${encodeURIComponent(branchName)}`, {
+                    method: 'DELETE',
+                    headers: {
+                        'Authorization': `token ${GITHUB_CONFIG.token}`,
+                        'Accept': 'application/vnd.github.v3+json'
+                    }
+                });
+
+                if (response.ok || response.status === 422) { // 422 means already deleted
+                    console.log(`✅ Branch ${branchName} deleted`);
+                    return true;
+                } else {
+                    throw new Error(`Failed to delete branch: ${response.statusText}`);
+                }
+            } catch (error) {
+                console.error(`❌ Error deleting branch ${branchName}:`, error);
+                throw error;
+            }
+        }
+
+        // Cleanup old upload branches (older than 7 days)
+        async function cleanupOldBranches() {
+            try {
+                showGitHubStatus('info', '🧹 Checking for old upload branches to cleanup...');
+                const branches = await listUploadBranches();
+                
+                if (branches.length === 0) {
+                    showGitHubStatus('info', '✨ No upload branches found to cleanup');
+                    return;
+                }
+
+                const sevenDaysAgo = new Date();
+                sevenDaysAgo.setDate(sevenDaysAgo.getDate() - 7);
+
+                let deletedCount = 0;
+                for (const branch of branches) {
+                    try {
+                        // Parse date from branch name (upload-YYYY-MM-DD-HHMMSS-xxxx)
+                        const match = branch.name.match(/upload-(\d{4})-(\d{2})-(\d{2})-(\d{6})/);
+                        if (match) {
+                            const [, year, month, day, time] = match;
+                            const hour = time.substring(0, 2);
+                            const minute = time.substring(2, 4);
+                            const second = time.substring(4, 6);
+                            const branchDate = new Date(`${year}-${month}-${day}T${hour}:${minute}:${second}`);
+                            
+                            if (branchDate < sevenDaysAgo) {
+                                await deleteBranch(branch.name);
+                                deletedCount++;
+                            }
+                        }
+                    } catch (error) {
+                        console.warn(`Could not delete branch ${branch.name}:`, error);
+                    }
+                }
+
+                if (deletedCount > 0) {
+                    showGitHubStatus('success', `🧹 Cleaned up ${deletedCount} old upload branches`);
+                } else {
+                    showGitHubStatus('info', '✨ No old branches found to cleanup');
+                }
+            } catch (error) {
+                showGitHubStatus('warning', `⚠️ Branch cleanup failed: ${error.message}`);
             }
         }
 
@@ -3605,6 +3764,7 @@
                                 <button class="btn btn-primary btn-small" onclick="quickUploadToMain()">🎯 Quick Upload to Main</button>
                                 <button class="btn btn-success btn-small" onclick="uploadWithPR()">🌿 Upload + Create PR</button>
                                 <button class="btn btn-warning btn-small" onclick="checkCurrentBranches()">🔍 Check Branches</button>
+                                <button class="btn btn-danger btn-small" onclick="cleanupOldBranches()">🧹 Cleanup Old Branches</button>
                             </div>
                             
                             <div class="form-group">
