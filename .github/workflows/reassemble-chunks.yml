@@ -1,7 +1,8 @@
-name: Reassemble Chunked Uploads
+name: Reassemble and Deploy Chunked Uploads
 permissions:
   contents: write
   pull-requests: write
+  actions: read
 on:
   push:
     branches: [ chunked-upload-* ]
@@ -118,11 +119,93 @@ jobs:
             exit 1
           fi
           
-          # Validate JSON
-          if python3 -c "import json; json.load(open('$filename'))" 2>/dev/null; then
-            echo "✅ File is valid JSON"
+          # Check if it's a zip file
+          if [[ "$filename" == *.zip ]]; then
+            echo "🗜️ Detected ZIP file, will unzip after reassembly"
+            echo "is_zip=true" >> $GITHUB_OUTPUT
           else
-            echo "❌ File is not valid JSON"
+            echo "📄 File is not a ZIP, proceeding with deployment"
+            echo "is_zip=false" >> $GITHUB_OUTPUT
+          fi
+          
+      - name: Unzip if needed
+        if: steps.read-manifest.outputs.filename == 'playlist.json.zip'
+        run: |
+          echo "🗜️ Unzipping playlist.json.zip..."
+          
+          # Install 7zip
+          sudo apt-get update
+          sudo apt-get install p7zip-full -y
+          
+          # Check if it's actually a zip file
+          if 7z t playlist.json.zip > /dev/null 2>&1; then
+            echo "✅ Valid ZIP file detected"
+            
+            # List contents
+            echo "📋 ZIP contents:"
+            7z l playlist.json.zip
+            
+            # Extract the JSON file
+            7z x -y playlist.json.zip -o.
+            
+            # Check what was extracted
+            echo "📁 Extracted files:"
+            ls -la *.json
+            
+            # Verify playlist.json exists and is valid
+            if [ -f "playlist.json" ]; then
+              echo "✅ playlist.json extracted successfully"
+              
+              # Validate JSON
+              if python3 -c "import json; json.load(open('playlist.json'))" 2>/dev/null; then
+                echo "✅ playlist.json is valid JSON"
+                
+                # Check file size
+                json_size=$(stat -c%s "playlist.json")
+                json_size_mb=$(echo "scale=2; $json_size/1024/1024" | bc)
+                echo "📊 playlist.json size: ${json_size_mb}MB"
+                
+              else
+                echo "❌ playlist.json is not valid JSON"
+                exit 1
+              fi
+            else
+              echo "❌ playlist.json not found after extraction"
+              exit 1
+            fi
+            
+          else
+            echo "❌ Invalid ZIP file or not a ZIP file"
+            exit 1
+          fi
+          
+      - name: Validate final JSON file
+        run: |
+          echo "🔍 Validating final JSON file..."
+          
+          # Check if playlist.json exists (either reassembled or extracted)
+          if [ -f "playlist.json" ]; then
+            echo "✅ playlist.json found"
+            
+            # Validate JSON syntax
+            if python3 -c "import json; json.load(open('playlist.json'))" 2>/dev/null; then
+              echo "✅ playlist.json is valid JSON"
+            else
+              echo "❌ playlist.json is not valid JSON"
+              exit 1
+            fi
+            
+            # Check file size
+            size=$(stat -c%s "playlist.json")
+            size_mb=$(echo "scale=2; $size/1024/1024" | bc)
+            echo "📊 playlist.json size: ${size_mb}MB"
+            
+            if (( $(echo "$size_mb > 100" | bc -l) )); then
+              echo "⚠️ Warning: File is very large (${size_mb}MB)"
+            fi
+            
+          else
+            echo "❌ Error: playlist.json not found"
             exit 1
           fi
           
@@ -130,14 +213,15 @@ jobs:
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
           commit_message: |
-            Reassemble ${{ steps.read-manifest.outputs.filename }} from chunked upload
+            Reassemble and deploy ${{ steps.read-manifest.outputs.filename }}
             
             - Reassembled from ${{ steps.read-manifest.outputs.total_chunks }} chunks
             - Total size: ${{ steps.read-manifest.outputs.total_size }} bytes
             - Timestamp: $(date -u +"%Y-%m-%d %H:%M:%S UTC")
             - Workflow: ${{ github.workflow }}
           file_pattern: |
-            ${{ steps.read-manifest.outputs.filename }}
+            playlist.json
+            *.json
           commit_user_name: 'GitHub Action'
           commit_user_email: 'action@github.com'
           
@@ -164,6 +248,12 @@ jobs:
             echo "🗑️ Removed: $manifest_file"
           fi
           
+          # Remove zip file if it was extracted
+          if [ -f "$filename" ] && [[ "$filename" == *.zip ]]; then
+            rm "$filename"
+            echo "🗑️ Removed: $filename"
+          fi
+          
           echo "✅ Cleanup complete"
           
       - name: Commit cleanup
@@ -173,12 +263,13 @@ jobs:
           file_pattern: |
             *.part*
             *.manifest.json
+            *.zip
           commit_user_name: 'GitHub Action'
           commit_user_email: 'action@github.com'
           
-      - name: Create Pull Request
+      - name: Create Pull Request to Main
         run: |
-          echo "🔀 Creating pull request..."
+          echo "🔀 Creating pull request to main branch..."
           
           # Get branch name (remove refs/heads/ prefix)
           BRANCH_NAME=${GITHUB_REF#refs/heads/}
@@ -194,8 +285,8 @@ jobs:
           else
             # Create PR
             gh pr create \
-              --title "Reassemble ${{ steps.read-manifest.outputs.filename }} from chunked upload" \
-              --body "## Automated File Reassembly
+              --title "Deploy playlist.json from chunked upload" \
+              --body "## Automated Playlist Deployment
             
             This pull request was created automatically by the reassemble workflow.
             
@@ -206,11 +297,58 @@ jobs:
             - Timestamp: $(date -u +"%Y-%m-%d %H:%M:%S UTC")
             
             **Files Updated:**
-            - ${{ steps.read-manifest.outputs.filename }} (reassembled from ${{ steps.read-manifest.outputs.total_chunks }} chunks)
+            - playlist.json (ready for use)
             
-            **Note:** This file was uploaded in chunks due to size limitations and has been automatically reassembled." \
+            **What Happened:**
+            1. ✅ Chunks were reassembled successfully
+            2. ✅ File was unzipped (if needed)
+            3. ✅ JSON validation passed
+            4. ✅ Ready for deployment to main branch
+            
+            **Note:** This playlist.json is now ready to use after merging!" \
               --base "$BASE_BRANCH" \
               --head "$BRANCH_NAME"
             
             echo "✅ Pull request created successfully"
           fi
+          
+      - name: Auto-merge PR (if enabled)
+        if: github.ref != 'refs/heads/main'
+        run: |
+          echo "🤖 Attempting auto-merge..."
+          
+          # Get the PR number
+          pr_number=$(gh pr list --head "${{ github.ref_name }}" --base "main" --json number --jq '.[0].number' 2>/dev/null || echo "")
+          
+          if [ -n "$pr_number" ]; then
+            echo "🔍 Found PR #$pr_number, attempting merge..."
+            
+            # Try to merge
+            if gh pr merge "$pr_number" --merge --delete-branch; then
+              echo "✅ PR #$pr_number merged successfully!"
+              echo "🎉 playlist.json is now available on main branch!"
+            else
+              echo "⚠️ Auto-merge failed, manual merge required"
+              echo "📋 Please merge PR #$pr_number manually"
+            fi
+          else
+            echo "❌ Could not find PR for auto-merge"
+          fi
+          
+      - name: Final Status
+        run: |
+          echo "🎉 Workflow completed!"
+          echo ""
+          echo "📋 Summary:"
+          echo "✅ Chunks reassembled successfully"
+          echo "✅ File unzipped (if needed)"
+          echo "✅ JSON validation passed"
+          echo "✅ Pull request created"
+          echo ""
+          echo "📁 playlist.json is now ready for use!"
+          echo "🔗 View file: https://github.com/${{ github.repository }}/blob/main/playlist.json"
+          echo ""
+          echo "💡 Next steps:"
+          echo "1. Review and merge the pull request"
+          echo "2. playlist.json will be available on main branch"
+          echo "3. You can now use the playlist data"

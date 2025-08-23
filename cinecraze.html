@@ -2760,6 +2760,102 @@
             }
         }
 
+        // Function to manually trigger the complete workflow for existing chunks
+        async function triggerCompleteWorkflow() {
+            try {
+                showGitHubStatus('info', '🚀 Triggering complete workflow for existing chunks...');
+                
+                // First, trigger the reassemble workflow
+                await triggerReassembleWorkflow();
+                
+                // Wait a bit, then check status
+                setTimeout(async () => {
+                    try {
+                        await checkReassembledFileStatus();
+                    } catch (statusError) {
+                        console.warn('Status check failed:', statusError);
+                    }
+                }, 5000);
+                
+            } catch (error) {
+                console.error('Complete workflow trigger failed:', error);
+                showGitHubStatus('error', `❌ Failed to trigger complete workflow: ${error.message}`);
+            }
+        }
+
+        // Function to check the status of reassembled files
+        async function checkReassembledFileStatus() {
+            try {
+                showGitHubStatus('info', '🔍 Checking reassembled file status...');
+                
+                // Check if playlist.json exists on main branch
+                const mainFileUrl = `https://api.github.com/repos/${GITHUB_CONFIG.owner}/${GITHUB_CONFIG.repo}/contents/playlist.json?ref=main`;
+                const mainResponse = await fetch(mainFileUrl, {
+                    headers: {
+                        'Authorization': `token ${GITHUB_CONFIG.token}`,
+                        'Accept': 'application/vnd.github.v3+json'
+                    }
+                });
+                
+                if (mainResponse.ok) {
+                    const fileInfo = await mainResponse.json();
+                    const sizeKB = Math.round(fileInfo.size / 1024);
+                    const sizeMB = (fileInfo.size / 1024 / 1024).toFixed(2);
+                    
+                    showGitHubStatus('success', `✅ playlist.json is available on main branch!`);
+                    showGitHubStatus('info', `📊 File size: ${sizeKB}KB (${sizeMB}MB)`);
+                    showGitHubStatus('info', `🔗 View: https://github.com/${GITHUB_CONFIG.owner}/${GITHUB_CONFIG.repo}/blob/main/playlist.json`);
+                    
+                    // Check if there are any open PRs
+                    const prsUrl = `https://api.github.com/repos/${GITHUB_CONFIG.owner}/${GITHUB_CONFIG.repo}/pulls?state=open&head=chunked-upload-*`;
+                    const prsResponse = await fetch(prsUrl, {
+                        headers: {
+                            'Authorization': `token ${GITHUB_CONFIG.token}`,
+                            'Accept': 'application/vnd.github.v3+json'
+                        }
+                    });
+                    
+                    if (prsResponse.ok) {
+                        const prs = await prsResponse.json();
+                        if (prs.length > 0) {
+                            showGitHubStatus('info', `📋 Found ${prs.length} open PR(s) from chunked uploads`);
+                            prs.forEach(pr => {
+                                showGitHubStatus('info', `   - PR #${pr.number}: ${pr.title} (${pr.head.ref})`);
+                            });
+                        }
+                    }
+                    
+                } else {
+                    showGitHubStatus('warning', '⚠️ playlist.json not yet available on main branch');
+                    
+                    // Check for chunked upload branches
+                    const branchesUrl = `https://api.github.com/repos/${GITHUB_CONFIG.owner}/${GITHUB_CONFIG.repo}/branches`;
+                    const branchesResponse = await fetch(branchesUrl, {
+                        headers: {
+                            'Authorization': `token ${GITHUB_CONFIG.token}`,
+                            'Accept': 'application/vnd.github.v3+json'
+                        }
+                    });
+                    
+                    if (branchesResponse.ok) {
+                        const branches = await branchesResponse.json();
+                        const chunkedBranches = branches.filter(branch => branch.name.startsWith('chunked-upload-'));
+                        
+                        if (chunkedBranches.length > 0) {
+                            showGitHubStatus('info', `📋 Found ${chunkedBranches.length} chunked upload branches still processing`);
+                            showGitHubStatus('info', '💡 Use "Trigger Reassemble" button to process them');
+                        } else {
+                            showGitHubStatus('info', '📋 No chunked upload branches found');
+                        }
+                    }
+                }
+                
+            } catch (error) {
+                console.error('Status check failed:', error);
+                showGitHubStatus('error', `❌ Status check failed: ${error.message}`);
+            }
+        }
+
         // Function to trigger the reassemble workflow for chunked uploads
         async function triggerReassembleWorkflow() {
             try {
@@ -3754,6 +3850,13 @@ jobs:
                     try {
                         showGitHubStatus('info', '🔄 Triggering reassemble workflow...');
                         await triggerReassembleWorkflow();
+                        
+                        // Show next steps
+                        setTimeout(() => {
+                            showGitHubStatus('success', '🎉 Chunked upload completed! Workflow is processing...');
+                            showGitHubStatus('info', '📋 The workflow will: 1) Reassemble chunks 2) Unzip if needed 3) Create PR to main 4) Make playlist.json usable');
+                        }, 2000);
+                        
                     } catch (workflowError) {
                         console.warn('Failed to trigger workflow automatically:', workflowError);
                         showGitHubStatus('info', '📋 You can manually trigger the reassemble workflow using the button below');
@@ -4960,6 +5063,7 @@ jobs:
                                 <input type="text" id="github-branch" class="form-control" placeholder="e.g., upload-YYYY-MM-DD-HHMM">
                                 <small class="form-text">Use a name starting with <strong>upload-</strong> to trigger the unzip workflow. Format: upload-YYYY-MM-DD-HHMM</small>
                 <small class="form-text">💡 <strong>Large files (>50MB)</strong> will automatically use chunked upload to avoid GitHub API limits</small>
+                <small class="form-text">🔄 <strong>Complete Workflow:</strong> Chunks → Reassemble → Unzip → PR → Merge → Ready to use</small>
                 <small class="form-text">🔧 <strong>Troubleshooting:</strong> If chunk upload fails, use "Diagnose Chunks" button or try zip compression</small>
                             </div>
                             <div class="form-group">
@@ -5031,6 +5135,8 @@ jobs:
                     <button class="btn btn-secondary" onclick="triggerWorkflowForExistingZip()">🚀 Trigger Workflow</button>
                     <button class="btn btn-secondary" onclick="triggerReassembleWorkflow()">🔧 Trigger Reassemble</button>
                     <button class="btn btn-secondary" onclick="diagnoseChunkUploadIssues()">🔍 Diagnose Chunks</button>
+                    <button class="btn btn-secondary" onclick="checkReassembledFileStatus()">📋 Check File Status</button>
+                    <button class="btn btn-primary" onclick="triggerCompleteWorkflow()">🚀 Complete Workflow</button>
                                 <button class="btn btn-accent" onclick="exportToGitHub()">📤 Upload to GitHub</button>
                             </div>
                             
