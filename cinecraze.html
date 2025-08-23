@@ -1472,7 +1472,8 @@
             const day = String(d.getDate()).padStart(2, '0');
             const hour = String(d.getHours()).padStart(2, '0');
             const minute = String(d.getMinutes()).padStart(2, '0');
-            return `upload-${y}-${m}-${day}-${hour}${minute}`;
+            const second = String(d.getSeconds()).padStart(2, '0');
+            return `upload-${y}-${m}-${day}-${hour}${minute}${second}`;
         }
 
         function loadGitHubSettings() {
@@ -1879,6 +1880,18 @@
                     
                     showGitHubStatus('success', `✅ Successfully uploaded to GitHub! File: ${result.content.name} (${finalSizeMB}MB)`);
                     
+                    // Prepare next unique upload branch to prevent PR validation conflicts
+                    try {
+                        const nextBranch = getDefaultUploadBranch();
+                        GITHUB_CONFIG.branch = nextBranch;
+                        const branchEl = document.getElementById('github-branch');
+                        if (branchEl) branchEl.value = nextBranch;
+                        saveGitHubSettings();
+                        console.log('🔁 Next upload branch prepared:', nextBranch);
+                    } catch (e) {
+                        console.warn('Could not set next upload branch:', e);
+                    }
+                    
                     // Show compression info if zip was used
                     if (GITHUB_CONFIG.useZip) {
                         const originalSize = parseFloat(dataSizeMB);
@@ -1929,12 +1942,19 @@
                                 }
                                 
                             } catch (prError) {
-                                showGitHubStatus('warning', `⚠️ Could not create PR: ${prError.message}. File uploaded to branch: ${targetBranch}`);
+                                showGitHubStatus('warning', `⚠️ PR step notice: ${prError.message}. If a PR already exists it will be reused.`);
                                 
-                                // Show manual steps
-                                setTimeout(() => {
-                                    showGitHubStatus('info', `📋 Next steps: 1) Go to your repo 2) Create PR from ${targetBranch} to ${GITHUB_CONFIG.baseBranch} 3) Merge the PR`);
-                                }, 3000);
+                                // Try surface existing PR link
+                                try {
+                                    const existing = await findExistingPullRequest(targetBranch, GITHUB_CONFIG.baseBranch);
+                                    if (existing) {
+                                        showGitHubStatus('success', `🔗 Existing PR: ${existing.html_url}`);
+                                    } else {
+                                        setTimeout(() => {
+                                            showGitHubStatus('info', `📋 Next steps: 1) Go to your repo 2) Create PR from ${targetBranch} to ${GITHUB_CONFIG.baseBranch} 3) Merge the PR`);
+                                        }, 3000);
+                                    }
+                                } catch {}
                             }
                         }, 2000);
                     } else if (targetBranch === GITHUB_CONFIG.baseBranch) {
@@ -2746,9 +2766,27 @@
             showGitHubStatus('info', 'Opening workflow status in new tab...');
         }
 
+        // Helper to find an existing PR for head/base
+        async function findExistingPullRequest(sourceBranch, targetBranch = 'main') {
+            const url = `https://api.github.com/repos/${GITHUB_CONFIG.owner}/${GITHUB_CONFIG.repo}/pulls?head=${encodeURIComponent(GITHUB_CONFIG.owner + ':' + sourceBranch)}&base=${encodeURIComponent(targetBranch)}&state=open`;
+            const response = await fetch(url, {
+                headers: { 'Authorization': `token ${GITHUB_CONFIG.token}`, 'Accept': 'application/vnd.github.v3+json' }
+            });
+            if (!response.ok) return null;
+            const prs = await response.json().catch(() => []);
+            return Array.isArray(prs) && prs.length > 0 ? prs[0] : null;
+        }
+
         // Create pull request to merge upload branch to main
         async function createPullRequest(sourceBranch, targetBranch = 'main', title, body) {
             try {
+                // Reuse existing PR if present
+                const existing = await findExistingPullRequest(sourceBranch, targetBranch);
+                if (existing) {
+                    console.log('♻️ Reusing existing PR:', existing.html_url);
+                    return existing;
+                }
+
                 const prData = {
                     title: title || `Update playlist.json - ${new Date().toISOString().split('T')[0]}`,
                     body: body || `Automated update of playlist.json from CineCraze application.\n\n**Upload Details:**\n- Branch: ${sourceBranch}\n- Target: ${targetBranch}\n- Timestamp: ${new Date().toISOString()}\n- Data size: ${(JSON.stringify(currentData).length / 1024 / 1024).toFixed(2)}MB\n\n**Content Summary:**\n- Movies: ${currentData.Categories.find(c => c.MainCategory === 'Movies')?.Entries.length || 0}\n- TV Series: ${currentData.Categories.find(c => c.MainCategory === 'TV Series')?.Entries.length || 0}\n- Live TV: ${currentData.Categories.find(c => c.MainCategory === 'Live TV')?.Entries.length || 0}`,
@@ -2772,6 +2810,14 @@
                     return pr;
                 } else {
                     const error = await response.json().catch(() => ({ message: 'Unknown error' }));
+                    // If validation says a PR already exists, reuse it instead of failing
+                    if (response.status === 422 && String(error.message || '').toLowerCase().includes('already exists')) {
+                        const existingAfter = await findExistingPullRequest(sourceBranch, targetBranch);
+                        if (existingAfter) {
+                            console.log('🔎 Found existing PR after 422:', existingAfter.html_url);
+                            return existingAfter;
+                        }
+                    }
                     throw new Error(`Failed to create PR: ${error.message || response.statusText}`);
                 }
             } catch (error) {
