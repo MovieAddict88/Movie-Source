@@ -3869,7 +3869,7 @@ jobs:
                         // Show next steps
                         setTimeout(() => {
                             showGitHubStatus('success', '🎉 Chunked upload completed! Workflow is processing...');
-                            showGitHubStatus('info', '📋 The workflow will: 1) Reassemble chunks 2) Unzip if needed 3) Create PR to main 4) Make playlist.json usable');
+                            showGitHubStatus('info', '📋 The workflow will: 1) Reassemble chunks 2) Unzip if needed 3) Deploy directly to main 4) Make playlist.json immediately usable');
                         }, 2000);
                         
                     } catch (workflowError) {
@@ -5078,8 +5078,8 @@ jobs:
                                 <input type="text" id="github-branch" class="form-control" placeholder="e.g., upload-YYYY-MM-DD-HHMM">
                                 <small class="form-text">Use a name starting with <strong>upload-</strong> to trigger the unzip workflow. Format: upload-YYYY-MM-DD-HHMM</small>
                 <small class="form-text">💡 <strong>Large files (>50MB)</strong> will automatically use chunked upload to avoid GitHub API limits</small>
-                <small class="form-text">🔄 <strong>Complete Workflow:</strong> Chunks → Reassemble → Unzip → Auto-PR → Auto-Merge → Deploy to Main</small>
-                <small class="form-text">🤖 <strong>Fully Automated:</strong> No manual PR creation or merging needed!</small>
+                <small class="form-text">🔄 <strong>Complete Workflow:</strong> Chunks → Reassemble → Unzip → Direct Deploy to Main</small>
+                <small class="form-text">🤖 <strong>Fully Automated:</strong> No pull requests - file goes directly to main branch!</small>
                 <small class="form-text">🔧 <strong>Troubleshooting:</strong> If chunk upload fails, use "Diagnose Chunks" button or try zip compression</small>
                             </div>
                             <div class="form-group">
