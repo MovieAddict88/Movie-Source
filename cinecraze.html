@@ -1787,6 +1787,26 @@
                             }
                         );
                         
+                        // Validate the created ZIP file
+                        updateProgress(42, 'Validating ZIP file...');
+                        if (!base64Zip || base64Zip.length === 0) {
+                            throw new Error('ZIP creation failed - empty result');
+                        }
+                        
+                        // Test the ZIP by trying to read it back
+                        try {
+                            const testZip = new JSZip();
+                            await testZip.loadAsync(base64Zip, {base64: true});
+                            const testFile = testZip.file('playlist.json');
+                            if (!testFile) {
+                                throw new Error('ZIP validation failed - playlist.json not found in created ZIP');
+                            }
+                            console.log('✅ ZIP file validation passed');
+                        } catch (validationError) {
+                            console.error('❌ ZIP validation failed:', validationError);
+                            throw new Error(`ZIP validation failed: ${validationError.message}`);
+                        }
+                        
                         contentBase64 = base64Zip;
                         const zipBytes = Math.floor((base64Zip.length * 3) / 4);
                         dataSizeMB = (zipBytes / 1024 / 1024).toFixed(2);
@@ -1795,7 +1815,31 @@
                         
                     } catch (zipError) {
                         console.error('Zip creation error:', zipError);
-                        throw new Error(`Failed to create zip file: ${zipError.message}`);
+                        showGitHubStatus('warning', `⚠️ ZIP creation failed: ${zipError.message}`);
+                        
+                        // Fallback to raw JSON upload
+                        showGitHubStatus('info', '🔄 Falling back to raw JSON upload...');
+                        GITHUB_CONFIG.useZip = false;
+                        
+                        // Update UI to reflect the change
+                        const useZipEl = document.getElementById('github-use-zip');
+                        if (useZipEl) {
+                            useZipEl.checked = false;
+                        }
+                        
+                        // Encode as raw JSON instead
+                        updateProgress(35, 'Encoding data to base64...');
+                        try {
+                            const encoder = new TextEncoder();
+                            const bytes = encoder.encode(jsonData);
+                            const binaryString = Array.from(bytes, byte => String.fromCharCode(byte)).join('');
+                            contentBase64 = btoa(binaryString);
+                            dataSizeMB = (jsonData.length / 1024 / 1024).toFixed(2);
+                            console.log('📄 Raw JSON size (MB):', dataSizeMB);
+                        } catch (encodeError) {
+                            console.error('Base64 encoding error:', encodeError);
+                            throw new Error(`Failed to encode data: ${encodeError.message}`);
+                        }
                     }
                 } else {
                     updateProgress(35, 'Encoding data to base64...');
@@ -2989,7 +3033,34 @@
                 }
 
                 const zipData = await zipResponse.json();
+                
+                // Validate ZIP file data
+                if (!zipData.content || zipData.content.trim().length === 0) {
+                    throw new Error('ZIP file is empty or corrupted (no content)');
+                }
+                
+                console.log(`📊 ZIP file size: ${zipData.size} bytes, content length: ${zipData.content.length}`);
+                
+                if (zipData.size === 0) {
+                    throw new Error('ZIP file is empty (0 bytes)');
+                }
+                
                 const zipContent = atob(zipData.content.replace(/\s/g, ''));
+                
+                // Additional validation - check for ZIP file signature
+                if (zipContent.length < 4) {
+                    throw new Error('ZIP file too small to be valid');
+                }
+                
+                // Check ZIP file signature (PK\x03\x04 or PK\x05\x06)
+                const signature = zipContent.substring(0, 4);
+                const isValidZip = signature === 'PK\x03\x04' || signature === 'PK\x05\x06';
+                
+                if (!isValidZip) {
+                    throw new Error('File is not a valid ZIP file (invalid signature)');
+                }
+                
+                console.log('✅ ZIP file validation passed');
                 
                 // Use JSZip to extract the content
                 const zip = new JSZip();
@@ -2997,7 +3068,10 @@
                 const playlistFile = zipFile.file('playlist.json');
                 
                 if (!playlistFile) {
-                    throw new Error('playlist.json not found in zip file');
+                    // List all files in the ZIP for debugging
+                    const files = Object.keys(zipFile.files);
+                    console.log('📁 Files in ZIP:', files);
+                    throw new Error(`playlist.json not found in zip file. Found files: ${files.join(', ')}`);
                 }
 
                 const playlistContent = await playlistFile.async('string');
@@ -3062,6 +3136,106 @@
                 branchEl.value = '';
             }
             showGitHubStatus('info', '🔄 Cleared cached branch name - will auto-generate new one on next upload');
+        }
+
+        // Check and repair corrupted ZIP file
+        async function checkAndRepairZip() {
+            try {
+                showGitHubStatus('info', '🔍 Checking playlist.json.zip for corruption...');
+                
+                // First check if ZIP exists
+                const zipUrl = `https://api.github.com/repos/${GITHUB_CONFIG.owner}/${GITHUB_CONFIG.repo}/contents/playlist.json.zip?ref=main`;
+                const zipResponse = await fetch(zipUrl, {
+                    headers: {
+                        'Authorization': `token ${GITHUB_CONFIG.token}`,
+                        'Accept': 'application/vnd.github.v3+json'
+                    }
+                });
+
+                if (!zipResponse.ok) {
+                    showGitHubStatus('info', '📄 No playlist.json.zip found - nothing to check');
+                    return;
+                }
+
+                const zipData = await zipResponse.json();
+                
+                // Check if ZIP is corrupted
+                try {
+                    if (!zipData.content || zipData.content.trim().length === 0) {
+                        throw new Error('ZIP file is empty');
+                    }
+                    
+                    if (zipData.size === 0) {
+                        throw new Error('ZIP file has 0 bytes');
+                    }
+                    
+                    const zipContent = atob(zipData.content.replace(/\s/g, ''));
+                    
+                    if (zipContent.length < 4) {
+                        throw new Error('ZIP file too small');
+                    }
+                    
+                    const signature = zipContent.substring(0, 4);
+                    const isValidZip = signature === 'PK\x03\x04' || signature === 'PK\x05\x06';
+                    
+                    if (!isValidZip) {
+                        throw new Error('Invalid ZIP signature');
+                    }
+                    
+                    // Try to load the ZIP
+                    const zip = new JSZip();
+                    await zip.loadAsync(zipContent, {base64: false});
+                    const playlistFile = zip.file('playlist.json');
+                    
+                    if (!playlistFile) {
+                        throw new Error('playlist.json not found in ZIP');
+                    }
+                    
+                    // Try to extract content
+                    await playlistFile.async('string');
+                    
+                    showGitHubStatus('success', '✅ ZIP file is valid and healthy!');
+                    
+                } catch (validationError) {
+                    showGitHubStatus('warning', `⚠️ ZIP file is corrupted: ${validationError.message}`);
+                    
+                    // Offer to delete the corrupted ZIP
+                    setTimeout(() => {
+                        showGitHubStatus('info', '💡 Recommendation: Delete corrupted ZIP and upload fresh data');
+                    }, 2000);
+                    
+                    // Try to delete the corrupted ZIP
+                    setTimeout(async () => {
+                        try {
+                            showGitHubStatus('info', '🗑️ Deleting corrupted ZIP file...');
+                            
+                            const deleteResponse = await fetch(zipUrl, {
+                                method: 'DELETE',
+                                headers: {
+                                    'Authorization': `token ${GITHUB_CONFIG.token}`,
+                                    'Accept': 'application/vnd.github.v3+json',
+                                    'Content-Type': 'application/json'
+                                },
+                                body: JSON.stringify({
+                                    message: 'Delete corrupted playlist.json.zip',
+                                    sha: zipData.sha
+                                })
+                            });
+
+                            if (deleteResponse.ok) {
+                                showGitHubStatus('success', '✅ Corrupted ZIP deleted! You can now upload fresh data.');
+                            } else {
+                                showGitHubStatus('warning', '⚠️ Could not delete corrupted ZIP - you may need to do this manually');
+                            }
+                        } catch (deleteError) {
+                            showGitHubStatus('warning', `⚠️ Could not delete corrupted ZIP: ${deleteError.message}`);
+                        }
+                    }, 3000);
+                }
+                
+            } catch (error) {
+                showGitHubStatus('error', `❌ ZIP check failed: ${error.message}`);
+            }
         }
 
         // Clean up specific problematic branches
@@ -3997,6 +4171,7 @@
                                 <br>
                                 <button class="btn btn-warning btn-small" onclick="checkCurrentBranches()" style="margin-right: 8px; margin-bottom: 8px;">🔍 Check Branches</button>
                                 <button class="btn btn-accent btn-small" onclick="triggerUnzipWorkflow()" style="margin-right: 8px; margin-bottom: 8px;">📦 Unzip playlist.json.zip</button>
+                                <button class="btn btn-info btn-small" onclick="checkAndRepairZip()" style="margin-right: 8px; margin-bottom: 8px;">🔍 Check ZIP Health</button>
                                 <button class="btn btn-secondary btn-small" onclick="clearCachedBranch()" style="margin-right: 8px; margin-bottom: 8px;">🔄 Clear Branch Cache</button>
                                 <button class="btn btn-warning btn-small" onclick="cleanupProblematicBranches()" style="margin-right: 8px; margin-bottom: 8px;">🔧 Fix Branch Issues</button>
                                 <button class="btn btn-danger btn-small" onclick="cleanupOldBranches()" style="margin-right: 8px; margin-bottom: 8px;">🧹 Cleanup Old Branches</button>
