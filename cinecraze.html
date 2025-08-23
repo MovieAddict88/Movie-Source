@@ -1432,7 +1432,7 @@
             token: '',
             directToMain: false, // NEW: Option to upload directly to main branch
             createPR: true, // NEW: Option to create pull request after upload
-            autoMerge: false // NEW: Option to auto-merge PR (requires admin permissions)
+            autoMerge: true // NEW: Option to auto-merge PR (requires admin permissions)
         };
 
         // Function to show GitHub status messages (moved to top to avoid dependency issues)
@@ -1934,7 +1934,32 @@
                                             }, 2000);
                                             
                                         } catch (mergeError) {
-                                            showGitHubStatus('warning', `⚠️ Auto-merge failed: ${mergeError.message}. Please merge manually.`);
+                                            console.error('Auto-merge failed:', mergeError);
+                                            
+                                            // Provide specific guidance based on error type
+                                            let errorMessage = mergeError.message || 'Unknown error';
+                                            let guidance = '';
+                                            
+                                            if (errorMessage.includes('403') || errorMessage.includes('permission')) {
+                                                guidance = 'Your GitHub token needs admin permissions to auto-merge. Try "Direct to Main" instead.';
+                                            } else if (errorMessage.includes('422') || errorMessage.includes('not mergeable')) {
+                                                guidance = 'PR has conflicts that need manual resolution.';
+                                            } else {
+                                                guidance = 'Please merge the PR manually in GitHub.';
+                                            }
+                                            
+                                            showGitHubStatus('warning', `⚠️ Auto-merge failed: ${errorMessage}`);
+                                            
+                                            setTimeout(() => {
+                                                showGitHubStatus('info', `💡 ${guidance}`);
+                                            }, 2000);
+                                            
+                                            // Offer direct upload as fallback
+                                            if (errorMessage.includes('403') || errorMessage.includes('permission')) {
+                                                setTimeout(() => {
+                                                    showGitHubStatus('info', '🎯 Tip: Use "Direct to Main" button for immediate updates without PRs');
+                                                }, 4000);
+                                            }
                                         }
                                     }, 3000);
                                 }
@@ -3733,7 +3758,7 @@
                                 <small class="form-text">Automatically creates a PR to merge changes to main branch</small>
                                 
                                 <label style="margin-top: 8px; display: block;">
-                                    <input type="checkbox" id="github-auto-merge" onchange="updateGitHubConfigFromInputs()"> 
+                                    <input type="checkbox" id="github-auto-merge" checked onchange="updateGitHubConfigFromInputs()"> 
                                     🤖 Auto-merge PR (requires admin permissions)
                                 </label>
                                 <small class="form-text">⚠️ Automatically merges the PR - use with caution</small>
@@ -3761,10 +3786,15 @@
                             <!-- Quick Action Buttons -->
                             <div class="form-group">
                                 <h5 style="color: var(--text-secondary); margin-bottom: 8px;">⚡ Quick Actions</h5>
-                                <button class="btn btn-primary btn-small" onclick="quickUploadToMain()">🎯 Quick Upload to Main</button>
-                                <button class="btn btn-success btn-small" onclick="uploadWithPR()">🌿 Upload + Create PR</button>
-                                <button class="btn btn-warning btn-small" onclick="checkCurrentBranches()">🔍 Check Branches</button>
-                                <button class="btn btn-danger btn-small" onclick="cleanupOldBranches()">🧹 Cleanup Old Branches</button>
+                                <div style="background: rgba(229, 9, 20, 0.1); border: 1px solid rgba(229, 9, 20, 0.3); border-radius: 8px; padding: 12px; margin-bottom: 12px;">
+                                    <strong style="color: var(--primary);">📌 To update your main playlist.json immediately:</strong>
+                                    <br><small style="color: var(--text-secondary);">Use "Direct to Main" for instant updates, or "Auto-merge PR" if you have admin permissions</small>
+                                </div>
+                                <button class="btn btn-primary btn-small" onclick="quickUploadToMain()" style="margin-right: 8px; margin-bottom: 8px;">🎯 Direct to Main (Immediate)</button>
+                                <button class="btn btn-success btn-small" onclick="uploadWithPR()" style="margin-right: 8px; margin-bottom: 8px;">🌿 Upload + Auto-merge PR</button>
+                                <br>
+                                <button class="btn btn-warning btn-small" onclick="checkCurrentBranches()" style="margin-right: 8px; margin-bottom: 8px;">🔍 Check Branches</button>
+                                <button class="btn btn-danger btn-small" onclick="cleanupOldBranches()" style="margin-right: 8px; margin-bottom: 8px;">🧹 Cleanup Old Branches</button>
                             </div>
                             
                             <div class="form-group">
