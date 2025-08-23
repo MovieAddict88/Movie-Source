@@ -3004,9 +3004,25 @@ jobs:
 
                 // Create the workflow file
                 const workflowPath = '.github/workflows/auto-unzip.yml';
+                
+                // Proper UTF-8 to base64 encoding function
+                function utf8ToBase64(str) {
+                    try {
+                        // Use TextEncoder for proper UTF-8 handling
+                        const encoder = new TextEncoder();
+                        const bytes = encoder.encode(str);
+                        const binaryString = Array.from(bytes, byte => String.fromCharCode(byte)).join('');
+                        return btoa(binaryString);
+                    } catch (error) {
+                        console.warn('TextEncoder failed, using fallback method:', error);
+                        // Fallback: encode URI components first
+                        return btoa(unescape(encodeURIComponent(str)));
+                    }
+                }
+                
                 const workflowData = {
                     message: 'Add auto-unzip workflow for playlist files',
-                    content: btoa(workflowContent),
+                    content: utf8ToBase64(workflowContent),
                     branch: GITHUB_CONFIG.baseBranch || 'main'
                 };
 
