@@ -1,32 +1,165 @@
-name: Unzip playlist.json.zip
+name: Unzip playlist.json.zip and Create PR
 permissions:
   contents: write
+  pull-requests: write
+  actions: read
 on:
   push:
     branches: [ upload-* ]
     paths: [ 'playlist.json.zip' ]
+  workflow_dispatch: # Allow manual triggering
+
 jobs:
   unzip:
     runs-on: ubuntu-latest
+    timeout-minutes: 30 # Increased timeout for large files
     steps:
-      - uses: actions/checkout@v4
+      - name: Checkout repository
+        uses: actions/checkout@v4
         with:
-          # Increases timeout for large files
-          fetch-depth: 0  
-          # Prevents partial checkouts
-          sparse-checkout: | 
+          fetch-depth: 0
+          sparse-checkout: |
             playlist.json.zip
+            playlist.json
 
-      - name: Unzip with efficient tool
+      - name: Check zip file size
         run: |
-          # Install 7z for better compression handling
-          sudo apt-get install p7zip-full -y  
-          # Extract specific file efficiently
-          7z x -y playlist.json.zip -o. playlist.json  
+          if [ -f "playlist.json.zip" ]; then
+            size=$(du -h playlist.json.zip | cut -f1)
+            echo "📦 Zip file size: $size"
+            if [ $(du -m playlist.json.zip | cut -f1) -gt 100 ]; then
+              echo "⚠️ Warning: Zip file is larger than 100MB"
+            fi
+          else
+            echo "❌ playlist.json.zip not found"
+            exit 1
+          fi
 
-      - name: Commit result
+      - name: Install 7zip
+        run: |
+          sudo apt-get update
+          sudo apt-get install p7zip-full -y
+
+      - name: Unzip playlist.json.zip
+        run: |
+          echo "🗜️ Extracting playlist.json.zip..."
+          7z x -y playlist.json.zip -o. playlist.json
+          
+          if [ -f "playlist.json" ]; then
+            size=$(du -h playlist.json | cut -f1)
+            echo "✅ Successfully extracted playlist.json (size: $size)"
+          else
+            echo "❌ Failed to extract playlist.json"
+            exit 1
+          fi
+
+      - name: Validate JSON
+        run: |
+          if [ -f "playlist.json" ]; then
+            echo "🔍 Validating JSON structure..."
+            if python3 -m json.tool playlist.json > /dev/null 2>&1; then
+              echo "✅ JSON is valid"
+            else
+              echo "❌ JSON validation failed"
+              exit 1
+            fi
+          fi
+
+      - name: Commit extracted file
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
-          commit_message: 'Unzip playlist.json.zip to playlist.json'
-          # Commit only the JSON file
-          file_pattern: playlist.json  
+          commit_message: 'Auto-unzip playlist.json.zip to playlist.json'
+          file_pattern: playlist.json
+          branch: ${{ github.ref }}
+
+      - name: Create Pull Request
+        id: create-pr
+        run: |
+          # Get the current branch name (should be upload-*)
+          CURRENT_BRANCH="${GITHUB_REF#refs/heads/}"
+          BASE_BRANCH="main"
+          
+          echo "🔄 Creating PR from $CURRENT_BRANCH to $BASE_BRANCH"
+          
+          # Check if PR already exists
+          existing_pr=$(gh pr list --head "$CURRENT_BRANCH" --base "$BASE_BRANCH" --json number --jq '.[0].number' 2>/dev/null || echo "")
+          
+          if [ -n "$existing_pr" ]; then
+            echo "ℹ️ PR already exists: #$existing_pr"
+            echo "pr_number=$existing_pr" >> $GITHUB_OUTPUT
+          else
+            # Create new PR
+            pr_title="Update playlist.json from $CURRENT_BRANCH"
+            pr_body="Automated update of playlist.json from zip upload.
+            
+**Upload Details:**
+- Source Branch: \`$CURRENT_BRANCH\`
+- Target Branch: \`$BASE_BRANCH\`
+- Timestamp: $(date -u +"%Y-%m-%d %H:%M:%S UTC")
+- Triggered by: GitHub Actions workflow
+            
+**Changes:**
+- Updated playlist.json from uploaded zip file
+- Automated processing via GitHub Actions
+            
+**Note:** This PR was created automatically. Please review the changes before merging."
+            
+            # Create PR using GitHub CLI
+            pr_result=$(gh pr create \
+              --title "$pr_title" \
+              --body "$pr_body" \
+              --head "$CURRENT_BRANCH" \
+              --base "$BASE_BRANCH" \
+              --json number,html_url 2>&1)
+            
+            if [ $? -eq 0 ]; then
+              pr_number=$(echo "$pr_result" | jq -r '.number')
+              pr_url=$(echo "$pr_result" | jq -r '.html_url')
+              echo "✅ PR created successfully: #$pr_number"
+              echo "🔗 PR URL: $pr_url"
+              echo "pr_number=$pr_number" >> $GITHUB_OUTPUT
+              echo "pr_url=$pr_url" >> $GITHUB_OUTPUT
+            else
+              echo "❌ Failed to create PR: $pr_result"
+              echo "pr_number=" >> $GITHUB_OUTPUT
+              echo "pr_url=" >> $GITHUB_OUTPUT
+            fi
+          fi
+
+      - name: Comment on PR
+        if: steps.create-pr.outputs.pr_number != ''
+        run: |
+          pr_number="${{ steps.create-pr.outputs.pr_number }}"
+          comment="🤖 **Automated Workflow Comment**
+          
+This PR was created automatically by the unzip workflow.
+          
+**Workflow Details:**
+- ✅ Zip file extracted successfully
+- ✅ JSON validation passed
+- ✅ File committed to branch
+- 🔄 Ready for review and merge
+          
+**Next Steps:**
+1. Review the changes in playlist.json
+2. Ensure the data structure is correct
+3. Merge the PR when ready
+          
+If you encounter any issues, check the workflow logs for details."
+          
+          gh pr comment "$pr_number" --body "$comment"
+
+      - name: Workflow Summary
+        run: |
+          echo "🎉 Workflow Summary"
+          echo "=================="
+          echo "✅ Zip file extracted"
+          echo "✅ JSON validated"
+          echo "✅ File committed"
+          if [ -n "${{ steps.create-pr.outputs.pr_number }}" ]; then
+            echo "✅ PR created: #${{ steps.create-pr.outputs.pr_number }}"
+            echo "🔗 PR URL: ${{ steps.create-pr.outputs.pr_url }}"
+          else
+            echo "ℹ️ PR already existed or creation failed"
+          fi
+          echo "=================="

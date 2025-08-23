@@ -1,0 +1,141 @@
+name: Create PR Fallback
+permissions:
+  contents: write
+  pull-requests: write
+  actions: read
+on:
+  workflow_run:
+    workflows: ["Unzip playlist.json.zip and Create PR"]
+    types: [completed]
+    branches: [upload-*]
+  workflow_dispatch:
+    inputs:
+      source_branch:
+        description: 'Source branch to create PR from'
+        required: true
+        default: 'upload-latest'
+      target_branch:
+        description: 'Target branch to merge into'
+        required: true
+        default: 'main'
+
+jobs:
+  create-pr:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          ref: ${{ github.event.inputs.source_branch || github.event.workflow_run.head_branch }}
+
+      - name: Check if playlist.json exists
+        id: check-file
+        run: |
+          if [ -f "playlist.json" ]; then
+            size=$(du -h playlist.json | cut -f1)
+            echo "✅ playlist.json found (size: $size)"
+            echo "file_exists=true" >> $GITHUB_OUTPUT
+          else
+            echo "❌ playlist.json not found"
+            echo "file_exists=false" >> $GITHUB_OUTPUT
+          fi
+
+      - name: Create Pull Request
+        if: steps.check-file.outputs.file_exists == 'true'
+        id: create-pr
+        run: |
+          SOURCE_BRANCH="${{ github.event.inputs.source_branch || github.event.workflow_run.head_branch }}"
+          TARGET_BRANCH="${{ github.event.inputs.target_branch || 'main' }}"
+          
+          echo "🔄 Creating PR from $SOURCE_BRANCH to $TARGET_BRANCH"
+          
+          # Check if PR already exists
+          existing_pr=$(gh pr list --head "$SOURCE_BRANCH" --base "$TARGET_BRANCH" --json number --jq '.[0].number' 2>/dev/null || echo "")
+          
+          if [ -n "$existing_pr" ]; then
+            echo "ℹ️ PR already exists: #$existing_pr"
+            echo "pr_number=$existing_pr" >> $GITHUB_OUTPUT
+          else
+            # Create new PR
+            pr_title="Update playlist.json from $SOURCE_BRANCH"
+            pr_body="Fallback PR creation for playlist.json update.
+            
+**Upload Details:**
+- Source Branch: \`$SOURCE_BRANCH\`
+- Target Branch: \`$TARGET_BRANCH\`
+- Timestamp: $(date -u +"%Y-%m-%d %H:%M:%S UTC")
+- Triggered by: Fallback workflow
+- Previous workflow: ${{ github.event.workflow_run.name }}
+            
+**Changes:**
+- Updated playlist.json from branch $SOURCE_BRANCH
+- Automated processing via GitHub Actions fallback workflow
+            
+**Note:** This PR was created by the fallback workflow. Please review the changes before merging."
+            
+            # Create PR using GitHub CLI
+            pr_result=$(gh pr create \
+              --title "$pr_title" \
+              --body "$pr_body" \
+              --head "$SOURCE_BRANCH" \
+              --base "$TARGET_BRANCH" \
+              --json number,html_url 2>&1)
+            
+            if [ $? -eq 0 ]; then
+              pr_number=$(echo "$pr_result" | jq -r '.number')
+              pr_url=$(echo "$pr_result" | jq -r '.html_url')
+              echo "✅ PR created successfully: #$pr_number"
+              echo "🔗 PR URL: $pr_url"
+              echo "pr_number=$pr_number" >> $GITHUB_OUTPUT
+              echo "pr_url=$pr_url" >> $GITHUB_OUTPUT
+            else
+              echo "❌ Failed to create PR: $pr_result"
+              echo "pr_number=" >> $GITHUB_OUTPUT
+              echo "pr_url=" >> $GITHUB_OUTPUT
+            fi
+          fi
+
+      - name: Comment on PR
+        if: steps.create-pr.outputs.pr_number != ''
+        run: |
+          pr_number="${{ steps.create-pr.outputs.pr_number }}"
+          comment="🤖 **Fallback Workflow Comment**
+          
+This PR was created by the fallback workflow because the main unzip workflow may have encountered issues.
+          
+**Workflow Details:**
+- ✅ playlist.json exists and is ready
+- ✅ PR created successfully
+- 🔄 Ready for review and merge
+          
+**Previous Workflow:**
+- Name: ${{ github.event.workflow_run.name }}
+- Status: ${{ github.event.workflow_run.conclusion }}
+- Run ID: ${{ github.event.workflow_run.id }}
+          
+**Next Steps:**
+1. Review the changes in playlist.json
+2. Ensure the data structure is correct
+3. Merge the PR when ready
+          
+If you encounter any issues, check both workflow logs for details."
+          
+          gh pr comment "$pr_number" --body "$comment"
+
+      - name: Workflow Summary
+        run: |
+          echo "🎉 Fallback Workflow Summary"
+          echo "============================"
+          if [ "${{ steps.check-file.outputs.file_exists }}" == "true" ]; then
+            echo "✅ playlist.json found"
+            if [ -n "${{ steps.create-pr.outputs.pr_number }}" ]; then
+              echo "✅ PR created: #${{ steps.create-pr.outputs.pr_number }}"
+              echo "🔗 PR URL: ${{ steps.create-pr.outputs.pr_url }}"
+            else
+              echo "ℹ️ PR already existed or creation failed"
+            fi
+          else
+            echo "❌ playlist.json not found - cannot create PR"
+          fi
+          echo "============================"

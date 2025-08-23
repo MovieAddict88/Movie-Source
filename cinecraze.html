@@ -1926,13 +1926,18 @@
                 // Upload the file with timeout and retry logic
                 const uploadUrl = `https://api.github.com/repos/${GITHUB_CONFIG.owner}/${GITHUB_CONFIG.repo}/contents/${encodeURIComponent(targetPath)}`;
                 
-                const uploadWithRetry = async (retries = 2) => {
+                // Calculate appropriate timeout based on file size
+                const fileSizeMB = parseFloat(dataSizeMB);
+                const uploadTimeout = Math.max(60000, Math.min(300000, fileSizeMB * 3000)); // 1-5 minutes based on size
+                console.log(`⏱️ Upload timeout set to ${uploadTimeout/1000}s for ${fileSizeMB}MB file`);
+                
+                const uploadWithRetry = async (retries = 3) => {
                     for (let attempt = 1; attempt <= retries; attempt++) {
                         try {
                             updateProgress(70, `Uploading to GitHub (attempt ${attempt}/${retries})...`);
                             
                             const controller = new AbortController();
-                            const timeoutId = setTimeout(() => controller.abort(), 60000); // 60 second timeout
+                            const timeoutId = setTimeout(() => controller.abort(), uploadTimeout);
                             
                             const uploadResponse = await fetch(uploadUrl, {
                                 method: 'PUT',
@@ -2068,6 +2073,13 @@
                         setTimeout(() => {
                             showGitHubStatus('info', `⚙️ Check workflow: ${workflowUrl}`);
                         }, 6000);
+                        
+                        // Show additional guidance for large files
+                        if (parseFloat(dataSizeMB) > 10) {
+                            setTimeout(() => {
+                                showGitHubStatus('info', '📋 Large file uploaded. The workflow will automatically unzip and create a PR. Check the Actions tab for progress.');
+                            }, 8000);
+                        }
                     }
                     
                     // Hide progress bar after success
@@ -3344,18 +3356,28 @@ jobs:
         function checkDataSize(dataStr) {
             const sizeMB = dataStr.length / 1024 / 1024;
             const maxSizeMB = 100; // GitHub file size limit is 100MB
+            const recommendedZipSize = 10; // Recommend zip for files >10MB
             
             if (sizeMB > maxSizeMB) {
                 return {
                     tooLarge: true,
                     sizeMB: sizeMB.toFixed(2),
-                    maxSizeMB: maxSizeMB
+                    maxSizeMB: maxSizeMB,
+                    recommendation: 'File exceeds GitHub limit. Consider splitting data or using external storage.'
+                };
+            } else if (sizeMB > recommendedZipSize) {
+                return {
+                    tooLarge: false,
+                    sizeMB: sizeMB.toFixed(2),
+                    recommendation: `File is ${sizeMB}MB. Consider enabling ZIP compression for better upload performance.`,
+                    shouldUseZip: true
                 };
             }
             
             return {
                 tooLarge: false,
-                sizeMB: sizeMB.toFixed(2)
+                sizeMB: sizeMB.toFixed(2),
+                recommendation: 'File size is optimal for direct upload.'
             };
         }
 
@@ -3389,8 +3411,20 @@ jobs:
                 console.log(`📤 Data size: ${sizeCheck.sizeMB}MB`);
                 
                 if (sizeCheck.tooLarge) {
-                    showGitHubStatus('error', `Data too large (${sizeCheck.sizeMB}MB). GitHub limit is ${sizeCheck.maxSizeMB}MB. Consider using zip compression or splitting the data.`);
+                    showGitHubStatus('error', `Data too large (${sizeCheck.sizeMB}MB). GitHub limit is ${sizeCheck.maxSizeMB}MB. ${sizeCheck.recommendation}`);
                     return;
+                }
+                
+                // Show size recommendations
+                if (sizeCheck.shouldUseZip && !GITHUB_CONFIG.useZip) {
+                    showGitHubStatus('warning', `⚠️ ${sizeCheck.recommendation}`);
+                    // Auto-enable zip for large files
+                    GITHUB_CONFIG.useZip = true;
+                    const useZipEl = document.getElementById('github-use-zip');
+                    if (useZipEl) {
+                        useZipEl.checked = true;
+                    }
+                    showGitHubStatus('info', '✅ ZIP compression automatically enabled for large file');
                 }
                 
                 console.log(`📤 Uploading ${sizeCheck.sizeMB}MB of current data to GitHub`);
