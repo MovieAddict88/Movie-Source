@@ -2738,6 +2738,107 @@
             }
         }
 
+        // Function to manually trigger workflow for existing zip files
+        async function triggerWorkflowForExistingZip() {
+            try {
+                showGitHubStatus('info', '🔄 Manually triggering workflow for existing zip files...');
+                
+                if (!GITHUB_CONFIG.token || !GITHUB_CONFIG.owner || !GITHUB_CONFIG.repo) {
+                    showGitHubStatus('error', 'GitHub configuration incomplete');
+                    return;
+                }
+                
+                // Check if there are zip files in the repository
+                const contentsUrl = `https://api.github.com/repos/${GITHUB_CONFIG.owner}/${GITHUB_CONFIG.repo}/contents?ref=${encodeURIComponent(GITHUB_CONFIG.baseBranch || 'main')}`;
+                const contentsResponse = await fetch(contentsUrl, {
+                    headers: {
+                        'Authorization': `token ${GITHUB_CONFIG.token}`,
+                        'Accept': 'application/vnd.github.v3+json'
+                    }
+                });
+                
+                if (!contentsResponse.ok) {
+                    throw new Error('Failed to check repository contents');
+                }
+                
+                const contents = await contentsResponse.json();
+                const zipFiles = contents.filter(item => item.name.endsWith('.zip'));
+                
+                if (zipFiles.length === 0) {
+                    showGitHubStatus('info', 'No zip files found in repository');
+                    return;
+                }
+                
+                showGitHubStatus('info', `Found ${zipFiles.length} zip file(s) to process`);
+                
+                // Create a temporary branch to trigger the workflow
+                const tempBranchName = `trigger-workflow-${Date.now()}`;
+                
+                // Get the latest commit SHA from main branch
+                const mainBranchUrl = `https://api.github.com/repos/${GITHUB_CONFIG.owner}/${GITHUB_CONFIG.repo}/branches/${encodeURIComponent(GITHUB_CONFIG.baseBranch || 'main')}`;
+                const mainBranchResponse = await fetch(mainBranchUrl, {
+                    headers: {
+                        'Authorization': `token ${GITHUB_CONFIG.token}`,
+                        'Accept': 'application/vnd.github.v3+json'
+                    }
+                });
+                
+                if (!mainBranchResponse.ok) {
+                    throw new Error('Failed to get main branch information');
+                }
+                
+                const mainBranchData = await mainBranchResponse.json();
+                const latestSha = mainBranchData.commit.sha;
+                
+                // Create a new branch
+                const createBranchUrl = `https://api.github.com/repos/${GITHUB_CONFIG.owner}/${GITHUB_CONFIG.repo}/git/refs`;
+                const createBranchResponse = await fetch(createBranchUrl, {
+                    method: 'POST',
+                    headers: {
+                        'Authorization': `token ${GITHUB_CONFIG.token}`,
+                        'Accept': 'application/vnd.github.v3+json',
+                        'Content-Type': 'application/json'
+                    },
+                    body: JSON.stringify({
+                        ref: `refs/heads/${tempBranchName}`,
+                        sha: latestSha
+                    })
+                });
+                
+                if (!createBranchResponse.ok) {
+                    throw new Error('Failed to create temporary branch');
+                }
+                
+                showGitHubStatus('success', '✅ Temporary branch created, workflow should trigger automatically');
+                
+                // Wait a moment and then delete the temporary branch
+                setTimeout(async () => {
+                    try {
+                        const deleteBranchUrl = `https://api.github.com/repos/${GITHUB_CONFIG.owner}/${GITHUB_CONFIG.repo}/git/refs/heads/${tempBranchName}`;
+                        await fetch(deleteBranchUrl, {
+                            method: 'DELETE',
+                            headers: {
+                                'Authorization': `token ${GITHUB_CONFIG.token}`,
+                                'Accept': 'application/vnd.github.v3+json'
+                            }
+                        });
+                        console.log('🧹 Temporary branch cleaned up');
+                    } catch (cleanupError) {
+                        console.warn('Failed to cleanup temporary branch:', cleanupError);
+                    }
+                }, 5000);
+                
+                // Show workflow status
+                setTimeout(() => {
+                    showGitHubStatus('info', '📊 Check workflow status to monitor progress');
+                }, 3000);
+                
+            } catch (error) {
+                console.error('Workflow trigger failed:', error);
+                showGitHubStatus('error', `Workflow trigger failed: ${error.message}`);
+            }
+        }
+
         // Function to create GitHub Actions workflow for auto-unzipping
         async function createUnzipWorkflow() {
             try {
@@ -2748,7 +2849,7 @@
                     return;
                 }
                 
-                // Workflow content for auto-unzipping zip files
+                // Enhanced workflow content for auto-unzipping zip files
                 const workflowContent = `name: Auto-Unzip Playlist Files
 
 on:
@@ -2758,55 +2859,147 @@ on:
     paths:
       - '*.zip'
 
+permissions:
+  contents: write
+
 jobs:
   unzip-playlist:
     runs-on: ubuntu-latest
+    timeout-minutes: 10
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
         with:
           token: \${{ secrets.GITHUB_TOKEN }}
       
-      - name: Find zip files
-        id: find-zip
+      - name: Check zip file integrity
+        id: check-zip
         run: |
-          ZIP_FILES=\$(find . -name "*.zip" -type f)
-          echo "zip_files=\$ZIP_FILES" >> \$GITHUB_OUTPUT
-          echo "Found zip files: \$ZIP_FILES"
-      
-      - name: Unzip playlist files
-        if: steps.find-zip.outputs.zip_files != ''
-        run: |
+          echo "🔍 Checking zip files..."
           for zipfile in *.zip; do
             if [ -f "\$zipfile" ]; then
-              echo "Processing \$zipfile..."
-              unzip -o "\$zipfile"
-              echo "Unzipped \$zipfile"
+              echo "📦 Found zip file: \$zipfile"
+              echo "📏 File size: \$(ls -lh "\$zipfile" | awk '{print \$5}')"
+              
+              # Test zip file integrity
+              if unzip -t "\$zipfile" > /dev/null 2>&1; then
+                echo "✅ Zip file integrity check passed"
+                echo "zip_file=\$zipfile" >> \$GITHUB_OUTPUT
+                echo "zip_valid=true" >> \$GITHUB_OUTPUT
+              else
+                echo "❌ Zip file integrity check failed"
+                echo "zip_valid=false" >> \$GITHUB_OUTPUT
+              fi
+              
+              # List contents
+              echo "📋 Zip contents:"
+              unzip -l "\$zipfile" | head -20
             fi
           done
       
-      - name: Commit unzipped files
-        if: steps.find-zip.outputs.zip_files != ''
+      - name: Unzip playlist files
+        if: steps.check-zip.outputs.zip_valid == 'true'
         run: |
-          git config --local user.email "action@github.com"
-          git config --local user.name "GitHub Action"
-          git add .
-          if git diff --staged --quiet; then
-            echo "No changes to commit"
-          else
-            git commit -m "Auto-unzip playlist files from zip uploads"
-            git push
-          fi
+          echo "🗜️ Unzipping files..."
+          for zipfile in *.zip; do
+            if [ -f "\$zipfile" ]; then
+              echo "📦 Processing \$zipfile..."
+              
+              # Create backup of existing files
+              if [ -f "playlist.json" ]; then
+                cp "playlist.json" "playlist.json.backup"
+                echo "💾 Backup created: playlist.json.backup"
+              fi
+              
+              # Unzip with error handling
+              if unzip -o "\$zipfile"; then
+                echo "✅ Successfully unzipped \$zipfile"
+                
+                # Verify the result
+                if [ -f "playlist.json" ]; then
+                  echo "✅ playlist.json extracted successfully"
+                  echo "📏 New file size: \$(ls -lh "playlist.json" | awk '{print \$5}')"
+                else
+                  echo "❌ playlist.json not found after extraction"
+                  # Try to find what was extracted
+                  echo "📋 Extracted files:"
+                  ls -la
+                fi
+              else
+                echo "❌ Failed to unzip \$zipfile"
+                exit 1
+              fi
+            fi
+          done
       
-      - name: Show results
+      - name: Verify extracted content
+        if: steps.check-zip.outputs.zip_valid == 'true'
         run: |
-          echo "Workflow completed successfully!"
-          echo "Files in repository:"
-          ls -la
+          echo "🔍 Verifying extracted content..."
           if [ -f "playlist.json" ]; then
-            echo "✅ playlist.json found and ready!"
+            echo "✅ playlist.json exists"
+            echo "📏 File size: \$(ls -lh "playlist.json" | awk '{print \$5}')"
+            
+            # Check if it's valid JSON
+            if python3 -m json.tool "playlist.json" > /dev/null 2>&1; then
+              echo "✅ JSON validation passed"
+            else
+              echo "❌ JSON validation failed - file may be corrupted"
+            fi
+            
+            # Show first few lines
+            echo "📋 First 5 lines of playlist.json:"
+            head -5 "playlist.json"
           else
             echo "❌ playlist.json not found"
+            echo "📋 Available files:"
+            ls -la
+            exit 1
+          fi
+      
+      - name: Commit unzipped files
+        if: steps.check-zip.outputs.zip_valid == 'true'
+        run: |
+          echo "💾 Committing changes..."
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          
+          # Add all changes
+          git add .
+          
+          # Check what's staged
+          echo "📋 Staged changes:"
+          git diff --staged --name-only
+          
+          # Commit if there are changes
+          if ! git diff --staged --quiet; then
+            git commit -m "Auto-unzip playlist files from zip uploads - \$(date)"
+            echo "✅ Changes committed"
+            
+            # Push changes
+            if git push; then
+              echo "✅ Changes pushed successfully"
+            else
+              echo "❌ Failed to push changes"
+              exit 1
+            fi
+          else
+            echo "ℹ️ No changes to commit"
+          fi
+      
+      - name: Show final results
+        if: always()
+        run: |
+          echo "🎉 Workflow completed!"
+          echo "📋 Final repository contents:"
+          ls -la
+          
+          if [ -f "playlist.json" ]; then
+            echo "✅ SUCCESS: playlist.json is ready!"
+            echo "📏 Final size: \$(ls -lh "playlist.json" | awk '{print \$5}')"
+          else
+            echo "❌ FAILURE: playlist.json not found"
+            echo "🔍 Troubleshooting: Check zip file integrity and workflow logs"
           fi`;
 
                 // Create the workflow file
@@ -4345,6 +4538,9 @@ jobs:
                                 <button class="btn btn-secondary" onclick="diagnosePRCreationIssues()">🔍 Diagnose PR Issues</button>
                                 <button class="btn btn-secondary" onclick="checkExistingPRs()">📋 Check PRs</button>
                                 <button class="btn btn-secondary" onclick="manuallyCreatePR()">🔧 Manual PR</button>
+                                <button class="btn btn-secondary" onclick="checkWorkflowStatus()">⚙️ Check Workflow</button>
+                                <button class="btn btn-secondary" onclick="createUnzipWorkflow()">🔧 Fix Workflow</button>
+                                <button class="btn btn-secondary" onclick="triggerWorkflowForExistingZip()">🚀 Trigger Workflow</button>
                                 <button class="btn btn-accent" onclick="exportToGitHub()">📤 Upload to GitHub</button>
                             </div>
                             
