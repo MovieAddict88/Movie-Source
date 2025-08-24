@@ -6561,6 +6561,50 @@ Proceed with removal?`;
             saveData();
             updateDataStats();
         }
+        function applyAutoEmbedToAll() {
+            const filterType = document.getElementById('auto-embed-filter').value;
+            let totalProcessed = 0;
+            let totalAdded = 0;
+
+            currentData.Categories.forEach(category => {
+                if (category.MainCategory === "Movies") {
+                    const result = applyAutoEmbedToContent(category.Entries, filterType);
+                    totalProcessed += result.processed;
+                    totalAdded += result.added;
+                } else if (category.MainCategory === "TV Series") {
+                    category.Entries.forEach(series => {
+                        if (series.Seasons && Array.isArray(series.Seasons)) {
+                            series.Seasons.forEach(season => {
+                                if (season.Episodes && Array.isArray(season.Episodes)) {
+                                    const result = applyAutoEmbedToContent(season.Episodes, filterType);
+                                    totalProcessed += result.processed;
+                                    totalAdded += result.added;
+                                }
+                            });
+                        }
+                    });
+                }
+            });
+
+            showStatus('success', `Applied auto-embed to ${totalProcessed} items, added ${totalAdded} embed sources`);
+            saveData();
+            updateDataStats();
+        }
+
+        function updateAutoEmbedStatus() {
+            const statusEl = document.getElementById('auto-embed-status');
+            const config = getAutoEmbedConfig();
+            const enabledCount = [config.vidsrc.enabled, config.vidjoy.enabled, config.multiembed.enabled].filter(Boolean).length;
+            if (!statusEl) return;
+            if (enabledCount > 0) {
+                statusEl.style.display = 'block';
+                statusEl.className = 'status info';
+                statusEl.textContent = `Auto-embed enabled for ${enabledCount} services (VidSrc: ${config.vidsrc.enabled ? 'ON' : 'OFF'}, VidJoy: ${config.vidjoy.enabled ? 'ON' : 'OFF'}, MultiEmbed: ${config.multiembed.enabled ? 'ON' : 'OFF'})`;
+            } else {
+                statusEl.style.display = 'none';
+            }
+        }
+
         function updateSelectedContentInfo() {
             const select = document.getElementById('auto-embed-content-select');
             const infoDiv = document.getElementById('selected-content-info');
