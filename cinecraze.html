@@ -799,7 +799,6 @@
             margin: 0 12px 0 0;
             cursor: pointer;
         }
-
         .content-checkbox-item.disabled input[type="checkbox"] {
             cursor: not-allowed;
         }
@@ -1354,7 +1353,6 @@
             border: 1px solid rgba(255, 165, 0, 0.3);
         }
     </style>
-    
     <!-- GitHub Upload Script -->
     <script>
         // GitHub Upload Configuration
@@ -2533,6 +2531,15 @@ jobs:
                                     <option value="480p">480p</option>
                                 </select>
                             </div>
+                            <div class="embed-option">
+                                <input type="checkbox" id="auto-videasy" checked>
+                                <label for="auto-videasy">Videasy Auto-Embed</label>
+                                <select id="videasy-quality">
+                                    <option value="1080p">1080p</option>
+                                    <option value="720p">720p</option>
+                                    <option value="480p">480p</option>
+                                </select>
+                            </div>
                         </div>
                     </div>
                     <div class="form-group">
@@ -2859,7 +2866,8 @@ const TWOTWOEMBED_BASE = 'https://2embed.cc/embed';
                 'auto-mixdrop', 'mixdrop-quality',
                 'auto-filemoon', 'filemoon-quality',
                 'auto-upstream', 'upstream-quality',
-                'auto-vidlink', 'vidlink-quality'
+                'auto-vidlink', 'vidlink-quality',
+                'auto-videasy', 'videasy-quality'
             ];
              
              autoEmbedElements.forEach(id => {
@@ -3467,7 +3475,6 @@ const TWOTWOEMBED_BASE = 'https://2embed.cc/embed';
                 resultsContainer.innerHTML = '';
             }
         }
-
         function displaySearchResults(results, title = 'Search Results') {
             const container = document.getElementById('search-results');
             container.innerHTML = `<h3>${title}</h3>`;
@@ -3858,6 +3865,14 @@ const TWOTWOEMBED_BASE = 'https://2embed.cc/embed';
                         
                         // UpStream format: https://upstream.to/embed-TMDB_ID
                         match = url.match(/upstream\.to\/embed-(\d+)/);
+                        if (match) return match[1];
+                        
+                        // VidLink format: https://vidlink.pro/movie/TMDB_ID
+                        match = url.match(/vidlink\.pro\/movie\/(\d+)/);
+                        if (match) return match[1];
+                        
+                        // Videasy format: https://player.videasy.net/movie/TMDB_ID
+                        match = url.match(/player\.videasy\.net\/movie\/(\d+)/);
                         if (match) return match[1];
                     }
                 }
@@ -5019,7 +5034,6 @@ const TWOTWOEMBED_BASE = 'https://2embed.cc/embed';
             
             showLoading('import-loading', false);
         }
-        
         function updateImportProgress(percent, processed, message, category, speed = 0, eta = 0) {
             // Update progress bar
             document.getElementById('import-progress-fill').style.width = `${percent}%`;
@@ -6689,6 +6703,10 @@ Proceed with removal?`;
                 vidlink: {
                     enabled: document.getElementById('auto-vidlink').checked,
                     quality: document.getElementById('vidlink-quality').value
+                },
+                videasy: {
+                    enabled: document.getElementById('auto-videasy').checked,
+                    quality: document.getElementById('videasy-quality').value
                 }
             };
         }
@@ -7089,6 +7107,20 @@ Proceed with removal?`;
                 });
             }
 
+            // Videasy
+            if (config.videasy.enabled) {
+                let url;
+                if (contentType === 'tv' && seasonNum && episodeNum) {
+                    url = `${VIDEASY_BASE}/tv/${tmdbId}/${seasonNum}/${episodeNum}`;
+                } else {
+                    url = `${VIDEASY_BASE}/movie/${tmdbId}`;
+                }
+                sources.push({
+                    name: `Videasy ${config.videasy.quality}`,
+                    subtitle1: "", subtitle2: "", url: url
+                });
+            }
+
             return sources;
         }
 
@@ -7122,7 +7154,8 @@ Proceed with removal?`;
                     server.url.includes('upstream.to') ||
                     server.url.includes('godriveplayer.com') ||
                     server.url.includes('2embed.cc') ||
-                    server.url.includes('vidlink.pro')
+                    server.url.includes('vidlink.pro') ||
+                    server.url.includes('player.videasy.net')
                 ) ||
                 server.name && (
                     server.name.includes('VidSrc') ||
@@ -7148,7 +7181,8 @@ Proceed with removal?`;
                     server.name.includes('UpStream') ||
                     server.name.includes('GoDrivePlayer') ||
                     server.name.includes('2Embed') ||
-                    server.name.includes('VidLink')
+                    server.name.includes('VidLink') ||
+                    server.name.includes('Videasy')
                 )
             );
         }
@@ -7183,7 +7217,8 @@ Proceed with removal?`;
                 !server.url.includes('upstream.to') &&
                 !server.url.includes('godriveplayer.com') &&
                 !server.url.includes('2embed.cc') &&
-                !server.url.includes('vidlink.pro')
+                !server.url.includes('vidlink.pro') &&
+                !server.url.includes('player.videasy.net')
             );
         }
 
@@ -7261,7 +7296,6 @@ Proceed with removal?`;
             saveData();
             updateDataStats();
         }
-
         function applyAutoEmbedToAll() {
             const filterType = document.getElementById('auto-embed-filter').value;
             let totalProcessed = 0;
@@ -8025,7 +8059,6 @@ Proceed with removal?`;
                 console.error(`⚠️ Error updating episode metadata:`, error);
             }
         }
-        
         function updateSelectedContentInfo() {
             const select = document.getElementById('auto-embed-content-select');
             const infoDiv = document.getElementById('selected-content-info');
