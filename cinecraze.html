@@ -2489,9 +2489,9 @@ jobs:
                                 </select>
                             </div>
                             <div class="embed-option">
-                                <input type="checkbox" id="auto-filemoon" checked>
-                                <label for="auto-filemoon">FileMoon Auto-Embed</label>
-                                <select id="filemoon-quality">
+                                <input type="checkbox" id="auto-videasy" checked>
+                                <label for="auto-videasy">VidEasy Auto-Embed</label>
+                                <select id="videasy-quality">
                                     <option value="1080p">1080p</option>
                                     <option value="720p">720p</option>
                                     <option value="480p">480p</option>
@@ -2668,7 +2668,8 @@ jobs:
         const HDTODAY_BASE = 'https://hdtoday.tv/embed';
         const VIDLINK_BASE = 'https://vidlink.pro/movie';
         const STREAMLARE_BASE = 'https://streamlare.com/e';
-        const FILEMOON_BASE = 'https://filemoon.sx/e';
+        const VIDEASY_MOVIE_BASE = 'https://player.videasy.net/movie';
+        const VIDEASY_TV_BASE = 'https://player.videasy.net/tv';
         const STREAMHUB_BASE = 'https://streamhub.to/e';
         const VIDCLOUD_BASE = 'https://vidcloud.to/embed';
         const STREAMWISH_BASE = 'https://streamwish.to/e';
@@ -2786,7 +2787,7 @@ const TWOTWOEMBED_BASE = 'https://2embed.cc/embed';
             const recommended = [
                 'auto-vidsrc', 'auto-vidsrcto', 'auto-embedsu', 'auto-vidsrcme',
                 'auto-multiembed', 'auto-flixhq', 'auto-hdtoday', 'auto-vidcloud',
-                'auto-streamwish', 'auto-mixdrop', 'auto-filemoon', 'auto-vidlink'
+                'auto-streamwish', 'auto-mixdrop', 'auto-videasy', 'auto-vidlink'
             ];
             
             recommended.forEach(id => {
@@ -2857,7 +2858,7 @@ const TWOTWOEMBED_BASE = 'https://2embed.cc/embed';
                 'auto-doodstream', 'doodstream-quality',
                 'auto-streamtape', 'streamtape-quality',
                 'auto-mixdrop', 'mixdrop-quality',
-                'auto-filemoon', 'filemoon-quality',
+                'auto-videasy', 'videasy-quality',
                 'auto-upstream', 'upstream-quality',
                 'auto-vidlink', 'vidlink-quality'
             ];
@@ -3852,8 +3853,11 @@ const TWOTWOEMBED_BASE = 'https://2embed.cc/embed';
                         match = url.match(/mixdrop\.co\/e\/(\d+)/);
                         if (match) return match[1];
                         
-                        // FileMoon format: https://filemoon.sx/e/TMDB_ID
-                        match = url.match(/filemoon\.sx\/e\/(\d+)/);
+                        // VidEasy format: https://player.videasy.net/movie/TMDB_ID
+                        match = url.match(/player\.videasy\.net\/movie\/(\d+)/);
+                        if (match) return match[1];
+                        // VidEasy TV format: https://player.videasy.net/tv/TMDB_ID/SEASON/EPISODE
+                        match = url.match(/player\.videasy\.net\/tv\/(\d+)\/(\d+)\/(\d+)/);
                         if (match) return match[1];
                         
                         // UpStream format: https://upstream.to/embed-TMDB_ID
@@ -6670,9 +6674,9 @@ Proceed with removal?`;
                     enabled: document.getElementById('auto-mixdrop').checked,
                     quality: document.getElementById('mixdrop-quality').value
                 },
-                filemoon: {
-                    enabled: document.getElementById('auto-filemoon').checked,
-                    quality: document.getElementById('filemoon-quality').value
+                videasy: {
+                    enabled: document.getElementById('auto-videasy').checked,
+                    quality: document.getElementById('videasy-quality').value
                 },
                 upstream: {
                     enabled: document.getElementById('auto-upstream').checked,
@@ -7019,16 +7023,16 @@ Proceed with removal?`;
                 });
             }
 
-            // FileMoon
-            if (config.filemoon.enabled) {
+            // VidEasy
+            if (config.videasy.enabled) {
                 let url;
                 if (contentType === 'tv' && seasonNum && episodeNum) {
-                    url = `${FILEMOON_BASE}/${tmdbId}_s${seasonNum}e${episodeNum}`;
+                    url = `${VIDEASY_TV_BASE}/${tmdbId}/${seasonNum}/${episodeNum}`;
                 } else {
-                    url = `${FILEMOON_BASE}/${tmdbId}`;
+                    url = `${VIDEASY_MOVIE_BASE}/${tmdbId}`;
                 }
                 sources.push({
-                    name: `FileMoon ${config.filemoon.quality}`,
+                    name: `VidEasy ${config.videasy.quality}`,
                     subtitle1: "", subtitle2: "", url: url
                 });
             }
@@ -7118,7 +7122,7 @@ Proceed with removal?`;
                     server.url.includes('doodstream.com') ||
                     server.url.includes('streamtape.com') ||
                     server.url.includes('mixdrop.co') ||
-                    server.url.includes('filemoon.sx') ||
+                    server.url.includes('player.videasy.net') ||
                     server.url.includes('upstream.to') ||
                     server.url.includes('godriveplayer.com') ||
                     server.url.includes('2embed.cc') ||
@@ -7144,7 +7148,7 @@ Proceed with removal?`;
                     server.name.includes('DoodStream') ||
                     server.name.includes('StreamTape') ||
                     server.name.includes('MixDrop') ||
-                    server.name.includes('FileMoon') ||
+                    server.name.includes('VidEasy') ||
                     server.name.includes('UpStream') ||
                     server.name.includes('GoDrivePlayer') ||
                     server.name.includes('2Embed') ||
@@ -7179,7 +7183,7 @@ Proceed with removal?`;
                 !server.url.includes('doodstream.com') &&
                 !server.url.includes('streamtape.com') &&
                 !server.url.includes('mixdrop.co') &&
-                !server.url.includes('filemoon.sx') &&
+                !server.url.includes('player.videasy.net') &&
                 !server.url.includes('upstream.to') &&
                 !server.url.includes('godriveplayer.com') &&
                 !server.url.includes('2embed.cc') &&
