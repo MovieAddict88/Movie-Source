@@ -2685,7 +2685,7 @@ jobs:
         const MIXDROP_BASE = 'https://mixdrop.co/e';
 const GODRIVEPLAYER_BASE = 'https://godriveplayer.com/embed';
 const TWOTWOEMBED_BASE = 'https://2embed.cc/embed';
-const VIDEASY_BASE = 'https://www.videasy.net/embed';
+const VIDEASY_BASE = 'https://player.videasy.net';
         
         // Get current TMDB API key
         function getTMDBApiKey() {
@@ -7151,7 +7151,7 @@ Proceed with removal?`;
                     server.url.includes('godriveplayer.com') ||
                     server.url.includes('2embed.cc') ||
                     server.url.includes('vidlink.pro') ||
-                    server.url.includes('videasy.net')
+                    server.url.includes('player.videasy.net')
                 ) ||
                 server.name && (
                     server.name.includes('VidSrc') ||
@@ -7214,7 +7214,7 @@ Proceed with removal?`;
                 !server.url.includes('godriveplayer.com') &&
                 !server.url.includes('2embed.cc') &&
                 !server.url.includes('vidlink.pro') &&
-                !server.url.includes('videasy.net')
+                !server.url.includes('player.videasy.net')
             );
         }
 
