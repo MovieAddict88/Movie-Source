@@ -1377,8 +1377,9 @@
             const progressFill = document.getElementById('github-upload-progress-fill');
             const progressText = document.getElementById('github-upload-progress-text');
 
+            const ZIP_THRESHOLD_MB = 50;
+
             try {
-                // Show progress bar
                 if (progressBar) {
                     progressBar.style.display = 'block';
                     progressFill.style.width = '0%';
@@ -1391,54 +1392,82 @@
                 showGitHubStatus('info', 'Initializing GitHub upload...');
                 updateProgress(10, 'Checking repository...');
 
-                // First, check if file exists to get its SHA
-                const checkUrl = `https://api.github.com/repos/${GITHUB_CONFIG.owner}/${GITHUB_CONFIG.repo}/contents/${filename}`;
-                const checkResponse = await fetch(checkUrl, {
-                    headers: {
-                        'Authorization': `token ${GITHUB_CONFIG.token}`,
-                        'Accept': 'application/vnd.github.v3+json'
-                    }
-                });
+                const dataSizeMB = jsonData.length / 1024 / 1024;
+                const dataSizeMBString = dataSizeMB.toFixed(2);
 
-                updateProgress(30, 'Preparing upload data...');
-
-                let sha = null;
-                if (checkResponse.ok) {
-                    const fileInfo = await checkResponse.json();
-                    sha = fileInfo.sha;
-                    console.log('📄 Existing file found, will update');
-                } else {
-                    console.log('📄 New file will be created');
-                }
-
-                updateProgress(50, 'Encoding data...');
-
-                // Debug: Check the data before encoding
                 console.log('🔍 Data being uploaded (size):', jsonData.length, 'characters');
+                console.log('🔍 Data size in MB:', dataSizeMBString);
                 console.log('🔍 Data preview (first 200 chars):', jsonData.substring(0, 200));
                 console.log('🔍 Data contains Categories:', jsonData.includes('"Categories"'));
                 console.log('🔍 Data contains Movies:', jsonData.includes('"Movies"'));
-                
-                // Prepare the upload data
+
+                if (dataSizeMB > ZIP_THRESHOLD_MB) {
+                    showGitHubStatus('info', `Data is ${dataSizeMBString}MB (> ${ZIP_THRESHOLD_MB}MB). Compressing to ZIP before upload...`);
+                    updateProgress(30, 'Loading compressor...');
+
+                    await ensureJSZipLoaded();
+
+                    updateProgress(40, 'Compressing data to ZIP...');
+                    const zip = new JSZip();
+                    zip.file(filename, jsonData);
+                    const zipArrayBuffer = await zip.generateAsync({
+                        type: 'arraybuffer',
+                        compression: 'DEFLATE',
+                        compressionOptions: { level: 9 }
+                    });
+
+                    const zippedSizeMB = (zipArrayBuffer.byteLength / 1024 / 1024).toFixed(2);
+                    console.log('🗜️ Zipped size (MB):', zippedSizeMB);
+
+                    const zippedFilename = filename.endsWith('.zip') ? filename : `${filename}.zip`;
+
+                    updateProgress(55, 'Ensuring auto-unzip workflow exists...');
+                    try {
+                        await ensureAutoUnzipWorkflowIfNeeded(zippedFilename, filename);
+                    } catch (wfErr) {
+                        console.warn('⚠️ Failed to ensure auto-unzip workflow:', wfErr);
+                    }
+
+                    const base64Zip = arrayBufferToBase64(zipArrayBuffer);
+
+                    updateProgress(70, 'Uploading ZIP to GitHub...');
+                    const result = await createOrUpdateFileOnGitHub(zippedFilename, base64Zip, `Upload ${zippedFilename} (compressed from ${filename}, ${dataSizeMBString}MB -> ${zippedSizeMB}MB)`);
+
+                    updateProgress(90, 'Processing response...');
+
+                    if (result) {
+                        updateProgress(100, 'Upload completed successfully!');
+                        showGitHubStatus('success', `✅ Uploaded ${zippedFilename} (${zippedSizeMB}MB). A workflow will unzip to ${filename}.`);
+                        const fileUrl = `https://github.com/${GITHUB_CONFIG.owner}/${GITHUB_CONFIG.repo}/blob/${GITHUB_CONFIG.branch}/${zippedFilename}`;
+                        setTimeout(() => showGitHubStatus('info', `🔗 View file: ${fileUrl}`), 2000);
+                    } else {
+                        updateProgress(0, 'Upload failed');
+                        showGitHubStatus('error', '❌ GitHub upload failed for ZIP file.');
+                    }
+
+                    setTimeout(() => {
+                        if (progressBar) progressBar.style.display = 'none';
+                        if (progressText) progressText.style.display = 'none';
+                    }, 3000);
+
+                    return;
+                }
+
+                updateProgress(30, 'Preparing upload data...');
                 const content = btoa(unescape(encodeURIComponent(jsonData)));
-                const dataSizeMB = (jsonData.length / 1024 / 1024).toFixed(2);
-                
-                console.log('🔍 Encoded content length:', content.length);
-                console.log('🔍 Data size in MB:', dataSizeMB);
-                
+
+                updateProgress(50, 'Checking if file exists...');
+                const existingSha = await getExistingFileSha(filename);
+
+                const dataSizeMBStringSmall = (jsonData.length / 1024 / 1024).toFixed(2);
                 const uploadData = {
-                    message: `Update ${filename} - ${new Date().toISOString().split('T')[0]} (${dataSizeMB}MB)`,
+                    message: `Update ${filename} - ${new Date().toISOString().split('T')[0]} (${dataSizeMBStringSmall}MB)`,
                     content: content,
                     branch: GITHUB_CONFIG.branch
                 };
-
-                if (sha) {
-                    uploadData.sha = sha;
-                }
+                if (existingSha) uploadData.sha = existingSha;
 
                 updateProgress(70, 'Uploading to GitHub...');
-
-                // Upload the file
                 const uploadUrl = `https://api.github.com/repos/${GITHUB_CONFIG.owner}/${GITHUB_CONFIG.repo}/contents/${filename}`;
                 const uploadResponse = await fetch(uploadUrl, {
                     method: 'PUT',
@@ -1455,26 +1484,17 @@
                 if (uploadResponse.ok) {
                     const result = await uploadResponse.json();
                     updateProgress(100, 'Upload completed successfully!');
-                    
-                    showGitHubStatus('success', `✅ Successfully uploaded to GitHub! File: ${result.content.name} (${dataSizeMB}MB)`);
-                    
-                    // Show the GitHub URL
+                    showGitHubStatus('success', `✅ Successfully uploaded to GitHub! File: ${result.content.name} (${dataSizeMBStringSmall}MB)`);
                     const fileUrl = `https://github.com/${GITHUB_CONFIG.owner}/${GITHUB_CONFIG.repo}/blob/${GITHUB_CONFIG.branch}/${filename}`;
-                    setTimeout(() => {
-                        showGitHubStatus('info', `🔗 View file: ${fileUrl}`);
-                    }, 2000);
-                    
-                    // Hide progress bar after success
+                    setTimeout(() => showGitHubStatus('info', `🔗 View file: ${fileUrl}`), 2000);
                     setTimeout(() => {
                         if (progressBar) progressBar.style.display = 'none';
                         if (progressText) progressText.style.display = 'none';
                     }, 3000);
-                    
                 } else {
                     const error = await uploadResponse.json();
                     updateProgress(0, 'Upload failed');
                     showGitHubStatus('error', `❌ GitHub upload failed: ${error.message}`);
-                    
                     if (progressBar) {
                         setTimeout(() => {
                             progressBar.style.display = 'none';
@@ -1487,7 +1507,6 @@
                 updateProgress(0, 'Upload error occurred');
                 showGitHubStatus('error', `❌ Upload error: ${error.message}`);
                 console.error('GitHub upload error:', error);
-                
                 if (progressBar) {
                     setTimeout(() => {
                         progressBar.style.display = 'none';
@@ -1497,6 +1516,8 @@
             }
 
             function updateProgress(percentage, message) {
+                const progressFill = document.getElementById('github-upload-progress-fill');
+                const progressText = document.getElementById('github-upload-progress-text');
                 if (progressFill) {
                     progressFill.style.width = `${percentage}%`;
                 }
@@ -1505,6 +1526,110 @@
                 }
                 console.log(`📊 Upload Progress: ${percentage}% - ${message}`);
             }
+        }
+
+        async function ensureJSZipLoaded() {
+            if (window.JSZip) return;
+            await new Promise((resolve, reject) => {
+                const s = document.createElement('script');
+                s.src = 'https://cdn.jsdelivr.net/npm/jszip@3.10.1/dist/jszip.min.js';
+                s.onload = resolve;
+                s.onerror = () => reject(new Error('Failed to load JSZip'));
+                document.head.appendChild(s);
+            });
+        }
+
+        function arrayBufferToBase64(buffer) {
+            let binary = '';
+            const bytes = new Uint8Array(buffer);
+            const chunkSize = 0x8000;
+            for (let i = 0; i < bytes.length; i += chunkSize) {
+                const chunk = bytes.subarray(i, i + chunkSize);
+                binary += String.fromCharCode.apply(null, chunk);
+            }
+            return btoa(binary);
+        }
+
+        async function getExistingFileSha(path) {
+            const url = `https://api.github.com/repos/${GITHUB_CONFIG.owner}/${GITHUB_CONFIG.repo}/contents/${path}`;
+            const res = await fetch(url, {
+                headers: {
+                    'Authorization': `token ${GITHUB_CONFIG.token}`,
+                    'Accept': 'application/vnd.github.v3+json'
+                }
+            });
+            if (res.ok) {
+                const info = await res.json();
+                return info.sha || null;
+            }
+            return null;
+        }
+
+        async function createOrUpdateFileOnGitHub(path, base64Content, message) {
+            const sha = await getExistingFileSha(path);
+            const url = `https://api.github.com/repos/${GITHUB_CONFIG.owner}/${GITHUB_CONFIG.repo}/contents/${path}`;
+            const body = {
+                message,
+                content: base64Content,
+                branch: GITHUB_CONFIG.branch
+            };
+            if (sha) body.sha = sha;
+
+            const res = await fetch(url, {
+                method: 'PUT',
+                headers: {
+                    'Authorization': `token ${GITHUB_CONFIG.token}`,
+                    'Accept': 'application/vnd.github.v3+json',
+                    'Content-Type': 'application/json'
+                },
+                body: JSON.stringify(body)
+            });
+
+            if (!res.ok) {
+                const error = await res.json().catch(() => ({}));
+                throw new Error(error.message || `Failed to upload ${path}`);
+            }
+            return res.json();
+        }
+
+        async function ensureAutoUnzipWorkflowIfNeeded(zippedPath, jsonPath) {
+            const workflowPath = '.github/workflows/auto-unzip-playlist.yml';
+            const yaml = buildUnzipWorkflowYaml(zippedPath, jsonPath, GITHUB_CONFIG.branch);
+            const base64Yaml = btoa(unescape(encodeURIComponent(yaml)));
+            try {
+                await createOrUpdateFileOnGitHub(workflowPath, base64Yaml, 'Add/update auto-unzip workflow for large JSON uploads');
+                console.log('✅ Auto-unzip workflow ensured at', workflowPath);
+            } catch (e) {
+                console.warn('⚠️ Could not create/update workflow:', e.message);
+                throw e;
+            }
+        }
+
+        function buildUnzipWorkflowYaml(zippedPath, jsonPath, branch) {
+            return `name: Auto Unzip Playlist
+on:
+  push:
+    branches: [ ${branch} ]
+    paths:
+      - ${zippedPath}
+permissions:
+  contents: write
+jobs:
+  unzip:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - name: Unzip to JSON
+        run: |
+          unzip -o "${zippedPath}" -d .
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add "${jsonPath}"
+          git commit -m "Auto-unzip ${zippedPath} -> ${jsonPath}" || echo "No changes to commit"
+          git push
+`;
         }
 
         // Function to export current data to GitHub
