@@ -2540,6 +2540,15 @@ jobs:
                                     <option value="480p">480p</option>
                                 </select>
                             </div>
+                            <div class="embed-option">
+                                <input type="checkbox" id="auto-videasy-anime">
+                                <label for="auto-videasy-anime">Videasy Anime (Normal/Dub)</label>
+                                <select id="videasy-anime-mode">
+                                    <option value="normal">Normal</option>
+                                    <option value="dub">Dub</option>
+                                    <option value="both">Both</option>
+                                </select>
+                            </div>
                         </div>
                     </div>
                     <div class="form-group">
@@ -2868,7 +2877,8 @@ const VIDEASY_BASE = 'https://player.videasy.net';
                 'auto-filemoon', 'filemoon-quality',
                 'auto-upstream', 'upstream-quality',
                 'auto-vidlink', 'vidlink-quality',
-                'auto-videasy', 'videasy-quality'
+                'auto-videasy', 'videasy-quality',
+                'auto-videasy-anime', 'videasy-anime-mode'
             ];
              
              autoEmbedElements.forEach(id => {
@@ -3869,6 +3879,10 @@ const VIDEASY_BASE = 'https://player.videasy.net';
                         
                         // UpStream format: https://upstream.to/embed-TMDB_ID
                         match = url.match(/upstream\.to\/embed-(\d+)/);
+                        if (match) return match[1];
+                        
+                        // Videasy format: https://player.videasy.net/movie/TMDB_ID or tv/TMDB_ID/season/episode
+                        match = url.match(/player\.videasy\.net\/(?:movie|tv)\/(\d+)(?:\/(\d+)\/(\d+))?/);
                         if (match) return match[1];
                     }
                 }
@@ -6703,6 +6717,10 @@ Proceed with removal?`;
                 videasy: {
                     enabled: document.getElementById('auto-videasy').checked,
                     quality: document.getElementById('videasy-quality').value
+                },
+                videasyAnime: {
+                    enabled: document.getElementById('auto-videasy-anime').checked,
+                    mode: document.getElementById('videasy-anime-mode').value
                 }
             };
         }
@@ -7115,6 +7133,24 @@ Proceed with removal?`;
                     name: `Videasy ${config.videasy.quality}`,
                     subtitle1: "", subtitle2: "", url: url
                 });
+            }
+
+            // Videasy Anime
+            if (config.videasyAnime && config.videasyAnime.enabled && contentType === 'tv' && seasonNum && episodeNum) {
+                const mode = (config.videasyAnime.mode || 'normal').toLowerCase();
+                const animeBase = `${VIDEASY_BASE}/anime/${tmdbId}/${episodeNum}`;
+                if (mode === 'normal' || mode === 'both') {
+                    sources.push({
+                        name: `Videasy Anime ${config.videasy.quality}`,
+                        subtitle1: "", subtitle2: "", url: animeBase
+                    });
+                }
+                if (mode === 'dub' || mode === 'both') {
+                    sources.push({
+                        name: `Videasy Anime Dub ${config.videasy.quality}`,
+                        subtitle1: "", subtitle2: "", url: `${animeBase}?dub=true`
+                    });
+                }
             }
 
             return sources;
