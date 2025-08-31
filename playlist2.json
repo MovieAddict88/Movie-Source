@@ -1,0 +1,124 @@
+{
+  "Categories": [
+    {
+      "MainCategory": "Movies",
+      "SubCategories": [
+        "Action",
+        "Adventure",
+        "Horror",
+        "Thriller",
+        "Animation"
+      ],
+      "Entries": [
+        {
+          "Title": "Eenie Meanie",
+          "SubCategory": "Thriller",
+          "Country": "",
+          "Description": "A former teenage getaway driver gets dragged back into her unsavory past when a former employer offers her a chance to save the life of her chronically unreliable ex-boyfriend.",
+          "Poster": "https://image.tmdb.org/t/p/w500/12Va3oO3oYUdOd75zM57Nx1976a.jpg",
+          "Thumbnail": "https://image.tmdb.org/t/p/w500/12Va3oO3oYUdOd75zM57Nx1976a.jpg",
+          "Rating": 6.453,
+          "Duration": "",
+          "Year": 2025,
+          "Servers": []
+        },
+        {
+          "Title": "Together",
+          "SubCategory": "Horror",
+          "Country": "",
+          "Description": "With a move to the countryside already testing the limits of a couple\u0027s relationship, a supernatural encounter begins an extreme transformation of their love, their lives, and their flesh.",
+          "Poster": "https://image.tmdb.org/t/p/w500/m52XidzKx94bKlToZfEXUnL3pdy.jpg",
+          "Thumbnail": "https://image.tmdb.org/t/p/w500/m52XidzKx94bKlToZfEXUnL3pdy.jpg",
+          "Rating": 7.211,
+          "Duration": "",
+          "Year": 2025,
+          "Servers": []
+        },
+        {
+          "Title": "I Know What You Did Last Summer",
+          "SubCategory": "Horror",
+          "Country": "",
+          "Description": "When five friends inadvertently cause a deadly car accident, they cover up their involvement and make a pact to keep it a secret rather than face the consequences. A year later, their past comes back to haunt them and they\u0027re forced to confront a horrifying truth: someone knows what they did last summer…and is hell-bent on revenge.",
+          "Poster": "https://image.tmdb.org/t/p/w500/6BfZLQYj97NO1yD5JkSAf5vWzGj.jpg",
+          "Thumbnail": "https://image.tmdb.org/t/p/w500/6BfZLQYj97NO1yD5JkSAf5vWzGj.jpg",
+          "Rating": 5.9,
+          "Duration": "",
+          "Year": 2025,
+          "Servers": []
+        },
+        {
+          "Title": "The Bad Guys 2",
+          "SubCategory": "Animation",
+          "Country": "",
+          "Description": "The now-reformed Bad Guys are trying (very, very hard) to be good, but instead find themselves hijacked into a high-stakes, globe-trotting heist, masterminded by a new team of criminals they never saw coming: The Bad Girls.",
+          "Poster": "https://image.tmdb.org/t/p/w500/5DJbIWxIotQYUnRrRGhSxjxmvye.jpg",
+          "Thumbnail": "https://image.tmdb.org/t/p/w500/5DJbIWxIotQYUnRrRGhSxjxmvye.jpg",
+          "Rating": 7.8,
+          "Duration": "",
+          "Year": 2025,
+          "Servers": []
+        },
+        {
+          "Title": "Gold Rush Gang",
+          "SubCategory": "Action",
+          "Country": "",
+          "Description": "At the tail end of World War II, a bandit leader and his crew go up against his sworn enemy and the Japanese army to rob a train full of gold.",
+          "Poster": "https://image.tmdb.org/t/p/w500/7j6jZNhCTnsZy5QItpruDwyBWoo.jpg",
+          "Thumbnail": "https://image.tmdb.org/t/p/w500/7j6jZNhCTnsZy5QItpruDwyBWoo.jpg",
+          "Rating": 6.382,
+          "Duration": "",
+          "Year": 2025,
+          "Servers": []
+        },
+        {
+          "Title": "KPop Demon Hunters",
+          "SubCategory": "Animation",
+          "Country": "",
+          "Description": "When K-pop superstars Rumi, Mira and Zoey aren\u0027t selling out stadiums, they\u0027re using their secret powers to protect their fans from supernatural threats.",
+          "Poster": "https://image.tmdb.org/t/p/w500/22AouvwlhlXbe3nrFcjzL24bvWH.jpg",
+          "Thumbnail": "https://image.tmdb.org/t/p/w500/22AouvwlhlXbe3nrFcjzL24bvWH.jpg",
+          "Rating": 8.4,
+          "Duration": "",
+          "Year": 2025,
+          "Servers": []
+        },
+        {
+          "Title": "Elio",
+          "SubCategory": "Animation",
+          "Country": "",
+          "Description": "Elio, a space fanatic with an active imagination, finds himself on a cosmic misadventure where he must form new bonds with eccentric alien lifeforms, navigate a crisis of intergalactic proportions and somehow discover who he is truly meant to be.",
+          "Poster": "https://image.tmdb.org/t/p/w500/w2ARwtc1zoh0pyfwmyhpZHwuXgK.jpg",
+          "Thumbnail": "https://image.tmdb.org/t/p/w500/w2ARwtc1zoh0pyfwmyhpZHwuXgK.jpg",
+          "Rating": 6.905,
+          "Duration": "",
+          "Year": 2025,
+          "Servers": []
+        },
+        {
+          "Title": "Maa",
+          "SubCategory": "Horror",
+          "Country": "",
+          "Description": "A mother and daughter encounter a demon in a village where girls have been disappearing.",
+          "Poster": "https://image.tmdb.org/t/p/w500/kc5n7LJUmvBsVxzAla1ONN8kouP.jpg",
+          "Thumbnail": "https://image.tmdb.org/t/p/w500/kc5n7LJUmvBsVxzAla1ONN8kouP.jpg",
+          "Rating": 7.2,
+          "Duration": "",
+          "Year": 2025,
+          "Servers": []
+        },
+        {
+          "Title": "Red Sonja",
+          "SubCategory": "Adventure",
+          "Country": "",
+          "Description": "A young girl rises from the ashes of tragedy to become the most feared warrior woman of all time: the She-Devil with a Sword.",
+          "Poster": "https://image.tmdb.org/t/p/w500/l10eghFN1nQmWwMSt91MlLvZZFA.jpg",
+          "Thumbnail": "https://image.tmdb.org/t/p/w500/l10eghFN1nQmWwMSt91MlLvZZFA.jpg",
+          "Rating": 6.128,
+          "Duration": "",
+          "Year": 2025,
+          "Servers": []
+        }
+      ]
+    }
+  ]
+}
