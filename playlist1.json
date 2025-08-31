@@ -1,0 +1,63 @@
+{
+  "Categories": [
+    {
+      "MainCategory": "Movies",
+      "SubCategories": [
+        "Adventure",
+        "TV Movie",
+        "Fantasy",
+        "Animation"
+      ],
+      "Entries": [
+        {
+          "Title": "Peter Pan",
+          "SubCategory": "Fantasy",
+          "Country": "",
+          "Description": "Peter Pan is an adolescent boy who has escaped from his parents to the dreamland of Nowhere. Peter is determined to remain a little boy forever; because the adult world does not please him at all. Together with the fairy Tinkerbell, Peter Pan lures the girl Wendy and her two brothers John and Michael to Nowhere, where Peter teaches them to fly. They join forces with the Indians, led by the beautiful Tigerlilly, to fight together against the evil Captain Jack Haken and his wild pirates.",
+          "Poster": "https://image.tmdb.org/t/p/w500/hR9TvTsDAqQhg1PehPD6D4xWsK1.jpg",
+          "Thumbnail": "https://image.tmdb.org/t/p/w500/hR9TvTsDAqQhg1PehPD6D4xWsK1.jpg",
+          "Rating": 0.0,
+          "Duration": "",
+          "Year": 1962,
+          "Servers": []
+        },
+        {
+          "Title": "Peter Pan",
+          "SubCategory": "Adventure",
+          "Country": "",
+          "Description": "In stifling Edwardian London, Wendy Darling mesmerizes her brothers every night with bedtime tales of swordplay, swashbuckling and the fearsome Captain Hook. But the children become the heroes of an even greater story, when Peter Pan flies into their nursery one night and leads them over moonlit rooftops through a galaxy of stars and to the lush jungles of Neverland.",
+          "Poster": "https://image.tmdb.org/t/p/w500/6QdU3TZZrIvXFzoHOwafZAynFjB.jpg",
+          "Thumbnail": "https://image.tmdb.org/t/p/w500/6QdU3TZZrIvXFzoHOwafZAynFjB.jpg",
+          "Rating": 7.15,
+          "Duration": "",
+          "Year": 2003,
+          "Servers": []
+        },
+        {
+          "Title": "Peter Pan",
+          "SubCategory": "Animation",
+          "Country": "",
+          "Description": "Leaving the safety of their nursery behind, Wendy, Michael and John follow Peter Pan to a magical world where childhood lasts forever. But while in Neverland, the kids must face Captain Hook and foil his attempts to get rid of Peter for good.",
+          "Poster": "https://image.tmdb.org/t/p/w500/fJJOs1iyrhKfZceANxoPxPwNGF1.jpg",
+          "Thumbnail": "https://image.tmdb.org/t/p/w500/fJJOs1iyrhKfZceANxoPxPwNGF1.jpg",
+          "Rating": 7.198,
+          "Duration": "",
+          "Year": 1953,
+          "Servers": []
+        },
+        {
+          "Title": "Peter Pan",
+          "SubCategory": "TV Movie",
+          "Country": "",
+          "Description": "In this magical tale about the boy who refuses to grow up, Peter Pan and his mischievous fairy sidekick Tinkerbell visit the nursery of Wendy, Michael and John Darling. With a sprinkling of pixie dust, Peter and his new friends fly out the nursery window and over London to Never-Never Land. The children experience many wonderful and exciting adventures with the Lost Boys, Tiger Lily\u0027s Indian tribe, and Peter\u0027s arch enemy the dastardly pirate Captain Hook.",
+          "Poster": "https://image.tmdb.org/t/p/w500/qCQ42aTmU4cuHwzfu8rCvYQuCyx.jpg",
+          "Thumbnail": "https://image.tmdb.org/t/p/w500/qCQ42aTmU4cuHwzfu8rCvYQuCyx.jpg",
+          "Rating": 6.705,
+          "Duration": "",
+          "Year": 1960,
+          "Servers": []
+        }
+      ]
+    }
+  ]
+}
