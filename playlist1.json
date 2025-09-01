@@ -3,59 +3,5092 @@
     {
       "MainCategory": "Movies",
       "SubCategories": [
+        "Western",
+        "Action",
         "Adventure",
-        "TV Movie",
-        "Fantasy",
-        "Animation"
+        "Horror",
+        "Drama",
+        "Thriller",
+        "Crime",
+        "Family",
+        "Animation",
+        "War",
+        "Comedy",
+        "Science Fiction"
       ],
       "Entries": [
         {
-          "Title": "Peter Pan",
-          "SubCategory": "Fantasy",
+          "Title": "Eenie Meanie",
+          "SubCategory": "Thriller",
           "Country": "",
-          "Description": "Peter Pan is an adolescent boy who has escaped from his parents to the dreamland of Nowhere. Peter is determined to remain a little boy forever; because the adult world does not please him at all. Together with the fairy Tinkerbell, Peter Pan lures the girl Wendy and her two brothers John and Michael to Nowhere, where Peter teaches them to fly. They join forces with the Indians, led by the beautiful Tigerlilly, to fight together against the evil Captain Jack Haken and his wild pirates.",
-          "Poster": "https://image.tmdb.org/t/p/w500/hR9TvTsDAqQhg1PehPD6D4xWsK1.jpg",
-          "Thumbnail": "https://image.tmdb.org/t/p/w500/hR9TvTsDAqQhg1PehPD6D4xWsK1.jpg",
-          "Rating": 0.0,
-          "Duration": "",
-          "Year": 1962,
-          "Servers": []
+          "Description": "A former teenage getaway driver gets dragged back into her unsavory past when a former employer offers her a chance to save the life of her chronically unreliable ex-boyfriend.",
+          "Poster": "https://image.tmdb.org/t/p/w500/12Va3oO3oYUdOd75zM57Nx1976a.jpg",
+          "Thumbnail": "https://image.tmdb.org/t/p/w500/12Va3oO3oYUdOd75zM57Nx1976a.jpg",
+          "Rating": 6.0,
+          "Duration": "1:46",
+          "Year": 2025,
+          "Servers": [
+            {
+              "name": "VidSrc 1080p",
+              "url": "https://vidsrc.net/embed/movie/1151334"
+            },
+            {
+              "name": "VidJoy 1080p",
+              "url": "https://vidjoy.pro/embed/movie/1151334"
+            },
+            {
+              "name": "Embed.su 1080p",
+              "url": "https://embed.su/embed/movie/1151334"
+            },
+            {
+              "name": "VidSrc.me 1080p",
+              "url": "https://vidsrc.me/embed/movie/1151334"
+            },
+            {
+              "name": "AutoEmbed 1080p",
+              "url": "https://player.autoembed.cc/embed/movie/1151334"
+            },
+            {
+              "name": "VidSrc.to 1080p",
+              "url": "https://vidsrc.to/embed/movie/1151334"
+            },
+            {
+              "name": "VidSrc.xyz 1080p",
+              "url": "https://vidsrc.xyz/embed/movie/1151334"
+            },
+            {
+              "name": "UpStream 1080p",
+              "url": "https://upstream.to/embed-1151334.html"
+            },
+            {
+              "name": "GoDrivePlayer 1080p",
+              "url": "https://godriveplayer.com/embed/1151334"
+            },
+            {
+              "name": "2Embed.cc 1080p",
+              "url": "https://2embed.cc/embed/1151334"
+            },
+            {
+              "name": "VidLink.pro 1080p",
+              "url": "https://vidlink.pro/movie/1151334"
+            }
+          ]
         },
         {
-          "Title": "Peter Pan",
+          "Title": "I Know What You Did Last Summer",
+          "SubCategory": "Horror",
+          "Country": "",
+          "Description": "When five friends inadvertently cause a deadly car accident, they cover up their involvement and make a pact to keep it a secret rather than face the consequences. A year later, their past comes back to haunt them and they\u0027re forced to confront a horrifying truth: someone knows what they did last summer…and is hell-bent on revenge.",
+          "Poster": "https://image.tmdb.org/t/p/w500/A06yXys3hrCWu8xiNoHCFLTG5SH.jpg",
+          "Thumbnail": "https://image.tmdb.org/t/p/w500/A06yXys3hrCWu8xiNoHCFLTG5SH.jpg",
+          "Rating": 6.0,
+          "Duration": "1:51",
+          "Year": 2025,
+          "Servers": [
+            {
+              "name": "VidSrc 1080p",
+              "url": "https://vidsrc.net/embed/movie/1083433"
+            },
+            {
+              "name": "VidJoy 1080p",
+              "url": "https://vidjoy.pro/embed/movie/1083433"
+            },
+            {
+              "name": "Embed.su 1080p",
+              "url": "https://embed.su/embed/movie/1083433"
+            },
+            {
+              "name": "VidSrc.me 1080p",
+              "url": "https://vidsrc.me/embed/movie/1083433"
+            },
+            {
+              "name": "AutoEmbed 1080p",
+              "url": "https://player.autoembed.cc/embed/movie/1083433"
+            },
+            {
+              "name": "VidSrc.to 1080p",
+              "url": "https://vidsrc.to/embed/movie/1083433"
+            },
+            {
+              "name": "VidSrc.xyz 1080p",
+              "url": "https://vidsrc.xyz/embed/movie/1083433"
+            },
+            {
+              "name": "UpStream 1080p",
+              "url": "https://upstream.to/embed-1083433.html"
+            },
+            {
+              "name": "GoDrivePlayer 1080p",
+              "url": "https://godriveplayer.com/embed/1083433"
+            },
+            {
+              "name": "2Embed.cc 1080p",
+              "url": "https://2embed.cc/embed/1083433"
+            },
+            {
+              "name": "VidLink.pro 1080p",
+              "url": "https://vidlink.pro/movie/1083433"
+            }
+          ]
+        },
+        {
+          "Title": "Red Sonja",
           "SubCategory": "Adventure",
           "Country": "",
-          "Description": "In stifling Edwardian London, Wendy Darling mesmerizes her brothers every night with bedtime tales of swordplay, swashbuckling and the fearsome Captain Hook. But the children become the heroes of an even greater story, when Peter Pan flies into their nursery one night and leads them over moonlit rooftops through a galaxy of stars and to the lush jungles of Neverland.",
-          "Poster": "https://image.tmdb.org/t/p/w500/6QdU3TZZrIvXFzoHOwafZAynFjB.jpg",
-          "Thumbnail": "https://image.tmdb.org/t/p/w500/6QdU3TZZrIvXFzoHOwafZAynFjB.jpg",
-          "Rating": 7.15,
-          "Duration": "",
-          "Year": 2003,
-          "Servers": []
+          "Description": "A young girl rises from the ashes of tragedy to become the most feared warrior woman of all time: the She-Devil with a Sword.",
+          "Poster": "https://image.tmdb.org/t/p/w500/l10eghFN1nQmWwMSt91MlLvZZFA.jpg",
+          "Thumbnail": "https://image.tmdb.org/t/p/w500/l10eghFN1nQmWwMSt91MlLvZZFA.jpg",
+          "Rating": 6.0,
+          "Duration": "1:50",
+          "Year": 2025,
+          "Servers": [
+            {
+              "name": "VidSrc 1080p",
+              "url": "https://vidsrc.net/embed/movie/13494"
+            },
+            {
+              "name": "VidJoy 1080p",
+              "url": "https://vidjoy.pro/embed/movie/13494"
+            },
+            {
+              "name": "Embed.su 1080p",
+              "url": "https://embed.su/embed/movie/13494"
+            },
+            {
+              "name": "VidSrc.me 1080p",
+              "url": "https://vidsrc.me/embed/movie/13494"
+            },
+            {
+              "name": "AutoEmbed 1080p",
+              "url": "https://player.autoembed.cc/embed/movie/13494"
+            },
+            {
+              "name": "VidSrc.to 1080p",
+              "url": "https://vidsrc.to/embed/movie/13494"
+            },
+            {
+              "name": "VidSrc.xyz 1080p",
+              "url": "https://vidsrc.xyz/embed/movie/13494"
+            },
+            {
+              "name": "UpStream 1080p",
+              "url": "https://upstream.to/embed-13494.html"
+            },
+            {
+              "name": "GoDrivePlayer 1080p",
+              "url": "https://godriveplayer.com/embed/13494"
+            },
+            {
+              "name": "2Embed.cc 1080p",
+              "url": "https://2embed.cc/embed/13494"
+            },
+            {
+              "name": "VidLink.pro 1080p",
+              "url": "https://vidlink.pro/movie/13494"
+            }
+          ]
         },
         {
-          "Title": "Peter Pan",
+          "Title": "Gold Rush Gang",
+          "SubCategory": "Action",
+          "Country": "",
+          "Description": "At the tail end of World War II, a bandit leader and his crew go up against his sworn enemy and the Japanese army to rob a train full of gold.",
+          "Poster": "https://image.tmdb.org/t/p/w500/7j6jZNhCTnsZy5QItpruDwyBWoo.jpg",
+          "Thumbnail": "https://image.tmdb.org/t/p/w500/7j6jZNhCTnsZy5QItpruDwyBWoo.jpg",
+          "Rating": 6.0,
+          "Duration": "2:00",
+          "Year": 2025,
+          "Servers": [
+            {
+              "name": "VidSrc 1080p",
+              "url": "https://vidsrc.net/embed/movie/1429739"
+            },
+            {
+              "name": "VidJoy 1080p",
+              "url": "https://vidjoy.pro/embed/movie/1429739"
+            },
+            {
+              "name": "Embed.su 1080p",
+              "url": "https://embed.su/embed/movie/1429739"
+            },
+            {
+              "name": "VidSrc.me 1080p",
+              "url": "https://vidsrc.me/embed/movie/1429739"
+            },
+            {
+              "name": "AutoEmbed 1080p",
+              "url": "https://player.autoembed.cc/embed/movie/1429739"
+            },
+            {
+              "name": "VidSrc.to 1080p",
+              "url": "https://vidsrc.to/embed/movie/1429739"
+            },
+            {
+              "name": "VidSrc.xyz 1080p",
+              "url": "https://vidsrc.xyz/embed/movie/1429739"
+            },
+            {
+              "name": "UpStream 1080p",
+              "url": "https://upstream.to/embed-1429739.html"
+            },
+            {
+              "name": "GoDrivePlayer 1080p",
+              "url": "https://godriveplayer.com/embed/1429739"
+            },
+            {
+              "name": "2Embed.cc 1080p",
+              "url": "https://2embed.cc/embed/1429739"
+            },
+            {
+              "name": "VidLink.pro 1080p",
+              "url": "https://vidlink.pro/movie/1429739"
+            }
+          ]
+        },
+        {
+          "Title": "A Line of Fire",
+          "SubCategory": "Action",
+          "Country": "",
+          "Description": "After working as a secret agent in the FBI for ten years, Jack \u0027Cash\u0027 Conry left it all behind after his wife passed in order to dedicate himself to his two daughters. Despite a fulfilling life at home, Cash misses the chance to make an impact and has been considering a return to the force. The decision is made for him when his old partner’s niece Jamie calls him for help, launching Cash right back into a world of danger, corruption and intrigue.",
+          "Poster": "https://image.tmdb.org/t/p/w500/jSG2mg1998DUAam6X9EA6SeJmqD.jpg",
+          "Thumbnail": "https://image.tmdb.org/t/p/w500/jSG2mg1998DUAam6X9EA6SeJmqD.jpg",
+          "Rating": 6.0,
+          "Duration": "1:26",
+          "Year": 2025,
+          "Servers": [
+            {
+              "name": "VidSrc 1080p",
+              "url": "https://vidsrc.net/embed/movie/1367575"
+            },
+            {
+              "name": "VidJoy 1080p",
+              "url": "https://vidjoy.pro/embed/movie/1367575"
+            },
+            {
+              "name": "Embed.su 1080p",
+              "url": "https://embed.su/embed/movie/1367575"
+            },
+            {
+              "name": "VidSrc.me 1080p",
+              "url": "https://vidsrc.me/embed/movie/1367575"
+            },
+            {
+              "name": "AutoEmbed 1080p",
+              "url": "https://player.autoembed.cc/embed/movie/1367575"
+            },
+            {
+              "name": "VidSrc.to 1080p",
+              "url": "https://vidsrc.to/embed/movie/1367575"
+            },
+            {
+              "name": "VidSrc.xyz 1080p",
+              "url": "https://vidsrc.xyz/embed/movie/1367575"
+            },
+            {
+              "name": "UpStream 1080p",
+              "url": "https://upstream.to/embed-1367575.html"
+            },
+            {
+              "name": "GoDrivePlayer 1080p",
+              "url": "https://godriveplayer.com/embed/1367575"
+            },
+            {
+              "name": "2Embed.cc 1080p",
+              "url": "https://2embed.cc/embed/1367575"
+            },
+            {
+              "name": "VidLink.pro 1080p",
+              "url": "https://vidlink.pro/movie/1367575"
+            }
+          ]
+        },
+        {
+          "Title": "Hostile Takeover",
+          "SubCategory": "Action",
+          "Country": "",
+          "Description": "Follows Pete, a professional hitman, as he faces a group of assassins after the boss of a crime syndicate suspects disloyalty due to his attendance at Workaholics Anonymous meetings.",
+          "Poster": "https://image.tmdb.org/t/p/w500/vntwlS3CAKfoLTs90GaoK6lymBC.jpg",
+          "Thumbnail": "https://image.tmdb.org/t/p/w500/vntwlS3CAKfoLTs90GaoK6lymBC.jpg",
+          "Rating": 8.0,
+          "Duration": "1:29",
+          "Year": 2025,
+          "Servers": [
+            {
+              "name": "VidSrc 1080p",
+              "url": "https://vidsrc.net/embed/movie/1319895"
+            },
+            {
+              "name": "VidJoy 1080p",
+              "url": "https://vidjoy.pro/embed/movie/1319895"
+            },
+            {
+              "name": "Embed.su 1080p",
+              "url": "https://embed.su/embed/movie/1319895"
+            },
+            {
+              "name": "VidSrc.me 1080p",
+              "url": "https://vidsrc.me/embed/movie/1319895"
+            },
+            {
+              "name": "AutoEmbed 1080p",
+              "url": "https://player.autoembed.cc/embed/movie/1319895"
+            },
+            {
+              "name": "VidSrc.to 1080p",
+              "url": "https://vidsrc.to/embed/movie/1319895"
+            },
+            {
+              "name": "VidSrc.xyz 1080p",
+              "url": "https://vidsrc.xyz/embed/movie/1319895"
+            },
+            {
+              "name": "UpStream 1080p",
+              "url": "https://upstream.to/embed-1319895.html"
+            },
+            {
+              "name": "GoDrivePlayer 1080p",
+              "url": "https://godriveplayer.com/embed/1319895"
+            },
+            {
+              "name": "2Embed.cc 1080p",
+              "url": "https://2embed.cc/embed/1319895"
+            },
+            {
+              "name": "VidLink.pro 1080p",
+              "url": "https://vidlink.pro/movie/1319895"
+            }
+          ]
+        },
+        {
+          "Title": "Thunderbolts*",
+          "SubCategory": "Action",
+          "Country": "",
+          "Description": "After finding themselves ensnared in a death trap, seven disillusioned castoffs must embark on a dangerous mission that will force them to confront the darkest corners of their pasts.",
+          "Poster": "https://image.tmdb.org/t/p/w500/hqcexYHbiTBfDIdDWxrxPtVndBX.jpg",
+          "Thumbnail": "https://image.tmdb.org/t/p/w500/hqcexYHbiTBfDIdDWxrxPtVndBX.jpg",
+          "Rating": 7.0,
+          "Duration": "2:07",
+          "Year": 2025,
+          "Servers": [
+            {
+              "name": "VidSrc 1080p",
+              "url": "https://vidsrc.net/embed/movie/986056"
+            },
+            {
+              "name": "VidJoy 1080p",
+              "url": "https://vidjoy.pro/embed/movie/986056"
+            },
+            {
+              "name": "Embed.su 1080p",
+              "url": "https://embed.su/embed/movie/986056"
+            },
+            {
+              "name": "VidSrc.me 1080p",
+              "url": "https://vidsrc.me/embed/movie/986056"
+            },
+            {
+              "name": "AutoEmbed 1080p",
+              "url": "https://player.autoembed.cc/embed/movie/986056"
+            },
+            {
+              "name": "VidSrc.to 1080p",
+              "url": "https://vidsrc.to/embed/movie/986056"
+            },
+            {
+              "name": "VidSrc.xyz 1080p",
+              "url": "https://vidsrc.xyz/embed/movie/986056"
+            },
+            {
+              "name": "UpStream 1080p",
+              "url": "https://upstream.to/embed-986056.html"
+            },
+            {
+              "name": "GoDrivePlayer 1080p",
+              "url": "https://godriveplayer.com/embed/986056"
+            },
+            {
+              "name": "2Embed.cc 1080p",
+              "url": "https://2embed.cc/embed/986056"
+            },
+            {
+              "name": "VidLink.pro 1080p",
+              "url": "https://vidlink.pro/movie/986056"
+            }
+          ]
+        },
+        {
+          "Title": "Legends of the Condor Heroes: The Gallants",
+          "SubCategory": "Action",
+          "Country": "",
+          "Description": "Under Genghis Khan, the Mongolian army pushes west to destroy the Jin Dynasty, setting its sights on the Song Dynasty next. Amid internal conflicts among martial arts schools, Guo Jing unites the Central Plains\u0027 warriors to defend Xiangyang, embodying courage and loyalty in the fight for the nation.",
+          "Poster": "https://image.tmdb.org/t/p/w500/fUCFEGFlMIFet9ja72JDAeG1he8.jpg",
+          "Thumbnail": "https://image.tmdb.org/t/p/w500/fUCFEGFlMIFet9ja72JDAeG1he8.jpg",
+          "Rating": 7.0,
+          "Duration": "2:27",
+          "Year": 2025,
+          "Servers": [
+            {
+              "name": "VidSrc 1080p",
+              "url": "https://vidsrc.net/embed/movie/1185528"
+            },
+            {
+              "name": "VidJoy 1080p",
+              "url": "https://vidjoy.pro/embed/movie/1185528"
+            },
+            {
+              "name": "Embed.su 1080p",
+              "url": "https://embed.su/embed/movie/1185528"
+            },
+            {
+              "name": "VidSrc.me 1080p",
+              "url": "https://vidsrc.me/embed/movie/1185528"
+            },
+            {
+              "name": "AutoEmbed 1080p",
+              "url": "https://player.autoembed.cc/embed/movie/1185528"
+            },
+            {
+              "name": "VidSrc.to 1080p",
+              "url": "https://vidsrc.to/embed/movie/1185528"
+            },
+            {
+              "name": "VidSrc.xyz 1080p",
+              "url": "https://vidsrc.xyz/embed/movie/1185528"
+            },
+            {
+              "name": "UpStream 1080p",
+              "url": "https://upstream.to/embed-1185528.html"
+            },
+            {
+              "name": "GoDrivePlayer 1080p",
+              "url": "https://godriveplayer.com/embed/1185528"
+            },
+            {
+              "name": "2Embed.cc 1080p",
+              "url": "https://2embed.cc/embed/1185528"
+            },
+            {
+              "name": "VidLink.pro 1080p",
+              "url": "https://vidlink.pro/movie/1185528"
+            }
+          ]
+        },
+        {
+          "Title": "The Pickup",
+          "SubCategory": "Action",
+          "Country": "",
+          "Description": "A routine cash pickup takes a wild turn when mismatched armored truck drivers Russell and Travis are ambushed by ruthless criminals led by savvy mastermind Zoe.",
+          "Poster": "https://image.tmdb.org/t/p/w500/vFWvWhfAvij8UIngg2Vf6JV95Cr.jpg",
+          "Thumbnail": "https://image.tmdb.org/t/p/w500/vFWvWhfAvij8UIngg2Vf6JV95Cr.jpg",
+          "Rating": 7.0,
+          "Duration": "1:34",
+          "Year": 2025,
+          "Servers": [
+            {
+              "name": "VidSrc 1080p",
+              "url": "https://vidsrc.net/embed/movie/1106289"
+            },
+            {
+              "name": "VidJoy 1080p",
+              "url": "https://vidjoy.pro/embed/movie/1106289"
+            },
+            {
+              "name": "Embed.su 1080p",
+              "url": "https://embed.su/embed/movie/1106289"
+            },
+            {
+              "name": "VidSrc.me 1080p",
+              "url": "https://vidsrc.me/embed/movie/1106289"
+            },
+            {
+              "name": "AutoEmbed 1080p",
+              "url": "https://player.autoembed.cc/embed/movie/1106289"
+            },
+            {
+              "name": "VidSrc.to 1080p",
+              "url": "https://vidsrc.to/embed/movie/1106289"
+            },
+            {
+              "name": "VidSrc.xyz 1080p",
+              "url": "https://vidsrc.xyz/embed/movie/1106289"
+            },
+            {
+              "name": "UpStream 1080p",
+              "url": "https://upstream.to/embed-1106289.html"
+            },
+            {
+              "name": "GoDrivePlayer 1080p",
+              "url": "https://godriveplayer.com/embed/1106289"
+            },
+            {
+              "name": "2Embed.cc 1080p",
+              "url": "https://2embed.cc/embed/1106289"
+            },
+            {
+              "name": "VidLink.pro 1080p",
+              "url": "https://vidlink.pro/movie/1106289"
+            }
+          ]
+        },
+        {
+          "Title": "M3GAN 2.0",
+          "SubCategory": "Action",
+          "Country": "",
+          "Description": "After the underlying tech for M3GAN is stolen and misused by a powerful defense contractor to create a military-grade weapon known as Amelia, M3GAN\u0027s creator Gemma realizes that the only option is to resurrect M3GAN and give her a few upgrades, making her faster, stronger, and more lethal.",
+          "Poster": "https://image.tmdb.org/t/p/w500/4a63rQqIDTrYNdcnTXdPsQyxVLo.jpg",
+          "Thumbnail": "https://image.tmdb.org/t/p/w500/4a63rQqIDTrYNdcnTXdPsQyxVLo.jpg",
+          "Rating": 8.0,
+          "Duration": "2:00",
+          "Year": 2025,
+          "Servers": [
+            {
+              "name": "VidSrc 1080p",
+              "url": "https://vidsrc.net/embed/movie/1071585"
+            },
+            {
+              "name": "VidJoy 1080p",
+              "url": "https://vidjoy.pro/embed/movie/1071585"
+            },
+            {
+              "name": "Embed.su 1080p",
+              "url": "https://embed.su/embed/movie/1071585"
+            },
+            {
+              "name": "VidSrc.me 1080p",
+              "url": "https://vidsrc.me/embed/movie/1071585"
+            },
+            {
+              "name": "AutoEmbed 1080p",
+              "url": "https://player.autoembed.cc/embed/movie/1071585"
+            },
+            {
+              "name": "VidSrc.to 1080p",
+              "url": "https://vidsrc.to/embed/movie/1071585"
+            },
+            {
+              "name": "VidSrc.xyz 1080p",
+              "url": "https://vidsrc.xyz/embed/movie/1071585"
+            },
+            {
+              "name": "UpStream 1080p",
+              "url": "https://upstream.to/embed-1071585.html"
+            },
+            {
+              "name": "GoDrivePlayer 1080p",
+              "url": "https://godriveplayer.com/embed/1071585"
+            },
+            {
+              "name": "2Embed.cc 1080p",
+              "url": "https://2embed.cc/embed/1071585"
+            },
+            {
+              "name": "VidLink.pro 1080p",
+              "url": "https://vidlink.pro/movie/1071585"
+            }
+          ]
+        },
+        {
+          "Title": "Ice Road: Vengeance",
+          "SubCategory": "Action",
+          "Country": "",
+          "Description": "Big rig ice road driver Mike McCann travels to Nepal to scatter his late brother’s ashes on Mt. Everest. While on a packed tour bus traversing the deadly 12,000 ft. terrain of the infamous Road to the Sky, McCann and his mountain guide encounter a group of mercenaries and must fight to save themselves, the busload of innocent travelers, and the local villagers’ homeland.",
+          "Poster": "https://image.tmdb.org/t/p/w500/cQN9rZj06rXMVkk76UF1DfBAico.jpg",
+          "Thumbnail": "https://image.tmdb.org/t/p/w500/cQN9rZj06rXMVkk76UF1DfBAico.jpg",
+          "Rating": 7.0,
+          "Duration": "1:53",
+          "Year": 2025,
+          "Servers": [
+            {
+              "name": "VidSrc 1080p",
+              "url": "https://vidsrc.net/embed/movie/1119878"
+            },
+            {
+              "name": "VidJoy 1080p",
+              "url": "https://vidjoy.pro/embed/movie/1119878"
+            },
+            {
+              "name": "Embed.su 1080p",
+              "url": "https://embed.su/embed/movie/1119878"
+            },
+            {
+              "name": "VidSrc.me 1080p",
+              "url": "https://vidsrc.me/embed/movie/1119878"
+            },
+            {
+              "name": "AutoEmbed 1080p",
+              "url": "https://player.autoembed.cc/embed/movie/1119878"
+            },
+            {
+              "name": "VidSrc.to 1080p",
+              "url": "https://vidsrc.to/embed/movie/1119878"
+            },
+            {
+              "name": "VidSrc.xyz 1080p",
+              "url": "https://vidsrc.xyz/embed/movie/1119878"
+            },
+            {
+              "name": "UpStream 1080p",
+              "url": "https://upstream.to/embed-1119878.html"
+            },
+            {
+              "name": "GoDrivePlayer 1080p",
+              "url": "https://godriveplayer.com/embed/1119878"
+            },
+            {
+              "name": "2Embed.cc 1080p",
+              "url": "https://2embed.cc/embed/1119878"
+            },
+            {
+              "name": "VidLink.pro 1080p",
+              "url": "https://vidlink.pro/movie/1119878"
+            }
+          ]
+        },
+        {
+          "Title": "Creation of the Gods II: Demon Force",
+          "SubCategory": "Action",
+          "Country": "",
+          "Description": "Taishi Wen Zhong led the army of Shang Dynasty including Deng Chanyu and four generals of the Mo Family to Xiqi. With the help of Kunlun immortals such as Jiang Ziya, Ji Fa led the army and civilians of Xiqi to defend their homeland.",
+          "Poster": "https://image.tmdb.org/t/p/w500/dfUCs5HNtGu4fofh83uiE2Qcy3v.jpg",
+          "Thumbnail": "https://image.tmdb.org/t/p/w500/dfUCs5HNtGu4fofh83uiE2Qcy3v.jpg",
+          "Rating": 6.0,
+          "Duration": "2:25",
+          "Year": 2025,
+          "Servers": [
+            {
+              "name": "VidSrc 1080p",
+              "url": "https://vidsrc.net/embed/movie/1155281"
+            },
+            {
+              "name": "VidJoy 1080p",
+              "url": "https://vidjoy.pro/embed/movie/1155281"
+            },
+            {
+              "name": "Embed.su 1080p",
+              "url": "https://embed.su/embed/movie/1155281"
+            },
+            {
+              "name": "VidSrc.me 1080p",
+              "url": "https://vidsrc.me/embed/movie/1155281"
+            },
+            {
+              "name": "AutoEmbed 1080p",
+              "url": "https://player.autoembed.cc/embed/movie/1155281"
+            },
+            {
+              "name": "VidSrc.to 1080p",
+              "url": "https://vidsrc.to/embed/movie/1155281"
+            },
+            {
+              "name": "VidSrc.xyz 1080p",
+              "url": "https://vidsrc.xyz/embed/movie/1155281"
+            },
+            {
+              "name": "UpStream 1080p",
+              "url": "https://upstream.to/embed-1155281.html"
+            },
+            {
+              "name": "GoDrivePlayer 1080p",
+              "url": "https://godriveplayer.com/embed/1155281"
+            },
+            {
+              "name": "2Embed.cc 1080p",
+              "url": "https://2embed.cc/embed/1155281"
+            },
+            {
+              "name": "VidLink.pro 1080p",
+              "url": "https://vidlink.pro/movie/1155281"
+            }
+          ]
+        },
+        {
+          "Title": "The Shadow\u0027s Edge",
+          "SubCategory": "Action",
+          "Country": "",
+          "Description": "Macau Police brings the tracking expert police officer out of retirement to help catch a dangerous group of professional thieves.",
+          "Poster": "https://image.tmdb.org/t/p/w500/wXeAsIkA7k9YVk0JEwPjjkqZwx8.jpg",
+          "Thumbnail": "https://image.tmdb.org/t/p/w500/wXeAsIkA7k9YVk0JEwPjjkqZwx8.jpg",
+          "Rating": 8.0,
+          "Duration": "2:22",
+          "Year": 2025,
+          "Servers": [
+            {
+              "name": "VidSrc 1080p",
+              "url": "https://vidsrc.net/embed/movie/1419406"
+            },
+            {
+              "name": "VidJoy 1080p",
+              "url": "https://vidjoy.pro/embed/movie/1419406"
+            },
+            {
+              "name": "Embed.su 1080p",
+              "url": "https://embed.su/embed/movie/1419406"
+            },
+            {
+              "name": "VidSrc.me 1080p",
+              "url": "https://vidsrc.me/embed/movie/1419406"
+            },
+            {
+              "name": "AutoEmbed 1080p",
+              "url": "https://player.autoembed.cc/embed/movie/1419406"
+            },
+            {
+              "name": "VidSrc.to 1080p",
+              "url": "https://vidsrc.to/embed/movie/1419406"
+            },
+            {
+              "name": "VidSrc.xyz 1080p",
+              "url": "https://vidsrc.xyz/embed/movie/1419406"
+            },
+            {
+              "name": "UpStream 1080p",
+              "url": "https://upstream.to/embed-1419406.html"
+            },
+            {
+              "name": "GoDrivePlayer 1080p",
+              "url": "https://godriveplayer.com/embed/1419406"
+            },
+            {
+              "name": "2Embed.cc 1080p",
+              "url": "https://2embed.cc/embed/1419406"
+            },
+            {
+              "name": "VidLink.pro 1080p",
+              "url": "https://vidlink.pro/movie/1419406"
+            }
+          ]
+        },
+        {
+          "Title": "William Tell",
+          "SubCategory": "Action",
+          "Country": "",
+          "Description": "The narrative unfolds in the 14th Century, when the European nations vie for supremacy within the Holy Roman Empire. The ambitious Austrian Empire, desiring more land, invades neighbouring Switzerland, a serene and pastoral nation. Protagonist William Tell, a formerly peaceful hunter, finds himself forced to take action as his family and homeland come under threat from the oppressive Austrian King and his ruthless warlords.",
+          "Poster": "https://image.tmdb.org/t/p/w500/8SdaetXSTPyQVDb5pTEPRLBSx15.jpg",
+          "Thumbnail": "https://image.tmdb.org/t/p/w500/8SdaetXSTPyQVDb5pTEPRLBSx15.jpg",
+          "Rating": 7.0,
+          "Duration": "2:13",
+          "Year": 2025,
+          "Servers": [
+            {
+              "name": "VidSrc 1080p",
+              "url": "https://vidsrc.net/embed/movie/1195631"
+            },
+            {
+              "name": "VidJoy 1080p",
+              "url": "https://vidjoy.pro/embed/movie/1195631"
+            },
+            {
+              "name": "Embed.su 1080p",
+              "url": "https://embed.su/embed/movie/1195631"
+            },
+            {
+              "name": "VidSrc.me 1080p",
+              "url": "https://vidsrc.me/embed/movie/1195631"
+            },
+            {
+              "name": "AutoEmbed 1080p",
+              "url": "https://player.autoembed.cc/embed/movie/1195631"
+            },
+            {
+              "name": "VidSrc.to 1080p",
+              "url": "https://vidsrc.to/embed/movie/1195631"
+            },
+            {
+              "name": "VidSrc.xyz 1080p",
+              "url": "https://vidsrc.xyz/embed/movie/1195631"
+            },
+            {
+              "name": "UpStream 1080p",
+              "url": "https://upstream.to/embed-1195631.html"
+            },
+            {
+              "name": "GoDrivePlayer 1080p",
+              "url": "https://godriveplayer.com/embed/1195631"
+            },
+            {
+              "name": "2Embed.cc 1080p",
+              "url": "https://2embed.cc/embed/1195631"
+            },
+            {
+              "name": "VidLink.pro 1080p",
+              "url": "https://vidlink.pro/movie/1195631"
+            }
+          ]
+        },
+        {
+          "Title": "A Minecraft Movie",
+          "SubCategory": "Family",
+          "Country": "",
+          "Description": "Four misfits find themselves struggling with ordinary problems when they are suddenly pulled through a mysterious portal into the Overworld: a bizarre, cubic wonderland that thrives on imagination. To get back home, they\u0027ll have to master this world while embarking on a magical quest with an unexpected, expert crafter, Steve.",
+          "Poster": "https://image.tmdb.org/t/p/w500/yFHHfHcUgGAxziP1C3lLt0q2T4s.jpg",
+          "Thumbnail": "https://image.tmdb.org/t/p/w500/yFHHfHcUgGAxziP1C3lLt0q2T4s.jpg",
+          "Rating": 6.0,
+          "Duration": "1:41",
+          "Year": 2025,
+          "Servers": [
+            {
+              "name": "VidSrc 1080p",
+              "url": "https://vidsrc.net/embed/movie/950387"
+            },
+            {
+              "name": "VidJoy 1080p",
+              "url": "https://vidjoy.pro/embed/movie/950387"
+            },
+            {
+              "name": "Embed.su 1080p",
+              "url": "https://embed.su/embed/movie/950387"
+            },
+            {
+              "name": "VidSrc.me 1080p",
+              "url": "https://vidsrc.me/embed/movie/950387"
+            },
+            {
+              "name": "AutoEmbed 1080p",
+              "url": "https://player.autoembed.cc/embed/movie/950387"
+            },
+            {
+              "name": "VidSrc.to 1080p",
+              "url": "https://vidsrc.to/embed/movie/950387"
+            },
+            {
+              "name": "VidSrc.xyz 1080p",
+              "url": "https://vidsrc.xyz/embed/movie/950387"
+            },
+            {
+              "name": "UpStream 1080p",
+              "url": "https://upstream.to/embed-950387.html"
+            },
+            {
+              "name": "GoDrivePlayer 1080p",
+              "url": "https://godriveplayer.com/embed/950387"
+            },
+            {
+              "name": "2Embed.cc 1080p",
+              "url": "https://2embed.cc/embed/950387"
+            },
+            {
+              "name": "VidLink.pro 1080p",
+              "url": "https://vidlink.pro/movie/950387"
+            }
+          ]
+        },
+        {
+          "Title": "Bride Hard",
+          "SubCategory": "Action",
+          "Country": "",
+          "Description": "Sam is a secret agent whose toughest mission to date is pleasing her bride-to-be best friend at a lavish destination wedding. When a team of mercenaries crashes the party and takes the guests hostage, Sam is thrown into a fight unlike any before — one where she can’t risk blowing her cover or ruining the big day. As she takes on the bad guys in a high-stakes battle disguised as a fairy-tale affair, she realizes the real threat might be closer than she thinks.",
+          "Poster": "https://image.tmdb.org/t/p/w500/3mExdWLSxAiUCb4NMcYmxSkO7n4.jpg",
+          "Thumbnail": "https://image.tmdb.org/t/p/w500/3mExdWLSxAiUCb4NMcYmxSkO7n4.jpg",
+          "Rating": 6.0,
+          "Duration": "1:45",
+          "Year": 2025,
+          "Servers": [
+            {
+              "name": "VidSrc 1080p",
+              "url": "https://vidsrc.net/embed/movie/1124619"
+            },
+            {
+              "name": "VidJoy 1080p",
+              "url": "https://vidjoy.pro/embed/movie/1124619"
+            },
+            {
+              "name": "Embed.su 1080p",
+              "url": "https://embed.su/embed/movie/1124619"
+            },
+            {
+              "name": "VidSrc.me 1080p",
+              "url": "https://vidsrc.me/embed/movie/1124619"
+            },
+            {
+              "name": "AutoEmbed 1080p",
+              "url": "https://player.autoembed.cc/embed/movie/1124619"
+            },
+            {
+              "name": "VidSrc.to 1080p",
+              "url": "https://vidsrc.to/embed/movie/1124619"
+            },
+            {
+              "name": "VidSrc.xyz 1080p",
+              "url": "https://vidsrc.xyz/embed/movie/1124619"
+            },
+            {
+              "name": "UpStream 1080p",
+              "url": "https://upstream.to/embed-1124619.html"
+            },
+            {
+              "name": "GoDrivePlayer 1080p",
+              "url": "https://godriveplayer.com/embed/1124619"
+            },
+            {
+              "name": "2Embed.cc 1080p",
+              "url": "https://2embed.cc/embed/1124619"
+            },
+            {
+              "name": "VidLink.pro 1080p",
+              "url": "https://vidlink.pro/movie/1124619"
+            }
+          ]
+        },
+        {
+          "Title": "A Working Man",
+          "SubCategory": "Action",
+          "Country": "",
+          "Description": "Levon Cade left behind a decorated military career in the black ops to live a simple life working construction. But when his boss\u0027s daughter, who is like family to him, is taken by human traffickers, his search to bring her home uncovers a world of corruption far greater than he ever could have imagined.",
+          "Poster": "https://image.tmdb.org/t/p/w500/6FRFIogh3zFnVWn7Z6zcYnIbRcX.jpg",
+          "Thumbnail": "https://image.tmdb.org/t/p/w500/6FRFIogh3zFnVWn7Z6zcYnIbRcX.jpg",
+          "Rating": 7.0,
+          "Duration": "1:56",
+          "Year": 2025,
+          "Servers": [
+            {
+              "name": "VidSrc 1080p",
+              "url": "https://vidsrc.net/embed/movie/1197306"
+            },
+            {
+              "name": "VidJoy 1080p",
+              "url": "https://vidjoy.pro/embed/movie/1197306"
+            },
+            {
+              "name": "Embed.su 1080p",
+              "url": "https://embed.su/embed/movie/1197306"
+            },
+            {
+              "name": "VidSrc.me 1080p",
+              "url": "https://vidsrc.me/embed/movie/1197306"
+            },
+            {
+              "name": "AutoEmbed 1080p",
+              "url": "https://player.autoembed.cc/embed/movie/1197306"
+            },
+            {
+              "name": "VidSrc.to 1080p",
+              "url": "https://vidsrc.to/embed/movie/1197306"
+            },
+            {
+              "name": "VidSrc.xyz 1080p",
+              "url": "https://vidsrc.xyz/embed/movie/1197306"
+            },
+            {
+              "name": "UpStream 1080p",
+              "url": "https://upstream.to/embed-1197306.html"
+            },
+            {
+              "name": "GoDrivePlayer 1080p",
+              "url": "https://godriveplayer.com/embed/1197306"
+            },
+            {
+              "name": "2Embed.cc 1080p",
+              "url": "https://2embed.cc/embed/1197306"
+            },
+            {
+              "name": "VidLink.pro 1080p",
+              "url": "https://vidlink.pro/movie/1197306"
+            }
+          ]
+        },
+        {
+          "Title": "Nobody 2",
+          "SubCategory": "Action",
+          "Country": "",
+          "Description": "Former assassin Hutch Mansell takes his family on a nostalgic vacation to a small-town theme park, only to be pulled back into violence when they clash with a corrupt operator, a crooked sheriff, and a ruthless crime boss.",
+          "Poster": "https://image.tmdb.org/t/p/w500/iyxwxDZCpIm0vIORaHpmgJv2BGF.jpg",
+          "Thumbnail": "https://image.tmdb.org/t/p/w500/iyxwxDZCpIm0vIORaHpmgJv2BGF.jpg",
+          "Rating": 7.0,
+          "Duration": "1:29",
+          "Year": 2025,
+          "Servers": [
+            {
+              "name": "VidSrc 1080p",
+              "url": "https://vidsrc.net/embed/movie/1007734"
+            },
+            {
+              "name": "VidJoy 1080p",
+              "url": "https://vidjoy.pro/embed/movie/1007734"
+            },
+            {
+              "name": "Embed.su 1080p",
+              "url": "https://embed.su/embed/movie/1007734"
+            },
+            {
+              "name": "VidSrc.me 1080p",
+              "url": "https://vidsrc.me/embed/movie/1007734"
+            },
+            {
+              "name": "AutoEmbed 1080p",
+              "url": "https://player.autoembed.cc/embed/movie/1007734"
+            },
+            {
+              "name": "VidSrc.to 1080p",
+              "url": "https://vidsrc.to/embed/movie/1007734"
+            },
+            {
+              "name": "VidSrc.xyz 1080p",
+              "url": "https://vidsrc.xyz/embed/movie/1007734"
+            },
+            {
+              "name": "UpStream 1080p",
+              "url": "https://upstream.to/embed-1007734.html"
+            },
+            {
+              "name": "GoDrivePlayer 1080p",
+              "url": "https://godriveplayer.com/embed/1007734"
+            },
+            {
+              "name": "2Embed.cc 1080p",
+              "url": "https://2embed.cc/embed/1007734"
+            },
+            {
+              "name": "VidLink.pro 1080p",
+              "url": "https://vidlink.pro/movie/1007734"
+            }
+          ]
+        },
+        {
+          "Title": "Sinners",
+          "SubCategory": "Horror",
+          "Country": "",
+          "Description": "Trying to leave their troubled lives behind, twin brothers return to their hometown to start again, only to discover that an even greater evil is waiting to welcome them back.",
+          "Poster": "https://image.tmdb.org/t/p/w500/4CkZl1LK6a5rXBqJB2ZP77h3N5i.jpg",
+          "Thumbnail": "https://image.tmdb.org/t/p/w500/4CkZl1LK6a5rXBqJB2ZP77h3N5i.jpg",
+          "Rating": 8.0,
+          "Duration": "2:18",
+          "Year": 2025,
+          "Servers": [
+            {
+              "name": "VidSrc 1080p",
+              "url": "https://vidsrc.net/embed/movie/1233413"
+            },
+            {
+              "name": "VidJoy 1080p",
+              "url": "https://vidjoy.pro/embed/movie/1233413"
+            },
+            {
+              "name": "Embed.su 1080p",
+              "url": "https://embed.su/embed/movie/1233413"
+            },
+            {
+              "name": "VidSrc.me 1080p",
+              "url": "https://vidsrc.me/embed/movie/1233413"
+            },
+            {
+              "name": "AutoEmbed 1080p",
+              "url": "https://player.autoembed.cc/embed/movie/1233413"
+            },
+            {
+              "name": "VidSrc.to 1080p",
+              "url": "https://vidsrc.to/embed/movie/1233413"
+            },
+            {
+              "name": "VidSrc.xyz 1080p",
+              "url": "https://vidsrc.xyz/embed/movie/1233413"
+            },
+            {
+              "name": "UpStream 1080p",
+              "url": "https://upstream.to/embed-1233413.html"
+            },
+            {
+              "name": "GoDrivePlayer 1080p",
+              "url": "https://godriveplayer.com/embed/1233413"
+            },
+            {
+              "name": "2Embed.cc 1080p",
+              "url": "https://2embed.cc/embed/1233413"
+            },
+            {
+              "name": "VidLink.pro 1080p",
+              "url": "https://vidlink.pro/movie/1233413"
+            }
+          ]
+        },
+        {
+          "Title": "Heads of State",
+          "SubCategory": "Action",
+          "Country": "",
+          "Description": "The UK Prime Minister and US President have a public rivalry that risks their countries\u0027 alliance. But when they become targets of a powerful enemy, they\u0027re forced to rely on each other as they go on a wild, multinational run. Allied with Noel, a brilliant MI6 agent, they must find a way to thwart a conspiracy that threatens the free world.",
+          "Poster": "https://image.tmdb.org/t/p/w500/lVgE5oLzf7ABmzyASEVcjYyHI41.jpg",
+          "Thumbnail": "https://image.tmdb.org/t/p/w500/lVgE5oLzf7ABmzyASEVcjYyHI41.jpg",
+          "Rating": 7.0,
+          "Duration": "1:57",
+          "Year": 2025,
+          "Servers": [
+            {
+              "name": "VidSrc 1080p",
+              "url": "https://vidsrc.net/embed/movie/749170"
+            },
+            {
+              "name": "VidJoy 1080p",
+              "url": "https://vidjoy.pro/embed/movie/749170"
+            },
+            {
+              "name": "Embed.su 1080p",
+              "url": "https://embed.su/embed/movie/749170"
+            },
+            {
+              "name": "VidSrc.me 1080p",
+              "url": "https://vidsrc.me/embed/movie/749170"
+            },
+            {
+              "name": "AutoEmbed 1080p",
+              "url": "https://player.autoembed.cc/embed/movie/749170"
+            },
+            {
+              "name": "VidSrc.to 1080p",
+              "url": "https://vidsrc.to/embed/movie/749170"
+            },
+            {
+              "name": "VidSrc.xyz 1080p",
+              "url": "https://vidsrc.xyz/embed/movie/749170"
+            },
+            {
+              "name": "UpStream 1080p",
+              "url": "https://upstream.to/embed-749170.html"
+            },
+            {
+              "name": "GoDrivePlayer 1080p",
+              "url": "https://godriveplayer.com/embed/749170"
+            },
+            {
+              "name": "2Embed.cc 1080p",
+              "url": "https://2embed.cc/embed/749170"
+            },
+            {
+              "name": "VidLink.pro 1080p",
+              "url": "https://vidlink.pro/movie/749170"
+            }
+          ]
+        },
+        {
+          "Title": "Bang",
+          "SubCategory": "Action",
+          "Country": "",
+          "Description": "Follows a ruthless hitman who, after narrowly escaping a fatal attempt on his life, betrays his gang in an effort to find forgiveness but ends up becoming a target himself.",
+          "Poster": "https://image.tmdb.org/t/p/w500/iRSQqEhxGJ2SbDjaJeWnZqmiywB.jpg",
+          "Thumbnail": "https://image.tmdb.org/t/p/w500/iRSQqEhxGJ2SbDjaJeWnZqmiywB.jpg",
+          "Rating": 7.0,
+          "Duration": "Unknown",
+          "Year": 2025,
+          "Servers": [
+            {
+              "name": "VidSrc 1080p",
+              "url": "https://vidsrc.net/embed/movie/1491902"
+            },
+            {
+              "name": "VidJoy 1080p",
+              "url": "https://vidjoy.pro/embed/movie/1491902"
+            },
+            {
+              "name": "Embed.su 1080p",
+              "url": "https://embed.su/embed/movie/1491902"
+            },
+            {
+              "name": "VidSrc.me 1080p",
+              "url": "https://vidsrc.me/embed/movie/1491902"
+            },
+            {
+              "name": "AutoEmbed 1080p",
+              "url": "https://player.autoembed.cc/embed/movie/1491902"
+            },
+            {
+              "name": "VidSrc.to 1080p",
+              "url": "https://vidsrc.to/embed/movie/1491902"
+            },
+            {
+              "name": "VidSrc.xyz 1080p",
+              "url": "https://vidsrc.xyz/embed/movie/1491902"
+            },
+            {
+              "name": "UpStream 1080p",
+              "url": "https://upstream.to/embed-1491902.html"
+            },
+            {
+              "name": "GoDrivePlayer 1080p",
+              "url": "https://godriveplayer.com/embed/1491902"
+            },
+            {
+              "name": "2Embed.cc 1080p",
+              "url": "https://2embed.cc/embed/1491902"
+            },
+            {
+              "name": "VidLink.pro 1080p",
+              "url": "https://vidlink.pro/movie/1491902"
+            }
+          ]
+        },
+        {
+          "Title": "Man with No Past",
+          "SubCategory": "Action",
+          "Country": "",
+          "Description": "Waking up in an unfamiliar city, a man with no memory must confront the mysteries of his own identity. However, his desperate search to uncover the past pits him against a powerful enemy, leading to a showdown that ultimately reveals the truth.",
+          "Poster": "https://image.tmdb.org/t/p/w500/eWHvROuznSzcxBAAkzX1X0Rmzoe.jpg",
+          "Thumbnail": "https://image.tmdb.org/t/p/w500/eWHvROuznSzcxBAAkzX1X0Rmzoe.jpg",
+          "Rating": 7.0,
+          "Duration": "1:43",
+          "Year": 2025,
+          "Servers": [
+            {
+              "name": "VidSrc 1080p",
+              "url": "https://vidsrc.net/embed/movie/1315986"
+            },
+            {
+              "name": "VidJoy 1080p",
+              "url": "https://vidjoy.pro/embed/movie/1315986"
+            },
+            {
+              "name": "Embed.su 1080p",
+              "url": "https://embed.su/embed/movie/1315986"
+            },
+            {
+              "name": "VidSrc.me 1080p",
+              "url": "https://vidsrc.me/embed/movie/1315986"
+            },
+            {
+              "name": "AutoEmbed 1080p",
+              "url": "https://player.autoembed.cc/embed/movie/1315986"
+            },
+            {
+              "name": "VidSrc.to 1080p",
+              "url": "https://vidsrc.to/embed/movie/1315986"
+            },
+            {
+              "name": "VidSrc.xyz 1080p",
+              "url": "https://vidsrc.xyz/embed/movie/1315986"
+            },
+            {
+              "name": "UpStream 1080p",
+              "url": "https://upstream.to/embed-1315986.html"
+            },
+            {
+              "name": "GoDrivePlayer 1080p",
+              "url": "https://godriveplayer.com/embed/1315986"
+            },
+            {
+              "name": "2Embed.cc 1080p",
+              "url": "https://2embed.cc/embed/1315986"
+            },
+            {
+              "name": "VidLink.pro 1080p",
+              "url": "https://vidlink.pro/movie/1315986"
+            }
+          ]
+        },
+        {
+          "Title": "Kaiju No. 8: Mission Recon",
           "SubCategory": "Animation",
           "Country": "",
-          "Description": "Leaving the safety of their nursery behind, Wendy, Michael and John follow Peter Pan to a magical world where childhood lasts forever. But while in Neverland, the kids must face Captain Hook and foil his attempts to get rid of Peter for good.",
-          "Poster": "https://image.tmdb.org/t/p/w500/fJJOs1iyrhKfZceANxoPxPwNGF1.jpg",
-          "Thumbnail": "https://image.tmdb.org/t/p/w500/fJJOs1iyrhKfZceANxoPxPwNGF1.jpg",
-          "Rating": 7.198,
-          "Duration": "",
-          "Year": 1953,
-          "Servers": []
+          "Description": "In a Kaiju-filled Japan, Kafka Hibino works in monster disposal. After reuniting with his childhood friend Mina Ashiro, a rising star in the anti-Kaiju Defense Force, he decides to pursue his abandoned dream of joining the Force, when he suddenly transforms into the powerful \"Kaiju No. 8.\" An action-packed recap of the first season of Kaiju No. 8 and a new original episode, Hoshina\u0027s Day Off.",
+          "Poster": "https://image.tmdb.org/t/p/w500/1aEfyTWUK8ZBk4aw7Ck0qEoF8PW.jpg",
+          "Thumbnail": "https://image.tmdb.org/t/p/w500/1aEfyTWUK8ZBk4aw7Ck0qEoF8PW.jpg",
+          "Rating": 8.0,
+          "Duration": "1:50",
+          "Year": 2025,
+          "Servers": [
+            {
+              "name": "VidSrc 1080p",
+              "url": "https://vidsrc.net/embed/movie/1326106"
+            },
+            {
+              "name": "VidJoy 1080p",
+              "url": "https://vidjoy.pro/embed/movie/1326106"
+            },
+            {
+              "name": "Embed.su 1080p",
+              "url": "https://embed.su/embed/movie/1326106"
+            },
+            {
+              "name": "VidSrc.me 1080p",
+              "url": "https://vidsrc.me/embed/movie/1326106"
+            },
+            {
+              "name": "AutoEmbed 1080p",
+              "url": "https://player.autoembed.cc/embed/movie/1326106"
+            },
+            {
+              "name": "VidSrc.to 1080p",
+              "url": "https://vidsrc.to/embed/movie/1326106"
+            },
+            {
+              "name": "VidSrc.xyz 1080p",
+              "url": "https://vidsrc.xyz/embed/movie/1326106"
+            },
+            {
+              "name": "UpStream 1080p",
+              "url": "https://upstream.to/embed-1326106.html"
+            },
+            {
+              "name": "GoDrivePlayer 1080p",
+              "url": "https://godriveplayer.com/embed/1326106"
+            },
+            {
+              "name": "2Embed.cc 1080p",
+              "url": "https://2embed.cc/embed/1326106"
+            },
+            {
+              "name": "VidLink.pro 1080p",
+              "url": "https://vidlink.pro/movie/1326106"
+            }
+          ]
         },
         {
-          "Title": "Peter Pan",
-          "SubCategory": "TV Movie",
+          "Title": "Captain America: Brave New World",
+          "SubCategory": "Action",
           "Country": "",
-          "Description": "In this magical tale about the boy who refuses to grow up, Peter Pan and his mischievous fairy sidekick Tinkerbell visit the nursery of Wendy, Michael and John Darling. With a sprinkling of pixie dust, Peter and his new friends fly out the nursery window and over London to Never-Never Land. The children experience many wonderful and exciting adventures with the Lost Boys, Tiger Lily\u0027s Indian tribe, and Peter\u0027s arch enemy the dastardly pirate Captain Hook.",
-          "Poster": "https://image.tmdb.org/t/p/w500/qCQ42aTmU4cuHwzfu8rCvYQuCyx.jpg",
-          "Thumbnail": "https://image.tmdb.org/t/p/w500/qCQ42aTmU4cuHwzfu8rCvYQuCyx.jpg",
-          "Rating": 6.705,
-          "Duration": "",
-          "Year": 1960,
-          "Servers": []
+          "Description": "After meeting with newly elected U.S. President Thaddeus Ross, Sam finds himself in the middle of an international incident. He must discover the reason behind a nefarious global plot before the true mastermind has the entire world seeing red.",
+          "Poster": "https://image.tmdb.org/t/p/w500/pzIddUEMWhWzfvLI3TwxUG2wGoi.jpg",
+          "Thumbnail": "https://image.tmdb.org/t/p/w500/pzIddUEMWhWzfvLI3TwxUG2wGoi.jpg",
+          "Rating": 6.0,
+          "Duration": "1:59",
+          "Year": 2025,
+          "Servers": [
+            {
+              "name": "VidSrc 1080p",
+              "url": "https://vidsrc.net/embed/movie/822119"
+            },
+            {
+              "name": "VidJoy 1080p",
+              "url": "https://vidjoy.pro/embed/movie/822119"
+            },
+            {
+              "name": "Embed.su 1080p",
+              "url": "https://embed.su/embed/movie/822119"
+            },
+            {
+              "name": "VidSrc.me 1080p",
+              "url": "https://vidsrc.me/embed/movie/822119"
+            },
+            {
+              "name": "AutoEmbed 1080p",
+              "url": "https://player.autoembed.cc/embed/movie/822119"
+            },
+            {
+              "name": "VidSrc.to 1080p",
+              "url": "https://vidsrc.to/embed/movie/822119"
+            },
+            {
+              "name": "VidSrc.xyz 1080p",
+              "url": "https://vidsrc.xyz/embed/movie/822119"
+            },
+            {
+              "name": "UpStream 1080p",
+              "url": "https://upstream.to/embed-822119.html"
+            },
+            {
+              "name": "GoDrivePlayer 1080p",
+              "url": "https://godriveplayer.com/embed/822119"
+            },
+            {
+              "name": "2Embed.cc 1080p",
+              "url": "https://2embed.cc/embed/822119"
+            },
+            {
+              "name": "VidLink.pro 1080p",
+              "url": "https://vidlink.pro/movie/822119"
+            }
+          ]
+        },
+        {
+          "Title": "The Amateur",
+          "SubCategory": "Thriller",
+          "Country": "",
+          "Description": "After his life is turned upside down when his wife is killed in a London terrorist attack, a brilliant but introverted CIA decoder takes matters into his own hands when his supervisors refuse to take action.",
+          "Poster": "https://image.tmdb.org/t/p/w500/SNEoUInCa5fAgwuEBMIMBGvkkh.jpg",
+          "Thumbnail": "https://image.tmdb.org/t/p/w500/SNEoUInCa5fAgwuEBMIMBGvkkh.jpg",
+          "Rating": 7.0,
+          "Duration": "2:03",
+          "Year": 2025,
+          "Servers": [
+            {
+              "name": "VidSrc 1080p",
+              "url": "https://vidsrc.net/embed/movie/1087891"
+            },
+            {
+              "name": "VidJoy 1080p",
+              "url": "https://vidjoy.pro/embed/movie/1087891"
+            },
+            {
+              "name": "Embed.su 1080p",
+              "url": "https://embed.su/embed/movie/1087891"
+            },
+            {
+              "name": "VidSrc.me 1080p",
+              "url": "https://vidsrc.me/embed/movie/1087891"
+            },
+            {
+              "name": "AutoEmbed 1080p",
+              "url": "https://player.autoembed.cc/embed/movie/1087891"
+            },
+            {
+              "name": "VidSrc.to 1080p",
+              "url": "https://vidsrc.to/embed/movie/1087891"
+            },
+            {
+              "name": "VidSrc.xyz 1080p",
+              "url": "https://vidsrc.xyz/embed/movie/1087891"
+            },
+            {
+              "name": "UpStream 1080p",
+              "url": "https://upstream.to/embed-1087891.html"
+            },
+            {
+              "name": "GoDrivePlayer 1080p",
+              "url": "https://godriveplayer.com/embed/1087891"
+            },
+            {
+              "name": "2Embed.cc 1080p",
+              "url": "https://2embed.cc/embed/1087891"
+            },
+            {
+              "name": "VidLink.pro 1080p",
+              "url": "https://vidlink.pro/movie/1087891"
+            }
+          ]
+        },
+        {
+          "Title": "The Old Guard 2",
+          "SubCategory": "Action",
+          "Country": "",
+          "Description": "Andy and her team of immortal warriors fight with renewed purpose as they face a powerful new foe threatening their mission to protect humanity.",
+          "Poster": "https://image.tmdb.org/t/p/w500/wqfu3bPLJaEWJVk3QOm0rKhxf1A.jpg",
+          "Thumbnail": "https://image.tmdb.org/t/p/w500/wqfu3bPLJaEWJVk3QOm0rKhxf1A.jpg",
+          "Rating": 6.0,
+          "Duration": "1:47",
+          "Year": 2025,
+          "Servers": [
+            {
+              "name": "VidSrc 1080p",
+              "url": "https://vidsrc.net/embed/movie/846422"
+            },
+            {
+              "name": "VidJoy 1080p",
+              "url": "https://vidjoy.pro/embed/movie/846422"
+            },
+            {
+              "name": "Embed.su 1080p",
+              "url": "https://embed.su/embed/movie/846422"
+            },
+            {
+              "name": "VidSrc.me 1080p",
+              "url": "https://vidsrc.me/embed/movie/846422"
+            },
+            {
+              "name": "AutoEmbed 1080p",
+              "url": "https://player.autoembed.cc/embed/movie/846422"
+            },
+            {
+              "name": "VidSrc.to 1080p",
+              "url": "https://vidsrc.to/embed/movie/846422"
+            },
+            {
+              "name": "VidSrc.xyz 1080p",
+              "url": "https://vidsrc.xyz/embed/movie/846422"
+            },
+            {
+              "name": "UpStream 1080p",
+              "url": "https://upstream.to/embed-846422.html"
+            },
+            {
+              "name": "GoDrivePlayer 1080p",
+              "url": "https://godriveplayer.com/embed/846422"
+            },
+            {
+              "name": "2Embed.cc 1080p",
+              "url": "https://2embed.cc/embed/846422"
+            },
+            {
+              "name": "VidLink.pro 1080p",
+              "url": "https://vidlink.pro/movie/846422"
+            }
+          ]
+        },
+        {
+          "Title": "Guns Up",
+          "SubCategory": "Action",
+          "Country": "",
+          "Description": "When a job goes horribly wrong, an ex-cop and family man who moonlights as a mob henchman has one night to get his family out of the city.",
+          "Poster": "https://image.tmdb.org/t/p/w500/3RokBWEkQqJRZEVP3DPwGm5MYh6.jpg",
+          "Thumbnail": "https://image.tmdb.org/t/p/w500/3RokBWEkQqJRZEVP3DPwGm5MYh6.jpg",
+          "Rating": 7.0,
+          "Duration": "1:32",
+          "Year": 2025,
+          "Servers": [
+            {
+              "name": "VidSrc 1080p",
+              "url": "https://vidsrc.net/embed/movie/1181540"
+            },
+            {
+              "name": "VidJoy 1080p",
+              "url": "https://vidjoy.pro/embed/movie/1181540"
+            },
+            {
+              "name": "Embed.su 1080p",
+              "url": "https://embed.su/embed/movie/1181540"
+            },
+            {
+              "name": "VidSrc.me 1080p",
+              "url": "https://vidsrc.me/embed/movie/1181540"
+            },
+            {
+              "name": "AutoEmbed 1080p",
+              "url": "https://player.autoembed.cc/embed/movie/1181540"
+            },
+            {
+              "name": "VidSrc.to 1080p",
+              "url": "https://vidsrc.to/embed/movie/1181540"
+            },
+            {
+              "name": "VidSrc.xyz 1080p",
+              "url": "https://vidsrc.xyz/embed/movie/1181540"
+            },
+            {
+              "name": "UpStream 1080p",
+              "url": "https://upstream.to/embed-1181540.html"
+            },
+            {
+              "name": "GoDrivePlayer 1080p",
+              "url": "https://godriveplayer.com/embed/1181540"
+            },
+            {
+              "name": "2Embed.cc 1080p",
+              "url": "https://2embed.cc/embed/1181540"
+            },
+            {
+              "name": "VidLink.pro 1080p",
+              "url": "https://vidlink.pro/movie/1181540"
+            }
+          ]
+        },
+        {
+          "Title": "The Naked Gun",
+          "SubCategory": "Comedy",
+          "Country": "",
+          "Description": "Only one man has the particular set of skills... to lead Police Squad and save the world: Lt. Frank Drebin Jr.",
+          "Poster": "https://image.tmdb.org/t/p/w500/rmwQ8GsdQ1M3LtemNWLErle2nBU.jpg",
+          "Thumbnail": "https://image.tmdb.org/t/p/w500/rmwQ8GsdQ1M3LtemNWLErle2nBU.jpg",
+          "Rating": 7.0,
+          "Duration": "1:25",
+          "Year": 2025,
+          "Servers": [
+            {
+              "name": "VidSrc 1080p",
+              "url": "https://vidsrc.net/embed/movie/1035259"
+            },
+            {
+              "name": "VidJoy 1080p",
+              "url": "https://vidjoy.pro/embed/movie/1035259"
+            },
+            {
+              "name": "Embed.su 1080p",
+              "url": "https://embed.su/embed/movie/1035259"
+            },
+            {
+              "name": "VidSrc.me 1080p",
+              "url": "https://vidsrc.me/embed/movie/1035259"
+            },
+            {
+              "name": "AutoEmbed 1080p",
+              "url": "https://player.autoembed.cc/embed/movie/1035259"
+            },
+            {
+              "name": "VidSrc.to 1080p",
+              "url": "https://vidsrc.to/embed/movie/1035259"
+            },
+            {
+              "name": "VidSrc.xyz 1080p",
+              "url": "https://vidsrc.xyz/embed/movie/1035259"
+            },
+            {
+              "name": "UpStream 1080p",
+              "url": "https://upstream.to/embed-1035259.html"
+            },
+            {
+              "name": "GoDrivePlayer 1080p",
+              "url": "https://godriveplayer.com/embed/1035259"
+            },
+            {
+              "name": "2Embed.cc 1080p",
+              "url": "https://2embed.cc/embed/1035259"
+            },
+            {
+              "name": "VidLink.pro 1080p",
+              "url": "https://vidlink.pro/movie/1035259"
+            }
+          ]
+        },
+        {
+          "Title": "Predator: Killer of Killers",
+          "SubCategory": "Animation",
+          "Country": "",
+          "Description": "While three of the fiercest warriors in human history—a Viking raider, a ninja in feudal Japan, and a WWII pilot—are killers in their own right, they are merely prey for their new opponent: the ultimate killer of killers.",
+          "Poster": "https://image.tmdb.org/t/p/w500/2XDQa6EmFHSA37j1t0w88vpWqj9.jpg",
+          "Thumbnail": "https://image.tmdb.org/t/p/w500/2XDQa6EmFHSA37j1t0w88vpWqj9.jpg",
+          "Rating": 8.0,
+          "Duration": "1:25",
+          "Year": 2025,
+          "Servers": [
+            {
+              "name": "VidSrc 1080p",
+              "url": "https://vidsrc.net/embed/movie/1376434"
+            },
+            {
+              "name": "VidJoy 1080p",
+              "url": "https://vidjoy.pro/embed/movie/1376434"
+            },
+            {
+              "name": "Embed.su 1080p",
+              "url": "https://embed.su/embed/movie/1376434"
+            },
+            {
+              "name": "VidSrc.me 1080p",
+              "url": "https://vidsrc.me/embed/movie/1376434"
+            },
+            {
+              "name": "AutoEmbed 1080p",
+              "url": "https://player.autoembed.cc/embed/movie/1376434"
+            },
+            {
+              "name": "VidSrc.to 1080p",
+              "url": "https://vidsrc.to/embed/movie/1376434"
+            },
+            {
+              "name": "VidSrc.xyz 1080p",
+              "url": "https://vidsrc.xyz/embed/movie/1376434"
+            },
+            {
+              "name": "UpStream 1080p",
+              "url": "https://upstream.to/embed-1376434.html"
+            },
+            {
+              "name": "GoDrivePlayer 1080p",
+              "url": "https://godriveplayer.com/embed/1376434"
+            },
+            {
+              "name": "2Embed.cc 1080p",
+              "url": "https://2embed.cc/embed/1376434"
+            },
+            {
+              "name": "VidLink.pro 1080p",
+              "url": "https://vidlink.pro/movie/1376434"
+            }
+          ]
+        },
+        {
+          "Title": "Almost Cops",
+          "SubCategory": "Action",
+          "Country": "",
+          "Description": "When an overeager community officer and a reckless ex-detective are forced to team up, plenty of chaos ensues on the streets of Rotterdam.",
+          "Poster": "https://image.tmdb.org/t/p/w500/7bcndiaTgu1Kj5a6qyCmsWYdtI.jpg",
+          "Thumbnail": "https://image.tmdb.org/t/p/w500/7bcndiaTgu1Kj5a6qyCmsWYdtI.jpg",
+          "Rating": 6.0,
+          "Duration": "1:35",
+          "Year": 2025,
+          "Servers": [
+            {
+              "name": "VidSrc 1080p",
+              "url": "https://vidsrc.net/embed/movie/1374534"
+            },
+            {
+              "name": "VidJoy 1080p",
+              "url": "https://vidjoy.pro/embed/movie/1374534"
+            },
+            {
+              "name": "Embed.su 1080p",
+              "url": "https://embed.su/embed/movie/1374534"
+            },
+            {
+              "name": "VidSrc.me 1080p",
+              "url": "https://vidsrc.me/embed/movie/1374534"
+            },
+            {
+              "name": "AutoEmbed 1080p",
+              "url": "https://player.autoembed.cc/embed/movie/1374534"
+            },
+            {
+              "name": "VidSrc.to 1080p",
+              "url": "https://vidsrc.to/embed/movie/1374534"
+            },
+            {
+              "name": "VidSrc.xyz 1080p",
+              "url": "https://vidsrc.xyz/embed/movie/1374534"
+            },
+            {
+              "name": "UpStream 1080p",
+              "url": "https://upstream.to/embed-1374534.html"
+            },
+            {
+              "name": "GoDrivePlayer 1080p",
+              "url": "https://godriveplayer.com/embed/1374534"
+            },
+            {
+              "name": "2Embed.cc 1080p",
+              "url": "https://2embed.cc/embed/1374534"
+            },
+            {
+              "name": "VidLink.pro 1080p",
+              "url": "https://vidlink.pro/movie/1374534"
+            }
+          ]
+        },
+        {
+          "Title": "Warfare",
+          "SubCategory": "War",
+          "Country": "",
+          "Description": "A platoon of Navy SEALs embarks on a dangerous mission in Ramadi, Iraq, with the chaos and brotherhood of war retold through their memories of the event.",
+          "Poster": "https://image.tmdb.org/t/p/w500/srj9rYrjefyWqkLc6l2xjTGeBGO.jpg",
+          "Thumbnail": "https://image.tmdb.org/t/p/w500/srj9rYrjefyWqkLc6l2xjTGeBGO.jpg",
+          "Rating": 7.0,
+          "Duration": "1:35",
+          "Year": 2025,
+          "Servers": [
+            {
+              "name": "VidSrc 1080p",
+              "url": "https://vidsrc.net/embed/movie/1241436"
+            },
+            {
+              "name": "VidJoy 1080p",
+              "url": "https://vidjoy.pro/embed/movie/1241436"
+            },
+            {
+              "name": "Embed.su 1080p",
+              "url": "https://embed.su/embed/movie/1241436"
+            },
+            {
+              "name": "VidSrc.me 1080p",
+              "url": "https://vidsrc.me/embed/movie/1241436"
+            },
+            {
+              "name": "AutoEmbed 1080p",
+              "url": "https://player.autoembed.cc/embed/movie/1241436"
+            },
+            {
+              "name": "VidSrc.to 1080p",
+              "url": "https://vidsrc.to/embed/movie/1241436"
+            },
+            {
+              "name": "VidSrc.xyz 1080p",
+              "url": "https://vidsrc.xyz/embed/movie/1241436"
+            },
+            {
+              "name": "UpStream 1080p",
+              "url": "https://upstream.to/embed-1241436.html"
+            },
+            {
+              "name": "GoDrivePlayer 1080p",
+              "url": "https://godriveplayer.com/embed/1241436"
+            },
+            {
+              "name": "2Embed.cc 1080p",
+              "url": "https://2embed.cc/embed/1241436"
+            },
+            {
+              "name": "VidLink.pro 1080p",
+              "url": "https://vidlink.pro/movie/1241436"
+            }
+          ]
+        },
+        {
+          "Title": "She Rides Shotgun",
+          "SubCategory": "Thriller",
+          "Country": "",
+          "Description": "Newly released from prison and marked for death by unrelenting enemies, Nate must now protect his estranged 11-year-old daughter, Polly, at all costs. With scant resources and no one to trust, Nate and Polly forge a bond under fire as he shows her how to fight and survive—and she teaches him the true meaning of unconditional love.",
+          "Poster": "https://image.tmdb.org/t/p/w500/nvqW8mOm818QDio3GKKmPLK8kXj.jpg",
+          "Thumbnail": "https://image.tmdb.org/t/p/w500/nvqW8mOm818QDio3GKKmPLK8kXj.jpg",
+          "Rating": 7.0,
+          "Duration": "2:00",
+          "Year": 2025,
+          "Servers": [
+            {
+              "name": "VidSrc 1080p",
+              "url": "https://vidsrc.net/embed/movie/1196573"
+            },
+            {
+              "name": "VidJoy 1080p",
+              "url": "https://vidjoy.pro/embed/movie/1196573"
+            },
+            {
+              "name": "Embed.su 1080p",
+              "url": "https://embed.su/embed/movie/1196573"
+            },
+            {
+              "name": "VidSrc.me 1080p",
+              "url": "https://vidsrc.me/embed/movie/1196573"
+            },
+            {
+              "name": "AutoEmbed 1080p",
+              "url": "https://player.autoembed.cc/embed/movie/1196573"
+            },
+            {
+              "name": "VidSrc.to 1080p",
+              "url": "https://vidsrc.to/embed/movie/1196573"
+            },
+            {
+              "name": "VidSrc.xyz 1080p",
+              "url": "https://vidsrc.xyz/embed/movie/1196573"
+            },
+            {
+              "name": "UpStream 1080p",
+              "url": "https://upstream.to/embed-1196573.html"
+            },
+            {
+              "name": "GoDrivePlayer 1080p",
+              "url": "https://godriveplayer.com/embed/1196573"
+            },
+            {
+              "name": "2Embed.cc 1080p",
+              "url": "https://2embed.cc/embed/1196573"
+            },
+            {
+              "name": "VidLink.pro 1080p",
+              "url": "https://vidlink.pro/movie/1196573"
+            }
+          ]
+        },
+        {
+          "Title": "Shadow Force",
+          "SubCategory": "Action",
+          "Country": "",
+          "Description": "Kyrah and Isaac were once the leaders of a multinational special forces group called Shadow Force. They broke the rules by falling in love, and in order to protect their son, they go underground. With a large bounty on their heads, and the vengeful Shadow Force hot on their trail, one family\u0027s fight becomes all-out war.",
+          "Poster": "https://image.tmdb.org/t/p/w500/9LCpHFXZgkqp2AWiYq0mGbfZauk.jpg",
+          "Thumbnail": "https://image.tmdb.org/t/p/w500/9LCpHFXZgkqp2AWiYq0mGbfZauk.jpg",
+          "Rating": 6.0,
+          "Duration": "1:43",
+          "Year": 2025,
+          "Servers": [
+            {
+              "name": "VidSrc 1080p",
+              "url": "https://vidsrc.net/embed/movie/757725"
+            },
+            {
+              "name": "VidJoy 1080p",
+              "url": "https://vidjoy.pro/embed/movie/757725"
+            },
+            {
+              "name": "Embed.su 1080p",
+              "url": "https://embed.su/embed/movie/757725"
+            },
+            {
+              "name": "VidSrc.me 1080p",
+              "url": "https://vidsrc.me/embed/movie/757725"
+            },
+            {
+              "name": "AutoEmbed 1080p",
+              "url": "https://player.autoembed.cc/embed/movie/757725"
+            },
+            {
+              "name": "VidSrc.to 1080p",
+              "url": "https://vidsrc.to/embed/movie/757725"
+            },
+            {
+              "name": "VidSrc.xyz 1080p",
+              "url": "https://vidsrc.xyz/embed/movie/757725"
+            },
+            {
+              "name": "UpStream 1080p",
+              "url": "https://upstream.to/embed-757725.html"
+            },
+            {
+              "name": "GoDrivePlayer 1080p",
+              "url": "https://godriveplayer.com/embed/757725"
+            },
+            {
+              "name": "2Embed.cc 1080p",
+              "url": "https://2embed.cc/embed/757725"
+            },
+            {
+              "name": "VidLink.pro 1080p",
+              "url": "https://vidlink.pro/movie/757725"
+            }
+          ]
+        },
+        {
+          "Title": "In the Lost Lands",
+          "SubCategory": "Action",
+          "Country": "",
+          "Description": "A queen sends the powerful and feared sorceress Gray Alys to the ghostly wilderness of the Lost Lands in search of a magical power, where she and her guide, the drifter Boyce, must outwit and outfight both man and demon.",
+          "Poster": "https://image.tmdb.org/t/p/w500/dDlfjR7gllmr8HTeN6rfrYhTdwX.jpg",
+          "Thumbnail": "https://image.tmdb.org/t/p/w500/dDlfjR7gllmr8HTeN6rfrYhTdwX.jpg",
+          "Rating": 6.0,
+          "Duration": "1:42",
+          "Year": 2025,
+          "Servers": [
+            {
+              "name": "VidSrc 1080p",
+              "url": "https://vidsrc.net/embed/movie/324544"
+            },
+            {
+              "name": "VidJoy 1080p",
+              "url": "https://vidjoy.pro/embed/movie/324544"
+            },
+            {
+              "name": "Embed.su 1080p",
+              "url": "https://embed.su/embed/movie/324544"
+            },
+            {
+              "name": "VidSrc.me 1080p",
+              "url": "https://vidsrc.me/embed/movie/324544"
+            },
+            {
+              "name": "AutoEmbed 1080p",
+              "url": "https://player.autoembed.cc/embed/movie/324544"
+            },
+            {
+              "name": "VidSrc.to 1080p",
+              "url": "https://vidsrc.to/embed/movie/324544"
+            },
+            {
+              "name": "VidSrc.xyz 1080p",
+              "url": "https://vidsrc.xyz/embed/movie/324544"
+            },
+            {
+              "name": "UpStream 1080p",
+              "url": "https://upstream.to/embed-324544.html"
+            },
+            {
+              "name": "GoDrivePlayer 1080p",
+              "url": "https://godriveplayer.com/embed/324544"
+            },
+            {
+              "name": "2Embed.cc 1080p",
+              "url": "https://2embed.cc/embed/324544"
+            },
+            {
+              "name": "VidLink.pro 1080p",
+              "url": "https://vidlink.pro/movie/324544"
+            }
+          ]
+        },
+        {
+          "Title": "Mikaela",
+          "SubCategory": "Action",
+          "Country": "",
+          "Description": "During the eve of the 6th of January, a record-breaking snowstorm sweeps across Spain. In the midst of its chaos, a group of robbers seizes the opportunity to hijack an armoured van. A few meters away is Leo, a finished policeman who has nothing to lose. With the unexpected aid of a young woman, he will try to stop the band from running away with their loot.",
+          "Poster": "https://image.tmdb.org/t/p/w500/xG8olkWOmoW78GbozKbS2UxYGEo.jpg",
+          "Thumbnail": "https://image.tmdb.org/t/p/w500/xG8olkWOmoW78GbozKbS2UxYGEo.jpg",
+          "Rating": 6.0,
+          "Duration": "1:30",
+          "Year": 2025,
+          "Servers": [
+            {
+              "name": "VidSrc 1080p",
+              "url": "https://vidsrc.net/embed/movie/1315988"
+            },
+            {
+              "name": "VidJoy 1080p",
+              "url": "https://vidjoy.pro/embed/movie/1315988"
+            },
+            {
+              "name": "Embed.su 1080p",
+              "url": "https://embed.su/embed/movie/1315988"
+            },
+            {
+              "name": "VidSrc.me 1080p",
+              "url": "https://vidsrc.me/embed/movie/1315988"
+            },
+            {
+              "name": "AutoEmbed 1080p",
+              "url": "https://player.autoembed.cc/embed/movie/1315988"
+            },
+            {
+              "name": "VidSrc.to 1080p",
+              "url": "https://vidsrc.to/embed/movie/1315988"
+            },
+            {
+              "name": "VidSrc.xyz 1080p",
+              "url": "https://vidsrc.xyz/embed/movie/1315988"
+            },
+            {
+              "name": "UpStream 1080p",
+              "url": "https://upstream.to/embed-1315988.html"
+            },
+            {
+              "name": "GoDrivePlayer 1080p",
+              "url": "https://godriveplayer.com/embed/1315988"
+            },
+            {
+              "name": "2Embed.cc 1080p",
+              "url": "https://2embed.cc/embed/1315988"
+            },
+            {
+              "name": "VidLink.pro 1080p",
+              "url": "https://vidlink.pro/movie/1315988"
+            }
+          ]
+        },
+        {
+          "Title": "Deep Cover",
+          "SubCategory": "Action",
+          "Country": "",
+          "Description": "Kat is an improv comedy teacher beginning to question if she’s missed her shot at success. When an undercover cop offers her the role of a lifetime, she recruits two of her students to infiltrate London’s gangland by impersonating dangerous criminals.",
+          "Poster": "https://image.tmdb.org/t/p/w500/1vXTHTbSQJs9r2hp4Uk08XzKwPp.jpg",
+          "Thumbnail": "https://image.tmdb.org/t/p/w500/1vXTHTbSQJs9r2hp4Uk08XzKwPp.jpg",
+          "Rating": 7.0,
+          "Duration": "1:39",
+          "Year": 2025,
+          "Servers": [
+            {
+              "name": "VidSrc 1080p",
+              "url": "https://vidsrc.net/embed/movie/1239193"
+            },
+            {
+              "name": "VidJoy 1080p",
+              "url": "https://vidjoy.pro/embed/movie/1239193"
+            },
+            {
+              "name": "Embed.su 1080p",
+              "url": "https://embed.su/embed/movie/1239193"
+            },
+            {
+              "name": "VidSrc.me 1080p",
+              "url": "https://vidsrc.me/embed/movie/1239193"
+            },
+            {
+              "name": "AutoEmbed 1080p",
+              "url": "https://player.autoembed.cc/embed/movie/1239193"
+            },
+            {
+              "name": "VidSrc.to 1080p",
+              "url": "https://vidsrc.to/embed/movie/1239193"
+            },
+            {
+              "name": "VidSrc.xyz 1080p",
+              "url": "https://vidsrc.xyz/embed/movie/1239193"
+            },
+            {
+              "name": "UpStream 1080p",
+              "url": "https://upstream.to/embed-1239193.html"
+            },
+            {
+              "name": "GoDrivePlayer 1080p",
+              "url": "https://godriveplayer.com/embed/1239193"
+            },
+            {
+              "name": "2Embed.cc 1080p",
+              "url": "https://2embed.cc/embed/1239193"
+            },
+            {
+              "name": "VidLink.pro 1080p",
+              "url": "https://vidlink.pro/movie/1239193"
+            }
+          ]
+        },
+        {
+          "Title": "Flight Risk",
+          "SubCategory": "Action",
+          "Country": "",
+          "Description": "A U.S. Marshal escorts a government witness to trial after he\u0027s accused of getting involved with a mob boss, only to discover that the pilot who is transporting them is also a hitman sent to assassinate the informant. After they subdue him, they\u0027re forced to fly together after discovering that there are others attempting to eliminate them.",
+          "Poster": "https://image.tmdb.org/t/p/w500/q0bCG4NX32iIEsRFZqRtuvzNCyZ.jpg",
+          "Thumbnail": "https://image.tmdb.org/t/p/w500/q0bCG4NX32iIEsRFZqRtuvzNCyZ.jpg",
+          "Rating": 6.0,
+          "Duration": "1:31",
+          "Year": 2025,
+          "Servers": [
+            {
+              "name": "VidSrc 1080p",
+              "url": "https://vidsrc.net/embed/movie/1126166"
+            },
+            {
+              "name": "VidJoy 1080p",
+              "url": "https://vidjoy.pro/embed/movie/1126166"
+            },
+            {
+              "name": "Embed.su 1080p",
+              "url": "https://embed.su/embed/movie/1126166"
+            },
+            {
+              "name": "VidSrc.me 1080p",
+              "url": "https://vidsrc.me/embed/movie/1126166"
+            },
+            {
+              "name": "AutoEmbed 1080p",
+              "url": "https://player.autoembed.cc/embed/movie/1126166"
+            },
+            {
+              "name": "VidSrc.to 1080p",
+              "url": "https://vidsrc.to/embed/movie/1126166"
+            },
+            {
+              "name": "VidSrc.xyz 1080p",
+              "url": "https://vidsrc.xyz/embed/movie/1126166"
+            },
+            {
+              "name": "UpStream 1080p",
+              "url": "https://upstream.to/embed-1126166.html"
+            },
+            {
+              "name": "GoDrivePlayer 1080p",
+              "url": "https://godriveplayer.com/embed/1126166"
+            },
+            {
+              "name": "2Embed.cc 1080p",
+              "url": "https://2embed.cc/embed/1126166"
+            },
+            {
+              "name": "VidLink.pro 1080p",
+              "url": "https://vidlink.pro/movie/1126166"
+            }
+          ]
+        },
+        {
+          "Title": "Muromachi Burai",
+          "SubCategory": "Action",
+          "Country": "",
+          "Description": "Set in war-torn 15th century Kyoto, on the eve of the Onin War, the movie centers on a band of outlaws led by Hyoe (Oizumi) a scoundrel whose lethal sword skills place him at the tip of the spear in a deadly uprising against the corrupt Shogunate and its army, led by former friend-turned-archrival, Doken (Tsutsumi).",
+          "Poster": "https://image.tmdb.org/t/p/w500/5sb7yYbvB7IstubeGqmS8x3gV2d.jpg",
+          "Thumbnail": "https://image.tmdb.org/t/p/w500/5sb7yYbvB7IstubeGqmS8x3gV2d.jpg",
+          "Rating": 9.0,
+          "Duration": "2:15",
+          "Year": 2025,
+          "Servers": [
+            {
+              "name": "VidSrc 1080p",
+              "url": "https://vidsrc.net/embed/movie/1246369"
+            },
+            {
+              "name": "VidJoy 1080p",
+              "url": "https://vidjoy.pro/embed/movie/1246369"
+            },
+            {
+              "name": "Embed.su 1080p",
+              "url": "https://embed.su/embed/movie/1246369"
+            },
+            {
+              "name": "VidSrc.me 1080p",
+              "url": "https://vidsrc.me/embed/movie/1246369"
+            },
+            {
+              "name": "AutoEmbed 1080p",
+              "url": "https://player.autoembed.cc/embed/movie/1246369"
+            },
+            {
+              "name": "VidSrc.to 1080p",
+              "url": "https://vidsrc.to/embed/movie/1246369"
+            },
+            {
+              "name": "VidSrc.xyz 1080p",
+              "url": "https://vidsrc.xyz/embed/movie/1246369"
+            },
+            {
+              "name": "UpStream 1080p",
+              "url": "https://upstream.to/embed-1246369.html"
+            },
+            {
+              "name": "GoDrivePlayer 1080p",
+              "url": "https://godriveplayer.com/embed/1246369"
+            },
+            {
+              "name": "2Embed.cc 1080p",
+              "url": "https://2embed.cc/embed/1246369"
+            },
+            {
+              "name": "VidLink.pro 1080p",
+              "url": "https://vidlink.pro/movie/1246369"
+            }
+          ]
+        },
+        {
+          "Title": "Exterritorial",
+          "SubCategory": "Thriller",
+          "Country": "",
+          "Description": "When her son vanishes inside a US consulate, ex-special forces soldier Sara does everything in her power to find him — and uncovers a dark conspiracy.",
+          "Poster": "https://image.tmdb.org/t/p/w500/micQGmD3K7Ni0wzyaSgBKGxrFWn.jpg",
+          "Thumbnail": "https://image.tmdb.org/t/p/w500/micQGmD3K7Ni0wzyaSgBKGxrFWn.jpg",
+          "Rating": 7.0,
+          "Duration": "1:49",
+          "Year": 2025,
+          "Servers": [
+            {
+              "name": "VidSrc 1080p",
+              "url": "https://vidsrc.net/embed/movie/1233069"
+            },
+            {
+              "name": "VidJoy 1080p",
+              "url": "https://vidjoy.pro/embed/movie/1233069"
+            },
+            {
+              "name": "Embed.su 1080p",
+              "url": "https://embed.su/embed/movie/1233069"
+            },
+            {
+              "name": "VidSrc.me 1080p",
+              "url": "https://vidsrc.me/embed/movie/1233069"
+            },
+            {
+              "name": "AutoEmbed 1080p",
+              "url": "https://player.autoembed.cc/embed/movie/1233069"
+            },
+            {
+              "name": "VidSrc.to 1080p",
+              "url": "https://vidsrc.to/embed/movie/1233069"
+            },
+            {
+              "name": "VidSrc.xyz 1080p",
+              "url": "https://vidsrc.xyz/embed/movie/1233069"
+            },
+            {
+              "name": "UpStream 1080p",
+              "url": "https://upstream.to/embed-1233069.html"
+            },
+            {
+              "name": "GoDrivePlayer 1080p",
+              "url": "https://godriveplayer.com/embed/1233069"
+            },
+            {
+              "name": "2Embed.cc 1080p",
+              "url": "https://2embed.cc/embed/1233069"
+            },
+            {
+              "name": "VidLink.pro 1080p",
+              "url": "https://vidlink.pro/movie/1233069"
+            }
+          ]
+        },
+        {
+          "Title": "Diablo",
+          "SubCategory": "Action",
+          "Country": "",
+          "Description": "Ex-con Kris Chaney seizes the daughter of a Colombian gangster to fulfill a noble promise to the young girl\u0027s mother. When her father enlists both the criminal underworld and a psychotic killer to exact his revenge, Kris relies on everything he\u0027s ever learned to stay alive and keep his word.",
+          "Poster": "https://image.tmdb.org/t/p/w500/uFQduVyYIinJy3eLjozgfl6Xtcn.jpg",
+          "Thumbnail": "https://image.tmdb.org/t/p/w500/uFQduVyYIinJy3eLjozgfl6Xtcn.jpg",
+          "Rating": 7.0,
+          "Duration": "1:31",
+          "Year": 2025,
+          "Servers": [
+            {
+              "name": "VidSrc 1080p",
+              "url": "https://vidsrc.net/embed/movie/1127110"
+            },
+            {
+              "name": "VidJoy 1080p",
+              "url": "https://vidjoy.pro/embed/movie/1127110"
+            },
+            {
+              "name": "Embed.su 1080p",
+              "url": "https://embed.su/embed/movie/1127110"
+            },
+            {
+              "name": "VidSrc.me 1080p",
+              "url": "https://vidsrc.me/embed/movie/1127110"
+            },
+            {
+              "name": "AutoEmbed 1080p",
+              "url": "https://player.autoembed.cc/embed/movie/1127110"
+            },
+            {
+              "name": "VidSrc.to 1080p",
+              "url": "https://vidsrc.to/embed/movie/1127110"
+            },
+            {
+              "name": "VidSrc.xyz 1080p",
+              "url": "https://vidsrc.xyz/embed/movie/1127110"
+            },
+            {
+              "name": "UpStream 1080p",
+              "url": "https://upstream.to/embed-1127110.html"
+            },
+            {
+              "name": "GoDrivePlayer 1080p",
+              "url": "https://godriveplayer.com/embed/1127110"
+            },
+            {
+              "name": "2Embed.cc 1080p",
+              "url": "https://2embed.cc/embed/1127110"
+            },
+            {
+              "name": "VidLink.pro 1080p",
+              "url": "https://vidlink.pro/movie/1127110"
+            }
+          ]
+        },
+        {
+          "Title": "Primitive War",
+          "SubCategory": "Action",
+          "Country": "",
+          "Description": "During the Vietnam War, a recon unit ventures to an isolated jungle valley to uncover the fate of a missing platoon. They soon find themselves in a fight for their lives against an unexpected enemy — prehistoric dinosaurs.",
+          "Poster": "https://image.tmdb.org/t/p/w500/egDAs0vh2SzTR07eUzdcC1XYkTS.jpg",
+          "Thumbnail": "https://image.tmdb.org/t/p/w500/egDAs0vh2SzTR07eUzdcC1XYkTS.jpg",
+          "Rating": 7.0,
+          "Duration": "2:15",
+          "Year": 2025,
+          "Servers": [
+            {
+              "name": "VidSrc 1080p",
+              "url": "https://vidsrc.net/embed/movie/1257009"
+            },
+            {
+              "name": "VidJoy 1080p",
+              "url": "https://vidjoy.pro/embed/movie/1257009"
+            },
+            {
+              "name": "Embed.su 1080p",
+              "url": "https://embed.su/embed/movie/1257009"
+            },
+            {
+              "name": "VidSrc.me 1080p",
+              "url": "https://vidsrc.me/embed/movie/1257009"
+            },
+            {
+              "name": "AutoEmbed 1080p",
+              "url": "https://player.autoembed.cc/embed/movie/1257009"
+            },
+            {
+              "name": "VidSrc.to 1080p",
+              "url": "https://vidsrc.to/embed/movie/1257009"
+            },
+            {
+              "name": "VidSrc.xyz 1080p",
+              "url": "https://vidsrc.xyz/embed/movie/1257009"
+            },
+            {
+              "name": "UpStream 1080p",
+              "url": "https://upstream.to/embed-1257009.html"
+            },
+            {
+              "name": "GoDrivePlayer 1080p",
+              "url": "https://godriveplayer.com/embed/1257009"
+            },
+            {
+              "name": "2Embed.cc 1080p",
+              "url": "https://2embed.cc/embed/1257009"
+            },
+            {
+              "name": "VidLink.pro 1080p",
+              "url": "https://vidlink.pro/movie/1257009"
+            }
+          ]
+        },
+        {
+          "Title": "Ziam",
+          "SubCategory": "Horror",
+          "Country": "",
+          "Description": "In a fight for survival against a horrifying army of zombies, a former Muay Thai fighter must use skill, speed and grit to save his girlfriend.",
+          "Poster": "https://image.tmdb.org/t/p/w500/yHYj2t3NzsjkHVYa0bPri4sMBsg.jpg",
+          "Thumbnail": "https://image.tmdb.org/t/p/w500/yHYj2t3NzsjkHVYa0bPri4sMBsg.jpg",
+          "Rating": 7.0,
+          "Duration": "1:36",
+          "Year": 2025,
+          "Servers": [
+            {
+              "name": "VidSrc 1080p",
+              "url": "https://vidsrc.net/embed/movie/1429744"
+            },
+            {
+              "name": "VidJoy 1080p",
+              "url": "https://vidjoy.pro/embed/movie/1429744"
+            },
+            {
+              "name": "Embed.su 1080p",
+              "url": "https://embed.su/embed/movie/1429744"
+            },
+            {
+              "name": "VidSrc.me 1080p",
+              "url": "https://vidsrc.me/embed/movie/1429744"
+            },
+            {
+              "name": "AutoEmbed 1080p",
+              "url": "https://player.autoembed.cc/embed/movie/1429744"
+            },
+            {
+              "name": "VidSrc.to 1080p",
+              "url": "https://vidsrc.to/embed/movie/1429744"
+            },
+            {
+              "name": "VidSrc.xyz 1080p",
+              "url": "https://vidsrc.xyz/embed/movie/1429744"
+            },
+            {
+              "name": "UpStream 1080p",
+              "url": "https://upstream.to/embed-1429744.html"
+            },
+            {
+              "name": "GoDrivePlayer 1080p",
+              "url": "https://godriveplayer.com/embed/1429744"
+            },
+            {
+              "name": "2Embed.cc 1080p",
+              "url": "https://2embed.cc/embed/1429744"
+            },
+            {
+              "name": "VidLink.pro 1080p",
+              "url": "https://vidlink.pro/movie/1429744"
+            }
+          ]
+        },
+        {
+          "Title": "K.O.",
+          "SubCategory": "Action",
+          "Country": "",
+          "Description": "A former fighter must find the missing son of an opponent he accidentally killed years ago, taking on a brutally violent crime gang in Marseille.",
+          "Poster": "https://image.tmdb.org/t/p/w500/qcM2sUiAeP4zXwx4ADSvgc9S58k.jpg",
+          "Thumbnail": "https://image.tmdb.org/t/p/w500/qcM2sUiAeP4zXwx4ADSvgc9S58k.jpg",
+          "Rating": 7.0,
+          "Duration": "1:24",
+          "Year": 2025,
+          "Servers": [
+            {
+              "name": "VidSrc 1080p",
+              "url": "https://vidsrc.net/embed/movie/1450599"
+            },
+            {
+              "name": "VidJoy 1080p",
+              "url": "https://vidjoy.pro/embed/movie/1450599"
+            },
+            {
+              "name": "Embed.su 1080p",
+              "url": "https://embed.su/embed/movie/1450599"
+            },
+            {
+              "name": "VidSrc.me 1080p",
+              "url": "https://vidsrc.me/embed/movie/1450599"
+            },
+            {
+              "name": "AutoEmbed 1080p",
+              "url": "https://player.autoembed.cc/embed/movie/1450599"
+            },
+            {
+              "name": "VidSrc.to 1080p",
+              "url": "https://vidsrc.to/embed/movie/1450599"
+            },
+            {
+              "name": "VidSrc.xyz 1080p",
+              "url": "https://vidsrc.xyz/embed/movie/1450599"
+            },
+            {
+              "name": "UpStream 1080p",
+              "url": "https://upstream.to/embed-1450599.html"
+            },
+            {
+              "name": "GoDrivePlayer 1080p",
+              "url": "https://godriveplayer.com/embed/1450599"
+            },
+            {
+              "name": "2Embed.cc 1080p",
+              "url": "https://2embed.cc/embed/1450599"
+            },
+            {
+              "name": "VidLink.pro 1080p",
+              "url": "https://vidlink.pro/movie/1450599"
+            }
+          ]
+        },
+        {
+          "Title": "The Siege at Thorn High",
+          "SubCategory": "Action",
+          "Country": "",
+          "Description": "Edwin promised to his sister on her death bed to find her son she gave up long time ago. Edwin\u0027s quest brought him to become a substitute teacher in Duri High School, Jakarta, a school for juvenile delinquents. There he must face the most violent students to find his nephew. When he eventually finds the boy, a city-wide riot erupts and Edwin is trapped im the school with the cruel kids out for his blood.",
+          "Poster": "https://image.tmdb.org/t/p/w500/uis9PJkI6WHRczCumsfPFaaUAxm.jpg",
+          "Thumbnail": "https://image.tmdb.org/t/p/w500/uis9PJkI6WHRczCumsfPFaaUAxm.jpg",
+          "Rating": 8.0,
+          "Duration": "1:58",
+          "Year": 2025,
+          "Servers": [
+            {
+              "name": "VidSrc 1080p",
+              "url": "https://vidsrc.net/embed/movie/1280089"
+            },
+            {
+              "name": "VidJoy 1080p",
+              "url": "https://vidjoy.pro/embed/movie/1280089"
+            },
+            {
+              "name": "Embed.su 1080p",
+              "url": "https://embed.su/embed/movie/1280089"
+            },
+            {
+              "name": "VidSrc.me 1080p",
+              "url": "https://vidsrc.me/embed/movie/1280089"
+            },
+            {
+              "name": "AutoEmbed 1080p",
+              "url": "https://player.autoembed.cc/embed/movie/1280089"
+            },
+            {
+              "name": "VidSrc.to 1080p",
+              "url": "https://vidsrc.to/embed/movie/1280089"
+            },
+            {
+              "name": "VidSrc.xyz 1080p",
+              "url": "https://vidsrc.xyz/embed/movie/1280089"
+            },
+            {
+              "name": "UpStream 1080p",
+              "url": "https://upstream.to/embed-1280089.html"
+            },
+            {
+              "name": "GoDrivePlayer 1080p",
+              "url": "https://godriveplayer.com/embed/1280089"
+            },
+            {
+              "name": "2Embed.cc 1080p",
+              "url": "https://2embed.cc/embed/1280089"
+            },
+            {
+              "name": "VidLink.pro 1080p",
+              "url": "https://vidlink.pro/movie/1280089"
+            }
+          ]
+        },
+        {
+          "Title": "Havoc",
+          "SubCategory": "Action",
+          "Country": "",
+          "Description": "When a drug heist swerves lethally out of control, a jaded cop fights his way through a corrupt city\u0027s criminal underworld to save a politician\u0027s son.",
+          "Poster": "https://image.tmdb.org/t/p/w500/ubP2OsF3GlfqYPvXyLw9d78djGX.jpg",
+          "Thumbnail": "https://image.tmdb.org/t/p/w500/ubP2OsF3GlfqYPvXyLw9d78djGX.jpg",
+          "Rating": 6.0,
+          "Duration": "1:47",
+          "Year": 2025,
+          "Servers": [
+            {
+              "name": "VidSrc 1080p",
+              "url": "https://vidsrc.net/embed/movie/668489"
+            },
+            {
+              "name": "VidJoy 1080p",
+              "url": "https://vidjoy.pro/embed/movie/668489"
+            },
+            {
+              "name": "Embed.su 1080p",
+              "url": "https://embed.su/embed/movie/668489"
+            },
+            {
+              "name": "VidSrc.me 1080p",
+              "url": "https://vidsrc.me/embed/movie/668489"
+            },
+            {
+              "name": "AutoEmbed 1080p",
+              "url": "https://player.autoembed.cc/embed/movie/668489"
+            },
+            {
+              "name": "VidSrc.to 1080p",
+              "url": "https://vidsrc.to/embed/movie/668489"
+            },
+            {
+              "name": "VidSrc.xyz 1080p",
+              "url": "https://vidsrc.xyz/embed/movie/668489"
+            },
+            {
+              "name": "UpStream 1080p",
+              "url": "https://upstream.to/embed-668489.html"
+            },
+            {
+              "name": "GoDrivePlayer 1080p",
+              "url": "https://godriveplayer.com/embed/668489"
+            },
+            {
+              "name": "2Embed.cc 1080p",
+              "url": "https://2embed.cc/embed/668489"
+            },
+            {
+              "name": "VidLink.pro 1080p",
+              "url": "https://vidlink.pro/movie/668489"
+            }
+          ]
+        },
+        {
+          "Title": "Demon City",
+          "SubCategory": "Action",
+          "Country": "",
+          "Description": "Framed for his family\u0027s murder and left for dead, an ex-hitman will stop at nothing to exact revenge on the masked \"demons\" who have taken over his city.",
+          "Poster": "https://image.tmdb.org/t/p/w500/g5PqsFFrayyRL1Ldgib2lMYuJXg.jpg",
+          "Thumbnail": "https://image.tmdb.org/t/p/w500/g5PqsFFrayyRL1Ldgib2lMYuJXg.jpg",
+          "Rating": 7.0,
+          "Duration": "1:46",
+          "Year": 2025,
+          "Servers": [
+            {
+              "name": "VidSrc 1080p",
+              "url": "https://vidsrc.net/embed/movie/1405338"
+            },
+            {
+              "name": "VidJoy 1080p",
+              "url": "https://vidjoy.pro/embed/movie/1405338"
+            },
+            {
+              "name": "Embed.su 1080p",
+              "url": "https://embed.su/embed/movie/1405338"
+            },
+            {
+              "name": "VidSrc.me 1080p",
+              "url": "https://vidsrc.me/embed/movie/1405338"
+            },
+            {
+              "name": "AutoEmbed 1080p",
+              "url": "https://player.autoembed.cc/embed/movie/1405338"
+            },
+            {
+              "name": "VidSrc.to 1080p",
+              "url": "https://vidsrc.to/embed/movie/1405338"
+            },
+            {
+              "name": "VidSrc.xyz 1080p",
+              "url": "https://vidsrc.xyz/embed/movie/1405338"
+            },
+            {
+              "name": "UpStream 1080p",
+              "url": "https://upstream.to/embed-1405338.html"
+            },
+            {
+              "name": "GoDrivePlayer 1080p",
+              "url": "https://godriveplayer.com/embed/1405338"
+            },
+            {
+              "name": "2Embed.cc 1080p",
+              "url": "https://2embed.cc/embed/1405338"
+            },
+            {
+              "name": "VidLink.pro 1080p",
+              "url": "https://vidlink.pro/movie/1405338"
+            }
+          ]
+        },
+        {
+          "Title": "Counterattack",
+          "SubCategory": "Action",
+          "Country": "",
+          "Description": "When a hostage rescue mission creates a new enemy, Capt. Guerrero and his elite soldiers must face an ambush by a criminal group.",
+          "Poster": "https://image.tmdb.org/t/p/w500/38I76hGcFY6xB47pjm7pZwkfuAF.jpg",
+          "Thumbnail": "https://image.tmdb.org/t/p/w500/38I76hGcFY6xB47pjm7pZwkfuAF.jpg",
+          "Rating": 8.0,
+          "Duration": "1:25",
+          "Year": 2025,
+          "Servers": [
+            {
+              "name": "VidSrc 1080p",
+              "url": "https://vidsrc.net/embed/movie/1356039"
+            },
+            {
+              "name": "VidJoy 1080p",
+              "url": "https://vidjoy.pro/embed/movie/1356039"
+            },
+            {
+              "name": "Embed.su 1080p",
+              "url": "https://embed.su/embed/movie/1356039"
+            },
+            {
+              "name": "VidSrc.me 1080p",
+              "url": "https://vidsrc.me/embed/movie/1356039"
+            },
+            {
+              "name": "AutoEmbed 1080p",
+              "url": "https://player.autoembed.cc/embed/movie/1356039"
+            },
+            {
+              "name": "VidSrc.to 1080p",
+              "url": "https://vidsrc.to/embed/movie/1356039"
+            },
+            {
+              "name": "VidSrc.xyz 1080p",
+              "url": "https://vidsrc.xyz/embed/movie/1356039"
+            },
+            {
+              "name": "UpStream 1080p",
+              "url": "https://upstream.to/embed-1356039.html"
+            },
+            {
+              "name": "GoDrivePlayer 1080p",
+              "url": "https://godriveplayer.com/embed/1356039"
+            },
+            {
+              "name": "2Embed.cc 1080p",
+              "url": "https://2embed.cc/embed/1356039"
+            },
+            {
+              "name": "VidLink.pro 1080p",
+              "url": "https://vidlink.pro/movie/1356039"
+            }
+          ]
+        },
+        {
+          "Title": "Cleaner",
+          "SubCategory": "Action",
+          "Country": "",
+          "Description": "When a group of radical activists take over an energy company\u0027s annual gala, seizing 300 hostages, an ex-soldier turned window cleaner suspended 50 storeys up on the outside of the building must save those trapped inside, including her older brother.",
+          "Poster": "https://image.tmdb.org/t/p/w500/mwzDApMZAGeYCEVjhegKvCzDX0W.jpg",
+          "Thumbnail": "https://image.tmdb.org/t/p/w500/mwzDApMZAGeYCEVjhegKvCzDX0W.jpg",
+          "Rating": 7.0,
+          "Duration": "1:37",
+          "Year": 2025,
+          "Servers": [
+            {
+              "name": "VidSrc 1080p",
+              "url": "https://vidsrc.net/embed/movie/1125899"
+            },
+            {
+              "name": "VidJoy 1080p",
+              "url": "https://vidjoy.pro/embed/movie/1125899"
+            },
+            {
+              "name": "Embed.su 1080p",
+              "url": "https://embed.su/embed/movie/1125899"
+            },
+            {
+              "name": "VidSrc.me 1080p",
+              "url": "https://vidsrc.me/embed/movie/1125899"
+            },
+            {
+              "name": "AutoEmbed 1080p",
+              "url": "https://player.autoembed.cc/embed/movie/1125899"
+            },
+            {
+              "name": "VidSrc.to 1080p",
+              "url": "https://vidsrc.to/embed/movie/1125899"
+            },
+            {
+              "name": "VidSrc.xyz 1080p",
+              "url": "https://vidsrc.xyz/embed/movie/1125899"
+            },
+            {
+              "name": "UpStream 1080p",
+              "url": "https://upstream.to/embed-1125899.html"
+            },
+            {
+              "name": "GoDrivePlayer 1080p",
+              "url": "https://godriveplayer.com/embed/1125899"
+            },
+            {
+              "name": "2Embed.cc 1080p",
+              "url": "https://2embed.cc/embed/1125899"
+            },
+            {
+              "name": "VidLink.pro 1080p",
+              "url": "https://vidlink.pro/movie/1125899"
+            }
+          ]
+        },
+        {
+          "Title": "Tehran",
+          "SubCategory": "Action",
+          "Country": "",
+          "Description": "On 13th February 2012, a magnetic bomb exploded, destroying an Israeli embassy vehicle in Delhi. ACP Rajeev Kumar, leading the investigation, suspects more than what meets the eye. Amid political pressure and suspicions of an Iranian connection, he embarks on a perilous journey to uncover the truth, facing formidable adversaries.",
+          "Poster": "https://image.tmdb.org/t/p/w500/gbz9Y1NwnlE2GxXmgWTKZC1fste.jpg",
+          "Thumbnail": "https://image.tmdb.org/t/p/w500/gbz9Y1NwnlE2GxXmgWTKZC1fste.jpg",
+          "Rating": 7.0,
+          "Duration": "1:56",
+          "Year": 2025,
+          "Servers": [
+            {
+              "name": "VidSrc 1080p",
+              "url": "https://vidsrc.net/embed/movie/942058"
+            },
+            {
+              "name": "VidJoy 1080p",
+              "url": "https://vidjoy.pro/embed/movie/942058"
+            },
+            {
+              "name": "Embed.su 1080p",
+              "url": "https://embed.su/embed/movie/942058"
+            },
+            {
+              "name": "VidSrc.me 1080p",
+              "url": "https://vidsrc.me/embed/movie/942058"
+            },
+            {
+              "name": "AutoEmbed 1080p",
+              "url": "https://player.autoembed.cc/embed/movie/942058"
+            },
+            {
+              "name": "VidSrc.to 1080p",
+              "url": "https://vidsrc.to/embed/movie/942058"
+            },
+            {
+              "name": "VidSrc.xyz 1080p",
+              "url": "https://vidsrc.xyz/embed/movie/942058"
+            },
+            {
+              "name": "UpStream 1080p",
+              "url": "https://upstream.to/embed-942058.html"
+            },
+            {
+              "name": "GoDrivePlayer 1080p",
+              "url": "https://godriveplayer.com/embed/942058"
+            },
+            {
+              "name": "2Embed.cc 1080p",
+              "url": "https://2embed.cc/embed/942058"
+            },
+            {
+              "name": "VidLink.pro 1080p",
+              "url": "https://vidlink.pro/movie/942058"
+            }
+          ]
+        },
+        {
+          "Title": "Kingdom",
+          "SubCategory": "Action",
+          "Country": "",
+          "Description": "Soori, a modest police constable, is unintentionally dragged into a dangerous undercover spy operation in Sri Lanka for the Indian government . His journey is intimately linked to his estranged brother Siva, and the risks involved on their reunion.",
+          "Poster": "https://image.tmdb.org/t/p/w500/s8VpgxsOrmgtEY5rrysWonzSwaX.jpg",
+          "Thumbnail": "https://image.tmdb.org/t/p/w500/s8VpgxsOrmgtEY5rrysWonzSwaX.jpg",
+          "Rating": 6.0,
+          "Duration": "2:40",
+          "Year": 2025,
+          "Servers": [
+            {
+              "name": "VidSrc 1080p",
+              "url": "https://vidsrc.net/embed/movie/1124838"
+            },
+            {
+              "name": "VidJoy 1080p",
+              "url": "https://vidjoy.pro/embed/movie/1124838"
+            },
+            {
+              "name": "Embed.su 1080p",
+              "url": "https://embed.su/embed/movie/1124838"
+            },
+            {
+              "name": "VidSrc.me 1080p",
+              "url": "https://vidsrc.me/embed/movie/1124838"
+            },
+            {
+              "name": "AutoEmbed 1080p",
+              "url": "https://player.autoembed.cc/embed/movie/1124838"
+            },
+            {
+              "name": "VidSrc.to 1080p",
+              "url": "https://vidsrc.to/embed/movie/1124838"
+            },
+            {
+              "name": "VidSrc.xyz 1080p",
+              "url": "https://vidsrc.xyz/embed/movie/1124838"
+            },
+            {
+              "name": "UpStream 1080p",
+              "url": "https://upstream.to/embed-1124838.html"
+            },
+            {
+              "name": "GoDrivePlayer 1080p",
+              "url": "https://godriveplayer.com/embed/1124838"
+            },
+            {
+              "name": "2Embed.cc 1080p",
+              "url": "https://2embed.cc/embed/1124838"
+            },
+            {
+              "name": "VidLink.pro 1080p",
+              "url": "https://vidlink.pro/movie/1124838"
+            }
+          ]
+        },
+        {
+          "Title": "Coolie",
+          "SubCategory": "Action",
+          "Country": "",
+          "Description": "A mysterious man takes a stand against a corrupt syndicate exploiting and abusing the workers of a port town.",
+          "Poster": "https://image.tmdb.org/t/p/w500/kr36awqmziEI5mfUElsHB0pj9zP.jpg",
+          "Thumbnail": "https://image.tmdb.org/t/p/w500/kr36awqmziEI5mfUElsHB0pj9zP.jpg",
+          "Rating": 6.0,
+          "Duration": "2:50",
+          "Year": 2025,
+          "Servers": [
+            {
+              "name": "VidSrc 1080p",
+              "url": "https://vidsrc.net/embed/movie/1153399"
+            },
+            {
+              "name": "VidJoy 1080p",
+              "url": "https://vidjoy.pro/embed/movie/1153399"
+            },
+            {
+              "name": "Embed.su 1080p",
+              "url": "https://embed.su/embed/movie/1153399"
+            },
+            {
+              "name": "VidSrc.me 1080p",
+              "url": "https://vidsrc.me/embed/movie/1153399"
+            },
+            {
+              "name": "AutoEmbed 1080p",
+              "url": "https://player.autoembed.cc/embed/movie/1153399"
+            },
+            {
+              "name": "VidSrc.to 1080p",
+              "url": "https://vidsrc.to/embed/movie/1153399"
+            },
+            {
+              "name": "VidSrc.xyz 1080p",
+              "url": "https://vidsrc.xyz/embed/movie/1153399"
+            },
+            {
+              "name": "UpStream 1080p",
+              "url": "https://upstream.to/embed-1153399.html"
+            },
+            {
+              "name": "GoDrivePlayer 1080p",
+              "url": "https://godriveplayer.com/embed/1153399"
+            },
+            {
+              "name": "2Embed.cc 1080p",
+              "url": "https://2embed.cc/embed/1153399"
+            },
+            {
+              "name": "VidLink.pro 1080p",
+              "url": "https://vidlink.pro/movie/1153399"
+            }
+          ]
+        },
+        {
+          "Title": "Alarum",
+          "SubCategory": "Action",
+          "Country": "",
+          "Description": "Two married spies caught in the crosshairs of an international intelligence network will stop at nothing to obtain a critical asset. Joe and Lara are agents living off the grid whose quiet retreat at a winter resort is blown to shreds when members of the old guard suspect the two may have joined an elite team of rogue spies, known as Alarum.",
+          "Poster": "https://image.tmdb.org/t/p/w500/ckyYZf5cGTSOwF8LWIRqeThyh18.jpg",
+          "Thumbnail": "https://image.tmdb.org/t/p/w500/ckyYZf5cGTSOwF8LWIRqeThyh18.jpg",
+          "Rating": 6.0,
+          "Duration": "1:35",
+          "Year": 2025,
+          "Servers": [
+            {
+              "name": "VidSrc 1080p",
+              "url": "https://vidsrc.net/embed/movie/1249289"
+            },
+            {
+              "name": "VidJoy 1080p",
+              "url": "https://vidjoy.pro/embed/movie/1249289"
+            },
+            {
+              "name": "Embed.su 1080p",
+              "url": "https://embed.su/embed/movie/1249289"
+            },
+            {
+              "name": "VidSrc.me 1080p",
+              "url": "https://vidsrc.me/embed/movie/1249289"
+            },
+            {
+              "name": "AutoEmbed 1080p",
+              "url": "https://player.autoembed.cc/embed/movie/1249289"
+            },
+            {
+              "name": "VidSrc.to 1080p",
+              "url": "https://vidsrc.to/embed/movie/1249289"
+            },
+            {
+              "name": "VidSrc.xyz 1080p",
+              "url": "https://vidsrc.xyz/embed/movie/1249289"
+            },
+            {
+              "name": "UpStream 1080p",
+              "url": "https://upstream.to/embed-1249289.html"
+            },
+            {
+              "name": "GoDrivePlayer 1080p",
+              "url": "https://godriveplayer.com/embed/1249289"
+            },
+            {
+              "name": "2Embed.cc 1080p",
+              "url": "https://2embed.cc/embed/1249289"
+            },
+            {
+              "name": "VidLink.pro 1080p",
+              "url": "https://vidlink.pro/movie/1249289"
+            }
+          ]
+        },
+        {
+          "Title": "Day of Reckoning",
+          "SubCategory": "Western",
+          "Country": "",
+          "Description": "Put-upon lawman John Dorsey is on the verge of losing his wife and his job as sheriff, so he posses up with bullish U.S. Marshall Butch Hayden to hold outlaw Emily Rusk hostage. A battle of wills ensues as Emily turns the posse on themselves, but as her marauding husband and his gang approach, Emily and John realize they will need each other to survive.",
+          "Poster": "https://image.tmdb.org/t/p/w500/cVSjSQryFUERYSdOmdgJ2m0eBte.jpg",
+          "Thumbnail": "https://image.tmdb.org/t/p/w500/cVSjSQryFUERYSdOmdgJ2m0eBte.jpg",
+          "Rating": 7.0,
+          "Duration": "1:46",
+          "Year": 2025,
+          "Servers": [
+            {
+              "name": "VidSrc 1080p",
+              "url": "https://vidsrc.net/embed/movie/1414048"
+            },
+            {
+              "name": "VidJoy 1080p",
+              "url": "https://vidjoy.pro/embed/movie/1414048"
+            },
+            {
+              "name": "Embed.su 1080p",
+              "url": "https://embed.su/embed/movie/1414048"
+            },
+            {
+              "name": "VidSrc.me 1080p",
+              "url": "https://vidsrc.me/embed/movie/1414048"
+            },
+            {
+              "name": "AutoEmbed 1080p",
+              "url": "https://player.autoembed.cc/embed/movie/1414048"
+            },
+            {
+              "name": "VidSrc.to 1080p",
+              "url": "https://vidsrc.to/embed/movie/1414048"
+            },
+            {
+              "name": "VidSrc.xyz 1080p",
+              "url": "https://vidsrc.xyz/embed/movie/1414048"
+            },
+            {
+              "name": "UpStream 1080p",
+              "url": "https://upstream.to/embed-1414048.html"
+            },
+            {
+              "name": "GoDrivePlayer 1080p",
+              "url": "https://godriveplayer.com/embed/1414048"
+            },
+            {
+              "name": "2Embed.cc 1080p",
+              "url": "https://2embed.cc/embed/1414048"
+            },
+            {
+              "name": "VidLink.pro 1080p",
+              "url": "https://vidlink.pro/movie/1414048"
+            }
+          ]
+        },
+        {
+          "Title": "Maareesan",
+          "SubCategory": "Thriller",
+          "Country": "",
+          "Description": "A petty thief embarks on a road trip with an elderly man suffering from memory loss under deceptive pretenses. As they journey across Tamil Nadu, the promise of an easy con unravels into a quietly shifting connection, with both men hiding secrets of their own.",
+          "Poster": "https://image.tmdb.org/t/p/w500/c7JGfFgMnNuyF2Q4FSu7Kgip3mK.jpg",
+          "Thumbnail": "https://image.tmdb.org/t/p/w500/c7JGfFgMnNuyF2Q4FSu7Kgip3mK.jpg",
+          "Rating": 8.0,
+          "Duration": "2:32",
+          "Year": 2025,
+          "Servers": [
+            {
+              "name": "VidSrc 1080p",
+              "url": "https://vidsrc.net/embed/movie/1022074"
+            },
+            {
+              "name": "VidJoy 1080p",
+              "url": "https://vidjoy.pro/embed/movie/1022074"
+            },
+            {
+              "name": "Embed.su 1080p",
+              "url": "https://embed.su/embed/movie/1022074"
+            },
+            {
+              "name": "VidSrc.me 1080p",
+              "url": "https://vidsrc.me/embed/movie/1022074"
+            },
+            {
+              "name": "AutoEmbed 1080p",
+              "url": "https://player.autoembed.cc/embed/movie/1022074"
+            },
+            {
+              "name": "VidSrc.to 1080p",
+              "url": "https://vidsrc.to/embed/movie/1022074"
+            },
+            {
+              "name": "VidSrc.xyz 1080p",
+              "url": "https://vidsrc.xyz/embed/movie/1022074"
+            },
+            {
+              "name": "UpStream 1080p",
+              "url": "https://upstream.to/embed-1022074.html"
+            },
+            {
+              "name": "GoDrivePlayer 1080p",
+              "url": "https://godriveplayer.com/embed/1022074"
+            },
+            {
+              "name": "2Embed.cc 1080p",
+              "url": "https://2embed.cc/embed/1022074"
+            },
+            {
+              "name": "VidLink.pro 1080p",
+              "url": "https://vidlink.pro/movie/1022074"
+            }
+          ]
+        },
+        {
+          "Title": "Novocaine",
+          "SubCategory": "Action",
+          "Country": "",
+          "Description": "When the girl of his dreams is kidnapped, everyman Nate turns his inability to feel pain into an unexpected strength in his fight to get her back.",
+          "Poster": "https://image.tmdb.org/t/p/w500/xmMHGz9dVRaMY6rRAlEX4W0Wdhm.jpg",
+          "Thumbnail": "https://image.tmdb.org/t/p/w500/xmMHGz9dVRaMY6rRAlEX4W0Wdhm.jpg",
+          "Rating": 7.0,
+          "Duration": "1:50",
+          "Year": 2025,
+          "Servers": [
+            {
+              "name": "VidSrc 1080p",
+              "url": "https://vidsrc.net/embed/movie/1195506"
+            },
+            {
+              "name": "VidJoy 1080p",
+              "url": "https://vidjoy.pro/embed/movie/1195506"
+            },
+            {
+              "name": "Embed.su 1080p",
+              "url": "https://embed.su/embed/movie/1195506"
+            },
+            {
+              "name": "VidSrc.me 1080p",
+              "url": "https://vidsrc.me/embed/movie/1195506"
+            },
+            {
+              "name": "AutoEmbed 1080p",
+              "url": "https://player.autoembed.cc/embed/movie/1195506"
+            },
+            {
+              "name": "VidSrc.to 1080p",
+              "url": "https://vidsrc.to/embed/movie/1195506"
+            },
+            {
+              "name": "VidSrc.xyz 1080p",
+              "url": "https://vidsrc.xyz/embed/movie/1195506"
+            },
+            {
+              "name": "UpStream 1080p",
+              "url": "https://upstream.to/embed-1195506.html"
+            },
+            {
+              "name": "GoDrivePlayer 1080p",
+              "url": "https://godriveplayer.com/embed/1195506"
+            },
+            {
+              "name": "2Embed.cc 1080p",
+              "url": "https://2embed.cc/embed/1195506"
+            },
+            {
+              "name": "VidLink.pro 1080p",
+              "url": "https://vidlink.pro/movie/1195506"
+            }
+          ]
+        },
+        {
+          "Title": "JUJUTSU KAISEN: Hidden Inventory / Premature Death - The Movie",
+          "SubCategory": "Animation",
+          "Country": "",
+          "Description": "Pursued by a religious cult and other curse users, former friends Satoru Gojo and Suguru Geto are the only sorcerers capable of carrying the difficult task of protecting Riko Amanai, a student who has been designated to be sacrificed as the Star Plasma Vessel, until she can fulfill her duty.",
+          "Poster": "https://image.tmdb.org/t/p/w500/6OPkylhlyGw3kCAEEJvTD5eDTXT.jpg",
+          "Thumbnail": "https://image.tmdb.org/t/p/w500/6OPkylhlyGw3kCAEEJvTD5eDTXT.jpg",
+          "Rating": 8.0,
+          "Duration": "1:51",
+          "Year": 2025,
+          "Servers": [
+            {
+              "name": "VidSrc 1080p",
+              "url": "https://vidsrc.net/embed/movie/1338799"
+            },
+            {
+              "name": "VidJoy 1080p",
+              "url": "https://vidjoy.pro/embed/movie/1338799"
+            },
+            {
+              "name": "Embed.su 1080p",
+              "url": "https://embed.su/embed/movie/1338799"
+            },
+            {
+              "name": "VidSrc.me 1080p",
+              "url": "https://vidsrc.me/embed/movie/1338799"
+            },
+            {
+              "name": "AutoEmbed 1080p",
+              "url": "https://player.autoembed.cc/embed/movie/1338799"
+            },
+            {
+              "name": "VidSrc.to 1080p",
+              "url": "https://vidsrc.to/embed/movie/1338799"
+            },
+            {
+              "name": "VidSrc.xyz 1080p",
+              "url": "https://vidsrc.xyz/embed/movie/1338799"
+            },
+            {
+              "name": "UpStream 1080p",
+              "url": "https://upstream.to/embed-1338799.html"
+            },
+            {
+              "name": "GoDrivePlayer 1080p",
+              "url": "https://godriveplayer.com/embed/1338799"
+            },
+            {
+              "name": "2Embed.cc 1080p",
+              "url": "https://2embed.cc/embed/1338799"
+            },
+            {
+              "name": "VidLink.pro 1080p",
+              "url": "https://vidlink.pro/movie/1338799"
+            }
+          ]
+        },
+        {
+          "Title": "Akshardham: Operation Vajra Shakti",
+          "SubCategory": "Action",
+          "Country": "",
+          "Description": "NSG commando Hanut Singh, scarred by a past mission, defies orders during a temple siege in Gujarat. He leads a risky operation against terrorists demanding a militant\u0027s release, while confronting personal demons.",
+          "Poster": "https://image.tmdb.org/t/p/w500/ckghAN8FuYY2icUyJjVkKXiBrek.jpg",
+          "Thumbnail": "https://image.tmdb.org/t/p/w500/ckghAN8FuYY2icUyJjVkKXiBrek.jpg",
+          "Rating": 10.0,
+          "Duration": "1:46",
+          "Year": 2025,
+          "Servers": [
+            {
+              "name": "VidSrc 1080p",
+              "url": "https://vidsrc.net/embed/movie/845861"
+            },
+            {
+              "name": "VidJoy 1080p",
+              "url": "https://vidjoy.pro/embed/movie/845861"
+            },
+            {
+              "name": "Embed.su 1080p",
+              "url": "https://embed.su/embed/movie/845861"
+            },
+            {
+              "name": "VidSrc.me 1080p",
+              "url": "https://vidsrc.me/embed/movie/845861"
+            },
+            {
+              "name": "AutoEmbed 1080p",
+              "url": "https://player.autoembed.cc/embed/movie/845861"
+            },
+            {
+              "name": "VidSrc.to 1080p",
+              "url": "https://vidsrc.to/embed/movie/845861"
+            },
+            {
+              "name": "VidSrc.xyz 1080p",
+              "url": "https://vidsrc.xyz/embed/movie/845861"
+            },
+            {
+              "name": "UpStream 1080p",
+              "url": "https://upstream.to/embed-845861.html"
+            },
+            {
+              "name": "GoDrivePlayer 1080p",
+              "url": "https://godriveplayer.com/embed/845861"
+            },
+            {
+              "name": "2Embed.cc 1080p",
+              "url": "https://2embed.cc/embed/845861"
+            },
+            {
+              "name": "VidLink.pro 1080p",
+              "url": "https://vidlink.pro/movie/845861"
+            }
+          ]
+        },
+        {
+          "Title": "G20",
+          "SubCategory": "Action",
+          "Country": "",
+          "Description": "After the G20 Summit is overtaken by terrorists, President Danielle Sutton must bring all her statecraft and military experience to defend her family and her fellow leaders.",
+          "Poster": "https://image.tmdb.org/t/p/w500/wv6oWAleCJZUk5htrGg413t3GCy.jpg",
+          "Thumbnail": "https://image.tmdb.org/t/p/w500/wv6oWAleCJZUk5htrGg413t3GCy.jpg",
+          "Rating": 7.0,
+          "Duration": "1:48",
+          "Year": 2025,
+          "Servers": [
+            {
+              "name": "VidSrc 1080p",
+              "url": "https://vidsrc.net/embed/movie/1045938"
+            },
+            {
+              "name": "VidJoy 1080p",
+              "url": "https://vidjoy.pro/embed/movie/1045938"
+            },
+            {
+              "name": "Embed.su 1080p",
+              "url": "https://embed.su/embed/movie/1045938"
+            },
+            {
+              "name": "VidSrc.me 1080p",
+              "url": "https://vidsrc.me/embed/movie/1045938"
+            },
+            {
+              "name": "AutoEmbed 1080p",
+              "url": "https://player.autoembed.cc/embed/movie/1045938"
+            },
+            {
+              "name": "VidSrc.to 1080p",
+              "url": "https://vidsrc.to/embed/movie/1045938"
+            },
+            {
+              "name": "VidSrc.xyz 1080p",
+              "url": "https://vidsrc.xyz/embed/movie/1045938"
+            },
+            {
+              "name": "UpStream 1080p",
+              "url": "https://upstream.to/embed-1045938.html"
+            },
+            {
+              "name": "GoDrivePlayer 1080p",
+              "url": "https://godriveplayer.com/embed/1045938"
+            },
+            {
+              "name": "2Embed.cc 1080p",
+              "url": "https://2embed.cc/embed/1045938"
+            },
+            {
+              "name": "VidLink.pro 1080p",
+              "url": "https://vidlink.pro/movie/1045938"
+            }
+          ]
+        },
+        {
+          "Title": "GATAO: Big Brothers",
+          "SubCategory": "Crime",
+          "Country": "",
+          "Description": "No description available",
+          "Poster": "https://image.tmdb.org/t/p/w500/tc5z5OADIYlOZLn0xNNM32c0Cq5.jpg",
+          "Thumbnail": "https://image.tmdb.org/t/p/w500/tc5z5OADIYlOZLn0xNNM32c0Cq5.jpg",
+          "Rating": 10.0,
+          "Duration": "Unknown",
+          "Year": 2025,
+          "Servers": [
+            {
+              "name": "VidSrc 1080p",
+              "url": "https://vidsrc.net/embed/movie/1468057"
+            },
+            {
+              "name": "VidJoy 1080p",
+              "url": "https://vidjoy.pro/embed/movie/1468057"
+            },
+            {
+              "name": "Embed.su 1080p",
+              "url": "https://embed.su/embed/movie/1468057"
+            },
+            {
+              "name": "VidSrc.me 1080p",
+              "url": "https://vidsrc.me/embed/movie/1468057"
+            },
+            {
+              "name": "AutoEmbed 1080p",
+              "url": "https://player.autoembed.cc/embed/movie/1468057"
+            },
+            {
+              "name": "VidSrc.to 1080p",
+              "url": "https://vidsrc.to/embed/movie/1468057"
+            },
+            {
+              "name": "VidSrc.xyz 1080p",
+              "url": "https://vidsrc.xyz/embed/movie/1468057"
+            },
+            {
+              "name": "UpStream 1080p",
+              "url": "https://upstream.to/embed-1468057.html"
+            },
+            {
+              "name": "GoDrivePlayer 1080p",
+              "url": "https://godriveplayer.com/embed/1468057"
+            },
+            {
+              "name": "2Embed.cc 1080p",
+              "url": "https://2embed.cc/embed/1468057"
+            },
+            {
+              "name": "VidLink.pro 1080p",
+              "url": "https://vidlink.pro/movie/1468057"
+            }
+          ]
+        },
+        {
+          "Title": "Batman Ninja vs. Yakuza League",
+          "SubCategory": "Animation",
+          "Country": "",
+          "Description": "The Batman family has returned to the present to discover that Japan has disappeared, and a giant island - Hinomoto - is now in the sky over Gotham City.  At the top sit the Yakuza, a group of superpowered individuals who reign without honor or humanity and look suspiciously like the Justice League. Now, it’s up to Batman and his allies to save Gotham!",
+          "Poster": "https://image.tmdb.org/t/p/w500/sVVT6GYFErVv0Lcc9NvqCu0iOxO.jpg",
+          "Thumbnail": "https://image.tmdb.org/t/p/w500/sVVT6GYFErVv0Lcc9NvqCu0iOxO.jpg",
+          "Rating": 7.0,
+          "Duration": "1:30",
+          "Year": 2025,
+          "Servers": [
+            {
+              "name": "VidSrc 1080p",
+              "url": "https://vidsrc.net/embed/movie/1297763"
+            },
+            {
+              "name": "VidJoy 1080p",
+              "url": "https://vidjoy.pro/embed/movie/1297763"
+            },
+            {
+              "name": "Embed.su 1080p",
+              "url": "https://embed.su/embed/movie/1297763"
+            },
+            {
+              "name": "VidSrc.me 1080p",
+              "url": "https://vidsrc.me/embed/movie/1297763"
+            },
+            {
+              "name": "AutoEmbed 1080p",
+              "url": "https://player.autoembed.cc/embed/movie/1297763"
+            },
+            {
+              "name": "VidSrc.to 1080p",
+              "url": "https://vidsrc.to/embed/movie/1297763"
+            },
+            {
+              "name": "VidSrc.xyz 1080p",
+              "url": "https://vidsrc.xyz/embed/movie/1297763"
+            },
+            {
+              "name": "UpStream 1080p",
+              "url": "https://upstream.to/embed-1297763.html"
+            },
+            {
+              "name": "GoDrivePlayer 1080p",
+              "url": "https://godriveplayer.com/embed/1297763"
+            },
+            {
+              "name": "2Embed.cc 1080p",
+              "url": "https://2embed.cc/embed/1297763"
+            },
+            {
+              "name": "VidLink.pro 1080p",
+              "url": "https://vidlink.pro/movie/1297763"
+            }
+          ]
+        },
+        {
+          "Title": "Last Bullet",
+          "SubCategory": "Action",
+          "Country": "",
+          "Description": "Car genius Lino returns to conclude his vendetta against Areski and the corrupt commander who ruined their lives in this turbo-charged trilogy finale.",
+          "Poster": "https://image.tmdb.org/t/p/w500/qycPITRqXgPai7zj1gKffjCdSB5.jpg",
+          "Thumbnail": "https://image.tmdb.org/t/p/w500/qycPITRqXgPai7zj1gKffjCdSB5.jpg",
+          "Rating": 7.0,
+          "Duration": "1:51",
+          "Year": 2025,
+          "Servers": [
+            {
+              "name": "VidSrc 1080p",
+              "url": "https://vidsrc.net/embed/movie/1144430"
+            },
+            {
+              "name": "VidJoy 1080p",
+              "url": "https://vidjoy.pro/embed/movie/1144430"
+            },
+            {
+              "name": "Embed.su 1080p",
+              "url": "https://embed.su/embed/movie/1144430"
+            },
+            {
+              "name": "VidSrc.me 1080p",
+              "url": "https://vidsrc.me/embed/movie/1144430"
+            },
+            {
+              "name": "AutoEmbed 1080p",
+              "url": "https://player.autoembed.cc/embed/movie/1144430"
+            },
+            {
+              "name": "VidSrc.to 1080p",
+              "url": "https://vidsrc.to/embed/movie/1144430"
+            },
+            {
+              "name": "VidSrc.xyz 1080p",
+              "url": "https://vidsrc.xyz/embed/movie/1144430"
+            },
+            {
+              "name": "UpStream 1080p",
+              "url": "https://upstream.to/embed-1144430.html"
+            },
+            {
+              "name": "GoDrivePlayer 1080p",
+              "url": "https://godriveplayer.com/embed/1144430"
+            },
+            {
+              "name": "2Embed.cc 1080p",
+              "url": "https://2embed.cc/embed/1144430"
+            },
+            {
+              "name": "VidLink.pro 1080p",
+              "url": "https://vidlink.pro/movie/1144430"
+            }
+          ]
+        },
+        {
+          "Title": "Holy Night: Demon Hunters",
+          "SubCategory": "Action",
+          "Country": "",
+          "Description": "When a devil-worshipping criminal network plunges Seoul into chaos, the police turn to Holy Night—a trio of supernatural demon hunters—to restore order and defeat the rising evil.",
+          "Poster": "https://image.tmdb.org/t/p/w500/v3Mo77Qjp6pctpD4eJaNT6kFRSB.jpg",
+          "Thumbnail": "https://image.tmdb.org/t/p/w500/v3Mo77Qjp6pctpD4eJaNT6kFRSB.jpg",
+          "Rating": 6.0,
+          "Duration": "1:32",
+          "Year": 2025,
+          "Servers": [
+            {
+              "name": "VidSrc 1080p",
+              "url": "https://vidsrc.net/embed/movie/793387"
+            },
+            {
+              "name": "VidJoy 1080p",
+              "url": "https://vidjoy.pro/embed/movie/793387"
+            },
+            {
+              "name": "Embed.su 1080p",
+              "url": "https://embed.su/embed/movie/793387"
+            },
+            {
+              "name": "VidSrc.me 1080p",
+              "url": "https://vidsrc.me/embed/movie/793387"
+            },
+            {
+              "name": "AutoEmbed 1080p",
+              "url": "https://player.autoembed.cc/embed/movie/793387"
+            },
+            {
+              "name": "VidSrc.to 1080p",
+              "url": "https://vidsrc.to/embed/movie/793387"
+            },
+            {
+              "name": "VidSrc.xyz 1080p",
+              "url": "https://vidsrc.xyz/embed/movie/793387"
+            },
+            {
+              "name": "UpStream 1080p",
+              "url": "https://upstream.to/embed-793387.html"
+            },
+            {
+              "name": "GoDrivePlayer 1080p",
+              "url": "https://godriveplayer.com/embed/793387"
+            },
+            {
+              "name": "2Embed.cc 1080p",
+              "url": "https://2embed.cc/embed/793387"
+            },
+            {
+              "name": "VidLink.pro 1080p",
+              "url": "https://vidlink.pro/movie/793387"
+            }
+          ]
+        },
+        {
+          "Title": "Back in Action",
+          "SubCategory": "Action",
+          "Country": "",
+          "Description": "Fifteen years after vanishing from the CIA to start a family, elite spies Matt and Emily jump back into the world of espionage when their cover is blown.",
+          "Poster": "https://image.tmdb.org/t/p/w500/3L3l6LsiLGHkTG4RFB2aBA6BttB.jpg",
+          "Thumbnail": "https://image.tmdb.org/t/p/w500/3L3l6LsiLGHkTG4RFB2aBA6BttB.jpg",
+          "Rating": 6.0,
+          "Duration": "1:54",
+          "Year": 2025,
+          "Servers": [
+            {
+              "name": "VidSrc 1080p",
+              "url": "https://vidsrc.net/embed/movie/993710"
+            },
+            {
+              "name": "VidJoy 1080p",
+              "url": "https://vidjoy.pro/embed/movie/993710"
+            },
+            {
+              "name": "Embed.su 1080p",
+              "url": "https://embed.su/embed/movie/993710"
+            },
+            {
+              "name": "VidSrc.me 1080p",
+              "url": "https://vidsrc.me/embed/movie/993710"
+            },
+            {
+              "name": "AutoEmbed 1080p",
+              "url": "https://player.autoembed.cc/embed/movie/993710"
+            },
+            {
+              "name": "VidSrc.to 1080p",
+              "url": "https://vidsrc.to/embed/movie/993710"
+            },
+            {
+              "name": "VidSrc.xyz 1080p",
+              "url": "https://vidsrc.xyz/embed/movie/993710"
+            },
+            {
+              "name": "UpStream 1080p",
+              "url": "https://upstream.to/embed-993710.html"
+            },
+            {
+              "name": "GoDrivePlayer 1080p",
+              "url": "https://godriveplayer.com/embed/993710"
+            },
+            {
+              "name": "2Embed.cc 1080p",
+              "url": "https://2embed.cc/embed/993710"
+            },
+            {
+              "name": "VidLink.pro 1080p",
+              "url": "https://vidlink.pro/movie/993710"
+            }
+          ]
+        },
+        {
+          "Title": "Sikandar",
+          "SubCategory": "Action",
+          "Country": "",
+          "Description": "A tragic accident pushes the powerful Sikandar to protect the less fortunate by standing up to corruption and greed — using any means necessary.",
+          "Poster": "https://image.tmdb.org/t/p/w500/41s42CRXafa3OuRGvCtfYPEBmse.jpg",
+          "Thumbnail": "https://image.tmdb.org/t/p/w500/41s42CRXafa3OuRGvCtfYPEBmse.jpg",
+          "Rating": 5.0,
+          "Duration": "2:13",
+          "Year": 2025,
+          "Servers": [
+            {
+              "name": "VidSrc 1080p",
+              "url": "https://vidsrc.net/embed/movie/1257960"
+            },
+            {
+              "name": "VidJoy 1080p",
+              "url": "https://vidjoy.pro/embed/movie/1257960"
+            },
+            {
+              "name": "Embed.su 1080p",
+              "url": "https://embed.su/embed/movie/1257960"
+            },
+            {
+              "name": "VidSrc.me 1080p",
+              "url": "https://vidsrc.me/embed/movie/1257960"
+            },
+            {
+              "name": "AutoEmbed 1080p",
+              "url": "https://player.autoembed.cc/embed/movie/1257960"
+            },
+            {
+              "name": "VidSrc.to 1080p",
+              "url": "https://vidsrc.to/embed/movie/1257960"
+            },
+            {
+              "name": "VidSrc.xyz 1080p",
+              "url": "https://vidsrc.xyz/embed/movie/1257960"
+            },
+            {
+              "name": "UpStream 1080p",
+              "url": "https://upstream.to/embed-1257960.html"
+            },
+            {
+              "name": "GoDrivePlayer 1080p",
+              "url": "https://godriveplayer.com/embed/1257960"
+            },
+            {
+              "name": "2Embed.cc 1080p",
+              "url": "https://2embed.cc/embed/1257960"
+            },
+            {
+              "name": "VidLink.pro 1080p",
+              "url": "https://vidlink.pro/movie/1257960"
+            }
+          ]
+        },
+        {
+          "Title": "One Battle After Another",
+          "SubCategory": "Action",
+          "Country": "",
+          "Description": "When their evil nemesis resurfaces after 16 years, a band of ex-revolutionaries reunite to rescue the daughter of one of their own.",
+          "Poster": "https://image.tmdb.org/t/p/w500/rxfExCHj8yMeMnNbCuw04qhrbvc.jpg",
+          "Thumbnail": "https://image.tmdb.org/t/p/w500/rxfExCHj8yMeMnNbCuw04qhrbvc.jpg",
+          "Rating": 0.0,
+          "Duration": "2:42",
+          "Year": 2025,
+          "Servers": [
+            {
+              "name": "VidSrc 1080p",
+              "url": "https://vidsrc.net/embed/movie/1054867"
+            },
+            {
+              "name": "VidJoy 1080p",
+              "url": "https://vidjoy.pro/embed/movie/1054867"
+            },
+            {
+              "name": "Embed.su 1080p",
+              "url": "https://embed.su/embed/movie/1054867"
+            },
+            {
+              "name": "VidSrc.me 1080p",
+              "url": "https://vidsrc.me/embed/movie/1054867"
+            },
+            {
+              "name": "AutoEmbed 1080p",
+              "url": "https://player.autoembed.cc/embed/movie/1054867"
+            },
+            {
+              "name": "VidSrc.to 1080p",
+              "url": "https://vidsrc.to/embed/movie/1054867"
+            },
+            {
+              "name": "VidSrc.xyz 1080p",
+              "url": "https://vidsrc.xyz/embed/movie/1054867"
+            },
+            {
+              "name": "UpStream 1080p",
+              "url": "https://upstream.to/embed-1054867.html"
+            },
+            {
+              "name": "GoDrivePlayer 1080p",
+              "url": "https://godriveplayer.com/embed/1054867"
+            },
+            {
+              "name": "2Embed.cc 1080p",
+              "url": "https://2embed.cc/embed/1054867"
+            },
+            {
+              "name": "VidLink.pro 1080p",
+              "url": "https://vidlink.pro/movie/1054867"
+            }
+          ]
+        },
+        {
+          "Title": "The Bayou",
+          "SubCategory": "Thriller",
+          "Country": "",
+          "Description": "Vacation turns disaster when Houston grad Kyle and her friends survive a plane crash in the desolate Louisiana everglades, only to discover there\u0027s something way more dangerous lurking in the shallows.",
+          "Poster": "https://image.tmdb.org/t/p/w500/sf6j1SbgDf7VTjL1MRq5MAQSOyE.jpg",
+          "Thumbnail": "https://image.tmdb.org/t/p/w500/sf6j1SbgDf7VTjL1MRq5MAQSOyE.jpg",
+          "Rating": 6.0,
+          "Duration": "1:27",
+          "Year": 2025,
+          "Servers": [
+            {
+              "name": "VidSrc 1080p",
+              "url": "https://vidsrc.net/embed/movie/1407861"
+            },
+            {
+              "name": "VidJoy 1080p",
+              "url": "https://vidjoy.pro/embed/movie/1407861"
+            },
+            {
+              "name": "Embed.su 1080p",
+              "url": "https://embed.su/embed/movie/1407861"
+            },
+            {
+              "name": "VidSrc.me 1080p",
+              "url": "https://vidsrc.me/embed/movie/1407861"
+            },
+            {
+              "name": "AutoEmbed 1080p",
+              "url": "https://player.autoembed.cc/embed/movie/1407861"
+            },
+            {
+              "name": "VidSrc.to 1080p",
+              "url": "https://vidsrc.to/embed/movie/1407861"
+            },
+            {
+              "name": "VidSrc.xyz 1080p",
+              "url": "https://vidsrc.xyz/embed/movie/1407861"
+            },
+            {
+              "name": "UpStream 1080p",
+              "url": "https://upstream.to/embed-1407861.html"
+            },
+            {
+              "name": "GoDrivePlayer 1080p",
+              "url": "https://godriveplayer.com/embed/1407861"
+            },
+            {
+              "name": "2Embed.cc 1080p",
+              "url": "https://2embed.cc/embed/1407861"
+            },
+            {
+              "name": "VidLink.pro 1080p",
+              "url": "https://vidlink.pro/movie/1407861"
+            }
+          ]
+        },
+        {
+          "Title": "Predator: Badlands",
+          "SubCategory": "Action",
+          "Country": "",
+          "Description": "In the future on a remote planet, a young Predator, outcast from his clan, finds an unlikely ally in Thia and embarks on a treacherous journey in search of the ultimate adversary.",
+          "Poster": "https://image.tmdb.org/t/p/w500/pHpq9yNUIo6aDoCXEBzjSolywgz.jpg",
+          "Thumbnail": "https://image.tmdb.org/t/p/w500/pHpq9yNUIo6aDoCXEBzjSolywgz.jpg",
+          "Rating": 0.0,
+          "Duration": "Unknown",
+          "Year": 2025,
+          "Servers": [
+            {
+              "name": "VidSrc 1080p",
+              "url": "https://vidsrc.net/embed/movie/1242898"
+            },
+            {
+              "name": "VidJoy 1080p",
+              "url": "https://vidjoy.pro/embed/movie/1242898"
+            },
+            {
+              "name": "Embed.su 1080p",
+              "url": "https://embed.su/embed/movie/1242898"
+            },
+            {
+              "name": "VidSrc.me 1080p",
+              "url": "https://vidsrc.me/embed/movie/1242898"
+            },
+            {
+              "name": "AutoEmbed 1080p",
+              "url": "https://player.autoembed.cc/embed/movie/1242898"
+            },
+            {
+              "name": "VidSrc.to 1080p",
+              "url": "https://vidsrc.to/embed/movie/1242898"
+            },
+            {
+              "name": "VidSrc.xyz 1080p",
+              "url": "https://vidsrc.xyz/embed/movie/1242898"
+            },
+            {
+              "name": "UpStream 1080p",
+              "url": "https://upstream.to/embed-1242898.html"
+            },
+            {
+              "name": "GoDrivePlayer 1080p",
+              "url": "https://godriveplayer.com/embed/1242898"
+            },
+            {
+              "name": "2Embed.cc 1080p",
+              "url": "https://2embed.cc/embed/1242898"
+            },
+            {
+              "name": "VidLink.pro 1080p",
+              "url": "https://vidlink.pro/movie/1242898"
+            }
+          ]
+        },
+        {
+          "Title": "Fight or Flight",
+          "SubCategory": "Action",
+          "Country": "",
+          "Description": "A mercenary takes on the job of tracking down a target on a plane but must protect her when they\u0027re surrounded by people trying to kill both of them.",
+          "Poster": "https://image.tmdb.org/t/p/w500/dNyzZaMDS5hmOzWHFgNlgRRPDB0.jpg",
+          "Thumbnail": "https://image.tmdb.org/t/p/w500/dNyzZaMDS5hmOzWHFgNlgRRPDB0.jpg",
+          "Rating": 6.0,
+          "Duration": "1:41",
+          "Year": 2025,
+          "Servers": [
+            {
+              "name": "VidSrc 1080p",
+              "url": "https://vidsrc.net/embed/movie/1212855"
+            },
+            {
+              "name": "VidJoy 1080p",
+              "url": "https://vidjoy.pro/embed/movie/1212855"
+            },
+            {
+              "name": "Embed.su 1080p",
+              "url": "https://embed.su/embed/movie/1212855"
+            },
+            {
+              "name": "VidSrc.me 1080p",
+              "url": "https://vidsrc.me/embed/movie/1212855"
+            },
+            {
+              "name": "AutoEmbed 1080p",
+              "url": "https://player.autoembed.cc/embed/movie/1212855"
+            },
+            {
+              "name": "VidSrc.to 1080p",
+              "url": "https://vidsrc.to/embed/movie/1212855"
+            },
+            {
+              "name": "VidSrc.xyz 1080p",
+              "url": "https://vidsrc.xyz/embed/movie/1212855"
+            },
+            {
+              "name": "UpStream 1080p",
+              "url": "https://upstream.to/embed-1212855.html"
+            },
+            {
+              "name": "GoDrivePlayer 1080p",
+              "url": "https://godriveplayer.com/embed/1212855"
+            },
+            {
+              "name": "2Embed.cc 1080p",
+              "url": "https://2embed.cc/embed/1212855"
+            },
+            {
+              "name": "VidLink.pro 1080p",
+              "url": "https://vidlink.pro/movie/1212855"
+            }
+          ]
+        },
+        {
+          "Title": "The Toxic Avenger",
+          "SubCategory": "Action",
+          "Country": "",
+          "Description": "A horrible toxic accident transforms downtrodden janitor Winston Gooze into a new evolution of hero: The Toxic Avenger. Now wielding a glowing mop with super-human strength, he must race against time to save his son and stop a ruthless and power-hungry tyrant bent on harnessing toxic superpowers to strengthen his polluted empire.",
+          "Poster": "https://image.tmdb.org/t/p/w500/uEqiAF3jtlyXL4fd1NEgJUlGolZ.jpg",
+          "Thumbnail": "https://image.tmdb.org/t/p/w500/uEqiAF3jtlyXL4fd1NEgJUlGolZ.jpg",
+          "Rating": 7.0,
+          "Duration": "1:42",
+          "Year": 2025,
+          "Servers": [
+            {
+              "name": "VidSrc 1080p",
+              "url": "https://vidsrc.net/embed/movie/338969"
+            },
+            {
+              "name": "VidJoy 1080p",
+              "url": "https://vidjoy.pro/embed/movie/338969"
+            },
+            {
+              "name": "Embed.su 1080p",
+              "url": "https://embed.su/embed/movie/338969"
+            },
+            {
+              "name": "VidSrc.me 1080p",
+              "url": "https://vidsrc.me/embed/movie/338969"
+            },
+            {
+              "name": "AutoEmbed 1080p",
+              "url": "https://player.autoembed.cc/embed/movie/338969"
+            },
+            {
+              "name": "VidSrc.to 1080p",
+              "url": "https://vidsrc.to/embed/movie/338969"
+            },
+            {
+              "name": "VidSrc.xyz 1080p",
+              "url": "https://vidsrc.xyz/embed/movie/338969"
+            },
+            {
+              "name": "UpStream 1080p",
+              "url": "https://upstream.to/embed-338969.html"
+            },
+            {
+              "name": "GoDrivePlayer 1080p",
+              "url": "https://godriveplayer.com/embed/338969"
+            },
+            {
+              "name": "2Embed.cc 1080p",
+              "url": "https://2embed.cc/embed/338969"
+            },
+            {
+              "name": "VidLink.pro 1080p",
+              "url": "https://vidlink.pro/movie/338969"
+            }
+          ]
+        },
+        {
+          "Title": "Henry Danger: The Movie",
+          "SubCategory": "Action",
+          "Country": "",
+          "Description": "Henry Hart meets a superfan—eager to fight crime with Kid Danger—who comes into possession of a device that can open up alternate realities. Facing a wild ride, Henry will need his best friend Jasper and his new superfan sidekick to find his way out or be stuck in another dimension forever.",
+          "Poster": "https://image.tmdb.org/t/p/w500/dFWj2rOGsqSIX1PHFghbCBgpMnk.jpg",
+          "Thumbnail": "https://image.tmdb.org/t/p/w500/dFWj2rOGsqSIX1PHFghbCBgpMnk.jpg",
+          "Rating": 8.0,
+          "Duration": "1:26",
+          "Year": 2025,
+          "Servers": [
+            {
+              "name": "VidSrc 1080p",
+              "url": "https://vidsrc.net/embed/movie/926670"
+            },
+            {
+              "name": "VidJoy 1080p",
+              "url": "https://vidjoy.pro/embed/movie/926670"
+            },
+            {
+              "name": "Embed.su 1080p",
+              "url": "https://embed.su/embed/movie/926670"
+            },
+            {
+              "name": "VidSrc.me 1080p",
+              "url": "https://vidsrc.me/embed/movie/926670"
+            },
+            {
+              "name": "AutoEmbed 1080p",
+              "url": "https://player.autoembed.cc/embed/movie/926670"
+            },
+            {
+              "name": "VidSrc.to 1080p",
+              "url": "https://vidsrc.to/embed/movie/926670"
+            },
+            {
+              "name": "VidSrc.xyz 1080p",
+              "url": "https://vidsrc.xyz/embed/movie/926670"
+            },
+            {
+              "name": "UpStream 1080p",
+              "url": "https://upstream.to/embed-926670.html"
+            },
+            {
+              "name": "GoDrivePlayer 1080p",
+              "url": "https://godriveplayer.com/embed/926670"
+            },
+            {
+              "name": "2Embed.cc 1080p",
+              "url": "https://2embed.cc/embed/926670"
+            },
+            {
+              "name": "VidLink.pro 1080p",
+              "url": "https://vidlink.pro/movie/926670"
+            }
+          ]
+        },
+        {
+          "Title": "War 2",
+          "SubCategory": "Action",
+          "Country": "",
+          "Description": "Years ago Agent Kabir went rogue, became India’s greatest villain ever.  As he descends further into the deepest shadows... India sends its deadliest, most lethal agent after him, Agent Vikram  A Special Units Officer who is more than Kabir’s equal and a relentless Terminator driven by his own demons, determined to put a bullet into Kabir’s skull.",
+          "Poster": "https://image.tmdb.org/t/p/w500/tHUEGjexjpTDO3ggla9JQ6CojxU.jpg",
+          "Thumbnail": "https://image.tmdb.org/t/p/w500/tHUEGjexjpTDO3ggla9JQ6CojxU.jpg",
+          "Rating": 8.0,
+          "Duration": "2:53",
+          "Year": 2025,
+          "Servers": [
+            {
+              "name": "VidSrc 1080p",
+              "url": "https://vidsrc.net/embed/movie/1109086"
+            },
+            {
+              "name": "VidJoy 1080p",
+              "url": "https://vidjoy.pro/embed/movie/1109086"
+            },
+            {
+              "name": "Embed.su 1080p",
+              "url": "https://embed.su/embed/movie/1109086"
+            },
+            {
+              "name": "VidSrc.me 1080p",
+              "url": "https://vidsrc.me/embed/movie/1109086"
+            },
+            {
+              "name": "AutoEmbed 1080p",
+              "url": "https://player.autoembed.cc/embed/movie/1109086"
+            },
+            {
+              "name": "VidSrc.to 1080p",
+              "url": "https://vidsrc.to/embed/movie/1109086"
+            },
+            {
+              "name": "VidSrc.xyz 1080p",
+              "url": "https://vidsrc.xyz/embed/movie/1109086"
+            },
+            {
+              "name": "UpStream 1080p",
+              "url": "https://upstream.to/embed-1109086.html"
+            },
+            {
+              "name": "GoDrivePlayer 1080p",
+              "url": "https://godriveplayer.com/embed/1109086"
+            },
+            {
+              "name": "2Embed.cc 1080p",
+              "url": "https://2embed.cc/embed/1109086"
+            },
+            {
+              "name": "VidLink.pro 1080p",
+              "url": "https://vidlink.pro/movie/1109086"
+            }
+          ]
+        },
+        {
+          "Title": "Fear Below",
+          "SubCategory": "Horror",
+          "Country": "",
+          "Description": "A rag-tag team of divers attempting to salvage a sunken car from a river are thwarted by a highly aggressive bull shark.",
+          "Poster": "https://image.tmdb.org/t/p/w500/obK2G8huZWeAQEgOz1I47AkzHYh.jpg",
+          "Thumbnail": "https://image.tmdb.org/t/p/w500/obK2G8huZWeAQEgOz1I47AkzHYh.jpg",
+          "Rating": 7.0,
+          "Duration": "1:25",
+          "Year": 2025,
+          "Servers": [
+            {
+              "name": "VidSrc 1080p",
+              "url": "https://vidsrc.net/embed/movie/1232933"
+            },
+            {
+              "name": "VidJoy 1080p",
+              "url": "https://vidjoy.pro/embed/movie/1232933"
+            },
+            {
+              "name": "Embed.su 1080p",
+              "url": "https://embed.su/embed/movie/1232933"
+            },
+            {
+              "name": "VidSrc.me 1080p",
+              "url": "https://vidsrc.me/embed/movie/1232933"
+            },
+            {
+              "name": "AutoEmbed 1080p",
+              "url": "https://player.autoembed.cc/embed/movie/1232933"
+            },
+            {
+              "name": "VidSrc.to 1080p",
+              "url": "https://vidsrc.to/embed/movie/1232933"
+            },
+            {
+              "name": "VidSrc.xyz 1080p",
+              "url": "https://vidsrc.xyz/embed/movie/1232933"
+            },
+            {
+              "name": "UpStream 1080p",
+              "url": "https://upstream.to/embed-1232933.html"
+            },
+            {
+              "name": "GoDrivePlayer 1080p",
+              "url": "https://godriveplayer.com/embed/1232933"
+            },
+            {
+              "name": "2Embed.cc 1080p",
+              "url": "https://2embed.cc/embed/1232933"
+            },
+            {
+              "name": "VidLink.pro 1080p",
+              "url": "https://vidlink.pro/movie/1232933"
+            }
+          ]
+        },
+        {
+          "Title": "Tin Soldier",
+          "SubCategory": "Action",
+          "Country": "",
+          "Description": "An ex-special forces operative seeks revenge against a cult leader who has corrupted his former comrades, the Shinjas. This leader, known as The Bokushi, promises veterans a purpose and protection, but is revealed to be a destructive influence. The ex-soldier, Nash Cavanaugh, joins forces with military operative Emmanuel Ashburn to infiltrate the Bokushi\u0027s fortress and expose his reign of terror",
+          "Poster": "https://image.tmdb.org/t/p/w500/lFFDrFLXywFhy6khHes1LCFVMsL.jpg",
+          "Thumbnail": "https://image.tmdb.org/t/p/w500/lFFDrFLXywFhy6khHes1LCFVMsL.jpg",
+          "Rating": 5.0,
+          "Duration": "1:27",
+          "Year": 2025,
+          "Servers": [
+            {
+              "name": "VidSrc 1080p",
+              "url": "https://vidsrc.net/embed/movie/977294"
+            },
+            {
+              "name": "VidJoy 1080p",
+              "url": "https://vidjoy.pro/embed/movie/977294"
+            },
+            {
+              "name": "Embed.su 1080p",
+              "url": "https://embed.su/embed/movie/977294"
+            },
+            {
+              "name": "VidSrc.me 1080p",
+              "url": "https://vidsrc.me/embed/movie/977294"
+            },
+            {
+              "name": "AutoEmbed 1080p",
+              "url": "https://player.autoembed.cc/embed/movie/977294"
+            },
+            {
+              "name": "VidSrc.to 1080p",
+              "url": "https://vidsrc.to/embed/movie/977294"
+            },
+            {
+              "name": "VidSrc.xyz 1080p",
+              "url": "https://vidsrc.xyz/embed/movie/977294"
+            },
+            {
+              "name": "UpStream 1080p",
+              "url": "https://upstream.to/embed-977294.html"
+            },
+            {
+              "name": "GoDrivePlayer 1080p",
+              "url": "https://godriveplayer.com/embed/977294"
+            },
+            {
+              "name": "2Embed.cc 1080p",
+              "url": "https://2embed.cc/embed/977294"
+            },
+            {
+              "name": "VidLink.pro 1080p",
+              "url": "https://vidlink.pro/movie/977294"
+            }
+          ]
+        },
+        {
+          "Title": "Freaky Tales",
+          "SubCategory": "Action",
+          "Country": "",
+          "Description": "In 1987 Oakland, a mysterious force guides The Town\u0027s underdogs in four interconnected tales: teen punks defend their turf against Nazi skinheads, a rap duo battles for hip-hop immortality, a weary henchman gets a shot at redemption, and an NBA All-Star settles the score.",
+          "Poster": "https://image.tmdb.org/t/p/w500/lo5mfglsGeMYmAkSRXs9DATNJxk.jpg",
+          "Thumbnail": "https://image.tmdb.org/t/p/w500/lo5mfglsGeMYmAkSRXs9DATNJxk.jpg",
+          "Rating": 7.0,
+          "Duration": "1:47",
+          "Year": 2025,
+          "Servers": [
+            {
+              "name": "VidSrc 1080p",
+              "url": "https://vidsrc.net/embed/movie/979660"
+            },
+            {
+              "name": "VidJoy 1080p",
+              "url": "https://vidjoy.pro/embed/movie/979660"
+            },
+            {
+              "name": "Embed.su 1080p",
+              "url": "https://embed.su/embed/movie/979660"
+            },
+            {
+              "name": "VidSrc.me 1080p",
+              "url": "https://vidsrc.me/embed/movie/979660"
+            },
+            {
+              "name": "AutoEmbed 1080p",
+              "url": "https://player.autoembed.cc/embed/movie/979660"
+            },
+            {
+              "name": "VidSrc.to 1080p",
+              "url": "https://vidsrc.to/embed/movie/979660"
+            },
+            {
+              "name": "VidSrc.xyz 1080p",
+              "url": "https://vidsrc.xyz/embed/movie/979660"
+            },
+            {
+              "name": "UpStream 1080p",
+              "url": "https://upstream.to/embed-979660.html"
+            },
+            {
+              "name": "GoDrivePlayer 1080p",
+              "url": "https://godriveplayer.com/embed/979660"
+            },
+            {
+              "name": "2Embed.cc 1080p",
+              "url": "https://2embed.cc/embed/979660"
+            },
+            {
+              "name": "VidLink.pro 1080p",
+              "url": "https://vidlink.pro/movie/979660"
+            }
+          ]
+        },
+        {
+          "Title": "Sisu: Road to Revenge",
+          "SubCategory": "Action",
+          "Country": "",
+          "Description": "Returning to the house where his family was brutally murdered during the war, \u0027the man who refuses to die\u0027 dismantles it, loads it on a truck, and is determined to rebuild it somewhere safe in their honor. When the Red Army commander who killed his family comes back hellbent on finishing the job, a relentless, eye-popping cross-country chase ensues – a fight to the death.",
+          "Poster": "https://image.tmdb.org/t/p/w500/ljpPvuFjuxpWfhm59thTzkPxEqW.jpg",
+          "Thumbnail": "https://image.tmdb.org/t/p/w500/ljpPvuFjuxpWfhm59thTzkPxEqW.jpg",
+          "Rating": 0.0,
+          "Duration": "1:28",
+          "Year": 2025,
+          "Servers": [
+            {
+              "name": "VidSrc 1080p",
+              "url": "https://vidsrc.net/embed/movie/1223601"
+            },
+            {
+              "name": "VidJoy 1080p",
+              "url": "https://vidjoy.pro/embed/movie/1223601"
+            },
+            {
+              "name": "Embed.su 1080p",
+              "url": "https://embed.su/embed/movie/1223601"
+            },
+            {
+              "name": "VidSrc.me 1080p",
+              "url": "https://vidsrc.me/embed/movie/1223601"
+            },
+            {
+              "name": "AutoEmbed 1080p",
+              "url": "https://player.autoembed.cc/embed/movie/1223601"
+            },
+            {
+              "name": "VidSrc.to 1080p",
+              "url": "https://vidsrc.to/embed/movie/1223601"
+            },
+            {
+              "name": "VidSrc.xyz 1080p",
+              "url": "https://vidsrc.xyz/embed/movie/1223601"
+            },
+            {
+              "name": "UpStream 1080p",
+              "url": "https://upstream.to/embed-1223601.html"
+            },
+            {
+              "name": "GoDrivePlayer 1080p",
+              "url": "https://godriveplayer.com/embed/1223601"
+            },
+            {
+              "name": "2Embed.cc 1080p",
+              "url": "https://2embed.cc/embed/1223601"
+            },
+            {
+              "name": "VidLink.pro 1080p",
+              "url": "https://vidlink.pro/movie/1223601"
+            }
+          ]
+        },
+        {
+          "Title": "Den of Thieves 2: Pantera",
+          "SubCategory": "Action",
+          "Country": "",
+          "Description": "Big Nick is back on the hunt in Europe and closing in on Donnie, who is embroiled in the treacherous and unpredictable world of diamond thieves and the infamous Panther mafia, as they plot a massive heist of the world\u0027s largest diamond exchange.",
+          "Poster": "https://image.tmdb.org/t/p/w500/rxcyxxarD17xMliStDEhM6y2AYQ.jpg",
+          "Thumbnail": "https://image.tmdb.org/t/p/w500/rxcyxxarD17xMliStDEhM6y2AYQ.jpg",
+          "Rating": 7.0,
+          "Duration": "2:24",
+          "Year": 2025,
+          "Servers": [
+            {
+              "name": "VidSrc 1080p",
+              "url": "https://vidsrc.net/embed/movie/604685"
+            },
+            {
+              "name": "VidJoy 1080p",
+              "url": "https://vidjoy.pro/embed/movie/604685"
+            },
+            {
+              "name": "Embed.su 1080p",
+              "url": "https://embed.su/embed/movie/604685"
+            },
+            {
+              "name": "VidSrc.me 1080p",
+              "url": "https://vidsrc.me/embed/movie/604685"
+            },
+            {
+              "name": "AutoEmbed 1080p",
+              "url": "https://player.autoembed.cc/embed/movie/604685"
+            },
+            {
+              "name": "VidSrc.to 1080p",
+              "url": "https://vidsrc.to/embed/movie/604685"
+            },
+            {
+              "name": "VidSrc.xyz 1080p",
+              "url": "https://vidsrc.xyz/embed/movie/604685"
+            },
+            {
+              "name": "UpStream 1080p",
+              "url": "https://upstream.to/embed-604685.html"
+            },
+            {
+              "name": "GoDrivePlayer 1080p",
+              "url": "https://godriveplayer.com/embed/604685"
+            },
+            {
+              "name": "2Embed.cc 1080p",
+              "url": "https://2embed.cc/embed/604685"
+            },
+            {
+              "name": "VidLink.pro 1080p",
+              "url": "https://vidlink.pro/movie/604685"
+            }
+          ]
+        },
+        {
+          "Title": "The Electric State",
+          "SubCategory": "Science Fiction",
+          "Country": "",
+          "Description": "An orphaned teen hits the road with a mysterious robot to find her long-lost brother, teaming up with a smuggler and his wisecracking sidekick.",
+          "Poster": "https://image.tmdb.org/t/p/w500/sI2NiMU8o65hmIMY0JI9CjJ0p7f.jpg",
+          "Thumbnail": "https://image.tmdb.org/t/p/w500/sI2NiMU8o65hmIMY0JI9CjJ0p7f.jpg",
+          "Rating": 7.0,
+          "Duration": "2:05",
+          "Year": 2025,
+          "Servers": [
+            {
+              "name": "VidSrc 1080p",
+              "url": "https://vidsrc.net/embed/movie/777443"
+            },
+            {
+              "name": "VidJoy 1080p",
+              "url": "https://vidjoy.pro/embed/movie/777443"
+            },
+            {
+              "name": "Embed.su 1080p",
+              "url": "https://embed.su/embed/movie/777443"
+            },
+            {
+              "name": "VidSrc.me 1080p",
+              "url": "https://vidsrc.me/embed/movie/777443"
+            },
+            {
+              "name": "AutoEmbed 1080p",
+              "url": "https://player.autoembed.cc/embed/movie/777443"
+            },
+            {
+              "name": "VidSrc.to 1080p",
+              "url": "https://vidsrc.to/embed/movie/777443"
+            },
+            {
+              "name": "VidSrc.xyz 1080p",
+              "url": "https://vidsrc.xyz/embed/movie/777443"
+            },
+            {
+              "name": "UpStream 1080p",
+              "url": "https://upstream.to/embed-777443.html"
+            },
+            {
+              "name": "GoDrivePlayer 1080p",
+              "url": "https://godriveplayer.com/embed/777443"
+            },
+            {
+              "name": "2Embed.cc 1080p",
+              "url": "https://2embed.cc/embed/777443"
+            },
+            {
+              "name": "VidLink.pro 1080p",
+              "url": "https://vidlink.pro/movie/777443"
+            }
+          ]
+        },
+        {
+          "Title": "Southside Vengeance",
+          "SubCategory": "Drama",
+          "Country": "",
+          "Description": "Consumed by grief after Boss Man\u0027s betrayal destroys his trust, the once-loyal Baby sets out to seek revenge, leaving a bloody trail.",
+          "Poster": "https://image.tmdb.org/t/p/w500/qjsDQKwqzrOFHWWuvNnLYEvEOfm.jpg",
+          "Thumbnail": "https://image.tmdb.org/t/p/w500/qjsDQKwqzrOFHWWuvNnLYEvEOfm.jpg",
+          "Rating": 0.0,
+          "Duration": "1:54",
+          "Year": 2025,
+          "Servers": [
+            {
+              "name": "VidSrc 1080p",
+              "url": "https://vidsrc.net/embed/movie/1424373"
+            },
+            {
+              "name": "VidJoy 1080p",
+              "url": "https://vidjoy.pro/embed/movie/1424373"
+            },
+            {
+              "name": "Embed.su 1080p",
+              "url": "https://embed.su/embed/movie/1424373"
+            },
+            {
+              "name": "VidSrc.me 1080p",
+              "url": "https://vidsrc.me/embed/movie/1424373"
+            },
+            {
+              "name": "AutoEmbed 1080p",
+              "url": "https://player.autoembed.cc/embed/movie/1424373"
+            },
+            {
+              "name": "VidSrc.to 1080p",
+              "url": "https://vidsrc.to/embed/movie/1424373"
+            },
+            {
+              "name": "VidSrc.xyz 1080p",
+              "url": "https://vidsrc.xyz/embed/movie/1424373"
+            },
+            {
+              "name": "UpStream 1080p",
+              "url": "https://upstream.to/embed-1424373.html"
+            },
+            {
+              "name": "GoDrivePlayer 1080p",
+              "url": "https://godriveplayer.com/embed/1424373"
+            },
+            {
+              "name": "2Embed.cc 1080p",
+              "url": "https://2embed.cc/embed/1424373"
+            },
+            {
+              "name": "VidLink.pro 1080p",
+              "url": "https://vidlink.pro/movie/1424373"
+            }
+          ]
+        },
+        {
+          "Title": "The Legend of Hei 2",
+          "SubCategory": "Animation",
+          "Country": "",
+          "Description": "When an attack shatters the fragile peace between the spirit world and humanity, Hei teams up with Luye, the last disciple of his Shifu Wuxian, to expose a conspiracy that threatens both realms - and the bond they\u0027ve sworn to protect.",
+          "Poster": "https://image.tmdb.org/t/p/w500/8mYcPdG5bD1bDDf9IhRvBIfHs8c.jpg",
+          "Thumbnail": "https://image.tmdb.org/t/p/w500/8mYcPdG5bD1bDDf9IhRvBIfHs8c.jpg",
+          "Rating": 8.0,
+          "Duration": "1:59",
+          "Year": 2025,
+          "Servers": [
+            {
+              "name": "VidSrc 1080p",
+              "url": "https://vidsrc.net/embed/movie/1144107"
+            },
+            {
+              "name": "VidJoy 1080p",
+              "url": "https://vidjoy.pro/embed/movie/1144107"
+            },
+            {
+              "name": "Embed.su 1080p",
+              "url": "https://embed.su/embed/movie/1144107"
+            },
+            {
+              "name": "VidSrc.me 1080p",
+              "url": "https://vidsrc.me/embed/movie/1144107"
+            },
+            {
+              "name": "AutoEmbed 1080p",
+              "url": "https://player.autoembed.cc/embed/movie/1144107"
+            },
+            {
+              "name": "VidSrc.to 1080p",
+              "url": "https://vidsrc.to/embed/movie/1144107"
+            },
+            {
+              "name": "VidSrc.xyz 1080p",
+              "url": "https://vidsrc.xyz/embed/movie/1144107"
+            },
+            {
+              "name": "UpStream 1080p",
+              "url": "https://upstream.to/embed-1144107.html"
+            },
+            {
+              "name": "GoDrivePlayer 1080p",
+              "url": "https://godriveplayer.com/embed/1144107"
+            },
+            {
+              "name": "2Embed.cc 1080p",
+              "url": "https://2embed.cc/embed/1144107"
+            },
+            {
+              "name": "VidLink.pro 1080p",
+              "url": "https://vidlink.pro/movie/1144107"
+            }
+          ]
+        },
+        {
+          "Title": "Love Hurts",
+          "SubCategory": "Action",
+          "Country": "",
+          "Description": "A realtor is pulled back into the life he left behind after his former partner-in-crime resurfaces with an ominous message. With his crime-lord brother also on his trail, he must confront his past and the history he never fully buried.",
+          "Poster": "https://image.tmdb.org/t/p/w500/skPPVeHoTTVVSJlb0Ib5vrqiuA4.jpg",
+          "Thumbnail": "https://image.tmdb.org/t/p/w500/skPPVeHoTTVVSJlb0Ib5vrqiuA4.jpg",
+          "Rating": 6.0,
+          "Duration": "1:23",
+          "Year": 2025,
+          "Servers": [
+            {
+              "name": "VidSrc 1080p",
+              "url": "https://vidsrc.net/embed/movie/1226406"
+            },
+            {
+              "name": "VidJoy 1080p",
+              "url": "https://vidjoy.pro/embed/movie/1226406"
+            },
+            {
+              "name": "Embed.su 1080p",
+              "url": "https://embed.su/embed/movie/1226406"
+            },
+            {
+              "name": "VidSrc.me 1080p",
+              "url": "https://vidsrc.me/embed/movie/1226406"
+            },
+            {
+              "name": "AutoEmbed 1080p",
+              "url": "https://player.autoembed.cc/embed/movie/1226406"
+            },
+            {
+              "name": "VidSrc.to 1080p",
+              "url": "https://vidsrc.to/embed/movie/1226406"
+            },
+            {
+              "name": "VidSrc.xyz 1080p",
+              "url": "https://vidsrc.xyz/embed/movie/1226406"
+            },
+            {
+              "name": "UpStream 1080p",
+              "url": "https://upstream.to/embed-1226406.html"
+            },
+            {
+              "name": "GoDrivePlayer 1080p",
+              "url": "https://godriveplayer.com/embed/1226406"
+            },
+            {
+              "name": "2Embed.cc 1080p",
+              "url": "https://2embed.cc/embed/1226406"
+            },
+            {
+              "name": "VidLink.pro 1080p",
+              "url": "https://vidlink.pro/movie/1226406"
+            }
+          ]
+        },
+        {
+          "Title": "Afterburn",
+          "SubCategory": "Science Fiction",
+          "Country": "",
+          "Description": "Set against the backdrop of a postapocalyptic Earth whose Eastern Hemisphere was destroyed by a massive solar flare, leaving what life remains mutated from radiation and fallout. The story revolves around a group of treasure hunters who extract such objects as the Mona Lisa, the Rosetta Stone and the Crown Jewels while facing rival hunters, mutants and pirates.",
+          "Poster": "https://image.tmdb.org/t/p/w500/qxFQtCwGaLczFR2cS9Iv0vIXsIm.jpg",
+          "Thumbnail": "https://image.tmdb.org/t/p/w500/qxFQtCwGaLczFR2cS9Iv0vIXsIm.jpg",
+          "Rating": 6.0,
+          "Duration": "1:45",
+          "Year": 2025,
+          "Servers": [
+            {
+              "name": "VidSrc 1080p",
+              "url": "https://vidsrc.net/embed/movie/507244"
+            },
+            {
+              "name": "VidJoy 1080p",
+              "url": "https://vidjoy.pro/embed/movie/507244"
+            },
+            {
+              "name": "Embed.su 1080p",
+              "url": "https://embed.su/embed/movie/507244"
+            },
+            {
+              "name": "VidSrc.me 1080p",
+              "url": "https://vidsrc.me/embed/movie/507244"
+            },
+            {
+              "name": "AutoEmbed 1080p",
+              "url": "https://player.autoembed.cc/embed/movie/507244"
+            },
+            {
+              "name": "VidSrc.to 1080p",
+              "url": "https://vidsrc.to/embed/movie/507244"
+            },
+            {
+              "name": "VidSrc.xyz 1080p",
+              "url": "https://vidsrc.xyz/embed/movie/507244"
+            },
+            {
+              "name": "UpStream 1080p",
+              "url": "https://upstream.to/embed-507244.html"
+            },
+            {
+              "name": "GoDrivePlayer 1080p",
+              "url": "https://godriveplayer.com/embed/507244"
+            },
+            {
+              "name": "2Embed.cc 1080p",
+              "url": "https://2embed.cc/embed/507244"
+            },
+            {
+              "name": "VidLink.pro 1080p",
+              "url": "https://vidlink.pro/movie/507244"
+            }
+          ]
+        },
+        {
+          "Title": "Carjackers",
+          "SubCategory": "Action",
+          "Country": "",
+          "Description": "By day, they\u0027re invisible—valets, hostesses, and bartenders at a luxury hotel. By night, they\u0027re the Carjackers, a crew of skilled drivers who track and rob wealthy clients on the road. As they plan their ultimate heist, the hotel director hires a ruthless hitman, to stop them at all costs. With danger closing in, can Nora, Zoe, Steve, and Prestance pull off their biggest score yet?",
+          "Poster": "https://image.tmdb.org/t/p/w500/wbkPMTz2vVai7Ujyp0ag7AM9SrO.jpg",
+          "Thumbnail": "https://image.tmdb.org/t/p/w500/wbkPMTz2vVai7Ujyp0ag7AM9SrO.jpg",
+          "Rating": 6.0,
+          "Duration": "1:37",
+          "Year": 2025,
+          "Servers": [
+            {
+              "name": "VidSrc 1080p",
+              "url": "https://vidsrc.net/embed/movie/1229730"
+            },
+            {
+              "name": "VidJoy 1080p",
+              "url": "https://vidjoy.pro/embed/movie/1229730"
+            },
+            {
+              "name": "Embed.su 1080p",
+              "url": "https://embed.su/embed/movie/1229730"
+            },
+            {
+              "name": "VidSrc.me 1080p",
+              "url": "https://vidsrc.me/embed/movie/1229730"
+            },
+            {
+              "name": "AutoEmbed 1080p",
+              "url": "https://player.autoembed.cc/embed/movie/1229730"
+            },
+            {
+              "name": "VidSrc.to 1080p",
+              "url": "https://vidsrc.to/embed/movie/1229730"
+            },
+            {
+              "name": "VidSrc.xyz 1080p",
+              "url": "https://vidsrc.xyz/embed/movie/1229730"
+            },
+            {
+              "name": "UpStream 1080p",
+              "url": "https://upstream.to/embed-1229730.html"
+            },
+            {
+              "name": "GoDrivePlayer 1080p",
+              "url": "https://godriveplayer.com/embed/1229730"
+            },
+            {
+              "name": "2Embed.cc 1080p",
+              "url": "https://2embed.cc/embed/1229730"
+            },
+            {
+              "name": "VidLink.pro 1080p",
+              "url": "https://vidlink.pro/movie/1229730"
+            }
+          ]
+        },
+        {
+          "Title": "The Old Woman with the Knife",
+          "SubCategory": "Action",
+          "Country": "",
+          "Description": "Aging assassin Hornclaw has seen it all, but she never expected to mentor a reckless rookie like Bullfight. As their unlikely bond deepens, cracks form in the underworld they navigate together. When Hornclaw discovers someone wants her dead, she\u0027s thrust into a deadly game of deception. With enemies closing in and trust in short supply, survival means staying sharp—both blade and mind.",
+          "Poster": "https://image.tmdb.org/t/p/w500/wbmxnsv41vsg5UEaNDlf203dOWw.jpg",
+          "Thumbnail": "https://image.tmdb.org/t/p/w500/wbmxnsv41vsg5UEaNDlf203dOWw.jpg",
+          "Rating": 6.0,
+          "Duration": "2:03",
+          "Year": 2025,
+          "Servers": [
+            {
+              "name": "VidSrc 1080p",
+              "url": "https://vidsrc.net/embed/movie/1247002"
+            },
+            {
+              "name": "VidJoy 1080p",
+              "url": "https://vidjoy.pro/embed/movie/1247002"
+            },
+            {
+              "name": "Embed.su 1080p",
+              "url": "https://embed.su/embed/movie/1247002"
+            },
+            {
+              "name": "VidSrc.me 1080p",
+              "url": "https://vidsrc.me/embed/movie/1247002"
+            },
+            {
+              "name": "AutoEmbed 1080p",
+              "url": "https://player.autoembed.cc/embed/movie/1247002"
+            },
+            {
+              "name": "VidSrc.to 1080p",
+              "url": "https://vidsrc.to/embed/movie/1247002"
+            },
+            {
+              "name": "VidSrc.xyz 1080p",
+              "url": "https://vidsrc.xyz/embed/movie/1247002"
+            },
+            {
+              "name": "UpStream 1080p",
+              "url": "https://upstream.to/embed-1247002.html"
+            },
+            {
+              "name": "GoDrivePlayer 1080p",
+              "url": "https://godriveplayer.com/embed/1247002"
+            },
+            {
+              "name": "2Embed.cc 1080p",
+              "url": "https://2embed.cc/embed/1247002"
+            },
+            {
+              "name": "VidLink.pro 1080p",
+              "url": "https://vidlink.pro/movie/1247002"
+            }
+          ]
+        },
+        {
+          "Title": "Bullet Train Explosion",
+          "SubCategory": "Action",
+          "Country": "",
+          "Description": "When panic erupts on a Tokyo-bound bullet train that will explode if it slows below 100 kph, authorities race against time to save everyone on board.",
+          "Poster": "https://image.tmdb.org/t/p/w500/jmzxlDBwgvRbpPJzNQwizyn9UEn.jpg",
+          "Thumbnail": "https://image.tmdb.org/t/p/w500/jmzxlDBwgvRbpPJzNQwizyn9UEn.jpg",
+          "Rating": 7.0,
+          "Duration": "2:17",
+          "Year": 2025,
+          "Servers": [
+            {
+              "name": "VidSrc 1080p",
+              "url": "https://vidsrc.net/embed/movie/1276073"
+            },
+            {
+              "name": "VidJoy 1080p",
+              "url": "https://vidjoy.pro/embed/movie/1276073"
+            },
+            {
+              "name": "Embed.su 1080p",
+              "url": "https://embed.su/embed/movie/1276073"
+            },
+            {
+              "name": "VidSrc.me 1080p",
+              "url": "https://vidsrc.me/embed/movie/1276073"
+            },
+            {
+              "name": "AutoEmbed 1080p",
+              "url": "https://player.autoembed.cc/embed/movie/1276073"
+            },
+            {
+              "name": "VidSrc.to 1080p",
+              "url": "https://vidsrc.to/embed/movie/1276073"
+            },
+            {
+              "name": "VidSrc.xyz 1080p",
+              "url": "https://vidsrc.xyz/embed/movie/1276073"
+            },
+            {
+              "name": "UpStream 1080p",
+              "url": "https://upstream.to/embed-1276073.html"
+            },
+            {
+              "name": "GoDrivePlayer 1080p",
+              "url": "https://godriveplayer.com/embed/1276073"
+            },
+            {
+              "name": "2Embed.cc 1080p",
+              "url": "https://2embed.cc/embed/1276073"
+            },
+            {
+              "name": "VidLink.pro 1080p",
+              "url": "https://vidlink.pro/movie/1276073"
+            }
+          ]
+        },
+        {
+          "Title": "Sniper: The Last Stand",
+          "SubCategory": "Action",
+          "Country": "",
+          "Description": "To stop an arms dealer from unleashing a deadly superweapon, Ace sniper Brandon Beckett and Agent Zero are deployed to Costa Verde to lead a group of elite soldiers against an unrelenting militia. Taking an untested sniper under his wing, Beckett faces his newest challenge: giving orders instead of receiving them. With both time and ammo running low in a race to save humanity, the team must overcome all odds just to survive.",
+          "Poster": "https://image.tmdb.org/t/p/w500/TVvIyCsFCmLk9MRLbAZi4X8f32.jpg",
+          "Thumbnail": "https://image.tmdb.org/t/p/w500/TVvIyCsFCmLk9MRLbAZi4X8f32.jpg",
+          "Rating": 7.0,
+          "Duration": "1:39",
+          "Year": 2025,
+          "Servers": [
+            {
+              "name": "VidSrc 1080p",
+              "url": "https://vidsrc.net/embed/movie/1410082"
+            },
+            {
+              "name": "VidJoy 1080p",
+              "url": "https://vidjoy.pro/embed/movie/1410082"
+            },
+            {
+              "name": "Embed.su 1080p",
+              "url": "https://embed.su/embed/movie/1410082"
+            },
+            {
+              "name": "VidSrc.me 1080p",
+              "url": "https://vidsrc.me/embed/movie/1410082"
+            },
+            {
+              "name": "AutoEmbed 1080p",
+              "url": "https://player.autoembed.cc/embed/movie/1410082"
+            },
+            {
+              "name": "VidSrc.to 1080p",
+              "url": "https://vidsrc.to/embed/movie/1410082"
+            },
+            {
+              "name": "VidSrc.xyz 1080p",
+              "url": "https://vidsrc.xyz/embed/movie/1410082"
+            },
+            {
+              "name": "UpStream 1080p",
+              "url": "https://upstream.to/embed-1410082.html"
+            },
+            {
+              "name": "GoDrivePlayer 1080p",
+              "url": "https://godriveplayer.com/embed/1410082"
+            },
+            {
+              "name": "2Embed.cc 1080p",
+              "url": "https://2embed.cc/embed/1410082"
+            },
+            {
+              "name": "VidLink.pro 1080p",
+              "url": "https://vidlink.pro/movie/1410082"
+            }
+          ]
+        },
+        {
+          "Title": "The Gardener",
+          "SubCategory": "Action",
+          "Country": "",
+          "Description": "Every year the Prime Minister has a list of all kinds of troublemakers eliminated in the name of the famous Reason of State. Serge Shuster, Special Adviser to the President of the Republic, finds himself on this list, better known as the Matignon List.  Condemned to certain death and at the heart of an implacable plot and a state secret that also put his family in danger, Serge, his wife and children have only one hope left - their gardener, Léo, who hates it when « slugs » invade his garden... Especially those that want to kill innocent families.",
+          "Poster": "https://image.tmdb.org/t/p/w500/5T9WR7vIOnHm6xhVt5zBuPbBgt1.jpg",
+          "Thumbnail": "https://image.tmdb.org/t/p/w500/5T9WR7vIOnHm6xhVt5zBuPbBgt1.jpg",
+          "Rating": 6.0,
+          "Duration": "1:50",
+          "Year": 2025,
+          "Servers": [
+            {
+              "name": "VidSrc 1080p",
+              "url": "https://vidsrc.net/embed/movie/1255788"
+            },
+            {
+              "name": "VidJoy 1080p",
+              "url": "https://vidjoy.pro/embed/movie/1255788"
+            },
+            {
+              "name": "Embed.su 1080p",
+              "url": "https://embed.su/embed/movie/1255788"
+            },
+            {
+              "name": "VidSrc.me 1080p",
+              "url": "https://vidsrc.me/embed/movie/1255788"
+            },
+            {
+              "name": "AutoEmbed 1080p",
+              "url": "https://player.autoembed.cc/embed/movie/1255788"
+            },
+            {
+              "name": "VidSrc.to 1080p",
+              "url": "https://vidsrc.to/embed/movie/1255788"
+            },
+            {
+              "name": "VidSrc.xyz 1080p",
+              "url": "https://vidsrc.xyz/embed/movie/1255788"
+            },
+            {
+              "name": "UpStream 1080p",
+              "url": "https://upstream.to/embed-1255788.html"
+            },
+            {
+              "name": "GoDrivePlayer 1080p",
+              "url": "https://godriveplayer.com/embed/1255788"
+            },
+            {
+              "name": "2Embed.cc 1080p",
+              "url": "https://2embed.cc/embed/1255788"
+            },
+            {
+              "name": "VidLink.pro 1080p",
+              "url": "https://vidlink.pro/movie/1255788"
+            }
+          ]
+        },
+        {
+          "Title": "Jewel Thief - The Heist Begins",
+          "SubCategory": "Action",
+          "Country": "",
+          "Description": "In this high-octane battle of wits and wills, ingenious con artist Rehan devises a diamond heist while trying to outsmart Rajan, his sadistic adversary.",
+          "Poster": "https://image.tmdb.org/t/p/w500/eujLbO0kf1eqWC8XpHUJdtAVW2J.jpg",
+          "Thumbnail": "https://image.tmdb.org/t/p/w500/eujLbO0kf1eqWC8XpHUJdtAVW2J.jpg",
+          "Rating": 7.0,
+          "Duration": "1:58",
+          "Year": 2025,
+          "Servers": [
+            {
+              "name": "VidSrc 1080p",
+              "url": "https://vidsrc.net/embed/movie/1225915"
+            },
+            {
+              "name": "VidJoy 1080p",
+              "url": "https://vidjoy.pro/embed/movie/1225915"
+            },
+            {
+              "name": "Embed.su 1080p",
+              "url": "https://embed.su/embed/movie/1225915"
+            },
+            {
+              "name": "VidSrc.me 1080p",
+              "url": "https://vidsrc.me/embed/movie/1225915"
+            },
+            {
+              "name": "AutoEmbed 1080p",
+              "url": "https://player.autoembed.cc/embed/movie/1225915"
+            },
+            {
+              "name": "VidSrc.to 1080p",
+              "url": "https://vidsrc.to/embed/movie/1225915"
+            },
+            {
+              "name": "VidSrc.xyz 1080p",
+              "url": "https://vidsrc.xyz/embed/movie/1225915"
+            },
+            {
+              "name": "UpStream 1080p",
+              "url": "https://upstream.to/embed-1225915.html"
+            },
+            {
+              "name": "GoDrivePlayer 1080p",
+              "url": "https://godriveplayer.com/embed/1225915"
+            },
+            {
+              "name": "2Embed.cc 1080p",
+              "url": "https://2embed.cc/embed/1225915"
+            },
+            {
+              "name": "VidLink.pro 1080p",
+              "url": "https://vidlink.pro/movie/1225915"
+            }
+          ]
+        },
+        {
+          "Title": "The Codes of War",
+          "SubCategory": "Action",
+          "Country": "",
+          "Description": "War stories about family, ethics and honor include the true story of two U.S. Marines who in a span of six seconds, must stand their ground to stop a suicide truck bomb, a Navy Corpsman who attempts to hold on to his humanity, and a WW2 soldier who gets separated from his squad and is forced to re-evaluate his code.",
+          "Poster": "https://image.tmdb.org/t/p/w500/oXeiQAfRK90pxxhP5iKPXQqAIN1.jpg",
+          "Thumbnail": "https://image.tmdb.org/t/p/w500/oXeiQAfRK90pxxhP5iKPXQqAIN1.jpg",
+          "Rating": 6.0,
+          "Duration": "1:32",
+          "Year": 2025,
+          "Servers": [
+            {
+              "name": "VidSrc 1080p",
+              "url": "https://vidsrc.net/embed/movie/1373723"
+            },
+            {
+              "name": "VidJoy 1080p",
+              "url": "https://vidjoy.pro/embed/movie/1373723"
+            },
+            {
+              "name": "Embed.su 1080p",
+              "url": "https://embed.su/embed/movie/1373723"
+            },
+            {
+              "name": "VidSrc.me 1080p",
+              "url": "https://vidsrc.me/embed/movie/1373723"
+            },
+            {
+              "name": "AutoEmbed 1080p",
+              "url": "https://player.autoembed.cc/embed/movie/1373723"
+            },
+            {
+              "name": "VidSrc.to 1080p",
+              "url": "https://vidsrc.to/embed/movie/1373723"
+            },
+            {
+              "name": "VidSrc.xyz 1080p",
+              "url": "https://vidsrc.xyz/embed/movie/1373723"
+            },
+            {
+              "name": "UpStream 1080p",
+              "url": "https://upstream.to/embed-1373723.html"
+            },
+            {
+              "name": "GoDrivePlayer 1080p",
+              "url": "https://godriveplayer.com/embed/1373723"
+            },
+            {
+              "name": "2Embed.cc 1080p",
+              "url": "https://2embed.cc/embed/1373723"
+            },
+            {
+              "name": "VidLink.pro 1080p",
+              "url": "https://vidlink.pro/movie/1373723"
+            }
+          ]
+        },
+        {
+          "Title": "Blood Brothers: Bara Naga",
+          "SubCategory": "Action",
+          "Country": "",
+          "Description": "Elite bodyguard Ariff finds himself in a deadly showdown when he is framed for a crime and his best friend Ghaz turns into his fiercest adversary.",
+          "Poster": "https://image.tmdb.org/t/p/w500/uR6IwU2ZfVuzg3mzh06XwlsDiCR.jpg",
+          "Thumbnail": "https://image.tmdb.org/t/p/w500/uR6IwU2ZfVuzg3mzh06XwlsDiCR.jpg",
+          "Rating": 7.0,
+          "Duration": "2:09",
+          "Year": 2025,
+          "Servers": [
+            {
+              "name": "VidSrc 1080p",
+              "url": "https://vidsrc.net/embed/movie/1278164"
+            },
+            {
+              "name": "VidJoy 1080p",
+              "url": "https://vidjoy.pro/embed/movie/1278164"
+            },
+            {
+              "name": "Embed.su 1080p",
+              "url": "https://embed.su/embed/movie/1278164"
+            },
+            {
+              "name": "VidSrc.me 1080p",
+              "url": "https://vidsrc.me/embed/movie/1278164"
+            },
+            {
+              "name": "AutoEmbed 1080p",
+              "url": "https://player.autoembed.cc/embed/movie/1278164"
+            },
+            {
+              "name": "VidSrc.to 1080p",
+              "url": "https://vidsrc.to/embed/movie/1278164"
+            },
+            {
+              "name": "VidSrc.xyz 1080p",
+              "url": "https://vidsrc.xyz/embed/movie/1278164"
+            },
+            {
+              "name": "UpStream 1080p",
+              "url": "https://upstream.to/embed-1278164.html"
+            },
+            {
+              "name": "GoDrivePlayer 1080p",
+              "url": "https://godriveplayer.com/embed/1278164"
+            },
+            {
+              "name": "2Embed.cc 1080p",
+              "url": "https://2embed.cc/embed/1278164"
+            },
+            {
+              "name": "VidLink.pro 1080p",
+              "url": "https://vidlink.pro/movie/1278164"
+            }
+          ]
         }
       ]
     }
