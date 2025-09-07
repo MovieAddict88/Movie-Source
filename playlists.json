@@ -1,5 +1,5 @@
 {
-  "version": 1,
+  "version": 2,
   "playlists": [
     "https://github.com/MovieAddict88/Movie-Source/raw/main/playlist1.json",
     "https://github.com/MovieAddict88/Movie-Source/raw/main/playlist2.json",
@@ -21,6 +21,7 @@
     "https://github.com/MovieAddict88/Movie-Source/raw/main/playlist18.json",
     "https://github.com/MovieAddict88/Movie-Source/raw/main/playlist19.json",
     "https://github.com/MovieAddict88/Movie-Source/raw/main/playlist20.json",
-    "https://github.com/MovieAddict88/Movie-Source/raw/main/playlist21.json"
+    "https://github.com/MovieAddict88/Movie-Source/raw/main/playlist21.json",
+    "https://github.com/MovieAddict88/Movie-Source/raw/main/playlist22.json"
   ]
 }
