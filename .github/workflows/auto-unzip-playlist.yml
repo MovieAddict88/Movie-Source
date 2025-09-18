@@ -3,7 +3,7 @@ on:
   push:
     branches: [ main ]
     paths:
-      - playlist14.json.zip
+      - playlist2.json.zip
 permissions:
   contents: write
 jobs:
@@ -15,9 +15,9 @@ jobs:
           fetch-depth: 0
       - name: Unzip to JSON
         run: |
-          unzip -o "playlist14.json.zip" -d .
+          unzip -o "playlist2.json.zip" -d .
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add "playlist14.json"
-          git commit -m "Auto-unzip playlist14.json.zip -> playlist14.json" || echo "No changes to commit"
+          git add "playlist2.json"
+          git commit -m "Auto-unzip playlist2.json.zip -> playlist2.json" || echo "No changes to commit"
           git push
