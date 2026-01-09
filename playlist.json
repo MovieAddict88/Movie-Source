@@ -1,0 +1,315 @@
+{
+  "Categories": [
+    {
+      "MainCategory": "LiveTV",
+      "SubCategories": [
+        "Entertainment"
+      ],
+      "Entries": []
+    },
+    {
+      "MainCategory": "Movies",
+      "SubCategories": [
+        "Action",
+        "Comedy",
+        "Drama",
+        "Horror",
+        "Sci-Fi",
+        "ScienceFiction",
+        "Animation"
+      ],
+      "Entries": [
+        {
+          "Title": "Predator:Badlands",
+          "SubCategory": "Action",
+          "Country": "",
+          "Description": "Castoutfromhisclan,ayoungPredatorfindsanunlikelyallyinadamagedandroidandembarksonatreacherousjourneyinsearchoftheultimateadversary.",
+          "Poster": "https://image.tmdb.org/t/p/w500/pHpq9yNUIo6aDoCXEBzjSolywgz.jpg",
+          "Thumbnail": "https://image.tmdb.org/t/p/w500/pHpq9yNUIo6aDoCXEBzjSolywgz.jpg",
+          "Rating": 8,
+          "Duration": "1:47",
+          "Year": 2025,
+          "parentalRating": "PG-13",
+          "Trailer": {
+            "id": 14,
+            "type": "youtube",
+            "title": "InternationalTrailerTrailer",
+            "url": "https://www.youtube.com/watch?v=9PgcAIgpwPA"
+          },
+          "Servers": [
+            {
+              "name": "VidSrc1080p",
+              "url": "https://vidsrc.net/embed/movie/1242898"
+            },
+            {
+              "name": "VidJoy1080p",
+              "url": "https://vidjoy.pro/embed/movie/1242898"
+            },
+            {
+              "name": "Embed.su1080p",
+              "url": "https://embed.su/embed/movie/1242898"
+            },
+            {
+              "name": "VidSrc.me1080p",
+              "url": "https://vidsrc.me/embed/movie/1242898"
+            },
+            {
+              "name": "VidSrc.win1080p",
+              "url": "https://vidsrc.win/movie.html?id=1242898"
+            },
+            {
+              "name": "Vidplus1080p",
+              "url": "https://player.vidplus.to/embed/movie/1242898?autoplay=true"
+            },
+            {
+              "name": "VidEasy1080p",
+              "url": "https://player.videasy.net/movie/1242898"
+            },
+            {
+              "name": "VidFast1080p",
+              "url": "https://vidfast.pro/movie/1242898?autoPlay=true"
+            },
+            {
+              "name": "VidLink.pro1080p",
+              "url": "https://vidlink.pro/movie/1242898?autoplay=true"
+            }
+          ]
+        },
+        {
+          "Title": "Avatar:FireandAsh",
+          "SubCategory": "ScienceFiction",
+          "Country": "",
+          "Description": "InthewakeofthedevastatingwaragainsttheRDAandthelossoftheireldestson,JakeSullyandNeytirifaceanewthreatonPandora:theAshPeople,aviolentandpower-hungryNa'vitribeledbytheruthlessVarang.Jake'sfamilymustfightfortheirsurvivalandthefutureofPandorainaconflictthatpushesthemtotheiremotionalandphysicallimits.",
+          "Poster": "https://image.tmdb.org/t/p/w500/cf7hE1ifY4UNbS25tGnaTyyDrI2.jpg",
+          "Thumbnail": "https://image.tmdb.org/t/p/w500/cf7hE1ifY4UNbS25tGnaTyyDrI2.jpg",
+          "Rating": 7,
+          "Duration": "3:18",
+          "Year": 2025,
+          "parentalRating": "PG-13",
+          "Trailer": {
+            "id": 26,
+            "type": "youtube",
+            "title": "NewTrailerTrailer",
+            "url": "https://www.youtube.com/watch?v=Ma1x7ikpid8"
+          },
+          "Servers": [
+            {
+              "name": "VidSrc1080p",
+              "url": "https://vidsrc.net/embed/movie/83533"
+            },
+            {
+              "name": "VidJoy1080p",
+              "url": "https://vidjoy.pro/embed/movie/83533"
+            },
+            {
+              "name": "Embed.su1080p",
+              "url": "https://embed.su/embed/movie/83533"
+            },
+            {
+              "name": "VidSrc.me1080p",
+              "url": "https://vidsrc.me/embed/movie/83533"
+            },
+            {
+              "name": "VidSrc.win1080p",
+              "url": "https://vidsrc.win/movie.html?id=83533"
+            },
+            {
+              "name": "Vidplus1080p",
+              "url": "https://player.vidplus.to/embed/movie/83533?autoplay=true"
+            },
+            {
+              "name": "VidEasy1080p",
+              "url": "https://player.videasy.net/movie/83533"
+            },
+            {
+              "name": "VidFast1080p",
+              "url": "https://vidfast.pro/movie/83533?autoPlay=true"
+            },
+            {
+              "name": "VidLink.pro1080p",
+              "url": "https://vidlink.pro/movie/83533?autoplay=true"
+            }
+          ]
+        },
+        {
+          "Title": "Icefall",
+          "SubCategory": "Action",
+          "Country": "",
+          "Description": "AyoungIndigenousgamewardenarrestsaninfamouspoacheronlytodiscoverthatthepoacherknowsthelocationofaplanecarryingmillionsofdollarsthathascrashedinafrozenlake.Whenagroupofcriminalsanddirtycopsarealertedtothepoacher’swhereabouts,thewardenandthepoacherteamuptofightbackandescapeacrossthetreacherouslakebeforetheicemelts.",
+          "Poster": "https://image.tmdb.org/t/p/w500/5Byv6nznAb2Izd0gHpODOXnuSbo.jpg",
+          "Thumbnail": "https://image.tmdb.org/t/p/w500/5Byv6nznAb2Izd0gHpODOXnuSbo.jpg",
+          "Rating": 7,
+          "Duration": "1:39",
+          "Year": 2025,
+          "parentalRating": "16",
+          "Trailer": {
+            "id": 38,
+            "type": "youtube",
+            "title": "TrailerTrailer",
+            "url": "https://www.youtube.com/watch?v=GimoXZs1BIs"
+          },
+          "Servers": [
+            {
+              "name": "VidSrc1080p",
+              "url": "https://vidsrc.net/embed/movie/1242501"
+            },
+            {
+              "name": "VidJoy1080p",
+              "url": "https://vidjoy.pro/embed/movie/1242501"
+            },
+            {
+              "name": "Embed.su1080p",
+              "url": "https://embed.su/embed/movie/1242501"
+            },
+            {
+              "name": "VidSrc.me1080p",
+              "url": "https://vidsrc.me/embed/movie/1242501"
+            },
+            {
+              "name": "VidSrc.win1080p",
+              "url": "https://vidsrc.win/movie.html?id=1242501"
+            },
+            {
+              "name": "Vidplus1080p",
+              "url": "https://player.vidplus.to/embed/movie/1242501?autoplay=true"
+            },
+            {
+              "name": "VidEasy1080p",
+              "url": "https://player.videasy.net/movie/1242501"
+            },
+            {
+              "name": "VidFast1080p",
+              "url": "https://vidfast.pro/movie/1242501?autoPlay=true"
+            },
+            {
+              "name": "VidLink.pro1080p",
+              "url": "https://vidlink.pro/movie/1242501?autoplay=true"
+            }
+          ]
+        },
+        {
+          "Title": "Zootopia2",
+          "SubCategory": "Animation",
+          "Country": "",
+          "Description": "AftercrackingthebiggestcaseinZootopia'shistory,rookiecopsJudyHoppsandNickWildefindthemselvesonthetwistingtrailofagreatmysterywhenGaryDe'Snakearrivesandturnstheanimalmetropolisupsidedown.Tocrackthecase,JudyandNickmustgoundercovertounexpectednewpartsoftown,wheretheirgrowingpartnershipistestedlikeneverbefore.",
+          "Poster": "https://image.tmdb.org/t/p/w500/bjUWGw0Ao0qVWxagN3VCwBJHVo6.jpg",
+          "Thumbnail": "https://image.tmdb.org/t/p/w500/bjUWGw0Ao0qVWxagN3VCwBJHVo6.jpg",
+          "Rating": 8,
+          "Duration": "1:47",
+          "Year": 2025,
+          "parentalRating": "PG",
+          "Trailer": {
+            "id": 50,
+            "type": "youtube",
+            "title": "InternationalTrailerTrailer",
+            "url": "https://www.youtube.com/watch?v=sEgPQ7HKoBA"
+          },
+          "Servers": [
+            {
+              "name": "VidSrc1080p",
+              "url": "https://vidsrc.net/embed/movie/1084242"
+            },
+            {
+              "name": "VidJoy1080p",
+              "url": "https://vidjoy.pro/embed/movie/1084242"
+            },
+            {
+              "name": "Embed.su1080p",
+              "url": "https://embed.su/embed/movie/1084242"
+            },
+            {
+              "name": "VidSrc.me1080p",
+              "url": "https://vidsrc.me/embed/movie/1084242"
+            },
+            {
+              "name": "VidSrc.win1080p",
+              "url": "https://vidsrc.win/movie.html?id=1084242"
+            },
+            {
+              "name": "Vidplus1080p",
+              "url": "https://player.vidplus.to/embed/movie/1084242?autoplay=true"
+            },
+            {
+              "name": "VidEasy1080p",
+              "url": "https://player.videasy.net/movie/1084242"
+            },
+            {
+              "name": "VidFast1080p",
+              "url": "https://vidfast.pro/movie/1084242?autoPlay=true"
+            },
+            {
+              "name": "VidLink.pro1080p",
+              "url": "https://vidlink.pro/movie/1084242?autoplay=true"
+            }
+          ]
+        },
+        {
+          "Title": "TrapHouse",
+          "SubCategory": "Action",
+          "Country": "",
+          "Description": "AnundercoverDEAagentandhispartnerembarkonagameofcatandmousewithanaudacious,andsurprisinggroupofthieves-theirownrebelliousteenagers,whohavebegunrobbingfromadangerouscartel,usingtheirparents'tacticsandtop-secretinteltodoit.",
+          "Poster": "https://image.tmdb.org/t/p/w500/6tpAPeuuqbVnYWWPoOLEDLSBU7a.jpg",
+          "Thumbnail": "https://image.tmdb.org/t/p/w500/6tpAPeuuqbVnYWWPoOLEDLSBU7a.jpg",
+          "Rating": 6,
+          "Duration": "1:42",
+          "Year": 2025,
+          "parentalRating": "Rating",
+          "Trailer": {
+            "id": 62,
+            "type": "youtube",
+            "title": "OfficialUKTrailerTrailer",
+            "url": "https://www.youtube.com/watch?v=z5mCWsv0Z7U"
+          },
+          "Servers": [
+            {
+              "name": "VidSrc1080p",
+              "url": "https://vidsrc.net/embed/movie/628847"
+            },
+            {
+              "name": "VidJoy1080p",
+              "url": "https://vidjoy.pro/embed/movie/628847"
+            },
+            {
+              "name": "Embed.su1080p",
+              "url": "https://embed.su/embed/movie/628847"
+            },
+            {
+              "name": "VidSrc.me1080p",
+              "url": "https://vidsrc.me/embed/movie/628847"
+            },
+            {
+              "name": "VidSrc.win1080p",
+              "url": "https://vidsrc.win/movie.html?id=628847"
+            },
+            {
+              "name": "Vidplus1080p",
+              "url": "https://player.vidplus.to/embed/movie/628847?autoplay=true"
+            },
+            {
+              "name": "VidEasy1080p",
+              "url": "https://player.videasy.net/movie/628847"
+            },
+            {
+              "name": "VidFast1080p",
+              "url": "https://vidfast.pro/movie/628847?autoPlay=true"
+            },
+            {
+              "name": "VidLink.pro1080p",
+              "url": "https://vidlink.pro/movie/628847?autoplay=true"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "MainCategory": "TVSeries",
+      "SubCategories": [
+        "Anime",
+        "Action",
+        "Comedy",
+        "Drama"
+      ],
+      "Entries": []
+    }
+  ]
+}
