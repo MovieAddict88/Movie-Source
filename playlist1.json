@@ -63,23 +63,7 @@
             }
           ]
         },
-        {
-          "Title": "Kapamilya Channel",
-          "SubCategory": "General Entertainment",
-          "Country": "Philippines",
-          "Description": "Kapamilya Channel is a flagship Filipino entertainment channel featuring dramas, news, and variety shows produced by ABS-CBN.",
-          "Poster": "https://i.imgur.com/Dcys2TG.png",
-          "Thumbnail": "https://i.imgur.com/Dcys2TG.png",
-          "Rating": 0.0,
-          "Duration": "",
-          "Year": 0,
-          "Servers": [
-            {
-              "name": "HD",
-              "url": "https://live-faws.akamaized.net/out/v1/df7b60b4411f4270ab431913de807bf4/index.m3u8"
-            }
-          ]
-        },
+        
         {
           "Title": "Thrill",
           "SubCategory": "Action/Entertainment",
@@ -289,23 +273,7 @@
             }
           ]
         },
-        {
-          "Title": "Football TV",
-          "SubCategory": "Sports",
-          "Country": "International",
-          "Description": "Football TV is a dedicated channel for football fans, featuring live matches, highlights, and analysis from leagues around the world.",
-          "Poster": "https://images.deepai.org/art-image/0f3456df03504154b9c4c9e2bbbe0bf6/football-logo-6e9e48.jpg",
-          "Thumbnail": "https://images.deepai.org/art-image/0f3456df03504154b9c4c9e2bbbe0bf6/football-logo-6e9e48.jpg",
-          "Rating": 0.0,
-          "Duration": "",
-          "Year": 0,
-          "Servers": [
-            {
-              "name": "HD",
-              "url": "https://live20.bozztv.com/trn03/gin-ssfootball/index.m3u8"
-            }
-          ]
-        },
+        
         {
           "Title": "Cartoonito Asia",
           "SubCategory": "Kids/Animation",
@@ -664,40 +632,6 @@
           ]
         },
         {
-          "Title": "INC TV",
-          "SubCategory": "Religious",
-          "Country": "Philippines",
-          "Description": "INC TV is the official television network of the Iglesia Ni Cristo, featuring religious programs, worship services, and community events.",
-          "Poster": "https://i.imgur.com/O4mv3Bu.png",
-          "Thumbnail": "https://i.imgur.com/O4mv3Bu.png",
-          "Rating": 0.0,
-          "Duration": "",
-          "Year": 0,
-          "Servers": [
-            {
-              "name": "HD",
-              "url": "https://199211.global.ssl.fastly.net/643cc12aa824db4374021c8c/live_95f6ac80dd6511ed9d08b12be56ae55e/index.m3u8"
-            }
-          ]
-        },
-        {
-          "Title": "Mindanow Network TV",
-          "SubCategory": "General Entertainment",
-          "Country": "Philippines",
-          "Description": "Mindanow Network TV is a regional channel serving Mindanao, offering local news, cultural programs, and community-focused content.",
-          "Poster": "https://i.imgur.com/xBlYirh.jpeg",
-          "Thumbnail": "https://i.imgur.com/xBlYirh.jpeg",
-          "Rating": 0.0,
-          "Duration": "",
-          "Year": 0,
-          "Servers": [
-            {
-              "name": "HD",
-              "url": "https://streams1.comclark.com/overlay/mindanow/playlist.m3u8"
-            }
-          ]
-        },
-        {
           "Title": "ANC HD",
           "SubCategory": "News",
           "Country": "Philippines",
@@ -714,40 +648,7 @@
             }
           ]
         },
-        {
-          "Title": "Fox5",
-          "SubCategory": "General Entertainment",
-          "Country": "International",
-          "Description": "Fox5 is a popular entertainment channel featuring a mix of dramas, comedies, and reality shows from the Fox network.",
-          "Poster": "https://th.bing.com/th/id/R.da0efd0a8ae25cc3ed689c0b82f00948?rik\u003d93YX0cls8nM62A\u0026riu\u003dhttp%3a%2f%2fvebaresourcecenter.com%2fwp-content%2fuploads%2f2021%2f02%2fFox-5.png\u0026ehk\u003d3cscegNe6kvhaAcpuOcaGPc9qXfPNTGNPpzce1K%2bGoI%3d\u0026risl\u003d\u0026pid\u003dImgRaw\u0026r\u003d0\u0026sres\u003d1\u0026sresct\u003d1",
-          "Thumbnail": "https://th.bing.com/th/id/R.da0efd0a8ae25cc3ed689c0b82f00948?rik\u003d93YX0cls8nM62A\u0026riu\u003dhttp%3a%2f%2fvebaresourcecenter.com%2fwp-content%2fuploads%2f2021%2f02%2fFox-5.png\u0026ehk\u003d3cscegNe6kvhaAcpuOcaGPc9qXfPNTGNPpzce1K%2bGoI%3d\u0026risl\u003d\u0026pid\u003dImgRaw\u0026r\u003d0\u0026sres\u003d1\u0026sresct\u003d1",
-          "Rating": 0.0,
-          "Duration": "",
-          "Year": 0,
-          "Servers": [
-            {
-              "name": "HD",
-              "url": "https://live20.bozztv.com/dvrfl05/gin-fox5/index.m3u8"
-            }
-          ]
-        },
-        {
-          "Title": "PHTV",
-          "SubCategory": "General Entertainment",
-          "Country": "Philippines",
-          "Description": "PHTV is a Filipino entertainment channel offering a variety of shows, including dramas, variety programs, and local content.",
-          "Poster": "https://yt3.ggpht.com/a/AATXAJyBhvv8T9RzinRRiGuWjkg-S4Qlse33y3pWiA\u003ds900-c-k-c0xffffffff-no-rj-mo",
-          "Thumbnail": "https://yt3.ggpht.com/a/AATXAJyBhvv8T9RzinRRiGuWjkg-S4Qlse33y3pWiA\u003ds900-c-k-c0xffffffff-no-rj-mo",
-          "Rating": 0.0,
-          "Duration": "",
-          "Year": 0,
-          "Servers": [
-            {
-              "name": "HD",
-              "url": "https://live20.bozztv.com/giatvplayout7/giatv-209998/tracks-v1a1/mono.m3u8"
-            }
-          ]
-        },
+       
         {
           "Title": "One Sports",
           "SubCategory": "Sports",
@@ -1004,40 +905,6 @@
           ]
         },
         {
-          "Title": "BBC News Asia Pacific (720p)",
-          "SubCategory": "News",
-          "Country": "🇬🇧 UK",
-          "Description": "BBC\u0027s international news coverage for the Asia-Pacific region.",
-          "Poster": "/icon-512.png",
-          "Thumbnail": "/icon-512.png",
-          "Rating": 4.7,
-          "Duration": "24/7",
-          "Year": 0,
-          "Servers": [
-            {
-              "name": "HD",
-              "url": "https://cdn4.skygo.mn/live/disk1/BBC_News/HLSv3-FTA/BBC_News.m3u8"
-            }
-          ]
-        },
-        {
-          "Title": "CLTV 36 (720p) [Not 24/7]",
-          "SubCategory": "News",
-          "Country": "🇵🇭 Philippines",
-          "Description": "Local news channel based in Pampanga, Philippines.",
-          "Poster": "/icon-512.png",
-          "Thumbnail": "/icon-512.png",
-          "Rating": 3.8,
-          "Duration": "Part-time",
-          "Year": 0,
-          "Servers": [
-            {
-              "name": "HD",
-              "url": "https://live.cltv36.tv:5443/LiveApp/streams/cltvlive.m3u8"
-            }
-          ]
-        },
-        {
           "Title": "EWTN Africa Asia (720p)",
           "SubCategory": "Religious",
           "Country": "🇺🇸 USA",
@@ -1072,40 +939,6 @@
           ]
         },
         {
-          "Title": "Arirang",
-          "SubCategory": "News",
-          "Country": "🇰🇷 South Korea",
-          "Description": "Korean international news and culture channel.",
-          "Poster": "/icon-512.png",
-          "Thumbnail": "/icon-512.png",
-          "Rating": 4.1,
-          "Duration": "24/7",
-          "Year": 0,
-          "Servers": [
-            {
-              "name": "HD",
-              "url": "https://amdlive-ch03-ctnd-com.akamaized.net/arirang_1ch/smil:arirang_1ch.smil/playlist.m3u8"
-            }
-          ]
-        },
-        {
-          "Title": "ALJAZEERA",
-          "SubCategory": "News",
-          "Country": "🇶🇦 Qatar",
-          "Description": "International news channel based in Qatar.",
-          "Poster": "/icon-512.png",
-          "Thumbnail": "/icon-512.png",
-          "Rating": 4.5,
-          "Duration": "24/7",
-          "Year": 0,
-          "Servers": [
-            {
-              "name": "HD",
-              "url": "https://live-hls-web-aje.getaj.net/AJE/index.m3u8"
-            }
-          ]
-        },
-        {
           "Title": "Bloomberg",
           "SubCategory": "News",
           "Country": "🇺🇸 USA",
@@ -1119,44 +952,6 @@
             {
               "name": "HD",
               "url": "https://www.bloomberg.com/media-manifest/streams/asia.m3u8"
-            },
-            {
-              "name": "SD",
-              "url": "https://qp-pldt-live-grp-09-prod.akamaized.net/out/u/bloomberg_sd.mpd"
-            }
-          ]
-        },
-        {
-          "Title": "BBC World News",
-          "SubCategory": "News",
-          "Country": "🇬🇧 UK",
-          "Description": "BBC\u0027s international news coverage.",
-          "Poster": "/icon-512.png",
-          "Thumbnail": "/icon-512.png",
-          "Rating": 4.7,
-          "Duration": "24/7",
-          "Year": 0,
-          "Servers": [
-            {
-              "name": "HD",
-              "url": "https://vs-hls-push-ww-live.akamaized.net/x\u003d4/i\u003durn:bbc:pips:service:bbc_news_channel_hd/t\u003d3840/v\u003dpv14/b\u003d5070016/main.m3u8"
-            }
-          ]
-        },
-        {
-          "Title": "CGTN News",
-          "SubCategory": "News",
-          "Country": "🇨🇳 China",
-          "Description": "China Global Television Network\u0027s English-language news channel.",
-          "Poster": "/icon-512.png",
-          "Thumbnail": "/icon-512.png",
-          "Rating": 4.0,
-          "Duration": "24/7",
-          "Year": 0,
-          "Servers": [
-            {
-              "name": "HD",
-              "url": "https://news.cgtn.com/resource/live/english/cgtn-news.m3u8"
             }
           ]
         },
@@ -1173,7 +968,7 @@
           "Servers": [
             {
               "name": "HD",
-              "url": "https://cdn-apse1-prod.tsv2.amagi.tv/linear/amg00718-outdoorchannela-outdoortvnz-samsungnz/playlist.m3u8"
+              "url": "https://amg00718-outdoorchannela-outdoortvnz-samsungnz-lylq4.amagi.tv/playlist/amg00718-outdoorchannela-outdoortvnz-samsungnz/playlist.m3u8"
             }
           ]
         },
@@ -1191,23 +986,6 @@
             {
               "name": "HD",
               "url": "https://amc-rushbyamc-1-us.vizio.wurl.tv/playlist.m3u8"
-            }
-          ]
-        },
-        {
-          "Title": "Baywatch",
-          "SubCategory": "Entertainment",
-          "Country": "🇺🇸 USA",
-          "Description": "Channel featuring the classic TV series \u0027Baywatch\u0027 and similar content.",
-          "Poster": "/icon-512.png",
-          "Thumbnail": "/icon-512.png",
-          "Rating": 3.9,
-          "Duration": "24/7",
-          "Year": 0,
-          "Servers": [
-            {
-              "name": "HD",
-              "url": "https://d1ku2wsea2oun8.cloudfront.net/playlist.m3u8"
             }
           ]
         },
@@ -1312,24 +1090,7 @@
               "url": "https://w2.manasat.com/kkids/smil:kkids.smil/playlist.m3u8"
             }
           ]
-        },
-        {
-          "Title": "Magic Kids (486p)",
-          "SubCategory": "Kids",
-          "Country": "🇺🇸 USA",
-          "Description": "Children\u0027s entertainment channel.",
-          "Poster": "/icon-512.png",
-          "Thumbnail": "/icon-512.png",
-          "Rating": 3.7,
-          "Duration": "24/7",
-          "Year": 0,
-          "Servers": [
-            {
-              "name": "SD",
-              "url": "https://magicstream.ddns.net/magicstream/stream.m3u8"
-            }
-          ]
-        },
+        },       
         {
           "Title": "Persiana Junior",
           "SubCategory": "Kids",
@@ -1347,23 +1108,7 @@
             }
           ]
         },
-        {
-          "Title": "XilamTV (1080p)",
-          "SubCategory": "Animation",
-          "Country": "🇫🇷 France",
-          "Description": "French animation channel featuring cartoons and kids\u0027 shows.",
-          "Poster": "/icon-512.png",
-          "Thumbnail": "/icon-512.png",
-          "Rating": 4.0,
-          "Duration": "24/7",
-          "Year": 0,
-          "Servers": [
-            {
-              "name": "FHD",
-              "url": "https://xilam-animation-1-fr.samsung.wurl.tv/playlist.m3u8"
-            }
-          ]
-        },
+        
         {
           "Title": "30A We Love Cars",
           "SubCategory": "Lifestyle",
@@ -1482,26 +1227,6 @@
               "url": "https://qp-pldt-live-grp-02-prod.akamaized.net/out/u/cg_a2z.mpd",
               "drm": true,
               "license": "f703e4c8ec9041eeb5028ab4248fa094:c22f2162e176eee6273a5d0b68d19530"
-            },
-            {
-              "name": "720p",
-              "url": "https://qp-pldt-live-grp-02-prod.akamaized.net/out/u/tv5_5.m3u8"
-            },
-            {
-              "name": "480p",
-              "url": "https://qp-pldt-live-grp-02-prod.akamaized.net/out/u/tv5_4.m3u8"
-            },
-            {
-              "name": "360p",
-              "url": "https://qp-pldt-live-grp-02-prod.akamaized.net/out/u/tv5_3.m3u8"
-            },
-            {
-              "name": "240p",
-              "url": "https://qp-pldt-live-grp-02-prod.akamaized.net/out/u/tv5_2.m3u8"
-            },
-            {
-              "name": "144p",
-              "url": "https://qp-pldt-live-grp-02-prod.akamaized.net/out/u/tv5_1.m3u8"
             }
           ]
         },
@@ -1522,23 +1247,7 @@
             }
           ]
         },
-        {
-          "Title": "Star Channel",
-          "SubCategory": "",
-          "Country": "🇵🇭 Philippines",
-          "Description": "Star Channel (formerly Fox Channel) is a Philippine pay television channel owned by The Walt Disney Company (Philippines). It is a local feed of the pan-Asian channel of the same name.",
-          "Poster": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cd/Star_Channel_2023.svg/220px-Star_Channel_2023.svg.png",
-          "Thumbnail": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cd/Star_Channel_2023.svg/220px-Star_Channel_2023.svg.png",
-          "Rating": 0.0,
-          "Duration": "",
-          "Year": 2023,
-          "Servers": [
-            {
-              "name": "HD",
-              "url": "https://streamer1.nexgen.bz/STAR/tracks-v1a1/mono.m3u8"
-            }
-          ]
-        },
+        
         {
           "Title": "Animax",
           "SubCategory": "",
@@ -1570,40 +1279,6 @@
             {
               "name": "HD",
               "url": "https://qp-pldt-live-grp-12-prod.akamaized.net/out/u/dr_discoveryasia.mpd"
-            }
-          ]
-        },
-        {
-          "Title": "CCTN 47",
-          "SubCategory": "Entertainment",
-          "Country": "🇵🇭 Philippines",
-          "Description": "CCTN stands for Cebu Catholic Television Network.",
-          "Poster": "https://i.imgur.com/nV9QXh5.png",
-          "Thumbnail": "https://i.imgur.com/nV9QXh5.png",
-          "Rating": 0.0,
-          "Duration": "",
-          "Year": 0,
-          "Servers": [
-            {
-              "name": "HD",
-              "url": "http://122.55.252.134:8443/live/bba5b536faeacb9b56a3239f1ee8e3b3/1.m3u8"
-            }
-          ]
-        },
-        {
-          "Title": "CLTV 36",
-          "SubCategory": "Entertainment",
-          "Country": "🇵🇭 Philippines",
-          "Description": "CLTV36 is a regional television station in Central Luzon.",
-          "Poster": "https://i.imgur.com/bJe76EA.png",
-          "Thumbnail": "https://i.imgur.com/bJe76EA.png",
-          "Rating": 0.0,
-          "Duration": "",
-          "Year": 0,
-          "Servers": [
-            {
-              "name": "HD",
-              "url": "https://live.cltv36.tv:5443/LiveApp/streams/cltvlive.m3u8"
             }
           ]
         },
@@ -1655,10 +1330,6 @@
             {
               "name": "HD",
               "url": "https://d9rpesrrg1bdi.cloudfront.net/out/v1/93b9db7b231d45f28f64f29b86dc6c65/index.mpd"
-            },
-            {
-              "name": "SD",
-              "url": "https://live-faws.akamaized.net/out/v1/9c02b2581c6a4a22a089ecbd369933f5/index.m3u8"
             }
           ]
         },
@@ -1674,29 +1345,8 @@
           "Year": 0,
           "Servers": [
             {
-              "name": "HD",
-              "url": "https://d1bail49udbz1k.cloudfront.net/out/v1/3a895f368f4a467c9bca0962559efc19/index.mpd"
-            },
-            {
               "name": "SD",
               "url": "https://d1bail49udbz1k.cloudfront.net/out/v1/78e282e04f0944f3ad0aa1db7a1be645/index.m3u8"
-            }
-          ]
-        },
-        {
-          "Title": "KingMovie",
-          "SubCategory": "Movies",
-          "Country": "🌐International",
-          "Description": "KingMovie is a streaming service for movies.",
-          "Poster": "https://yt3.ggpht.com/a/AATXAJwG4flJwodLuUwXoT9W0t5HIvpB_-JZyRSCCw\u003ds900-c-k-c0xffffffff-no-rj-mo",
-          "Thumbnail": "https://yt3.ggpht.com/a/AATXAJwG4flJwodLuUwXoT9W0t5HIvpB_-JZyRSCCw\u003ds900-c-k-c0xffffffff-no-rj-mo",
-          "Rating": 0.0,
-          "Duration": "",
-          "Year": 0,
-          "Servers": [
-            {
-              "name": "HD",
-              "url": "https://live20.bozztv.com/giatvplayout7/giatv-210044/tracks-v1a1/mono.m3u8"
             }
           ]
         },
@@ -1714,40 +1364,6 @@
             {
               "name": "SD",
               "url": "https://qp-pldt-live-grp-01-prod.akamaized.net//out/u/celmovie_pinoy_sd.mpd"
-            }
-          ]
-        },
-        {
-          "Title": "Tagalized Movie Channel (TMC)",
-          "SubCategory": "Movies",
-          "Country": "🇵🇭 PH",
-          "Description": "The first and only 24/7 Tagalized movie channel in the Philippines.",
-          "Poster": "https://i.imgur.com/nVs49ps.png",
-          "Thumbnail": "https://i.imgur.com/nVs49ps.png",
-          "Rating": 0.0,
-          "Duration": "",
-          "Year": 0,
-          "Servers": [
-            {
-              "name": "HD",
-              "url": "https://qp-pldt-live-grp-07-prod.akamaized.net/out/u/cg_tagalogmovie.mpd"
-            }
-          ]
-        },
-        {
-          "Title": "Cinemax Asia",
-          "SubCategory": "Movies",
-          "Country": "Asia",
-          "Description": "Cinemax Asia is a pay television network that features action, science-fiction, thriller and horror movies.",
-          "Poster": "https://i.imgur.com/NLxg6Va.png",
-          "Thumbnail": "https://i.imgur.com/NLxg6Va.png",
-          "Rating": 0.0,
-          "Duration": "",
-          "Year": 0,
-          "Servers": [
-            {
-              "name": "HD",
-              "url": "https://qp-pldt-live-grp-01-prod.akamaized.net/out/u/cg_cinemax.mpd"
             }
           ]
         },
@@ -1922,91 +1538,6 @@
           ]
         },
         {
-          "Title": "DepEd Channel",
-          "SubCategory": "Education",
-          "Country": "🇵🇭 Philippines",
-          "Description": "Educational channel by the Philippine Department of Education.",
-          "Poster": "https://i.imgur.com/TyFFBWn.png",
-          "Thumbnail": "https://i.imgur.com/TyFFBWn.png",
-          "Rating": 4.0,
-          "Duration": "24/7",
-          "Year": 2020,
-          "Servers": [
-            {
-              "name": "SD",
-              "url": "https://qp-pldt-live-grp-07-prod.akamaized.net/out/u/depedch_sd.mpd"
-            }
-          ]
-        },
-        {
-          "Title": "Buko Channel",
-          "SubCategory": "Entertainment",
-          "Country": "🇵🇭 Philippines",
-          "Description": "Entertainment channel featuring local content.",
-          "Poster": "https://i.imgur.com/Wv0K5Yc.png",
-          "Thumbnail": "https://i.imgur.com/Wv0K5Yc.png",
-          "Rating": 3.9,
-          "Duration": "24/7",
-          "Year": 2019,
-          "Servers": [
-            {
-              "name": "SD",
-              "url": "https://qp-pldt-live-grp-06-prod.akamaized.net/out/u/cg_buko_sd.mpd"
-            }
-          ]
-        },
-        {
-          "Title": "Cinemax",
-          "SubCategory": "Movies",
-          "Country": "🇺🇸 USA",
-          "Description": "Premium movie channel from HBO\u0027s sister network.",
-          "Poster": "https://i.imgur.com/r8qzNiy.png",
-          "Thumbnail": "https://i.imgur.com/r8qzNiy.png",
-          "Rating": 4.5,
-          "Duration": "24/7",
-          "Year": 1980,
-          "Servers": [
-            {
-              "name": "HD",
-              "url": "https://qp-pldt-live-grp-01-prod.akamaized.net/out/u/cg_cinemax.mpd"
-            }
-          ]
-        },
-        {
-          "Title": "Hits",
-          "SubCategory": "Music",
-          "Country": "🇺🇸 USA",
-          "Description": "Music channel playing popular hits across decades.",
-          "Poster": "https://i.imgur.com/jghDgUJ.png",
-          "Thumbnail": "https://i.imgur.com/jghDgUJ.png",
-          "Rating": 4.2,
-          "Duration": "24/7",
-          "Year": 2010,
-          "Servers": [
-            {
-              "name": "HD",
-              "url": "https://qp-pldt-live-grp-04-prod.akamaized.net/out/u/hits_hd1.mpd"
-            }
-          ]
-        },
-        {
-          "Title": "AXN",
-          "SubCategory": "Entertainment",
-          "Country": "🇺🇸 USA",
-          "Description": "Action and adventure TV series and movies.",
-          "Poster": "https://i.imgur.com/Dj6tVaG.png",
-          "Thumbnail": "https://i.imgur.com/Dj6tVaG.png",
-          "Rating": 4.5,
-          "Duration": "24/7",
-          "Year": 1997,
-          "Servers": [
-            {
-              "name": "SD",
-              "url": "https://qp-pldt-live-grp-06-prod.akamaized.net/out/u/cg_axn_sd.mpd"
-            }
-          ]
-        },
-        {
           "Title": "Warner TV",
           "SubCategory": "Entertainment",
           "Country": "🇺🇸 USA",
@@ -2020,210 +1551,6 @@
             {
               "name": "HD",
               "url": "https://qp-pldt-live-grp-11-prod.akamaized.net/out/u/dr_warnertvhd.mpd"
-            }
-          ]
-        },
-        {
-          "Title": "Disney Channel",
-          "SubCategory": "Kids",
-          "Country": "🇺🇸 USA",
-          "Description": "Kids\u0027 channel featuring Disney shows, movies, and original series.",
-          "Poster": "https://i.imgur.com/NVRbZfJ.png",
-          "Thumbnail": "https://i.imgur.com/NVRbZfJ.png",
-          "Rating": 4.8,
-          "Duration": "24/7",
-          "Year": 1983,
-          "Servers": [
-            {
-              "name": "HD",
-              "url": "https://disney-channel.13l.link/live/Disney/index.m3u8"
-            }
-          ]
-        },
-        {
-          "Title": "DreamWorks Tagalized",
-          "SubCategory": "Animation",
-          "Country": "🇵🇭 Philippines",
-          "Description": "Tagalog-dubbed DreamWorks animated movies and series.",
-          "Poster": "https://i.imgur.com/fh1Lg7b.png",
-          "Thumbnail": "https://i.imgur.com/fh1Lg7b.png",
-          "Rating": 4.4,
-          "Duration": "24/7",
-          "Year": 2019,
-          "Servers": [
-            {
-              "name": "HD",
-              "url": "https://qp-pldt-live-grp-07-prod.akamaized.net/out/u/cg_dreamworktag.mpd"
-            }
-          ]
-        },
-        {
-          "Title": "DreamWorks",
-          "SubCategory": "Animation",
-          "Country": "🇺🇸 USA",
-          "Description": "Channel featuring DreamWorks Animation content.",
-          "Poster": "https://i.imgur.com/fh1Lg7b.png",
-          "Thumbnail": "https://i.imgur.com/fh1Lg7b.png",
-          "Rating": 4.5,
-          "Duration": "24/7",
-          "Year": 2015,
-          "Servers": [
-            {
-              "name": "HD",
-              "url": "https://qp-pldt-live-grp-02-prod.akamaized.net/out/u/cg_dreamworks_hd1.mpd"
-            }
-          ]
-        },
-        {
-          "Title": "PBS Local",
-          "SubCategory": "General",
-          "Country": "🇺🇸 USA",
-          "Description": "Public Broadcasting Service offering educational and local content.",
-          "Poster": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e3/PBS_Kids_logo_%282022%29.svg/1200px-PBS_Kids_logo_%282022%29.svg.png",
-          "Thumbnail": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e3/PBS_Kids_logo_%282022%29.svg/1200px-PBS_Kids_logo_%282022%29.svg.png",
-          "Rating": 4.2,
-          "Duration": "24/7",
-          "Year": 1969,
-          "Servers": [
-            {
-              "name": "SD",
-              "url": "https://2-fss-2.streamhoster.com/pl_140/amlst:200914-1298290/chunklist_b2000000.m3u8"
-            }
-          ]
-        },
-        {
-          "Title": "HBO",
-          "SubCategory": "Movies",
-          "Country": "🇺🇸 USA",
-          "Description": "Premium cable network featuring blockbuster movies and original series.",
-          "Poster": "https://i.imgur.com/fHBIgs6.png",
-          "Thumbnail": "https://i.imgur.com/fHBIgs6.png",
-          "Rating": 4.9,
-          "Duration": "24/7",
-          "Year": 1972,
-          "Servers": [
-            {
-              "name": "HD",
-              "url": "https://qp-pldt-live-grp-03-prod.akamaized.net/out/u/cg_hbohd.mpd"
-            }
-          ]
-        },
-        {
-          "Title": "HBO Family",
-          "SubCategory": "Family",
-          "Country": "🇺🇸 USA",
-          "Description": "Family-friendly movies and shows from HBO.",
-          "Poster": "https://i.imgur.com/WANpEkc.png",
-          "Thumbnail": "https://i.imgur.com/WANpEkc.png",
-          "Rating": 4.6,
-          "Duration": "24/7",
-          "Year": 1996,
-          "Servers": [
-            {
-              "name": "HD",
-              "url": "https://qp-pldt-live-grp-03-prod.akamaized.net/out/u/cg_hbofam.mpd"
-            }
-          ]
-        },
-        {
-          "Title": "HBO Signature",
-          "SubCategory": "Entertainment",
-          "Country": "🇺🇸 USA",
-          "Description": "HBO\u0027s channel for critically acclaimed series and films.",
-          "Poster": "https://i.imgur.com/Q2ki7HC.png",
-          "Thumbnail": "https://i.imgur.com/Q2ki7HC.png",
-          "Rating": 4.7,
-          "Duration": "24/7",
-          "Year": 1991,
-          "Servers": [
-            {
-              "name": "HD",
-              "url": "https://qp-pldt-live-grp-01-prod.akamaized.net/out/u/cg_hbosign.mpd"
-            }
-          ]
-        },
-        {
-          "Title": "HBO Hits",
-          "SubCategory": "Movies",
-          "Country": "🇺🇸 USA",
-          "Description": "HBO\u0027s movie channel featuring popular films.",
-          "Poster": "https://i.imgur.com/iCnfJS0.png",
-          "Thumbnail": "https://i.imgur.com/iCnfJS0.png",
-          "Rating": 4.8,
-          "Duration": "24/7",
-          "Year": 2011,
-          "Servers": [
-            {
-              "name": "HD",
-              "url": "https://qp-pldt-live-grp-09-prod.akamaized.net/out/u/cg_hbohits.mpd"
-            }
-          ]
-        },
-        {
-          "Title": "Sari-Sari",
-          "SubCategory": "Entertainment",
-          "Country": "🇵🇭 Philippines",
-          "Description": "Channel featuring a mix of lifestyle, entertainment, and variety shows.",
-          "Poster": "https://i.imgur.com/MXxN1UO.png",
-          "Thumbnail": "https://i.imgur.com/MXxN1UO.png",
-          "Rating": 3.9,
-          "Duration": "24/7",
-          "Year": 2019,
-          "Servers": [
-            {
-              "name": "SD",
-              "url": "https://qp-pldt-live-grp-06-prod.akamaized.net/out/u/cg_sari_sari_sd.mpd"
-            }
-          ]
-        },
-        {
-          "Title": "Viva Cinema",
-          "SubCategory": "Movies",
-          "Country": "🇵🇭 Philippines",
-          "Description": "Movie channel from Viva Entertainment, showcasing Filipino films.",
-          "Poster": "https://i.imgur.com/51RWtvd.png",
-          "Thumbnail": "https://i.imgur.com/51RWtvd.png",
-          "Rating": 4.0,
-          "Duration": "24/7",
-          "Year": 2015,
-          "Servers": [
-            {
-              "name": "SD",
-              "url": "https://qp-pldt-live-grp-06-prod.akamaized.net/out/u/viva_sd.mpd"
-            }
-          ]
-        },
-        {
-          "Title": "HallyPop",
-          "SubCategory": "Music",
-          "Country": "🇰🇷 South Korea",
-          "Description": "Korean pop music and entertainment channel.",
-          "Poster": "https://i.imgur.com/uBbgIek.png",
-          "Thumbnail": "https://i.imgur.com/uBbgIek.png",
-          "Rating": 4.3,
-          "Duration": "24/7",
-          "Year": 2020,
-          "Servers": [
-            {
-              "name": "HD",
-              "url": "https://jungotvstream.chanall.tv/jungotv/hallypop/stream.m3u8"
-            }
-          ]
-        },
-        {
-          "Title": "Jungo Pinoy TV",
-          "SubCategory": "General",
-          "Country": "🇵🇭 Philippines",
-          "Description": "Channel catering to overseas Filipinos with Pinoy content.",
-          "Poster": "https://i.imgur.com/FpeuHI0.png",
-          "Thumbnail": "https://i.imgur.com/FpeuHI0.png",
-          "Rating": 3.8,
-          "Duration": "24/7",
-          "Year": 2018,
-          "Servers": [
-            {
-              "name": "HD",
-              "url": "https://jungotvstream.chanall.tv/jungotv/jungopinoytv/stream.m3u8"
             }
           ]
         },
@@ -2245,91 +1572,6 @@
           ]
         },
         {
-          "Title": "TVN Movies Pinoy",
-          "SubCategory": "Movies",
-          "Country": "🇵🇭 Philippines",
-          "Description": "Movie channel featuring Filipino and international films.",
-          "Poster": "https://i.imgur.com/tHWr33B.png",
-          "Thumbnail": "https://i.imgur.com/tHWr33B.png",
-          "Rating": 4.1,
-          "Duration": "24/7",
-          "Year": 2017,
-          "Servers": [
-            {
-              "name": "HD",
-              "url": "https://qp-pldt-live-grp-07-prod.akamaized.net/out/u/cg_tvnmovie.mpd"
-            }
-          ]
-        },
-        {
-          "Title": "TMC",
-          "SubCategory": "Movies",
-          "Country": "🇵🇭 Philippines",
-          "Description": "Tagalog Movie Channel showcasing Filipino films.",
-          "Poster": "https://i.imgur.com/6mNCite.png",
-          "Thumbnail": "https://i.imgur.com/6mNCite.png",
-          "Rating": 4.0,
-          "Duration": "24/7",
-          "Year": 2016,
-          "Servers": [
-            {
-              "name": "HD",
-              "url": "https://qp-pldt-live-grp-07-prod.akamaized.net/out/u/cg_tagalogmovie.mpd"
-            }
-          ]
-        },
-        {
-          "Title": "Cartoon Network",
-          "SubCategory": "Animation",
-          "Country": "🇺🇸 USA",
-          "Description": "Global kids\u0027 channel featuring animated series and cartoons.",
-          "Poster": "https://i.imgur.com/R1fV2uY.png",
-          "Thumbnail": "https://i.imgur.com/R1fV2uY.png",
-          "Rating": 4.7,
-          "Duration": "24/7",
-          "Year": 1992,
-          "Servers": [
-            {
-              "name": "HD",
-              "url": "https://qp-pldt-live-grp-12-prod.akamaized.net/out/u/dr_cartoonnetworkhd.mpd"
-            }
-          ]
-        },
-        {
-          "Title": "TFC",
-          "SubCategory": "Entertainment",
-          "Country": "🇵🇭 Philippines",
-          "Description": "Global subscription network for overseas Filipinos, featuring ABS-CBN content.",
-          "Poster": "https://i.imgur.com/zZWj5vn.png",
-          "Thumbnail": "https://i.imgur.com/zZWj5vn.png",
-          "Rating": 4.7,
-          "Duration": "24/7",
-          "Year": 1994,
-          "Servers": [
-            {
-              "name": "HD",
-              "url": "https://cdn-ue1-prod.tsv2.amagi.tv/linear/amg01006-abs-cbn-tfcasia-dash-abscbnono/7045bc3c-9492-42d4-974e-a3b217776e57/index.mpd"
-            }
-          ]
-        },
-        {
-          "Title": "PBO",
-          "SubCategory": "Sports",
-          "Country": "🇵🇭 Philippines",
-          "Description": "Philippine Basketball Organization channel showcasing local and international games.",
-          "Poster": "https://i.imgur.com/buOVATz.png",
-          "Thumbnail": "https://i.imgur.com/buOVATz.png",
-          "Rating": 4.5,
-          "Duration": "24/7",
-          "Year": 2011,
-          "Servers": [
-            {
-              "name": "SD",
-              "url": "https://qp-pldt-live-grp-04-prod.akamaized.net/out/u/pbo_sd.mpd"
-            }
-          ]
-        },
-        {
           "Title": "KAPAMILYA",
           "SubCategory": "",
           "Country": "🇵🇭 Philippines",
@@ -2343,10 +1585,6 @@
             {
               "name": "720p",
               "url": "https://cdn-ue1-prod.tsv2.amagi.tv/linear/amg01006-abs-cbn-kapcha-dash-abscbnono/index.mpd"
-            },
-            {
-              "name": "480p",
-              "url": "https://live-faws.akamaized.net/out/v1/df7b60b4411f4270ab431913de807bf4/index.m3u8"
             }
           ]
         }
